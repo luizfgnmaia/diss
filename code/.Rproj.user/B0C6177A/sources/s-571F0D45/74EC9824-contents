@@ -1,0 +1,113 @@
+rm(list = ls())
+my_seed = floor(runif(1)*1000)
+cat(my_seed, "\n")
+# my_seed = 451
+set.seed(my_seed)
+
+library(CVXR)
+library(MCMCpack) 
+
+d = 100 # number of assets
+
+alpha_B = 1
+beta_B = sqrt(d)*log(d)
+B <- matrix(rbeta(d*d, alpha_B, beta_B), d, d)
+sigma = B%*%t(B)  # due to the rbeta samples, all components of sigma are positive
+if(Matrix::rankMatrix(sigma) != d) cat("Sigma is not of full rank!")
+sigma_half = chol(sigma)
+summary(diag(sigma))
+
+r = 0.1 # risk free rate
+sharpe_ratio = 4*rbeta(d, 2, 5)  # sharpe ratios between 0 and 4
+mu = diag(sigma) * sharpe_ratio + r  # the expected returns depend on the sharpe ratio
+pi = mu - r # risk premiums
+alpha = 0.95 # expected shortfall level
+
+kappa = 1 # constant !
+
+
+Mu = function(x) t(x)%*%mu   # portfolio's expected return
+Sigma = function(x) sqrt(t(x)%*% sigma %*% x) # portfolio's volatility
+Pi = function(x) Mu(x) - r  # risk premium
+
+ES = function(x) as.numeric(-t(x)%*%pi + Sigma(x)/(1-alpha) * dnorm(qnorm(alpha)) ) # expected shortfall
+MR = function(x) -pi + (sigma %*% x) * dnorm(qnorm(alpha))/(1-alpha) / as.numeric(Sigma(x))  # marginal contributions
+RC = function(x) x * MR(x) # risk contributions
+
+
+# # Does it add up?
+# x = c(0.2, 0.5, 0.3)
+# ES(x) == sum(RC(x))
+
+
+
+# Problem 1: Simple allocation --------
+alpha_dirichlet = 0.5
+# dirichlet percentage allocation
+b = as.vector(rdirichlet(1, rep(alpha_dirichlet, d)))
+
+y = Variable(rows = d, cols = 1)
+objective = Minimize(- (t(y) %*% pi) + 
+                       quad_form(y, sigma)/(1-alpha) * dnorm(qnorm(alpha)) -
+                       kappa * sum(b * log(y))
+)
+constraints = list( y >=0 )
+problem = Problem(objective, constraints)
+result = solve(problem)
+cat("Number of iterations: ", result$num_iters , "\n")
+
+
+# solution
+y_star = result$getValue(y)   # doesn't add up to one
+# normalisation 
+x_star <- y_star/sum(y_star) # adds up to one (x_star)
+
+cat("Optimizer status: ", result$status, "\n")
+cat("Position of the max. in x*: ", which.max(x_star) , "\n")
+cat("Value of the max. in x*: ", max(x_star) , "\n")
+cat("Uniform allocation leads to x =", 1/d, "\n")
+cat("y >= 0?  Min = ", min(y_star), "\n")
+
+# In the allocation problem we have that RC_i(x*)/b_i = R(x*)
+# for a given vector b = (b_1, ... , b_d), with sum_i b_i = 1.
+# That is, we want to find the portfolio weights that lead the i-th
+# position to account for b_i % of the risk.
+
+# Error analysis ------
+par(mfrow=c(2,3))
+
+plot(b)
+plot(x_star)
+plot(RC(x_star))
+
+# 1) The error can be measured in dollars and defined as the difference RC_i(x*)/b_i - R(x*)
+err = RC(x_star)/b - ES(x_star)
+plot(err, 
+     main = paste0("Total ES = ", format(ES(x_star), digits = 2)))
+# 2) The error can be measured in % of the
+plot(err/RC(x_star))
+
+# 3) Comparing the b's (percentual allocations: given x realized)
+plot(b, RC(x_star)/ES(x_star))
+abline(a=0, b=1, col="lightgrey")
+
+
+
+
+#==============================
+# Python ----------------------
+
+library(reticulate)
+
+source_python("test_py.py") # THIS USES THE STD AS RISK MEASURE!!
+
+PM = parityModel(as.integer(d),
+                 sigma_half,
+                 as.integer(kappa),
+                 b)
+PM$solve()
+y_star_py = PM$getVariable('x')$level()
+x_star_py = y_star_py/sum(y_star_py)
+
+x11();
+plot(x_star, x_star_py)

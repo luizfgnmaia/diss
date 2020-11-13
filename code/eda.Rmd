@@ -1,0 +1,328 @@
+---
+title: "EDA"
+output: html_notebook
+---
+
+```{r, warning = FALSE, message = FALSE}
+options(OutDec = ",")
+library(dplyr)
+library(ggplot2)
+load("data/gols.RData")
+load("data/resultados.RData")
+load("data/reds.RData")
+```
+
+```{r}
+tib_zeros_45 = tibble(Minuto = c(1:45, 1:45), Tempo = c(rep("1º", 45), rep("2º", 45)), n = 0L)
+tib_zeros_90 = tibble(Minuto = c(1:90), n = 0L)
+complete_zeros_45 <- function(tib_count) {
+  tib_count %>%
+    full_join(tib_zeros_45, by = c("Minuto", "Tempo", "n")) %>%
+    group_by(Minuto, Tempo) %>%
+    summarise(n = sum(n))
+}
+complete_zeros_90 <- function(tib_count) {
+  tib_count %>%
+    full_join(tib_zeros_90, by = c("Minuto", "n")) %>%
+    group_by(Minuto) %>%
+    summarise(n = sum(n))
+}
+```
+
+<hr>
+
+```{r}
+glimpse(gols)
+```
+
+## Gols por minuto
+```{r, fig.height = 5, fig.width = 10}
+gols %>%
+  count(Minuto, Tempo) %>%
+  mutate(p = n/nrow(gols)) %>%
+  ggplot(aes(x = Minuto, y = p, col = Tempo)) +
+  geom_line(size = 1) +
+  geom_point(size = 2) +
+  theme_bw() +
+  ylab("Gols (%)") +
+  scale_x_continuous(breaks = seq(from = 0, to = 45, by = 5))
+```
+
+```{r, fig.height = 5, fig.width = 10}
+gols %>%
+  mutate(Minuto = ifelse(Tempo == "1º", Minuto, Minuto + 45)) %>%
+  count(Minuto) %>%
+  mutate(p = n/nrow(gols)) %>%
+  ggplot(aes(x = Minuto, y = p)) +
+  geom_line(size = 1) +
+  geom_point(size = 2) +
+  theme_bw() +
+  ylab("Gols (%)") +
+  scale_x_continuous(breaks = seq(from = 0, to = 90, by = 10))
+```
+
+```{r}
+tmp = gols %>%
+  mutate(Minuto = ifelse(Tempo == "1º", Minuto, Minuto + 45)) %>%
+  count(Minuto) %>%
+  mutate(p = n/nrow(gols))
+
+lm(p ~ Minuto, data = tmp) %>%
+  summary()
+```
+
+## Placar médio por ano
+```{r, fig.height = 5, fig.width = 10}
+gols %>%
+  count(Ano, Time) %>%
+  mutate(m = n/380) %>%
+  ggplot(aes(x = Ano, y = m, col = Time)) +
+  geom_line(size = 1) +
+  geom_point(size = 2) +
+  theme_bw() +
+  ylab("Gols por partida") +
+  scale_x_continuous(breaks = 2013:2019)
+```
+
+<hr>
+
+```{r}
+glimpse(resultados)
+```
+
+## Placares mais comuns
+```{r}
+resultados %>%
+  count(Placar_1, Placar_2) %>%
+  arrange(desc(n))
+```
+
+```{r, fig.width = 10}
+mandante = resultados %>%
+  count(Placar_1) %>%
+  na.omit() %>%
+  mutate(Time = "Mandante") %>%
+  rename(Placar = Placar_1)
+
+visitante = resultados %>%
+  count(Placar_2) %>%
+  na.omit() %>%
+  mutate(Time = "Visitante") %>%
+  rename(Placar = Placar_2)
+
+tmp = rbind(mandante, visitante) %>%
+  mutate(p = n/(nrow(resultados) - 1))
+
+tmp %>%
+  ggplot(aes(fill = Time, y = p, x = Placar)) + 
+  geom_bar(position = "dodge", stat = "identity") +
+  theme_bw() +
+  xlab("Gols") +
+  ylab("%") +
+  scale_x_continuous(breaks = 0:6)
+```
+
+## Resultados
+```{r}
+tmp = resultados %>%
+  mutate(resultado = ifelse(Placar_1 == Placar_2, "Empate", ifelse(Placar_1 > Placar_2, "Vitória do mandante", "Vitória do visitante"))) %>%
+  count(resultado) %>%
+  arrange(desc(n)) %>%
+  mutate(p = n/(nrow(resultados) - 1))
+tmp
+```
+
+```{r}
+tmp %>%
+  mutate() %>%
+  na.omit() %>%
+  mutate(resultado = factor(resultado, levels = c("Vitória do mandante", "Empate", "Vitória do visitante"))) %>%
+  ggplot(aes(x = resultado, y = p)) +
+  geom_bar(position = "dodge", stat = "identity") +
+  theme_bw() +
+  xlab("") +
+  ylab("%")
+```
+
+```{r}
+resultados %>%
+  mutate(resultado = ifelse(Placar_1 == Placar_2, "Empate", ifelse(Placar_1 > Placar_2, "Vitória Mandante", "Vitória Visitante"))) %>%
+  filter(is.na(resultado))
+```
+
+<hr>
+
+```{r}
+glimpse(reds)
+```
+
+## Cartões vermelhos por minuto
+```{r, fig.height = 5, fig.width = 10}
+reds %>%
+  count(Minuto, Tempo) %>%
+  complete_zeros_45() %>%
+  mutate(p = n/nrow(reds)) %>%
+  ggplot(aes(x = Minuto, y = p, col = Tempo)) +
+  geom_line(size = 1) +
+  geom_point(size = 2) +
+  theme_bw() +
+  ylab("Cartões vermelhos (%)") +
+  scale_x_continuous(breaks = seq(from = 0, to = 45, by = 5))
+```
+
+```{r, fig.height = 5, fig.width = 10}
+reds %>%
+  mutate(Minuto = ifelse(Tempo == "1º", Minuto, Minuto + 45)) %>%
+  count(Minuto) %>%
+  complete_zeros_90() %>%
+  mutate(p = n/nrow(gols)) %>%
+  ggplot(aes(x = Minuto, y = p)) +
+  geom_line(size = 1) +
+  geom_point(size = 2) +
+  theme_bw() +
+  ylab("Cartões vermelhos (%)") +
+  scale_x_continuous(breaks = seq(from = 0, to = 90, by = 10))
+```
+
+```{r}
+tmp = reds %>%
+  mutate(Minuto = ifelse(Tempo == "1º", Minuto, Minuto + 45)) %>%
+  count(Minuto) %>%
+  mutate(p = n/nrow(gols))
+
+lm(p ~ Minuto, data = tmp) %>%
+  summary()
+```
+
+## Cartões vermelhos por partida e ano
+```{r, fig.height = 5, fig.width = 10}
+reds %>%
+  count(Ano, Time) %>%
+  mutate(m = n/380) %>%
+  ggplot(aes(x = Ano, y = m, col = Time)) +
+  geom_line(size = 1) +
+  geom_point(size = 2) +
+  theme_bw() +
+  ylab("Cartões vermelhos por partida") +
+  scale_x_continuous(breaks = 2014:2019) +
+  ylim(0, 0.4)
+```
+
+```{r}
+reds = reds %>%
+  mutate(Resultado = ifelse(Placar_1 == Placar_2, "Empate", ifelse(Placar_1 > Placar_2, "Vitória do mandante", "Vitória do visitante")))
+
+mandante_geral = reds %>% 
+  filter(Time == "Mandante") %>%
+  distinct(Ano, Jogo, .keep_all = TRUE) %>% 
+  count(Resultado) %>%
+  mutate(p = n/(sum(.$n)),
+         Time = "Mandante",
+         Tempo = "Geral")
+
+mandante_q1 = reds %>% 
+  filter(Time == "Mandante", Minuto <= 24, Tempo == "1º") %>%
+  distinct(Ano, Jogo, .keep_all = TRUE) %>% 
+  count(Resultado) %>%
+    mutate(p = n/(sum(.$n)),
+         Time = "Mandante",
+         Tempo = "Q1")
+
+mandante_q2 = reds %>% 
+  filter(Time == "Mandante", Minuto > 24, Tempo == "1º") %>%
+  distinct(Ano, Jogo, .keep_all = TRUE) %>% 
+  count(Resultado) %>%
+    mutate(p = n/(sum(.$n)),
+         Time = "Mandante",
+         Tempo = "Q2")
+
+mandante_q3 = reds %>% 
+  filter(Time == "Mandante", Minuto <= 24, Tempo == "2º") %>%
+  distinct(Ano, Jogo, .keep_all = TRUE) %>% 
+  count(Resultado) %>%
+    mutate(p = n/(sum(.$n)),
+         Time = "Mandante",
+         Tempo = "Q3")
+
+mandante_q4 = reds %>% 
+  filter(Time == "Mandante", Minuto > 24, Tempo == "2º") %>%
+  distinct(Ano, Jogo, .keep_all = TRUE) %>% 
+  count(Resultado) %>%
+    mutate(p = n/(sum(.$n)),
+         Time = "Mandante",
+         Tempo = "Q4")
+
+visitante_geral = reds %>% 
+  filter(Time == "Visitante") %>%
+  distinct(Ano, Jogo, .keep_all = TRUE) %>% 
+  count(Resultado) %>%
+  mutate(p = n/(sum(.$n)),
+         Time = "Visitante",
+         Tempo = "Geral")
+
+visitante_q1 = reds %>% 
+  filter(Time == "Visitante", Minuto <= 24, Tempo == "1º") %>%
+  distinct(Ano, Jogo, .keep_all = TRUE) %>% 
+  count(Resultado) %>%
+    mutate(p = n/(sum(.$n)),
+         Time = "Visitante",
+         Tempo = "Q1")
+
+visitante_q2 = reds %>% 
+  filter(Time == "Visitante", Minuto > 24, Tempo == "1º") %>%
+  distinct(Ano, Jogo, .keep_all = TRUE) %>% 
+  count(Resultado) %>%
+    mutate(p = n/(sum(.$n)),
+         Time = "Visitante",
+         Tempo = "Q2")
+
+visitante_q3 = reds %>% 
+  filter(Time == "Visitante", Minuto <= 24, Tempo == "2º") %>%
+  distinct(Ano, Jogo, .keep_all = TRUE) %>% 
+  count(Resultado) %>%
+    mutate(p = n/(sum(.$n)),
+         Time = "Visitante",
+         Tempo = "Q3")
+
+visitante_q4 = reds %>% 
+  filter(Time == "Visitante", Minuto > 24, Tempo == "2º") %>%
+  distinct(Ano, Jogo, .keep_all = TRUE) %>% 
+  count(Resultado) %>%
+    mutate(p = n/(sum(.$n)),
+         Time = "Visitante",
+         Tempo = "Q4")
+
+tmp = rbind(mandante_geral, mandante_q1, mandante_q2, mandante_q3, mandante_q4,
+            visitante_geral, visitante_q1, visitante_q2, visitante_q3, visitante_q4)
+
+tmp = tmp %>%
+  mutate(Resultado = factor(Resultado, levels = c("Vitória do mandante", 
+                                                  "Empate", 
+                                                  "Vitória do visitante")),
+         Tempo = factor(Tempo, levels = c(unique(.$Tempo))))
+
+tmp
+```
+
+```{r, fig.width = 10}
+tmp %>%
+  filter(Time == "Mandante") %>%
+  ggplot(aes(fill = Resultado, y = p, x = Tempo)) + 
+  geom_bar(position = "dodge", stat = "identity") +
+  theme_bw() +
+  ylab("%") +
+  xlab("Período da expulsão") +
+  ggtitle("Probabilidade do resultado por tempo de expulsão de jogadores da equipe mandante")
+```
+
+```{r, fig.width = 10}
+tmp %>%
+  filter(Time == "Visitante") %>%
+  ggplot(aes(fill = Resultado, y = p, x = Tempo)) + 
+  geom_bar(position = "dodge", stat = "identity") +
+  theme_bw() +
+  ylab("%") +
+  xlab("Período da expulsão") +
+  ggtitle("Probabilidade do resultado por tempo de expulsão de jogadores da equipe visitante")
+```
+

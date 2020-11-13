@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1604443630158.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2322116249",
+    "id" : "91C00C2E",
+    "lastKnownWriteTime" : 1604436880,
+    "last_content_update" : 1604436880,
+    "path" : "C:/Users/luiz_/Desktop/diss/code/modelos 2014-2019 série A/modelo_5.R",
+    "project_path" : "modelos 2014-2019 série A/modelo_5.R",
+    "properties" : {
+        "cursorPosition" : "145,31",
+        "scrollLine" : "158"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

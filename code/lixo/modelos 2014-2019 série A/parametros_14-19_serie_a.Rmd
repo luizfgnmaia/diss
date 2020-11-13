@@ -1,0 +1,87 @@
+---
+title: "Parâmetros 2014-2019 Série A"
+output: html_notebook
+---
+
+```{r, warning = FALSE, message = FALSE}
+options(OutDec = ",")
+options(knitr.kable.NA = "-")
+
+library(dplyr)
+library(knitr)
+
+load("datasets/serie_a_14_19.RData")
+load("modelos 2014-2019 série A/sol/sol_modelo_1.RData")
+load("modelos 2014-2019 série A/sol/sol_modelo_2.RData")
+load("modelos 2014-2019 série A/sol/sol_modelo_3.RData")
+load("modelos 2014-2019 série A/sol/sol_modelo_4.RData")
+load("modelos 2014-2019 série A/sol/sol_modelo_4b.RData")
+load("modelos 2014-2019 série A/sol/sol_modelo_5.RData")
+load("modelos 2014-2019 série A/sol/sol_modelo_5b.RData")
+```
+
+```{r}
+alphas = tibble(Time = times$Time, 
+                m1 = sol_modelo_1$pars[1:31],
+                m2 = sol_modelo_2$pars[1:31],
+                m3 = sol_modelo_3$pars[1:31],
+                m4 = sol_modelo_4$pars[1:31],
+                m4b = sol_modelo_4b$pars[1:31],
+                m5 = sol_modelo_5$pars[1:31],
+                m5b = sol_modelo_5b$pars[1:31]) 
+kable(alphas, digits = 4, caption = "Alphas")
+```
+
+```{r}
+betas = tibble(Time = times$Time, 
+               m1 = sol_modelo_1$pars[32:62],
+               m2 = sol_modelo_2$pars[32:62],
+               m3 = sol_modelo_3$pars[32:62],
+               m4 = sol_modelo_4$pars[32:62],
+               m4b = sol_modelo_4b$pars[32:62],
+               m5 = sol_modelo_5$pars[32:62],
+               m5b = sol_modelo_5b$pars[32:62]) 
+kable(betas, digits = 4, caption = "Betas")
+```
+
+```{r}
+param = tibble(Modelo = c("1", "2", "3", "4", "4b", "5", "5b"),
+               gamma = c(sol_modelo_1$pars[63], sol_modelo_2$pars[63], sol_modelo_3$pars[63],
+                         sol_modelo_4$pars[63], sol_modelo_4b$pars[63], sol_modelo_5b$pars[63],
+                         sol_modelo_5b$pars[63]),
+               csi_1 = c(NA, sol_modelo_2$pars[64], sol_modelo_3$pars[64], sol_modelo_4$pars[64],
+                         sol_modelo_4b$pars[64], sol_modelo_5b$pars[64], sol_modelo_5b$pars[64]),
+               csi_2 = c(NA, sol_modelo_2$pars[65], sol_modelo_3$pars[65], sol_modelo_4$pars[65],
+                         sol_modelo_4b$pars[65], sol_modelo_5b$pars[65], sol_modelo_5b$pars[65]),
+               ro_1 = c(NA, NA, sol_modelo_3$pars[66], sol_modelo_4$pars[66], sol_modelo_4b$pars[66],
+                        sol_modelo_5$pars[66], sol_modelo_5b$pars[66]),
+               ro_2 = c(NA, NA, sol_modelo_3$pars[67], sol_modelo_4$pars[67], sol_modelo_4b$pars[67],
+                        sol_modelo_5$pars[67], sol_modelo_5b$pars[67]),
+               lambda_10 = c(NA, NA, NA, sol_modelo_4$pars[68], sol_modelo_4b$pars[68],
+                             sol_modelo_5$pars[68], sol_modelo_5b$pars[68]),
+               lambda_01 = c(NA, NA, NA, sol_modelo_4$pars[69], sol_modelo_4b$pars[69],
+                             sol_modelo_5$pars[69], sol_modelo_5b$pars[69]),
+               lambda_21 = c(NA, NA, NA, NA, NA, sol_modelo_5$pars[70], sol_modelo_5b$pars[70]),
+               lambda_12 = c(NA, NA, NA, NA, NA, sol_modelo_5$pars[71], sol_modelo_5b$pars[71]),
+               mu_10 = c(NA, NA, NA, sol_modelo_4$pars[70], sol_modelo_4b$pars[70],
+                         sol_modelo_5$pars[72], sol_modelo_5b$pars[72]),
+               mu_01 = c(NA, NA, NA, sol_modelo_4$pars[71], sol_modelo_4b$pars[71],
+                         sol_modelo_5$pars[73], sol_modelo_5b$pars[73]),
+               mu_21 = c(NA, NA, NA, NA, NA, sol_modelo_5$pars[74], sol_modelo_5b$pars[74]),
+               mu_12 = c(NA, NA, NA, NA, NA, sol_modelo_5$pars[75], sol_modelo_5b$pars[75]))
+kable(param, digits = 4, caption = "Demais parâmetros")
+```
+
+```{r}
+veross = tibble(Modelo = c("1", "2", "3", "4", "4b", "5", "5b"),
+                log_likelihood = c(sol_modelo_1$values[length(sol_modelo_1$values)],
+                                    sol_modelo_2$values[length(sol_modelo_2$values)],
+                                    sol_modelo_3$values[length(sol_modelo_3$values)],
+                                    sol_modelo_4$values[length(sol_modelo_4$values)],
+                                    sol_modelo_4b$values[length(sol_modelo_4b$values)],
+                                    sol_modelo_5$values[length(sol_modelo_5$values)],
+                                    sol_modelo_5b$values[length(sol_modelo_5b$values)])) %>%
+  mutate(log_likelihood = -log_likelihood)
+kable(veross, digits = 4, caption = "log Verossimilhanças com os parâmetros encontrados")
+```
+

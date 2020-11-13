@@ -1,0 +1,7 @@
+"0","alphas = tibble(Time = times$Time, "
+"0","                mod_0_CVXR = mod_0_CVXR_alpha,"
+"0","                mod_0_Rsolnp = mod_0_Rsolnp$pars[1:20],"
+"0","                mod_1_Rsolnp = mod_1_Rsolnp$pars[1:20],"
+"0","                mod_2_Rsolnp = mod_2_Rsolnp$pars[1:20],"
+"0","                mod_3_Rsolnp = mod_3_Rsolnp$pars[1:20])"
+"0","kable(alphas, digits = 4, caption = ""Alphas"")"
