@@ -19,5 +19,13 @@ problem = Problem(objective, constraints)
 set.seed(1)
 mod_0_CVXR = solve(problem)
 
+
+
+
 save(mod_0_CVXR, file = "sol/mod_0_CVXR.RData")
 
+
+
+
+
+par_
