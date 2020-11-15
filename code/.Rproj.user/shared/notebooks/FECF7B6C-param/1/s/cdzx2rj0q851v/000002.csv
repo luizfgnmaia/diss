@@ -1,5 +1,0 @@
-"0","mod_0_CVXR_alpha = exp(mod_0_CVXR[1:20])"
-"0","mod_0_CVXR_beta = exp(mod_0_CVXR[21:40])"
-"0","prop = n/sum(mod_0_CVXR_alpha)"
-"0","mod_0_CVXR_alpha = mod_0_CVXR_alpha*prop"
-"0","mod_0_CVXR_beta = mod_0_CVXR_beta/prop"

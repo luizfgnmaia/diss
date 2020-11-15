@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1605317787611.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "8D5474A8",
+    "lastKnownWriteTime" : 1605317742,
+    "last_content_update" : 1605317742,
+    "path" : "~/GitHub/diss/code/mod_1_CVXR.R",
+    "project_path" : "mod_1_CVXR.R",
+    "properties" : {
+        "cursorPosition" : "69,0",
+        "scrollLine" : "53"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
