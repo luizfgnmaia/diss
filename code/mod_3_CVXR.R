@@ -3,7 +3,7 @@ library(CVXR)
 
 load("serie_a_2019.RData")
 
-log_lik <- function(alpha, beta, gamma) {
+log_lik <- function(alpha, beta, gamma, csi, ro) {
   
   log_lik_k <- function(k) { 
     
@@ -16,19 +16,19 @@ log_lik <- function(alpha, beta, gamma) {
     }
     
     lambda_k <- function(t) {
-      log(lambda_xy(t))+gamma+alpha[i[k]]+beta[j[k]]
+      log(lambda_xy(t))+ro[1]*(t==0.5)+ro[2]*(t==1)+gamma+alpha[i[k]]+beta[j[k]]+csi[1]*t
     }
     
     mu_k <- function(t) {
-      log(mu_xy(t))+alpha[j[k]]+beta[i[k]]
+      log(mu_xy(t))+ro[1]*(t==0.5)+ro[2]*(t==1)+alpha[j[k]]+beta[i[k]]+csi[2]*t
     }
     
     int_lambda <- function(t1, t2) { 
-      exp(log(lambda_xy(t1))+gamma+alpha[i[k]]+beta[j[k]]) * (t2-t1)
+      exp(log(lambda_xy(t1))+ro[1]*(t==0.5)+ro[2]*(t==1)+gamma+alpha[i[k]]+beta[j[k]])*(t2-t1) + csi[1]*(t2^2-t1^2)*0.5
     }
     
     int_mu <- function(t1, t2) { 
-      exp(log(mu_xy(t1))+alpha[j[k]]+beta[i[k]]) * (t2-t1)
+      exp(log(mu_xy(t1))+ro[1]*(t==0.5)+ro[2]*(t==1)+alpha[j[k]]+beta[i[k]])*(t2-t1) + csi[2]*(t2^2-t1^2)*0.5
     }
     
     int_lambda_01 = 0 
@@ -56,15 +56,17 @@ log_lik <- function(alpha, beta, gamma) {
 alpha = Variable(20)
 beta = Variable(20)
 gamma = Variable(1)
+csi = Variable(2)
+ro = Variable(2)
 
-objective = Maximize(log_lik(alpha, beta, gamma))
-constraints = list(alpha[1] == 0)
-problem = Problem(objective, constraints)
+objective = Maximize(log_lik(alpha, beta, gamma, csi, ro))
+problem = Problem(objective)
 set.seed(1)
 solution = solve(problem)
-mod_1_CVXR = c(solution$getValue(alpha), solution$getValue(beta), solution$getValue(gamma))
-save(mod_1_CVXR, file = "sol/mod_1_CVXR.RData")
-mod_1_CVXR_lik = solution$value
-save(mod_1_CVXR_lik, file = "sol/mod_1_CVXR_lik.RData")
+
+mod_3_CVXR = list(par = c(solution$getValue(alpha), solution$getValue(beta), solution$getValue(gamma),
+                          solution$getValue(csi), solution$getValue(ro)),
+                  value = solution$value)
+save(mod_2_CVXR, file = "sol/mod_3_CVXR.RData")
 
 
