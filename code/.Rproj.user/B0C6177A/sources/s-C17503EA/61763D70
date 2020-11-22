@@ -1,0 +1,25 @@
+{
+    "id": "61763D70",
+    "path": "~/diss/code/param_Rsolnp.Rmd",
+    "project_path": "param_Rsolnp.Rmd",
+    "type": "r_markdown",
+    "hash": "1491094516",
+    "contents": "",
+    "dirty": false,
+    "created": 1606070797842.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "chunk_output_type": "inline",
+        "cursorPosition": "0,3",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1606075872,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1606075872817,
+    "read_only": false,
+    "read_only_alternatives": []
+}

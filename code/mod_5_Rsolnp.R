@@ -8,26 +8,36 @@ log_lik <- function(par) {
   log_lik_k <- function(k) { 
     
     lambda_xy <- function(t) {
-      1
+      x = lst_x[[k]][round(90*t)+1] 
+      y = lst_y[[k]][round(90*t)+1]  
+      ifelse(x==1 & y==0, lambda_10,
+             ifelse(x==0 & y==1, lambda_01,
+                    ifelse(x+y>1 & x-y>=1, lambda_21,
+                           ifelse(x+y>1 & x-y<=-1, lambda_12, 1))))
     }
     
     mu_xy <- function(t) {
-      1
+      x = lst_x[[k]][round(90*t)+1] 
+      y = lst_y[[k]][round(90*t)+1] 
+      ifelse(x==1 & y==0, mu_10,
+             ifelse(x==0 & y==1, mu_01,
+                    ifelse(x+y>1 & x-y>=1, mu_21,
+                           ifelse(x+y>1 & x-y<=-1, mu_12, 1))))
     }
     
-    lambda_k <- function(t) {
+    lambda_k <- function(t) {             
       ro_1^(t==0.5)*ro_2^(t==1)*lambda_xy(t-1/90)*gamma*alpha[i[k]]*beta[j[k]]+csi_1*t
     }
     
-    mu_k <- function(t) {
+    mu_k <- function(t) {             
       ro_1^(t==0.5)*ro_2^(t==1)*mu_xy(t-1/90)*alpha[j[k]]*beta[i[k]]+csi_2*t
     }
     
-    int_lambda <- function(t1, t2) { 
+    int_lambda <- function(t1, t2) {        
       ro_1^(t2==0.5)*ro_2^(t2==1)*lambda_xy(t1)*gamma*alpha[i[k]]*beta[j[k]]*(t2-t1) + csi_1*(t2^2-t1^2)*0.5
     }
     
-    int_mu <- function(t1, t2) { 
+    int_mu <- function(t1, t2) {        
       ro_1^(t2==0.5)*ro_2^(t2==1)*mu_xy(t1)*alpha[j[k]]*beta[i[k]]*(t2-t1) + csi_2*(t2^2-t1^2)*0.5
     }
     
@@ -52,6 +62,14 @@ log_lik <- function(par) {
   csi_2 = par[43]
   ro_1 = par[44]
   ro_2 = par[45]
+  lambda_10 = par[46]
+  lambda_01 = par[47]
+  lambda_21 = par[48]
+  lambda_12 = par[49]
+  mu_10 = par[50]
+  mu_01 = par[51]
+  mu_21 = par[52]
+  mu_12 = par[53]
   
   ret = NULL
   for(k in 1:N) {
@@ -61,5 +79,7 @@ log_lik <- function(par) {
 }
 
 set.seed(1)
-mod_3_Rsolnp = solnp(pars = rep(1, 45), log_lik, LB = rep(0, 45), eqfun = function(par) par[1], eqB = 1)
-save(mod_3_Rsolnp, file = "sol/mod_3_Rsolnp.RData")
+mod_5_Rsolnp = solnp(pars = rep(1, 53), log_lik, LB = rep(0, 53), eqfun = function(par) par[1], eqB = 1)
+save(mod_5_Rsolnp, file = "sol/mod_5_Rsolnp.RData")
+
+

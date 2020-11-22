@@ -8,26 +8,32 @@ log_lik <- function(par) {
   log_lik_k <- function(k) { 
     
     lambda_xy <- function(t) {
-      1
+      x = lst_x[[k]][round(90*t)+1] 
+      y = lst_y[[k]][round(90*t)+1]  
+      ifelse(x==y, 1,
+             ifelse(x-y>=1, lambda_10, lambda_01))
     }
     
     mu_xy <- function(t) {
-      1
+      x = lst_x[[k]][round(90*t)+1] 
+      y = lst_y[[k]][round(90*t)+1] 
+      ifelse(x==y, 1,
+             ifelse(x-y>=1, mu_10, mu_01))
     }
     
-    lambda_k <- function(t) {
+    lambda_k <- function(t) {             
       ro_1^(t==0.5)*ro_2^(t==1)*lambda_xy(t-1/90)*gamma*alpha[i[k]]*beta[j[k]]+csi_1*t
     }
     
-    mu_k <- function(t) {
+    mu_k <- function(t) {             
       ro_1^(t==0.5)*ro_2^(t==1)*mu_xy(t-1/90)*alpha[j[k]]*beta[i[k]]+csi_2*t
     }
     
-    int_lambda <- function(t1, t2) { 
+    int_lambda <- function(t1, t2) {        
       ro_1^(t2==0.5)*ro_2^(t2==1)*lambda_xy(t1)*gamma*alpha[i[k]]*beta[j[k]]*(t2-t1) + csi_1*(t2^2-t1^2)*0.5
     }
     
-    int_mu <- function(t1, t2) { 
+    int_mu <- function(t1, t2) {        
       ro_1^(t2==0.5)*ro_2^(t2==1)*mu_xy(t1)*alpha[j[k]]*beta[i[k]]*(t2-t1) + csi_2*(t2^2-t1^2)*0.5
     }
     
@@ -52,6 +58,10 @@ log_lik <- function(par) {
   csi_2 = par[43]
   ro_1 = par[44]
   ro_2 = par[45]
+  lambda_10 = par[46]
+  lambda_01 = par[47]
+  mu_10 = par[48]
+  mu_01 = par[49]
   
   ret = NULL
   for(k in 1:N) {
@@ -60,6 +70,12 @@ log_lik <- function(par) {
   -sum(ret)
 }
 
+eqfun <- function(par) {
+  sum(par[1:n])
+}
+
 set.seed(1)
-mod_3_Rsolnp = solnp(pars = rep(1, 45), log_lik, LB = rep(0, 45), eqfun = function(par) par[1], eqB = 1)
-save(mod_3_Rsolnp, file = "sol/mod_3_Rsolnp.RData")
+mod_4_Rsolnp = solnp(pars = rep(1, 49), log_lik, LB = rep(0, 49), eqfun = eqfun, eqB = n)
+save(mod_4_Rsolnp, file = "sol/mod_4_Rsolnp.RData")
+
+

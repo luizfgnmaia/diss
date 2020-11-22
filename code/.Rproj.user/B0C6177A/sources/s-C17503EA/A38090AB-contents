@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Parâmetros Rsolnp"
 output: html_notebook
 ---
 
@@ -15,16 +15,8 @@ load("sol/mod_0_Rsolnp.RData")
 load("sol/mod_1_Rsolnp.RData")
 load("sol/mod_2_Rsolnp.RData")
 load("sol/mod_3_Rsolnp.RData")
-load("sol/mod_0_CVXR.RData")
-load("sol/mod_0_CVXR_lik.RData")
-```
-
-```{r}
-mod_0_CVXR_alpha = exp(mod_0_CVXR[1:20])
-mod_0_CVXR_beta = exp(mod_0_CVXR[21:40])
-prop = n/sum(mod_0_CVXR_alpha)
-mod_0_CVXR_alpha = mod_0_CVXR_alpha*prop
-mod_0_CVXR_beta = mod_0_CVXR_beta/prop
+load("sol/mod_4_Rsolnp.RData")
+load("sol/mod_5_Rsolnp.RData")
 ```
 
 ```{r, message = FALSE}
@@ -33,7 +25,9 @@ alphas = tibble(Time = times$Time,
                 mod_0_Rsolnp = mod_0_Rsolnp$pars[1:20],
                 mod_1_Rsolnp = mod_1_Rsolnp$pars[1:20],
                 mod_2_Rsolnp = mod_2_Rsolnp$pars[1:20],
-                mod_3_Rsolnp = mod_3_Rsolnp$pars[1:20])
+                mod_3_Rsolnp = mod_3_Rsolnp$pars[1:20],
+                mod_4_Rsolnp = mod_3_Rsolnp$pars[1:20],
+                mod_5_Rsolnp = mod_3_Rsolnp$pars[1:20])
 kable(alphas, digits = 4, caption = "Alphas")
 ```
 
