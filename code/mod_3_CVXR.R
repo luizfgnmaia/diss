@@ -62,7 +62,7 @@ ro = Variable(2)
 objective = Maximize(log_lik(alpha, beta, gamma, csi, ro))
 problem = Problem(objective)
 set.seed(1)
-solution = solve(problem)
+solution = solve(problem, "MOSEK")
 
 mod_3_CVXR = list(par = c(solution$getValue(alpha), solution$getValue(beta), solution$getValue(gamma),
                           solution$getValue(csi), solution$getValue(ro)),

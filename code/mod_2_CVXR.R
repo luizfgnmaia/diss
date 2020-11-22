@@ -61,11 +61,9 @@ csi = Variable(2)
 objective = Maximize(log_lik(alpha, beta, gamma, csi))
 problem = Problem(objective)
 set.seed(1)
-solution = solve(problem)
+solution = solve(problem, "MOSEK")
 
 mod_2_CVXR = list(par = c(solution$getValue(alpha), solution$getValue(beta), solution$getValue(gamma),
                           solution$getValue(csi)),
                   value = solution$value)
 save(mod_2_CVXR, file = "sol/mod_2_CVXR.RData")
-
-

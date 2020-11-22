@@ -17,7 +17,7 @@ objective = Maximize(log_lik(alpha, beta, gamma))
 constraints = list(alpha[1] == 0)
 problem = Problem(objective, constraints)
 set.seed(1)
-solution = solve(problem)
+solution = solve(problem, solver = "MOSEK")
 
 mod_0_CVXR = list(par = c(solution$getValue(alpha), solution$getValue(beta), solution$getValue(gamma)),
                   value = solution$value)
