@@ -1,0 +1,7 @@
+
+a = 2
+b = 3
+
+log(a+b)
+log(a) + log(1+b/a)
+log(b) + log(1+a/b)

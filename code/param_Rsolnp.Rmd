@@ -38,7 +38,7 @@ betas = tibble(Time = times$Time,
                mod_3 = mod_3_Rsolnp$pars[21:40],
                mod_4 = mod_4_Rsolnp$pars[21:40],
                mod_5 = mod_5_Rsolnp$pars[21:40])
-kable(alphas, digits = 4, caption = "Betas")
+kable(betas, digits = 4, caption = "Betas")
 ```
 
 ```{r, echo = FALSE}

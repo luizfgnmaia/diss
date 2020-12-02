@@ -1,0 +1,4 @@
+"0","```r
+p + geom_abline(intercept = lm1$coefficients[1],  slope = lm1$coefficients[2], col = \"red\") +
+  geom_abline(intercept = lm2$coefficients[1],  slope = lm2$coefficients[2], col = \"blue\")
+```"
