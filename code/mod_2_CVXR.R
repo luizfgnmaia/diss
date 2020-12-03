@@ -43,8 +43,9 @@ log_lik_k <- function(k) {
   
   if(is.na(lst_J[[k]][1])) {  
     sum_l_mk = 0
-  } else {      # sum_l_mk não segue o dcp
-    sum_l_mk = sum((1-lst_J[[k]])*log(exp(lambda_k(lst_t[[k]]))+csi[1]*lst_t[[k]])+lst_J[[k]]*log(exp(mu_k(lst_t[[k]]))+csi[2]*lst_t[[k]]))
+  } else {      # sum_l_mk não segue o dcp??
+    # sum_l_mk = sum((1-lst_J[[k]])*log(exp(lambda_k(lst_t[[k]]))+csi[1]*lst_t[[k]])+lst_J[[k]]*log(exp(mu_k(lst_t[[k]]))+csi[2]*lst_t[[k]]))
+    sum_l_mk = sum((1-lst_J[[k]])*(lambda_k(lst_t[[k]])+log(1+csi[1]*lst_t[[k]]/exp(lambda_k(lst_t[[k]]))))+lst_J[[k]]*(mu_k(lst_t[[k]])+log(1+csi[2]*lst_t[[k]]/exp(mu_k(lst_t[[k]])))))
   }
   sum_l_mk - int_lambda_01 - int_mu_01
 }

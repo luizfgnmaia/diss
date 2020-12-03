@@ -1,4 +1,5 @@
 "0","alphas = tibble(Time = times$Time, "
+"0","                glm = c(1, exp(mod_0_glm$coefficients[21:39])),"
 "0","                mod_0 = mod_0_Rsolnp$pars[1:20],"
 "0","                mod_1 = mod_1_Rsolnp$pars[1:20],"
 "0","                mod_2 = mod_2_Rsolnp$pars[1:20],"

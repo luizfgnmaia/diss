@@ -1,2 +1,0 @@
-sum((1-lst_J[[k]])*lambda_k(lst_t[[k]])+lst_J[[k]]*mu_k(lst_t[[k]]))
-sum((1-lst_J[[k]])*lambda_k(lst_t[[k]])+lst_J[[k]]*mu_k(lst_t[[k]]))

@@ -5,6 +5,7 @@
 "0","library(knitr)"
 "0",""
 "0","load(""serie_a_2019.RData"")"
+"0","load(""sol/mod_0_glm.RData"")"
 "0","load(""sol/mod_0_Rsolnp.RData"")"
 "0","load(""sol/mod_1_Rsolnp.RData"")"
 "0","load(""sol/mod_2_Rsolnp.RData"")"

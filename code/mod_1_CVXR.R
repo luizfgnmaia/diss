@@ -1,3 +1,4 @@
+t0 = Sys.time()
 
 library(CVXR)
 
@@ -58,6 +59,9 @@ problem = Problem(objective, constraints)
 set.seed(1)
 solution = solve(problem, solver = "MOSEK")
 
+duration = Sys.time() - t0
+
 mod_1_CVXR = list(par = c(solution$getValue(alpha), solution$getValue(beta), solution$getValue(gamma)),
-                  value = solution$value)
+                  value = solution$value,
+                  duration = duration)
 save(mod_1_CVXR, file = "sol/mod_1_CVXR.RData")

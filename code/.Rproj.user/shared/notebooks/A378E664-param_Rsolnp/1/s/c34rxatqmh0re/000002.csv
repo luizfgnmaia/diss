@@ -1,4 +1,4 @@
-"0","veross = tibble(Modelo = names(alphas)[-1],"
+"0","veross = tibble(Modelo = names(alphas)[-c(1,2)],"
 "0","                log_likelihood = c(-mod_0_Rsolnp$values[length(mod_0_Rsolnp$values)],"
 "0","                                   -mod_1_Rsolnp$values[length(mod_1_Rsolnp$values)],"
 "0","                                   -mod_2_Rsolnp$values[length(mod_2_Rsolnp$values)],"
