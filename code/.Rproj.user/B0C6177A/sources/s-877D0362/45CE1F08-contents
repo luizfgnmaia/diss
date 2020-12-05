@@ -1,0 +1,16 @@
+library(CVXR)
+
+load("serie_a_2019.RData")
+
+alpha = Variable(20)
+beta = Variable(20)
+gamma = Variable(1)
+
+k=1
+lambda = gamma+alpha[i[k]]+beta[j[k]]
+mu = alpha[j[k]]+beta[i[k]]
+
+?vstack
+
+vstack(lambda, mu)
+
