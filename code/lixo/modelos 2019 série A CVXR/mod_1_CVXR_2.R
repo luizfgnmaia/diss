@@ -13,9 +13,9 @@ for(k in 1:N) {
   lambda = gamma+alpha[i[k]]+beta[j[k]]
   mu = alpha[j[k]]+beta[i[k]]
   if(is.na(lst_J[[k]][1])) {
-    sum_l_mk = 0
+    sum_entries_l_mk = 0
   } else {
-    sum_l_mk = sum_entries((1-lst_J[[k]])*lambda+lst_J[[k]]*mu)
+    sum_entries_l_mk = sum_entries((1-lst_J[[k]])*lambda+lst_J[[k]]*mu)
   }
   number_of_intervals = length(lst_int[[k]])-1
   lst_int_lambda = list()
@@ -27,7 +27,7 @@ for(k in 1:N) {
   }
   int_lambda = sum_entries(do.call(vstack, lst_int_lambda))
   int_mu = sum_entries(do.call(vstack, lst_int_mu))
-  lst_log_lik[[k]] = sum_l_mk - int_lambda - int_mu
+  lst_log_lik[[k]] = sum_entries_l_mk - int_lambda - int_mu
 } 
 
 log_lik = sum_entries(do.call(vstack, lst_log_lik))
@@ -42,4 +42,4 @@ duration = Sys.time() - t0
 mod_1_CVXR = list(par = c(solution$getValue(alpha), solution$getValue(beta), solution$getValue(gamma)),
                   value = solution$value,
                   duration = duration)
-save(mod_1_CVXR, file = "sol/mod_1_CVXR_3.RData")
+save(mod_1_CVXR, file = "sol/mod_1_CVXR_2.RData")

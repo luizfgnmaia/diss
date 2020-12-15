@@ -1,0 +1,57 @@
+t0 = Sys.time()
+
+library(CVXR)
+
+load("serie_a_2019.RData")
+
+alpha = Variable(19)
+beta = Variable(20)
+gamma = Variable(1)
+param = vstack(beta, alpha, gamma)
+
+# IH = matrix(1, nrow = 1, ncol = N) # Time difference of 0.490592 secs
+# IA = matrix(1, nrow = 1, ncol = N)
+
+lst_IH = list() # Time difference of 5.552428 mins
+lst_IA = list()
+for(k in 1:length(lst_int)) {
+  tmp_IH = list()
+  tmp_IA = list()
+  for(l in 1:(length(lst_int[[k]])-1)) {
+    tmp_IH[[l]] = 1 * lst_int[[k]][l+1]/90-lst_int[[k]][l]/90
+    tmp_IA[[l]] = 1 * lst_int[[k]][l+1]/90-lst_int[[k]][l]/90
+  }
+  lst_IH[[k]] = sum_entries(do.call(vstack, tmp_IH))
+  lst_IA[[k]] = sum_entries(do.call(vstack, tmp_IA))
+}
+IH = do.call(hstack, lst_IH)
+IA = do.call(hstack, lst_IA)
+
+JH = matrix(NA, nrow = 1, ncol = N)
+JA = matrix(NA, nrow = 1, ncol = N)
+
+for(k in 1:length(lst_J)) {
+  JH[1,k] = ifelse(is.na(lst_J[[k]][1]), 0, sum(1-lst_J[[k]]))
+  JA[1,k] = ifelse(is.na(lst_J[[k]][1]), 0, sum(lst_J[[k]]))
+}
+
+log_lik = -IH %*% exp(m.m[1:N,] %*% param) - IA %*% exp(m.m[(N+1):(2*N),] %*% param) +
+  JH %*% (m.m[1:N,] %*% param) + JA %*% (m.m[(N+1):(2*N),] %*% param)
+
+objective = Maximize(log_lik)
+problem = Problem(objective)
+set.seed(1)
+solution = solve(problem, solver = "MOSEK")
+
+duration = Sys.time() - t0
+
+mod_1_CVXR = list(par = c(0, solution$getValue(alpha), solution$getValue(beta), solution$getValue(gamma)),
+                  value = solution$value,
+                  duration = duration)
+save(mod_1_CVXR, file = "sol/mod_1_CVXR_3.RData")
+
+mod_1_CVXR$duration
+
+load("sol/mod_1_Rsolnp.RData")
+plot(exp(mod_1_CVXR$par), mod_1_Rsolnp$pars)
+cor(exp(mod_1_CVXR$par), mod_1_Rsolnp$pars)

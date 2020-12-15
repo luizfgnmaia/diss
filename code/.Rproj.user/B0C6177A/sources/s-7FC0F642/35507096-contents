@@ -1,0 +1,6 @@
+
+load("sol/mod_1_CVXR_2.RData")
+load("sol/mod_1_Rsolnp.RData")
+
+plot(mod_1_Rsolnp$par, exp(mod_1_CVXR$par))
+cor(mod_1_Rsolnp$par, exp(mod_1_CVXR$par))

@@ -84,5 +84,5 @@ beta = as.factor(c(j, i))
 gamma = c(rep(1, N), rep(0, N))
 m.m = model.matrix(~ beta + alpha + gamma - 1)
 
-rm(list = setdiff(ls(), c("lst_int", "lst_J", "lst_t", "lst_x", "lst_y", "times", "i", "j", "n", "N", "x", "y", "m.m")))
+rm(list = setdiff(ls(), c("lst_int", "lst_J", "lst_t", "lst_x", "lst_y", "times", "i", "j", "n", "N", "x", "y")))
 save.image("serie_a_2019.RData")
