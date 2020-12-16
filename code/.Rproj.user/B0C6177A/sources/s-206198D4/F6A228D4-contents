@@ -82,7 +82,9 @@ m.m = goals = c(x, y)
 alpha = as.factor(c(i, j))
 beta = as.factor(c(j, i))
 gamma = c(rep(1, N), rep(0, N))
-m.m = model.matrix(~ beta + alpha + gamma - 1)
+M = model.matrix(~ beta + alpha + gamma - 1)
+M1 = M[1:N,]
+M2 = M[(N+1):(2*N),]
 
-rm(list = setdiff(ls(), c("lst_int", "lst_J", "lst_t", "lst_x", "lst_y", "times", "i", "j", "n", "N", "x", "y", "m.m")))
+rm(list = setdiff(ls(), c("lst_int", "lst_J", "lst_t", "lst_x", "lst_y", "times", "i", "j", "n", "N", "x", "y", "M1", "M2")))
 save.image("serie_a_2019.RData")

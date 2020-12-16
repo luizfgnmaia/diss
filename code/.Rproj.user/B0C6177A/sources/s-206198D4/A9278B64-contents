@@ -1,15 +1,16 @@
-t0 = Sys.time()
 
 library(CVXR)
 
 load("serie_a_2019.RData")
+
+t0 = Sys.time()
 
 alpha = Variable(19)
 beta = Variable(20)
 gamma = Variable(1)
 param = vstack(beta, alpha, gamma)
 
-IH = matrix(1, nrow = 1, ncol = N) # Time difference of 0.540669 secs
+IH = matrix(1, nrow = 1, ncol = N) # Time difference of 0.517679 secs
 IA = matrix(1, nrow = 1, ncol = N)
 
 JH = matrix(NA, nrow = 1, ncol = N)
@@ -55,9 +56,7 @@ for(k in 1:length(lst_J)) {
 # JH = do.call(hstack, lst_JH)
 # JA = do.call(hstack, lst_JA)
 
-log_lik = -IH %*% exp(m.m[1:N,] %*% param) - IA %*% exp(m.m[(N+1):(2*N),] %*% param) +
-  JH %*% (m.m[1:N,] %*% param) + JA %*% (m.m[(N+1):(2*N),] %*% param)
-
+log_lik = -IH %*% exp(M1 %*% param) - IA %*% exp(M2 %*% param) + JH %*% (M1 %*% param) + JA %*% (M2 %*% param)
 objective = Maximize(log_lik)
 problem = Problem(objective)
 set.seed(1)
