@@ -1,25 +1,25 @@
 {
-    "id": "32AE5E51",
-    "path": "~/diss/code/mod_2_CVXR_2.R",
-    "project_path": "mod_2_CVXR_2.R",
+    "id": "96FA301F",
+    "path": "~/diss/code/mod_3_CVXR.R",
+    "project_path": "mod_3_CVXR.R",
     "type": "r_source",
-    "hash": "322799870",
+    "hash": "717910626",
     "contents": "",
     "dirty": false,
-    "created": 1608583198339.0,
+    "created": 1608656824816.0,
     "source_on_save": false,
     "relative_order": 4,
     "properties": {
         "tempName": "Untitled1",
-        "cursorPosition": "46,39",
-        "scrollLine": "28"
+        "cursorPosition": "11,19",
+        "scrollLine": "13"
     },
     "folds": "",
-    "lastKnownWriteTime": 1608584919,
+    "lastKnownWriteTime": 1608657575,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1608584919944,
+    "last_content_update": 1608657575696,
     "read_only": false,
     "read_only_alternatives": []
 }

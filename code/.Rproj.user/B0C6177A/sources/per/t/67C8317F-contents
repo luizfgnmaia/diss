@@ -21,26 +21,26 @@ log_lik <- function(par) {
     }
     
     lambda_k <- function(t) {             
-      lambda_xy(t-1/90)*gamma*alpha[i[k]]*beta[j[k]]
+      ro_1^(t==0.5)*ro_2^(t==1)*lambda_xy(t-1/90)*gamma*alpha[i[k]]*beta[j[k]]
     }
     
     mu_k <- function(t) {             
-      mu_xy(t-1/90)*alpha[j[k]]*beta[i[k]]
+      ro_1^(t==0.5)*ro_2^(t==1)*mu_xy(t-1/90)*alpha[j[k]]*beta[i[k]]
     }
     
     int_lambda <- function(t1, t2) {        
-      lambda_xy(t1)*gamma*alpha[i[k]]*beta[j[k]]*(t2-t1)
+      ro_1^(t2==0.5)*ro_2^(t2==1)*lambda_xy(t1)*gamma*alpha[i[k]]*beta[j[k]]*(t2-t1)
     }
     
     int_mu <- function(t1, t2) {        
-      mu_xy(t1)*alpha[j[k]]*beta[i[k]]*(t2-t1)
+      ro_1^(t2==0.5)*ro_2^(t2==1)*mu_xy(t1)*alpha[j[k]]*beta[i[k]]*(t2-t1)
     }
     
     v_int_lambda = NULL 
     v_int_mu = NULL 
-    for(int in 1:(length(lst_int[[k]])-1)) {
-      v_int_lambda[int] = int_lambda(t1 = lst_int[[k]][int], t2 = lst_int[[k]][int+1])
-      v_int_mu[int] = int_mu(t1 = lst_int[[k]][int], t2 = lst_int[[k]][int+1])
+    for(int in 1:(length(lst_int_st[[k]])-1)) {
+      v_int_lambda[int] = int_lambda(t1 = lst_int_st[[k]][int]/90, t2 = lst_int_st[[k]][int+1]/90)
+      v_int_mu[int] = int_mu(t1 = lst_int_st[[k]][int]/90, t2 = lst_int_st[[k]][int+1]/90)
     }
     
     sum_l_mk = ifelse(is.na(lst_J[[k]][1]), 0, 
@@ -57,6 +57,8 @@ log_lik <- function(par) {
   lambda_01 = par[43]
   mu_10 = par[44]
   mu_01 = par[45]
+  ro_1 = par[46]
+  ro_2 = par[47]
   
   ret = NULL
   for(k in 1:N) {
@@ -66,5 +68,5 @@ log_lik <- function(par) {
 }
 
 set.seed(1)
-mod_2_Rsolnp = solnp(pars = rep(1, 45), log_lik, LB = rep(0, 45), eqfun = function(par) par[1], eqB = 1)
-save(mod_2_Rsolnp, file = "sol/mod_2_Rsolnp.RData")
+mod_3_Rsolnp = solnp(pars = rep(1, 47), log_lik, LB = rep(0, 47), eqfun = function(par) par[1], eqB = 1)
+save(mod_3_Rsolnp, file = "sol/mod_3_Rsolnp.RData")

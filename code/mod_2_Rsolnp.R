@@ -39,8 +39,8 @@ log_lik <- function(par) {
     v_int_lambda = NULL 
     v_int_mu = NULL 
     for(int in 1:(length(lst_int[[k]])-1)) {
-      v_int_lambda[int] = int_lambda(t1 = lst_int[[k]][int], t2 = lst_int[[k]][int+1])
-      v_int_mu[int] = int_mu(t1 = lst_int[[k]][int], t2 = lst_int[[k]][int+1])
+      v_int_lambda[int] = int_lambda(t1 = lst_int[[k]][int]/90, t2 = lst_int[[k]][int+1]/90)
+      v_int_mu[int] = int_mu(t1 = lst_int[[k]][int]/90, t2 = lst_int[[k]][int+1]/90)
     }
     
     sum_l_mk = ifelse(is.na(lst_J[[k]][1]), 0, 

@@ -4,6 +4,8 @@ library(dplyr)
 load("data/resultados.RData")
 load("data/gols.RData")
 
+# i, j, x, y, n, N
+
 resultados = resultados %>%
   filter(Campeonato == "Campeonato Brasileiro Série A",
          Ano == 2019) %>%
@@ -30,6 +32,8 @@ resultados = resultados %>%
 i = resultados$i; j = resultados$j; x = resultados$x; y = resultados$y
 
 N = nrow(resultados); n = nrow(times)
+
+# lst_t, lst_J, lst_x, lst_y, lst_int, lst_int_st
 
 gols = gols %>%
   filter(Campeonato == "Campeonato Brasileiro Série A",
@@ -82,13 +86,7 @@ for(k in 1:N) {
   }
 }
 
-# goals = c(x, y)
-# alpha = as.factor(c(i, j))
-# beta = as.factor(c(j, i))
-# gamma = c(rep(1, N), rep(0, N))
-# M = model.matrix(~ beta + alpha + gamma - 1)
-# M1 = M[1:N,]
-# M2 = M[(N+1):(2*N),]
+# score_index_3, score_index_3_st
 
 score_index_3 = list()
 for(k in 1:N) {
@@ -103,8 +101,20 @@ for(k in 1:N) {
   }
   score_index_3[[k]] = tmp_score_index
 }
-# tmp = unlist(score_index_3)
-# sum(tmp == 0)
+
+score_index_3_st = list()
+for(k in 1:N) {
+  tmp_score_index = NULL
+  for(l in 1:(length(lst_int_st[[k]])-1)) {
+    tmp_x = lst_x[[k]][lst_int_st[[k]][l]+1]
+    tmp_y = lst_y[[k]][lst_int_st[[k]][l]+1]
+    tmp_score_index[l] = ifelse(tmp_x == tmp_y, 1, 
+                                ifelse(tmp_x - tmp_y >= 1, 2, 
+                                       ifelse(tmp_x - tmp_y <= -1, 3,
+                                              0)))
+  }
+  score_index_3_st[[k]] = tmp_score_index
+}
 
 # score_index_7 = list()
 # for(k in 1:N) {
@@ -112,8 +122,8 @@ for(k in 1:N) {
 #   for(l in 1:(length(lst_int[[k]])-1)) {
 #     tmp_x = lst_x[[k]][lst_int[[k]][l]+1]
 #     tmp_y = lst_y[[k]][lst_int[[k]][l]+1]
-#     tmp_score_index[l] = ifelse(tmp_x == 0 & tmp_y == 0, 1, 
-#                  ifelse(tmp_x == 1 & tmp_y == 0, 2, 
+#     tmp_score_index[l] = ifelse(tmp_x == 0 & tmp_y == 0, 1,
+#                  ifelse(tmp_x == 1 & tmp_y == 0, 2,
 #                         ifelse(tmp_x == 0 & tmp_y == 1, 3,
 #                                ifelse(tmp_x == 1 & tmp_y == 1, 4,
 #                                       ifelse(tmp_x - tmp_y == 0 & tmp_x >= 2 & tmp_y >= 2, 5,
@@ -124,8 +134,7 @@ for(k in 1:N) {
 #   score_index_7[[k]] = tmp_score_index
 # }
 
-# tmp = unlist(score_index_7)
-# sum(tmp == 0)
+# delta, delta_st, L, L_st
 
 tmp = list()
 for(k in 1:N) {
@@ -133,7 +142,16 @@ for(k in 1:N) {
 }
 delta = unlist(tmp)/90
 
+tmp = list()
+for(k in 1:N) {
+  tmp[[k]] = diff(lst_int_st[[k]])
+}
+delta_st = unlist(tmp)/90
+
 L = length(delta)
+L_st = length(delta_st)
+
+# H, A, H_st, A_st
 
 H = NULL
 A = NULL
@@ -156,6 +174,28 @@ for(k in 1:N) {
   }
 }
 
+H_st = NULL
+A_st = NULL
+for(k in 1:N) {
+  jogo = gols %>%
+    filter(Jogo == k)
+  mandante = jogo %>%
+    filter(Time == "Mandante")
+  visitante = jogo %>%
+    filter(Time == "Visitante")
+  for(l in 1:(length(lst_int_st[[k]])-1)) {
+    H_st = c(H_st, mandante %>%
+            filter(Minuto > lst_int_st[[k]][l],
+                   Minuto <= lst_int_st[[k]][l+1]) %>%
+            nrow())
+    A_st = c(A_st, visitante %>%
+            filter(Minuto > lst_int_st[[k]][l],
+                   Minuto <= lst_int_st[[k]][l+1]) %>%
+            nrow())
+  }
+}
+
+# M1_mod1, M2_mod1, M1_mod1_st, M2_mod1_st, M1_mod_2, M2_mod_2, M1_mod_2_st, M2_mod_2_st
 M1_mod1 = matrix(0, ncol = 40, nrow = L) 
 row = 0
 for(k in 1:N) {
@@ -192,6 +232,42 @@ M2_mod1 = cbind(M2_mod1, gamma)
 M2_mod1 = M2_mod1[,-1]
 colnames(M2_mod1) = c(paste0("alpha_", 2:20), paste0("beta", 1:20), "gamma")
 
+M1_mod1_st = matrix(0, ncol = 40, nrow = L_st) 
+row = 0
+for(k in 1:N) {
+  alpha = rep(0, 20)
+  beta = rep(0, 20)
+  alpha[i[k]] = 1
+  beta[j[k]] = 1
+  tmp = c(alpha, beta)
+  for(l in 1:(length(lst_int_st[[k]])-1)) {
+    M1_mod1_st[(row+l),] = tmp
+  }
+  row = row + (length(lst_int_st[[k]])-1)
+}
+gamma = rep(1, L_st)
+M1_mod1_st = cbind(M1_mod1_st, gamma)
+M1_mod1_st = M1_mod1_st[,-1]
+colnames(M1_mod1_st) = c(paste0("alpha_", 2:20), paste0("beta", 1:20), "gamma")
+
+M2_mod1_st = matrix(0, ncol = 40, nrow = L_st)
+row = 0
+for(k in 1:N) {
+  alpha = rep(0, 20)
+  beta = rep(0, 20)
+  alpha[j[k]] = 1
+  beta[i[k]] = 1
+  tmp = c(alpha, beta)
+  for(l in 1:(length(lst_int_st[[k]])-1)) {
+    M2_mod1_st[(row+l),] = tmp
+  }
+  row = row + (length(lst_int_st[[k]])-1)
+}
+gamma = rep(0, L_st)
+M2_mod1_st = cbind(M2_mod1_st, gamma)
+M2_mod1_st = M2_mod1_st[,-1]
+colnames(M2_mod1_st) = c(paste0("alpha_", 2:20), paste0("beta", 1:20), "gamma")
+
 score_index_3 = unlist(score_index_3)
 lambda_10 = rep(0, L)
 lambda_01 = rep(0, L)
@@ -209,6 +285,37 @@ colnames(M1_mod2)[43:44] = c("mu_10", "mu_01")
 M2_mod2 = cbind(M2_mod1, zero, zero, mu_10, mu_01)
 colnames(M2_mod2)[41:42] = c("lambda_10", "lambda_01")
 
+score_index_3_st = unlist(score_index_3_st)
+lambda_10 = rep(0, L_st)
+lambda_01 = rep(0, L_st)
+mu_10 = rep(0, L_st)
+mu_01 = rep(0, L_st)
+lambda_10[which(score_index_3_st == 2)] = 1
+lambda_01[which(score_index_3_st == 3)] = 1
+mu_10[which(score_index_3_st == 2)] = 1
+mu_01[which(score_index_3_st == 3)] = 1
+zero = rep(0, L_st)
+
+M1_mod2_st = cbind(M1_mod1_st, lambda_10, lambda_01, zero, zero)
+colnames(M1_mod2_st)[43:44] = c("mu_10", "mu_01")
+
+M2_mod2_st = cbind(M2_mod1_st, zero, zero, mu_10, mu_01)
+colnames(M2_mod2_st)[41:42] = c("lambda_10", "lambda_01")
+
+# M1_mod3, M2_mod3
+ro_1 = NULL
+ro_2 = NULL
+for(k in 1:N) {
+  for(l in 1:(length(lst_int_st[[k]])-1)) {
+    ro_1 = c(ro_1, ifelse(lst_int_st[[k]][l] == 44 & lst_int_st[[k]][l+1] == 45, 1, 0))
+    ro_2 = c(ro_2, ifelse(lst_int_st[[k]][l] == 89 & lst_int_st[[k]][l+1] == 90, 1, 0))
+  }
+}
+
+M1_mod3 = cbind(M1_mod2_st, ro_1, ro_2)
+M2_mod3 = cbind(M2_mod2_st, ro_1, ro_2)
+
 rm(list = setdiff(ls(), c("lst_int", "lst_int_st", "lst_J", "lst_t", "lst_x", "lst_y", "times", "i", "j", "n", "N", "x", "y",
-                          "delta", "L", "H", "A", "M1_mod1", "M2_mod1", "M1_mod2", "M2_mod2")))
+                          "delta", "L", "H", "A", "M1_mod1", "M2_mod1", "M1_mod2", "M2_mod2",
+                          "delta_st", "L_st", "H_st", "A_st", "M1_mod3", "M2_mod3")))
 save.image("serie_a_2019.RData")
