@@ -1,0 +1,144 @@
+
+library(dplyr)
+
+load("data/resultados.RData")
+load("data/gols.RData")
+
+resultados = resultados %>%
+  filter(Campeonato == "Campeonato Brasileiro Série A",
+         Ano == 2019) %>%
+  select(-Campeonato, -Ano, -Jogo, -Data)
+
+times = tibble(Id = 1:20, Time = sort(unique(resultados$Time_1)))
+
+tmp1 = times %>%
+  rename(Time_1 = Time,
+         i = Id)
+
+tmp2 = times %>%
+  rename(Time_2 = Time,
+         j = Id)
+
+resultados = resultados %>%
+  inner_join(tmp1) %>%
+  inner_join(tmp2) %>%
+  rename(x = Placar_1,
+         y = Placar_2) %>%
+  mutate(k = 1:nrow(.)) %>%
+  select(k, i, j, x, y)
+
+i = resultados$i; j = resultados$j; x = resultados$x; y = resultados$y
+
+N = nrow(resultados); n = nrow(times)
+
+gols = gols %>%
+  filter(Campeonato == "Campeonato Brasileiro Série A",
+         Ano == 2019) %>%
+  mutate(Minuto = ifelse(Tempo == "1º", Minuto, Minuto + 45),
+         t = Minuto/90,
+         J = ifelse(Time == "Visitante", 1, 0))
+
+lst_t = list()
+lst_J = list()
+lst_x = list()
+lst_y = list()
+lst_int = list()
+lst_int_st = list() 
+for(k in 1:N) {
+  jogo = gols %>%
+    filter(Jogo == k)
+  lst_int[[k]] = c(jogo$Minuto, 0, 90) %>%
+    #unique() %>%
+    sort()
+  lst_int_st[[k]] = c(jogo$Minuto, 0, 44, 45, 89, 90) %>%
+    #unique() %>%
+    sort()
+  if(nrow(jogo) > 0) {
+    lst_t[[k]] = jogo$t
+    lst_J[[k]] = jogo$J
+    tmp_x = rep(0, 91) # primeira entrada é o minuto 0
+    tmp_y = rep(0, 91)
+    mandante = jogo %>%
+      filter(J == 0)
+    visitante = jogo %>%
+      filter(J == 1)
+    if(nrow(mandante > 0)) {
+      for(m in 1:nrow(mandante)) {
+        tmp_x[(mandante$Minuto[m]+1):91] = tmp_x[mandante$Minuto[m]]+1
+      }
+    }
+    if(nrow(visitante > 0)) {
+      for(m in 1:nrow(visitante)) {
+        tmp_y[(visitante$Minuto[m]+1):91] = tmp_y[visitante$Minuto[m]]+1
+      }
+    }
+    lst_x[[k]] = tmp_x
+    lst_y[[k]] = tmp_y
+  } else {
+    lst_t[[k]] = NA
+    lst_J[[k]] = NA
+    lst_x[[k]] = rep(0, 91)
+    lst_y[[k]] = rep(0, 91)
+  }
+}
+
+goals = c(x, y)
+alpha = as.factor(c(i, j))
+beta = as.factor(c(j, i))
+gamma = c(rep(1, N), rep(0, N))
+M = model.matrix(~ beta + alpha + gamma - 1)
+M1 = M[1:N,]
+M2 = M[(N+1):(2*N),]
+
+# x_minus_y = list()
+# for(k in 1:N) {
+#   tmp_x_minus_y = NULL
+#   for(l in 1:(length(lst_int[[k]])-1)) {
+#     tmp_x_minus_y[l] = lst_x[[k]][lst_int[[k]][l]+1] - lst_y[[k]][lst_int[[k]][l]+1]
+#   }
+#   x_minus_y[[k]] = tmp_x_minus_y
+# }
+
+score_index_3 = list()
+for(k in 1:N) {
+  tmp_score_index = NULL
+  for(l in 1:(length(lst_int[[k]])-1)) {
+    tmp_x = lst_x[[k]][lst_int[[k]][l]+1]
+    tmp_y = lst_y[[k]][lst_int[[k]][l]+1]
+    tmp_score_index[l] = ifelse(tmp_x == tmp_y, 1, 
+                                ifelse(tmp_x - tmp_y >= 1, 2, 
+                                       ifelse(tmp_x - tmp_y <= -1, 3,
+                                              0)))
+  }
+  score_index_3[[k]] = tmp_score_index
+}
+# tmp = unlist(score_index_3)
+# sum(tmp == 0)
+
+score_index_7 = list()
+for(k in 1:N) {
+  tmp_score_index = NULL
+  for(l in 1:(length(lst_int[[k]])-1)) {
+    tmp_x = lst_x[[k]][lst_int[[k]][l]+1]
+    tmp_y = lst_y[[k]][lst_int[[k]][l]+1]
+    tmp_score_index[l] = ifelse(tmp_x == 0 & tmp_y == 0, 1, 
+                 ifelse(tmp_x == 1 & tmp_y == 0, 2, 
+                        ifelse(tmp_x == 0 & tmp_y == 1, 3,
+                               ifelse(tmp_x == 1 & tmp_y == 1, 4,
+                                      ifelse(tmp_x - tmp_y == 0 & tmp_x >= 2 & tmp_y >= 2, 5,
+                                             ifelse(tmp_x - tmp_y >= 1 & tmp_x >= 2, 6,
+                                                    ifelse(tmp_x - tmp_y <= -1 & tmp_y >= 2, 7,
+                                                           0)))))))
+  }
+  score_index_7[[k]] = tmp_score_index
+}
+
+# tmp = unlist(score_index_7)
+# sum(tmp == 0)
+
+for(k in 1:N) {
+  lst_int[[k]] = lst_int[[k]]/90
+}
+
+rm(list = setdiff(ls(), c("lst_int", "lst_int_st", "lst_J", "lst_t", "lst_x", "lst_y", "times", "i", "j", "n", "N", "x", "y", "M1", "M2", "score_index_3", "score_index_7")))
+save.image("serie_a_2019.RData")

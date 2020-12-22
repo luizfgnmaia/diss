@@ -1,8 +1,0 @@
-"0","veross = tibble(Modelo = names(alphas)[-c(1,2)],"
-"0","                log_likelihood = c(-mod_0_Rsolnp$values[length(mod_0_Rsolnp$values)],"
-"0","                                   -mod_1_Rsolnp$values[length(mod_1_Rsolnp$values)],"
-"0","                                   -mod_2_Rsolnp$values[length(mod_2_Rsolnp$values)],"
-"0","                                   -mod_3_Rsolnp$values[length(mod_3_Rsolnp$values)],"
-"0","                                   -mod_4_Rsolnp$values[length(mod_4_Rsolnp$values)],"
-"0","                                   -mod_5_Rsolnp$values[length(mod_5_Rsolnp$values)]))"
-"0","kable(veross, digits = 4, caption = ""log Verossimilhanças com os parâmetros encontrados"")"

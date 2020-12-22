@@ -1,32 +1,41 @@
+
 library(Rsolnp)
 
 load("serie_a_2019.RData")
 
 log_lik <- function(par) {
-  
+
   log_lik_k <- function(k) { 
     
+    lambda_xy <- function(t) {
+      1
+    }
+    
+    mu_xy <- function(t) {
+      1
+    }
+    
     lambda_k <- function(t) {
-      gamma*alpha[i[k]]*beta[j[k]]
+      lambda_xy(t-1/90)*gamma*alpha[i[k]]*beta[j[k]]
     }
     
     mu_k <- function(t) {
-      alpha[j[k]]*beta[i[k]]
+      mu_xy(t-1/90)*alpha[j[k]]*beta[i[k]]
     }
     
     int_lambda <- function(t1, t2) { 
-      gamma*alpha[i[k]]*beta[j[k]] * (t2-t1)
+      lambda_xy(t1)*gamma*alpha[i[k]]*beta[j[k]] * (t2-t1)
     }
     
     int_mu <- function(t1, t2) { 
-      alpha[j[k]]*beta[i[k]] * (t2-t1)
+      mu_xy(t1)*alpha[j[k]]*beta[i[k]] * (t2-t1)
     }
     
     v_int_lambda = NULL 
     v_int_mu = NULL 
     for(int in 1:(length(lst_int[[k]])-1)) {
-      v_int_lambda[int] = int_lambda(t1 = lst_int[[k]][int], t2 = lst_int[[k]][int+1])
-      v_int_mu[int] = int_mu(t1 = lst_int[[k]][int], t2 = lst_int[[k]][int+1])
+      v_int_lambda[int] = int_lambda(t1 = lst_int[[k]][int]/90, t2 = lst_int[[k]][int+1]/90)
+      v_int_mu[int] = int_mu(t1 = lst_int[[k]][int]/90, t2 = lst_int[[k]][int+1]/90)
     }
     
     sum_l_mk = ifelse(is.na(lst_J[[k]][1]), 0, 
@@ -50,3 +59,4 @@ log_lik <- function(par) {
 set.seed(1)
 mod_1_Rsolnp = solnp(pars = rep(1, 41), log_lik, LB = rep(0, 41), eqfun = function(par) par[1], eqB = 1)
 save(mod_1_Rsolnp, file = "sol/mod_1_Rsolnp.RData")
+

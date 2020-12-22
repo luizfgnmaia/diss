@@ -15,3 +15,6 @@ log_lik <- function(par) {
 set.seed(1)
 mod_0_Rsolnp = solnp(pars = rep(1, 41), log_lik, LB = rep(0, 41), eqfun = function(par) par[1], eqB = 1)
 save(mod_0_Rsolnp, file = "sol/mod_0_Rsolnp.RData")
+
+
+                 
