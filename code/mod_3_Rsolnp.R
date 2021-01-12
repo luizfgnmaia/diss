@@ -1,3 +1,4 @@
+
 library(Rsolnp)
 
 load("serie_a_2019.RData")
@@ -21,19 +22,19 @@ log_lik <- function(par) {
     }
     
     lambda_k <- function(t) {             
-      ro_1^(t==0.5)*ro_2^(t==1)*lambda_xy(t-1/90)*gamma*alpha[i[k]]*beta[j[k]]
+      rho_1^(t==0.5)*rho_2^(t==1)*lambda_xy(t-1/90)*gamma*alpha[i[k]]*beta[j[k]]
     }
     
     mu_k <- function(t) {             
-      ro_1^(t==0.5)*ro_2^(t==1)*mu_xy(t-1/90)*alpha[j[k]]*beta[i[k]]
+      rho_1^(t==0.5)*rho_2^(t==1)*mu_xy(t-1/90)*alpha[j[k]]*beta[i[k]]
     }
     
     int_lambda <- function(t1, t2) {        
-      ro_1^(t2==0.5)*ro_2^(t2==1)*lambda_xy(t1)*gamma*alpha[i[k]]*beta[j[k]]*(t2-t1)
+      rho_1^(t2==0.5)*rho_2^(t2==1)*lambda_xy(t1)*gamma*alpha[i[k]]*beta[j[k]]*(t2-t1)
     }
     
     int_mu <- function(t1, t2) {        
-      ro_1^(t2==0.5)*ro_2^(t2==1)*mu_xy(t1)*alpha[j[k]]*beta[i[k]]*(t2-t1)
+      rho_1^(t2==0.5)*rho_2^(t2==1)*mu_xy(t1)*alpha[j[k]]*beta[i[k]]*(t2-t1)
     }
     
     v_int_lambda = NULL 
@@ -57,8 +58,8 @@ log_lik <- function(par) {
   lambda_01 = par[43]
   mu_10 = par[44]
   mu_01 = par[45]
-  ro_1 = par[46]
-  ro_2 = par[47]
+  rho_1 = par[46]
+  rho_2 = par[47]
   
   ret = NULL
   for(k in 1:N) {

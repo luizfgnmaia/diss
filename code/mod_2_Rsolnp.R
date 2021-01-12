@@ -1,3 +1,4 @@
+
 library(Rsolnp)
 
 load("serie_a_2019.RData")

@@ -315,7 +315,21 @@ for(k in 1:N) {
 M1_mod3 = cbind(M1_mod2_st, ro_1, ro_2)
 M2_mod3 = cbind(M2_mod2_st, ro_1, ro_2)
 
+tmp_phi = list()
+for(k in 1:N) {
+  tmp = NULL
+  for(l in 1:(length(lst_int_st[[k]])-1)) {
+    tmp[l] = 1/2 * ((lst_int_st[[k]][l+1]/90)^2 - (lst_int_st[[k]][l]/90)^2)
+  }
+  tmp_phi[[k]] = tmp
+}
+phi = unlist(tmp_phi)
+
+
 rm(list = setdiff(ls(), c("lst_int", "lst_int_st", "lst_J", "lst_t", "lst_x", "lst_y", "times", "i", "j", "n", "N", "x", "y",
                           "delta", "L", "H", "A", "M1_mod1", "M2_mod1", "M1_mod2", "M2_mod2",
-                          "delta_st", "L_st", "H_st", "A_st", "M1_mod3", "M2_mod3")))
+                          "delta_st", "L_st", "H_st", "A_st", "M1_mod3", "M2_mod3",
+                          "phi")))
+
+
 save.image("serie_a_2019.RData")
