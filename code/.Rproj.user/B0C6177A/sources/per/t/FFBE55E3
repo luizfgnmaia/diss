@@ -1,0 +1,24 @@
+{
+    "id": "FFBE55E3",
+    "path": "~/diss/code/fit_T.R",
+    "project_path": "fit_T.R",
+    "type": "r_source",
+    "hash": "3732078192",
+    "contents": "",
+    "dirty": false,
+    "created": 1611364715046.0,
+    "source_on_save": false,
+    "relative_order": 4,
+    "properties": {
+        "cursorPosition": "51,0",
+        "scrollLine": "31"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1611364918,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1611364918575,
+    "read_only": false,
+    "read_only_alternatives": []
+}
