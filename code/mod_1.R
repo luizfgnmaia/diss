@@ -24,7 +24,7 @@ pi1 = tau[1] + phi[1] * r1 + omega[1] * s1
 pi2 = tau[2] + phi[2] * r2 + omega[2] * s2
 
 log_lik = -t(delta1) %*% exp(M1_lambda %*% theta) - t(delta1) %*% exp(M1_mu %*% theta) - t(delta2) %*% exp(M2_lambda %*% theta) - t(delta2) %*% exp(M2_mu %*% theta) +
-  t(1-J1) %*% G1_lambda %*% theta + t(J1) %*% G1_mu %*% theta + t(1-J2) %*% G2_lambda %*% theta + t(J2) %*% G2_mu %*% theta +
+  t(1-J1) %*% J1_lambda %*% theta + t(J1) %*% J1_mu %*% theta + t(1-J2) %*% J2_lambda %*% theta + t(J2) %*% J2_mu %*% theta +
   t(T1) %*% log(pi1) + t(T2) %*% log(pi2) - sum_entries(pi1) - sum_entries(pi2)
 
 objective = Maximize(log_lik)

@@ -5,7 +5,7 @@ library(dplyr)
 library(CVXR)
 
 load("dados_serie_a_2019.RData")
-load("dados_mod_1.RData")
+load("dados_mod_2.RData")
 
 # delta1 = delta1/90
 # delta2 = delta2/90
@@ -15,7 +15,9 @@ t0 = Sys.time()
 alpha = Variable(19)
 beta = Variable(20)
 gamma = Variable(1)
-theta = vstack(alpha, beta, gamma)
+lambda_xy = Variable(2)
+mu_xy = Variable(2)
+theta = vstack(alpha, beta, gamma, lambda_xy, mu_xy)
 
 tau = Variable(2)
 phi = Variable(2)
@@ -24,7 +26,7 @@ pi1 = tau[1] + phi[1] * r1 + omega[1] * s1
 pi2 = tau[2] + phi[2] * r2 + omega[2] * s2
 
 log_lik = -t(delta1) %*% exp(M1_lambda %*% theta) - t(delta1) %*% exp(M1_mu %*% theta) - t(delta2) %*% exp(M2_lambda %*% theta) - t(delta2) %*% exp(M2_mu %*% theta) +
-  t(1-J1) %*% G1_lambda %*% theta + t(J1) %*% G1_mu %*% theta + t(1-J2) %*% G2_lambda %*% theta + t(J2) %*% G2_mu %*% theta +
+  t(1-J1) %*% J1_lambda %*% theta + t(J1) %*% J1_mu %*% theta + t(1-J2) %*% J2_lambda %*% theta + t(J2) %*% J2_mu %*% theta +
   t(T1) %*% log(pi1) + t(T2) %*% log(pi2) - sum_entries(pi1) - sum_entries(pi2)
 
 objective = Maximize(log_lik)
@@ -34,20 +36,27 @@ solution = solve(problem, solver = "MOSEK")
 
 duration = Sys.time() - t0
 
-mod_1 = list(par = c(0, solution$getValue(alpha), solution$getValue(beta), solution$getValue(gamma),
+mod_2 = list(par = c(0, solution$getValue(alpha), solution$getValue(beta), solution$getValue(gamma),
+                     solution$getValue(lambda_xy), solution$getValue(mu_xy),
                      solution$getValue(tau), solution$getValue(phi), solution$getValue(omega)),
-                  value = solution$value,
-                  duration = duration)
-save(mod_1, file = "mod_1.RData")
+             value = solution$value,
+             duration = duration)
+save(mod_2, file = "mod_2.RData")
 
 
 library(ggplot2)
 
-load("dixon robinson/sol/mod_1_CVXR.RData")
+load("dixon robinson/sol/mod_2_CVXR.RData")
 
-tibble(new = mod_1$par[1:41], old = mod_1_CVXR$par, par = c(rep("alpha", 20), rep("beta", 20), "gamma")) %>%
+tibble(new = mod_2$par[1:41], old = mod_2_CVXR$par[1:41], 
+       par = c(rep("alpha", 20), rep("beta", 20), "gamma")) %>%
   ggplot(aes(x = new, y = old, col = par)) +
   geom_point(size = 2) +
   theme_bw()
 
+mod_2$par[42:45]
+mod_2_CVXR$par[42:45]
 
+load("mod_1.RData")
+mod_2$par[46:51]
+mod_1$par[42:47]

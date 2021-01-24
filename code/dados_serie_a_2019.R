@@ -211,16 +211,6 @@ for(k in 1:N) {
   }  
 }
 
-# I1s = list(); I2s = list()
-# for(k in 1:N) {
-#   I1s[[k]] = c(0, t1s[[k]], 45+T1[k]) %>%
-#     unique() %>%
-#     sort()
-#   I2s[[k]] = c(45, t2s[[k]], 90+T2[k]) %>%
-#     unique() %>%
-#     sort()
-# }
-
 rm(list = setdiff(ls(), c("T1", "T2", "times", "i", "j", "N", "n", "x", "y",
                           "t1", "t2", "J1", "J2", "x1", "x2", "y1", "y2", "m1", "m2", "I1", "I2",
                           "t1s", "t2s", "J1s", "J2s", "x1s", "x2s", "y1s", "y2s", "m1s", "m2s", "I1s", "I2s")))
