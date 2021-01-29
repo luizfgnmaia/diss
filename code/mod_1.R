@@ -1,14 +1,12 @@
 
-# Mudar a escala dos deltas tem bastante impacto nos betas
-
 library(dplyr)
 library(CVXR)
 
 load("dados_serie_a_2019.RData")
 load("dados_mod_1.RData")
 
-# delta1 = delta1/90
-# delta2 = delta2/90
+#delta1 = delta1/90
+#delta2 = delta2/90
 
 t0 = Sys.time()
 

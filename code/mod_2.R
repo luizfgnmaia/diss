@@ -1,6 +1,4 @@
 
-# Mudar a escala dos deltas tem bastante impacto nos betas
-
 library(dplyr)
 library(CVXR)
 
