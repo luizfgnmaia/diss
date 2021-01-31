@@ -93,13 +93,7 @@ s1 = unlist(lapply(t1s, function(x) length(x < 45)))
 r2 = unlist(lapply(t2, function(x) length(x < 90)))
 s2 = unlist(lapply(t2s, function(x) length(x < 90)))
 
-# c
-c = NULL
-for(k in 1:N) {
-  c[k] = as.integer(abs(x2[[k]][46] - y2[[k]][46]) <= 1)
-}
-
 rm(list = setdiff(ls(), c("delta1", "delta2", "L1", "L2", "M1_lambda", "M1_mu", "M2_lambda", 
-                          "M2_mu", "r1", "s1", "r2", "s2", "c"))) 
+                          "M2_mu", "r1", "s1", "r2", "s2"))) 
 
 save.image("dados_mod_1.RData")

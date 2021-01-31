@@ -3,17 +3,19 @@ library(dplyr)
 library(CVXR)
 
 load("dados_serie_a_2019.RData")
-load("dados_mod_1.RData")
+load("dados_mod_2.RData")
 
-# delta1 = delta1/100
-# delta2 = delta2/100
+# delta1 = delta1/90
+# delta2 = delta2/90
 
 t0 = Sys.time()
 
 alpha = Variable(19)
 beta = Variable(20)
 gamma = Variable(1)
-theta = vstack(alpha, beta, gamma)
+lambda_xy = Variable(2)
+mu_xy = Variable(2)
+theta = vstack(alpha, beta, gamma, lambda_xy, mu_xy)
 
 tau = Variable(2)
 phi = Variable(2)
@@ -33,21 +35,37 @@ solution = solve(problem, solver = "MOSEK")
 
 duration = Sys.time() - t0
 
-mod_1 = list(par = tibble(par = c(paste0("alpha_", 1:20), paste0("beta_", 1:20),
+mod_2 = list(par = tibble(par = c(paste0("alpha_", 1:20), paste0("beta_", 1:20),
+                                  "lambda_10", "lambda_01", "mu_10", "mu_01",
                                   "gamma", "tau_1", "tau_2", "phi_1", "phi_2", "omega_1", "omega_2", "kappa"),
                           val = c(0, solution$getValue(alpha), solution$getValue(beta), solution$getValue(gamma),
+                                  solution$getValue(lambda_xy), solution$getValue(mu_xy),
                                   solution$getValue(tau), solution$getValue(phi), solution$getValue(omega),
                                   solution$getValue(kappa))),
              value = solution$value,
              duration = duration)
-save(mod_1, file = "mod_1.RData")
+
+save(mod_2, file = "mod_2.RData")
 
 library(ggplot2)
 
-load("dixon robinson/sol/mod_1_CVXR.RData")
+load("dixon robinson/sol/mod_2_CVXR.RData")
 
-tibble(new = mod_1$par$val[1:41], old = mod_1_CVXR$par, par = c(rep("alpha", 20), rep("beta", 20), "gamma")) %>%
+tibble(new = mod_2$par$val[1:41], old = mod_2_CVXR$par[1:41], 
+       par = c(rep("alpha", 20), rep("beta", 20), "gamma")) %>%
   ggplot(aes(x = new, y = old, col = par)) +
   geom_point(size = 2) +
   theme_bw()
 
+mod_2$par$val[42:45]
+mod_2_CVXR$par[42:45]
+
+load("mod_1.RData")
+mod_2$par$val[46:51]
+mod_1$par$val[42:47]
+
+rank(mod_2$par$val[1:20])
+rank(mod_2_CVXR$par[1:20])
+
+rank(mod_2$par$val[21:40])
+rank(mod_2_CVXR$par[21:40])
