@@ -21,8 +21,18 @@ kappa = Variable(1)
 pi1 = tau[1] + phi[1] * r1
 pi2 = tau[2] + phi[2] * r2 + c * kappa
 
-log_lik = -t(delta1)%*%exp(M1_lambda%*%theta) -t(delta1)%*%exp(M1_mu%*%theta) -t(delta2)%*%exp(M2_lambda%*%theta) -t(delta2)%*%exp(M2_mu%*%theta) +
-  t(H1)%*%M1_lambda%*%theta + t(A1)%*%M1_mu%*%theta + t(H2)%*%M2_lambda%*%theta + t(A2)%*%M2_mu%*%theta +
+lambda1 = delta1 * exp(M1_lambda %*% theta)
+mu1 = delta1 * exp(M1_mu %*% theta) 
+lambda2 = delta2 * exp(M2_lambda %*% theta) 
+mu2 = delta2 * exp(M2_mu %*% theta)
+
+loglambda1 = log(delta1) + M1_lambda %*% theta
+logmu1 = log(delta1) + M1_mu %*% theta
+loglambda2 = log(delta2) + M2_lambda %*% theta
+logmu2 = log(delta2) + M2_mu %*% theta
+
+log_lik = - sum_entries(lambda1) - sum_entries(mu1) - sum_entries(lambda2) - sum_entries(mu2) +
+  sum_entries(H1*loglambda1) + sum_entries(A1*logmu1) + sum_entries(H2*loglambda2) + sum_entries(A2*logmu2) +
   t(U1) %*% log(pi1) + t(U2) %*% log(pi2) - sum_entries(pi1) - sum_entries(pi2)
 
 objective = Maximize(log_lik)
@@ -43,7 +53,7 @@ mod_1 = list(alpha = as.vector(c(0, solution$getValue(alpha))),
 names(mod_1$alpha) = times$Time
 names(mod_1$beta) = times$Time
 
-save(mod_1, file = "mod_1.RData")
+# save(mod_1, file = "mod_1.RData")
 
 # library(ggplot2)
 # 

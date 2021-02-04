@@ -1,25 +1,25 @@
 {
-    "id": "60BB7B94",
+    "id": "D5072D6E",
     "path": "~/diss/code/eda_serie_a.Rmd",
     "project_path": "eda_serie_a.Rmd",
     "type": "r_markdown",
-    "hash": "149877405",
+    "hash": "305237847",
     "contents": "",
     "dirty": false,
-    "created": 1612407293880.0,
+    "created": 1612480341164.0,
     "source_on_save": false,
-    "relative_order": 10,
+    "relative_order": 3,
     "properties": {
         "chunk_output_type": "inline",
-        "cursorPosition": "158,0",
-        "scrollLine": "180"
+        "cursorPosition": "136,70",
+        "scrollLine": "126"
     },
     "folds": "",
-    "lastKnownWriteTime": 1612409300,
+    "lastKnownWriteTime": 1612481385,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1612409300158,
+    "last_content_update": 1612481385998,
     "read_only": false,
     "read_only_alternatives": []
 }

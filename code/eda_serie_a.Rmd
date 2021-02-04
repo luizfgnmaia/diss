@@ -32,9 +32,11 @@ gols = gols %>%
 
 gols$Minuto[which(gols$Minuto > 50)] = 50
 
-gols %>%
+tmp = gols %>%
   count(Minuto, Tempo) %>%
-  mutate(p = n/nrow(gols)) %>%
+  mutate(p = n/nrow(gols))
+
+tmp %>%
   ggplot(aes(x = Minuto, y = p, col = Tempo)) +
   geom_line(size = 1) +
   geom_point(size = 2) +
@@ -42,6 +44,48 @@ gols %>%
   ylab("Gols (%)") +
   scale_x_continuous(breaks = seq(from = 0, to = 50, by = 5),
                      labels = c(seq(from = 0, to = 45, by = 5), "50+"))
+```
+
+```{r}
+t1 = tmp %>%
+  filter(Minuto < 45, Tempo == "1º")
+
+lm1 = lm(p ~ Minuto, data = t1)
+
+summary(lm1)
+```
+
+```{r, fig.height = 5, fig.width = 10}
+t1 %>%
+  ggplot(aes(x = Minuto, y = p)) +
+  geom_point(size = 1) +
+  geom_point(size = 2) +
+  theme_bw() +
+  ylab("Gols (%)") +
+  scale_x_continuous(breaks = seq(from = 0, to = 45, by = 5)) +
+  ylim(0, 0.015) +
+  geom_abline(intercept = lm1$coefficients[1], slope = lm1$coefficients[2], col = "red", size = 1)
+```
+
+```{r}
+t2 = tmp %>%
+  filter(Minuto < 45, Tempo == "2º")
+
+lm2 = lm(p ~ Minuto, data = t2)
+
+summary(lm2)
+```
+
+```{r, fig.height = 5, fig.width = 10}
+t2 %>%
+  ggplot(aes(x = Minuto, y = p)) +
+  geom_point(size = 1) +
+  geom_point(size = 2) +
+  theme_bw() +
+  ylab("Gols (%)") +
+  scale_x_continuous(breaks = seq(from = 0, to = 45, by = 5)) +
+  ylim(0, 0.015) +
+  geom_abline(intercept = lm2$coefficients[1], slope = lm2$coefficients[2], col = "red", size = 1)
 ```
 
 ## Placares mais comuns
