@@ -226,6 +226,8 @@ H2 = unlist(H2)
 A1 = unlist(A1)
 A2 = unlist(A2)
 
+times$Time = stringr::str_replace_all(times$Time, "\\s-\\s.*", "")
+
 rm(list = setdiff(ls(), c("U1", "U2", "times", "i", "j", "N", "n", "x", "y",
                           "t1", "t2", "J1", "J2", "x1", "x2", "y1", "y2", "m1", "m2", "I1", "I2",
                           "t1s", "t2s", "J1s", "J2s", "x1s", "x2s", "y1s", "y2s", "m1s", "m2s",

@@ -17,10 +17,9 @@ theta = vstack(alpha, beta, gamma)
 
 tau = Variable(2)
 phi = Variable(2)
-omega = Variable(2)
 kappa = Variable(1)
-pi1 = tau[1] + phi[1] * r1 + omega[1] * s1
-pi2 = tau[2] + phi[2] * r2 + omega[2] * s2 + c * kappa
+pi1 = tau[1] + phi[1] * r1
+pi2 = tau[2] + phi[2] * r2 + c * kappa
 
 log_lik = -t(delta1)%*%exp(M1_lambda%*%theta) -t(delta1)%*%exp(M1_mu%*%theta) -t(delta2)%*%exp(M2_lambda%*%theta) -t(delta2)%*%exp(M2_mu%*%theta) +
   t(H1)%*%M1_lambda%*%theta +t(A1)%*%M1_mu%*%theta + t(H2)%*%M2_lambda%*%theta + t(A2)%*%M2_mu%*%theta +
@@ -33,21 +32,25 @@ solution = solve(problem, solver = "MOSEK")
 
 duration = Sys.time() - t0
 
-mod_1 = list(par = tibble(par = c(paste0("alpha_", 1:20), paste0("beta_", 1:20),
-                                  "gamma", "tau_1", "tau_2", "phi_1", "phi_2", "omega_1", "omega_2", "kappa"),
-                          val = c(0, solution$getValue(alpha), solution$getValue(beta), solution$getValue(gamma),
-                                  solution$getValue(tau), solution$getValue(phi), solution$getValue(omega),
-                                  solution$getValue(kappa))),
+mod_1 = list(alpha = as.vector(c(0, solution$getValue(alpha))),
+             beta = as.vector(solution$getValue(beta)),
+             gamma = as.vector(solution$getValue(gamma)),
+             tau = as.vector(solution$getValue(tau)),
+             phi = as.vector(solution$getValue(phi)),
+             kappa = as.vector(solution$getValue(kappa)),
              value = solution$value,
              duration = duration)
+names(mod_1$alpha) = times$Time
+names(mod_1$beta) = times$Time
+
 save(mod_1, file = "mod_1.RData")
 
-library(ggplot2)
-
-load("dixon robinson/sol/mod_1_CVXR.RData")
-
-tibble(new = mod_1$par$val[1:41], old = mod_1_CVXR$par, par = c(rep("alpha", 20), rep("beta", 20), "gamma")) %>%
-  ggplot(aes(x = new, y = old, col = par)) +
-  geom_point(size = 2) +
-  theme_bw()
+# library(ggplot2)
+# 
+# load("dixon robinson/sol/mod_1_CVXR.RData")
+# 
+# tibble(new = mod_1$par$val[1:41], old = mod_1_CVXR$par, par = c(rep("alpha", 20), rep("beta", 20), "gamma")) %>%
+#   ggplot(aes(x = new, y = old, col = par)) +
+#   geom_point(size = 2) +
+#   theme_bw()
 
