@@ -25,8 +25,8 @@ split2 = split[,2] %>%
 
 tempo = split2[,1]
 tempo[which(!tempo %in% c("1T", "2T", "PJ", "INT"))] = "PJ"
-minuto[which(tempo == "INT")] = 0
-tempo[which(tempo == "INT")] = "2T" # Intervalos estão como 0 minuto do segundo tempo
+minuto[which(tempo == "INT")] = 1
+tempo[which(tempo == "INT")] = "2T" # Intervalos estão como 1 minuto do segundo tempo
 tempo = str_replace_all(tempo, "T", "º")
 
 time = split2[,2] %>%

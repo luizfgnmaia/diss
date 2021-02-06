@@ -1,0 +1,49 @@
+
+library(survival)
+library(dplyr)
+
+load("dados_serie_a_2014_2019.RData")
+
+x = list(); y = list(); xy = list()
+for(i in 1:N) {
+  x[[i]] = c(x1[[i]], x2[[i]])
+  y[[i]] = c(y1[[i]], y2[[i]])
+  xy[[i]] = paste(x[[i]], y[[i]], sep = "-")
+}
+
+placares = c("0-0", "1-0", "0-1", "1-1", "2-0", "0-2", "2-1", "1-2", "2-2")
+tables = lapply(xy, table)
+last_score = lapply(xy, function(x) x[length(x)])
+
+delta = list()
+t = list()
+for(i in 1:length(placares)) {
+  tmp_delta = NULL
+  tmp_t = NULL
+  for(k in 1:N) {
+    if(placares[i] %in% names(tables[[k]])) {
+      tmp_delta[k] = ifelse(last_score[[k]] == placares[i], 0, 1)
+      tmp_t[k] = tables[[k]][placares[i]]
+    } else {
+      tmp_delta[k] = 0
+      tmp_t[k] = 0
+    }
+  }
+  delta[[i]] = tmp_delta
+  t[[i]] = tmp_t
+}
+
+lst_tibbles = list()
+for(i in 1:length(placares)) {
+  lst_tibbles[[i]] = tibble(Placar = rep(placares[i], N),
+                            delta = delta[[i]],
+                            t = t[[i]])
+}
+
+tib = do.call(rbind, lst_tibbles) %>%
+  filter(t > 0)
+
+summary(survfit(Surv(t, delta)~Placar, data = tib))
+
+
+

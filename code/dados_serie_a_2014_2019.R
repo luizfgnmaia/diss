@@ -9,15 +9,19 @@ load("data/reds.RData")
 
 resultados = resultados %>%
   filter(Campeonato == "Campeonato Brasileiro Série A",
-         Ano == 2019) %>%
-  select(-Campeonato, -Ano, -Jogo, -Data)
+         Ano >= 2014) %>%
+  filter(!is.na(Placar_1))
+resultados$ind = 1:nrow(resultados)
+
+copy_resultados = resultados %>%
+  select(Campeonato, Ano, Jogo, ind)
 
 # U1, U2
 U1 = resultados$Acréscimos_1
 U2 = resultados$Acréscimos_2
 
 # times, i, j, N, n
-times = tibble(Id = 1:20, Time = sort(unique(resultados$Time_1)))
+times = tibble(Id = length(unique(resultados$Time_1)), Time = sort(unique(resultados$Time_1)))
 
 tmp1 = times %>%
   rename(Time_1 = Time,
@@ -43,27 +47,30 @@ N = nrow(resultados); n = nrow(times)
 
 gols = gols %>%
   filter(Campeonato == "Campeonato Brasileiro Série A",
-         Ano == 2019) %>%
+         Ano >= 2014) %>%
   mutate(J = ifelse(Time == "Visitante", 1, 0))
 gols$Acréscimo[is.na(gols$Acréscimo)] = 0
 gols$Minuto[which(gols$Tempo == "2º")] = gols$Minuto[which(gols$Tempo == "2º")] + 45
 gols$Minuto = gols$Minuto + gols$Acréscimo
+
+gols = gols %>%
+  left_join(copy_resultados)
 
 # t1, t2, J1, J2, x1, x2, y1, y2, m1, m2, I1, I2
 gols_primeiro_tempo = gols %>%
   filter(Tempo == "1º")
 gols_segundo_tempo = gols %>%
   filter(Tempo == "2º")
- 
+
 t1 = list(); t2 = list(); J1 = list(); J2 = list()
 x1 = list(); x2 = list(); y1 = list(); y2 = list()
 m1 = NULL; m2 = NULL
 
 for(k in 1:N) {
   primeiro_tempo = gols_primeiro_tempo %>%
-    filter(Jogo == k)
+    filter(ind == k)
   segundo_tempo = gols_segundo_tempo %>%
-    filter(Jogo == k)
+    filter(ind == k)
   t1[[k]] = primeiro_tempo$Minuto
   t2[[k]] = segundo_tempo$Minuto
   J1[[k]] = primeiro_tempo$J
@@ -139,11 +146,14 @@ for(k in 1:N) {
 
 reds = reds %>%
   filter(Campeonato == "Campeonato Brasileiro Série A",
-         Ano == 2019) %>%
+         Ano >= 2014) %>%
   mutate(J = ifelse(Time == "Visitante", 1, 0))
 reds$Acréscimo[is.na(reds$Acréscimo)] = 0
 reds$Minuto[which(reds$Tempo == "2º")] = reds$Minuto[which(reds$Tempo == "2º")] + 45
 reds$Minuto = reds$Minuto + reds$Acréscimo
+
+reds = reds %>%
+  inner_join(copy_resultados)
 
 # t1s, t2s, J1s, J2s, x1s, x2s, y1s, y2s, m1s, m2s
 reds_primeiro_tempo = reds %>%
@@ -157,9 +167,9 @@ m1s = NULL; m2s = NULL
 
 for(k in 1:N) {
   primeiro_tempo = reds_primeiro_tempo %>%
-    filter(Jogo == k)
+    filter(ind == k)
   segundo_tempo = reds_segundo_tempo %>%
-    filter(Jogo == k)
+    filter(ind == k)
   t1s[[k]] = primeiro_tempo$Minuto
   t2s[[k]] = segundo_tempo$Minuto
   J1s[[k]] = primeiro_tempo$J
@@ -242,4 +252,4 @@ rm(list = setdiff(ls(), c("U1", "U2", "times", "i", "j", "N", "n", "x", "y",
                           "t1s", "t2s", "J1s", "J2s", "x1s", "x2s", "y1s", "y2s", "m1s", "m2s",
                           "H1", "H2", "A1", "A2")))
 
-save.image("dados_serie_a_2019.RData")
+save.image("dados_serie_a_2014_2019.RData")

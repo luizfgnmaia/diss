@@ -1,0 +1,77 @@
+---
+title: "Rates"
+output: html_notebook
+---
+
+```{r, warning = FALSE, message = FALSE}
+library(dplyr)
+
+load("dados_serie_a_2014_2019.RData")
+
+x = list(); y = list(); xy = list()
+for(i in 1:N) {
+  x[[i]] = c(x1[[i]], x2[[i]])
+  y[[i]] = c(y1[[i]], y2[[i]])
+  xy[[i]] = paste(x[[i]], y[[i]], sep = "-")
+}
+
+placares = c("0-0", "1-0", "0-1", "1-1", "2-0", "0-2", "2-1", "1-2", "2-2")
+tables = lapply(xy, table)
+last_score = lapply(xy, function(x) x[length(x)])
+
+delta = list()
+t = list()
+for(i in 1:length(placares)) {
+  tmp_delta = NULL
+  tmp_t = NULL
+  for(k in 1:N) {
+    if(placares[i] %in% names(tables[[k]])) {
+      tmp_delta[k] = ifelse(last_score[[k]] == placares[i], 0, 1)
+      tmp_t[k] = tables[[k]][placares[i]]
+    } else {
+      tmp_delta[k] = 0
+      tmp_t[k] = 0
+    }
+  }
+  delta[[i]] = tmp_delta
+  t[[i]] = tmp_t
+}
+
+names(delta) = placares
+names(t) = placares
+
+rates = NULL
+for(i in 1:length(delta)) {
+  rates[i] = sum(delta[[i]])/sum(t[[i]])
+}
+names(rates) = placares
+```
+
+```{r, warning = FALSE, message = FALSE}
+# pág 66 do Crowder
+sd = NULL
+for(i in 1:length(delta)) {
+  sd[i] = rates[i]/sqrt(sum(delta[[i]]))
+}
+
+tib = tibble(Rates = rates, SD = sd)
+rownames(tib) = placares
+knitr::kable(tib)
+```
+
+```{r, warning = FALSE, message = FALSE}
+mat = matrix(NA, nrow = 3, ncol = 3)
+rownames(mat) = paste0("x = ", 0:2)
+colnames(mat) = paste0("y =  ", 0:2)
+for(i in 1:3) {
+  for(j in 1:3) {
+    mat[i,j] = rates[paste(i-1, j-1, sep = "-")]
+  }
+}
+
+knitr::kable(mat)
+```
+
+
+
+
