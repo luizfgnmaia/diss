@@ -1,0 +1,25 @@
+{
+    "id": "FC34540E",
+    "path": "~/diss/code/eda_serie_a.Rmd",
+    "project_path": "eda_serie_a.Rmd",
+    "type": "r_markdown",
+    "hash": "1362565860",
+    "contents": "",
+    "dirty": false,
+    "created": 1612753778086.0,
+    "source_on_save": false,
+    "relative_order": 2,
+    "properties": {
+        "chunk_output_type": "inline",
+        "cursorPosition": "2,20",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1612754204,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1612754204732,
+    "read_only": false,
+    "read_only_alternatives": []
+}

@@ -1,6 +1,6 @@
 ---
 title: "Rates"
-output: html_notebook
+output: pdf_document
 ---
 
 ```{r, warning = FALSE, message = FALSE}

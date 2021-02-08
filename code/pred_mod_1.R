@@ -1,15 +1,12 @@
 
 load("mod_1.RData")
 
-pred_mod_1 <- function(n = 10000, home_team, away_team, score_home = 0, score_away = 0, minute = 0) {
+pred_mod_1 <- function(n = 10000, home_team, away_team, score_home = 0, score_away = 0, minute = 0, half = 1) {
   
-  pred <- function(home_team, away_team, score_home, score_away, minute) {
+  pred <- function(home_team, away_team, score_home, score_away, minute, half) {
     
-    half = ifelse(minute < 45, 1, 2)
-    
-    if(half == 1) {
+    if(half == 1) { # Tempo regulamentar do primeiro tempo
       while(minute < 45) {
-        
         lambda = exp(alpha_i + beta_j + gamma)
         mu = exp(alpha_j + beta_i)
         next_home_goal = rexp(1, rate = lambda) + minute
@@ -26,10 +23,11 @@ pred_mod_1 <- function(n = 10000, home_team, away_team, score_home = 0, score_aw
           minute = 45
         }
       }
-      U1 = rpois(1, lambda = mod_1$tau[1] + mod_1$phi[1]*(score_home + score_away))
+      
+      # Acréscimos do primeiro tempo
+      U1 = rpois(1, lambda = mod_1$eta[1] + mod_1$phi[1]*(score_home + score_away))
       u1 = 0
       while(u1 < U1) {
-        
         lambda = exp(alpha_i + beta_j + gamma)
         mu = exp(alpha_j + beta_i)
         next_home_goal = rexp(1, rate = lambda) + u1
@@ -44,20 +42,20 @@ pred_mod_1 <- function(n = 10000, home_team, away_team, score_home = 0, score_aw
           }
         } else {
           u1 = U1
-          minute = 45
+          minute = 0
           half = 2
         }
       }
     }
     
-    while(minute < 90) {
-      
+    # Tempo regulamentar do segundo tempo
+    while(minute < 45) {
       lambda = exp(alpha_i + beta_j + gamma)
       mu = exp(alpha_j + beta_i)
       next_home_goal = rexp(1, rate = lambda) + minute
       next_away_goal = rexp(1, rate = mu) + minute
       next_goal = min(next_home_goal, next_away_goal)
-      if(next_goal < 90) {
+      if(next_goal < 45) {
         minute = next_goal
         if(next_home_goal == minute) {
           score_home = score_home + 1
@@ -65,14 +63,15 @@ pred_mod_1 <- function(n = 10000, home_team, away_team, score_home = 0, score_aw
           score_away = score_away + 1
         }
       } else {
-        minute = 90
+        minute = 45
       }
     }
-    U2 = rpois(1, lambda = mod_1$tau[2] + mod_1$phi[2]*(score_home + score_away) +
+    
+    # Acréscimos do segundo tempo
+    U2 = rpois(1, lambda = mod_1$eta[2] + mod_1$phi[2]*(score_home + score_away) +
                  mod_1$kappa * (abs(score_home - score_away) <= 1))
     u2 = 0
     while(u2 < U2) {
-      
       lambda = exp(alpha_i + beta_j + gamma)
       mu = exp(alpha_j + beta_i)
       next_home_goal = rexp(1, rate = lambda) + u2
@@ -87,9 +86,9 @@ pred_mod_1 <- function(n = 10000, home_team, away_team, score_home = 0, score_aw
         }
       } else {
         u2 = U2
-        half = 2
       }
     }
+    
     c(score_home, score_away)
   }
   
@@ -101,7 +100,7 @@ pred_mod_1 <- function(n = 10000, home_team, away_team, score_home = 0, score_aw
   
   lst = list()
   for(i in 1:n) {
-    lst[[i]] = pred(home_team, away_team, score_home, score_away, minute)
+    lst[[i]] = pred(home_team, away_team, score_home, score_away, minute, half)
   }
   scores = do.call(rbind, lst)
   colnames(scores) = c(home_team, away_team)
@@ -118,7 +117,5 @@ pred_mod_1 <- function(n = 10000, home_team, away_team, score_home = 0, score_aw
   
   list("Result" = winner, "Score" = freq_scores)
 }
-
-
 
 

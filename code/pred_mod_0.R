@@ -25,7 +25,6 @@ pred_mod_0 <- function(n = 10000, home_team, away_team) {
   
   list("Result" = winner, "Score" = freq_scores)
 }
-    
 
 
 

@@ -21,7 +21,7 @@ U1 = resultados$Acréscimos_1
 U2 = resultados$Acréscimos_2
 
 # times, i, j, N, n
-times = tibble(Id = length(unique(resultados$Time_1)), Time = sort(unique(resultados$Time_1)))
+times = tibble(Id = 1:length(unique(resultados$Time_1)), Time = sort(unique(resultados$Time_1)))
 
 tmp1 = times %>%
   rename(Time_1 = Time,
@@ -246,6 +246,17 @@ A1 = unlist(A1)
 A2 = unlist(A2)
 
 times$Time = stringr::str_replace_all(times$Time, "\\s-\\s.*", "")
+times$Time[1] = "América-MG"
+times$Time[2] = "Athletico-PR"
+times$Time[3] = "Atlético-GO"
+times$Time[4] = "Atlético-MG"
+
+# Voltando a considerar o segundo tempo começando no minuto 0
+for(k in 1:N) {
+  t2[[k]] = t2[[k]] - 45
+  t2s[[k]] = t2s[[k]] - 45
+  I2[[k]] = I2[[k]] - 45
+}
 
 rm(list = setdiff(ls(), c("U1", "U2", "times", "i", "j", "N", "n", "x", "y",
                           "t1", "t2", "J1", "J2", "x1", "x2", "y1", "y2", "m1", "m2", "I1", "I2",

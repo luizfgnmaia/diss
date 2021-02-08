@@ -1,6 +1,6 @@
 
 library(dplyr)
-load("dados_serie_a_2019.RData")
+load("dados_serie_a_2014_2019.RData")
 
 # delta1, delta2, L1, L2, M1_lambda, M1_mu, M2_lambda, M2_mu
 diff1 = list()
@@ -15,11 +15,11 @@ delta2 = unlist(diff2)
 L1 = length(delta1)
 L2 = length(delta2)
 
-M1_lambda = matrix(0, ncol = 40, nrow = L1) 
+M1_lambda = matrix(0, ncol = 2*n, nrow = L1) 
 row = 0
 for(k in 1:N) {
-  alpha = rep(0, 20)
-  beta = rep(0, 20)
+  alpha = rep(0, n)
+  beta = rep(0, n)
   alpha[i[k]] = 1
   beta[j[k]] = 1
   tmp = c(alpha, beta)
@@ -31,13 +31,13 @@ for(k in 1:N) {
 gamma = rep(1, L1)
 M1_lambda = cbind(M1_lambda, gamma)
 M1_lambda = M1_lambda[,-1]
-colnames(M1_lambda) = c(paste0("alpha_", 2:20), paste0("beta", 1:20), "gamma")
+colnames(M1_lambda) = c(paste0("alpha_", 2:n), paste0("beta_", 1:n), "gamma")
 
-M2_lambda = matrix(0, ncol = 40, nrow = L2) 
+M2_lambda = matrix(0, ncol = 2*n, nrow = L2) 
 row = 0
 for(k in 1:N) {
-  alpha = rep(0, 20)
-  beta = rep(0, 20)
+  alpha = rep(0, n)
+  beta = rep(0, n)
   alpha[i[k]] = 1
   beta[j[k]] = 1
   tmp = c(alpha, beta)
@@ -49,13 +49,13 @@ for(k in 1:N) {
 gamma = rep(1, L2)
 M2_lambda = cbind(M2_lambda, gamma)
 M2_lambda = M2_lambda[,-1]
-colnames(M2_lambda) = c(paste0("alpha_", 2:20), paste0("beta", 1:20), "gamma")
+colnames(M2_lambda) = c(paste0("alpha_", 2:n), paste0("beta_", 1:n), "gamma")
 
-M1_mu = matrix(0, ncol = 40, nrow = L1)
+M1_mu = matrix(0, ncol = 2*n, nrow = L1)
 row = 0
 for(k in 1:N) {
-  alpha = rep(0, 20)
-  beta = rep(0, 20)
+  alpha = rep(0, n)
+  beta = rep(0, n)
   alpha[j[k]] = 1
   beta[i[k]] = 1
   tmp = c(alpha, beta)
@@ -67,13 +67,13 @@ for(k in 1:N) {
 gamma = rep(0, L1)
 M1_mu = cbind(M1_mu, gamma)
 M1_mu = M1_mu[,-1]
-colnames(M1_mu) = c(paste0("alpha_", 2:20), paste0("beta", 1:20), "gamma")
+colnames(M1_mu) = c(paste0("alpha_", 2:n), paste0("beta_", 1:n), "gamma")
 
-M2_mu = matrix(0, ncol = 40, nrow = L2)
+M2_mu = matrix(0, ncol = 2*n, nrow = L2)
 row = 0
 for(k in 1:N) {
-  alpha = rep(0, 20)
-  beta = rep(0, 20)
+  alpha = rep(0, n)
+  beta = rep(0, n)
   alpha[j[k]] = 1
   beta[i[k]] = 1
   tmp = c(alpha, beta)
@@ -85,7 +85,7 @@ for(k in 1:N) {
 gamma = rep(0, L2)
 M2_mu = cbind(M2_mu, gamma)
 M2_mu = M2_mu[,-1]
-colnames(M2_mu) = c(paste0("alpha_", 2:20), paste0("beta", 1:20), "gamma")
+colnames(M2_mu) = c(paste0("alpha_", 2:n), paste0("beta_", 1:n), "gamma")
 
 # r1, s1, r2, s2
 r1 = unlist(lapply(t1, function(x) length(x < 45)))
@@ -93,7 +93,7 @@ s1 = unlist(lapply(t1s, function(x) length(x < 45)))
 r2 = unlist(lapply(t2, function(x) length(x < 90)))
 s2 = unlist(lapply(t2s, function(x) length(x < 90)))
 
-# c
+# c (parâmetro da diferença de gols para o acréscimo do segundo tempo)
 c = NULL
 for(k in 1:N) {
   c[k] = as.integer(abs(x2[[k]][46] - y2[[k]][46]) <= 1)
