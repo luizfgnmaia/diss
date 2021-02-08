@@ -1,0 +1,112 @@
+---
+title: "Parameters Série A 2019"
+output: pdf_document
+---
+
+# Rates for the home and away teams
+
+## Model 0
+$$\lambda_k = \alpha_i \beta_j \gamma_h$$
+$$\mu_k = \alpha_j \beta_i$$
+
+\begin{itemize}
+\item $i$: home team index;
+\item $j$: away team index;
+\item $\alpha$: attack strength parameter;
+\item $1/\beta$: defense strength parameter;
+\item $\gamma_h$: home advantage parameter.
+\end{itemize}
+
+## Model 1
+$$\lambda_k(t) = \alpha_i \beta_j \gamma_h$$
+$$\mu_k(t) = \alpha_j \beta_i$$
+
+## Model 2
+$$\lambda_k(t) = \alpha_i \beta_j \gamma_h \tau^{\mathbb{I}\{\text{half = 2}\}}$$
+$$\mu_k(t) = \alpha_j \beta_i \tau^{\mathbb{I}\{\text{half = 2}\}}$$
+\begin{itemize}
+\item $\tau$: second half parameter.
+\end{itemize}
+
+## Model 3
+$$\lambda_k(t) = \alpha_i \beta_j \gamma_h \tau^{\mathbb{I}\{\text{half = 2}\}} \lambda_{xy}$$
+$$\mu_k(t) = \alpha_j \beta_i \tau^{\mathbb{I}\{\text{half = 2}\}} \mu_{xy}$$
+\begin{itemize}
+\item $\lambda_{xy} = \begin{cases}
+ 1, \text{ if $x = y$;}  \\
+ \lambda_{10}, \text{ if $x > y$;} \\
+ \lambda_{01}, \text{ if $x < y$;}
+\end{cases}$
+
+\item $\mu_{xy} = \begin{cases}
+ 1, \text{ if $x = y$;}  \\
+ \mu_{10}, \text{ if $x > y$;} \\
+ \mu_{01}, \text{ if $x < y$.}
+\end{cases}$
+\end{itemize}
+
+# Stoppage time
+
+For all models except model 0, the stoppage time for the first half, $U^1$, and the second half, $U^2$, are modeled as:
+$$ U^1 \sim \text{Poisson} (\eta_1 + \phi_1 g^1  )$$
+$$ U^2 \sim \text{Poisson} (\eta_2 + \phi_2 g^2 + \kappa c)$$
+
+\begin{itemize}
+\item $g^t$ is the amount of goals scored in half $t$ until minute 45;
+
+\item $c = \begin{cases}
+ 1, \text{ if $|x - y| \leq 1$ at minute 45 of the second half;}  \\
+ 0, \text{ otherwise.}
+\end{cases}$
+\end{itemize}
+
+```{r, warning = FALSE, message = FALSE}
+# options(OutDec = ",")
+options(knitr.kable.NA = "-")
+
+library(dplyr)
+library(knitr)
+
+load("dados_serie_a_2019.RData")
+load("mod_0.RData")
+load("mod_1.RData")
+load("mod_2.RData")
+load("mod_3.RData")
+```
+
+```{r}
+alphas = tibble(Time = times$Time,
+                mod_0 = exp(mod_0$alpha),
+                mod_1 = exp(mod_1$alpha),
+                mod_2 = exp(mod_2$alpha),
+                mod_3 = exp(mod_3$alpha))
+kable(alphas, digits = 4, caption = "Alphas")
+```
+```{r}
+betas = tibble(Time = times$Time,
+                mod_0 = exp(mod_0$beta),
+                mod_1 = exp(mod_1$beta),
+                mod_2 = exp(mod_2$beta),
+                mod_3 = exp(mod_3$beta))
+kable(betas, digits = 4, caption = "Betas")
+```
+
+```{r}
+param = tibble(Model = 0:3,
+               gamma = c(exp(mod_0$gamma), exp(mod_1$gamma), exp(mod_2$gamma), exp(mod_3$gamma)),
+               tau = c(NA, NA, exp(mod_2$tau), exp(mod_3$tau)),
+               lambda_10 = c(NA, NA, NA, exp(mod_3$lambda_xy["10"])),
+               lambda_01 = c(NA, NA, NA, exp(mod_3$lambda_xy["01"])),
+               mu_10 = c(NA, NA, NA, exp(mod_3$mu_xy["10"])),
+               mu_01 = c(NA, NA, NA, exp(mod_3$mu_xy["01"])),
+               eta_1 = c(NA, mod_1$eta[1], mod_2$eta[1], mod_3$eta[1]),
+               eta_2 = c(NA, mod_1$eta[2], mod_2$eta[2], mod_3$eta[2]),
+               phi_1 = c(NA, mod_1$phi[1], mod_2$phi[1], mod_3$phi[1]),
+               phi_2 = c(NA, mod_1$phi[2], mod_2$phi[2], mod_3$phi[2]),
+               kappa = c(NA, mod_1$kappa, mod_2$kappa, mod_3$kappa))
+kable(param, digits = 4, caption = "Other parameters",
+      col.names = c("Model", "$\\gamma_h$", "$\\tau$", "$\\lambda_{10}$",
+                    "$\\lambda_{01}$", "$\\mu_{10}$", "$\\lambda_{01}$", "$\\eta_1$",
+                    "$\\eta_2$", "$\\phi_1$", "$\\phi_2$", "$\\kappa$"))
+```
+

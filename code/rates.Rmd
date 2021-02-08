@@ -1,5 +1,5 @@
 ---
-title: "Rates"
+title: "Rates Série A 2014-2019"
 output: pdf_document
 ---
 
@@ -54,7 +54,7 @@ for(i in 1:length(delta)) {
   sd[i] = rates[i]/sqrt(sum(delta[[i]]))
 }
 
-tib = tibble(Rates = rates, SD = sd)
+tib = tibble(Rate = rates, SD = sd)
 rownames(tib) = placares
 knitr::kable(tib)
 ```

@@ -1,5 +1,5 @@
 
-load("dados_serie_a_2014_2019.RData")
+load("dados_serie_a_2019.RData")
 
 goals = c(x, y)
 alpha = as.factor(c(i, j))

@@ -1,6 +1,6 @@
 
 library(dplyr)
-load("dados_serie_a_2014_2019.RData")
+load("dados_serie_a_2019.RData")
 
 # delta1, delta2, L1, L2, M1_lambda, M1_mu, M2_lambda, M2_mu
 diff1 = list()
@@ -87,11 +87,11 @@ M2_mu = cbind(M2_mu, gamma)
 M2_mu = M2_mu[,-1]
 colnames(M2_mu) = c(paste0("alpha_", 2:n), paste0("beta_", 1:n), "gamma")
 
-# r1, s1, r2, s2
-r1 = unlist(lapply(t1, function(x) length(x < 45)))
-s1 = unlist(lapply(t1s, function(x) length(x < 45)))
-r2 = unlist(lapply(t2, function(x) length(x < 90)))
-s2 = unlist(lapply(t2s, function(x) length(x < 90)))
+# g1, r1, g2, r2
+g1 = unlist(lapply(t1, function(x) length(x < 45)))
+r1 = unlist(lapply(t1s, function(x) length(x < 45)))
+g2 = unlist(lapply(t2, function(x) length(x < 90)))
+r2 = unlist(lapply(t2s, function(x) length(x < 90)))
 
 # c (parâmetro da diferença de gols para o acréscimo do segundo tempo)
 c = NULL
@@ -100,6 +100,6 @@ for(k in 1:N) {
 }
 
 rm(list = setdiff(ls(), c("delta1", "delta2", "L1", "L2", "M1_lambda", "M1_mu", "M2_lambda", 
-                          "M2_mu", "r1", "s1", "r2", "s2", "c"))) 
+                          "M2_mu", "g1", "r1", "g2", "r2", "c"))) 
 
 save.image("dados_mod_1.RData")

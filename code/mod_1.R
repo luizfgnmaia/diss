@@ -2,7 +2,7 @@
 library(dplyr)
 library(CVXR)
 
-load("dados_serie_a_2014_2019.RData")
+load("dados_serie_a_2019.RData")
 load("dados_mod_1.RData")
 
 t0 = Sys.time()
@@ -15,8 +15,8 @@ theta = vstack(alpha, beta, gamma)
 eta = Variable(2)
 phi = Variable(2)
 kappa = Variable(1)
-pi1 = eta[1] + phi[1] * r1
-pi2 = eta[2] + phi[2] * r2 + c * kappa
+pi1 = eta[1] + phi[1] * g1
+pi2 = eta[2] + phi[2] * g2 + c * kappa
 
 log_lik = -t(delta1)%*%exp(M1_lambda%*%theta) -t(delta1)%*%exp(M1_mu%*%theta) -t(delta2)%*%exp(M2_lambda%*%theta) -t(delta2)%*%exp(M2_mu%*%theta) +
   t(H1)%*%M1_lambda%*%theta + t(A1)%*%M1_mu%*%theta + t(H2)%*%M2_lambda%*%theta + t(A2)%*%M2_mu%*%theta +
