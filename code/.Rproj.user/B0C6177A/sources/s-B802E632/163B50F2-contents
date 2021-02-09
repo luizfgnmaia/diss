@@ -1,0 +1,49 @@
+
+library(CVXR)
+
+load("dados_serie_a_2019.RData")
+load("dados_mod_4.RData")
+
+alpha = Variable(n-1)
+beta = Variable(n)
+gamma = Variable(1)
+tau = Variable(1)
+lambda_xy = Variable(2)
+mu_xy = Variable(2)
+theta = vstack(alpha, beta, gamma, tau, lambda_xy, mu_xy)
+csi = Variable(2)
+
+expr1 = exp(t2_1*csi[1])
+is_dcp(expr1)
+
+expr2 = exp(t1_1*csi[1])
+is_dcp(expr2)
+
+expr3 = 1/csi[1]
+is_dcp(expr3)
+
+is_dcp(expr1 - expr2)
+
+expr4 = log(expr1 - expr2)
+is_dcp(expr4)
+
+expr5 = log_sum_exp(hstack(t2_1*csi[1], -t1_1*csi[1]), axis = 1)
+is_dcp(expr5)
+
+expr6 = exp(expr5) - log(csi[1])
+is_dcp(expr6)       
+
+expr7 = exp(expr6)
+is_dcp(expr7)
+
+f_t_csi = exp(log_sum_exp(hstack(t2_1*csi[1], -t1_1*csi[1]), axis = 1) - log(csi[1]))
+is_dcp(f_t_csi)
+curvature(f_t_csi)
+
+expr8 = exp(M1_lambda %*% theta) * f_t_csi
+is_dcp(expr8)
+
+lambda = exp(M1_lambda %*% theta + log_sum_exp(hstack(t2_1*csi[1], -t1_1*csi[1]), axis = 1) - log(csi[1]))
+is_dcp(lambda)
+curvature(lambda)
+
