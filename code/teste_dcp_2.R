@@ -23,7 +23,7 @@ is_dcp(expr1 - expr2)
 expr4 = log(expr1 - expr2)
 is_dcp(expr4)
 
-expr5 = log_sum_exp(vstack((csi+1)*log(t2+1), -(csi+1)*log(t1+1)))
+expr5 = log_sum_exp(vstack((csi+1)*log(t2+1), -(csi+1)*log(t1+1))) # tá errado, não é o que preciso
 is_dcp(expr5)
 
 expr6 = exp(expr5) - log(csi+1)

@@ -99,24 +99,7 @@ for(k in 1:N) {
   c[k] = as.integer(abs(x2[[k]][46] - y2[[k]][46]) <= 1)
 }
 
-# Removendo os intervalos de tamanho 0
-ind1 = which(delta1 == 0)
-ind2 = which(delta2 == 0)
-delta1 = delta1[-ind1]
-delta2 = delta2[-ind2]
-M1_lambda = M1_lambda[-ind1,]
-M1_mu = M1_mu[-ind1,]
-M2_lambda = M2_lambda[-ind2,]
-M2_mu = M2_mu[-ind2,]
-L1 = L1 - length(ind1)
-L2 = L2 - length(ind2)
-H1 = H1[-ind1]
-A1 = A1[-ind1]
-H2 = H2[-ind2]
-A2 = A2[-ind2]
-
 rm(list = setdiff(ls(), c("delta1", "delta2", "L1", "L2", "M1_lambda", "M1_mu", "M2_lambda", 
-                          "M2_mu", "g1", "r1", "g2", "r2", "c", "ind1", "ind2",
-                          "H1", "H2", "A1", "A2"))) 
+                          "M2_mu", "g1", "r1", "g2", "r2", "c"))) 
 
 save.image("dados_mod_1.RData")

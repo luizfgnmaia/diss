@@ -34,7 +34,7 @@ for(k in 1:N) {
 zero_1 = rep(0, L1)
 zero_2 = rep(0, L2)
 
-M_score_index_3_1 = unlist(score_index_3_1)[-ind1]
+M_score_index_3_1 = unlist(score_index_3_1)
 lambda_10_1 = rep(0, L1)
 lambda_01_1 = rep(0, L1)
 mu_10_1 = rep(0, L1)
@@ -44,7 +44,7 @@ lambda_01_1[which(M_score_index_3_1 == 3)] = 1
 mu_10_1[which(M_score_index_3_1 == 2)] = 1
 mu_01_1[which(M_score_index_3_1 == 3)] = 1
 
-M_score_index_3_2 = unlist(score_index_3_2)[-ind2]
+M_score_index_3_2 = unlist(score_index_3_2)
 lambda_10_2 = rep(0, L2)
 lambda_01_2 = rep(0, L2)
 mu_10_2 = rep(0, L2)
@@ -65,7 +65,6 @@ M2_mu = cbind(M2_mu, zero_2, zero_2, mu_10_2, mu_01_2)
 colnames(M2_mu)[(2*n+2):(ncol(M2_mu))] = c("lambda_10", "lambda_01", "mu_10", "mu_01")
 
 rm(list = setdiff(ls(), c("delta1", "delta2", "L1", "L2", "M1_lambda", "M1_mu", "M2_lambda", 
-                          "M2_mu", "g1", "r1", "g2", "r2", "c", "ind1", "ind2",
-                          "H1", "H2", "A1", "A2"))) 
+                          "M2_mu", "g1", "r1", "g2", "r2", "c")))
 
 save.image("dados_mod_3.RData")

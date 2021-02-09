@@ -21,15 +21,15 @@ kappa = Variable(1)
 pi1 = eta[1] + phi[1] * g1
 pi2 = eta[2] + phi[2] * g2 + c * kappa
 
-lambda1 = delta1 * exp(M1_lambda %*% theta)
-mu1 = delta1 * exp(M1_mu %*% theta) 
-lambda2 = delta2 * exp(M2_lambda %*% theta) 
-mu2 = delta2 * exp(M2_mu %*% theta)
-
 loglambda1 = log(delta1) + M1_lambda %*% theta
 logmu1 = log(delta1) + M1_mu %*% theta
 loglambda2 = log(delta2) + M2_lambda %*% theta
 logmu2 = log(delta2) + M2_mu %*% theta
+
+lambda1 = exp(loglambda1)
+mu1 = exp(logmu1)
+lambda2 = exp(loglambda2)
+mu2 = exp(logmu2)
 
 log_lik = - sum_entries(lambda1) - sum_entries(mu1) - sum_entries(lambda2) - sum_entries(mu2) +
   sum_entries(H1*loglambda1) + sum_entries(A1*logmu1) + sum_entries(H2*loglambda2) + sum_entries(A2*logmu2) +
