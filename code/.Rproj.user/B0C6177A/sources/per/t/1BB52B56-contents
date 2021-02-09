@@ -1,0 +1,13 @@
+
+load("data/gols.RData")
+load("data/resultados.RData")
+gols %>%
+  filter(Ano == 2019, Campeonato == "Campeonato Brasileiro Série A", Jogo == 329) %>% View()
+
+a = resultados %>%
+  filter(Ano == 2019, Campeonato == "Campeonato Brasileiro Série A", Jogo == 329)
+View(a)
+
+H1[[329]]
+
+# tenho que alterar o H1 e A1 dos que deram problema
