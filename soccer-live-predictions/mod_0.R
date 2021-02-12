@@ -1,20 +1,45 @@
 
+library(CVXR)
+
 load("dados_serie_a_2019.RData")
+
+t0 = Sys.time()
 
 goals = c(x, y)
 alpha = as.factor(c(i, j))
 beta = as.factor(c(j, i))
 gamma = c(rep(1, N), rep(0, N))
-# View(model.matrix(~ beta + alpha + gamma - 1))
 
-solution = glm(goals ~ beta + alpha + gamma - 1, family = poisson)
+# https://stackoverflow.com/questions/4560459/all-levels-of-a-factor-in-a-model-matrix-in-r
+df = data.frame(alpha, beta, gamma)
+dmy = caret::dummyVars(" ~ .", data = df) 
+M = as.matrix(data.frame(predict(dmy, newdata = df)))
 
-mod_0 = list(alpha = c(0, solution$coefficients[(n+1):(2*n-1)]),
-             beta = solution$coefficients[1:n],
-             gamma = solution$coefficients[2*n])
+alpha = Variable(20)
+beta = Variable(20)
+gamma = Variable(1)
+theta = vstack(alpha, beta, gamma)
+
+log_lik = sum_entries(goals * M %*% theta - exp(M %*% theta))
+
+objective = Maximize(log_lik)
+constraints = list(sum(alpha) - sum(beta) == 0)
+problem = Problem(objective, constraints)
+set.seed(1)
+solution = solve(problem, solver = "MOSEK")
+
+duration = Sys.time() - t0
+
+mod_0 = list(alpha = as.vector(c(solution$getValue(alpha))),
+             beta = as.vector(solution$getValue(beta)),
+             gamma = as.vector(solution$getValue(gamma)),
+             value = solution$value,
+             duration = duration)
 names(mod_0$alpha) = times$Time
 names(mod_0$beta) = times$Time
 
 save(mod_0, file = "mod_0.RData")
+
+
 
 

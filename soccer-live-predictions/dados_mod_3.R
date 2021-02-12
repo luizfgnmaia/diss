@@ -17,7 +17,7 @@ for(k in 1:N) {
   score_index_3_1[[k]] = tmp_score_index
 }
 
-score_index_3_2 = list() # conferir depois esse aqui
+score_index_3_2 = list()
 for(k in 1:N) {
   tmp_score_index = NULL
   for(l in 1:(length(I2[[k]])-1)) {
@@ -55,14 +55,16 @@ mu_10_2[which(M_score_index_3_2 == 2)] = 1
 mu_01_2[which(M_score_index_3_2 == 3)] = 1
 
 M1_lambda = cbind(M1_lambda, lambda_10_1, lambda_01_1, zero_1, zero_1)
-colnames(M1_lambda)[(2*n+2):(ncol(M1_lambda))] = c("lambda_10", "lambda_01", "mu_10", "mu_01")
+colnames(M1_lambda)[(2*n+3):(ncol(M1_lambda))] = c("lambda_10", "lambda_01", "mu_10", "mu_01")
+
 M2_lambda = cbind(M2_lambda, lambda_10_2, lambda_01_2, zero_2, zero_2)
-colnames(M2_lambda)[(2*n+2):(ncol(M2_lambda))] = c("lambda_10", "lambda_01", "mu_10", "mu_01")
+colnames(M2_lambda)[(2*n+3):(ncol(M2_lambda))] = c("lambda_10", "lambda_01", "mu_10", "mu_01")
 
 M1_mu = cbind(M1_mu, zero_1, zero_1, mu_10_1, mu_01_1)
-colnames(M1_mu)[(2*n+2):(ncol(M1_mu))] = c("lambda_10", "lambda_01", "mu_10", "mu_01")
+colnames(M1_mu)[(2*n+3):(ncol(M1_mu))] = c("lambda_10", "lambda_01", "mu_10", "mu_01")
+
 M2_mu = cbind(M2_mu, zero_2, zero_2, mu_10_2, mu_01_2)
-colnames(M2_mu)[(2*n+2):(ncol(M2_mu))] = c("lambda_10", "lambda_01", "mu_10", "mu_01")
+colnames(M2_mu)[(2*n+3):(ncol(M2_mu))] = c("lambda_10", "lambda_01", "mu_10", "mu_01")
 
 rm(list = setdiff(ls(), c("delta1", "delta2", "L1", "L2", "M1_lambda", "M1_mu", "M2_lambda", 
                           "M2_mu", "g1", "r1", "g2", "r2", "c")))

@@ -7,7 +7,7 @@ load("dados_mod_2.RData")
 
 t0 = Sys.time()
 
-alpha = Variable(n-1)
+alpha = Variable(n)
 beta = Variable(n)
 gamma = Variable(1)
 tau = Variable(1)
@@ -24,13 +24,14 @@ log_lik = -t(delta1)%*%exp(M1_lambda%*%theta) -t(delta1)%*%exp(M1_mu%*%theta) -t
   t(U1) %*% log(pi1) + t(U2) %*% log(pi2) - sum_entries(pi1) - sum_entries(pi2)
 
 objective = Maximize(log_lik)
-problem = Problem(objective)
+constraints = list(sum(alpha) - sum(beta) == 0)
+problem = Problem(objective, constraints)
 set.seed(1)
 solution = solve(problem, solver = "MOSEK")
 
 duration = Sys.time() - t0
 
-mod_2 = list(alpha = as.vector(c(0, solution$getValue(alpha))),
+mod_2 = list(alpha = as.vector(c(solution$getValue(alpha))),
              beta = as.vector(solution$getValue(beta)),
              gamma = as.vector(solution$getValue(gamma)),
              tau = as.vector(solution$getValue(tau)),
