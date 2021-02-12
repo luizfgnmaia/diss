@@ -1,7 +1,0 @@
-"0","load(""data/resultados.RData"")"
-"0",""
-"0","medias = resultados %>%"
-"0","  filter(Ano >= 2014, Campeonato == ""Campeonato Brasileiro Série A"") %>%"
-"0","  group_by(Ano) %>%"
-"0","  summarise(Acréscimos_1 = mean(Acréscimos_1),"
-"0","            Acréscimos_2 = mean(Acréscimos_2))"

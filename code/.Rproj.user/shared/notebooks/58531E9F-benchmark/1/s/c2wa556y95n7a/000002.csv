@@ -1,8 +1,0 @@
-"0","```r
-p = medias %>%
-  ggplot(aes(ANO, INSE)) +
-  geom_point(size = 3) +
-  scale_x_continuous(breaks = c(2007, 2009, 2011, 2013, 2015, 2017)) +
-  theme_bw()
-p
-```"

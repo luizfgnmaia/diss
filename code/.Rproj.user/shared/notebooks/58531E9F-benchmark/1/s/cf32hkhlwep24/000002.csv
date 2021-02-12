@@ -1,7 +1,0 @@
-"0","```r
-medias = inse_go_esc %>%
-  group_by(ANO) %>%
-  summarise(INSE = mean(INSE))
-```"
-"1","`summarise()` ungrouping output (override with `.groups` argument)
-"
