@@ -61,7 +61,7 @@ $$ U^2 \sim \text{Poisson} (\eta_2 + \phi_2 g^2 + \kappa c)$$
 
 # Constraint
 
-The constraint used for identificability in all models was
+The constraint for identificability in all models is
 $$ \sum_i^n \log(\alpha_i) = \sum_i^n \log(\beta_i)$$
 
 ```{r, warning = FALSE, message = FALSE}
