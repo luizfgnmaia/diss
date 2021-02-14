@@ -3,7 +3,7 @@
 "0","library(reshape2)"
 "0","library(ggplot2)"
 "0",""
-"0","load(""dados_serie_a_2014_2019.RData"")"
+"0","load(""input_2014_2019.RData"")"
 "0",""
 "0","x = list(); y = list(); xy = list()"
 "0","for(i in 1:N) {"

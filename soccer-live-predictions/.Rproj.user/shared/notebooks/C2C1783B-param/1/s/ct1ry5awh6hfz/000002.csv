@@ -1,0 +1,5 @@
+"0","load(""2018/data/input.RData"")
+"
+"2","Error in readChar(con, 5L, useBytes = TRUE) : 
+  não é possível abrir a conexão
+"

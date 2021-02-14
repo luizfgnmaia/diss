@@ -38,7 +38,10 @@ r6 = tibble(Campeonato = "Campeonato Brasileiro Série A", Ano = 2016, Jogo = 29
             Data = "2016-10-13", Time_1 = "Fluminense - RJ", Placar_1 = 1, Placar_2 = 2,
             Time_2 = "Flamengo - RJ", Time = "Visitante", Minuto = 8, Acréscimo = NA, Tempo = "2º")
 
-gols = rbind(gols, r1, r2, r3, r4, r5, r6) %>%
-  arrange(Data, Tempo, Minuto)
+gols = rbind(gols, r1, r2, r3, r4, r5, r6)
+gols$Acréscimo[which(is.na(gols$Acréscimo))] = 0 # dava problema na ordem de jogos com gols aos 45 e aos 45+x
+gols = gols %>%
+  arrange(Data, Tempo, Minuto, Acréscimo)
+gols$Acréscimo[which(gols$Acréscimo == 0)] = NA
 
 save(gols, file = "data/gols.RData")
