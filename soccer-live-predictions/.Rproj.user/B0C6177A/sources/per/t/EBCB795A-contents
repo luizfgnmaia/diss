@@ -6,7 +6,6 @@ load("data/gols.RData")
 load("data/reds.RData")
 
 #### Resultados
-
 resultados = resultados %>%
   filter(Campeonato == "Campeonato Brasileiro Série A",
          Ano >= 2014) %>%
@@ -44,13 +43,11 @@ i = resultados$i; j = resultados$j; x = resultados$x; y = resultados$y
 N = nrow(resultados); n = nrow(times)
 
 #### Gols
-
 gols = gols %>%
   filter(Campeonato == "Campeonato Brasileiro Série A",
          Ano >= 2014) %>%
   mutate(J = ifelse(Time == "Visitante", 1, 0))
 gols$Acréscimo[is.na(gols$Acréscimo)] = 0
-gols$Minuto[which(gols$Tempo == "2º")] = gols$Minuto[which(gols$Tempo == "2º")] + 45
 gols$Minuto = gols$Minuto + gols$Acréscimo
 
 gols = gols %>%
@@ -111,12 +108,12 @@ for(k in 1:N) {
       filter(J == 1)
     if(nrow(mandante > 0)) {
       for(m in 1:nrow(mandante)) {
-        tmp_x2[(mandante$Minuto[m]+1-45):(45+U2[k]+1)] = tmp_x2[mandante$Minuto[m]-45]+1
+        tmp_x2[(mandante$Minuto[m]+1):(45+U2[k]+1)] = tmp_x2[mandante$Minuto[m]]+1
       }
     }
     if(nrow(visitante > 0)) {
       for(m in 1:nrow(visitante)) {
-        tmp_y2[(visitante$Minuto[m]+1-45):(45+U2[k]+1)] = tmp_y2[visitante$Minuto[m]-45]+1
+        tmp_y2[(visitante$Minuto[m]+1):(45+U2[k]+1)] = tmp_y2[visitante$Minuto[m]]+1
       }
     }
     x2[[k]] = tmp_x2
@@ -135,15 +132,14 @@ for(k in 1:N) {
 I1 = list(); I2 = list()
 for(k in 1:N) {
   I1[[k]] = c(0, t1[[k]], 45+U1[k]) %>%
-    #unique() %>%
+    unique() %>%
     sort()
-  I2[[k]] = c(45, t2[[k]], 90+U2[k]) %>%
-    #unique() %>%
+  I2[[k]] = c(0, t2[[k]], 45+U2[k]) %>%
+    unique() %>%
     sort()
 }
 
 #### Reds
-
 reds = reds %>%
   filter(Campeonato == "Campeonato Brasileiro Série A",
          Ano >= 2014) %>%
@@ -210,12 +206,12 @@ for(k in 1:N) {
       filter(J == 1)
     if(nrow(mandante > 0)) {
       for(m in 1:nrow(mandante)) {
-        tmp_x2[(mandante$Minuto[m]+1-45):(45+U2[k]+1)] = tmp_x2[mandante$Minuto[m]-45]+1
+        tmp_x2[(mandante$Minuto[m]+1):(45+U2[k]+1)] = tmp_x2[mandante$Minuto[m]]+1
       }
     }
     if(nrow(visitante > 0)) {
       for(m in 1:nrow(visitante)) {
-        tmp_y2[(visitante$Minuto[m]+1-45):(45+U2[k]+1)] = tmp_y2[visitante$Minuto[m]-45]+1
+        tmp_y2[(visitante$Minuto[m]+1):(45+U2[k]+1)] = tmp_y2[visitante$Minuto[m]]+1
       }
     }
     x2s[[k]] = tmp_x2
@@ -233,12 +229,31 @@ for(k in 1:N) {
 
 # H1, H2, A1, A2
 H1 = list(); H2 = list(); A1 = list(); A2 = list()
-
 for(k in 1:N) {
-  H1[[k]] = c(as.integer(!J1[[k]]), 0)
-  H2[[k]] = c(as.integer(!J2[[k]]), 0)
-  A1[[k]] = c(J1[[k]], 0)
-  A2[[k]] = c(J2[[k]], 0)
+  if(length(t1[[k]]) > 0) {
+    if(t1[[k]][length(t1[[k]])] == (45+U1[k])) {
+      H1[[k]] = c(as.integer(!J1[[k]]))
+      A1[[k]] = c(J1[[k]])
+    } else {
+      H1[[k]] = c(as.integer(!J1[[k]]), 0)
+      A1[[k]] = A1[[k]] = c(J1[[k]], 0)
+    }
+  } else {
+    H1[[k]] = 0
+    A1[[k]] = 0
+  }
+  if(length(t2[[k]]) > 0) {
+    if(t2[[k]][length(t2[[k]])] == (45+U2[k])) {
+      H2[[k]] = c(as.integer(!J2[[k]]))
+      A2[[k]] = c(J2[[k]])
+    } else {
+      H2[[k]] = c(as.integer(!J2[[k]]), 0)
+      A2[[k]] = A2[[k]] = c(J2[[k]], 0)
+    }
+  } else {
+    H2[[k]] = 0
+    A2[[k]] = 0
+  }
 }
 H1 = unlist(H1)
 H2 = unlist(H2)
@@ -251,16 +266,9 @@ times$Time[2] = "Athletico-PR"
 times$Time[3] = "Atlético-GO"
 times$Time[4] = "Atlético-MG"
 
-# Voltando a considerar o segundo tempo começando no minuto 0
-for(k in 1:N) {
-  t2[[k]] = t2[[k]] - 45
-  t2s[[k]] = t2s[[k]] - 45
-  I2[[k]] = I2[[k]] - 45
-}
-
 rm(list = setdiff(ls(), c("U1", "U2", "times", "i", "j", "N", "n", "x", "y",
                           "t1", "t2", "J1", "J2", "x1", "x2", "y1", "y2", "m1", "m2", "I1", "I2",
                           "t1s", "t2s", "J1s", "J2s", "x1s", "x2s", "y1s", "y2s", "m1s", "m2s",
                           "H1", "H2", "A1", "A2")))
 
-save.image("input_2014_2019.RData")
+save.image("2019/data/input.RData")

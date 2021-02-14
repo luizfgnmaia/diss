@@ -3,22 +3,22 @@
     "path": "~/GitHub/soccer-live-predictions/soccer-live-predictions/rates.Rmd",
     "project_path": "rates.Rmd",
     "type": "r_markdown",
-    "hash": "3257468732",
+    "hash": "1495386985",
     "contents": "",
     "dirty": false,
     "created": 1613273071859.0,
     "source_on_save": false,
     "relative_order": 2,
     "properties": {
-        "cursorPosition": "11,11",
-        "scrollLine": "2"
+        "cursorPosition": "123,40",
+        "scrollLine": "117"
     },
     "folds": "",
-    "lastKnownWriteTime": 1613273225,
+    "lastKnownWriteTime": 1613281230,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1613273225265,
+    "last_content_update": 1613281230122,
     "read_only": false,
     "read_only_alternatives": []
 }

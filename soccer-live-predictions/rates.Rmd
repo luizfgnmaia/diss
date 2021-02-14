@@ -119,15 +119,15 @@ melted_mat_away = melt(mat_away) %>%
 ggplot(data = melted_mat, aes(x, y, fill = value)) + 
   geom_tile() +
   scale_fill_gradient2(low = "yellow", mid = "orange", high = "red",
-                       midpoint = 0.028, limit = c(0.016, 0.04), 
-                       name= "Rate") +
+                       midpoint = 0.029, limit = c(0.016, 0.042),
+                       name = expression(hat(nu)[xy]),
+                       breaks = c(0.02, 0.04)) +
   geom_text(aes(x, y, label = round(value, 4)), color = "black") +
   theme(panel.grid.major = element_blank(),
         panel.border = element_blank(),
         panel.background = element_blank(),
         axis.ticks = element_blank()) +
-  ggtitle(expression(paste(hat(nu)[xy], " for the both teams"))) +
-  guides(fill = guide_legend(title = expression(hat(nu)[xy])))
+  ggtitle(expression(paste(hat(nu)[xy], " for the both teams")))
 ```
 
 \clearpage
@@ -135,15 +135,15 @@ ggplot(data = melted_mat, aes(x, y, fill = value)) +
 ggplot(data = melted_mat_home, aes(x, y, fill = value)) + 
   geom_tile() +
   scale_fill_gradient2(low = "yellow", mid = "orange", high = "red",
-                       midpoint = 0.014, limit = c(0.008, 0.02), 
-                       name= "Rate") +
+                       midpoint = 0.0145, limit = c(0.008, 0.021),
+                       name = expression(hat(nu)[xy]),
+                       breaks = c(0.01, 0.02)) +
   geom_text(aes(x, y, label = round(value, 4)), color = "black") +
   theme(panel.grid.major = element_blank(),
         panel.border = element_blank(),
         panel.background = element_blank(),
         axis.ticks = element_blank()) +
-  ggtitle(expression(paste(hat(nu)[xy], " for the home team"))) +
-  guides(fill = guide_legend(title = expression(hat(nu)[xy])))
+  ggtitle(expression(paste(hat(nu)[xy], " for the home team")))
 ```
 
 \clearpage
@@ -151,13 +151,13 @@ ggplot(data = melted_mat_home, aes(x, y, fill = value)) +
 ggplot(data = melted_mat_away, aes(x, y, fill = value)) + 
   geom_tile() +
   scale_fill_gradient2(low = "yellow", mid = "orange", high = "red",
-                       midpoint = 0.014, limit = c(0.008, 0.02), 
-                       name= "Rate") +
+                       midpoint = 0.0145, limit = c(0.008, 0.021), 
+                       name = expression(hat(nu)[xy]),
+                       breaks = c(0.01, 0.02)) +
   geom_text(aes(x, y, label = round(value, 4)), color = "black") +
   theme(panel.grid.major = element_blank(),
         panel.border = element_blank(),
         panel.background = element_blank(),
         axis.ticks = element_blank()) +
-  ggtitle(expression(paste(hat(nu)[xy], " for the away team"))) +
-  guides(fill = guide_legend(title = expression(hat(nu)[xy])))
+  ggtitle(expression(paste(hat(nu)[xy], " for the away team")))
 ```
