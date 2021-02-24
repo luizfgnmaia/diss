@@ -223,8 +223,9 @@ tib = tibble(Rate = paste0("$\\rho_{", stringr::str_replace(scores, "-", ""), "}
 \clearpage
 ```{r}
 kable(tib, digits = 4, caption = "Estimates and standard errors of the rate of the time
-to the next goal")
+to the next red card")
 ```
+
 ```{r}
 names(rates) = scores
 names(rates_home) = scores

@@ -1,5 +1,5 @@
 
-load("mod_2.RData")
+load("2019/data/mod_2.RData")
 
 pred_mod_2 <- function(n = 10000, home_team, away_team, score_home = 0, score_away = 0, minute = 0, half = 1) {
   

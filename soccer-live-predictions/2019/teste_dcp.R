@@ -4,7 +4,6 @@ library(CVXR)
 t1 = 1
 t2 = 2
 csi = Variable(1)
-# csi = Variable(1, pos = TRUE)
 
 # f(t) = log(t+1)
 expr1 = exp((csi+1)*log(t2+1))
