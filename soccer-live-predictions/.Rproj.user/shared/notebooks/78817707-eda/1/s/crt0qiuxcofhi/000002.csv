@@ -1,0 +1,7 @@
+"0","t1 = tmp %>%"
+"0","  filter(Minute < 45, Half == ""1º"")"
+"0",""
+"0","lm1 = lm(p ~ Minute, data = t1)"
+"2","Error in lm.fit(x, y, offset = offset, singular.ok = singular.ok, ...) : 
+  0 (não-NA) casos
+"

@@ -1,0 +1,285 @@
+---
+title: "EDA Série A 2014-2019"
+output: pdf_document
+---
+
+```{r, warning = FALSE, message = FALSE}
+options(OutDec = ",")
+
+library(dplyr)
+library(ggplot2)
+
+load("data/gols.RData")
+load("data/resultados.RData")
+load("data/reds.RData")
+
+resultados = resultados %>%
+  filter(Ano >= 2014, Campeonato == "Campeonato Brasileiro Série A")
+
+gols = gols %>%
+  filter(Ano >= 2014, Campeonato == "Campeonato Brasileiro Série A")
+
+reds = reds %>%
+  filter(Campeonato == "Campeonato Brasileiro Série A")
+```
+
+## Gols por minuto
+```{r, fig.height = 5, fig.width = 10}
+gols$Acréscimo[which(is.na(gols$Acréscimo))] = 0
+
+gols = gols %>%
+  mutate(Minuto = Minuto + Acréscimo)
+
+gols$Minuto[which(gols$Minuto > 50)] = 50
+
+tmp = gols %>%
+  count(Minuto, Tempo) %>%
+  mutate(p = n/nrow(gols))
+
+tmp %>%
+  ggplot(aes(x = Minuto, y = p, col = Tempo)) +
+  geom_line(size = 1) +
+  geom_point(size = 2) +
+  theme_bw() +
+  ylab("Gols (%)") +
+  scale_x_continuous(breaks = seq(from = 0, to = 50, by = 5),
+                     labels = c(seq(from = 0, to = 45, by = 5), "50+")) +
+  ylim(0, 0.015)
+```
+
+```{r}
+t1 = tmp %>%
+  filter(Minuto < 45, Tempo == "1º")
+
+lm1 = lm(p ~ Minuto, data = t1)
+
+summary(lm1)
+```
+
+```{r, fig.height = 5, fig.width = 10}
+t1 %>%
+  ggplot(aes(x = Minuto, y = p)) +
+  geom_point(size = 1) +
+  geom_point(size = 2) +
+  theme_bw() +
+  ylab("Gols (%)") +
+  scale_x_continuous(breaks = seq(from = 0, to = 45, by = 5)) +
+  ylim(0, 0.015) +
+  geom_abline(intercept = lm1$coefficients[1], slope = lm1$coefficients[2], col = "red", size = 1)
+```
+
+```{r}
+t2 = tmp %>%
+  filter(Minuto < 45, Tempo == "2º")
+
+lm2 = lm(p ~ Minuto, data = t2)
+
+summary(lm2)
+```
+
+```{r, fig.height = 5, fig.width = 10}
+t2 %>%
+  ggplot(aes(x = Minuto, y = p)) +
+  geom_point(size = 1) +
+  geom_point(size = 2) +
+  theme_bw() +
+  ylab("Gols (%)") +
+  scale_x_continuous(breaks = seq(from = 0, to = 45, by = 5)) +
+  ylim(0, 0.015) +
+  geom_abline(intercept = lm2$coefficients[1], slope = lm2$coefficients[2], col = "red", size = 1)
+```
+
+## Placares mais comuns
+```{r}
+resultados %>%
+  count(Placar_1, Placar_2) %>%
+  arrange(desc(n))
+```
+
+```{r, fig.height = 5, fig.width = 10}
+mandante = resultados %>%
+  count(Placar_1) %>%
+  na.omit() %>%
+  mutate(Time = "Mandante") %>%
+  rename(Placar = Placar_1)
+
+visitante = resultados %>%
+  count(Placar_2) %>%
+  na.omit() %>%
+  mutate(Time = "Visitante") %>%
+  rename(Placar = Placar_2)
+
+tmp = rbind(mandante, visitante) %>%
+  mutate(p = n/(nrow(resultados) - 1))
+
+tmp %>%
+  ggplot(aes(fill = Time, y = p, x = Placar)) + 
+  geom_bar(position = "dodge", stat = "identity") +
+  theme_bw() +
+  xlab("Gols") +
+  ylab("%") +
+  scale_x_continuous(breaks = 0:6)
+```
+
+## Resultados
+```{r}
+tmp = resultados %>%
+  mutate(resultado = ifelse(Placar_1 == Placar_2, "Empate", ifelse(Placar_1 > Placar_2, "Vitória do mandante", "Vitória do visitante"))) %>%
+  count(resultado) %>%
+  arrange(desc(n)) %>%
+  mutate(p = n/(nrow(resultados)))
+tmp
+```
+
+```{r}
+tmp %>%
+  mutate() %>%
+  na.omit() %>%
+  mutate(resultado = factor(resultado, levels = c("Vitória do mandante", "Empate", "Vitória do visitante"))) %>%
+  ggplot(aes(x = resultado, y = p)) +
+  geom_bar(position = "dodge", stat = "identity") +
+  theme_bw() +
+  xlab("") +
+  ylab("%")
+```
+
+## Cartões vermelhos por minuto
+```{r, fig.height = 5, fig.width = 10, warning = FALSE, message = FALSE}
+reds$Acréscimo[which(is.na(reds$Acréscimo))] = 0
+
+reds = reds %>%
+  mutate(Minuto = Minuto + Acréscimo)
+
+reds$Minuto[which(reds$Minuto > 50)] = 50
+
+tib_zeros = tibble(Minuto = c(1:50, 1:50), Tempo = c(rep("1º", 50), rep("2º", 50)), n = 0L)
+complete_zeros <- function(tib_count) {
+  tib_count %>%
+    full_join(tib_zeros, by = c("Minuto", "Tempo", "n")) %>%
+    group_by(Minuto, Tempo) %>%
+    summarise(n = sum(n))
+}
+
+tmp = reds %>%
+  count(Minuto, Tempo) %>%
+  complete_zeros() %>%
+  mutate(p = n/nrow(reds))
+
+tmp %>%
+  ggplot(aes(x = Minuto, y = p, col = Tempo)) +
+  geom_line(size = 1) +
+  geom_point(size = 2) +
+  theme_bw() +
+  ylab("Cartões vermelhos (%)") +
+  scale_x_continuous(breaks = seq(from = 0, to = 50, by = 5),
+                     labels = c(seq(from = 0, to = 45, by = 5), "50+")) +
+  ylim(0, 0.065)
+```
+
+```{r}
+t1 = tmp %>%
+  filter(Minuto < 45, Tempo == "1º")
+
+lm1 = lm(p ~ Minuto, data = t1)
+
+summary(lm1)
+```
+
+```{r, fig.height = 5, fig.width = 10}
+t1 %>%
+  ggplot(aes(x = Minuto, y = p)) +
+  geom_point(size = 1) +
+  geom_point(size = 2) +
+  theme_bw() +
+  ylab("Cartões vermelhos (%)") +
+  scale_x_continuous(breaks = seq(from = 0, to = 45, by = 5)) +
+  ylim(0, 0.065) +
+  geom_abline(intercept = lm1$coefficients[1], slope = lm1$coefficients[2], col = "red", size = 1)
+```
+
+```{r}
+t2 = tmp %>%
+  filter(Minuto < 45, Tempo == "2º")
+
+lm2 = lm(p ~ Minuto, data = t2)
+
+summary(lm2)
+```
+
+```{r, fig.height = 5, fig.width = 10}
+t2 %>%
+  ggplot(aes(x = Minuto, y = p)) +
+  geom_point(size = 1) +
+  geom_point(size = 2) +
+  theme_bw() +
+  ylab("Cartões vermelhos (%)") +
+  scale_x_continuous(breaks = seq(from = 0, to = 45, by = 5)) +
+  ylim(0, 0.065) +
+  geom_abline(intercept = lm2$coefficients[1], slope = lm2$coefficients[2], col = "red", size = 1)
+```
+
+```{r, fig.height = 5, fig.width = 10}
+reds %>%
+  count(Ano, Time) %>%
+  mutate(m = n/380) %>%
+  ggplot(aes(x = Ano, y = m, col = Time)) +
+  geom_line(size = 1) +
+  geom_point(size = 2) +
+  theme_bw() +
+  scale_x_continuous(breaks = 2014:2019) +
+  ylim(0, 0.2)
+```
+
+## Acréscimos
+```{r, fig.height = 5, fig.width = 10}
+resultados$Acréscimos_1[which(resultados$Acréscimos_1 > 10)] = 10
+resultados %>%
+  count(Acréscimos_1) %>%
+  mutate(p = n/nrow(resultados)) %>%
+  ggplot(aes(x = Acréscimos_1, y = p)) +
+  geom_bar(position = "dodge", stat = "identity") +
+  theme_bw() +
+  xlab("") +
+  ylab("Acréscimos do primeiro tempo (%)") +
+  scale_x_continuous(breaks = 0:10,
+                     labels = c(0:9, "10+"))
+```
+
+```{r, fig.height = 5, fig.width = 10}
+resultados$Acréscimos_2[which(resultados$Acréscimos_2 > 10)] = 10
+resultados %>%
+  count(Acréscimos_2) %>%
+  mutate(p = n/nrow(resultados)) %>%
+  ggplot(aes(x = Acréscimos_2, y = p)) +
+  geom_bar(position = "dodge", stat = "identity") +
+  theme_bw() +
+  xlab("") +
+  ylab("Acréscimos do primeiro tempo (%)") +
+  scale_x_continuous(breaks = 0:10,
+                     labels = c(0:9, "10+"))
+```
+
+## Acréscimo médio por ano
+```{r, warning = FALSE, message = FALSE}
+load("data/resultados.RData")
+
+medias = resultados %>%
+  filter(Ano >= 2014, Campeonato == "Campeonato Brasileiro Série A") %>%
+  group_by(Ano) %>%
+  summarise(Acréscimos_1 = mean(Acréscimos_1),
+            Acréscimos_2 = mean(Acréscimos_2))
+```
+
+```{r, fig.height = 5, fig.width = 10}
+tibble(Tempo = c(rep("1º", nrow(medias)), rep("2º", nrow(medias))),
+       Ano = rep(medias$Ano, 2),
+       Média = c(medias$Acréscimos_1, medias$Acréscimos_2)) %>%
+  ggplot(aes(x = Ano, y = Média, col = Tempo)) +
+  geom_line(size = 1) +
+  geom_point(size = 2) +
+  theme_bw() +
+  ylab("Acréscimo médio") +
+  ylim(0, 5)
+``` 
+
+

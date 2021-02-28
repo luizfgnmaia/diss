@@ -1,0 +1,3 @@
+"0","resultados %>%"
+"0","  count(Placar_1, Placar_2) %>%"
+"0","  arrange(desc(n))"

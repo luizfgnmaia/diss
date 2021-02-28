@@ -1,0 +1,6 @@
+"0","tmp = resultados %>%"
+"0","  mutate(resultado = ifelse(Placar_1 == Placar_2, ""Empate"", ifelse(Placar_1 > Placar_2, ""Vitória do mandante"", ""Vitória do visitante""))) %>%"
+"0","  count(resultado) %>%"
+"0","  arrange(desc(n)) %>%"
+"0","  mutate(p = n/(nrow(resultados)))"
+"0","tmp"
