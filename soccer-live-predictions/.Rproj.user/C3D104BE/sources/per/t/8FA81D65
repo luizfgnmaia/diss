@@ -1,0 +1,26 @@
+{
+    "id": "8FA81D65",
+    "path": "~/GitHub/soccer-live-predictions/soccer-live-predictions/scrape/reds_manual/2016.R",
+    "project_path": "scrape/reds_manual/2016.R",
+    "type": "r_source",
+    "hash": "2701723586",
+    "contents": "",
+    "dirty": false,
+    "created": 1614633764267.0,
+    "source_on_save": false,
+    "relative_order": 3,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "43,0",
+        "scrollLine": "26"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1614633977,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1614633977198,
+    "read_only": false,
+    "read_only_alternatives": []
+}
