@@ -271,5 +271,5 @@ rm(list = setdiff(ls(), c("U1", "U2", "times", "i", "j", "N", "n", "x", "y",
                           "t1s", "t2s", "J1s", "J2s", "x1s", "x2s", "y1s", "y2s", "m1s", "m2s",
                           "H1", "H2", "A1", "A2")))
 
-save.image("2015-2020/data/input.RData")
+save.image("2018/data/input.RData")
 

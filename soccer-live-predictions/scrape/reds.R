@@ -67,7 +67,32 @@ reds = reds %>%
   filter(!is.na(Half)) %>%
   select(-Number) %>%
   mutate(Minute = as.integer(Minute),
-         Stoppage_Time = as.integer(Stoppage_Time))
+         Stoppage_Time = as.integer(Stoppage_Time)) %>%
+  arrange(Season, Match, Half, Minute, Stoppage_Time)
+
+deletar = c(14, 72, 78, 94, 102, 
+            112, 168,
+            202, 241, 264,
+            285, 294, 296, 308, 323, 337,
+            363, 418,
+            509, 540)
+
+reds = reds[-deletar,]
+
+r1 = tibble(Season = 2017, Match = 378, Date = "2017-12-03", 
+            Home_Team = "Vitória - BA", Score_Home = 1, Score_Away = 2, 
+            Away_Team = "Flamengo - RJ", Minute = 45, Half = 2, Team = 1, Stoppage_Time = 4)
+
+r2 = tibble(Season = 2018, Match = 141, Date = "2018-07-25", 
+            Home_Team = "Atlético - MG", Score_Home = 2, Score_Away = 0, 
+            Away_Team = "Paraná - PR", Minute = 35, Half = 2, Team = 1, Stoppage_Time = NA)
+
+r3 = tibble(Season = 2020, Match = 160, Date = "2020-10-16", 
+            Home_Team = "Goiás - GO", Score_Home = 1, Score_Away = 1, 
+            Away_Team = "Bahia - BA", Minute = 29, Half = 2, Team = 2, Stoppage_Time = NA)
+
+reds = rbind(reds, r1, r2, r3) %>%
+  arrange(Season, Match, Half, Minute, Stoppage_Time)
 
 save(reds, file = "scrape/data/reds.RData")
 
