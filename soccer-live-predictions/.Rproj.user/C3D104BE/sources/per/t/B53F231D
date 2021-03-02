@@ -1,0 +1,26 @@
+{
+    "id": "B53F231D",
+    "path": "~/GitHub/soccer-live-predictions/soccer-live-predictions/scrape/goals.R",
+    "project_path": "scrape/goals.R",
+    "type": "r_source",
+    "hash": "1366383784",
+    "contents": "",
+    "dirty": false,
+    "created": 1614702484062.0,
+    "source_on_save": false,
+    "relative_order": 4,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "105,49",
+        "scrollLine": "90"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1614619377,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1614619377,
+    "read_only": false,
+    "read_only_alternatives": []
+}
