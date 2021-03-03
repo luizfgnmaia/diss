@@ -1,0 +1,7 @@
+"0","alphas = tibble(Time = times$Time,"
+"0","                mod_0 = exp(mod_0$alpha),"
+"0","                mod_1 = exp(mod_1$alpha),"
+"0","                mod_2 = exp(mod_2$alpha),"
+"0","                mod_3 = exp(mod_3$alpha),"
+"0","                mod_4 = exp(mod_4$alpha))"
+"0","kable(alphas, digits = 4, caption = ""Alphas"")"

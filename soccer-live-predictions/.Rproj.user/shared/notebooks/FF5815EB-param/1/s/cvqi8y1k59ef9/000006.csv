@@ -1,0 +1,4 @@
+"0","log_lik = tibble(Model = 1:4,"
+"0","                 likelihood = exp(c(mod_1$value, mod_2$value, mod_3$value, mod_4$value)),"
+"0","                 `log-likelihood` = c(mod_1$value, mod_2$value, mod_3$value, mod_4$value))"
+"0","kable(log_lik, digits = 4, caption = ""Likelihoods"")"

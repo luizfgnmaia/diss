@@ -23,19 +23,22 @@ is_dcp(expr3)
 expr4 = 1 - exp(csi*(t1-t2))
 is_dcp(expr4) # ???
 
-expr5 = t2*csi + log(1 - exp(csi*(t1-t2)))
+expr5 = log(1 - exp(csi*(t1-t2)))
 is_dcp(expr5)
-is_dcp(exp(expr5))
-
-expr6 = t2*csi + log(1 - exp(csi*(t1-t2))) - log(csi) # log of what we need
+  
+expr6 = t2*csi + log(1 - exp(csi*(t1-t2)))
 is_dcp(expr6)
-curvature(expr5)
+is_dcp(exp(expr6))
+
+expr7 = t2*csi + log(1 - exp(csi*(t1-t2))) - log(csi) # log of what we need
+is_dcp(expr7)
+curvature(expr7)
 curvature(-log(csi))
 
 log_csi = Variable(1)
-expr7 = t2*exp(log_csi) + log(1-exp(exp(log_csi)*(t1-t2))) - log_csi # log of what we need
-is_dcp(expr7)
-
-expr8 = log(1-exp(exp(log_csi)*(t1-t2)))
+expr8 = t2*exp(log_csi) + log(1-exp(exp(log_csi)*(t1-t2))) - log_csi # log of what we need
 is_dcp(expr8)
+
+expr9 = log(1-exp(exp(log_csi)*(t1-t2)))
+is_dcp(expr9)
 

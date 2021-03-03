@@ -2,7 +2,7 @@
 library(CVXR)
 
 load("2020/data/input.RData")
-load("2020/data/input_mod_3.RData")
+load("2020/data/input_mod_4.RData")
 
 t0 = Sys.time()
 
@@ -10,9 +10,8 @@ alpha = Variable(n)
 beta = Variable(n)
 gamma = Variable(1)
 tau = Variable(1)
-lambda_xy = Variable(2)
-mu_xy = Variable(2)
-theta = vstack(alpha, beta, gamma, tau, lambda_xy, mu_xy)
+omega = Variable(4)
+theta = vstack(alpha, beta, gamma, tau, omega)
 
 eta = Variable(2)
 phi = Variable(2)
@@ -37,21 +36,19 @@ solution = solve(problem, solver = "MOSEK")
 
 duration = Sys.time() - t0
 
-mod_3 = list(alpha = as.vector(c(solution$getValue(alpha))),
+mod_4 = list(alpha = as.vector(c(solution$getValue(alpha))),
              beta = as.vector(solution$getValue(beta)),
              gamma = as.vector(solution$getValue(gamma)),
              tau = as.vector(solution$getValue(tau)),
-             lambda_xy = as.vector(solution$getValue(lambda_xy)),
-             mu_xy = as.vector(solution$getValue(mu_xy)),
+             omega = as.vector(solution$getValue(omega)),
              eta = as.vector(solution$getValue(eta)),
              phi = as.vector(solution$getValue(phi)),
              kappa = as.vector(solution$getValue(kappa)),
              value = solution$value,
              duration = duration)
-names(mod_3$alpha) = times$Time
-names(mod_3$beta) = times$Time
-names(mod_3$lambda_xy) = c("10", "01")
-names(mod_3$mu_xy) = c("10", "01")
+names(mod_4$alpha) = times$Time
+names(mod_4$beta) = times$Time
+names(mod_4$omega) = c("lambda_x", "lambda_y", "mu_x", "mu_y")
 
-save(mod_3, file = "2020/data/mod_3.RData")
+save(mod_4, file = "2020/data/mod_4.RData")
 
