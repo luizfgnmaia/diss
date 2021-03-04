@@ -139,7 +139,7 @@ kable(st, digits = 4, caption = "Stoppage time parameters",
 ```
 ```{r}
 log_lik = tibble(Model = 1:4,
-                 `log-likelihood` = c(mod_1$value, mod_2$value, mod_3$value, mod_4$value))
+                 `log-likelihood` = c(mod_1$loglik, mod_2$loglik, mod_3$loglik, mod_4$loglik))
 kable(log_lik, digits = 4, caption = "Log-likelihoods")
 ```
 
