@@ -11,7 +11,7 @@ results$ind = 1:nrow(results)
 copy_results = results %>%
   select(Season, Match, ind)
 
-# U1, U2
+# U1, U2 (acréscimos)
 U1 = results$Stoppage_Time_1
 U2 = results$Stoppage_Time_2
 
@@ -173,12 +173,12 @@ for(k in 1:N) {
       filter(J == 1)
     if(nrow(mandante > 0)) {
       for(m in 1:nrow(mandante)) {
-        tmp_x1[(mandante$Minute[m]+1):(45+U1[k]+1)] = tmp_x1[mandante$Minute[m]]+1
+        tmp_x1[(mandante$Minute[m]+1):(45+U1[k]+1)] = tmp_x1[mandante$Minute[m]] + mandante %>% filter(Minute == mandante$Minute[m], Stoppage_Time == mandante$Stoppage_Time[m]) %>% nrow()
       }
     }
     if(nrow(visitante > 0)) {
       for(m in 1:nrow(visitante)) {
-        tmp_y1[(visitante$Minute[m]+1):(45+U1[k]+1)] = tmp_y1[visitante$Minute[m]]+1
+        tmp_y1[(visitante$Minute[m]+1):(45+U1[k]+1)] = tmp_y1[visitante$Minute[m]] + visitante %>% filter(Minute == visitante$Minute[m], Stoppage_Time == visitante$Stoppage_Time[m]) %>% nrow()
       }
     }
     x1s[[k]] = tmp_x1
@@ -197,12 +197,12 @@ for(k in 1:N) {
       filter(J == 1)
     if(nrow(mandante > 0)) {
       for(m in 1:nrow(mandante)) {
-        tmp_x2[(mandante$Minute[m]+1):(45+U2[k]+1)] = tmp_x2[mandante$Minute[m]]+1
+        tmp_x2[(mandante$Minute[m]+1):(45+U2[k]+1)] = tmp_x2[mandante$Minute[m]] + mandante %>% filter(Minute == mandante$Minute[m], Stoppage_Time == mandante$Stoppage_Time[m]) %>% nrow()
       }
     }
     if(nrow(visitante > 0)) {
       for(m in 1:nrow(visitante)) {
-        tmp_y2[(visitante$Minute[m]+1):(45+U2[k]+1)] = tmp_y2[visitante$Minute[m]]+1
+        tmp_y2[(visitante$Minute[m]+1):(45+U2[k]+1)] = tmp_y2[visitante$Minute[m]] + visitante %>% filter(Minute == visitante$Minute[m], Stoppage_Time == visitante$Stoppage_Time[m]) %>% nrow()
       }
     }
     x2s[[k]] = tmp_x2
@@ -228,7 +228,7 @@ for(k in 1:N) {
     sort()
 }
 
-# I1r e I2r
+# I1r e I2r (intervalos para os gols considerando que a taxa muda com um cartão vermelho)
 I1r = list(); I2r = list()
 for(k in 1:N) {
   I1r[[k]] = c(I1[[k]], I1s[[k]]) %>%
@@ -239,7 +239,7 @@ for(k in 1:N) {
     sort()
 }
 
-# H1, H2, A1, A2
+# H1, H2, A1, A2 (dummies para os gols)
 H1 = list(); H2 = list(); A1 = list(); A2 = list()
 for(k in 1:N) {
   if(length(t1[[k]]) > 0) {
@@ -272,7 +272,7 @@ H2 = unlist(H2)
 A1 = unlist(A1)
 A2 = unlist(A2)
 
-# H1r, H2r, A1r, A2r
+# H1r, H2r, A1r, A2r (dummies para os gols considerando que a taxa muda com um cartão vermelho)
 H1r = list(); H2r = list(); A1r = list(); A2r = list()
 for(k in 1:N) {
   tmp_H1 = NULL; tmp_A1 = NULL; tmp_H2 = NULL; tmp_A2 = NULL
@@ -295,7 +295,7 @@ H2r = unlist(H2r)
 A1r = unlist(A1r)
 A2r = unlist(A2r)
 
-# H1s, H2s, A1s, A2s
+# H1s, H2s, A1s, A2s (dummies para os cartões vermelhos) (se existirem dois cartões para um mesmo time no mesmo minuto, recebe valor 2 mas isso não aconteceu em 2020)
 H1s = list(); H2s = list(); A1s = list(); A2s = list()
 for(k in 1:N) {
   tmp_H1s = NULL; tmp_A1s = NULL; tmp_H2s = NULL; tmp_A2s = NULL
@@ -318,13 +318,13 @@ H2s = unlist(H2s)
 A1s = unlist(A1s)
 A2s = unlist(A2s)
 
-# g1, r1, g2, r2
+# g1, r1, g2, r2 (variáveis para os acréscimos)
 g1 = unlist(lapply(t1, function(x) sum(x < 45))) 
 r1 = unlist(lapply(t1s, function(x) sum(x < 45)))
 g2 = unlist(lapply(t2, function(x) sum(x < 45))) 
 r2 = unlist(lapply(t2s, function(x) sum(x < 45))) 
 
-# c (parâmetro da diferença de gols para o acréscimo do segundo tempo)
+# c (variável da diferença de gols para o acréscimo do segundo tempo)
 c = NULL
 for(k in 1:N) {
   c[k] = as.integer(abs(x2[[k]][46] - y2[[k]][46]) <= 1)
