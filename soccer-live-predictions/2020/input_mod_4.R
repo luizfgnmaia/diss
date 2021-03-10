@@ -48,6 +48,6 @@ M2_mu = cbind(M2_mu, zero_2, zero_2, vet_x2, vet_y2)
 colnames(M2_mu)[(2*n+3):(ncol(M2_mu))] = c("0", "0", "x", "y")
 
 rm(list = setdiff(ls(), c("delta1", "delta2", "L1", "L2", "M1_lambda", "M1_mu", "M2_lambda", 
-                          "M2_mu", "g1", "r1", "g2", "r2", "c")))
+                          "M2_mu")))
 
 save.image("2020/data/input_mod_4.RData")

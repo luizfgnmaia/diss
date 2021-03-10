@@ -84,19 +84,7 @@ gamma = rep(0, L2)
 M2_mu = cbind(M2_mu, gamma)
 colnames(M2_mu) = c(paste0("alpha_", 1:n), paste0("beta_", 1:n), "gamma")
 
-# g1, r1, g2, r2
-g1 = unlist(lapply(t1, function(x) length(x < 45)))
-r1 = unlist(lapply(t1s, function(x) length(x < 45)))
-g2 = unlist(lapply(t2, function(x) length(x < 90)))
-r2 = unlist(lapply(t2s, function(x) length(x < 90)))
-
-# c (parâmetro da diferença de gols para o acréscimo do segundo tempo)
-c = NULL
-for(k in 1:N) {
-  c[k] = as.integer(abs(x2[[k]][46] - y2[[k]][46]) <= 1)
-}
-
 rm(list = setdiff(ls(), c("delta1", "delta2", "L1", "L2", "M1_lambda", "M1_mu", "M2_lambda", 
-                          "M2_mu", "g1", "r1", "g2", "r2", "c"))) 
+                          "M2_mu"))) 
 
 save.image("2020/data/input_mod_1.RData")

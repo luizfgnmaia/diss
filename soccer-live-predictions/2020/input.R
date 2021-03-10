@@ -146,13 +146,12 @@ for(k in 1:N) {
 reds = reds %>%
   mutate(J = ifelse(Team == 2, 1, 0))
 reds$Stoppage_Time[is.na(reds$Stoppage_Time)] = 0
-reds$Minute[which(reds$Half == 2)] = reds$Minute[which(reds$Half == 2)] + 45
 reds$Minute = reds$Minute + reds$Stoppage_Time
 
 reds = reds %>%
   inner_join(copy_results)
 
-# t1s, t2s, J1s, J2s, x1s, x2s, y1s, y2s, m1s, m2s
+# t1s, t2s, J1s, J2s, x1s, x2s, y1s, y2s, m1s, m2s, I1s, I2s
 reds_primeiro_tempo = reds %>%
   filter(Half == 1)
 reds_segundo_tempo = reds %>%
@@ -228,6 +227,27 @@ for(k in 1:N) {
   y2s[[k]] = y2s[[k]] + y1s[[k]][length(y1s[[k]])]
 }
 
+I1s = list(); I2s = list()
+for(k in 1:N) {
+  I1s[[k]] = c(0, t1s[[k]], 45+U1[k]) %>%
+    unique() %>%
+    sort()
+  I2s[[k]] = c(0, t2s[[k]], 45+U2[k]) %>%
+    unique() %>%
+    sort()
+}
+
+# I1r e I2r
+I1r = list(); I2r = list()
+for(k in 1:N) {
+  I1r[[k]] = c(I1[[k]], I1s[[k]]) %>%
+    unique() %>%
+    sort()
+  I2r[[k]] = c(I2[[k]], I2s[[k]]) %>%
+    unique() %>%
+    sort()
+}
+
 # H1, H2, A1, A2
 H1 = list(); H2 = list(); A1 = list(); A2 = list()
 for(k in 1:N) {
@@ -261,6 +281,41 @@ H2 = unlist(H2)
 A1 = unlist(A1)
 A2 = unlist(A2)
 
+# H1r, H2r, A1r, A2r
+H1r = list(); H2r = list(); A1r = list(); A2r = list()
+for(k in 1:N) {
+  tmp_H1 = NULL; tmp_A1 = NULL; tmp_H2 = NULL; tmp_A2 = NULL
+  for(l in 2:(length(I1r[[k]]))) {
+    tmp_H1[l-1] = x1[[k]][I1r[[k]][l]+1] - x1[[k]][I1r[[k]][l]]
+    tmp_A1[l-1] = y1[[k]][I1r[[k]][l]+1] - y1[[k]][I1r[[k]][l]]
+  }
+  for(l in 2:(length(I2r[[k]]))) {
+    tmp_H2[l-1] = x2[[k]][I2r[[k]][l]+1] - x2[[k]][I2r[[k]][l]]
+    tmp_A2[l-1] = y2[[k]][I2r[[k]][l]+1] - y2[[k]][I2r[[k]][l]]
+  }
+  H1r[[k]] = tmp_H1
+  A1r[[k]] = tmp_A1
+  H2r[[k]] = tmp_H2
+  A2r[[k]] = tmp_A2
+}
+
+H1r = unlist(H1r)
+H2r = unlist(H2r)
+A1r = unlist(A1r)
+A2r = unlist(A2r)
+
+# g1, r1, g2, r2
+g1 = unlist(lapply(t1, function(x) sum(x < 45))) 
+r1 = unlist(lapply(t1s, function(x) sum(x < 45)))
+g2 = unlist(lapply(t2, function(x) sum(x < 45))) 
+r2 = unlist(lapply(t2s, function(x) sum(x < 45))) 
+
+# c (parâmetro da diferença de gols para o acréscimo do segundo tempo)
+c = NULL
+for(k in 1:N) {
+  c[k] = as.integer(abs(x2[[k]][46] - y2[[k]][46]) <= 1)
+}
+
 times$Time = stringr::str_replace_all(times$Time, "\\s-\\s.*", "")
 times$Time[1] = "Athletico-PR"
 times$Time[2] = "Atlético-MG"
@@ -269,6 +324,7 @@ times$Time[10] = "CSA"
 rm(list = setdiff(ls(), c("U1", "U2", "times", "i", "j", "N", "n", "x", "y",
                           "t1", "t2", "J1", "J2", "x1", "x2", "y1", "y2", "m1", "m2", "I1", "I2",
                           "t1s", "t2s", "J1s", "J2s", "x1s", "x2s", "y1s", "y2s", "m1s", "m2s",
-                          "H1", "H2", "A1", "A2")))
+                          "I1s", "I2s", "I1r", "I2r", "H1", "H2", "A1", "A2", "H1r", "H2r", "A1r", "A2r",
+                          "g1", "r1", "g2", "r2", "c")))
 
 save.image("2020/data/input.RData")
