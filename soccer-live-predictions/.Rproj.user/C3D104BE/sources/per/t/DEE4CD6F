@@ -1,0 +1,28 @@
+{
+    "id": "DEE4CD6F",
+    "path": "~/GitHub/soccer-live-predictions/soccer-live-predictions/2020/param_mod_r.Rmd",
+    "project_path": "2020/param_mod_r.Rmd",
+    "type": "r_markdown",
+    "hash": "894548922",
+    "contents": "",
+    "dirty": false,
+    "created": 1615347784009.0,
+    "source_on_save": false,
+    "relative_order": 4,
+    "properties": {
+        "tempName": "Untitled1",
+        "chunk_output_type": "inline",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "1,39",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1615350469,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1615350469879,
+    "read_only": false,
+    "read_only_alternatives": []
+}

@@ -49,8 +49,8 @@ $$\mu_k(t) = \alpha_j \beta_i \tau^{\mathbb{I}\{\text{half = 2}\}} \mu_{xy}$$
 $$\lambda_k(t) = \alpha_i \beta_j \gamma_h \tau^{\mathbb{I}\{\text{half = 2}\}} e^{x(t)\omega_{\lambda x}} e^{y(t) \omega_{\lambda y}}$$
 $$\mu_k(t) = \alpha_j \beta_i \tau^{\mathbb{I}\{\text{half = 2}\}} e^{x(t)\omega_{\mu x}} e^{y(t) \omega_{\mu y}}$$
 \begin{itemize}
-\item $x(t)$ is the number of goals of the home team until minute t;
-\item $y(t)$ is the number of goals of the away team until minute t;
+\item $x(t)$: the number of goals of the home team until minute t;
+\item $y(t)$: the number of goals of the away team until minute t;
 \item $\omega_{\lambda x}$, $\omega_{\lambda y}$, $\omega_{\mu x}$ and $\omega_{\mu y}$: parameters that measure the impact of the scored goals in the rates. 
 \end{itemize}
 
@@ -88,7 +88,7 @@ load("data/mod_4.RData")
 ```
 
 ```{r}
-alphas = tibble(Time = times$Time,
+alphas = tibble(Team = times$Time,
                 mod_0 = exp(mod_0$alpha),
                 mod_1 = exp(mod_1$alpha),
                 mod_2 = exp(mod_2$alpha),
@@ -98,7 +98,7 @@ kable(alphas, digits = 4, caption = "Alphas")
 ```
 
 ```{r}
-betas = tibble(Time = times$Time,
+betas = tibble(Team = times$Time,
                mod_0 = exp(mod_0$beta),
                mod_1 = exp(mod_1$beta),
                mod_2 = exp(mod_2$beta),
@@ -139,7 +139,8 @@ kable(st, digits = 4, caption = "Stoppage time parameters",
 ```
 ```{r}
 log_lik = tibble(Model = 1:4,
-                 `log-likelihood` = c(mod_1$loglik, mod_2$loglik, mod_3$loglik, mod_4$loglik))
+                 `log-likelihood` = c(mod_1$loglik, mod_2$loglik, mod_3$loglik, 
+                                      mod_4$loglik))
 kable(log_lik, digits = 4, caption = "Log-likelihoods")
 ```
 

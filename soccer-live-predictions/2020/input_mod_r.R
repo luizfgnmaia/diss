@@ -172,7 +172,43 @@ colnames(M2_lambda)[(2*n+7):(ncol(M2_lambda))] = c("xs", "ys", "0", "0")
 M2_mu = cbind(M2_mu, zero_2, zero_2, exp_H2, exp_A2)
 colnames(M2_mu)[(2*n+7):(ncol(M2_mu))] = c("0", "0", "xs", "ys")
 
+diff1s = list()
+diff2s = list()
+for(k in 1:N) {
+  diff1s[[k]] = diff(I1s[[k]])
+  diff2s[[k]] = diff(I2s[[k]])
+}
+delta1s = unlist(diff1s)
+delta2s = unlist(diff2s)
+
+for(k in 1:N) {
+  I2s[[k]] = I2s[[k]] + 45
+}
+
+int_reds_1 = list(); int_reds_2 = list();
+for(k in 1:N) {
+  tmp_int_reds_1 = NULL
+  for(l in 1:(length(I1s[[k]])-1)) {
+    t1 = I1s[[k]][l]
+    t2 = I1s[[k]][l+1]
+    tmp_int_reds_1[l] = (t2+1) * (log(t2+1)-1) - (t1+1) * (log(t1+1)-1)
+  }
+  int_reds_1[[k]] = tmp_int_reds_1
+}
+for(k in 1:N) {
+  tmp_int_reds_2 = NULL
+  for(l in 1:(length(I2s[[k]])-1)) {
+    t1 = I2s[[k]][l]
+    t2 = I2s[[k]][l+1]
+    tmp_int_reds_2[l] = (t2+1) * (log(t2+1)-1) - (t1+1) * (log(t1+1)-1)
+  }
+  int_reds_2[[k]] = tmp_int_reds_2
+}
+int_reds_1 = unlist(int_reds_1)
+int_reds_2 = unlist(int_reds_2)
+
 rm(list = setdiff(ls(), c("delta1", "delta2", "L1", "L2", "M1_lambda", "M1_mu", "M2_lambda", 
-                          "M2_mu")))
+                          "M2_mu", "delta1s", "delta2s", "int_reds_1", "int_reds_2")))
 
 save.image("2020/data/input_mod_r.RData")
+

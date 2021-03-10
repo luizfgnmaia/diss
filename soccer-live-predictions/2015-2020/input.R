@@ -248,7 +248,7 @@ for(k in 1:N) {
       A1[[k]] = c(J1[[k]])
     } else {
       H1[[k]] = c(as.integer(!J1[[k]]), 0)
-      A1[[k]] = A1[[k]] = c(J1[[k]], 0)
+      A1[[k]] = c(J1[[k]], 0)
     }
   } else {
     H1[[k]] = 0
@@ -260,7 +260,7 @@ for(k in 1:N) {
       A2[[k]] = c(J2[[k]])
     } else {
       H2[[k]] = c(as.integer(!J2[[k]]), 0)
-      A2[[k]] = A2[[k]] = c(J2[[k]], 0)
+      A2[[k]] = c(J2[[k]], 0)
     }
   } else {
     H2[[k]] = 0
@@ -295,6 +295,29 @@ H2r = unlist(H2r)
 A1r = unlist(A1r)
 A2r = unlist(A2r)
 
+# H1s, H2s, A1s, A2s
+H1s = list(); H2s = list(); A1s = list(); A2s = list()
+for(k in 1:N) {
+  tmp_H1s = NULL; tmp_A1s = NULL; tmp_H2s = NULL; tmp_A2s = NULL
+  for(l in 2:(length(I1s[[k]]))) {
+    tmp_H1s[l-1] = x1s[[k]][I1s[[k]][l]+1] - x1s[[k]][I1s[[k]][l]]
+    tmp_A1s[l-1] = y1s[[k]][I1s[[k]][l]+1] - y1s[[k]][I1s[[k]][l]]
+  }
+  for(l in 2:(length(I2s[[k]]))) {
+    tmp_H2s[l-1] = x2s[[k]][I2s[[k]][l]+1] - x2s[[k]][I2s[[k]][l]]
+    tmp_A2s[l-1] = y2s[[k]][I2s[[k]][l]+1] - y2s[[k]][I2s[[k]][l]]
+  }
+  H1s[[k]] = tmp_H1s
+  A1s[[k]] = tmp_A1s
+  H2s[[k]] = tmp_H2s
+  A2s[[k]] = tmp_A2s
+}
+
+H1s = unlist(H1s)
+H2s = unlist(H2s)
+A1s = unlist(A1s)
+A2s = unlist(A2s)
+
 # g1, r1, g2, r2
 g1 = unlist(lapply(t1, function(x) sum(x < 45))) 
 r1 = unlist(lapply(t1s, function(x) sum(x < 45)))
@@ -317,7 +340,7 @@ rm(list = setdiff(ls(), c("U1", "U2", "times", "i", "j", "N", "n", "x", "y",
                           "t1", "t2", "J1", "J2", "x1", "x2", "y1", "y2", "m1", "m2", "I1", "I2",
                           "t1s", "t2s", "J1s", "J2s", "x1s", "x2s", "y1s", "y2s", "m1s", "m2s",
                           "I1s", "I2s", "I1r", "I2r", "H1", "H2", "A1", "A2", "H1r", "H2r", "A1r", "A2r",
-                          "g1", "r1", "g2", "r2", "c")))
+                          "H1s", "H2s", "A1s", "A2s", "g1", "r1", "g2", "r2", "c")))
 
 save.image("2015-2020/data/input.RData")
 
