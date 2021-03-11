@@ -1,0 +1,3 @@
+"0","Parameter = c(""$A_\\lambda$"", ""$A_\\mu$"")"
+"0","reds = tibble(Parameter, Estimative = exp(c(mod_r2$a)))"
+"0","kable(reds, digits = 8, caption = ""Red card rate parameters"")"

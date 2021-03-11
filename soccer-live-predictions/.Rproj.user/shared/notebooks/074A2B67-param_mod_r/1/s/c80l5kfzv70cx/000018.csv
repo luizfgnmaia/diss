@@ -1,8 +1,0 @@
-"0","Parameter = c(""$\\gamma_h$"", ""$\\tau$"", ""$\\omega_{\\lambda x}$"","
-"0","              ""$\\omega_{\\lambda y}$"", ""$\\omega_{\\mu x}$"","
-"0","              ""$\\omega_{\\mu y}$"", ""$\\omega_{\\lambda x^*}$"","
-"0","              ""$\\omega_{\\lambda y^*}$"", ""$\\omega_{\\mu x^*}$"","
-"0","              ""$\\omega_{\\mu y^*}$"")"
-"0","goals = tibble(Parameter, "
-"0","               Estimative = c(exp(mod_r$gamma), exp(mod_r$tau), mod_r$omega))"
-"0","kable(goals, digits = 4, caption = ""Goal rate parameters"")"

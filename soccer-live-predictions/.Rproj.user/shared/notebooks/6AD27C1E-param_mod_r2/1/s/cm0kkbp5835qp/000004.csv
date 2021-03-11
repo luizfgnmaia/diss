@@ -1,0 +1,7 @@
+"0","options(knitr.kable.NA = ""–"")"
+"0",""
+"0","library(dplyr)"
+"0","library(knitr)"
+"0",""
+"0","load(""data/input.RData"")"
+"0","load(""data/mod_r2.RData"")"

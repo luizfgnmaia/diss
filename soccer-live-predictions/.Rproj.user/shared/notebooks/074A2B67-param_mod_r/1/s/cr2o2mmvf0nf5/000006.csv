@@ -1,5 +1,0 @@
-"0","alphas_betas = tibble(Team = times$Time,"
-"0","                alpha = exp(mod_r$alpha),"
-"0","                beta = exp(mod_r$beta))"
-"0","kable(alphas_betas, digits = 4, caption = ""Alphas and betas"", "
-"0","      col.names = c(""Team"", ""$\\alpha$"", ""$\\beta$""))"
