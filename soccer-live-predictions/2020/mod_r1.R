@@ -28,8 +28,8 @@ loglambda2 = log(delta2) + M2_lambda %*% theta
 logmu2 = log(delta2) + M2_mu %*% theta
 
 loglambda1s = log(int_reds_1) + a[1]
-logmu1s = log(int_reds_1) + a[1]
-loglambda2s = log(int_reds_2) + a[2]
+logmu1s = log(int_reds_1) + a[2]
+loglambda2s = log(int_reds_2) + a[1]
 logmu2s = log(int_reds_2) + a[2]
 
 log_lik_goals = - sum_entries(exp(loglambda1)) - sum_entries(exp(logmu1)) - sum_entries(exp(loglambda2)) - sum_entries(exp(logmu2)) +
