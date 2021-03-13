@@ -4,6 +4,8 @@ output: pdf_document
 ---
 
 ```{r, warning = FALSE, message = FALSE}
+options(scipen = 999)
+
 library(dplyr)
 library(ggplot2)
 library(CVXR)
@@ -12,8 +14,8 @@ load("scrape/data/reds.RData")
 load("2015-2020/data/input.RData")
 ```
 
-$$ \lambda_k^*(t) = A_\lambda  t^2$$
-$$ \mu_k^*(t) = A_\mu  t^2$$
+$$ \lambda_k^*(t) = A_\lambda  t^3$$
+$$ \mu_k^*(t) = A_\mu  t^3$$
 
 ```{r}
 reds$Stoppage_Time[which(is.na(reds$Stoppage_Time))] = 0
@@ -61,7 +63,7 @@ for(k in 1:N) {
   for(l in 1:(length(I1s[[k]])-1)) {
     t1 = I1s[[k]][l]
     t2 = I1s[[k]][l+1]
-    tmp_int_reds_1[l] = 1/3*(t2^3 - t1^3) # <---
+    tmp_int_reds_1[l] = 1/4*(t2^4 - t1^4) # <---
   }
   int_reds_1[[k]] = tmp_int_reds_1
 }
@@ -70,7 +72,7 @@ for(k in 1:N) {
   for(l in 1:(length(I2s[[k]])-1)) {
     t1 = I2s[[k]][l]
     t2 = I2s[[k]][l+1]
-    tmp_int_reds_2[l] = 1/3*(t2^3 - t1^3) # <---
+    tmp_int_reds_2[l] = 1/4*(t2^4 - t1^4) # <---
   }
   int_reds_2[[k]] = tmp_int_reds_2
 }
@@ -101,8 +103,8 @@ A
 
 ```{r}
 t = seq(0, 90, by = 0.01)
-rate_home = A[1] * t^2 # <---
-rate_away = A[2] * t^2 # <---
+rate_home = A[1] * t^3 # <---
+rate_away = A[2] * t^3 # <---
 rate_both = rate_home + rate_away
 
 home %>%
