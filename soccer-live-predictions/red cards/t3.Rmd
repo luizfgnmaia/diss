@@ -1,5 +1,5 @@
 ---
-title: "$f(t) = t^2$"
+title: "$f(t) = t^3$"
 output: pdf_document
 ---
 
