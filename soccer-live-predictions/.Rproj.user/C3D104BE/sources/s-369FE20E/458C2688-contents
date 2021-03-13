@@ -4,8 +4,6 @@ output: pdf_document
 ---
 
 ```{r, warning = FALSE, message = FALSE}
-options(scipen = 999)
-
 library(dplyr)
 library(ggplot2)
 library(CVXR)
@@ -87,14 +85,12 @@ loglambda2s = log(int_reds_2) + a[1]
 logmu2s = log(int_reds_2) + a[2]
 
 log_lik_reds = sum_entries(
-  - exp(loglambda1s) - exp(logmu1s) +
-    H1s*loglambda1s + A1s*logmu1s) +
-  sum_entries(
-    - exp(loglambda2s) - exp(logmu2s) +
-      + H2s*loglambda2s + A2s*logmu2s)
+  -exp(loglambda1s) - exp(logmu1s) - exp(loglambda2s) - exp(logmu2s) +
+    H1s*loglambda1s + A1s*logmu1s + H2s*loglambda2s + A2s*logmu2s)
 
 objective = Maximize(log_lik_reds)
 problem = Problem(objective)
+set.seed(1)
 solution = solve(problem, solver = "MOSEK")
 A = exp(as.vector(solution$getValue(a)))
 names(A) = c("A_lambda", "A_mu")

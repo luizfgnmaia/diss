@@ -4,8 +4,6 @@ output: pdf_document
 ---
 
 ```{r, warning = FALSE, message = FALSE}
-options(scipen = 999)
-
 library(dplyr)
 library(ggplot2)
 library(CVXR)
