@@ -53,7 +53,6 @@ log_lik = log_lik_goals + log_lik_reds + log_lik_st
 objective = Maximize(log_lik)
 constraints = list(sum(alpha) - sum(beta) == 0)
 problem = Problem(objective, constraints)
-set.seed(1)
 solution = solve(problem, solver = "MOSEK")
 
 duration = Sys.time() - t0
