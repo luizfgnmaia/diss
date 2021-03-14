@@ -1,4 +1,3 @@
-"0","# Model 2"
 "0","eta = Variable(2)"
 "0","phi = Variable(1)"
 "0","pi1 = eta[1] + phi * g1 "

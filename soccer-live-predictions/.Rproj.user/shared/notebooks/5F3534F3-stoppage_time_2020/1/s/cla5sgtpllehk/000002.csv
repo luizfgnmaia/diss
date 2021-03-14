@@ -5,7 +5,7 @@
 "0","  ggplot(aes(x = st2, y = n)) +"
 "0","  geom_bar(position = ""dodge"", stat = ""identity"") +"
 "0","  theme_bw() +"
-"0","  xlab(""Stoppage time for the first half"") +"
+"0","  xlab(""Stoppage time for the second half"") +"
 "0","  ylab(""n"") +"
 "0","  scale_x_continuous(breaks = 0:10,"
 "0","                     labels = c(0:9, ""10+""))"

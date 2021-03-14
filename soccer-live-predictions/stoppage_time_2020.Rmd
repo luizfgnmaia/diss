@@ -200,3 +200,21 @@ mod_6$aic = aic(mod_6$loglik, 5)
 mod_6$bic = bic(mod_6$loglik, 5, N)
 mod_6
 ```
+\clearpage
+
+```{r}
+sum(g1)
+```
+```{r}
+sum(g2)
+```
+```{r}
+sum(r1)
+```
+```{r}
+sum(r2)
+```
+```{r}
+sum(c)
+```
+
