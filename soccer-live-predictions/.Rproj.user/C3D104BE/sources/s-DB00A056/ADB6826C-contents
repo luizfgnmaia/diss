@@ -1,0 +1,152 @@
+---
+title: "Generating red cards"
+output: pdf_document
+---
+
+$$ \lambda_k^*(t) = A_\lambda t $$
+where $$A_\lambda = \begin{cases}
+ A_\lambda^1, \text{ if half = 1;}  \\
+ A_\lambda^2, \text{ if half = 2.}
+\end{cases}$$
+$$ \mu_k^*(t) = A_\mu t $$
+where $$A_\mu = \begin{cases}
+ A_\mu^1, \text{ if half = 1;}  \\
+ A_\mu^2, \text{ if half = 2.}
+\end{cases}$$
+
+$$\hat{A_\lambda^1} = 0.00001555931$$ 
+$$\hat{A_\lambda^2} = 0.00005941237$$
+$$\hat{A_\mu^1} = 0.00002295013$$ 
+$$\hat{A_\mu^2} = 0.00009806610$$
+
+$$\Lambda^*(t) = \int_0^t \lambda^*(y) dy = A_\lambda \frac{t^2}{2}$$
+
+$$\text{Y}^*(t) = \int_0^t \mu^*(y) dy = A_\mu \frac{t^2}{2}$$
+
+$$\Lambda^{*-1}(t) = \Bigg(\frac{2t}{A_\lambda}\Bigg)^{1/2}$$
+$$\text{Y}^{*-1}(t) = \Bigg(\frac{2t}{A_\mu}\Bigg)^{1/2}$$
+```{r, warning = FALSE, message = FALSE}
+library(dplyr)
+library(knitr)
+
+A_lambda_1 = 0.00001555931
+A_lambda_2 = 0.00005941237
+A_mu_1 = 0.00002295013
+A_mu_2 = 0.00009806610
+
+inv_lambda_1 <- function(x) {
+  (2*x/A_lambda_1)^(1/2)
+}
+
+inv_lambda_2 <- function(x) {
+  (2*x/A_lambda_2)^(1/2)
+}
+
+inv_mu_1 <- function(x) {
+  (2*x/A_mu_1)^(1/2)
+}
+
+inv_mu_2 <- function(x) {
+  (2*x/A_mu_2)^(1/2)
+}
+```
+
+## Generating for the home team in the first half
+```{r}
+nit = 1000000
+
+home_1st = list()
+for(it in 1:nit) {
+  t = 0
+  s = 0
+  tmp = NULL
+  while(t < 48) {
+    u = runif(1)
+    s = s - log(u)
+    t = inv_lambda_1(s)
+    if(t < 48) {
+      tmp = c(tmp, t)
+    }
+  }
+  home_1st[[it]] = tmp
+}
+```
+
+## Generating for the away team in the first half
+```{r}
+away_1st = list()
+for(it in 1:nit) {
+  t = 0
+  s = 0
+  tmp = NULL
+  while(t < 48) {
+    u = runif(1)
+    s = s - log(u)
+    t = inv_mu_1(s)
+    if(t < 48) {
+      tmp = c(tmp, t)
+    }
+  }
+  away_1st[[it]] = tmp
+}
+```
+
+## Generating for the home team in the second half
+```{r}
+home_2nd = list()
+for(it in 1:nit) {
+  t = 0
+  s = 0
+  tmp = NULL
+  while(t < 49) {
+    u = runif(1)
+    s = s - log(u)
+    t = inv_lambda_2(s)
+    if(t < 49) {
+      tmp = c(tmp, t)
+    }
+  }
+  home_2nd[[it]] = tmp
+}
+```
+
+## Generating for the away team in the second half
+```{r}
+away_2nd = list()
+for(it in 1:nit) {
+  t = 0
+  s = 0
+  tmp = NULL
+  while(t < 49) {
+    u = runif(1)
+    s = s - log(u)
+    t = inv_mu_2(s)
+    if(t < 49) {
+      tmp = c(tmp, t)
+    }
+  }
+  away_2nd[[it]] = tmp
+}
+```
+
+## Comparing the percentage of generated red cards with the real data
+```{r}
+load("scrape/data/reds.RData")
+load("2015-2020/data/input.RData")
+Generated = c(length(unlist(home_1st))/nit, length(unlist(away_1st))/nit,
+              length(unlist(home_2nd))/nit, length(unlist(away_2nd))/nit,
+              length(unlist(home_1st))/nit + length(unlist(away_1st))/nit +
+                length(unlist(home_2nd))/nit + length(unlist(away_2nd))/nit)
+Real = c(reds %>% filter(Team == 1, Half == 1) %>% nrow() / N,
+         reds %>% filter(Team == 2, Half == 1) %>% nrow() / N,
+         reds %>% filter(Team == 1, Half == 2) %>% nrow() / N,
+         reds %>% filter(Team == 2, Half == 2) %>% nrow() / N,
+         nrow(reds)/N)
+Team = c("Home", "Away", "Home", "Away", "Both")
+Half = c("1st", "1st", "2nd", "2nd", "Both")
+tib = tibble(Team, Half, Generated, Real)
+kable(tib, digits = 4)
+```
+
+
+

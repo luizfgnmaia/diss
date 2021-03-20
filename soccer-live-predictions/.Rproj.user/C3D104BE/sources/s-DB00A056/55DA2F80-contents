@@ -1,0 +1,97 @@
+
+# f(t) = t^2
+
+A_lambda = 0.0000003150963
+A_mu = 0.0000005093549
+
+inv_lambda <- function(x) {
+  (3*x/A_lambda)^(1/3)
+}
+
+inv_mu <- function(x) {
+  (3*x/A_mu)^(1/3)
+}
+
+# Gerando para o mandante no primeiro tempo
+
+nit = 10000
+
+home_1st = list()
+for(it in 1:nit) {
+  t = 0
+  s = 0
+  tmp = NULL
+  while(t < 48) {
+    u = runif(1)
+    s = s - log(u)
+    t = inv_lambda(s)
+    if(t < 48) {
+      tmp = c(tmp, t)
+    }
+  }
+  home_1st[[it]] = tmp
+}
+
+length(unlist(home_1st))/nit
+
+
+# Gerando para o visitante no primeiro tempo
+
+away_1st = list()
+for(it in 1:nit) {
+  t = 0
+  s = 0
+  tmp = NULL
+  while(t < 48) {
+    u = runif(1)
+    s = s - log(u)
+    t = inv_mu(s)
+    if(t < 48) {
+      tmp = c(tmp, t)
+    }
+  }
+  away_1st[[it]] = tmp
+}
+
+length(unlist(away_1st))/nit
+
+
+# Gerando para o mandante no segundo tempo
+
+home_2nd = list()
+for(it in 1:nit) {
+  t = 0
+  s = (1/3)*A_lambda*45^3
+  tmp = NULL
+  while(t < (50+45)) {
+    u = runif(1)
+    s = s - log(u)
+    t = inv_lambda(s)
+    if(t < (50+45)) {
+      tmp = c(tmp, t-45)
+    }
+  }
+  home_2nd[[it]] = tmp
+}
+
+length(unlist(home_2nd))/nit
+
+# Gerando para o visitante no segundo tempo
+
+away_2nd = list()
+for(it in 1:nit) {
+  t = 0
+  s = (1/3)*A_mu*45^3
+  tmp = NULL
+  while(t < (50+45)) {
+    u = runif(1)
+    s = s - log(u)
+    t = inv_mu(s)
+    if(t < (50+45)) {
+      tmp = c(tmp, t-45)
+    }
+  }
+  away_2nd[[it]] = tmp
+}
+
+length(unlist(away_2nd))/nit
