@@ -1,7 +1,65 @@
 
 load("2020/data/mod_1.RData")
 
-pred_mod_1 <- function(n = 10000, home_team, away_team, score_home = 0, score_away = 0, reds_home = 0, reds_away = 0, minute = 0, half = 1, reds_home_1 = 0, reds_away_1 = 0, end_minute = 45, end_half = 2, stoppage_time = TRUE) {
+pred_mod_1 <- function(n = 10000L, home_team, away_team, score_home = 0, score_away = 0, reds_home = 0, reds_away = 0, minute = 0, half = 1, reds_home_1 = 0, reds_away_1 = 0, end_minute = 45, end_half = 2, stoppage_time = TRUE) {
+  
+  if(!is.numeric(n) | n <= 0) {
+    stop("Invalid n.")
+  }
+  
+  n = as.integer(ceiling(n))
+  
+  if(!home_team %in% names(mod_1$alpha)) {
+    stop("Invalid home team.")
+  }
+  
+  if(!away_team %in% names(mod_1$alpha)) {
+    stop("Invalid away team.")
+  }
+  
+  if(!is.numeric(score_home) | score_home < 0) {
+    stop("Invalid score_home.")
+  }
+  
+  if(!is.numeric(score_away) | score_away < 0) {
+    stop("Invalid score_away.")
+  }
+  
+  if(!is.numeric(reds_home) | reds_home < 0) {
+    stop("Invalid reds_home.")
+  }
+  
+  if(!is.numeric(reds_away) | reds_away < 0) {
+    stop("Invalid reds_away.")
+  }
+  
+  if(minute > 45 | minute < 0) {
+    stop("Invalid minute.")
+  }
+  
+  if(!half %in% c(1,2)) {
+    stop("Invalid half.")
+  }
+  
+  if(!is.numeric(reds_home_1) | reds_home_1 < 0) {
+    stop("Invalid reds_home_1.")
+  }
+  
+  if(!is.numeric(reds_away_1) | reds_away_1 < 0) {
+    stop("Invalid reds_away_1.")
+  }
+  
+  if(end_minute > 45 | end_minute < 0) {
+    stop("Invalid end_minute.")
+  }
+  
+  if(!end_half %in% c(1,2)) {
+    stop("Invalid end_half.")
+  }
+  
+  if(!is.logical(stoppage_time)) {
+    stop("stoppage_time must be boolean.")
+  }
   
   pred <- function(home_team, away_team, score_home, score_away, reds_home, reds_away, minute, half, reds_home_1, reds_away_1) {
     
@@ -30,7 +88,7 @@ pred_mod_1 <- function(n = 10000, home_team, away_team, score_home = 0, score_aw
       t = minute
       s = (1/2)*A_lambda_1*t^2 # começando do minuto t
       t_reds_home = NULL
-      while(t < end_1st) { # antes de calcular os acréscimos
+      while(t < end_1st) { 
         u = runif(1)
         s = s - log(u)
         t = inv_lambda_1(s)
@@ -43,7 +101,7 @@ pred_mod_1 <- function(n = 10000, home_team, away_team, score_home = 0, score_aw
       t = minute
       s = (1/2)*A_mu_1*t^2 # começando do minuto t
       t_reds_away = NULL
-      while(t < end_1st) { # antes de calcular os acréscimos
+      while(t < end_1st) { 
         u = runif(1)
         s = s - log(u)
         t = inv_mu_1(s)
@@ -90,8 +148,8 @@ pred_mod_1 <- function(n = 10000, home_team, away_team, score_home = 0, score_aw
         U1 = rpois(1, lambda = mod_1$eta[1] + mod_1$rho[1]*(reds_home + reds_away))
         
         # Gerando expulsões para o time mandante
-        t = minute
-        s = (1/2)*A_lambda_1*45^2 # começando do minuto 45
+        t = 45
+        s = (1/2)*A_lambda_1*t^2 # começando do minuto 45
         t_reds_home_st = NULL
         while(t < 45+U1) {
           u = runif(1)
@@ -103,8 +161,8 @@ pred_mod_1 <- function(n = 10000, home_team, away_team, score_home = 0, score_aw
         }
         
         # Gerando expulsões para o time visitante
-        t = minute
-        s = (1/2)*A_mu_1*45^2 # começando do minuto 45
+        t = 45
+        s = (1/2)*A_mu_1*t^2 # começando do minuto 45
         t_reds_away_st = NULL
         while(t < 45+U1) {
           u = runif(1)
@@ -222,8 +280,8 @@ pred_mod_1 <- function(n = 10000, home_team, away_team, score_home = 0, score_aw
         U2 = rpois(1, lambda = mod_1$eta[2] + mod_1$rho[2]*(reds_home + reds_away - reds_home_1 - reds_away_1))
         
         # Gerando expulsões para o time mandante
-        t = minute
-        s = (1/2)*A_lambda_2*45^2 # começando do minuto 45
+        t = 45
+        s = (1/2)*A_lambda_2*t^2 # começando do minuto 45
         t_reds_home_st = NULL
         while(t < 45+U2) {
           u = runif(1)
@@ -235,8 +293,8 @@ pred_mod_1 <- function(n = 10000, home_team, away_team, score_home = 0, score_aw
         }
         
         # Gerando expulsões para o time visitante
-        t = minute
-        s = (1/2)*A_mu_2*45^2 # começando do minuto 45
+        t = 45
+        s = (1/2)*A_mu_2*t^2 # começando do minuto 45
         t_reds_away_st = NULL
         while(t < 45+U2) {
           u = runif(1)
