@@ -1,0 +1,17 @@
+while(minute < 60) {
+  lambda = exp(alpha_i + beta_j + gamma) * exp(score_home * mod_1$omega["lambda_x"])
+  mu = exp(alpha_j + beta_i + mu_xy)
+  next_home_goal = rexp(1, rate = lambda) + minute
+  next_away_goal = rexp(1, rate = mu) + minute
+  next_goal = min(next_home_goal, next_away_goal)
+  if(next_goal < 45) {
+    minute = next_goal
+    if(next_home_goal == minute) {
+      score_home = score_home + 1
+    } else {
+      score_away = score_away + 1
+    }
+  } else {
+    minute = 45
+  }
+}
