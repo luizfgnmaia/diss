@@ -1,8 +1,0 @@
-"0","log_lik = tibble(Model = 1:4,"
-"0","                 `log-likelihood` = c(mod_1$loglik, mod_2$loglik, mod_3$loglik, mod_4$loglik))"
-"2","Erro: Tibble columns must have compatible sizes.
-* Size 4: Existing data.
-* Size 3: Column `log-likelihood`.
-[34mi[39m Only values of size one are recycled.
-[90mRun `rlang::last_error()` to see where the error occurred.[39m
-"

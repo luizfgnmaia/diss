@@ -1,7 +1,0 @@
-"0","betas = tibble(Time = times$Time,"
-"0","               mod_0 = exp(mod_0$beta),"
-"0","               mod_1 = exp(mod_1$beta),"
-"0","               mod_2 = exp(mod_2$beta),"
-"0","               mod_3 = exp(mod_3$beta),"
-"0","               mod_4 = exp(mod_4$beta))"
-"0","kable(betas, digits = 4, caption = ""Betas"")"
