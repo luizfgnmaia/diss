@@ -61,6 +61,12 @@ pred_mod_1 <- function(n = 10000L, home_team, away_team, score_home = 0, score_a
     stop("stoppage_time must be boolean.")
   }
   
+  if(end_half < half) {
+    stop("end_half can't be smaller than half.")
+  } else if(end_minute <= minute) {
+    stop("end_minute needs to be bigger than minute.")
+  }
+
   pred <- function(home_team, away_team, score_home, score_away, reds_home, reds_away, minute, half, reds_home_1, reds_away_1) {
     
     if(end_minute < 45) {
@@ -382,9 +388,11 @@ pred_mod_1 <- function(n = 10000L, home_team, away_team, score_home = 0, score_a
   winner = c(home_win, tie, away_win)
   names(winner) = c(home_team, "Tie", away_team)
   
-  freq_scores = head(sort(table(paste0(scores[,1], "-", scores[,2])), decreasing = TRUE), 10)/n
-  freq_scores[11] = 1 - sum(freq_scores)
-  names(freq_scores)[11] = "other"
+  tab = sort(table(paste0(scores[,1], "-", scores[,2])), decreasing = TRUE)
+  max_scores = ifelse(length(tab) >= 10, 10, length(tab))
+  freq_scores = head(tab, max_scores)/n
+  freq_scores[max_scores+1] = 1 - sum(freq_scores)
+  names(freq_scores)[max_scores+1] = "other"
   
   list("Result" = winner, "Score" = freq_scores)
 }
