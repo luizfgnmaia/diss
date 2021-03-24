@@ -149,7 +149,7 @@ pred_mod_1 <- function(n = 10000L, home_team, away_team, score_home = 0, score_a
       }
       
       # Passo 2: acréscimos do primeiro tempo
-      if(stoppage_time == TRUE) {
+      if(stoppage_time == TRUE | end_half == 2) {
         
         U1 = rpois(1, lambda = mod_1$eta[1] + mod_1$rho[1]*(reds_home + reds_away))
         
