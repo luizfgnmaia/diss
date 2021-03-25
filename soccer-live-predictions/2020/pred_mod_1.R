@@ -69,7 +69,7 @@ pred_mod_1 <- function(n = 10000L, home_team, away_team, score_home = 0, score_a
     }
   }
   
-  pred <- function(home_team, away_team, score_home, score_away, reds_home, reds_away, minute, half, reds_home_1, reds_away_1) {
+  pred <- function(home_team, away_team, score_home, score_away, reds_home, reds_away, minute, half, reds_home_1, reds_away_1, end_minute, end_half, stoppage_time) {
     
     if(end_minute < 45) {
       stoppage_time = FALSE
@@ -379,7 +379,7 @@ pred_mod_1 <- function(n = 10000L, home_team, away_team, score_home = 0, score_a
   lst = list()
   set.seed(1)
   for(i in 1:n) {
-    lst[[i]] = pred(home_team, away_team, score_home, score_away, reds_home, reds_away, minute, half, reds_home_1, reds_away_1)
+    lst[[i]] = pred(home_team, away_team, score_home, score_away, reds_home, reds_away, minute, half, reds_home_1, reds_away_1, end_minute, end_half, stoppage_time)
   }
   scores = do.call(rbind, lst)
   colnames(scores) = c(home_team, away_team)
