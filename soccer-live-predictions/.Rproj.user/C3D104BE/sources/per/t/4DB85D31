@@ -3,7 +3,7 @@
     "path": "~/GitHub/soccer-live-predictions/soccer-live-predictions/2020/testing_pred.R",
     "project_path": "2020/testing_pred.R",
     "type": "r_source",
-    "hash": "766300272",
+    "hash": "1963167274",
     "contents": "",
     "dirty": false,
     "created": 1616286755150.0,
@@ -13,15 +13,15 @@
         "tempName": "Untitled1",
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "19,0",
+        "cursorPosition": "23,0",
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1616354022,
+    "lastKnownWriteTime": 1616703694,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1616354022460,
+    "last_content_update": 1616703694805,
     "read_only": false,
     "read_only_alternatives": []
 }

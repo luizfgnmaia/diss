@@ -63,10 +63,12 @@ pred_mod_1 <- function(n = 10000L, home_team, away_team, score_home = 0, score_a
   
   if(end_half < half) {
     stop("end_half can't be smaller than half.")
-  } else if(end_minute <= minute) {
-    stop("end_minute needs to be bigger than minute.")
+  } else if(end_half == half) {
+    if(end_minute <= minute) {
+      stop("end_minute needs to be bigger than minute.")
+    }
   }
-
+  
   pred <- function(home_team, away_team, score_home, score_away, reds_home, reds_away, minute, half, reds_home_1, reds_away_1) {
     
     if(end_minute < 45) {
