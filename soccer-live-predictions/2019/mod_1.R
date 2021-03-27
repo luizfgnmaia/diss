@@ -1,8 +1,8 @@
 
 library(CVXR)
 
-load("2020/data/input.RData")
-load("2020/data/input_mod_1.RData")
+load("2019/data/input.RData")
+load("2019/data/input_mod_1.RData")
 
 t0 = Sys.time()
 
@@ -10,7 +10,7 @@ alpha = Variable(n)
 beta = Variable(n)
 gamma = Variable(1)
 tau = Variable(1)
-omega = Variable(4)
+omega = Variable(6)
 theta = vstack(alpha, beta, gamma, tau, omega)
 
 eta = Variable(2)
@@ -26,10 +26,10 @@ logmu1 = log(delta1) + M1_mu %*% theta
 loglambda2 = log(delta2) + M2_lambda %*% theta
 logmu2 = log(delta2) + M2_mu %*% theta
 
-loglambda1s = log(int_reds_1) + a_lambda[1]
-logmu1s = log(int_reds_1) + a_mu[1]
-loglambda2s = log(int_reds_2) + a_lambda[2]
-logmu2s = log(int_reds_2) + a_mu[2]
+loglambda1s = log(int_reds_1) + a[1]
+logmu1s = log(int_reds_1) + a[2]
+loglambda2s = log(int_reds_2) + a[1]
+logmu2s = log(int_reds_2) + a[2]
 
 log_lik_goals = sum_entries(
   - exp(loglambda1) - exp(logmu1) +
@@ -61,8 +61,7 @@ mod_1 = list(alpha = as.vector(c(solution$getValue(alpha))),
              gamma = as.vector(solution$getValue(gamma)),
              tau = as.vector(solution$getValue(tau)),
              omega = as.vector(solution$getValue(omega)),
-             a_lambda = as.vector(solution$getValue(a_lambda)),
-             a_mu = as.vector(solution$getValue(a_mu)),
+             a = as.vector(solution$getValue(a)),
              eta = as.vector(solution$getValue(eta)),
              rho = as.vector(solution$getValue(rho)),
              kappa = as.vector(solution$getValue(kappa)),
@@ -71,7 +70,8 @@ mod_1 = list(alpha = as.vector(c(solution$getValue(alpha))),
 names(mod_1$alpha) = times$Time
 names(mod_1$beta) = times$Time
 names(mod_1$omega) = c("lambda_x", "lambda_y", "mu_x", "mu_y",
-                       "lambda_x^s", "lambda_y^s", "mu_x^s", "mu_y^s")
+                       "lambda_ys-xs", "mu_xs-ys")
+names(mod_1$a) = c("lambda", "mu")
 
-save(mod_1, file = "2020/data/mod_1.RData")
+save(mod_1, file = "2019/data/mod_1.RData")
 

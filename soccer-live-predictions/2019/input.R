@@ -6,13 +6,13 @@ load("scrape/data/goals.RData")
 load("scrape/data/reds.RData")
 
 results = results %>%
-  filter(Season == 2020)
+  filter(Season == 2019)
 
 goals = goals %>%
-  filter(Season == 2020)
+  filter(Season == 2019)
 
 reds = reds %>%
-  filter(Season == 2020)
+  filter(Season == 2019)
 
 #### Resultados
 results$ind = 1:nrow(results)
@@ -304,7 +304,7 @@ H2r = unlist(H2r)
 A1r = unlist(A1r)
 A2r = unlist(A2r)
 
-# H1s, H2s, A1s, A2s (dummies para os cartões vermelhos) (se existirem dois cartões para um mesmo time no mesmo minuto, recebe valor 2 mas isso não aconteceu em 2020)
+# H1s, H2s, A1s, A2s (dummies para os cartões vermelhos) (se existirem dois cartões para um mesmo time no mesmo minuto, recebe valor 2 mas isso não aconteceu em 2019)
 H1s = list(); H2s = list(); A1s = list(); A2s = list()
 for(k in 1:N) {
   tmp_H1s = NULL; tmp_A1s = NULL; tmp_H2s = NULL; tmp_A2s = NULL
@@ -341,8 +341,7 @@ for(k in 1:N) {
 
 times$Time = stringr::str_replace_all(times$Time, "\\s-\\s.*", "")
 times$Time[1] = "Athletico-PR"
-times$Time[2] = "Atlético-GO"
-times$Time[3] = "Atlético-MG"
+times$Time[2] = "Atlético-MG"
 
 rm(list = setdiff(ls(), c("U1", "U2", "times", "i", "j", "N", "n", "x", "y",
                           "t1", "t2", "J1", "J2", "x1", "x2", "y1", "y2", "m1", "m2", "I1", "I2",
@@ -350,4 +349,4 @@ rm(list = setdiff(ls(), c("U1", "U2", "times", "i", "j", "N", "n", "x", "y",
                           "I1s", "I2s", "I1r", "I2r", "H1", "H2", "A1", "A2", "H1r", "H2r", "A1r", "A2r",
                           "H1s", "H2s", "A1s", "A2s", "g1", "r1", "g2", "r2", "c")))
 
-save.image("2020/data/input.RData")
+save.image("2019/data/input.RData")
