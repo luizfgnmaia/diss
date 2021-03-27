@@ -39,11 +39,11 @@ for(it in 1:nit) {
   t = 0
   s = 0
   tmp = NULL
-  while(t < 48) {
+  while(t < 47) {
     u = runif(1)
     s = s - log(u)
     t = inv_lambda(s)
-    if(t < 48) {
+    if(t < 47) {
       tmp = c(tmp, t)
     }
   }
@@ -58,11 +58,11 @@ for(it in 1:nit) {
   t = 0
   s = 0
   tmp = NULL
-  while(t < 48) {
+  while(t < 47) {
     u = runif(1)
     s = s - log(u)
     t = inv_mu(s)
-    if(t < 48) {
+    if(t < 47) {
       tmp = c(tmp, t)
     }
   }

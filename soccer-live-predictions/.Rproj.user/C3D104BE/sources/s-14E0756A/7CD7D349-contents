@@ -1,0 +1,3 @@
+
+library(dplyr)
+reds %>% filter(Season == 2020) %>% count(Team)

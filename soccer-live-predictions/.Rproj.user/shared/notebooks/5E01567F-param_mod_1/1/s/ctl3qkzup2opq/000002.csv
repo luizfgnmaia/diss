@@ -1,0 +1,5 @@
+"0","Parameter = c(""$A_\\lambda^1$"", ""$A_\\lambda^2$"", ""$A_\\mu^1$"", ""$A_\\mu^2$"")"
+"0","reds = tibble(Parameter, Estimative = exp(c(mod_1$a_lambda, mod_1$a_mu)))"
+"2","Error in exp(c(mod_1$a_lambda, mod_1$a_mu)) : 
+  non-numeric argument to mathematical function
+"

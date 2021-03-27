@@ -10,7 +10,7 @@ alpha = Variable(n)
 beta = Variable(n)
 gamma = Variable(1)
 tau = Variable(1)
-omega = Variable(8)
+omega = Variable(4)
 theta = vstack(alpha, beta, gamma, tau, omega)
 
 eta = Variable(2)
@@ -19,8 +19,7 @@ kappa = Variable(1)
 pi1 = eta[1] + rho[1] * r1
 pi2 = eta[2] + rho[2] * r2 + c * kappa
 
-a_lambda = Variable(2)
-a_mu = Variable(2)
+a = Variable(2)
 
 loglambda1 = log(delta1) + M1_lambda %*% theta
 logmu1 = log(delta1) + M1_mu %*% theta

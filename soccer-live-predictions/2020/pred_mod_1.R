@@ -1,7 +1,7 @@
 
 load("2020/data/mod_1.RData")
 
-pred_mod_1 <- function(n = 10000L, home_team, away_team, score_home = 0, score_away = 0, reds_home = 0, reds_away = 0, minute = 0, half = 1, reds_home_1 = 0, reds_away_1 = 0, end_minute = 45, end_half = 2, stoppage_time = TRUE) {
+pred_mod_1 <- function(n = 10000L, home_team, away_team, score_home = 0, score_away = 0, reds_home_1 = 0, reds_away_1 = 0, reds_home_2 = 0, reds_away_2 = 0, minute = 0, half = 1, end_minute = 45, end_half = 2, stoppage_time = TRUE) {
   
   if(!is.numeric(n) | n <= 0) {
     stop("Invalid n.")
@@ -25,12 +25,20 @@ pred_mod_1 <- function(n = 10000L, home_team, away_team, score_home = 0, score_a
     stop("Invalid score_away.")
   }
   
-  if(!is.numeric(reds_home) | reds_home < 0) {
-    stop("Invalid reds_home.")
+  if(!is.numeric(reds_home_1) | reds_home_1 < 0) {
+    stop("Invalid reds_home_1.")
   }
   
-  if(!is.numeric(reds_away) | reds_away < 0) {
-    stop("Invalid reds_away.")
+  if(!is.numeric(reds_away_1) | reds_away_1 < 0) {
+    stop("Invalid reds_away_1.")
+  }
+  
+  if(!is.numeric(reds_home_2) | reds_home_2 < 0) {
+    stop("Invalid reds_home_1.")
+  }
+  
+  if(!is.numeric(reds_away_2) | reds_away_2 < 0) {
+    stop("Invalid reds_away_2.")
   }
   
   if(minute > 45 | minute < 0) {
@@ -41,15 +49,7 @@ pred_mod_1 <- function(n = 10000L, home_team, away_team, score_home = 0, score_a
     stop("Invalid half.")
   }
   
-  if(!is.numeric(reds_home_1) | reds_home_1 < 0) {
-    stop("Invalid reds_home_1.")
-  }
-  
-  if(!is.numeric(reds_away_1) | reds_away_1 < 0) {
-    stop("Invalid reds_away_1.")
-  }
-  
-  if(end_minute > 45 | end_minute < 0) {
+  if((end_minute > 45 | end_minute < 0)) {
     stop("Invalid end_minute.")
   }
   
@@ -69,7 +69,10 @@ pred_mod_1 <- function(n = 10000L, home_team, away_team, score_home = 0, score_a
     }
   }
   
-  pred <- function(home_team, away_team, score_home, score_away, reds_home, reds_away, minute, half, reds_home_1, reds_away_1, end_minute, end_half, stoppage_time) {
+  pred <- function(home_team, away_team, score_home, score_away, reds_home_1, reds_away_1, reds_home_2, reds_away_2, minute, half, end_minute, end_half, stoppage_time) {
+    
+    reds_home = reds_home_1 + reds_home_2
+    reds_away = reds_away_1 + reds_away_2
     
     if(end_minute < 45) {
       stoppage_time = FALSE
@@ -94,12 +97,12 @@ pred_mod_1 <- function(n = 10000L, home_team, away_team, score_home = 0, score_a
       
       # Gerando expulsões para o time mandante
       t = minute
-      s = (1/2)*A_lambda_1*t^2 # começando do minuto t
+      s = (1/2)*A_lambda*t^2 # começando do minuto t
       t_reds_home = NULL
       while(t < end_1st) { 
         u = runif(1)
         s = s - log(u)
-        t = inv_lambda_1(s)
+        t = inv_lambda(s)
         if(t < end_1st) {
           t_reds_home = c(t_reds_home, t)
         }
@@ -107,12 +110,12 @@ pred_mod_1 <- function(n = 10000L, home_team, away_team, score_home = 0, score_a
       
       # Gerando expulsões para o time visitante
       t = minute
-      s = (1/2)*A_mu_1*t^2 # começando do minuto t
+      s = (1/2)*A_mu*t^2 # começando do minuto t
       t_reds_away = NULL
       while(t < end_1st) { 
         u = runif(1)
         s = s - log(u)
-        t = inv_mu_1(s)
+        t = inv_mu(s)
         if(t < end_1st) {
           t_reds_away = c(t_reds_away, t)
         }
@@ -121,8 +124,8 @@ pred_mod_1 <- function(n = 10000L, home_team, away_team, score_home = 0, score_a
       # Gerando gols para ambos os times
       while(minute < end_1st) {
         
-        lambda = exp(alpha_i+beta_j+gamma)*exp(score_home*mod_1$omega["lambda_x"])*exp(score_away*mod_1$omega["lambda_y"])*exp(reds_home*mod_1$omega["lambda_x^s"])*exp(reds_away*mod_1$omega["lambda_y^s"])
-        mu = exp(alpha_j+beta_i)*exp(score_home*mod_1$omega["mu_x"])*exp(score_away*mod_1$omega["mu_y"])*exp(reds_home*mod_1$omega["mu_x^s"])*exp(reds_away*mod_1$omega["mu_y^s"])
+        lambda = exp(alpha_i+beta_j+gamma)*exp(score_home*mod_1$omega["lambda_x"])*exp(score_away*mod_1$omega["lambda_y"])*exp((reds_away - reds_home)*mod_1$omega["lambda_ys-xs"])
+        mu = exp(alpha_j+beta_i)*exp(score_home*mod_1$omega["mu_x"])*exp(score_away*mod_1$omega["mu_y"])*exp((reds_home - reds_away)*mod_1$omega["mu_xs-ys"])
         next_home_goal = rexp(1, rate = lambda) + minute
         next_away_goal = rexp(1, rate = mu) + minute
         next_home_red = t_reds_home[t_reds_home > minute][1]
@@ -157,12 +160,12 @@ pred_mod_1 <- function(n = 10000L, home_team, away_team, score_home = 0, score_a
         
         # Gerando expulsões para o time mandante
         t = 45
-        s = (1/2)*A_lambda_1*t^2 # começando do minuto 45
+        s = (1/2)*A_lambda*t^2 # começando do minuto 45
         t_reds_home_st = NULL
         while(t < 45+U1) {
           u = runif(1)
           s = s - log(u)
-          t = inv_lambda_1(s)
+          t = inv_lambda(s)
           if(t < 45) {
             t_reds_home_st = c(t_reds_home_st, t)
           }
@@ -170,12 +173,12 @@ pred_mod_1 <- function(n = 10000L, home_team, away_team, score_home = 0, score_a
         
         # Gerando expulsões para o time visitante
         t = 45
-        s = (1/2)*A_mu_1*t^2 # começando do minuto 45
+        s = (1/2)*A_mu*t^2 # começando do minuto 45
         t_reds_away_st = NULL
         while(t < 45+U1) {
           u = runif(1)
           s = s - log(u)
-          t = inv_mu_1(s)
+          t = inv_mu(s)
           if(t < 45+U1) {
             t_reds_away_st = c(t_reds_away, t)
           }
@@ -184,8 +187,8 @@ pred_mod_1 <- function(n = 10000L, home_team, away_team, score_home = 0, score_a
         # Gerando gols para ambos os times
         while(minute < 45+U1) {
           
-          lambda = exp(alpha_i+beta_j+gamma)*exp(score_home*mod_1$omega["lambda_x"])*exp(score_away*mod_1$omega["lambda_y"])*exp(reds_home*mod_1$omega["lambda_x^s"])*exp(reds_away*mod_1$omega["lambda_y^s"])
-          mu = exp(alpha_j+beta_i)*exp(score_home*mod_1$omega["mu_x"])*exp(score_away*mod_1$omega["mu_y"])*exp(reds_home*mod_1$omega["mu_x^s"])*exp(reds_away*mod_1$omega["mu_y^s"])
+          lambda = exp(alpha_i+beta_j+gamma)*exp(score_home*mod_1$omega["lambda_x"])*exp(score_away*mod_1$omega["lambda_y"])*exp((reds_away - reds_home)*mod_1$omega["lambda_ys-xs"])
+          mu = exp(alpha_j+beta_i)*exp(score_home*mod_1$omega["mu_x"])*exp(score_away*mod_1$omega["mu_y"])*exp((reds_home - reds_away)*mod_1$omega["mu_xs-ys"])
           next_home_goal = rexp(1, rate = lambda) + minute
           next_away_goal = rexp(1, rate = mu) + minute
           next_home_red = t_reds_home[t_reds_home > minute][1]
@@ -225,36 +228,36 @@ pred_mod_1 <- function(n = 10000L, home_team, away_team, score_home = 0, score_a
       end_2nd = end_minute
       
       # Gerando expulsões para o time mandante
-      t = minute
-      s = (1/2)*A_lambda_2*t^2 # começando do minuto t
+      t = minute + 45 
+      s = (1/2)*A_lambda*t^2 # começando do minuto t
       t_reds_home = NULL
-      while(t < end_2nd) { # antes de calcular os acréscimos
+      while(t < end_2nd + 45) { # antes de calcular os acréscimos
         u = runif(1)
         s = s - log(u)
-        t = inv_lambda_2(s)
-        if(t < end_2nd) {
-          t_reds_home = c(t_reds_home, t)
+        t = inv_lambda(s)
+        if(t < end_2nd + 45) {
+          t_reds_home = c(t_reds_home, t - 45)
         }
       }
       
       # Gerando expulsões para o time visitante
-      t = minute
-      s = (1/2)*A_mu_2*t^2 # começando do minuto t
+      t = minute + 45
+      s = (1/2)*A_mu*t^2 # começando do minuto t
       t_reds_away = NULL
-      while(t < end_2nd) { # antes de calcular os acréscimos
+      while(t < end_2nd + 45) { # antes de calcular os acréscimos
         u = runif(1)
         s = s - log(u)
-        t = inv_mu_2(s)
-        if(t < end_2nd) {
-          t_reds_away = c(t_reds_away, t)
+        t = inv_mu(s)
+        if(t < end_2nd + 45) {
+          t_reds_away = c(t_reds_away, t - 45)
         }
       }
       
       # Gerando gols para ambos os times
       while(minute < end_2nd) {
         
-        lambda = exp(alpha_i+beta_j+gamma+tau)*exp(score_home*mod_1$omega["lambda_x"])*exp(score_away*mod_1$omega["lambda_y"])*exp(reds_home*mod_1$omega["lambda_x^s"])*exp(reds_away*mod_1$omega["lambda_y^s"])
-        mu = exp(alpha_j+beta_i+tau)*exp(score_home*mod_1$omega["mu_x"])*exp(score_away*mod_1$omega["mu_y"])*exp(reds_home*mod_1$omega["mu_x^s"])*exp(reds_away*mod_1$omega["mu_y^s"])
+        lambda = exp(alpha_i+beta_j+gamma+tau)*exp(score_home*mod_1$omega["lambda_x"])*exp(score_away*mod_1$omega["lambda_y"])*exp((reds_away - reds_home)*mod_1$omega["lambda_ys-xs"])
+        mu = exp(alpha_j+beta_i+tau)*exp(score_home*mod_1$omega["mu_x"])*exp(score_away*mod_1$omega["mu_y"])*exp((reds_home - reds_away)*mod_1$omega["mu_xs-ys"])
         next_home_goal = rexp(1, rate = lambda) + minute
         next_away_goal = rexp(1, rate = mu) + minute
         next_home_red = t_reds_home[t_reds_home > minute][1]
@@ -288,36 +291,36 @@ pred_mod_1 <- function(n = 10000L, home_team, away_team, score_home = 0, score_a
         U2 = rpois(1, lambda = mod_1$eta[2] + mod_1$rho[2]*(reds_home + reds_away - reds_home_1 - reds_away_1))
         
         # Gerando expulsões para o time mandante
-        t = 45
-        s = (1/2)*A_lambda_2*t^2 # começando do minuto 45
+        t = 90
+        s = (1/2)*A_lambda*t^2 # começando do minuto 90
         t_reds_home_st = NULL
-        while(t < 45+U2) {
+        while(t < 90+U2) {
           u = runif(1)
           s = s - log(u)
-          t = inv_lambda_2(s)
-          if(t < 45) {
-            t_reds_home_st = c(t_reds_home_st, t)
+          t = inv_lambda(s)
+          if(t < 90+U2) {
+            t_reds_home_st = c(t_reds_home_st, t - 45)
           }
         }
         
         # Gerando expulsões para o time visitante
-        t = 45
-        s = (1/2)*A_mu_2*t^2 # começando do minuto 45
+        t = 90
+        s = (1/2)*A_mu*t^2 # começando do minuto 90
         t_reds_away_st = NULL
-        while(t < 45+U2) {
+        while(t < 90+U2) {
           u = runif(1)
           s = s - log(u)
-          t = inv_mu_2(s)
-          if(t < 45+U2) {
-            t_reds_away_st = c(t_reds_away, t)
+          t = inv_mu(s)
+          if(t < 90+U2) {
+            t_reds_away_st = c(t_reds_away, t - 45)
           }
         }
         
         # Gerando gols para ambos os times
         while(minute < 45+U2) {
           
-          lambda = exp(alpha_i+beta_j+gamma+tau)*exp(score_home*mod_1$omega["lambda_x"])*exp(score_away*mod_1$omega["lambda_y"])*exp(reds_home*mod_1$omega["lambda_x^s"])*exp(reds_away*mod_1$omega["lambda_y^s"])
-          mu = exp(alpha_j+beta_i+tau)*exp(score_home*mod_1$omega["mu_x"])*exp(score_away*mod_1$omega["mu_y"])*exp(reds_home*mod_1$omega["mu_x^s"])*exp(reds_away*mod_1$omega["mu_y^s"])
+          lambda = exp(alpha_i+beta_j+gamma+tau)*exp(score_home*mod_1$omega["lambda_x"])*exp(score_away*mod_1$omega["lambda_y"])*exp((reds_away - reds_home)*mod_1$omega["lambda_ys-xs"])
+          mu = exp(alpha_j+beta_i+tau)*exp(score_home*mod_1$omega["mu_x"])*exp(score_away*mod_1$omega["mu_y"])*exp((reds_home - reds_away)*mod_1$omega["mu_xs-ys"])
           next_home_goal = rexp(1, rate = lambda) + minute
           next_away_goal = rexp(1, rate = mu) + minute
           next_home_red = t_reds_home[t_reds_home > minute][1]
@@ -349,37 +352,26 @@ pred_mod_1 <- function(n = 10000L, home_team, away_team, score_home = 0, score_a
     c(score_home, score_away)
   }
   
-  inv_lambda_1 <- function(x) {
-    (2*x/A_lambda_1)^(1/2)
+  inv_lambda <- function(x) {
+    (2*x/A_lambda)^(1/2)
   }
   
-  inv_lambda_2 <- function(x) {
-    (2*x/A_lambda_2)^(1/2)
-  }
-  
-  inv_mu_1 <- function(x) {
-    (2*x/A_mu_1)^(1/2)
-  }
-  
-  inv_mu_2 <- function(x) {
-    (2*x/A_mu_2)^(1/2)
+  inv_mu <- function(x) {
+    (2*x/A_mu)^(1/2)
   }
   
   gamma = mod_1$gamma
   tau = mod_1$tau
-  A_lambda_1 = exp(mod_1$a_lambda[1])
-  A_lambda_2 = exp(mod_1$a_lambda[2])
-  A_mu_1 = exp(mod_1$a_mu[1])
-  A_mu_2 = exp(mod_1$a_mu[2])
+  A_lambda = exp(mod_1$a[1])
+  A_mu = exp(mod_1$a[2])
   alpha_i = mod_1$alpha[home_team]
   beta_i = mod_1$beta[home_team]
   alpha_j = mod_1$alpha[away_team]
   beta_j = mod_1$beta[away_team]
   
   lst = list()
-  set.seed(1)
   for(i in 1:n) {
-    lst[[i]] = pred(home_team, away_team, score_home, score_away, reds_home, reds_away, minute, half, reds_home_1, reds_away_1, end_minute, end_half, stoppage_time)
+    lst[[i]] = pred(home_team, away_team, score_home, score_away, reds_home_1, reds_away_1, reds_home_2, reds_away_2, minute, half, end_minute, end_half, stoppage_time)
   }
   scores = do.call(rbind, lst)
   colnames(scores) = c(home_team, away_team)

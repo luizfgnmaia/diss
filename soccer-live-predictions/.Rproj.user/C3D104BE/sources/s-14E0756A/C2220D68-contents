@@ -1,0 +1,12 @@
+
+# usar f(t) = t, remover 2 parametros dos omega_star e 2 do processo de red cards
+
+# arrumar a previsão no minuto 45 + stoppage time
+
+# tirar o set.seed do shiny
+
+# colocar os inputs dos red_cards_1 pra cima e trocar o reds_home para reds_home_2, arrumar na função
+
+# testar para as outras seasons também
+
+# comparar com o modelo estático também
