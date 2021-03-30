@@ -1,6 +1,8 @@
 
 source("2020/pred_mod_1.R")
 
+source("2020/pred_mod_0.R")
+
 pred_mod_1(home_team = "Flamengo", away_team = "Internacional")
 
 pred_mod_1(home_team = "Flamengo", away_team = "Internacional", half = 2)
@@ -16,4 +18,10 @@ pred_mod_1(home_team = "Flamengo", away_team = "Internacional", score_home = 1, 
 
 pred_mod_1(home_team = "Flamengo", away_team = "Internacional", score_home = 1, score_away = 1, minute = 4, half = 2, reds_away_2 = 1)
 
+
+
+
+pred_mod_0(home_team = "Flamengo", away_team = "Internacional", score_home = 1, score_away = 1)
+
+pred_mod_0(home_team = "Flamengo", away_team = "Internacional", score_home = 1, score_away = 1, minute = 44)
 

@@ -6,13 +6,16 @@ load("scrape/data/goals.RData")
 load("scrape/data/reds.RData")
 
 results = results %>%
-  filter(Season == 2020)
+  filter(Season == 2020) %>%
+  arrange(Date, Match)
 
 goals = goals %>%
-  filter(Season == 2020)
+  filter(Season == 2020) %>%
+  arrange(Date, Match)
 
 reds = reds %>%
-  filter(Season == 2020)
+  filter(Season == 2020) %>%
+  arrange(Date, Match)
 
 #### Resultados
 results$ind = 1:nrow(results)
@@ -41,7 +44,7 @@ results = results %>%
   rename(x = Score_Home,
          y = Score_Away) %>%
   mutate(k = 1:nrow(.)) %>%
-  select(k, i, j, x, y)
+  select(k, i, j, x, y, Date, Match, Season)
 
 i = results$i; j = results$j; x = results$x; y = results$y
 
@@ -344,10 +347,31 @@ times$Time[1] = "Athletico-PR"
 times$Time[2] = "Atlético-GO"
 times$Time[3] = "Atlético-MG"
 
+tib1 = tibble(Season = results$Season, Date = results$Date, Match = results$Match, 
+               Lines1 = cumsum(unlist(lapply(I1r, function(x) length(x) - 1))))
+lst1 = lst()
+lst1[[1]] = c(1:tib1$Lines1[1])
+for(k in 2:N) {
+  lst1[[k]] = c((tib1$Lines1[k-1]+1):tib1$Lines1[k])
+}
+tib1$Lines1 = lst1
+
+tib2 = tibble(Season = results$Season, Date = results$Date, Match = results$Match, 
+               Lines2 = cumsum(unlist(lapply(I2r, function(x) length(x) - 1))))
+lst2 = lst()
+lst2[[1]] = c(1:tib2$Lines2[1])
+for(k in 2:N) {
+  lst2[[k]] = c((tib2$Lines2[k-1]+1):tib2$Lines2[k])
+}
+tib2$Lines2 = lst2
+
+match_dates = full_join(tib1, tib2)
+
 rm(list = setdiff(ls(), c("U1", "U2", "times", "i", "j", "N", "n", "x", "y",
                           "t1", "t2", "J1", "J2", "x1", "x2", "y1", "y2", "m1", "m2", "I1", "I2",
                           "t1s", "t2s", "J1s", "J2s", "x1s", "x2s", "y1s", "y2s", "m1s", "m2s",
                           "I1s", "I2s", "I1r", "I2r", "H1", "H2", "A1", "A2", "H1r", "H2r", "A1r", "A2r",
-                          "H1s", "H2s", "A1s", "A2s", "g1", "r1", "g2", "r2", "c")))
+                          "H1s", "H2s", "A1s", "A2s", "g1", "r1", "g2", "r2", "c", "match_dates")))
 
 save.image("2020/data/input.RData")
+
