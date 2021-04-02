@@ -8,54 +8,48 @@ input_pred <- function(ind, min) {
     filter(Season == copy_results$Season[ind],
            Match == copy_results$Match[ind])
   
-  home_goals = match_goals %>%
+  score_home = match_goals %>%
     filter(Team == 1,
-           Minute <= min, 
-           is.na(Stoppage_Time)) %>%
+           Minute <= min) %>%
     nrow()
   
-  away_goals = match_goals %>%
+  score_away = match_goals %>%
     filter(Team == 2,
-           Minute <= min, 
-           is.na(Stoppage_Time)) %>%
+           Minute <= min) %>%
     nrow()
   
   match_reds = reds %>%
     filter(Season == copy_results$Season[ind],
            Match == copy_results$Match[ind])
   
-  home_reds_1 = match_reds %>%
+  reds_home_1 = match_reds %>%
     filter(Team == 1,
            Half == 1,
-           Minute <= min, 
-           is.na(Stoppage_Time)) %>%
+           Minute <= min) %>%
     nrow()
   
-  away_reds_1 = match_reds %>%
+  reds_away_1 = match_reds %>%
     filter(Team == 2,
            Half == 1,
-           Minute <= min, 
-           is.na(Stoppage_Time)) %>%
+           Minute <= min) %>%
     nrow()
   
-  home_reds_2 = match_reds %>%
+  reds_home_2 = match_reds %>%
     filter(Team == 1,
            Half == 2,
-           Minute <= min, 
-           is.na(Stoppage_Time)) %>%
+           Minute <= min) %>%
     nrow()
   
-  away_reds_2 = match_reds %>%
+  reds_away_2 = match_reds %>%
     filter(Team == 2,
            Half == 2,
-           Minute <= min, 
-           is.na(Stoppage_Time)) %>%
+           Minute <= min) %>%
     nrow()
   
   
-  list(home_goals = home_goals, away_goals = away_goals,
-       home_reds_1 = home_reds_1, away_reds_1 = away_reds_1,
-       home_reds_2 = home_reds_2, away_reds_2 = away_reds_2)
+  list(score_home = score_home, score_away = score_away,
+       reds_home_1 = reds_home_1, reds_away_1 = reds_away_1,
+       reds_home_2 = reds_home_2, reds_away_2 = reds_away_2)
 }
 
 

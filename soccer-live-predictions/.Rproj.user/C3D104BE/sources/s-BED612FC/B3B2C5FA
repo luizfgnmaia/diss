@@ -1,27 +1,27 @@
 {
-    "id": "70624A16",
-    "path": "~/GitHub/soccer-live-predictions/soccer-live-predictions/2020/pred_mod_1_dates.R",
-    "project_path": "2020/pred_mod_1_dates.R",
+    "id": "B3B2C5FA",
+    "path": "~/GitHub/soccer-live-predictions/soccer-live-predictions/2020/predicting_matches_mod_1.R",
+    "project_path": "2020/predicting_matches_mod_1.R",
     "type": "r_source",
     "hash": "0",
     "contents": "",
     "dirty": false,
-    "created": 1617347683857.0,
+    "created": 1617350406750.0,
     "source_on_save": false,
-    "relative_order": 4,
+    "relative_order": 3,
     "properties": {
         "tempName": "Untitled1",
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "49,42",
-        "scrollLine": "70"
+        "cursorPosition": "111,32",
+        "scrollLine": "95"
     },
     "folds": "",
-    "lastKnownWriteTime": 1617347828,
+    "lastKnownWriteTime": 1617353036,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1617347828869,
+    "last_content_update": 1617353036174,
     "read_only": false,
     "read_only_alternatives": []
 }
