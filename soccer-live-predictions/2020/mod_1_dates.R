@@ -9,7 +9,7 @@ res = results %>%
   arrange(Date)
 dates = unique(res$Date)
 
-mod_dates = list()
+mod_1_dates = list()
 
 for(k in 2:length(dates)) {
   
@@ -128,9 +128,9 @@ for(k in 2:length(dates)) {
                          "lambda_ys-xs", "mu_xs-ys")
   names(mod_1$a) = c("lambda", "mu")
   
-  mod_dates[[k]] = mod_1
+  mod_1_dates[[k]] = mod_1
   print(paste0(round(100*k/length(dates), 2), "%"))
 }
-names(mod_dates) = dates
+names(mod_1_dates) = dates
 
-save(mod_dates, file = "2020/data/mod_dates.RData")
+save(mod_1_dates, file = "2020/data/mod_1_dates.RData")

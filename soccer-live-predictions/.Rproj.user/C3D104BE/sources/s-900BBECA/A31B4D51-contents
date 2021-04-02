@@ -1,0 +1,14 @@
+predictions_mod_1[[1]]$Match
+
+head(predictions_mod_1[[1]]$pred_0)
+
+head(predictions_mod_1[[1]]$pred_15)
+
+head(predictions_mod_1[[1]]$pred_30)
+
+head(predictions_mod_1[[1]]$pred_45)
+
+head(predictions_mod_1[[1]]$pred_60)
+
+head(predictions_mod_1[[1]]$pred_75)
+

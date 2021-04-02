@@ -25,3 +25,5 @@ pred_mod_0(home_team = "Flamengo", away_team = "Internacional", score_home = 1, 
 
 pred_mod_0(home_team = "Flamengo", away_team = "Internacional", score_home = 1, score_away = 1, minute = 44)
 
+
+pred_mod_0(home_team = "Fluminense", away_team = "Red Bull Bragantino", score_home = 0, score_away = 0)

@@ -1,0 +1,13 @@
+load("2020/data/predictions_mod_0.RData")
+
+i = 250
+
+predictions_mod_0[[i]]$Match
+
+head(predictions_mod_0[[i]]$pred_0)
+head(predictions_mod_0[[i]]$pred_15)
+head(predictions_mod_0[[i]]$pred_30)
+head(predictions_mod_0[[i]]$pred_45)
+head(predictions_mod_0[[i]]$pred_60)
+head(predictions_mod_0[[i]]$pred_75)
+

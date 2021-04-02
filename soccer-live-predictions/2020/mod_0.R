@@ -3,18 +3,9 @@ library(CVXR)
 library(caret)
 
 load("2020/data/input.RData")
+load("2020/data/input_mod_0.RData")
 
 t0 = Sys.time()
-
-goals = c(x, y)
-alpha = as.factor(c(i, j))
-beta = as.factor(c(j, i))
-gamma = c(rep(1, N), rep(0, N))
-
-# https://stackoverflow.com/questions/4560459/all-levels-of-a-factor-in-a-model-matrix-in-r
-df = data.frame(alpha, beta, gamma)
-dmy = dummyVars(" ~ .", data = df) 
-M = as.matrix(data.frame(predict(dmy, newdata = df)))
 
 alpha = Variable(20)
 beta = Variable(20)
