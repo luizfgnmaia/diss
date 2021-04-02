@@ -8,7 +8,7 @@ res = results %>%
   filter(Season == 2020) %>%
   arrange(Date)
 dates = unique(res$Date)
-dates = dates[dates >= dates[32]]
+dates = dates[dates >= dates[5]]
 
 mod_dates = list()
 

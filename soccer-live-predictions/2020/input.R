@@ -396,7 +396,8 @@ rm(list = setdiff(ls(), c("U1", "U2", "times", "i", "j", "N", "n", "x", "y",
                           "t1", "t2", "J1", "J2", "x1", "x2", "y1", "y2", "m1", "m2", "I1", "I2",
                           "t1s", "t2s", "J1s", "J2s", "x1s", "x2s", "y1s", "y2s", "m1s", "m2s",
                           "I1s", "I2s", "I1r", "I2r", "H1", "H2", "A1", "A2", "H1r", "H2r", "A1r", "A2r",
-                          "H1s", "H2s", "A1s", "A2s", "g1", "r1", "g2", "r2", "c", "match_dates")))
+                          "H1s", "H2s", "A1s", "A2s", "g1", "r1", "g2", "r2", "c", "match_dates",
+                          "copy_results")))
 
 save.image("2020/data/input.RData")
 

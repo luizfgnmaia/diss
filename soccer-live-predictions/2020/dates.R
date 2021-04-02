@@ -8,7 +8,7 @@ res = results %>%
   arrange(Date)
 
 dates = unique(res$Date)
-n = 31
+n = 4
 
 tmp1 = res %>%
   filter(Date <= dates[n]) %>%
@@ -19,10 +19,11 @@ tmp2 = res %>%
   rename(Team = Away_Team) %>%
   count(Team, name = "n2")
 games_per_team = full_join(tmp1, tmp2) %>%
-  mutate(n = n1+n2) %>%
+  rowwise() %>%
+  mutate(n = sum(n1, n2, na.rm = TRUE)) %>%
   select(-n1, -n2) %>%
   arrange(n)
 games_per_team
 
-dates[31] # a partir daqui todos os times tem 10 jogos
-dates[32] # começar daqui?
+# dates[4] # a partir daqui todos os times tem 10 jogos
+# dates[5] # começar daqui?
