@@ -369,6 +369,14 @@ pred_mod_1 <- function(mod_1, n = 10000L, home_team, away_team, score_home = 0, 
   alpha_j = mod_1$alpha[away_team]
   beta_j = mod_1$beta[away_team]
   
+  if(mod_1$rho[1] < 0) {
+    mod_1$rho[1] = 0
+  }
+  
+  if(mod_1$rho[2] < 0) {
+    mod_1$rho[2] = 0
+  }
+  
   lst = list()
   for(i in 1:n) {
     lst[[i]] = pred(home_team, away_team, score_home, score_away, reds_home_1, reds_away_1, reds_home_2, reds_away_2, minute, half, end_minute, end_half, stoppage_time)

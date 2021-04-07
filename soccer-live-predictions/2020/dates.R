@@ -8,7 +8,7 @@ res = results %>%
   arrange(Date)
 
 dates = unique(res$Date)
-n = 11
+n = 6
 
 tmp1 = res %>%
   filter(Date <= dates[n]) %>%
@@ -42,3 +42,9 @@ games_per_team
 # > dates[12]
 # [1] "2020-08-29"
 # ind = 48
+
+# dates[6] # a partir daqui todos os times tem 2 jogos
+# dates[7] # começar daqui
+# > dates[7]
+# [1] "2020-08-19"
+# ind = 31

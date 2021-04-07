@@ -1,0 +1,34 @@
+
+RPS <- function(Result, pH, pD, pA) {
+  
+  p = c(pH, pD, pA)
+  
+  if(Result == "H") {
+    e = c(1, 0, 0)
+  } else if(Result == "D") {
+    e = c(0, 1, 0)
+  } else {
+    e = c(0, 0, 1)
+  }
+  
+  s = 0
+  for(i in 1:2) {
+    for(j in 1:i) {
+      s = s + (p[j] - e[j])^2
+    } 
+  }
+  
+  s/2
+}
+
+RPS(Result = "A", pH = 0.2, pD = 0.3, pA = 0.5)
+
+RPS(Result = "A", pH = 0, pD = 0, pA = 1)
+
+RPS(Result = "H", pH = 0, pD = 0, pA = 1)
+
+RPS(Result = "H", pH = 0.5, pD = 0.3, pA = 0.2)
+
+
+library(verification)
+rps(obs = 3, pred = matrix(c(0.2, 0.3, 0.5), nrow = 1))$rps
