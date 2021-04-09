@@ -1,0 +1,5 @@
+"0","alphas_betas = tibble(Team = times$Time,"
+"0","                alpha = exp(mod_2$alpha),"
+"0","                beta = exp(mod_2$beta))"
+"2","Error in eval_tidy(xs[[j]], mask) : objeto 'mod_2' não encontrado
+"

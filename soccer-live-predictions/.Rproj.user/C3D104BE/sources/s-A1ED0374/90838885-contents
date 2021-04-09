@@ -1,0 +1,35 @@
+
+RPS <- function(Result, pH, pD, pA) {
+  verification::rps(obs = Result, pred = matrix(c(pH, pD, pA), nrow = 1))$rps
+}
+
+RPS(1, 0.5, 0.3, 0.2)
+
+Result = 1
+pH = 0.5
+pD = 0.3
+pA = 0.2
+
+RPS2 <- function(Result, pH, pD, pA) {
+  
+  p = c(pH, pD, pA)
+  
+  e = c(0, 0, 0)
+  e[Result] = 1
+  
+  s = 0
+  for(i in 1:2) {
+    ps = 0
+    for(j in 1:i) {
+      ps = ps + p[j] - e[j]
+    }
+    s = s + ps^2
+  }
+  s/2
+}
+
+RPS(1, 0.5, 0.3, 0.2)
+RPS2(1, 0.5, 0.3, 0.2)
+
+RPS(3, 0.5, 0.3, 0.2)
+RPS2(3, 0.5, 0.3, 0.2)

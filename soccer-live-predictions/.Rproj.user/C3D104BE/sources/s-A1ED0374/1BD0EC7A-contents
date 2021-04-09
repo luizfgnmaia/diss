@@ -1,0 +1,51 @@
+---
+title: "Parameters Série A 2019 model 0"
+output: pdf_document
+---
+
+# Rates for the home and away goals
+
+$$ \ln \lambda_k = \ln \alpha_i + \ln \beta_j +  \ln \gamma_h $$
+$$ \ln \mu_k = \ln \alpha_i + \ln \beta_j $$
+
+\begin{itemize}
+\item $i$: home team index;
+\item $j$: away team index;
+\item $\alpha$: attack strength parameter;
+\item $1/\beta$: defense strength parameter;
+\item $\gamma_h$: home advantage parameter.
+\end{itemize}
+
+# Constraint
+The constraint for identificability is
+$$ \sum_i^n \log(\alpha_i) = \sum_i^n \log(\beta_i).$$
+
+```{r, warning = FALSE, message = FALSE}
+options(knitr.kable.NA = "–")
+options(scipen = 999)
+
+library(dplyr)
+library(knitr)
+
+load("data/input.RData")
+load("data/mod_0.RData")
+```
+
+```{r}
+alphas_betas = tibble(Team = times$Time,
+                alpha = exp(mod_0$alpha),
+                beta = exp(mod_0$beta))
+kable(alphas_betas, digits = 4, caption = "Alphas and betas", 
+      col.names = c("Team", "$\\alpha$", "$\\beta$"))
+```
+
+```{r}
+Parameter = "$\\gamma_h$"
+param = tibble(Parameter, 
+               Estimative = exp(mod_0$gamma))
+kable(param, digits = 4, caption = "Other parameters")
+```
+```{r}
+mod_0$loglik
+```
+

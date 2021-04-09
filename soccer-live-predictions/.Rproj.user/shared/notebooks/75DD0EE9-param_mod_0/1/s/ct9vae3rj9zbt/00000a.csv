@@ -1,0 +1,4 @@
+"0","Parameter = ""$\\gamma_h$"""
+"0","param = tibble(Parameter, "
+"0","               Estimative = exp(mod_0$gamma))"
+"0","kable(param, digits = 4, caption = ""Other parameters"")"
