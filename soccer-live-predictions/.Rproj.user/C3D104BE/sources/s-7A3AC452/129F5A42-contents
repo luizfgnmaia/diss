@@ -1,0 +1,89 @@
+---
+title: "Number of simulations"
+output: pdf_document
+---
+
+```{r, warning = FALSE, message = FALSE}
+options(scipen = 999)
+
+library(dplyr)
+library(ggplot2)
+
+load("~/GitHub/soccer-live-predictions/soccer-live-predictions/2020/data/mod_0.RData")
+load("~/GitHub/soccer-live-predictions/soccer-live-predictions/2020/data/mod_3.RData")
+source("pred_mod_0.R")
+source("pred_mod_3.R")
+```
+
+```{r}
+n = c(10^3 * 1:9, 10^4 * 1:9, 10^5 * 1:9, 10^6 * 1:10)
+
+m0 = list()
+m3 = list()
+m0_1_1 = NULL
+m0_fla = NULL
+m3_1_1 = NULL
+m3_fla = NULL
+
+set.seed(1)
+for(i in 1:length(n)) {
+  m0[[i]] = pred_mod_0(mod_0, n = n[i], home_team = "Flamengo", 
+                     away_team = "Internacional")
+  m3[[i]] = pred_mod_3(mod_3, n = n[i], home_team = "Flamengo", 
+                     away_team = "Internacional")
+  m0_1_1[i] = m0[[i]]$Score["1-1"]
+  m0_fla[i] = m0[[i]]$Result["Flamengo"]
+  m3_1_1[i] = m3[[i]]$Score["1-1"]
+  m3_fla[i] = m3[[i]]$Result["Flamengo"]
+}
+
+save.image("data/number_of_simulations.RData")
+```
+
+```{r}
+tibble(n, m0_fla) %>%
+  ggplot(aes(x = n, y = m0_fla)) +
+  geom_line(size = 1) +
+  geom_point(size = 2) +
+  scale_x_log10() +
+  xlab("Number of simulations") +
+  ylab("Estimative") +
+  theme_bw() +
+  ggtitle("Home win, model 0")
+```
+
+```{r}
+tibble(n, m3_fla) %>%
+  ggplot(aes(x = n, y = m3_fla)) +
+  geom_line(size = 1) +
+  geom_point(size = 2) +
+  scale_x_log10() +
+  xlab("Number of simulations") +
+  ylab("Estimative") +
+  theme_bw() +
+  ggtitle("Home win, model 3")
+```
+
+```{r}
+tibble(n, m0_1_1) %>%
+  ggplot(aes(x = n, y = m0_1_1)) +
+  geom_line(size = 1) +
+  geom_point(size = 2) +
+  scale_x_log10() +
+  xlab("Number of simulations") +
+  ylab("Estimative") +
+  theme_bw() +
+  ggtitle("Score 1-1, model 0")
+```
+
+```{r}
+tibble(n, m3_1_1) %>%
+  ggplot(aes(x = n, y = m3_1_1)) +
+  geom_line(size = 1) +
+  geom_point(size = 2) +
+  scale_x_log10() +
+  xlab("Number of simulations") +
+  ylab("Estimative") +
+  theme_bw() +
+  ggtitle("Score 1-1, model 3")
+```
