@@ -11,7 +11,7 @@ load("scrape/data/goals.RData")
 load("scrape/data/reds.RData")
 load("2020/data/input.RData")
 load("pred/data/mod_3_2019.RData")
-source("pred/pred_mod_3_2019.R")
+source("pred/pred_mod_3.R")
 source("pred/input_pred.R")
 
 results$Home_Team[which(results$Home_Team == "Athletico Paranaense - PR")] = "Athletico-PR"
@@ -41,74 +41,74 @@ for(i in 1:length(ind)) {
   
   match[i] = lst$Match$Match
   
-  lst$pred_0 = pred_mod_3_2019(mod_3_2019 = mod_3_2019[[lst$Match$Date]], 
-                               n = n_pred, 
-                               home_team = lst$Match$Home_Team, 
-                               away_team = lst$Match$Away_Team)
+  lst$pred_0 = pred_mod_3(mod_3 = mod_3_2019[[lst$Match$Date]], 
+                          n = n_pred, 
+                          home_team = lst$Match$Home_Team, 
+                          away_team = lst$Match$Away_Team)
   
   input_15 = input_pred(ind = ind[i], min = 15)
-  lst$pred_15 = pred_mod_3_2019(mod_3_2019 = mod_3_2019[[lst$Match$Date]], 
-                                n = n_pred, 
-                                home_team = lst$Match$Home_Team, 
-                                away_team = lst$Match$Away_Team,
-                                score_home = input_15$score_home,
-                                score_away = input_15$score_away,
-                                reds_home_1 = input_15$reds_home_1,
-                                reds_away_1 = input_15$reds_away_1,
-                                minute = 15,
-                                half = 1)
+  lst$pred_15 = pred_mod_3(mod_3 = mod_3_2019[[lst$Match$Date]], 
+                           n = n_pred, 
+                           home_team = lst$Match$Home_Team, 
+                           away_team = lst$Match$Away_Team,
+                           score_home = input_15$score_home,
+                           score_away = input_15$score_away,
+                           reds_home_1 = input_15$reds_home_1,
+                           reds_away_1 = input_15$reds_away_1,
+                           minute = 15,
+                           half = 1)
   
   input_30 = input_pred(ind = ind[i], min = 30)
-  lst$pred_30 = pred_mod_3_2019(mod_3_2019 = mod_3_2019[[lst$Match$Date]], 
-                                n = n_pred, 
-                                home_team = lst$Match$Home_Team, 
-                                away_team = lst$Match$Away_Team,
-                                score_home = input_30$score_home,
-                                score_away = input_30$score_away,
-                                reds_home_1 = input_30$reds_home_1,
-                                reds_away_1 = input_30$reds_away_1,
-                                minute = 30,
-                                half = 1)
+  lst$pred_30 = pred_mod_3(mod_3 = mod_3_2019[[lst$Match$Date]], 
+                           n = n_pred, 
+                           home_team = lst$Match$Home_Team, 
+                           away_team = lst$Match$Away_Team,
+                           score_home = input_30$score_home,
+                           score_away = input_30$score_away,
+                           reds_home_1 = input_30$reds_home_1,
+                           reds_away_1 = input_30$reds_away_1,
+                           minute = 30,
+                           half = 1)
   
   input_45 = input_pred(ind = ind[i], min = 45)
-  lst$pred_45 = pred_mod_3_2019(mod_3_2019 = mod_3_2019[[lst$Match$Date]], 
-                                n = n_pred, 
-                                home_team = lst$Match$Home_Team, 
-                                away_team = lst$Match$Away_Team,
-                                score_home = input_45$score_home,
-                                score_away = input_45$score_away,
-                                reds_home_1 = input_45$reds_home_1,
-                                reds_away_1 = input_45$reds_away_1,
-                                minute = 0,
-                                half = 2)
+  lst$pred_45 = pred_mod_3(mod_3 = mod_3_2019[[lst$Match$Date]], 
+                           n = n_pred, 
+                           home_team = lst$Match$Home_Team, 
+                           away_team = lst$Match$Away_Team,
+                           score_home = input_45$score_home,
+                           score_away = input_45$score_away,
+                           reds_home_1 = input_45$reds_home_1,
+                           reds_away_1 = input_45$reds_away_1,
+                           minute = 0,
+                           half = 2)
   
   input_60 = input_pred(ind = ind[i], min = 60)
-  lst$pred_60 = pred_mod_3_2019(mod_3_2019 = mod_3_2019[[lst$Match$Date]], 
-                                n = n_pred, 
-                                home_team = lst$Match$Home_Team, 
-                                away_team = lst$Match$Away_Team,
-                                score_home = input_60$score_home,
-                                score_away = input_60$score_away,
-                                reds_home_1 = input_60$reds_home_1,
-                                reds_away_1 = input_60$reds_away_1,
-                                reds_home_2 = input_60$reds_home_2,
-                                reds_away_2 = input_60$reds_away_2,
-                                minute = 15,
-                                half = 2)
+  lst$pred_60 = pred_mod_3(mod_3 = mod_3_2019[[lst$Match$Date]], 
+                           n = n_pred, 
+                           home_team = lst$Match$Home_Team, 
+                           away_team = lst$Match$Away_Team,
+                           score_home = input_60$score_home,
+                           score_away = input_60$score_away,
+                           reds_home_1 = input_60$reds_home_1,
+                           reds_away_1 = input_60$reds_away_1,
+                           reds_home_2 = input_60$reds_home_2,
+                           reds_away_2 = input_60$reds_away_2,
+                           minute = 15,
+                           half = 2)
   
   input_75 = input_pred(ind = ind[i], min = 75)
-  lst$pred_75 = pred_mod_3_2019(mod_3_2019 = mod_3_2019[[lst$Match$Date]], 
-                                n = n_pred, 
-                                home_team = lst$Match$Home_Team, 
-                                away_team = lst$Match$Away_Team,
-                                score_home = input_75$score_home,
-                                score_away = input_75$score_away,
-                                reds_home_1 = input_75$reds_home_1,
-                                reds_away_1 = input_75$reds_away_1,
-                                reds_home_2 = input_75$reds_home_2,
-                                reds_away_2 = input_75$reds_away_2,
-                                minute = 30,
-                                half = 2)
+  lst$pred_75 = pred_mod_3(mod_3 = mod_3_2019[[lst$Match$Date]], 
+                           n = n_pred, 
+                           home_team = lst$Match$Home_Team, 
+                           away_team = lst$Match$Away_Team,
+                           score_home = input_75$score_home,
+                           score_away = input_75$score_away,
+                           reds_home_1 = input_75$reds_home_1,
+                           reds_away_1 = input_75$reds_away_1,
+                           reds_home_2 = input_75$reds_home_2,
+                           reds_away_2 = input_75$reds_away_2,
+                           minute = 30,
+                           half = 2)
   
   predictions_mod_3_2019[[i]] = lst
   print(paste0(round(100*i/length(ind), 2), "%"))
@@ -116,4 +116,4 @@ for(i in 1:length(ind)) {
 
 names(predictions_mod_3_2019) = match
 
-save(predictions_mod_3_2019, file = "2020/data/predictions_mod_3_2019.RData")
+save(predictions_mod_3_2019, file = "pred/data/predictions_mod_3_2019.RData")

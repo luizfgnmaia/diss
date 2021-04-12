@@ -116,4 +116,4 @@ for(i in 1:length(ind)) {
 
 names(predictions_mod_3) = match
 
-save(predictions_mod_3, file = "2020/data/predictions_mod_3.RData")
+save(predictions_mod_3, file = "pred/data/predictions_mod_3.RData")
