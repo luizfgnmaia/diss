@@ -13,7 +13,7 @@ nrow(HDA)
 ```
 
 ```{r}
-tibble(RPS = apply(HDA[,-c(1:80)], 2, mean),
+tibble(RPS = apply(HDA[,c(81:104)], 2, mean),
        Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 4)),
        Model = factor(c(rep("0", 6), rep("3", 6), rep("3 (2019)", 6), 
                         rep("3 (2015-2019)", 6)),
@@ -27,10 +27,7 @@ tibble(RPS = apply(HDA[,-c(1:80)], 2, mean),
 ```
 
 ```{r}
-HDA2 = HDA %>%
-  filter(Match <= 190)
-
-tibble(RPS = apply(HDA2[,-c(1:80)], 2, mean),
+tibble(RPS = apply(HDA[c(1:100),c(81:104)], 2, mean),
        Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 4)),
        Model = factor(c(rep("0", 6), rep("3", 6), rep("3 (2019)", 6), 
                         rep("3 (2015-2019)", 6)),
@@ -40,32 +37,11 @@ tibble(RPS = apply(HDA2[,-c(1:80)], 2, mean),
   geom_point() +
   scale_x_continuous(breaks = c(0, 15, 30, 45, 60, 75)) +
   theme_bw() +
-  ggtitle("First half of the season")
-```
-
-
-```{r}
-HDA3 = HDA %>%
-  filter(Match > 190)
-
-tibble(RPS = apply(HDA3[,-c(1:80)], 2, mean),
-       Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 4)),
-       Model = factor(c(rep("0", 6), rep("3", 6), rep("3 (2019)", 6), 
-                        rep("3 (2015-2019)", 6)),
-                      levels = c("0", "3", "3 (2019)", "3 (2015-2019)"))) %>%
-  ggplot(aes(x = Minute, y = RPS, col = Model)) +
-  geom_line() +
-  geom_point() +
-  scale_x_continuous(breaks = c(0, 15, 30, 45, 60, 75)) +
-  theme_bw() +
-  ggtitle("Second half of the season")
+  ggtitle("First 100 matches")
 ```
 
 ```{r}
-HDA4 = HDA %>%
-  filter(Match > 280)
-
-tibble(RPS = apply(HDA4[,-c(1:80)], 2, mean),
+tibble(RPS = apply(HDA[c(1:200),c(81:104)], 2, mean),
        Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 4)),
        Model = factor(c(rep("0", 6), rep("3", 6), rep("3 (2019)", 6), 
                         rep("3 (2015-2019)", 6)),
@@ -75,6 +51,34 @@ tibble(RPS = apply(HDA4[,-c(1:80)], 2, mean),
   geom_point() +
   scale_x_continuous(breaks = c(0, 15, 30, 45, 60, 75)) +
   theme_bw() +
-  ggtitle("Last 10 rounds of the season")
+  ggtitle("First 200 matches")
+```
+
+```{r}
+tibble(RPS = apply(HDA[c(151:350),c(81:104)], 2, mean),
+       Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 4)),
+       Model = factor(c(rep("0", 6), rep("3", 6), rep("3 (2019)", 6), 
+                        rep("3 (2015-2019)", 6)),
+                      levels = c("0", "3", "3 (2019)", "3 (2015-2019)"))) %>%
+  ggplot(aes(x = Minute, y = RPS, col = Model)) +
+  geom_line() +
+  geom_point() +
+  scale_x_continuous(breaks = c(0, 15, 30, 45, 60, 75)) +
+  theme_bw() +
+  ggtitle("Last 200 matches")
+```
+
+```{r}
+tibble(RPS = apply(HDA[c(251:350),c(81:104)], 2, mean),
+       Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 4)),
+       Model = factor(c(rep("0", 6), rep("3", 6), rep("3 (2019)", 6), 
+                        rep("3 (2015-2019)", 6)),
+                      levels = c("0", "3", "3 (2019)", "3 (2015-2019)"))) %>%
+  ggplot(aes(x = Minute, y = RPS, col = Model)) +
+  geom_line() +
+  geom_point() +
+  scale_x_continuous(breaks = c(0, 15, 30, 45, 60, 75)) +
+  theme_bw() +
+  ggtitle("Last 100 matches")
 ```
 

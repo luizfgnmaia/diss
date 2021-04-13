@@ -195,6 +195,13 @@ RPS <- function(Result, pH, pD, pA) {
   verification::rps(obs = Result, pred = matrix(c(pH, pD, pA), nrow = 1))$rps
 }
 
+Brier <- function(Result, pH, pD, pA) {
+  e = c(0, 0, 0)
+  e[Result] = 1
+  p = c(pH, pD, pA)
+  sum((p - e)^2)
+}
+
 HDA = HDA %>%
   rowwise() %>%
   mutate(RPS_mod_0_pred_0 = RPS(Result, Home_mod_0_pred_0, Draw_mod_0_pred_0, Away_mod_0_pred_0),
@@ -220,7 +227,32 @@ HDA = HDA %>%
          RPS_mod_3_2015_2019_pred_30 = RPS(Result, Home_mod_3_2015_2019_pred_30, Draw_mod_3_2015_2019_pred_30, Away_mod_3_2015_2019_pred_30),
          RPS_mod_3_2015_2019_pred_45 = RPS(Result, Home_mod_3_2015_2019_pred_45, Draw_mod_3_2015_2019_pred_45, Away_mod_3_2015_2019_pred_45),
          RPS_mod_3_2015_2019_pred_60 = RPS(Result, Home_mod_3_2015_2019_pred_60, Draw_mod_3_2015_2019_pred_60, Away_mod_3_2015_2019_pred_60),
-         RPS_mod_3_2015_2019_pred_75 = RPS(Result, Home_mod_3_2015_2019_pred_75, Draw_mod_3_2015_2019_pred_75, Away_mod_3_2015_2019_pred_75))
+         RPS_mod_3_2015_2019_pred_75 = RPS(Result, Home_mod_3_2015_2019_pred_75, Draw_mod_3_2015_2019_pred_75, Away_mod_3_2015_2019_pred_75),
+         
+         Brier_mod_0_pred_0 = Brier(Result, Home_mod_0_pred_0, Draw_mod_0_pred_0, Away_mod_0_pred_0),
+         Brier_mod_0_pred_15 = Brier(Result, Home_mod_0_pred_15, Draw_mod_0_pred_15, Away_mod_0_pred_15),
+         Brier_mod_0_pred_30 = Brier(Result, Home_mod_0_pred_30, Draw_mod_0_pred_30, Away_mod_0_pred_30),
+         Brier_mod_0_pred_45 = Brier(Result, Home_mod_0_pred_45, Draw_mod_0_pred_45, Away_mod_0_pred_45),
+         Brier_mod_0_pred_60 = Brier(Result, Home_mod_0_pred_60, Draw_mod_0_pred_60, Away_mod_0_pred_60),
+         Brier_mod_0_pred_75 = Brier(Result, Home_mod_0_pred_75, Draw_mod_0_pred_75, Away_mod_0_pred_75),
+         Brier_mod_3_pred_0 = Brier(Result, Home_mod_3_pred_0, Draw_mod_3_pred_0, Away_mod_3_pred_0),
+         Brier_mod_3_pred_15 = Brier(Result, Home_mod_3_pred_15, Draw_mod_3_pred_15, Away_mod_3_pred_15),
+         Brier_mod_3_pred_30 = Brier(Result, Home_mod_3_pred_30, Draw_mod_3_pred_30, Away_mod_3_pred_30),
+         Brier_mod_3_pred_45 = Brier(Result, Home_mod_3_pred_45, Draw_mod_3_pred_45, Away_mod_3_pred_45),
+         Brier_mod_3_pred_60 = Brier(Result, Home_mod_3_pred_60, Draw_mod_3_pred_60, Away_mod_3_pred_60),
+         Brier_mod_3_pred_75 = Brier(Result, Home_mod_3_pred_75, Draw_mod_3_pred_75, Away_mod_3_pred_75),
+         Brier_mod_3_2019_pred_0 = Brier(Result, Home_mod_3_2019_pred_0, Draw_mod_3_2019_pred_0, Away_mod_3_2019_pred_0),
+         Brier_mod_3_2019_pred_15 = Brier(Result, Home_mod_3_2019_pred_15, Draw_mod_3_2019_pred_15, Away_mod_3_2019_pred_15),
+         Brier_mod_3_2019_pred_30 = Brier(Result, Home_mod_3_2019_pred_30, Draw_mod_3_2019_pred_30, Away_mod_3_2019_pred_30),
+         Brier_mod_3_2019_pred_45 = Brier(Result, Home_mod_3_2019_pred_45, Draw_mod_3_2019_pred_45, Away_mod_3_2019_pred_45),
+         Brier_mod_3_2019_pred_60 = Brier(Result, Home_mod_3_2019_pred_60, Draw_mod_3_2019_pred_60, Away_mod_3_2019_pred_60),
+         Brier_mod_3_2019_pred_75 = Brier(Result, Home_mod_3_2019_pred_75, Draw_mod_3_2019_pred_75, Away_mod_3_2019_pred_75),
+         Brier_mod_3_2015_2019_pred_0 = Brier(Result, Home_mod_3_2015_2019_pred_0, Draw_mod_3_2015_2019_pred_0, Away_mod_3_2015_2019_pred_0),
+         Brier_mod_3_2015_2019_pred_15 = Brier(Result, Home_mod_3_2015_2019_pred_15, Draw_mod_3_2015_2019_pred_15, Away_mod_3_2015_2019_pred_15),
+         Brier_mod_3_2015_2019_pred_30 = Brier(Result, Home_mod_3_2015_2019_pred_30, Draw_mod_3_2015_2019_pred_30, Away_mod_3_2015_2019_pred_30),
+         Brier_mod_3_2015_2019_pred_45 = Brier(Result, Home_mod_3_2015_2019_pred_45, Draw_mod_3_2015_2019_pred_45, Away_mod_3_2015_2019_pred_45),
+         Brier_mod_3_2015_2019_pred_60 = Brier(Result, Home_mod_3_2015_2019_pred_60, Draw_mod_3_2015_2019_pred_60, Away_mod_3_2015_2019_pred_60),
+         Brier_mod_3_2015_2019_pred_75 = Brier(Result, Home_mod_3_2015_2019_pred_75, Draw_mod_3_2015_2019_pred_75, Away_mod_3_2015_2019_pred_75))
 
 save(HDA, file = "pred/data/HDA.RData")
 
