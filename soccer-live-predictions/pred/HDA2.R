@@ -50,7 +50,6 @@ ENERG1 <- function(Score, Match, size = 10^6) {
   XL = sample(names(Score), size = size, replace = TRUE, prob = Score)
   XL1 = as.integer(str_extract(XL, "[0-9]*(?=-)"))
   XL2 = as.integer(str_extract(XL, "(?<=-)[0-9]*"))
-  
   EXXL = mean(abs(X1 - XL1) + abs(X2 - XL2))
   
   EX - 0.5*EXXL

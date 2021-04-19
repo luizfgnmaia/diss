@@ -1,0 +1,108 @@
+---
+title: "Results"
+output: pdf_document
+---
+
+```{r, warning = FALSE, message = FALSE}
+library(dplyr); library(ggplot2); library(knitr)
+load("data/HDA.RData")
+```
+
+```{r, results = "asis"}
+for(i in 1:nrow(HDA)) {
+  tib = tibble(Value = c(2*as.numeric(HDA[i, c(81:104)]), as.numeric(HDA[i, c(105:128)])),
+               Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 8)),
+               Model = factor(rep(c(rep("0", 6), rep("3", 6), rep("3 (2019)", 6), 
+                                    rep("3 (2015-2019)", 6)), 2),
+                              levels = c("0", "3", "3 (2019)", "3 (2015-2019)")),
+               Score = factor(c(rep("2RPS", 24), rep("Brier", 24)),
+                              levels = c("2RPS", "Brier")))
+  p = tib %>%
+    ggplot(aes(x = Minute, y = Value, col = Model)) +
+    geom_line(aes(linetype = Score)) +
+    geom_point() +
+    scale_x_continuous(breaks = c(0, 15, 30, 45, 60, 75)) +
+    theme_bw() +
+    ggtitle(paste0(HDA$Home_Team[i], " ", HDA$Score_Home[i], " x ",
+                   HDA$Score_Away[i], " ", HDA$Away_Team[i], ", ",
+                   HDA$Date))
+  print(p)
+  tib0 = tibble(Minute = c(rep("0", 4), rep("15", 4), rep("30", 4),
+                           rep("45", 4), rep("60", 4), rep("75", 4)),
+                Model = rep(c("0", "3", "3 (2019)", "3 (2015-2019)"), 6),
+                Home = c(HDA$Home_mod_0_pred_0[i],
+                         HDA$Home_mod_3_pred_0[i],
+                         HDA$Home_mod_3_2019_pred_0[i],
+                         HDA$Home_mod_3_2015_2019_pred_0[i],
+                         HDA$Home_mod_0_pred_15[i],
+                         HDA$Home_mod_3_pred_15[i],
+                         HDA$Home_mod_3_2019_pred_15[i],
+                         HDA$Home_mod_3_2015_2019_pred_15[i],
+                         HDA$Home_mod_0_pred_30[i],
+                         HDA$Home_mod_3_pred_30[i],
+                         HDA$Home_mod_3_2019_pred_30[i],
+                         HDA$Home_mod_3_2015_2019_pred_30[i],
+                         HDA$Home_mod_0_pred_45[i],
+                         HDA$Home_mod_3_pred_45[i],
+                         HDA$Home_mod_3_2019_pred_45[i],
+                         HDA$Home_mod_3_2015_2019_pred_45[i],
+                         HDA$Home_mod_0_pred_60[i],
+                         HDA$Home_mod_3_pred_60[i],
+                         HDA$Home_mod_3_2019_pred_60[i],
+                         HDA$Home_mod_3_2015_2019_pred_60[i],
+                         HDA$Home_mod_0_pred_75[i],
+                         HDA$Home_mod_3_pred_75[i],
+                         HDA$Home_mod_3_2019_pred_75[i],
+                         HDA$Home_mod_3_2015_2019_pred_75[i]),
+                Draw = c(HDA$Draw_mod_0_pred_0[i],
+                         HDA$Draw_mod_3_pred_0[i],
+                         HDA$Draw_mod_3_2019_pred_0[i],
+                         HDA$Draw_mod_3_2015_2019_pred_0[i],
+                         HDA$Draw_mod_0_pred_15[i],
+                         HDA$Draw_mod_3_pred_15[i],
+                         HDA$Draw_mod_3_2019_pred_15[i],
+                         HDA$Draw_mod_3_2015_2019_pred_15[i],
+                         HDA$Draw_mod_0_pred_30[i],
+                         HDA$Draw_mod_3_pred_30[i],
+                         HDA$Draw_mod_3_2019_pred_30[i],
+                         HDA$Draw_mod_3_2015_2019_pred_30[i],
+                         HDA$Draw_mod_0_pred_45[i],
+                         HDA$Draw_mod_3_pred_45[i],
+                         HDA$Draw_mod_3_2019_pred_45[i],
+                         HDA$Draw_mod_3_2015_2019_pred_45[i],
+                         HDA$Draw_mod_0_pred_60[i],
+                         HDA$Draw_mod_3_pred_60[i],
+                         HDA$Draw_mod_3_2019_pred_60[i],
+                         HDA$Draw_mod_3_2015_2019_pred_60[i],
+                         HDA$Draw_mod_0_pred_75[i],
+                         HDA$Draw_mod_3_pred_75[i],
+                         HDA$Draw_mod_3_2019_pred_75[i],
+                         HDA$Draw_mod_3_2015_2019_pred_75[i]),
+                Away = c(HDA$Away_mod_0_pred_0[i],
+                         HDA$Away_mod_3_pred_0[i],
+                         HDA$Away_mod_3_2019_pred_0[i],
+                         HDA$Away_mod_3_2015_2019_pred_0[i],
+                         HDA$Away_mod_0_pred_15[i],
+                         HDA$Away_mod_3_pred_15[i],
+                         HDA$Away_mod_3_2019_pred_15[i],
+                         HDA$Away_mod_3_2015_2019_pred_15[i],
+                         HDA$Away_mod_0_pred_30[i],
+                         HDA$Away_mod_3_pred_30[i],
+                         HDA$Away_mod_3_2019_pred_30[i],
+                         HDA$Away_mod_3_2015_2019_pred_30[i],
+                         HDA$Away_mod_0_pred_45[i],
+                         HDA$Away_mod_3_pred_45[i],
+                         HDA$Away_mod_3_2019_pred_45[i],
+                         HDA$Away_mod_3_2015_2019_pred_45[i],
+                         HDA$Away_mod_0_pred_60[i],
+                         HDA$Away_mod_3_pred_60[i],
+                         HDA$Away_mod_3_2019_pred_60[i],
+                         HDA$Away_mod_3_2015_2019_pred_60[i],
+                         HDA$Away_mod_0_pred_75[i],
+                         HDA$Away_mod_3_pred_75[i],
+                         HDA$Away_mod_3_2019_pred_75[i],
+                         HDA$Away_mod_3_2015_2019_pred_75[i]))
+  print(kable(tib0))
+}
+```
+
