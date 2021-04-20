@@ -1,14 +1,14 @@
 {
-    "id": "518F71DE",
+    "id": "ABC30EDC",
     "path": "~/GitHub/soccer-live-predictions/soccer-live-predictions/pred/Brier.Rmd",
     "project_path": "pred/Brier.Rmd",
     "type": "r_markdown",
     "hash": "3870291522",
     "contents": "",
     "dirty": false,
-    "created": 1618843635813.0,
+    "created": 1618890401403.0,
     "source_on_save": false,
-    "relative_order": 3,
+    "relative_order": 5,
     "properties": {
         "tempName": "Untitled1",
         "chunk_output_type": "inline",
@@ -22,7 +22,7 @@
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1618843962828,
+    "last_content_update": 1618843962,
     "read_only": false,
     "read_only_alternatives": []
 }

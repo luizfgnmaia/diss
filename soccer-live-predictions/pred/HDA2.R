@@ -98,4 +98,4 @@ HDA2 = cbind(HDA, ENERG1_mod_0_pred_0, ENERG1_mod_0_pred_15, ENERG1_mod_0_pred_3
 
 save(HDA2, file = "pred/data/HDA2.RData")
 
-
+# rodar o ENERG1.Rmd quando acabar e upar o resultado pro git

@@ -25,7 +25,8 @@ for(i in 1:nrow(HDA)) {
     theme_bw() +
     ggtitle(paste0(HDA$Home_Team[i], " ", HDA$Score_Home[i], " x ",
                    HDA$Score_Away[i], " ", HDA$Away_Team[i], ", ",
-                   HDA$Date))
+                   HDA$Date)) +
+    ylab("")
   print(p)
   tib0 = tibble(Minute = c(rep("0", 4), rep("15", 4), rep("30", 4),
                            rep("45", 4), rep("60", 4), rep("75", 4)),

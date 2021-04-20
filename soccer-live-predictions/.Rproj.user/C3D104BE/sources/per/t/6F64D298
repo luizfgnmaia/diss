@@ -1,26 +1,26 @@
 {
-    "id": "78CE4E4A",
+    "id": "6F64D298",
     "path": "~/GitHub/soccer-live-predictions/soccer-live-predictions/pred/RPS.Rmd",
     "project_path": "pred/RPS.Rmd",
     "type": "r_markdown",
     "hash": "2059392594",
     "contents": "",
     "dirty": false,
-    "created": 1618843633214.0,
+    "created": 1618890404613.0,
     "source_on_save": false,
     "relative_order": 4,
     "properties": {
         "source_window_id": "",
         "Source": "Source",
         "cursorPosition": "23,0",
-        "scrollLine": "12"
+        "scrollLine": "0"
     },
     "folds": "",
     "lastKnownWriteTime": 1618843878,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1618843878440,
+    "last_content_update": 1618843878,
     "read_only": false,
     "read_only_alternatives": []
 }
