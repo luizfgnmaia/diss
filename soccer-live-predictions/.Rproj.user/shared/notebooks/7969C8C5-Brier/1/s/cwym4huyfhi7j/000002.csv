@@ -1,0 +1,8 @@
+"0","matches = reds %>%"
+"0","  filter(Season == 2020, Half == 1) %>%"
+"0","  .$Match"
+"0","length(matches)"
+"1","[1]"
+"1"," 23"
+"1","
+"

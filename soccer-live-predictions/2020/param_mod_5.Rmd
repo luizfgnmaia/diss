@@ -1,0 +1,107 @@
+---
+title: "Parameters 2020 model 5"
+output: pdf_document
+---
+
+# Rates for the home and away goals
+
+$$ \ln \lambda_k(t) = \ln \alpha_i + \ln \beta_j +  \ln \gamma_h + \mathbb{I}\{\text{half = 2}\} \ln \tau + \ln \lambda_{xy} + \omega_{\text{player}}(y^*(t)-x^*(t))$$
+$$ \ln \mu_k(t) = \ln \alpha_j + \ln \beta_i + \mathbb{I}\{\text{half = 2}\} \ln \tau + \ln \mu_{xy} + \omega_{{\text{player}}}(x^*(t) - y^*(t)) $$
+
+\begin{itemize}
+\item $i$: home team index;
+\item $j$: away team index;
+\item $\alpha$: attack strength parameter;
+\item $1/\beta$: defense strength parameter;
+\item $\gamma_h$: home advantage parameter;
+\item $\tau$: second half parameter;
+\item $x(t)$: the number of goals of the home team until minute t;
+\item $y(t)$: the number of goals of the away team until minute t;
+\item $x^*(t)$: the number of red cards of the home team until minute t;
+\item $y^*(t)$: the number of red cards of the away team until minute t;
+\item $\lambda_{xy} = \begin{cases}
+ 1, \text{ for $x=0, \ y=0$;}  \\
+ \lambda_{10}, \text{ for $x=1, \ y=0$;} \\
+ \lambda_{01}, \text{ for $x=0, \ y=1$;} \\
+ \lambda_{11}, \text{ for $x=1, \ y=1$;} \\
+ \lambda_{22}, \text{ for $x-y=0, \ x, \ y, \geq 2$;} \\
+ \lambda_{21}, \text{ for $x-y \geq 1, \  x \geq 2$;} \\
+ \lambda_{12}, \text{ for $x-y \leq -1, \ y \geq 2$.}
+\end{cases}$
+\item $\omega_{{\text{player}}}$: parameter that measure the impact of having extra players on the field.
+
+\end{itemize}
+
+# Rates for the home and away red cards
+
+$$ \lambda_k^*(t) = A_\lambda  \Big(t+ 45^{\mathbb{I}\{\text{half = 2}\}} \Big)$$
+$$ \mu_k^*(t) = A_\mu  \Big(t+ 45^{\mathbb{I}\{\text{half = 2}\}} \Big)$$
+
+# Stoppage time
+
+The stoppage time for the first half, $U^1$, and the second half, $U^2$, are modeled as:
+$$ U^1 \sim \text{Poisson} (\eta_1 + \rho_1 r^1 )$$
+$$ U^2 \sim \text{Poisson} (\eta_2 + \rho_2 r^2 + \kappa c)$$
+\begin{itemize}
+\item $r^t$ is the amount of red cards received in half $t$ until minute 45;
+\item $c = \begin{cases}
+ 1, \text{ if $|x - y| \leq 1$ at minute 45 of the second half;}  \\
+ 0, \text{ otherwise.}
+\end{cases}$
+\end{itemize}
+
+# Constraint
+The constraint for identificability is
+$$ \sum_i^n \log(\alpha_i) = \sum_i^n \log(\beta_i).$$
+```{r, warning = FALSE, message = FALSE}
+options(knitr.kable.NA = "–")
+options(scipen = 999)
+
+library(dplyr)
+library(knitr)
+
+load("data/input.RData")
+load("data/mod_5.RData")
+```
+
+```{r}
+alphas_betas = tibble(Team = times$Time,
+                alpha = exp(mod_5$alpha),
+                beta = exp(mod_5$beta))
+kable(alphas_betas, digits = 4, caption = "Alphas and betas", 
+      col.names = c("Team", "$\\alpha$", "$\\beta$"))
+```
+
+```{r}
+Parameter = c("$\\gamma_h$", "$\\tau$", 
+              "$\\lambda_{10}$", "$\\lambda_{01}$",
+              "$\\lambda_{11}$", "$\\lambda_{22}$",
+              "$\\lambda_{21}$", "$\\lambda_{12}$",
+              "$\\mu_{10}$", "$\\mu_{01}$",
+              "$\\mu_{11}$", "$\\mu_{22}$",
+              "$\\mu_{21}$", "$\\mu_{12}$",
+              "$\\omega_{{\\text{player}}}$")
+goals = tibble(Parameter, 
+               Estimative = c(exp(mod_5$gamma), exp(mod_5$tau),
+                              exp(mod_5$lambda_xy), exp(mod_5$mu_xy),
+                              mod_5$omega))
+kable(goals, digits = 4, caption = "Goal rate parameters")
+```
+
+```{r}
+Parameter = c("$A_\\lambda$", "$A_\\mu$")
+reds = tibble(Parameter, Estimative = exp(mod_5$a))
+kable(reds, digits = 8, caption = "Red card rate parameters")
+```
+
+```{r}
+Parameter = c("$\\eta_1$", "$\\eta_2$", "$\\rho_1$", "$\\rho_2$", "$\\kappa$")
+st = tibble(Parameter, 
+            Estimative = c(mod_5$eta, mod_5$rho, mod_5$kappa))
+kable(st, digits = 4, caption = "Stoppage time parameters")
+```
+
+```{r}
+mod_5$loglik
+```
+

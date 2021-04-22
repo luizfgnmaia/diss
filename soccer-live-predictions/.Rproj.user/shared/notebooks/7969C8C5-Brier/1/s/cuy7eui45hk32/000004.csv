@@ -1,0 +1,8 @@
+"0",""
+"0","all %>%"
+"0","  pivot_wider(id_cols = ""Model"", values_from = ""Brier"", names_from = ""Minute"","
+"0","              names_prefix = ""Minute "") %>%"
+"0","  kable()"
+"2","Error in UseMethod(""pivot_wider"") : 
+  método não aplicável para 'pivot_wider' aplicado a um objeto de classe ""function""
+"
