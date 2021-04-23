@@ -37,8 +37,8 @@ for(k in 2:length(dates)) {
   
   t0 = Sys.time()
   
-  alpha = Variable(20)
-  beta = Variable(20)
+  alpha = Variable(n)
+  beta = Variable(n)
   gamma = Variable(1)
   theta = vstack(alpha, beta, gamma)
   

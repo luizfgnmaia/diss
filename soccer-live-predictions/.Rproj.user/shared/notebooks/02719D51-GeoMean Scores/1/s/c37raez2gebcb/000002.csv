@@ -1,0 +1,9 @@
+"0","library(dplyr)"
+"0","library(ggplot2)"
+"0","library(tidyr)"
+"0","library(knitr)"
+"0",""
+"0","load(""data/HDA2.RData"")"
+"2","Error in readChar(con, 5L, useBytes = TRUE) : 
+  não é possível abrir a conexão
+"

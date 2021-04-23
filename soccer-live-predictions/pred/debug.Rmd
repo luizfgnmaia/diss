@@ -1,0 +1,183 @@
+---
+title: "Debug"
+output: pdf_document
+---
+
+```{r, warning = FALSE, message = FALSE}
+library(dplyr)
+library(ggplot2)
+library(tidyr)
+
+load("~/GitHub/soccer-live-predictions/soccer-live-predictions/scrape/data/goals.RData")
+load("~/GitHub/soccer-live-predictions/soccer-live-predictions/scrape/data/reds.RData")
+load("data/debug.RData")
+```
+
+```{r}
+results_0 = tibble()
+results_3 = tibble()
+for(i in 1:91) {
+  results_0 = rbind(results_0, debug[[1]]$pred_mod_0[[i]]$Result)
+  results_3 = rbind(results_3, debug[[1]]$pred_mod_3[[i]]$Result)
+}
+names(results_0) = c("Home", "Draw", "Away")
+names(results_3) = c("Home", "Draw", "Away")
+results_0$Minute = 0:90
+results_3$Minute = 0:90
+results_0$Model = "0"
+results_3$Model = "3 (2015-2019)"
+match1 = rbind(results_0, results_3) %>%
+  pivot_longer(cols = c("Home", "Draw", "Away"),
+               names_to = "Result",
+               values_to = "Probability")
+
+results_0 = tibble()
+results_3 = tibble()
+for(i in 1:91) {
+  results_0 = rbind(results_0, debug[[2]]$pred_mod_0[[i]]$Result)
+  results_3 = rbind(results_3, debug[[2]]$pred_mod_3[[i]]$Result)
+}
+names(results_0) = c("Home", "Draw", "Away")
+names(results_3) = c("Home", "Draw", "Away")
+results_0$Minute = 0:90
+results_3$Minute = 0:90
+results_0$Model = "0"
+results_3$Model = "3 (2015-2019)"
+match2 = rbind(results_0, results_3) %>%
+  pivot_longer(cols = c("Home", "Draw", "Away"),
+               names_to = "Result",
+               values_to = "Probability")
+
+results_0 = tibble()
+results_3 = tibble()
+for(i in 1:91) {
+  results_0 = rbind(results_0, debug[[3]]$pred_mod_0[[i]]$Result)
+  results_3 = rbind(results_3, debug[[3]]$pred_mod_3[[i]]$Result)
+}
+names(results_0) = c("Home", "Draw", "Away")
+names(results_3) = c("Home", "Draw", "Away")
+results_0$Minute = 0:90
+results_3$Minute = 0:90
+results_0$Model = "0"
+results_3$Model = "3 (2015-2019)"
+match3 = rbind(results_0, results_3) %>%
+  pivot_longer(cols = c("Home", "Draw", "Away"),
+               names_to = "Result",
+               values_to = "Probability")
+```
+
+```{r}
+goals %>%
+  filter(Season == 2020, Match == debug[[1]]$Match$Match)
+```
+```{r}
+reds %>%
+  filter(Season == 2020, Match == debug[[1]]$Match$Match)
+```
+
+```{r}
+match1 %>%
+  filter(Model == "0") %>%
+  ggplot(aes(x = Minute, y = Probability, col = Result)) +
+  geom_vline(xintercept = 12-1, linetype = "dashed") +
+  geom_vline(xintercept = 28-1, linetype = "dashed") +
+  geom_vline(xintercept = 41-1, linetype = "dashed") +
+  geom_vline(xintercept = 18+45-1, linetype = "dashed") +
+  geom_vline(xintercept = 45-1, linetype = "dashed", col = "red") +
+  geom_vline(xintercept = 45+14-1, linetype = "dashed", col = "red") +
+  geom_line(size = 1) +
+  theme_bw() +
+  ggtitle("Palmeiras 2 x 2 Sport, model 0")
+```
+
+```{r}
+match1 %>%
+  filter(Model == "3 (2015-2019)") %>%
+  ggplot(aes(x = Minute, y = Probability, col = Result)) +
+  geom_vline(xintercept = 12-1, linetype = "dashed") +
+  geom_vline(xintercept = 28-1, linetype = "dashed") +
+  geom_vline(xintercept = 41-1, linetype = "dashed") +
+  geom_vline(xintercept = 18+45-1, linetype = "dashed") +
+  geom_vline(xintercept = 45-1, linetype = "dashed", col = "red") +
+  geom_vline(xintercept = 14+45-1, linetype = "dashed", col = "red") +
+  geom_line(size = 1) +
+  theme_bw() +
+  ggtitle("Palmeiras 2 x 2 Sport, model 3 (2015-2019)")
+```
+
+```{r}
+goals %>%
+  filter(Season == 2020, Match == debug[[2]]$Match$Match)
+```
+```{r}
+reds %>%
+  filter(Season == 2020, Match == debug[[2]]$Match$Match)
+```
+
+```{r}
+match2 %>%
+  filter(Model == "0") %>%
+  ggplot(aes(x = Minute, y = Probability, col = Result)) +
+  geom_vline(xintercept = 4-1, linetype = "dashed") +
+  geom_vline(xintercept = 18-1, linetype = "dashed") +
+  geom_vline(xintercept = 9+45-1, linetype = "dashed") +
+  geom_vline(xintercept = 31+45-1, linetype = "dashed") +
+  geom_vline(xintercept = 39+45-1, linetype = "dashed") +
+  geom_vline(xintercept = 33-1, linetype = "dashed", col = "red") +
+  geom_vline(xintercept = 13+45-1, linetype = "dashed", col = "red") +
+  geom_line(size = 1) +
+  theme_bw() +
+  ggtitle("Goiás 2 x 3 Santos, model 0")
+```
+
+```{r}
+match2 %>%
+  filter(Model == "3 (2015-2019)") %>%
+  ggplot(aes(x = Minute, y = Probability, col = Result)) +
+  geom_vline(xintercept = 4-1, linetype = "dashed") +
+  geom_vline(xintercept = 18-1, linetype = "dashed") +
+  geom_vline(xintercept = 9+45-1, linetype = "dashed") +
+  geom_vline(xintercept = 31+45-1, linetype = "dashed") +
+  geom_vline(xintercept = 39+45-1, linetype = "dashed") +
+  geom_vline(xintercept = 33-1, linetype = "dashed", col = "red") +
+  geom_vline(xintercept = 13+45-1, linetype = "dashed", col = "red") +
+  geom_line(size = 1) +
+  theme_bw() +
+  ggtitle("Goiás 2 x 3 Santos, model 3 (2015-2019)")
+```
+
+```{r}
+goals %>%
+  filter(Season == 2020, Match == debug[[3]]$Match$Match)
+```
+
+```{r}
+reds %>%
+  filter(Season == 2020, Match == debug[[3]]$Match$Match)
+```
+
+```{r}
+match3 %>%
+  filter(Model == "0") %>%
+  ggplot(aes(x = Minute, y = Probability, col = Result)) +
+  geom_vline(xintercept = 11-1, linetype = "dashed") +
+  geom_vline(xintercept = 28-1, linetype = "dashed") +
+  geom_vline(xintercept = 17+45-1, linetype = "dashed") +
+  geom_vline(xintercept = 3+45-1, linetype = "dashed", col = "red") +
+  geom_line(size = 1) +
+  theme_bw() +
+  ggtitle("Flamengo 2 x 1 Internacional, model 0")
+```
+
+```{r}
+match3 %>%
+  filter(Model == "3 (2015-2019)") %>%
+  ggplot(aes(x = Minute, y = Probability, col = Result)) +
+  geom_vline(xintercept = 11-1, linetype = "dashed") +
+  geom_vline(xintercept = 28-1, linetype = "dashed") +
+  geom_vline(xintercept = 17+45-1, linetype = "dashed") +
+  geom_vline(xintercept = 3+45-1, linetype = "dashed", col = "red") +
+  geom_line(size = 1) +
+  theme_bw() +
+  ggtitle("Flamengo 2 x 1 Internacional, model 3 (2015-2019)")
+```

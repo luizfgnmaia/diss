@@ -1,0 +1,160 @@
+---
+title: "Energy norm 1"
+output: pdf_document
+---
+
+```{r, warning = FALSE, message = FALSE}
+library(dplyr)
+library(ggplot2)
+library(tidyr)
+library(knitr)
+
+load("data/HDA2.RData")
+load("~/GitHub/soccer-live-predictions/soccer-live-predictions/scrape/data/reds.RData")
+
+nrow(HDA2)
+```
+
+```{r}
+all = tibble(ENERG1 = apply(HDA2[,c(81:92)], 2, mean),
+             Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 2)),
+             Model = factor(c(rep("0", 6), rep("3 (2015-2019)", 6)),
+                            levels = c("0", "3 (2015-2019)"))) 
+all %>%
+  ggplot(aes(x = Minute, y = ENERG1, col = Model)) +
+  geom_line() +
+  geom_point() +
+  scale_x_continuous(breaks = c(0, 15, 30, 45, 60, 75)) +
+  theme_bw() +
+  ggtitle("All predicted matches") +
+  ylab("Energy norm 1")
+
+all %>%
+  pivot_wider(id_cols = "Model", values_from = "ENERG1", names_from = "Minute",
+              names_prefix = "Minute ") %>%
+  kable()
+```
+
+\clearpage
+
+```{r}
+first_100 = tibble(ENERG1 = apply(HDA2[c(1:100), c(81:92)], 2, mean),
+                   Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 2)),
+                   Model = factor(c(rep("0", 6), rep("3 (2015-2019)", 6)),
+                                  levels = c("0", "3 (2015-2019)"))) 
+first_100 %>%
+  ggplot(aes(x = Minute, y = ENERG1, col = Model)) +
+  geom_line() +
+  geom_point() +
+  scale_x_continuous(breaks = c(0, 15, 30, 45, 60, 75)) +
+  theme_bw() +
+  ggtitle("First 100 matches") +
+  ylab("Energy norm 1")
+
+first_100 %>%
+  pivot_wider(id_cols = "Model", values_from = "ENERG1", names_from = "Minute",
+              names_prefix = "Minute ") %>%
+  kable()
+```
+
+\clearpage
+
+```{r}
+first_200 = tibble(ENERG1 = apply(HDA2[c(1:200), c(81:92)], 2, mean),
+                   Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 2)),
+                   Model = factor(c(rep("0", 6), rep("3 (2015-2019)", 6)),
+                                  levels = c("0", "3 (2015-2019)"))) 
+first_200 %>%
+  ggplot(aes(x = Minute, y = ENERG1, col = Model)) +
+  geom_line() +
+  geom_point() +
+  scale_x_continuous(breaks = c(0, 15, 30, 45, 60, 75)) +
+  theme_bw() +
+  ggtitle("First 200 matches") +
+  ylab("Energy norm 1")
+
+first_200 %>%
+  pivot_wider(id_cols = "Model", values_from = "ENERG1", names_from = "Minute",
+              names_prefix = "Minute ") %>%
+  kable()
+```
+
+\clearpage
+
+```{r}
+last_200 = tibble(ENERG1 = apply(HDA2[c(141:340), c(81:92)], 2, mean),
+                  Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 2)),
+                  Model = factor(c(rep("0", 6), rep("3 (2015-2019)", 6)),
+                                 levels = c("0", "3 (2015-2019)"))) 
+last_200 %>%
+  ggplot(aes(x = Minute, y = ENERG1, col = Model)) +
+  geom_line() +
+  geom_point() +
+  scale_x_continuous(breaks = c(0, 15, 30, 45, 60, 75)) +
+  theme_bw() +
+  ggtitle("Last 200 matches") +
+  ylab("Energy norm 1")
+
+last_200 %>%
+  pivot_wider(id_cols = "Model", values_from = "ENERG1", names_from = "Minute",
+              names_prefix = "Minute ") %>%
+  kable()
+```
+
+\clearpage
+
+```{r}
+last_100 = tibble(ENERG1 = apply(HDA2[c(241:340), c(81:92)], 2, mean),
+                  Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 2)),
+                  Model = factor(c(rep("0", 6), rep("3 (2015-2019)", 6)),
+                                 levels = c("0", "3 (2015-2019)")))  
+last_100 %>%
+  ggplot(aes(x = Minute, y = ENERG1, col = Model)) +
+  geom_line() +
+  geom_point() +
+  scale_x_continuous(breaks = c(0, 15, 30, 45, 60, 75)) +
+  theme_bw() +
+  ggtitle("Last 100 matches") +
+  ylab("Energy norm 1")
+
+last_100 %>%
+  pivot_wider(id_cols = "Model", values_from = "ENERG1", names_from = "Minute",
+              names_prefix = "Minute ") %>%
+  kable()
+```
+
+\clearpage
+
+```{r}
+matches = reds %>%
+  filter(Season == 2020, Half == 1) %>%
+  .$Match
+length(matches)
+```
+
+```{r}
+HDA2_reds = HDA2 %>%
+  filter(Match %in% matches)
+
+all_reds = tibble(ENERG1 = apply(HDA2_reds[,c(81:92)], 2, mean),
+                  Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 2)),
+                  Model = factor(c(rep("0", 6), rep("3 (2015-2019)", 6)),
+                                 levels = c("0", "3 (2015-2019)"))) 
+all_reds %>%
+  ggplot(aes(x = Minute, y = ENERG1, col = Model)) +
+  geom_line() +
+  geom_point() +
+  scale_x_continuous(breaks = c(0, 15, 30, 45, 60, 75)) +
+  theme_bw() +
+  ggtitle("All matches with red cards in the first half") +
+  ylab("ENERG1")
+
+all_reds %>%
+  pivot_wider(id_cols = "Model", values_from = "ENERG1", names_from = "Minute",
+              names_prefix = "Minute ") %>%
+  kable()
+```
+
+
+
+
