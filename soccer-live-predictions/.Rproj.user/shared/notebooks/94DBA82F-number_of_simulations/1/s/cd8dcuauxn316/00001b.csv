@@ -1,8 +1,0 @@
-"0","tibble(n, y) %>%"
-"0","  ggplot(aes(x = n, y = y)) +"
-"0","  geom_line(size = 1) +"
-"0","  geom_point(size = 2) +"
-"0","  scale_x_log10() +"
-"0","  xlab(""Number of simulations"") +"
-"0","  ylab(""Estimative"") +"
-"0","  theme_bw() "

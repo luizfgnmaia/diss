@@ -1,2 +1,0 @@
-"0","goals %>%"
-"0","  filter(Season == 2020, Match == debug[[2]]$Match$Match)"
