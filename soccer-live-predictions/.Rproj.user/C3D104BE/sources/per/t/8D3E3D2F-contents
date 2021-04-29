@@ -1,0 +1,22 @@
+---
+title: "Goodness of fit"
+output: pdf_document
+---
+
+```{r, message = FALSE, warning = FALSE}
+library(knitr)
+
+load("data/goodness_of_fit.RData")
+```
+
+```{r}
+kable(tab_results, digits = 4)
+```
+
+```{r}
+kable(tab_home_goals, digits = 4)
+```
+
+```{r}
+kable(tab_away_goals, digits = 4)
+```

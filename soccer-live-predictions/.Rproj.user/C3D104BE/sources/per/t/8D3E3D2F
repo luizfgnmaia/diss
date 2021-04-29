@@ -1,0 +1,28 @@
+{
+    "id": "8D3E3D2F",
+    "path": "~/GitHub/soccer-live-predictions/soccer-live-predictions/pred 2020/goodness_of_fit.Rmd",
+    "project_path": "pred 2020/goodness_of_fit.Rmd",
+    "type": "r_markdown",
+    "hash": "1316669397",
+    "contents": "",
+    "dirty": false,
+    "created": 1619647970665.0,
+    "source_on_save": false,
+    "relative_order": 2,
+    "properties": {
+        "tempName": "Untitled1",
+        "chunk_output_type": "inline",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "20,32",
+        "scrollLine": "1"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1619663075,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1619663075014,
+    "read_only": false,
+    "read_only_alternatives": []
+}
