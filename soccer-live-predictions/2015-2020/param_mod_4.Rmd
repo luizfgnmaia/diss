@@ -5,8 +5,8 @@ output: pdf_document
 
 # Rates for the home and away goals
 
-$$ \ln \lambda_k(t) = \ln \alpha_i + \ln \beta_j +  \ln \gamma_h + \mathbb{I}\{\text{half = 2}\} \ln \tau + \omega_{{\text{goal}}}(x(t)-y(t)) + \omega_{\text{player}}(y^*(t)-x^*(t)) + \omega_{\text{player}^2}(y^*(t)-x^*(t))^2$$
-$$ \ln \mu_k(t) = \ln \alpha_j + \ln \beta_i + \mathbb{I}\{\text{half = 2}\} \ln \tau + \omega_{{\text{goal}}}(y(t)-x(t)) + \omega_{\text{player}}(x^*(t)-y^*(t)) + \omega_{{\text{player}^2}}(x^*(t) - y^*(t))^2 $$
+$$ \ln \lambda_k(t) = \ln \alpha_i + \ln \beta_j +  \ln \gamma_h + \mathbb{I}\{\text{half = 2}\} \ln \tau + \omega_{{\text{goal}}}(x(t)-y(t)) + \omega_{\text{goal}^2}(y(t)-x(t))^2 + \omega_{\text{player}}(y^*(t)-x^*(t))$$
+$$ \ln \mu_k(t) = \ln \alpha_j + \ln \beta_i + \mathbb{I}\{\text{half = 2}\} \ln \tau + \omega_{{\text{goal}}}(y(t)-x(t)) + \omega_{{\text{goal}^2}}(x(t) - y(t))^2 + \omega_{\text{player}}(x^*(t)-y^*(t))$$
 
 \begin{itemize}
 \item $i$: home team index;
@@ -65,7 +65,7 @@ kable(alphas_betas, digits = 4, caption = "Alphas and betas",
 
 ```{r}
 Parameter = c("$\\gamma_h$", "$\\tau$", "$\\omega_{{\\text{goal}}}$",
-              "$\\omega_{{\\text{player}}}$", "$\\omega_{{\\text{player}}^2}$")
+              "$\\omega_{{\\text{player}}}$", "$\\omega_{{\\text{goal}}^2}$")
 goals = tibble(Parameter, 
                Estimative = c(exp(mod_4$gamma), exp(mod_4$tau), mod_4$omega))
 kable(goals, digits = 4, caption = "Goal rate parameters")

@@ -16,7 +16,7 @@ nrow(HDA)
 ```
 
 ```{r}
-all = tibble(RPS = apply(HDA[,c(189:224)], 2, EnvStats::geoMean),
+all = tibble(GeoMean = apply(HDA[,c(189:224)], 2, EnvStats::geoMean),
              Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 6)),
              Model = factor(c(rep("0", 6), 
                               rep("3", 6),
@@ -31,7 +31,7 @@ all = tibble(RPS = apply(HDA[,c(189:224)], 2, EnvStats::geoMean),
                                        "3 (2015-2019) free gamma",
                                        "5 (2015-2019)"))) 
 all %>%
-  ggplot(aes(x = Minute, y = RPS, col = Model)) +
+  ggplot(aes(x = Minute, y = GeoMean, col = Model)) +
   geom_line() +
   geom_point() +
   scale_x_continuous(breaks = c(0, 15, 30, 45, 60, 75)) +
@@ -40,13 +40,13 @@ all %>%
   ylab("Geometric mean")
 
 all %>%
-  pivot_wider(id_cols = "Model", values_from = "RPS", names_from = "Minute",
+  pivot_wider(id_cols = "Model", values_from = "GeoMean", names_from = "Minute",
               names_prefix = "Minute ") %>%
   kable()
 ```
 
 ```{r}
-first_100 = tibble(RPS = apply(HDA[c(1:100), c(189:224)], 2, EnvStats::geoMean),
+first_100 = tibble(GeoMean = apply(HDA[c(1:100), c(189:224)], 2, EnvStats::geoMean),
                    Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 6)),
                    Model = factor(c(rep("0", 6), 
                                     rep("3", 6),
@@ -61,7 +61,7 @@ first_100 = tibble(RPS = apply(HDA[c(1:100), c(189:224)], 2, EnvStats::geoMean),
                                              "3 (2015-2019) free gamma",
                                              "5 (2015-2019)"))) 
 first_100 %>%
-  ggplot(aes(x = Minute, y = RPS, col = Model)) +
+  ggplot(aes(x = Minute, y = GeoMean, col = Model)) +
   geom_line() +
   geom_point() +
   scale_x_continuous(breaks = c(0, 15, 30, 45, 60, 75)) +
@@ -70,13 +70,13 @@ first_100 %>%
   ylab("Geometric mean")
 
 first_100 %>%
-  pivot_wider(id_cols = "Model", values_from = "RPS", names_from = "Minute",
+  pivot_wider(id_cols = "Model", values_from = "GeoMean", names_from = "Minute",
               names_prefix = "Minute ") %>%
   kable()
 ```
 
 ```{r}
-first_200 = tibble(RPS = apply(HDA[c(1:200), c(189:224)], 2, EnvStats::geoMean),
+first_200 = tibble(GeoMean = apply(HDA[c(1:200), c(189:224)], 2, EnvStats::geoMean),
                    Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 6)),
                    Model = factor(c(rep("0", 6), 
                                     rep("3", 6),
@@ -91,7 +91,7 @@ first_200 = tibble(RPS = apply(HDA[c(1:200), c(189:224)], 2, EnvStats::geoMean),
                                              "3 (2015-2019) free gamma",
                                              "5 (2015-2019)"))) 
 first_200 %>%
-  ggplot(aes(x = Minute, y = RPS, col = Model)) +
+  ggplot(aes(x = Minute, y = GeoMean, col = Model)) +
   geom_line() +
   geom_point() +
   scale_x_continuous(breaks = c(0, 15, 30, 45, 60, 75)) +
@@ -100,13 +100,13 @@ first_200 %>%
   ylab("Geometric mean")
 
 first_200 %>%
-  pivot_wider(id_cols = "Model", values_from = "RPS", names_from = "Minute",
+  pivot_wider(id_cols = "Model", values_from = "GeoMean", names_from = "Minute",
               names_prefix = "Minute ") %>%
   kable()
 ```
 
 ```{r}
-last_200 = tibble(RPS = apply(HDA[c(134:333), c(189:224)], 2, EnvStats::geoMean),
+last_200 = tibble(GeoMean = apply(HDA[c(134:333), c(189:224)], 2, EnvStats::geoMean),
                   Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 6)),
                   Model = factor(c(rep("0", 6), 
                                    rep("3", 6),
@@ -121,7 +121,7 @@ last_200 = tibble(RPS = apply(HDA[c(134:333), c(189:224)], 2, EnvStats::geoMean)
                                             "3 (2015-2019) free gamma",
                                             "5 (2015-2019)"))) 
 last_200 %>%
-  ggplot(aes(x = Minute, y = RPS, col = Model)) +
+  ggplot(aes(x = Minute, y = GeoMean, col = Model)) +
   geom_line() +
   geom_point() +
   scale_x_continuous(breaks = c(0, 15, 30, 45, 60, 75)) +
@@ -130,13 +130,13 @@ last_200 %>%
   ylab("Geometric mean")
 
 last_200 %>%
-  pivot_wider(id_cols = "Model", values_from = "RPS", names_from = "Minute",
+  pivot_wider(id_cols = "Model", values_from = "GeoMean", names_from = "Minute",
               names_prefix = "Minute ") %>%
   kable()
 ```
 
 ```{r}
-last_100 = tibble(RPS = apply(HDA[c(234:333), c(189:224)], 2, EnvStats::geoMean),
+last_100 = tibble(GeoMean = apply(HDA[c(234:333), c(189:224)], 2, EnvStats::geoMean),
                   Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 6)),
                   Model = factor(c(rep("0", 6), 
                                    rep("3", 6),
@@ -151,7 +151,7 @@ last_100 = tibble(RPS = apply(HDA[c(234:333), c(189:224)], 2, EnvStats::geoMean)
                                             "3 (2015-2019) free gamma",
                                             "5 (2015-2019)"))) 
 last_100 %>%
-  ggplot(aes(x = Minute, y = RPS, col = Model)) +
+  ggplot(aes(x = Minute, y = GeoMean, col = Model)) +
   geom_line() +
   geom_point() +
   scale_x_continuous(breaks = c(0, 15, 30, 45, 60, 75)) +
@@ -160,7 +160,7 @@ last_100 %>%
   ylab("Geometric mean")
 
 last_100 %>%
-  pivot_wider(id_cols = "Model", values_from = "RPS", names_from = "Minute",
+  pivot_wider(id_cols = "Model", values_from = "GeoMean", names_from = "Minute",
               names_prefix = "Minute ") %>%
   kable()
 ```
@@ -176,7 +176,7 @@ length(matches)
 HDA_reds = HDA %>%
   filter(Match %in% matches)
 
-all_reds = tibble(RPS = apply(HDA_reds[,c(189:224)], 2, EnvStats::geoMean),
+all_reds = tibble(GeoMean = apply(HDA_reds[,c(189:224)], 2, EnvStats::geoMean),
                   Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 6)),
                   Model = factor(c(rep("0", 6), 
                                    rep("3", 6),
@@ -191,7 +191,7 @@ all_reds = tibble(RPS = apply(HDA_reds[,c(189:224)], 2, EnvStats::geoMean),
                                             "3 (2015-2019) free gamma",
                                             "5 (2015-2019)"))) 
 all_reds %>%
-  ggplot(aes(x = Minute, y = RPS, col = Model)) +
+  ggplot(aes(x = Minute, y = GeoMean, col = Model)) +
   geom_line() +
   geom_point() +
   scale_x_continuous(breaks = c(0, 15, 30, 45, 60, 75)) +
@@ -200,7 +200,7 @@ all_reds %>%
   ylab("Geometric mean")
 
 all_reds %>%
-  pivot_wider(id_cols = "Model", values_from = "RPS", names_from = "Minute",
+  pivot_wider(id_cols = "Model", values_from = "GeoMean", names_from = "Minute",
               names_prefix = "Minute ") %>%
   kable()
 ```
