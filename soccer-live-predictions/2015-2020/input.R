@@ -5,11 +5,20 @@ load("scrape/data/results.RData")
 load("scrape/data/goals.RData")
 load("scrape/data/reds.RData")
 
+results = results %>%
+  arrange(Date, Match)
+
+goals = goals %>%
+  arrange(Date, Match)
+
+reds = reds %>%
+  arrange(Date, Match)
+
 #### Resultados
 results$ind = 1:nrow(results)
 
 copy_results = results %>%
-  select(Season, Match, ind)
+  select(Season, Match, ind, Date)
 
 # U1, U2 (acréscimos)
 U1 = results$Stoppage_Time_1
@@ -381,12 +390,23 @@ match_dates = tib1 %>%
   full_join(tib1s) %>%
   full_join(tib2s)
 
+dates_1 = NULL
+dates_2 = NULL
+dates_1s = NULL
+dates_2s = NULL
+for(i in 1:nrow(match_dates)) {
+  dates_1[match_dates$Lines1[[i]]] = match_dates$Date[i]
+  dates_2[match_dates$Lines2[[i]]] = match_dates$Date[i]
+  dates_1s[match_dates$Lines1s[[i]]] = match_dates$Date[i]
+  dates_2s[match_dates$Lines2s[[i]]] = match_dates$Date[i]
+}
+
 rm(list = setdiff(ls(), c("U1", "U2", "times", "i", "j", "N", "n", "x", "y",
                           "t1", "t2", "J1", "J2", "x1", "x2", "y1", "y2", "m1", "m2", "I1", "I2",
                           "t1s", "t2s", "J1s", "J2s", "x1s", "x2s", "y1s", "y2s", "m1s", "m2s",
                           "I1s", "I2s", "I1r", "I2r", "H1", "H2", "A1", "A2", "H1r", "H2r", "A1r", "A2r",
                           "H1s", "H2s", "A1s", "A2s", "g1", "r1", "g2", "r2", "c", "match_dates",
-                          "copy_results")))
+                          "copy_results", "dates_1", "dates_2", "dates_1s", "dates_2s")))
 
 save.image("2015-2020/data/input.RData")
 
