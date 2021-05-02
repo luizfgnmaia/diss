@@ -1,0 +1,157 @@
+---
+title: "Geometric mean"
+output: pdf_document
+---
+
+```{r, warning = FALSE, message = FALSE}
+library(dplyr)
+library(ggplot2)
+library(tidyr)
+library(knitr)
+
+load("data/HDA_dc.RData")
+load("data/first_matches.RData")
+
+HDA = HDA_dc %>%
+  anti_join(first_matches)
+
+nrow(HDA)
+```
+
+```{r}
+results = tibble(GeoMean = apply(HDA[,c(45:56)], 2, EnvStats::geoMean),
+                 Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 2)),
+                 Model = factor(c(rep("0", 6), 
+                                  rep("3", 6))))
+results %>%
+  ggplot(aes(x = Minute, y = GeoMean, col = Model)) +
+  geom_line() +
+  geom_point() +
+  scale_x_continuous(breaks = c(0, 15, 30, 45, 60, 75)) +
+  theme_bw() +
+  ggtitle("All predicted matches") +
+  ylab("Geometric mean for the results")
+
+results %>%
+  pivot_wider(id_cols = "Model", values_from = "GeoMean", names_from = "Minute",
+              names_prefix = "Minute ") %>%
+  kable()
+```
+
+```{r}
+scores = tibble(GeoMean = apply(HDA[,c(57:68)], 2, EnvStats::geoMean),
+                 Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 2)),
+                 Model = factor(c(rep("0", 6), 
+                                  rep("3", 6))))
+scores %>%
+  ggplot(aes(x = Minute, y = GeoMean, col = Model)) +
+  geom_line() +
+  geom_point() +
+  scale_x_continuous(breaks = c(0, 15, 30, 45, 60, 75)) +
+  theme_bw() +
+  ggtitle("All predicted matches") +
+  ylab("Geometric mean for the scores")
+
+scores %>%
+  pivot_wider(id_cols = "Model", values_from = "GeoMean", names_from = "Minute",
+              names_prefix = "Minute ") %>%
+  kable()
+```
+
+```{r}
+load("~/GitHub/soccer-live-predictions/soccer-live-predictions/scrape/data/reds.RData")
+
+matches = reds %>%
+  filter(Season > 2015, Half == 1) %>%
+  select(Season, Match)
+
+HDA_reds = HDA %>%
+  inner_join(matches)
+
+HDA_no_reds = HDA %>%
+  anti_join(matches)
+
+nrow(HDA_reds)
+```
+
+```{r}
+results_reds = tibble(GeoMean = apply(HDA_reds[,c(45:56)], 2, EnvStats::geoMean),
+                      Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 2)),
+                      Model = factor(c(rep("0", 6), 
+                                       rep("3", 6))))
+results_reds %>%
+  ggplot(aes(x = Minute, y = GeoMean, col = Model)) +
+  geom_line() +
+  geom_point() +
+  scale_x_continuous(breaks = c(0, 15, 30, 45, 60, 75)) +
+  theme_bw() +
+  ggtitle("All predicted matches with a red card in the first half") +
+  ylab("Geometric mean for the results")
+
+results_reds %>%
+  pivot_wider(id_cols = "Model", values_from = "GeoMean", names_from = "Minute",
+              names_prefix = "Minute ") %>%
+  kable()
+```
+
+```{r}
+results_no_reds = tibble(GeoMean = apply(HDA_no_reds[,c(45:56)], 2, EnvStats::geoMean),
+                         Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 2)),
+                         Model = factor(c(rep("0", 6), 
+                                          rep("3", 6))))
+results_no_reds %>%
+  ggplot(aes(x = Minute, y = GeoMean, col = Model)) +
+  geom_line() +
+  geom_point() +
+  scale_x_continuous(breaks = c(0, 15, 30, 45, 60, 75)) +
+  theme_bw() +
+  ggtitle("All predicted matches with no red cards in the first half") +
+  ylab("Geometric mean for the results")
+
+results_no_reds %>%
+  pivot_wider(id_cols = "Model", values_from = "GeoMean", names_from = "Minute",
+              names_prefix = "Minute ") %>%
+  kable()
+```
+
+```{r}
+scores_reds = tibble(GeoMean = apply(HDA_reds[,c(57:68)], 2, EnvStats::geoMean),
+                      Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 2)),
+                      Model = factor(c(rep("0", 6), 
+                                       rep("3", 6))))
+scores_reds %>%
+  ggplot(aes(x = Minute, y = GeoMean, col = Model)) +
+  geom_line() +
+  geom_point() +
+  scale_x_continuous(breaks = c(0, 15, 30, 45, 60, 75)) +
+  theme_bw() +
+  ggtitle("All predicted matches with a red card in the first half") +
+  ylab("Geometric mean for the scores")
+
+scores_reds %>%
+  pivot_wider(id_cols = "Model", values_from = "GeoMean", names_from = "Minute",
+              names_prefix = "Minute ") %>%
+  kable()
+```
+
+```{r}
+scores_no_reds = tibble(GeoMean = apply(HDA_no_reds[,c(57:68)], 2, EnvStats::geoMean),
+                         Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 2)),
+                         Model = factor(c(rep("0", 6), 
+                                          rep("3", 6))))
+scores_no_reds %>%
+  ggplot(aes(x = Minute, y = GeoMean, col = Model)) +
+  geom_line() +
+  geom_point() +
+  scale_x_continuous(breaks = c(0, 15, 30, 45, 60, 75)) +
+  theme_bw() +
+  ggtitle("All predicted matches with no red cards in the first half") +
+  ylab("Geometric mean for the scores")
+
+scores_no_reds %>%
+  pivot_wider(id_cols = "Model", values_from = "GeoMean", names_from = "Minute",
+              names_prefix = "Minute ") %>%
+  kable()
+```
+
+

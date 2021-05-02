@@ -1,4 +1,8 @@
 
+# date = "2019-05-01"
+# csi = 0.0065/3.5
+# fit_mod_3(date, csi)
+
 fit_mod_3 <- function(date, csi) {
   
   require(CVXR)
