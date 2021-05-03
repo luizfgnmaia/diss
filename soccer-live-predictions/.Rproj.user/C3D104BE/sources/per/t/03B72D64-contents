@@ -1,0 +1,57 @@
+---
+title: "$\\xi$"
+output: pdf_document
+---
+
+```{r, warning = FALSE, message = FALSE}
+library(dplyr)
+library(ggplot2)
+
+load("data/lst_csi_mod_0_pred_0.RData")
+```
+
+```{r}
+csi = as.numeric(names(lst_csi_mod_0_pred_0))
+GeoMean_Results = NULL
+GeoMean_Scores = NULL
+for(i in 1:length(lst_csi_mod_0_pred_0)) {
+  GeoMean_Results[i] = lst_csi_mod_0_pred_0[[i]]$GeoMean_Results 
+  GeoMean_Scores[i] = lst_csi_mod_0_pred_0[[i]]$GeoMean_Scores
+}
+```
+
+```{r}
+tib_csi = tibble(csi, GeoMean_Results, GeoMean_Scores)
+```
+
+```{r}
+tib_csi %>%
+  ggplot(aes(x = csi, y = GeoMean_Results)) +
+  geom_line() +
+  geom_point() +
+  theme_bw() +
+  ylab("Geometric mean for the results")
+```
+
+```{r}
+tib_csi %>%
+  ggplot(aes(x = csi, y = GeoMean_Scores)) +
+  geom_line() +
+  geom_point() +
+  theme_bw() +
+  ylab("Geometric mean for the scores")
+```
+
+```{r}
+tib_csi %>%
+  arrange(desc(GeoMean_Results))
+```
+```{r}
+tib_csi %>%
+  arrange(desc(GeoMean_Scores))
+```
+```{r}
+# Dixon & Coles csi
+0.0065 / 3.5
+```
+

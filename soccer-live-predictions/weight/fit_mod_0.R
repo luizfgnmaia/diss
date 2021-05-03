@@ -45,9 +45,9 @@ fit_mod_0 <- function(date, csi) {
   # }
   
   mod_0 = list(alpha = as.vector(c(solution$getValue(alpha))),
-            beta = as.vector(solution$getValue(beta)),
-            gamma = as.vector(solution$getValue(gamma)),
-            value = solution$value)
+               beta = as.vector(solution$getValue(beta)),
+               gamma = as.vector(solution$getValue(gamma)),
+               value = solution$value)
   names(mod_0$alpha) = times$Time
   names(mod_0$beta) = times$Time
   
@@ -56,7 +56,7 @@ fit_mod_0 <- function(date, csi) {
 
 
 
-fit_mod_0_dates <- function(csi) {
+fit_mod_0_dates <- function(csi, verbose = FALSE) {
   require(dplyr)
   load("2015-2020/data/input.RData")
   
@@ -69,7 +69,9 @@ fit_mod_0_dates <- function(csi) {
   ret = list()
   for(i in 1:length(dates)) { 
     ret[[i]] = fit_mod_0(dates[i], csi)
-    print(paste0(round(100*i/length(dates), 2), "%"))
+    if(verbose == TRUE) {
+      print(paste0(round(100*i/length(dates), 2), "%"))
+    }
   }
   names(ret) = dates
   ret

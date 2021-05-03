@@ -1,0 +1,7 @@
+"0","csi = as.numeric(names(lst_csi_mod_0_pred_0))"
+"0","GeoMean_Results = NULL"
+"0","GeoMean_Scores = NULL"
+"0","for(i in 1:length(lst_csi_mod_0_pred_0)) {"
+"0","  GeoMean_Results[i] = lst_csi_mod_0_pred_0[[i]]$GeoMean_Results "
+"0","  GeoMean_Scores[i] = lst_csi_mod_0_pred_0[[i]]$GeoMean_Scores"
+"0","}"
