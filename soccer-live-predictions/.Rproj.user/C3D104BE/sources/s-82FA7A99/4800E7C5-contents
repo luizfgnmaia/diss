@@ -1,0 +1,49 @@
+```{r}
+HDA_2020 = HDA %>%
+  filter(Season == 2020)
+
+nrow(HDA_2020)
+```
+
+```{r}
+results_2020 = tibble(GeoMean = apply(HDA_2020[,c(45:56)], 2, EnvStats::geoMean),
+                      Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 2)),
+                      Model = factor(c(rep("0", 6), 
+                                       rep("3", 6))))
+results_2020 %>%
+  ggplot(aes(x = Minute, y = GeoMean, col = Model)) +
+  geom_line() +
+  geom_point() +
+  scale_x_continuous(breaks = c(0, 15, 30, 45, 60, 75)) +
+  theme_bw() +
+  ggtitle("All predicted matches with a red card in the first half") +
+  ylab("Geometric mean for the results")
+
+results_2020 %>%
+  pivot_wider(id_cols = "Model", values_from = "GeoMean", names_from = "Minute",
+              names_prefix = "Minute ") %>%
+  kable()
+```
+
+```{r}
+scores_2020 = tibble(GeoMean = apply(HDA_2020[,c(57:68)], 2, EnvStats::geoMean),
+                      Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 2)),
+                      Model = factor(c(rep("0", 6), 
+                                       rep("3", 6))))
+scores_2020 %>%
+  ggplot(aes(x = Minute, y = GeoMean, col = Model)) +
+  geom_line() +
+  geom_point() +
+  scale_x_continuous(breaks = c(0, 15, 30, 45, 60, 75)) +
+  theme_bw() +
+  ggtitle("All predicted matches with a red card in the first half") +
+  ylab("Geometric mean for the scores")
+
+scores_2020 %>%
+  pivot_wider(id_cols = "Model", values_from = "GeoMean", names_from = "Minute",
+              names_prefix = "Minute ") %>%
+  kable()
+```
+
+
+
