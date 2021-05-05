@@ -16,13 +16,16 @@ HDA = HDA_dc %>%
   anti_join(first_matches)
 
 nrow(HDA)
+
+HDA[,c(9:98)][which(HDA[,c(9:98)] == 0, arr.ind = TRUE)] = 10^-5
 ```
 
 ```{r}
-results = tibble(GeoMean = apply(HDA[,c(45:56)], 2, EnvStats::geoMean),
-                 Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 2)),
+results = tibble(GeoMean = apply(HDA[,c(63:80)], 2, EnvStats::geoMean),
+                 Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 3)),
                  Model = factor(c(rep("0", 6), 
-                                  rep("3", 6))))
+                                  rep("3", 6),
+                                  rep("8", 6))))
 results %>%
   ggplot(aes(x = Minute, y = GeoMean, col = Model)) +
   geom_line() +
@@ -39,10 +42,11 @@ results %>%
 ```
 
 ```{r}
-scores = tibble(GeoMean = apply(HDA[,c(57:68)], 2, EnvStats::geoMean),
-                 Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 2)),
-                 Model = factor(c(rep("0", 6), 
-                                  rep("3", 6))))
+scores = tibble(GeoMean = apply(HDA[,c(81:98)], 2, EnvStats::geoMean),
+                Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 3)),
+                Model = factor(c(rep("0", 6), 
+                                 rep("3", 6),
+                                 rep("8", 6))))
 scores %>%
   ggplot(aes(x = Minute, y = GeoMean, col = Model)) +
   geom_line() +
@@ -75,10 +79,11 @@ nrow(HDA_reds)
 ```
 
 ```{r}
-results_reds = tibble(GeoMean = apply(HDA_reds[,c(45:56)], 2, EnvStats::geoMean),
-                      Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 2)),
+results_reds = tibble(GeoMean = apply(HDA_reds[,c(63:80)], 2, EnvStats::geoMean),
+                      Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 3)),
                       Model = factor(c(rep("0", 6), 
-                                       rep("3", 6))))
+                                       rep("3", 6),
+                                       rep("8", 6))))
 results_reds %>%
   ggplot(aes(x = Minute, y = GeoMean, col = Model)) +
   geom_line() +
@@ -95,10 +100,11 @@ results_reds %>%
 ```
 
 ```{r}
-results_no_reds = tibble(GeoMean = apply(HDA_no_reds[,c(45:56)], 2, EnvStats::geoMean),
-                         Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 2)),
+results_no_reds = tibble(GeoMean = apply(HDA_no_reds[,c(63:80)], 2, EnvStats::geoMean),
+                         Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 3)),
                          Model = factor(c(rep("0", 6), 
-                                          rep("3", 6))))
+                                          rep("3", 6),
+                                          rep("8", 6))))
 results_no_reds %>%
   ggplot(aes(x = Minute, y = GeoMean, col = Model)) +
   geom_line() +
@@ -115,10 +121,11 @@ results_no_reds %>%
 ```
 
 ```{r}
-scores_reds = tibble(GeoMean = apply(HDA_reds[,c(57:68)], 2, EnvStats::geoMean),
-                      Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 2)),
-                      Model = factor(c(rep("0", 6), 
-                                       rep("3", 6))))
+scores_reds = tibble(GeoMean = apply(HDA_reds[,c(81:98)], 2, EnvStats::geoMean),
+                     Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 3)),
+                     Model = factor(c(rep("0", 6), 
+                                      rep("3", 6),
+                                      rep("8", 6))))
 scores_reds %>%
   ggplot(aes(x = Minute, y = GeoMean, col = Model)) +
   geom_line() +
@@ -135,10 +142,11 @@ scores_reds %>%
 ```
 
 ```{r}
-scores_no_reds = tibble(GeoMean = apply(HDA_no_reds[,c(57:68)], 2, EnvStats::geoMean),
-                         Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 2)),
-                         Model = factor(c(rep("0", 6), 
-                                          rep("3", 6))))
+scores_no_reds = tibble(GeoMean = apply(HDA_no_reds[,c(81:98)], 2, EnvStats::geoMean),
+                        Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 3)),
+                        Model = factor(c(rep("0", 6), 
+                                         rep("3", 6),
+                                         rep("8", 6))))
 scores_no_reds %>%
   ggplot(aes(x = Minute, y = GeoMean, col = Model)) +
   geom_line() +
@@ -162,10 +170,11 @@ nrow(HDA_2020)
 ```
 
 ```{r}
-results_2020 = tibble(GeoMean = apply(HDA_2020[,c(45:56)], 2, EnvStats::geoMean),
-                      Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 2)),
+results_2020 = tibble(GeoMean = apply(HDA_2020[,c(63:80)], 2, EnvStats::geoMean),
+                      Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 3)),
                       Model = factor(c(rep("0", 6), 
-                                       rep("3", 6))))
+                                       rep("3", 6),
+                                       rep("8", 6))))
 results_2020 %>%
   ggplot(aes(x = Minute, y = GeoMean, col = Model)) +
   geom_line() +
@@ -182,10 +191,11 @@ results_2020 %>%
 ```
 
 ```{r}
-scores_2020 = tibble(GeoMean = apply(HDA_2020[,c(57:68)], 2, EnvStats::geoMean),
-                      Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 2)),
-                      Model = factor(c(rep("0", 6), 
-                                       rep("3", 6))))
+scores_2020 = tibble(GeoMean = apply(HDA_2020[,c(81:98)], 2, EnvStats::geoMean),
+                     Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 3)),
+                     Model = factor(c(rep("0", 6), 
+                                      rep("3", 6),
+                                      rep("8", 6))))
 scores_2020 %>%
   ggplot(aes(x = Minute, y = GeoMean, col = Model)) +
   geom_line() +

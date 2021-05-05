@@ -1,0 +1,4 @@
+"0","Parameter = c(""$\\eta_1$"", ""$\\eta_2$"", ""$\\rho_1$"", ""$\\rho_2$"", ""$\\kappa$"")"
+"0","st = tibble(Parameter, "
+"0","            Estimative = c(mod_8$eta, mod_8$rho, mod_8$kappa))"
+"0","kable(st, digits = 4, caption = ""Stoppage time parameters"")"

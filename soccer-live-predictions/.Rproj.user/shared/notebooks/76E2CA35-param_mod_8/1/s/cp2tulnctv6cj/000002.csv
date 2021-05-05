@@ -1,0 +1,11 @@
+"0","alphas_betas = tibble(Team = times$Time,"
+"0","                alpha = exp(mod_8$alpha),"
+"0","                beta = exp(mod_8$beta))"
+"0","kable(alphas_betas, digits = 4, caption = ""Alphas and betas"", "
+"0","      col.names = c(""Team"", ""$\\alpha$"", ""$\\beta$""))"
+"2","Registered S3 methods overwritten by 'htmltools':
+  method               from         
+  print.html           tools:rstudio
+  print.shiny.tag      tools:rstudio
+  print.shiny.tag.list tools:rstudio
+"
