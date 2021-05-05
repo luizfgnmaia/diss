@@ -108,4 +108,80 @@ colnames(tab_results) = c("Home", "Draw", "Away")
 colnames(tab_home_goals) = c(0:4, "5+")
 colnames(tab_away_goals) = c(0:4, "5+")
 
+#################################################################################
+#################################################################################
+#################################################################################
+
+set.seed(1)
+
+pnk_Result <- function(Result, Match) {
+  res = ifelse(Match$Score_Home > Match$Score_Away, 1,
+               ifelse(Match$Score_Home == Match$Score_Away, 2,
+                      3))
+  Result[res]
+}
+
+pnk_Score <- function(Score, Match) {
+  event = paste0(Match$Score_Home, "-", Match$Score_Away)
+  p = Score[event]
+  ifelse(is.na(p), 0, p)
+}
+
+loglik_observed_results_mod_0 = NULL
+loglik_observed_scores_mod_0 = NULL
+loglik_observed_results_mod_3 = NULL
+loglik_observed_scores_mod_3 = NULL
+for(i in 1:length(predictions_mod_0_dc)) {
+  loglik_observed_results_mod_0[i] = log(pnk_Result(predictions_mod_0_dc[[i]]$pred_0$Result, predictions_mod_0_dc[[i]]$Match))
+  loglik_observed_scores_mod_0[i] = log(pnk_Score(predictions_mod_0_dc[[i]]$pred_0$Score, predictions_mod_0_dc[[i]]$Match))
+  loglik_observed_results_mod_3[i] = log(pnk_Result(predictions_mod_3_dc[[i]]$pred_0$Result, predictions_mod_3_dc[[i]]$Match))
+  loglik_observed_scores_mod_3[i] = log(pnk_Score(predictions_mod_3_dc[[i]]$pred_0$Score, predictions_mod_3_dc[[i]]$Match))
+}
+loglik_observed_results_mod_0 = sum(loglik_observed_results_mod_0)
+loglik_observed_scores_mod_0 = sum(loglik_observed_scores_mod_0)
+loglik_observed_results_mod_3 = sum(loglik_observed_results_mod_3)
+loglik_observed_scores_mod_3 = sum(loglik_observed_scores_mod_3)
+
+sim_all_matches <- function() {
+  
+  loglik_results_mod_0 = NULL
+  loglik_scores_mod_0 = NULL
+  loglik_results_mod_3 = NULL
+  loglik_scores_mod_3 = NULL
+  
+  for(i in 1:length(predictions_mod_0_dc)) {
+    loglik_results_mod_0[i] = log(sample(predictions_mod_0_dc[[i]]$pred_0$Result, size = 1, prob = predictions_mod_0_dc[[i]]$pred_0$Result))
+    loglik_scores_mod_0[i] = log(sample(predictions_mod_0_dc[[i]]$pred_0$Score, size = 1, prob = predictions_mod_0_dc[[i]]$pred_0$Score))
+    loglik_results_mod_3[i] = log(sample(predictions_mod_3_dc[[i]]$pred_0$Result, size = 1, prob = predictions_mod_3_dc[[i]]$pred_0$Result))
+    loglik_scores_mod_3[i] = log(sample(predictions_mod_3_dc[[i]]$pred_0$Score, size = 1, prob = predictions_mod_3_dc[[i]]$pred_0$Score))
+  }
+  
+  list(loglik_results_mod_0 = sum(loglik_results_mod_0),
+       loglik_scores_mod_0 = sum(loglik_scores_mod_0),
+       loglik_results_mod_3 = sum(loglik_results_mod_3),
+       loglik_scores_mod_3 = sum(loglik_scores_mod_3))
+}
+
+sim_all_matches_n <- function(n) {
+  ret_results_mod_0 = NULL
+  ret_scores_mod_0 = NULL
+  ret_results_mod_3 = NULL
+  ret_scores_mod_3 = NULL
+  for(i in 1:n) {
+    sim = sim_all_matches()
+    ret_results_mod_0[i] = sim$loglik_results_mod_0
+    ret_scores_mod_0[i] = sim$loglik_scores_mod_0
+    ret_results_mod_3[i] = sim$loglik_results_mod_3
+    ret_scores_mod_3[i] = sim$loglik_scores_mod_3
+    print(paste0(round(100*i/n, 2), "%"))
+  }
+  list(loglik_results_mod_0 = ret_results_mod_0,
+       loglik_scores_mod_0 = ret_scores_mod_0,
+       loglik_results_mod_3 = ret_results_mod_3,
+       loglik_scores_mod_3 = ret_scores_mod_3)
+}
+
+sims = sim_all_matches_n(10^5)
+
 save.image("weight/data/goodness_of_fit_dc.RData")
+
