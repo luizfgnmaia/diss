@@ -12,15 +12,24 @@ load("data/goodness_of_fit_dc.RData")
 ```
 
 ```{r}
-kable(tab_results[1:4,], digits = 4)
+for(i in 2:19) {
+  tab_results[i,] = tab_results[i,] - tab_results[1,]
+}
+kable(tab_results, digits = 4)
 ```
 
 ```{r}
-kable(tab_home_goals[1:4,], digits = 4)
+for(i in 2:19) {
+  tab_home_goals[i,] = tab_home_goals[i,] - tab_home_goals[1,]
+}
+kable(tab_home_goals, digits = 4)
 ```
 
 ```{r}
-kable(tab_away_goals[1:4,], digits = 4)
+for(i in 2:19) {
+  tab_away_goals[i,] = tab_away_goals[i,] - tab_away_goals[1,]
+}
+kable(tab_away_goals, digits = 4)
 ```
 
 \clearpage 
@@ -361,7 +370,7 @@ tibble(x = sims$pred_0$loglik_scores_mod_0) %>%
 ```
 
 ```{r}
-sum(sims$pred_0$loglik_scores_mod_0 <= loglik_observed_scores_mod_0_pred_0) /
+sum(sims$pred_0$loglik_scores_mod_0 >= loglik_observed_scores_mod_0_pred_0) /
   length(sims$pred_0$loglik_scores_mod_0)
 ```
 
