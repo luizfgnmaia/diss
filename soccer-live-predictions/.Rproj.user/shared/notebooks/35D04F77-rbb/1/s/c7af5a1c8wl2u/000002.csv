@@ -1,0 +1,8 @@
+"0","library(dplyr)"
+"0","library(ggplot2)"
+"0","library(CVXR)"
+"0","library(future.apply)"
+"0","source(""~/GitHub/soccer-live-predictions/soccer-live-predictions/pred/pred_mod_8.R"")"
+"0",""
+"0","date = ""2019-05-01"" "
+"0","csi = 0.0065/3.5"

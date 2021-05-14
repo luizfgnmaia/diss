@@ -1,0 +1,3 @@
+"0","results %>%"
+"0","  filter(Home_Team == ""Red Bull Bragantino"" | Away_Team == ""Red Bull Bragantino"") %>%"
+"0","  arrange(Date)"
