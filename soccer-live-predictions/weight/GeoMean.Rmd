@@ -356,3 +356,109 @@ scores_20 %>%
               names_prefix = "Minute ") %>%
   kable()
 ```
+
+```{r}
+tmp_10 = at_45 %>%
+  filter(Home_Score == 1, Away_Score == 0) %>%
+  select(Season, Match)
+
+HDA_10 = HDA %>%
+  inner_join(tmp_10)
+
+nrow(HDA_10)
+```
+
+```{r}
+results_10 = tibble(GeoMean = apply(HDA_10[,c(63:80)], 2, EnvStats::geoMean),
+                      Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 3)),
+                      Model = factor(c(rep("0", 6), 
+                                       rep("3", 6),
+                                       rep("8", 6))))
+results_10 %>%
+  ggplot(aes(x = Minute, y = GeoMean, col = Model)) +
+  geom_line() +
+  geom_point() +
+  scale_x_continuous(breaks = c(0, 15, 30, 45, 60, 75)) +
+  theme_bw() +
+  ggtitle("All predicted matches with score 1-0 lead at minute 45") +
+  ylab("Geometric mean for the results")
+
+results_10 %>%
+  pivot_wider(id_cols = "Model", values_from = "GeoMean", names_from = "Minute",
+              names_prefix = "Minute ") %>%
+  kable()
+```
+
+```{r}
+scores_10 = tibble(GeoMean = apply(HDA_10[,c(81:98)], 2, EnvStats::geoMean),
+                     Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 3)),
+                     Model = factor(c(rep("0", 6), 
+                                      rep("3", 6),
+                                      rep("8", 6))))
+scores_10 %>%
+  ggplot(aes(x = Minute, y = GeoMean, col = Model)) +
+  geom_line() +
+  geom_point() +
+  scale_x_continuous(breaks = c(0, 15, 30, 45, 60, 75)) +
+  theme_bw() +
+  ggtitle("All predicted matches with score 1-0 at minute 45") +
+  ylab("Geometric mean for the scores")
+
+scores_10 %>%
+  pivot_wider(id_cols = "Model", values_from = "GeoMean", names_from = "Minute",
+              names_prefix = "Minute ") %>%
+  kable()
+```
+
+```{r}
+tmp_01 = at_45 %>%
+  filter(Home_Score == 0, Away_Score == 1) %>%
+  select(Season, Match)
+
+HDA_01 = HDA %>%
+  inner_join(tmp_01)
+
+nrow(HDA_01)
+```
+
+```{r}
+results_01 = tibble(GeoMean = apply(HDA_01[,c(63:80)], 2, EnvStats::geoMean),
+                    Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 3)),
+                    Model = factor(c(rep("0", 6), 
+                                     rep("3", 6),
+                                     rep("8", 6))))
+results_01 %>%
+  ggplot(aes(x = Minute, y = GeoMean, col = Model)) +
+  geom_line() +
+  geom_point() +
+  scale_x_continuous(breaks = c(0, 15, 30, 45, 60, 75)) +
+  theme_bw() +
+  ggtitle("All predicted matches with score 0-1 at minute 45") +
+  ylab("Geometric mean for the results")
+
+results_01 %>%
+  pivot_wider(id_cols = "Model", values_from = "GeoMean", names_from = "Minute",
+              names_prefix = "Minute ") %>%
+  kable()
+```
+
+```{r}
+scores_01 = tibble(GeoMean = apply(HDA_01[,c(81:98)], 2, EnvStats::geoMean),
+                   Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 3)),
+                   Model = factor(c(rep("0", 6), 
+                                    rep("3", 6),
+                                    rep("8", 6))))
+scores_01 %>%
+  ggplot(aes(x = Minute, y = GeoMean, col = Model)) +
+  geom_line() +
+  geom_point() +
+  scale_x_continuous(breaks = c(0, 15, 30, 45, 60, 75)) +
+  theme_bw() +
+  ggtitle("All predicted matches with score 0-1 at minute 45") +
+  ylab("Geometric mean for the scores")
+
+scores_01 %>%
+  pivot_wider(id_cols = "Model", values_from = "GeoMean", names_from = "Minute",
+              names_prefix = "Minute ") %>%
+  kable()
+```

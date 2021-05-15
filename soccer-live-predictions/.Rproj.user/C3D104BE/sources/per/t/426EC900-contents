@@ -1,0 +1,281 @@
+---
+title: "Transfermarkt"
+output: pdf_document
+---
+
+```{r, warning = FALSE, message = FALSE}
+library(dplyr)
+library(ggplot2)
+
+load("data/transfermarkt.RData")
+```
+
+```{r}
+glimpse(transfermarkt)
+```
+```{r}
+transfermarkt = transfermarkt %>%
+  filter(ano_campeonato >= 2015,
+         !is.na(gols_man))
+```
+
+```{r}
+transfermarkt %>%
+  filter(time_man == "Flamengo") %>%
+  select(data, valor_equipe_titular_man)
+```
+
+```{r}
+sum(is.na(transfermarkt$valor_equipe_titular_man))/nrow(transfermarkt)
+```
+
+```{r}
+sum(is.na(transfermarkt$valor_equipe_titular_vis))/nrow(transfermarkt)
+```
+
+Existem partidas com missing nos valores de mercado, repetir os valores da última partida não missing ou usar a média da temporada até então? 
+
+Acho que usar a média da temporada dá menos problema pois evita problema de jogos com time titular após jogos com time reserva.
+
+```{r}
+teams = sort(unique(transfermarkt$time_man))
+teams
+```
+
+Existem "Athletico-PR" e "Atlético-PR", vou padronizar.
+```{r}
+transfermarkt$time_man[which(transfermarkt$time_man == "Atlético-PR")] = "Athletico-PR" 
+transfermarkt$time_vis[which(transfermarkt$time_vis == "Atlético-PR")] = "Athletico-PR" 
+```
+
+```{r}
+team = NULL
+season = NULL
+mean_value = NULL
+
+for(t in teams) {
+  for(s in 2015:2020) {
+    man = transfermarkt %>%
+      filter(time_man == t,
+             ano_campeonato == s) %>%
+      .$valor_equipe_titular_man
+    vis = transfermarkt %>%
+      filter(time_vis == t,
+             ano_campeonato == s) %>%
+      .$valor_equipe_titular_vis
+    all = c(man, vis)
+    team = c(team, t)
+    season = c(season, s)
+    mean_value = c(mean_value, mean(all, na.rm = TRUE))
+  }
+}
+
+mean_values = tibble(team, season, mean_value) %>%
+  filter(!is.na(mean_value))
+```
+
+```{r}
+na_man = which(is.na(transfermarkt$valor_equipe_titular_man))
+na_vis = which(is.na(transfermarkt$valor_equipe_titular_vis))
+sum(na_man == na_vis) / length(na_man == na_vis)
+```
+
+Imputando os missings.
+```{r}
+for(i in 1:length(na_man)) {
+  man = transfermarkt$time_man[na_man[i]]
+  vis = transfermarkt$time_vis[na_man[i]]
+  ano = transfermarkt$ano_campeonato[na_man[i]]
+  mean_man = mean_values %>%
+    filter(season == ano,
+           team == man) %>%
+    .$mean_value
+  mean_vis = mean_values %>%
+    filter(season == ano,
+           team == vis) %>%
+    .$mean_value
+  transfermarkt$valor_equipe_titular_man[na_man[i]] = mean_man
+  transfermarkt$valor_equipe_titular_vis[na_man[i]] = mean_vis
+}
+```
+
+Plotando a quantidade de gols de acordo com a (log) diferença do mandante/visitante.
+```{r}
+transfermarkt = transfermarkt %>%
+  mutate(dif_valor = valor_equipe_titular_man - valor_equipe_titular_vis,
+         dif_log_valor = log(valor_equipe_titular_man) - log(valor_equipe_titular_vis))
+```
+
+```{r}
+transfermarkt %>%
+  arrange(desc(dif_valor)) %>%
+  select(ano_campeonato, time_man, time_vis, valor_equipe_titular_man, 
+         valor_equipe_titular_vis, dif_valor)
+```
+```{r}
+transfermarkt %>%
+  arrange(dif_valor) %>%
+  select(ano_campeonato, time_man, time_vis, valor_equipe_titular_man, 
+         valor_equipe_titular_vis, dif_valor)
+```
+
+```{r}
+transfermarkt %>%
+  ggplot(aes(x = factor(gols_man), y = dif_valor)) +
+  geom_boxplot() +
+  theme_bw() +
+  xlab("Home team's goals") +
+  ylab("Home team's value - away team's value")
+```
+
+```{r}
+transfermarkt %>%
+  ggplot(aes(x = factor(gols_vis), y = dif_valor)) +
+  geom_boxplot() +
+  theme_bw() +
+  xlab("Away team's goals") +
+  ylab("Home team's value - away team's value")
+```
+
+```{r}
+transfermarkt %>%
+  ggplot(aes(x = factor(gols_man), y = dif_log_valor)) +
+  geom_boxplot() +
+  theme_bw() +
+  xlab("Home team's goals") +
+  ylab("log home team's value - log away team's value")
+```
+
+```{r}
+transfermarkt %>%
+  ggplot(aes(x = factor(gols_vis), y = dif_log_valor)) +
+  geom_boxplot() +
+  theme_bw() +
+  xlab("Away team's goals") +
+  ylab("log home team's value - log away team's value")
+```
+
+```{r}
+cor(transfermarkt$gols_man, transfermarkt$dif_valor)
+cor(transfermarkt$gols_vis, transfermarkt$dif_valor)
+cor(transfermarkt$gols_man, transfermarkt$dif_log_valor)
+cor(transfermarkt$gols_vis, transfermarkt$dif_log_valor)
+```
+
+```{r}
+cor(transfermarkt$gols_man, transfermarkt$dif_valor, method = "kendall")
+cor(transfermarkt$gols_vis, transfermarkt$dif_valor, method = "kendall")
+cor(transfermarkt$gols_man, transfermarkt$dif_log_valor, method = "kendall")
+cor(transfermarkt$gols_vis, transfermarkt$dif_log_valor, method = "kendall")
+```
+
+Preparando o data set para juntar com o que temos.
+
+```{r}
+load("~/GitHub/soccer-live-predictions/soccer-live-predictions/scrape/data/results2.RData")
+```
+
+```{r}
+transfermarkt = transfermarkt %>%
+  rename(Season = ano_campeonato,
+         Home_Team = time_man,
+         Away_Team = time_vis,
+         Value_Home = valor_equipe_titular_man,
+         Value_Away = valor_equipe_titular_vis,
+         Dif_Value = dif_valor,
+         Dif_Log_Value = dif_log_valor) %>%
+  select(Season, Home_Team, Away_Team, Value_Home, Value_Away, 
+         Dif_Value, Dif_Log_Value, rodada)
+```
+
+```{r}
+sort(unique(transfermarkt$Home_Team))
+```
+
+```{r}
+sort(unique(results$Home_Team))
+```
+
+```{r}
+transfermarkt$Home_Team[which(transfermarkt$Home_Team == "Avaí FC")] = 
+  "Avaí"
+transfermarkt$Away_Team[which(transfermarkt$Away_Team == "Avaí FC")] = 
+  "Avaí"
+
+transfermarkt$Home_Team[which(transfermarkt$Home_Team == "Ceará SC")] = 
+  "Ceará"
+transfermarkt$Away_Team[which(transfermarkt$Away_Team == "Ceará SC")] = 
+  "Ceará"
+
+transfermarkt$Home_Team[which(transfermarkt$Home_Team == "Coritiba FC")] = 
+  "Coritiba"
+transfermarkt$Away_Team[which(transfermarkt$Away_Team == "Coritiba FC")] = 
+  "Coritiba"
+
+transfermarkt$Home_Team[which(transfermarkt$Home_Team == "CSA")] = 
+  "Csa"
+transfermarkt$Away_Team[which(transfermarkt$Away_Team == "CSA")] = 
+  "Csa"
+
+transfermarkt$Home_Team[which(transfermarkt$Home_Team == "EC Bahia")] = 
+  "Bahia"
+transfermarkt$Away_Team[which(transfermarkt$Away_Team == "EC Bahia")] = 
+  "Bahia"
+
+transfermarkt$Home_Team[which(transfermarkt$Home_Team == "EC Vitória")] = 
+  "Vitória"
+transfermarkt$Away_Team[which(transfermarkt$Away_Team == "EC Vitória")] = 
+  "Vitória"
+
+transfermarkt$Home_Team[which(transfermarkt$Home_Team == "Figueirense FC")] = 
+  "Figueirense"
+transfermarkt$Away_Team[which(transfermarkt$Away_Team == "Figueirense FC")] = 
+  "Figueirense"
+
+transfermarkt$Home_Team[which(transfermarkt$Home_Team == "Goiás EC")] = 
+  "Goiás"
+transfermarkt$Away_Team[which(transfermarkt$Away_Team == "Goiás EC")] = 
+  "Goiás"
+
+transfermarkt$Home_Team[which(transfermarkt$Home_Team == "Joinville-SC")] = 
+  "Joinville"
+transfermarkt$Away_Team[which(transfermarkt$Away_Team == "Joinville-SC")] = 
+  "Joinville"
+
+transfermarkt$Home_Team[which(transfermarkt$Home_Team == "RB Bragantino")] = 
+  "Red Bull Bragantino"
+transfermarkt$Away_Team[which(transfermarkt$Away_Team == "RB Bragantino")] = 
+  "Red Bull Bragantino"
+
+transfermarkt$Home_Team[which(transfermarkt$Home_Team == "Santos FC")] = 
+  "Santos"
+transfermarkt$Away_Team[which(transfermarkt$Away_Team == "Santos FC")] = 
+  "Santos"
+
+transfermarkt$Home_Team[which(transfermarkt$Home_Team == "Sport Recife")] = 
+  "Sport"
+transfermarkt$Away_Team[which(transfermarkt$Away_Team == "Sport Recife")] = 
+  "Sport"
+```
+
+```{r}
+results = results %>%
+  mutate(rodada = ceiling(results$Match/10))
+results$rodada[1020] = 28 # https://conteudo.cbf.com.br/sumulas/2017/142261se.pdf
+results$rodada[1030] = 27 # https://conteudo.cbf.com.br/sumulas/2017/142271se.pdf
+```
+
+```{r}
+results = left_join(results, transfermarkt)
+```
+
+```{r}
+sum(is.na(results))
+```
+
+```{r}
+save(results, file = "data/results.RData")
+```
+
+
+

@@ -1,0 +1,28 @@
+{
+    "id": "426EC900",
+    "path": "~/GitHub/soccer-live-predictions/soccer-live-predictions/transfermarkt/transfermarkt.Rmd",
+    "project_path": "transfermarkt/transfermarkt.Rmd",
+    "type": "r_markdown",
+    "hash": "2541313954",
+    "contents": "",
+    "dirty": false,
+    "created": 1621045593413.0,
+    "source_on_save": false,
+    "relative_order": 4,
+    "properties": {
+        "tempName": "Untitled1",
+        "chunk_output_type": "inline",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "275,0",
+        "scrollLine": "262"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1621083572,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1621083573005,
+    "read_only": false,
+    "read_only_alternatives": []
+}

@@ -1,5 +1,0 @@
-"0",""
-"0","scores_reds %>%"
-"0","  pivot_wider(id_cols = ""Model"", values_from = ""GeoMean"", names_from = ""Minute"","
-"0","              names_prefix = ""Minute "") %>%"
-"0","  kable()"
