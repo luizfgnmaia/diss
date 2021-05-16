@@ -1,0 +1,12 @@
+"0","scores = tibble(GeoMean = apply(HDA[,c(81:98)], 2, EnvStats::geoMean),"
+"0","                Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 4)),"
+"0","                Model = factor(c(rep(""0"", 6), "
+"0","                                 rep(""3"", 6),"
+"0","                                 rep(""8"", 6),"
+"0","                                 rep(""9"", 6))))"
+"2","Erro: Tibble columns must have compatible sizes.
+* Size 18: Existing data.
+* Size 24: Column `Minute`.
+[34mi[39m Only values of size one are recycled.
+[90mRun `rlang::last_error()` to see where the error occurred.[39m
+"

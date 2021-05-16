@@ -1,0 +1,27 @@
+{
+    "id": "6BA705E7",
+    "path": "~/GitHub/soccer-live-predictions/soccer-live-predictions/pred/testing_pred.R",
+    "project_path": "pred/testing_pred.R",
+    "type": "r_source",
+    "hash": "3655533551",
+    "contents": "",
+    "dirty": false,
+    "created": 1621174297864.0,
+    "source_on_save": false,
+    "relative_order": 5,
+    "properties": {
+        "tempName": "Untitled1",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "22,0",
+        "scrollLine": "8"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1621127705,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1621127705,
+    "read_only": false,
+    "read_only_alternatives": []
+}
