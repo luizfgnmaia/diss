@@ -406,7 +406,7 @@ results_10 %>%
   geom_point() +
   scale_x_continuous(breaks = c(0, 15, 30, 45, 60, 75)) +
   theme_bw() +
-  ggtitle("All predicted matches with score 1-0 lead at minute 45") +
+  ggtitle("All predicted matches with score 1-0 at minute 45") +
   ylab("Geometric mean for the results")
 
 results_10 %>%

@@ -1,0 +1,24 @@
+
+library(dplyr)
+library(ggplot2)
+
+load("weight/data/HDA_dc.RData")
+load("weight/data/first_matches.RData")
+
+HDA = HDA_dc %>%
+  anti_join(first_matches)
+
+mod_0 = HDA$Home_mod_0_pred_0
+mod_3 = HDA$Home_mod_3_pred_0
+mod_9 = HDA$Home_mod_9_pred_0
+mod_10 = HDA$Home_mod_10_pred_0
+l = nrow(HDA)
+
+tibble(Model = c(rep("0", l), rep("3", l), rep("9", l), rep("10", l)),
+       Home = c(mod_0, mod_3, mod_9, mod_10),
+       Match = rep(1:l, 4)) %>%
+  filter(Match > l-380,
+         Model %in% c("3", "9")) %>%
+  ggplot(aes(x = Match, y = Home, col = Model)) +
+  geom_line()
+       
