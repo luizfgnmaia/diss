@@ -1,0 +1,26 @@
+{
+    "id": "166615DE",
+    "path": "~/GitHub/soccer-live-predictions/soccer-live-predictions/weight/goodness_of_fit_dc.R",
+    "project_path": "weight/goodness_of_fit_dc.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1621608257350.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "461,35",
+        "scrollLine": "446"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1621889025,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1621889025817,
+    "read_only": false,
+    "read_only_alternatives": []
+}
