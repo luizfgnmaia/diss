@@ -394,11 +394,11 @@ dates_1 = NULL
 dates_2 = NULL
 dates_1s = NULL
 dates_2s = NULL
-for(i in 1:nrow(match_dates)) {
-  dates_1[match_dates$Lines1[[i]]] = match_dates$Date[i]
-  dates_2[match_dates$Lines2[[i]]] = match_dates$Date[i]
-  dates_1s[match_dates$Lines1s[[i]]] = match_dates$Date[i]
-  dates_2s[match_dates$Lines2s[[i]]] = match_dates$Date[i]
+for(k in 1:nrow(match_dates)) {
+  dates_1[match_dates$Lines1[[k]]] = match_dates$Date[k]
+  dates_2[match_dates$Lines2[[k]]] = match_dates$Date[k]
+  dates_1s[match_dates$Lines1s[[k]]] = match_dates$Date[k]
+  dates_2s[match_dates$Lines2s[[k]]] = match_dates$Date[k]
 }
 
 rm(list = setdiff(ls(), c("U1", "U2", "times", "i", "j", "N", "n", "x", "y",

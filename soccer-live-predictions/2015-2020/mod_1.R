@@ -45,7 +45,7 @@ log_lik_reds = sum_entries(
     - exp(loglambda2s) - exp(logmu2s) +
       + H2s*loglambda2s + A2s*logmu2s)
 
-log_lik_st = t(U1) %*% log(pi1) + t(U2) %*% log(pi2) - sum_entries(pi1) - sum_entries(pi2)   
+log_lik_st = t(U1) %*% log(pi1) + t(U2) %*% log(pi2) - sum_entries(pi1) - sum_entries(pi2)
 
 log_lik = log_lik_goals + log_lik_reds + log_lik_st
 
@@ -65,7 +65,7 @@ mod_1 = list(alpha = as.vector(c(solution$getValue(alpha))),
              eta = as.vector(solution$getValue(eta)),
              rho = as.vector(solution$getValue(rho)),
              kappa = as.vector(solution$getValue(kappa)),
-             loglik = solution$value,
+             loglik = solution$value - sum(log(factorial(U1))) - sum(log(factorial(U2))),
              duration = duration)
 names(mod_1$alpha) = times$Time
 names(mod_1$beta) = times$Time

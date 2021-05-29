@@ -81,17 +81,17 @@ gamma = rep(0, L2)
 M2_mu = cbind(M2_mu, gamma)
 colnames(M2_mu) = c(paste0("alpha_", 1:n), paste0("beta_", 1:n), "gamma")
 
-eta = rep(0, L1)
-M1_lambda = cbind(M1_lambda, eta)
+tau = rep(0, L1)
+M1_lambda = cbind(M1_lambda, tau)
 
-eta = rep(1, L2)
-M2_lambda = cbind(M2_lambda, eta)
+tau = rep(1, L2)
+M2_lambda = cbind(M2_lambda, tau)
 
-eta = rep(0, L1)
-M1_mu = cbind(M1_mu, eta)
+tau = rep(0, L1)
+M1_mu = cbind(M1_mu, tau)
 
-eta = rep(1, L2)
-M2_mu = cbind(M2_mu, eta)
+tau = rep(1, L2)
+M2_mu = cbind(M2_mu, tau)
 
 vet_x1 = list()
 vet_y1 = list()

@@ -1,0 +1,7 @@
+"0","aic <- function(loglik, k) {"
+"0","  2*k - 2*loglik"
+"0","}"
+"0",""
+"0","bic <- function(loglik, k, n) {"
+"0","  k*log(n) - 2*loglik"
+"0","}"

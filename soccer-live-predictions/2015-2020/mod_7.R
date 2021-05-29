@@ -69,7 +69,7 @@ mod_7 = list(alpha = as.vector(c(solution$getValue(alpha))),
              eta = as.vector(solution$getValue(eta)),
              rho = as.vector(solution$getValue(rho)),
              kappa = as.vector(solution$getValue(kappa)),
-             loglik = solution$value,
+             loglik = solution$value - sum(log(factorial(U1))) - sum(log(factorial(U2))),
              duration = duration)
 names(mod_7$alpha) = times$Time
 names(mod_7$beta) = times$Time

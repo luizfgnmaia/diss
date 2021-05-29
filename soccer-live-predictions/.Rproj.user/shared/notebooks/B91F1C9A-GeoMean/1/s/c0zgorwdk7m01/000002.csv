@@ -1,0 +1,17 @@
+"0","library(dplyr)
+library(ggplot2)
+library(tidyr)
+library(knitr)
+
+load(""data/HDA_dc.RData"")
+load(""data/first_matches.RData"")
+
+HDA = HDA_dc %>%
+  anti_join(first_matches)
+
+nrow(HDA)
+"
+"1","[1]"
+"1"," 1858"
+"1","
+"

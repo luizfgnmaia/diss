@@ -1,0 +1,497 @@
+---
+title: "Log-likelihood instead of geometric mean"
+output: pdf_document
+---
+
+```{r, warning = FALSE, message = FALSE}
+library(dplyr)
+library(ggplot2)
+library(tidyr)
+library(knitr)
+
+load("data/HDA_dc.RData")
+load("data/first_matches.RData")
+
+HDA = HDA_dc %>%
+  anti_join(first_matches)
+
+nrow(HDA)
+
+HDA[,c(9:158)][which(HDA[,c(9:158)] == 0, arr.ind = TRUE)] = 10^-5
+```
+
+
+```{r}
+results = tibble(GeoMean = apply(HDA[,c(99:128)], 2, function(x) sum(log(x))),
+                 Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 5)),
+                 Model = factor(c(rep("0", 6), 
+                                  rep("3", 6),
+                                  rep("8", 6),
+                                  rep("9", 6),
+                                  rep("10", 6))))
+results %>%
+  ggplot(aes(x = Minute, y = GeoMean, col = Model)) +
+  geom_line() +
+  geom_point() +
+  scale_x_continuous(breaks = c(0, 15, 30, 45, 60, 75)) +
+  theme_bw() +
+  ggtitle("All predicted matches") +
+  ylab("Log-likelihood for the results")
+
+results %>%
+  pivot_wider(id_cols = "Model", values_from = "GeoMean", names_from = "Minute",
+              names_prefix = "Minute ") %>%
+  kable()
+```
+
+```{r}
+scores = tibble(GeoMean = apply(HDA[,c(129:158)], 2, function(x) sum(log(x))),
+                Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 5)),
+                Model = factor(c(rep("0", 6), 
+                                 rep("3", 6),
+                                 rep("8", 6),
+                                 rep("9", 6),
+                                 rep("10", 6))))
+scores %>%
+  ggplot(aes(x = Minute, y = GeoMean, col = Model)) +
+  geom_line() +
+  geom_point() +
+  scale_x_continuous(breaks = c(0, 15, 30, 45, 60, 75)) +
+  theme_bw() +
+  ggtitle("All predicted matches") +
+  ylab("Log-likelihood for the scores")
+
+scores %>%
+  pivot_wider(id_cols = "Model", values_from = "GeoMean", names_from = "Minute",
+              names_prefix = "Minute ") %>%
+  kable()
+```
+
+```{r}
+load("~/GitHub/soccer-live-predictions/soccer-live-predictions/scrape/data/reds.RData")
+
+matches = reds %>%
+  filter(Season > 2015, Half == 1) %>%
+  select(Season, Match)
+
+HDA_reds = HDA %>%
+  inner_join(matches)
+
+HDA_no_reds = HDA %>%
+  anti_join(matches)
+
+nrow(HDA_reds)
+```
+
+```{r}
+results_reds = tibble(GeoMean = apply(HDA_reds[,c(99:128)], 2, function(x) sum(log(x))),
+                      Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 5)),
+                      Model = factor(c(rep("0", 6), 
+                                       rep("3", 6),
+                                       rep("8", 6),
+                                       rep("9", 6),
+                                       rep("10", 6))))
+results_reds %>%
+  ggplot(aes(x = Minute, y = GeoMean, col = Model)) +
+  geom_line() +
+  geom_point() +
+  scale_x_continuous(breaks = c(0, 15, 30, 45, 60, 75)) +
+  theme_bw() +
+  ggtitle("All predicted matches with a red card in the first half") +
+  ylab("Log-likelihood for the results")
+
+results_reds %>%
+  pivot_wider(id_cols = "Model", values_from = "GeoMean", names_from = "Minute",
+              names_prefix = "Minute ") %>%
+  kable()
+```
+
+```{r}
+results_no_reds = tibble(GeoMean = apply(HDA_no_reds[,c(99:128)], 2, function(x) sum(log(x))),
+                         Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 5)),
+                         Model = factor(c(rep("0", 6), 
+                                          rep("3", 6),
+                                          rep("8", 6),
+                                          rep("9", 6),
+                                          rep("10", 6))))
+results_no_reds %>%
+  ggplot(aes(x = Minute, y = GeoMean, col = Model)) +
+  geom_line() +
+  geom_point() +
+  scale_x_continuous(breaks = c(0, 15, 30, 45, 60, 75)) +
+  theme_bw() +
+  ggtitle("All predicted matches with no red cards in the first half") +
+  ylab("Log-likelihood for the results")
+
+results_no_reds %>%
+  pivot_wider(id_cols = "Model", values_from = "GeoMean", names_from = "Minute",
+              names_prefix = "Minute ") %>%
+  kable()
+```
+
+```{r}
+scores_reds = tibble(GeoMean = apply(HDA_reds[,c(129:158)], 2, function(x) sum(log(x))),
+                     Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 5)),
+                     Model = factor(c(rep("0", 6), 
+                                      rep("3", 6),
+                                      rep("8", 6),
+                                      rep("9", 6),
+                                      rep("10", 6))))
+scores_reds %>%
+  ggplot(aes(x = Minute, y = GeoMean, col = Model)) +
+  geom_line() +
+  geom_point() +
+  scale_x_continuous(breaks = c(0, 15, 30, 45, 60, 75)) +
+  theme_bw() +
+  ggtitle("All predicted matches with a red card in the first half") +
+  ylab("Log-likelihood for the scores")
+
+scores_reds %>%
+  pivot_wider(id_cols = "Model", values_from = "GeoMean", names_from = "Minute",
+              names_prefix = "Minute ") %>%
+  kable()
+```
+
+```{r}
+scores_no_reds = tibble(GeoMean = apply(HDA_no_reds[,c(129:158)], 2, function(x) sum(log(x))),
+                        Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 5)),
+                        Model = factor(c(rep("0", 6), 
+                                         rep("3", 6),
+                                         rep("8", 6),
+                                         rep("9", 6),
+                                         rep("10", 6))))
+scores_no_reds %>%
+  ggplot(aes(x = Minute, y = GeoMean, col = Model)) +
+  geom_line() +
+  geom_point() +
+  scale_x_continuous(breaks = c(0, 15, 30, 45, 60, 75)) +
+  theme_bw() +
+  ggtitle("All predicted matches with no red cards in the first half") +
+  ylab("Log-likelihood for the scores")
+
+scores_no_reds %>%
+  pivot_wider(id_cols = "Model", values_from = "GeoMean", names_from = "Minute",
+              names_prefix = "Minute ") %>%
+  kable()
+```
+
+```{r}
+HDA_2020 = HDA %>%
+  filter(Season == 2020)
+
+nrow(HDA_2020)
+```
+
+```{r}
+results_2020 = tibble(GeoMean = apply(HDA_2020[,c(99:128)], 2, function(x) sum(log(x))),
+                      Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 5)),
+                      Model = factor(c(rep("0", 6), 
+                                       rep("3", 6),
+                                       rep("8", 6),
+                                       rep("9", 6),
+                                       rep("10", 6))))
+results_2020 %>%
+  ggplot(aes(x = Minute, y = GeoMean, col = Model)) +
+  geom_line() +
+  geom_point() +
+  scale_x_continuous(breaks = c(0, 15, 30, 45, 60, 75)) +
+  theme_bw() +
+  ggtitle("All predicted matches in the 2020 season") +
+  ylab("Log-likelihood for the results")
+
+results_2020 %>%
+  pivot_wider(id_cols = "Model", values_from = "GeoMean", names_from = "Minute",
+              names_prefix = "Minute ") %>%
+  kable()
+```
+
+```{r}
+scores_2020 = tibble(GeoMean = apply(HDA_2020[,c(129:158)], 2, function(x) sum(log(x))),
+                     Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 5)),
+                     Model = factor(c(rep("0", 6), 
+                                      rep("3", 6),
+                                      rep("8", 6),
+                                      rep("9", 6),
+                                      rep("10", 6))))
+scores_2020 %>%
+  ggplot(aes(x = Minute, y = GeoMean, col = Model)) +
+  geom_line() +
+  geom_point() +
+  scale_x_continuous(breaks = c(0, 15, 30, 45, 60, 75)) +
+  theme_bw() +
+  ggtitle("All predicted matches in the 2020 season") +
+  ylab("Log-likelihood for the scores")
+
+scores_2020 %>%
+  pivot_wider(id_cols = "Model", values_from = "GeoMean", names_from = "Minute",
+              names_prefix = "Minute ") %>%
+  kable()
+```
+
+
+```{r}
+load("~/GitHub/soccer-live-predictions/soccer-live-predictions/scrape/data/results.RData")
+load("~/GitHub/soccer-live-predictions/soccer-live-predictions/scrape/data/goals.RData")
+```
+
+```{r}
+at_45 = results %>%
+  select(Season, Match) %>%
+  filter(Season > 2015)
+```
+
+```{r}
+home_score_at_45 <- function(season, match) {
+  goals %>%
+    filter(Season == season,
+           Match == match,
+           Team == 1,
+           Half == 1) %>%
+    nrow()
+}
+
+away_score_at_45 <- function(season, match) {
+  goals %>%
+    filter(Season == season,
+           Match == match,
+           Team == 2,
+           Half == 1) %>%
+    nrow()
+}
+```
+
+```{r}
+at_45 = at_45 %>%
+  rowwise() %>%
+  mutate(Home_Score = home_score_at_45(Season, Match),
+         Away_Score = away_score_at_45(Season, Match),
+         abs_dif = abs(Home_Score - Away_Score)) 
+```
+
+```{r}
+tmp_00 = at_45 %>%
+  filter(abs_dif == 0) %>%
+  select(Season, Match)
+
+HDA_00 = HDA %>%
+  inner_join(tmp_00)
+
+nrow(HDA_00)
+```
+
+```{r}
+results_00 = tibble(GeoMean = apply(HDA_00[,c(99:128)], 2, function(x) sum(log(x))),
+                    Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 5)),
+                    Model = factor(c(rep("0", 6), 
+                                     rep("3", 6),
+                                     rep("8", 6),
+                                     rep("9", 6),
+                                     rep("10", 6))))
+results_00 %>%
+  ggplot(aes(x = Minute, y = GeoMean, col = Model)) +
+  geom_line() +
+  geom_point() +
+  scale_x_continuous(breaks = c(0, 15, 30, 45, 60, 75)) +
+  theme_bw() +
+  ggtitle("All predicted matches with a draw at minute 45") +
+  ylab("Log-likelihood for the results")
+
+results_00 %>%
+  pivot_wider(id_cols = "Model", values_from = "GeoMean", names_from = "Minute",
+              names_prefix = "Minute ") %>%
+  kable()
+```
+
+```{r}
+scores_00 = tibble(GeoMean = apply(HDA_00[,c(129:158)], 2, function(x) sum(log(x))),
+                   Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 5)),
+                   Model = factor(c(rep("0", 6), 
+                                    rep("3", 6),
+                                    rep("8", 6),
+                                    rep("9", 6),
+                                    rep("10", 6))))
+scores_00 %>%
+  ggplot(aes(x = Minute, y = GeoMean, col = Model)) +
+  geom_line() +
+  geom_point() +
+  scale_x_continuous(breaks = c(0, 15, 30, 45, 60, 75)) +
+  theme_bw() +
+  ggtitle("All predicted matches with a draw at minute 45") +
+  ylab("Log-likelihood for the scores")
+
+scores_00 %>%
+  pivot_wider(id_cols = "Model", values_from = "GeoMean", names_from = "Minute",
+              names_prefix = "Minute ") %>%
+  kable()
+```
+
+```{r}
+tmp_20 = at_45 %>%
+  filter(abs_dif >= 2) %>%
+  select(Season, Match)
+
+HDA_20 = HDA %>%
+  inner_join(tmp_20)
+
+nrow(HDA_20)
+```
+
+```{r}
+results_20 = tibble(GeoMean = apply(HDA_20[,c(99:128)], 2, function(x) sum(log(x))),
+                    Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 5)),
+                    Model = factor(c(rep("0", 6), 
+                                     rep("3", 6),
+                                     rep("8", 6),
+                                     rep("9", 6),
+                                     rep("10", 6))))
+results_20 %>%
+  ggplot(aes(x = Minute, y = GeoMean, col = Model)) +
+  geom_line() +
+  geom_point() +
+  scale_x_continuous(breaks = c(0, 15, 30, 45, 60, 75)) +
+  theme_bw() +
+  ggtitle("All predicted matches with a 2+ goal lead at minute 45") +
+  ylab("Log-likelihood for the results")
+
+results_20 %>%
+  pivot_wider(id_cols = "Model", values_from = "GeoMean", names_from = "Minute",
+              names_prefix = "Minute ") %>%
+  kable()
+```
+
+```{r}
+scores_20 = tibble(GeoMean = apply(HDA_20[,c(129:158)], 2, function(x) sum(log(x))),
+                   Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 5)),
+                   Model = factor(c(rep("0", 6), 
+                                    rep("3", 6),
+                                    rep("8", 6),
+                                    rep("9", 6),
+                                    rep("10", 6))))
+scores_20 %>%
+  ggplot(aes(x = Minute, y = GeoMean, col = Model)) +
+  geom_line() +
+  geom_point() +
+  scale_x_continuous(breaks = c(0, 15, 30, 45, 60, 75)) +
+  theme_bw() +
+  ggtitle("All predicted matches with a 2+ goal lead at minute 45") +
+  ylab("Log-likelihood for the scores")
+
+scores_20 %>%
+  pivot_wider(id_cols = "Model", values_from = "GeoMean", names_from = "Minute",
+              names_prefix = "Minute ") %>%
+  kable()
+```
+
+```{r}
+tmp_10 = at_45 %>%
+  filter(Home_Score == 1, Away_Score == 0) %>%
+  select(Season, Match)
+
+HDA_10 = HDA %>%
+  inner_join(tmp_10)
+
+nrow(HDA_10)
+```
+
+```{r}
+results_10 = tibble(GeoMean = apply(HDA_10[,c(99:128)], 2, function(x) sum(log(x))),
+                    Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 5)),
+                    Model = factor(c(rep("0", 6), 
+                                     rep("3", 6),
+                                     rep("8", 6),
+                                     rep("9", 6),
+                                     rep("10", 6))))
+results_10 %>%
+  ggplot(aes(x = Minute, y = GeoMean, col = Model)) +
+  geom_line() +
+  geom_point() +
+  scale_x_continuous(breaks = c(0, 15, 30, 45, 60, 75)) +
+  theme_bw() +
+  ggtitle("All predicted matches with score 1-0 at minute 45") +
+  ylab("Log-likelihood for the results")
+
+results_10 %>%
+  pivot_wider(id_cols = "Model", values_from = "GeoMean", names_from = "Minute",
+              names_prefix = "Minute ") %>%
+  kable()
+```
+
+```{r}
+scores_10 = tibble(GeoMean = apply(HDA_10[,c(129:158)], 2, function(x) sum(log(x))),
+                   Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 5)),
+                   Model = factor(c(rep("0", 6), 
+                                    rep("3", 6),
+                                    rep("8", 6),
+                                    rep("9", 6),
+                                    rep("10", 6))))
+scores_10 %>%
+  ggplot(aes(x = Minute, y = GeoMean, col = Model)) +
+  geom_line() +
+  geom_point() +
+  scale_x_continuous(breaks = c(0, 15, 30, 45, 60, 75)) +
+  theme_bw() +
+  ggtitle("All predicted matches with score 1-0 at minute 45") +
+  ylab("Log-likelihood for the scores")
+
+scores_10 %>%
+  pivot_wider(id_cols = "Model", values_from = "GeoMean", names_from = "Minute",
+              names_prefix = "Minute ") %>%
+  kable()
+```
+
+```{r}
+tmp_01 = at_45 %>%
+  filter(Home_Score == 0, Away_Score == 1) %>%
+  select(Season, Match)
+
+HDA_01 = HDA %>%
+  inner_join(tmp_01)
+
+nrow(HDA_01)
+```
+
+```{r}
+results_01 = tibble(GeoMean = apply(HDA_01[,c(99:128)], 2, function(x) sum(log(x))),
+                    Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 5)),
+                    Model = factor(c(rep("0", 6), 
+                                     rep("3", 6),
+                                     rep("8", 6),
+                                     rep("9", 6),
+                                     rep("10", 6))))
+results_01 %>%
+  ggplot(aes(x = Minute, y = GeoMean, col = Model)) +
+  geom_line() +
+  geom_point() +
+  scale_x_continuous(breaks = c(0, 15, 30, 45, 60, 75)) +
+  theme_bw() +
+  ggtitle("All predicted matches with score 0-1 at minute 45") +
+  ylab("Log-likelihood for the results")
+
+results_01 %>%
+  pivot_wider(id_cols = "Model", values_from = "GeoMean", names_from = "Minute",
+              names_prefix = "Minute ") %>%
+  kable()
+```
+
+```{r}
+scores_01 = tibble(GeoMean = apply(HDA_01[,c(129:158)], 2, function(x) sum(log(x))),
+                   Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 5)),
+                   Model = factor(c(rep("0", 6), 
+                                    rep("3", 6),
+                                    rep("8", 6),
+                                    rep("9", 6),
+                                    rep("10", 6))))
+scores_01 %>%
+  ggplot(aes(x = Minute, y = GeoMean, col = Model)) +
+  geom_line() +
+  geom_point() +
+  scale_x_continuous(breaks = c(0, 15, 30, 45, 60, 75)) +
+  theme_bw() +
+  ggtitle("All predicted matches with score 0-1 at minute 45") +
+  ylab("Log-likelihood for the scores")
+
+scores_01 %>%
+  pivot_wider(id_cols = "Model", values_from = "GeoMean", names_from = "Minute",
+              names_prefix = "Minute ") %>%
+  kable()
+```

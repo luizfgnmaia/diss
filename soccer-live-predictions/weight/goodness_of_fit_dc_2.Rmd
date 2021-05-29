@@ -1,0 +1,34 @@
+---
+title: "Goodness of fit"
+output: pdf_document
+---
+
+```{r, message = FALSE, warning = FALSE}
+library(knitr)
+library(dplyr)
+library(ggplot2)
+
+load("data/goodness_of_fit_dc_2.RData")
+```
+
+```{r}
+for(i in 2:nrow(tab_results)) {
+  tab_results[i,] = tab_results[i,] - tab_results[1,]
+}
+kable(tab_results, digits = 4)
+```
+
+```{r}
+for(i in 2:nrow(tab_results)) {
+  tab_home_goals[i,] = tab_home_goals[i,] - tab_home_goals[1,]
+}
+kable(tab_home_goals, digits = 4)
+```
+
+```{r}
+for(i in 2:nrow(tab_results)) {
+  tab_away_goals[i,] = tab_away_goals[i,] - tab_away_goals[1,]
+}
+kable(tab_away_goals, digits = 4)
+```
+
