@@ -2,6 +2,7 @@
 fit_mod_8 <- function(date, csi) {
   
   require(CVXR)
+  require(dplyr)
   
   load("2015-2020/data/input.RData")
   load("2015-2020/data/input_mod_7.RData")
