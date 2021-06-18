@@ -19,8 +19,8 @@ $$ \ln \mu_k(t) = \ln \alpha_j + \ln \beta_i + \mathbb{I}\{\text{half = 2}\} \ln
 \item $y(t)$: the number of goals of the away team until minute t;
 \item $x^*(t)$: the number of red cards of the home team until minute t;
 \item $y^*(t)$: the number of red cards of the away team until minute t;
-\item $v_i$: log of the value of the home team's starting roster in (?);
-\item $v_j$: log of the value of the away team's starting roster in (?);
+\item $v_i$: log of the value of the home team's starting roster in euros;
+\item $v_j$: log of the value of the away team's starting roster in euros;
 \item $\lambda_{xy} = \begin{cases}
  1, \text{ for $x = y$;}  \\
  \omega_{{\text{ahead}}}, \text{ for $x - y \geq 1$;} \\

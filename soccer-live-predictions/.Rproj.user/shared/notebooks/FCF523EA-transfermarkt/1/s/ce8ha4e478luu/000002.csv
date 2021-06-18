@@ -1,0 +1,5 @@
+"0","sum(is.na(transfermarkt$valor_equipe_titular_man))/nrow(transfermarkt)"
+"1","[1]"
+"1"," 0,04607284"
+"1","
+"

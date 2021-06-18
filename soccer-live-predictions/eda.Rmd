@@ -13,6 +13,10 @@ load("scrape/data/goals.RData")
 load("scrape/data/results.RData")
 load("scrape/data/reds.RData")
 
+glimpse(results)
+glimpse(goals)
+glimpse(reds)
+
 resultados = results %>%
   rename(Ano = Season,
          Jogo = Match,
@@ -69,7 +73,7 @@ tmp = gols %>%
   count(Minuto, Tempo) %>%
   mutate(rate = n/N)
 
-tmp %>%
+p = tmp %>%
   ggplot(aes(x = Minuto, y = rate, col = Tempo)) +
   geom_line(size = 1) +
   geom_point(size = 2) +
@@ -78,6 +82,10 @@ tmp %>%
   scale_x_continuous(breaks = seq(from = 0, to = 50, by = 5),
                      labels = c(seq(from = 0, to = 45, by = 5), "50+")) +
   ylim(0, 0.037)
+p
+
+ggsave(filename = paste0("plots/taxa_de_gols.png"), 
+       plot = p, width = 10, height = 5, dpi = 1000)
 ```
 
 ```{r}
@@ -126,9 +134,39 @@ t2 %>%
 
 ## Placares mais comuns
 ```{r}
-resultados %>%
+comuns = resultados %>%
   count(Placar_1, Placar_2) %>%
   arrange(desc(n))
+comuns
+```
+
+```{r}
+comuns = comuns %>% 
+  mutate(Placar = paste0(Placar_1, "-", Placar_2)) %>%
+  mutate(p = n/sum(n)) %>%
+  select(Placar, p)
+
+outros = sum(comuns$p[11:nrow(comuns)])
+
+comuns = comuns %>%
+  head(10) %>%
+  rbind(tibble(Placar = "Outros", p = outros))
+
+comuns
+```
+
+```{r, fig.height = 5, fig.width = 10}
+p = comuns %>%
+  mutate(Placar = factor(Placar, levels = Placar)) %>%
+  ggplot(aes(y = p, x = Placar)) + 
+  geom_bar(position = "dodge", stat = "identity") +
+  theme_bw() +
+  xlab("Placar") +
+  ylab("Frequência relativa")
+p
+
+ggsave(filename = paste0("plots/placares.png"), 
+       plot = p, width = 10, height = 5, dpi = 1000)
 ```
 
 ```{r, fig.height = 5, fig.width = 10}
@@ -147,13 +185,19 @@ visitante = resultados %>%
 tmp = rbind(mandante, visitante) %>%
   mutate(p = n/(nrow(resultados) - 1))
 
-tmp %>%
+tmp
+
+p = tmp %>%
   ggplot(aes(fill = Time, y = p, x = Placar)) + 
   geom_bar(position = "dodge", stat = "identity") +
   theme_bw() +
   xlab("Gols") +
-  ylab("Probabilidade") +
+  ylab("Frequência relativa") +
   scale_x_continuous(breaks = 0:6)
+p
+
+ggsave(filename = paste0("plots/placares_marginais.png"), 
+       plot = p, width = 10, height = 5, dpi = 1000)
 ```
 
 ## Resultados
@@ -178,7 +222,7 @@ tmp %>%
   geom_bar(position = "dodge", stat = "identity") +
   theme_bw() +
   xlab("") +
-  ylab("Probabilidade")
+  ylab("Frequência relativa")
 ```
 
 ## Cartões vermelhos por minuto
@@ -204,7 +248,7 @@ tmp = reds %>%
   complete_zeros() %>%
   mutate(rate = n/N)
 
-tmp %>%
+p = tmp %>%
   ggplot(aes(x = Minuto, y = rate, col = Tempo)) +
   geom_line(size = 1) +
   geom_point(size = 2) +
@@ -213,6 +257,10 @@ tmp %>%
   scale_x_continuous(breaks = seq(from = 0, to = 50, by = 5),
                      labels = c(seq(from = 0, to = 45, by = 5), "50+")) +
   ylim(0, 0.0125)
+p
+
+ggsave(filename = paste0("plots/taxa_de_reds.png"), 
+       plot = p, width = 10, height = 5, dpi = 1000)
 ```
 
 ```{r}
@@ -260,7 +308,7 @@ t2 %>%
 ```
 
 ```{r, fig.height = 5, fig.width = 10}
-reds %>%
+p = reds %>%
   count(Ano, Time) %>%
   mutate(m = n/380) %>%
   ggplot(aes(x = Ano, y = m, col = Time)) +
@@ -270,35 +318,46 @@ reds %>%
   scale_x_continuous(breaks = 2015:2020) +
   ylim(0, 0.2) +
   ylab("Média de cartões por partida")
+p
+
+ggsave(filename = paste0("plots/media_de_reds.png"), 
+       plot = p, width = 10, height = 5, dpi = 1000)
 ```
 
 ## Acréscimos
 ```{r, fig.height = 5, fig.width = 10}
 resultados$Acréscimos_1[which(resultados$Acréscimos_1 > 10)] = 10
-resultados %>%
+p = resultados %>%
   count(Acréscimos_1) %>%
   mutate(p = n/nrow(resultados)) %>%
   ggplot(aes(x = Acréscimos_1, y = p)) +
   geom_bar(position = "dodge", stat = "identity") +
   theme_bw() +
   xlab("Minutos de acréscimo") +
-  ylab("Probabilidade") +
+  ylab("Frequência relativa") +
   scale_x_continuous(breaks = 0:10,
                      labels = c(0:9, "10+"))
+p
+
+ggsave(filename = paste0("plots/acrescimos_1.png"), 
+       plot = p, width = 10, height = 5, dpi = 1000)
 ```
 
 ```{r, fig.height = 5, fig.width = 10}
 resultados$Acréscimos_2[which(resultados$Acréscimos_2 > 10)] = 10
-resultados %>%
+p = resultados %>%
   count(Acréscimos_2) %>%
   mutate(p = n/nrow(resultados)) %>%
   ggplot(aes(x = Acréscimos_2, y = p)) +
   geom_bar(position = "dodge", stat = "identity") +
   theme_bw() +
   xlab("Minutos de acréscimo") +
-  ylab("Probabilidade") +
+  ylab("Frequência relativa") +
   scale_x_continuous(breaks = 0:10,
                      labels = c(0:9, "10+"))
+p
+ggsave(filename = paste0("plots/acrescimos_2.png"), 
+       plot = p, width = 10, height = 5, dpi = 1000)
 ```
 
 ## Acréscimo médio por ano
@@ -311,7 +370,7 @@ medias = results %>%
 ```
 
 ```{r, fig.height = 5, fig.width = 10}
-tibble(Tempo = c(rep("1º", nrow(medias)), rep("2º", nrow(medias))),
+p = tibble(Tempo = c(rep("1º", nrow(medias)), rep("2º", nrow(medias))),
        Ano = rep(medias$Ano, 2),
        Média = c(medias$Acréscimos_1, medias$Acréscimos_2)) %>%
   ggplot(aes(x = Ano, y = Média, col = Tempo)) +
@@ -320,6 +379,10 @@ tibble(Tempo = c(rep("1º", nrow(medias)), rep("2º", nrow(medias))),
   theme_bw() +
   ylab("Acréscimo médio (minutos)") +
   ylim(0, 6)
+p
+
+ggsave(filename = paste0("plots/acrescimo_medio.png"), 
+       plot = p, width = 10, height = 5, dpi = 1000)
 ``` 
 
 

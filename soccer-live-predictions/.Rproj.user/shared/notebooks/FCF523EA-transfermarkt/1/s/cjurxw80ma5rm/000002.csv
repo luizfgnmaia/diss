@@ -1,0 +1,3 @@
+"0","transfermarkt = transfermarkt %>%"
+"0","  mutate(dif_valor = valor_equipe_titular_man - valor_equipe_titular_vis,"
+"0","         dif_log_valor = log(valor_equipe_titular_man) - log(valor_equipe_titular_vis))"

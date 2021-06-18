@@ -7,12 +7,15 @@ output: pdf_document
 library(dplyr)
 library(ggplot2)
 
+options(scipen = 999)
+
 load("data/transfermarkt.RData")
 ```
 
 ```{r}
 glimpse(transfermarkt)
 ```
+
 ```{r}
 transfermarkt = transfermarkt %>%
   filter(ano_campeonato >= 2015,
@@ -112,6 +115,7 @@ transfermarkt %>%
   select(ano_campeonato, time_man, time_vis, valor_equipe_titular_man, 
          valor_equipe_titular_vis, dif_valor)
 ```
+
 ```{r}
 transfermarkt %>%
   arrange(dif_valor) %>%
@@ -121,38 +125,76 @@ transfermarkt %>%
 
 ```{r}
 transfermarkt %>%
+  arrange(valor_equipe_titular_man) %>%
+  select(ano_campeonato, time_man, time_vis, valor_equipe_titular_man, 
+         valor_equipe_titular_vis, dif_valor)
+```
+```{r}
+transfermarkt %>%
+  arrange(valor_equipe_titular_vis) %>%
+  select(ano_campeonato, time_man, time_vis, valor_equipe_titular_man, 
+         valor_equipe_titular_vis, dif_valor)
+```
+
+```{r}
+transfermarkt %>%
+  arrange(desc(valor_equipe_titular_man)) %>%
+  select(ano_campeonato, time_man, time_vis, valor_equipe_titular_man, 
+         valor_equipe_titular_vis, dif_valor)
+```
+
+```{r}
+transfermarkt %>%
+  arrange(desc(valor_equipe_titular_vis)) %>%
+  select(ano_campeonato, time_man, time_vis, valor_equipe_titular_man, 
+         valor_equipe_titular_vis, dif_valor)
+```
+
+```{r}
+p = transfermarkt %>%
   ggplot(aes(x = factor(gols_man), y = dif_valor)) +
   geom_boxplot() +
   theme_bw() +
-  xlab("Home team's goals") +
-  ylab("Home team's value - away team's value")
+  xlab("Gols do time mandante") +
+  ylab("Valor do time mandante - valor do time visitante")
+p
+ggsave(filename = paste0("plots/mandante_sem_log.png"), 
+       plot = p, width = 10, height = 5, dpi = 1000)
 ```
 
 ```{r}
-transfermarkt %>%
+p = transfermarkt %>%
   ggplot(aes(x = factor(gols_vis), y = dif_valor)) +
   geom_boxplot() +
   theme_bw() +
-  xlab("Away team's goals") +
-  ylab("Home team's value - away team's value")
+  xlab("Gols do time visitante") +
+  ylab("Valor do time mandante - valor do time visitante")
+ggsave(filename = paste0("plots/visitante_sem_log.png"), 
+       plot = p, width = 10, height = 5, dpi = 1000)
 ```
 
 ```{r}
-transfermarkt %>%
+p = transfermarkt %>%
   ggplot(aes(x = factor(gols_man), y = dif_log_valor)) +
   geom_boxplot() +
   theme_bw() +
-  xlab("Home team's goals") +
-  ylab("log home team's value - log away team's value")
+  xlab("Gols do time mandante") +
+  ylab("log do valor do time mandante - log do valor do time visitante")
+p
+ggsave(filename = paste0("plots/mandante_com_log.png"), 
+       plot = p, width = 10, height = 5, dpi = 1000)
 ```
 
 ```{r}
-transfermarkt %>%
+p = transfermarkt %>%
   ggplot(aes(x = factor(gols_vis), y = dif_log_valor)) +
   geom_boxplot() +
   theme_bw() +
-  xlab("Away team's goals") +
-  ylab("log home team's value - log away team's value")
+  xlab("Gols do time visitante") +
+  ylab("log do valor do time mandante - log do valor do time visitante")
+p
+ggsave(filename = paste0("plots/visitante_com_log.png"), 
+       plot = p, width = 10, height = 5, dpi = 1000)
 ```
 
 ```{r}

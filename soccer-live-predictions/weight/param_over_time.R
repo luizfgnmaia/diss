@@ -7,7 +7,7 @@ load("weight/data/mod_8_dc.RData")
 y = NULL
 x = as.Date(names(mod_8_dc), format = "%Y-%m-%d")
 for(i in 1:length(mod_8_dc)) {
-  y[i] = mod_8_dc[[i]]$alpha["Red Bull Bragantino"]
+  y[i] = mod_8_dc[[i]]$alpha["Fluminense"]
 }
 
 tibble(x = x, y = y) %>%

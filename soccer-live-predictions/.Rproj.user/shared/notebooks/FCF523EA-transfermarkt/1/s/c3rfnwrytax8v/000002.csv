@@ -1,0 +1,3 @@
+"0","transfermarkt %>%"
+"0","  filter(time_man == ""Flamengo"") %>%"
+"0","  select(data, valor_equipe_titular_man)"

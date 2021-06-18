@@ -1,0 +1,2 @@
+"0","transfermarkt$time_man[which(transfermarkt$time_man == ""Atlético-PR"")] = ""Athletico-PR"" "
+"0","transfermarkt$time_vis[which(transfermarkt$time_vis == ""Atlético-PR"")] = ""Athletico-PR"" "

@@ -1,0 +1,7 @@
+"0","na_man = which(is.na(transfermarkt$valor_equipe_titular_man))"
+"0","na_vis = which(is.na(transfermarkt$valor_equipe_titular_vis))"
+"0","sum(na_man == na_vis) / length(na_man == na_vis)"
+"1","[1]"
+"1"," 1"
+"1","
+"

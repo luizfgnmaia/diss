@@ -1,0 +1,4 @@
+"0","transfermarkt %>%"
+"0","  arrange(valor_equipe_titular_man) %>%"
+"0","  select(ano_campeonato, time_man, time_vis, valor_equipe_titular_man, "
+"0","         valor_equipe_titular_vis, dif_valor)"

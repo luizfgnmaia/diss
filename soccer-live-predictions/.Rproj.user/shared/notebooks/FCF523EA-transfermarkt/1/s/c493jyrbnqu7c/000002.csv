@@ -1,0 +1,48 @@
+"0","glimpse(transfermarkt)"
+"1","Rows: 7.030"
+"1",""
+"1","
+"
+"1","Columns: 36"
+"1",""
+"1","
+"
+"1","$ ano_campeonato           [3m[38;5;246m<int>[39m[23m 2003, 2003, 2003, 2003, 2003, 2003, 2003, 2003, 2003, 2003, 2003, 200~
+$ data                     [3m[38;5;246m<date>[39m[23m 2003-03-29, 2003-03-29, 2003-03-30, 2003-03-30, 2003-03-30, 2003-03-~
+$ horario                  [3m[38;5;246m<chr>[39m[23m ""08:00"", ""08:00"", ""09:00"", ""09:00"", ""09:00"", ""09:00"", ""09:00"", ""09:00~
+$ rodada                   [3m[38;5;246m<int>[39m[23m 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, ~
+$ estadio                  [3m[38;5;246m<chr>[39m[23m ""Estádio Brinco de Ouro da Princesa"", ""Arena da Baixada"", ""Estádio Jo~
+$ arbitro                  [3m[38;5;246m<chr>[39m[23m NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N~
+$ publico                  [3m[38;5;246m<int>[39m[23m NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N~
+$ publico_max              [3m[38;5;246m<int>[39m[23m NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N~
+$ time_man                 [3m[38;5;246m<chr>[39m[23m ""Guarani"", ""Atlético-PR"", ""Flamengo"", ""Goiás EC"", ""Internacional"", ""C~
+$ time_vis                 [3m[38;5;246m<chr>[39m[23m ""Vasco da Gama"", ""Grêmio"", ""Coritiba FC"", ""Paysandu SC"", ""Ponte Preta~
+$ tecnico_man              [3m[38;5;246m<chr>[39m[23m NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N~
+$ tecnico_vis              [3m[38;5;246m<chr>[39m[23m NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N~
+$ colocacao_man            [3m[38;5;246m<int>[39m[23m NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N~
+$ colocacao_vis            [3m[38;5;246m<int>[39m[23m NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N~
+$ valor_equipe_titular_man [3m[38;5;246m<int>[39m[23m NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N~
+$ valor_equipe_titular_vis [3m[38;5;246m<int>[39m[23m NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N~
+$ idade_media_titular_man  [3m[38;5;246m<dbl>[39m[23m NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N~
+$ idade_media_titular_vis  [3m[38;5;246m<dbl>[39m[23m NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N~
+$ gols_man                 [3m[38;5;246m<int>[39m[23m 4, 2, 1, 2, 1, 2, 2, 0, 2, 1, 2, 0, 1, 0, 0, 3, 1, 3, 1, 1, 3, 3, 2, ~
+$ gols_vis                 [3m[38;5;246m<int>[39m[23m 2, 0, 1, 2, 1, 0, 2, 0, 2, 1, 2, 3, 1, 0, 1, 1, 2, 3, 2, 0, 0, 2, 4, ~
+$ gols_1_tempo_man         [3m[38;5;246m<int>[39m[23m NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N~
+$ gols_1_tempo_vis         [3m[38;5;246m<int>[39m[23m NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N~
+$ escanteios_man           [3m[38;5;246m<int>[39m[23m NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N~
+$ escanteios_vis           [3m[38;5;246m<int>[39m[23m NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N~
+$ faltas_man               [3m[38;5;246m<int>[39m[23m NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N~
+$ faltas_vis               [3m[38;5;246m<int>[39m[23m NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N~
+$ chutes_bola_parada_man   [3m[38;5;246m<int>[39m[23m NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N~
+$ chutes_bola_parada_vis   [3m[38;5;246m<int>[39m[23m NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N~
+$ defesas_man              [3m[38;5;246m<int>[39m[23m NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N~
+$ defesas_vis              [3m[38;5;246m<int>[39m[23m NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N~
+$ impedimentos_man         [3m[38;5;246m<int>[39m[23m NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N~
+$ impedimentos_vis         [3m[38;5;246m<int>[39m[23m NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N~
+$ chutes_man               [3m[38;5;246m<int>[39m[23m NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N~
+$ chutes_vis               [3m[38;5;246m<int>[39m[23m NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N~
+$ chutes_fora_man          [3m[38;5;246m<int>[39m[23m NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N~
+$ chutes_fora_vis          [3m[38;5;246m<int>[39m[23m NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N~"
+"1",""
+"1","
+"
