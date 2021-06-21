@@ -1,0 +1,6 @@
+"0","results = tibble(GeoMean = apply(HDA[,c(99, 105, 111, 117, 123, 162)], 2, EnvStats::geoMean),"
+"0","                 Model = c(""A"", ""B"", ""C"", ""D"", ""E"", ""bet365""))"
+"0","  "
+"0","# results = tibble(GeoMean = apply(HDA[,c(99, 105, 111, 117, 123)], 2, EnvStats::geoMean),"
+"0","#                   Model = c(""A"", ""B"", ""C"", ""D"", ""E""))"
+"0","kable(results)"

@@ -1,0 +1,1757 @@
+Home_id;Away_id;Bookmaker;OddHome;OddDraw;OddAway;Date;Score_home;Score_away;Season
+Botafogo RJ;Fortaleza;bet-at-home;1.65;3.40;4.50;04 Dec 2005; 2;0 ;2005
+Botafogo RJ;Fortaleza;bet365;1.66;3.39;4.50;04 Dec 2005; 2;0 ;2005
+Botafogo RJ;Fortaleza;bwin;1.65;3.50;4.50;04 Dec 2005; 2;0 ;2005
+Botafogo RJ;Fortaleza;William Hill;1.65;3.40;4.50;04 Dec 2005; 2;0 ;2005
+Coritiba;Internacional;bet-at-home;2.75;3.20;2.25;04 Dec 2005; 1;0 ;2005
+Coritiba;Internacional;bet365;2.79;3.25;2.20;04 Dec 2005; 1;0 ;2005
+Coritiba;Internacional;bwin;2.75;3.20;2.29;04 Dec 2005; 1;0 ;2005
+Coritiba;Internacional;William Hill;2.50;3.60;2.25;04 Dec 2005; 1;0 ;2005
+Juventude;Atletico-MG;bet-at-home;1.45;3.60;6.50;04 Dec 2005; 1;3 ;2005
+Juventude;Atletico-MG;bet365;1.39;3.60;8.00;04 Dec 2005; 1;3 ;2005
+Juventude;Atletico-MG;bwin;1.40;3.90;7.00;04 Dec 2005; 1;3 ;2005
+Juventude;Atletico-MG;William Hill;1.35;4.00;7.50;04 Dec 2005; 1;3 ;2005
+Goias;Corinthians;bet-at-home;2.70;3.20;2.29;04 Dec 2005; 3;2 ;2005
+Goias;Corinthians;bwin;2.75;3.20;2.29;04 Dec 2005; 3;2 ;2005
+Palmeiras;Fluminense;bet365;1.66;3.39;4.50;04 Dec 2005; 3;2 ;2005
+Palmeiras;Fluminense;William Hill;1.75;3.15;4.20;04 Dec 2005; 3;2 ;2005
+Ponte Preta;Brasiliense;bet-at-home;1.25;4.50;9.00;04 Dec 2005; 3;1 ;2005
+Ponte Preta;Brasiliense;bet365;1.25;4.50;9.99;04 Dec 2005; 3;1 ;2005
+Ponte Preta;Brasiliense;William Hill;1.30;3.75;9.99;04 Dec 2005; 3;1 ;2005
+Sao Paulo;Athletico-PR;bet-at-home;1.75;3.35;3.95;04 Dec 2005; 3;1 ;2005
+Sao Paulo;Athletico-PR;bet365;1.66;3.39;4.50;04 Dec 2005; 3;1 ;2005
+Sao Paulo;Athletico-PR;bwin;1.75;3.40;4.05;04 Dec 2005; 3;1 ;2005
+Sao Paulo;Athletico-PR;William Hill;1.80;3.30;3.75;04 Dec 2005; 3;1 ;2005
+Vasco;Parana;bet-at-home;1.65;3.35;4.59;04 Dec 2005; 3;1 ;2005
+Vasco;Parana;bet365;1.61;3.39;5.00;04 Dec 2005; 3;1 ;2005
+Vasco;Parana;bwin;1.60;3.50;4.90;04 Dec 2005; 3;1 ;2005
+Vasco;Parana;William Hill;1.80;3.30;3.75;04 Dec 2005; 3;1 ;2005
+Athletico-PR;Paysandu PA;bet-at-home;1.35;3.90;8.00;27 Nov 2005; 3;2 ;2005
+Athletico-PR;Paysandu PA;bet365;1.36;1.36;8.50;27 Nov 2005; 3;2 ;2005
+Athletico-PR;Paysandu PA;bwin;1.35;4.09;8.00;27 Nov 2005; 3;2 ;2005
+Athletico-PR;Paysandu PA;William Hill;8.00;8.00;8.00;27 Nov 2005; 3;2 ;2005
+Atletico-MG;Vasco;bet-at-home;1.65;3.35;4.59;27 Nov 2005; 0;0 ;2005
+Atletico-MG;Vasco;bet365;1.72;3.25;4.33;27 Nov 2005; 0;0 ;2005
+Atletico-MG;Vasco;bwin;1.75;1.75;4.09;27 Nov 2005; 0;0 ;2005
+Brasiliense;Figueirense;bet-at-home;2.00;3.20;3.25;27 Nov 2005; 0;2 ;2005
+Brasiliense;Figueirense;bet365;2.00;3.25;3.25;27 Nov 2005; 0;2 ;2005
+Brasiliense;Figueirense;bwin;2.04;3.20;3.20;27 Nov 2005; 0;2 ;2005
+Brasiliense;Figueirense;William Hill;2.20;3.25;2.75;27 Nov 2005; 0;2 ;2005
+Corinthians;Ponte Preta;bet-at-home;1.20;5.00;9.99;27 Nov 2005; 3;1 ;2005
+Corinthians;Ponte Preta;bwin;1.14;6.00;9.99;27 Nov 2005; 3;1 ;2005
+Flamengo RJ;Goias;bet-at-home;2.20;3.15;2.85;27 Nov 2005; 0;0 ;2005
+Flamengo RJ;Goias;bet365;2.10;2.10;3.10;27 Nov 2005; 0;0 ;2005
+Flamengo RJ;Goias;bwin;2.15;3.20;3.00;27 Nov 2005; 0;0 ;2005
+Flamengo RJ;Goias;William Hill;3.00;3.00;3.00;27 Nov 2005; 0;0 ;2005
+Fluminense;Juventude;bet-at-home;1.45;3.80;6.00;27 Nov 2005; 1;2 ;2005
+Fluminense;Juventude;bet365;1.44;3.75;6.50;27 Nov 2005; 1;2 ;2005
+Fluminense;Juventude;bwin;1.40;4.00;6.75;27 Nov 2005; 1;2 ;2005
+Fluminense;Juventude;William Hill;1.45;3.70;6.00;27 Nov 2005; 1;2 ;2005
+Fortaleza;Sao Paulo;bet-at-home;2.29;3.20;2.65;27 Nov 2005; 1;0 ;2005
+Fortaleza;Sao Paulo;bet365;2.39;2.39;2.60;27 Nov 2005; 1;0 ;2005
+Fortaleza;Sao Paulo;bwin;2.40;2.40;2.60;27 Nov 2005; 1;0 ;2005
+Fortaleza;Sao Paulo;William Hill;2.60;2.60;2.60;27 Nov 2005; 1;0 ;2005
+Internacional;Palmeiras;bet-at-home;1.65;3.40;4.50;27 Nov 2005; 2;1 ;2005
+Internacional;Palmeiras;bwin;1.65;3.50;4.50;27 Nov 2005; 2;1 ;2005
+Internacional;Palmeiras;William Hill;1.75;3.50;3.70;27 Nov 2005; 2;1 ;2005
+Parana;Cruzeiro;bet-at-home;2.15;3.15;2.95;27 Nov 2005; 2;0 ;2005
+Parana;Cruzeiro;bwin;2.15;3.20;3.00;27 Nov 2005; 2;0 ;2005
+Parana;Cruzeiro;William Hill;2.10;3.20;3.00;27 Nov 2005; 2;0 ;2005
+Santos;Botafogo RJ;bet-at-home;2.00;3.20;3.25;27 Nov 2005; 2;1 ;2005
+Santos;Botafogo RJ;bet365;2.00;3.25;3.25;27 Nov 2005; 2;1 ;2005
+Santos;Botafogo RJ;bwin;2.04;3.20;3.20;27 Nov 2005; 2;1 ;2005
+Santos;Botafogo RJ;William Hill;3.20;3.20;3.20;27 Nov 2005; 2;1 ;2005
+Sao Caetano;Coritiba;bet-at-home;1.75;3.30;4.05;27 Nov 2005; 1;1 ;2005
+Sao Caetano;Coritiba;bet365;1.80;3.20;4.00;27 Nov 2005; 1;1 ;2005
+Sao Caetano;Coritiba;bwin;1.80;3.40;3.80;27 Nov 2005; 1;1 ;2005
+Sao Caetano;Coritiba;William Hill;1.75;3.40;3.90;27 Nov 2005; 1;1 ;2005
+Botafogo RJ;Cruzeiro;bet365;2.10;3.25;3.00;20 Nov 2005; 2;1 ;2005
+Botafogo RJ;Cruzeiro;William Hill;2.15;3.30;2.80;20 Nov 2005; 2;1 ;2005
+Fortaleza;Fluminense;bet-at-home;2.40;3.20;2.54;20 Nov 2005; 5;1 ;2005
+Ponte Preta;Palmeiras;bet-at-home;2.54;3.20;2.40;20 Nov 2005; 2;6 ;2005
+Ponte Preta;Palmeiras;bet365;2.62;3.20;2.37;20 Nov 2005; 2;6 ;2005
+Ponte Preta;Palmeiras;bwin;2.60;2.60;2.45;20 Nov 2005; 2;6 ;2005
+Ponte Preta;Palmeiras;William Hill;2.45;2.45;2.45;20 Nov 2005; 2;6 ;2005
+Athletico-PR;Sao Caetano;bet-at-home;1.45;3.70;5.80;20 Nov 2005; 2;2 ;2005
+Athletico-PR;Sao Caetano;bet365;1.50;3.50;6.00;20 Nov 2005; 2;2 ;2005
+Athletico-PR;Sao Caetano;bwin;1.55;3.50;5.50;20 Nov 2005; 2;2 ;2005
+Atletico-MG;Coritiba;bet-at-home;1.85;3.25;3.50;20 Nov 2005; 1;0 ;2005
+Atletico-MG;Coritiba;bet365;1.83;3.25;3.75;20 Nov 2005; 1;0 ;2005
+Atletico-MG;Coritiba;bwin;1.80;3.30;3.90;20 Nov 2005; 1;0 ;2005
+Atletico-MG;Coritiba;William Hill;1.90;3.45;3.25;20 Nov 2005; 1;0 ;2005
+Corinthians;Internacional;bet-at-home;1.85;3.30;3.50;20 Nov 2005; 1;1 ;2005
+Corinthians;Internacional;William Hill;2.10;3.30;2.87;20 Nov 2005; 1;1 ;2005
+Parana;Flamengo RJ;bet-at-home;1.75;3.30;3.90;20 Nov 2005; 0;1 ;2005
+Parana;Flamengo RJ;bet365;1.72;3.29;4.20;20 Nov 2005; 0;1 ;2005
+Parana;Flamengo RJ;bwin;4.20;4.20;4.20;20 Nov 2005; 0;1 ;2005
+Parana;Flamengo RJ;William Hill;4.20;4.20;4.20;20 Nov 2005; 0;1 ;2005
+Vasco;Paysandu PA;bet-at-home;1.50;3.70;5.40;20 Nov 2005; 4;0 ;2005
+Vasco;Paysandu PA;bet365;1.50;3.75;5.50;20 Nov 2005; 4;0 ;2005
+Vasco;Paysandu PA;bwin;5.50;5.50;5.50;20 Nov 2005; 4;0 ;2005
+Vasco;Paysandu PA;William Hill;5.50;5.50;5.50;20 Nov 2005; 4;0 ;2005
+Sao Paulo;Figueirense;bet365;1.57;3.60;5.00;19 Nov 2005; 4;2 ;2005
+Sao Paulo;Figueirense;bwin;5.00;5.00;5.00;19 Nov 2005; 4;2 ;2005
+Sao Paulo;Figueirense;William Hill;5.00;5.00;5.00;19 Nov 2005; 4;2 ;2005
+Paysandu PA;Botafogo RJ;bet-at-home;2.04;2.04;3.10;17 Nov 2005; 2;0 ;2005
+Paysandu PA;Botafogo RJ;bet365;2.00;2.00;3.20;17 Nov 2005; 2;0 ;2005
+Paysandu PA;Botafogo RJ;bwin;2.15;3.20;3.00;17 Nov 2005; 2;0 ;2005
+Paysandu PA;Botafogo RJ;Pinnacle;2.00;3.35;3.40;17 Nov 2005; 2;0 ;2005
+Paysandu PA;Botafogo RJ;William Hill;3.40;3.40;3.40;17 Nov 2005; 2;0 ;2005
+Coritiba;Ponte Preta;bet-at-home;1.70;3.35;4.30;17 Nov 2005; 2;1 ;2005
+Coritiba;Ponte Preta;bet365;1.66;1.66;4.50;17 Nov 2005; 2;1 ;2005
+Coritiba;Ponte Preta;bwin;1.80;1.80;3.80;17 Nov 2005; 2;1 ;2005
+Coritiba;Ponte Preta;Pinnacle;1.77;3.40;4.25;17 Nov 2005; 2;1 ;2005
+Coritiba;Ponte Preta;William Hill;4.25;4.25;4.25;17 Nov 2005; 2;1 ;2005
+Cruzeiro;Athletico-PR;bet-at-home;1.80;3.30;3.80;17 Nov 2005; 1;2 ;2005
+Cruzeiro;Athletico-PR;bet365;1.80;3.25;3.75;17 Nov 2005; 1;2 ;2005
+Cruzeiro;Athletico-PR;bwin;1.85;3.25;3.75;17 Nov 2005; 1;2 ;2005
+Cruzeiro;Athletico-PR;Pinnacle;1.80;3.30;4.30;17 Nov 2005; 1;2 ;2005
+Cruzeiro;Athletico-PR;William Hill;4.30;4.30;4.30;17 Nov 2005; 1;2 ;2005
+Fluminense;Atletico-MG;bet-at-home;1.40;3.90;6.60;17 Nov 2005; 0;2 ;2005
+Fluminense;Atletico-MG;bet365;1.39;3.79;6.50;17 Nov 2005; 0;2 ;2005
+Fluminense;Atletico-MG;bwin;1.45;3.75;6.50;17 Nov 2005; 0;2 ;2005
+Fluminense;Atletico-MG;Pinnacle;1.43;3.85;6.80;17 Nov 2005; 0;2 ;2005
+Fluminense;Atletico-MG;William Hill;6.80;6.80;6.80;17 Nov 2005; 0;2 ;2005
+Figueirense;Vasco;bet-at-home;1.75;3.30;4.05;16 Nov 2005; 5;1 ;2005
+Figueirense;Vasco;bet365;1.75;3.25;4.00;16 Nov 2005; 5;1 ;2005
+Figueirense;Vasco;bwin;1.80;3.40;3.80;16 Nov 2005; 5;1 ;2005
+Figueirense;Vasco;Pinnacle;1.80;3.40;4.15;16 Nov 2005; 5;1 ;2005
+Figueirense;Vasco;William Hill;1.75;3.55;3.70;16 Nov 2005; 5;1 ;2005
+Santos;Parana;bet-at-home;2.35;3.20;2.60;16 Nov 2005; 0;0 ;2005
+Santos;Parana;bet365;2.39;3.25;2.50;16 Nov 2005; 0;0 ;2005
+Santos;Parana;bwin;2.50;2.50;2.50;16 Nov 2005; 0;0 ;2005
+Santos;Parana;Pinnacle;2.40;3.25;2.70;16 Nov 2005; 0;0 ;2005
+Santos;Parana;William Hill;2.70;2.70;2.70;16 Nov 2005; 0;0 ;2005
+Sao Caetano;Corinthians;bet-at-home;4.59;3.35;1.65;16 Nov 2005; 1;0 ;2005
+Sao Caetano;Corinthians;bwin;4.50;3.50;1.65;16 Nov 2005; 1;0 ;2005
+Sao Caetano;Corinthians;Pinnacle;4.84;3.45;1.67;16 Nov 2005; 1;0 ;2005
+Sao Caetano;Corinthians;William Hill;1.67;1.67;1.67;16 Nov 2005; 1;0 ;2005
+Goias;Sao Paulo;bet-at-home;1.55;3.50;5.20;16 Nov 2005; 3;0 ;2005
+Goias;Sao Paulo;bet365;1.53;3.50;5.00;16 Nov 2005; 3;0 ;2005
+Goias;Sao Paulo;bwin;1.55;3.50;5.50;16 Nov 2005; 3;0 ;2005
+Goias;Sao Paulo;Pinnacle;1.54;3.60;5.85;16 Nov 2005; 3;0 ;2005
+Goias;Sao Paulo;William Hill;5.85;5.85;5.85;16 Nov 2005; 3;0 ;2005
+Internacional;Brasiliense;bet-at-home;1.25;4.59;9.50;16 Nov 2005; 1;0 ;2005
+Internacional;Brasiliense;bet365;1.19;5.00;9.99;16 Nov 2005; 1;0 ;2005
+Internacional;Brasiliense;bwin;9.99;9.99;9.99;16 Nov 2005; 1;0 ;2005
+Internacional;Brasiliense;Pinnacle;9.99;9.99;9.99;16 Nov 2005; 1;0 ;2005
+Internacional;Brasiliense;William Hill;9.99;9.99;9.99;16 Nov 2005; 1;0 ;2005
+Flamengo RJ;Fortaleza;bet-at-home;1.60;3.40;5.00;16 Nov 2005; 3;0 ;2005
+Flamengo RJ;Fortaleza;bet365;1.53;3.50;5.00;16 Nov 2005; 3;0 ;2005
+Flamengo RJ;Fortaleza;bwin;1.60;3.50;5.00;16 Nov 2005; 3;0 ;2005
+Flamengo RJ;Fortaleza;Pinnacle;1.62;3.50;5.15;16 Nov 2005; 3;0 ;2005
+Flamengo RJ;Fortaleza;William Hill;1.60;3.50;4.75;16 Nov 2005; 3;0 ;2005
+Palmeiras;Juventude;bet-at-home;1.50;3.60;5.60;16 Nov 2005; 3;2 ;2005
+Palmeiras;Juventude;bet365;1.44;3.75;6.00;16 Nov 2005; 3;2 ;2005
+Palmeiras;Juventude;bwin;1.55;3.50;5.50;16 Nov 2005; 3;2 ;2005
+Palmeiras;Juventude;Pinnacle;5.50;5.50;5.50;16 Nov 2005; 3;2 ;2005
+Cruzeiro;Brasiliense;bet365;1.36;4.20;7.00;13 Nov 2005; 1;0 ;2005
+Cruzeiro;Brasiliense;bwin;1.45;1.45;6.50;13 Nov 2005; 1;0 ;2005
+Cruzeiro;Brasiliense;Pinnacle;1.36;4.34;7.00;13 Nov 2005; 1;0 ;2005
+Cruzeiro;Brasiliense;William Hill;1.35;4.09;7.00;13 Nov 2005; 1;0 ;2005
+Juventude;Sao Caetano;bet365;1.80;3.25;4.00;13 Nov 2005; 3;1 ;2005
+Juventude;Sao Caetano;bwin;1.65;3.50;4.50;13 Nov 2005; 3;1 ;2005
+Juventude;Sao Caetano;Pinnacle;4.50;4.50;4.50;13 Nov 2005; 3;1 ;2005
+Juventude;Sao Caetano;William Hill;4.50;4.50;4.50;13 Nov 2005; 3;1 ;2005
+Santos;Internacional;bet365;3.00;3.25;2.10;13 Nov 2005; 0;4 ;2005
+Santos;Internacional;bwin;3.00;3.20;2.15;13 Nov 2005; 0;4 ;2005
+Santos;Internacional;Pinnacle;3.10;3.25;2.15;13 Nov 2005; 0;4 ;2005
+Santos;Internacional;William Hill;2.70;3.30;2.20;13 Nov 2005; 0;4 ;2005
+Vasco;Fluminense;bet365;2.60;3.20;2.39;13 Nov 2005; 2;0 ;2005
+Vasco;Fluminense;bwin;2.60;3.20;2.40;13 Nov 2005; 2;0 ;2005
+Vasco;Fluminense;Pinnacle;2.60;3.20;2.50;13 Nov 2005; 2;0 ;2005
+Vasco;Fluminense;William Hill;2.45;3.30;2.40;13 Nov 2005; 2;0 ;2005
+Goias;Athletico-PR;bet365;1.83;3.29;3.75;13 Nov 2005; 4;2 ;2005
+Goias;Athletico-PR;bwin;1.90;3.25;3.65;13 Nov 2005; 4;2 ;2005
+Goias;Athletico-PR;Pinnacle;3.65;3.65;3.65;13 Nov 2005; 4;2 ;2005
+Goias;Athletico-PR;William Hill;3.65;3.65;3.65;13 Nov 2005; 4;2 ;2005
+Ponte Preta;Flamengo RJ;bwin;2.04;3.20;3.20;13 Nov 2005; 2;2 ;2005
+Ponte Preta;Flamengo RJ;Pinnacle;2.10;3.30;3.20;13 Nov 2005; 2;2 ;2005
+Figueirense;Fortaleza;bet365;1.57;3.39;5.50;12 Nov 2005; 1;0 ;2005
+Figueirense;Fortaleza;bwin;1.60;3.50;5.00;12 Nov 2005; 1;0 ;2005
+Figueirense;Fortaleza;Pinnacle;1.56;3.70;5.40;12 Nov 2005; 1;0 ;2005
+Figueirense;Fortaleza;William Hill;1.55;3.60;5.00;12 Nov 2005; 1;0 ;2005
+Paysandu PA;Atletico-MG;bet365;1.66;3.39;4.50;12 Nov 2005; 0;2 ;2005
+Paysandu PA;Atletico-MG;bwin;1.80;3.40;3.80;12 Nov 2005; 0;2 ;2005
+Paysandu PA;Atletico-MG;Pinnacle;1.67;3.45;4.84;12 Nov 2005; 0;2 ;2005
+Paysandu PA;Atletico-MG;William Hill;4.84;4.84;4.84;12 Nov 2005; 0;2 ;2005
+Botafogo RJ;Parana;bet365;1.83;1.83;3.60;12 Nov 2005; 2;0 ;2005
+Botafogo RJ;Parana;bwin;3.60;3.60;3.60;12 Nov 2005; 2;0 ;2005
+Botafogo RJ;Parana;Pinnacle;1.91;3.35;3.70;12 Nov 2005; 2;0 ;2005
+Botafogo RJ;Parana;William Hill;3.70;3.70;3.70;12 Nov 2005; 2;0 ;2005
+Palmeiras;Sao Paulo;bet365;1.90;3.20;3.60;12 Nov 2005; 2;1 ;2005
+Palmeiras;Sao Paulo;bwin;1.90;3.25;3.60;12 Nov 2005; 2;1 ;2005
+Palmeiras;Sao Paulo;Pinnacle;1.87;3.35;3.85;12 Nov 2005; 2;1 ;2005
+Palmeiras;Sao Paulo;William Hill;3.85;3.85;3.85;12 Nov 2005; 2;1 ;2005
+Athletico-PR;Palmeiras;bet-at-home;1.85;3.25;3.50;06 Nov 2005; 4;0 ;2005
+Athletico-PR;Palmeiras;bet365;1.90;3.25;3.50;06 Nov 2005; 4;0 ;2005
+Athletico-PR;Palmeiras;bwin;1.85;3.25;3.75;06 Nov 2005; 4;0 ;2005
+Athletico-PR;Palmeiras;Pinnacle;2.00;3.25;3.50;06 Nov 2005; 4;0 ;2005
+Athletico-PR;Palmeiras;William Hill;1.95;3.35;3.20;06 Nov 2005; 4;0 ;2005
+Atletico-MG;Goias;bet-at-home;2.40;3.10;2.54;06 Nov 2005; 1;2 ;2005
+Atletico-MG;Goias;bet365;2.50;3.20;2.50;06 Nov 2005; 1;2 ;2005
+Atletico-MG;Goias;bwin;2.50;3.10;2.54;06 Nov 2005; 1;2 ;2005
+Atletico-MG;Goias;Pinnacle;2.54;2.54;2.54;06 Nov 2005; 1;2 ;2005
+Atletico-MG;Goias;William Hill;2.54;2.54;2.54;06 Nov 2005; 1;2 ;2005
+Brasiliense;Coritiba;bet-at-home;1.75;3.30;3.90;06 Nov 2005; 1;1 ;2005
+Brasiliense;Coritiba;bet365;1.80;3.25;4.00;06 Nov 2005; 1;1 ;2005
+Brasiliense;Coritiba;bwin;1.75;3.40;4.05;06 Nov 2005; 1;1 ;2005
+Brasiliense;Coritiba;Pinnacle;1.91;3.30;3.70;06 Nov 2005; 1;1 ;2005
+Brasiliense;Coritiba;William Hill;1.95;3.40;3.15;06 Nov 2005; 1;1 ;2005
+Fluminense;Figueirense;bet-at-home;1.40;3.90;6.20;06 Nov 2005; 2;0 ;2005
+Fluminense;Figueirense;bet365;1.44;3.75;6.50;06 Nov 2005; 2;0 ;2005
+Fluminense;Figueirense;bwin;1.35;4.09;7.75;06 Nov 2005; 2;0 ;2005
+Fluminense;Figueirense;Pinnacle;1.44;3.75;6.75;06 Nov 2005; 2;0 ;2005
+Fluminense;Figueirense;William Hill;1.40;4.00;6.25;06 Nov 2005; 2;0 ;2005
+Corinthians;Santos;bet-at-home;1.70;3.35;4.09;06 Nov 2005; 7;1 ;2005
+Corinthians;Santos;bwin;1.75;3.40;4.05;06 Nov 2005; 7;1 ;2005
+Corinthians;Santos;William Hill;1.80;3.40;3.60;06 Nov 2005; 7;1 ;2005
+Flamengo RJ;Botafogo RJ;bet365;2.50;3.20;2.50;06 Nov 2005; 3;1 ;2005
+Flamengo RJ;Botafogo RJ;bwin;2.50;2.50;2.50;06 Nov 2005; 3;1 ;2005
+Flamengo RJ;Botafogo RJ;William Hill;2.50;2.50;2.50;06 Nov 2005; 3;1 ;2005
+Internacional;Ponte Preta;bet-at-home;1.25;4.50;9.00;06 Nov 2005; 2;1 ;2005
+Internacional;Ponte Preta;bet365;9.00;9.00;9.00;06 Nov 2005; 2;1 ;2005
+Internacional;Ponte Preta;bwin;9.00;9.00;9.00;06 Nov 2005; 2;1 ;2005
+Internacional;Ponte Preta;William Hill;9.00;9.00;9.00;06 Nov 2005; 2;1 ;2005
+Parana;Paysandu PA;bet-at-home;1.60;3.40;4.70;06 Nov 2005; 2;0 ;2005
+Parana;Paysandu PA;bet365;1.61;3.39;5.00;06 Nov 2005; 2;0 ;2005
+Parana;Paysandu PA;bwin;1.60;3.55;4.84;06 Nov 2005; 2;0 ;2005
+Parana;Paysandu PA;William Hill;1.55;3.80;4.65;06 Nov 2005; 2;0 ;2005
+Sao Caetano;Vasco;bet-at-home;1.75;3.30;3.90;06 Nov 2005; 1;2 ;2005
+Sao Caetano;Vasco;bet365;1.80;1.80;4.00;06 Nov 2005; 1;2 ;2005
+Sao Caetano;Vasco;bwin;4.00;4.00;4.00;06 Nov 2005; 1;2 ;2005
+Sao Caetano;Vasco;William Hill;4.00;4.00;4.00;06 Nov 2005; 1;2 ;2005
+Fortaleza;Cruzeiro;bet-at-home;2.50;3.10;2.45;05 Nov 2005; 3;1 ;2005
+Fortaleza;Cruzeiro;bet365;2.50;3.20;2.50;05 Nov 2005; 3;1 ;2005
+Fortaleza;Cruzeiro;bwin;2.54;3.10;2.50;05 Nov 2005; 3;1 ;2005
+Fortaleza;Cruzeiro;Pinnacle;2.80;3.10;2.40;05 Nov 2005; 3;1 ;2005
+Fortaleza;Cruzeiro;William Hill;2.45;3.35;2.40;05 Nov 2005; 3;1 ;2005
+Sao Paulo;Juventude;bet-at-home;1.55;3.50;5.00;05 Nov 2005; 3;1 ;2005
+Sao Paulo;Juventude;bet365;1.57;3.60;5.00;05 Nov 2005; 3;1 ;2005
+Sao Paulo;Juventude;bwin;1.60;3.55;4.84;05 Nov 2005; 3;1 ;2005
+Sao Paulo;Juventude;Pinnacle;1.56;3.50;6.00;05 Nov 2005; 3;1 ;2005
+Sao Paulo;Juventude;William Hill;1.60;3.60;4.50;05 Nov 2005; 3;1 ;2005
+Palmeiras;Flamengo RJ;bet-at-home;1.35;4.00;7.00;03 Nov 2005; 0;1 ;2005
+Palmeiras;Flamengo RJ;bet365;7.00;7.00;7.00;03 Nov 2005; 0;1 ;2005
+Palmeiras;Flamengo RJ;bwin;7.00;7.00;7.00;03 Nov 2005; 0;1 ;2005
+Palmeiras;Flamengo RJ;Pinnacle;7.00;7.00;7.00;03 Nov 2005; 0;1 ;2005
+Palmeiras;Flamengo RJ;William Hill;7.00;7.00;7.00;03 Nov 2005; 0;1 ;2005
+Paysandu PA;Brasiliense;bet-at-home;1.85;3.20;3.60;03 Nov 2005; 2;1 ;2005
+Paysandu PA;Brasiliense;bet365;1.80;3.29;3.75;03 Nov 2005; 2;1 ;2005
+Paysandu PA;Brasiliense;bwin;1.90;1.90;3.55;03 Nov 2005; 2;1 ;2005
+Paysandu PA;Brasiliense;Pinnacle;3.55;3.55;3.55;03 Nov 2005; 2;1 ;2005
+Paysandu PA;Brasiliense;William Hill;3.55;3.55;3.55;03 Nov 2005; 2;1 ;2005
+Botafogo RJ;Sao Caetano;bet365;1.80;3.29;3.75;03 Nov 2005; 1;0 ;2005
+Botafogo RJ;Sao Caetano;bwin;1.85;1.85;3.75;03 Nov 2005; 1;0 ;2005
+Botafogo RJ;Sao Caetano;Pinnacle;1.83;3.40;3.85;03 Nov 2005; 1;0 ;2005
+Botafogo RJ;Sao Caetano;William Hill;3.85;3.85;3.85;03 Nov 2005; 1;0 ;2005
+Vasco;Athletico-PR;bet-at-home;2.50;3.15;2.40;03 Nov 2005; 2;1 ;2005
+Vasco;Athletico-PR;bet365;2.50;2.50;2.39;03 Nov 2005; 2;1 ;2005
+Vasco;Athletico-PR;bwin;2.54;3.10;2.50;03 Nov 2005; 2;1 ;2005
+Vasco;Athletico-PR;Pinnacle;2.50;3.40;2.50;03 Nov 2005; 2;1 ;2005
+Vasco;Athletico-PR;William Hill;2.50;2.50;2.50;03 Nov 2005; 2;1 ;2005
+Coritiba;Figueirense;bet365;2.29;3.25;2.60;03 Nov 2005; 4;1 ;2005
+Coritiba;Figueirense;bwin;2.40;3.15;2.65;03 Nov 2005; 4;1 ;2005
+Coritiba;Figueirense;Pinnacle;2.65;2.65;2.65;03 Nov 2005; 4;1 ;2005
+Coritiba;Figueirense;William Hill;2.65;2.65;2.65;03 Nov 2005; 4;1 ;2005
+Parana;Internacional;bet-at-home;2.40;3.15;2.50;03 Nov 2005; 3;1 ;2005
+Parana;Internacional;bet365;2.39;2.39;2.50;03 Nov 2005; 3;1 ;2005
+Parana;Internacional;bwin;2.50;3.20;2.50;03 Nov 2005; 3;1 ;2005
+Parana;Internacional;Pinnacle;2.54;3.25;2.54;03 Nov 2005; 3;1 ;2005
+Parana;Internacional;William Hill;2.70;3.35;2.20;03 Nov 2005; 3;1 ;2005
+Cruzeiro;Corinthians;bet-at-home;2.35;3.15;2.54;02 Nov 2005; 2;1 ;2005
+Cruzeiro;Corinthians;bet365;2.29;3.25;2.60;02 Nov 2005; 2;1 ;2005
+Cruzeiro;Corinthians;William Hill;2.35;3.30;2.54;02 Nov 2005; 2;1 ;2005
+Goias;Fluminense;bet-at-home;2.10;3.10;3.00;02 Nov 2005; 1;2 ;2005
+Goias;Fluminense;bet365;2.10;3.20;3.00;02 Nov 2005; 1;2 ;2005
+Goias;Fluminense;bwin;2.29;3.10;2.80;02 Nov 2005; 1;2 ;2005
+Goias;Fluminense;William Hill;2.80;2.80;2.80;02 Nov 2005; 1;2 ;2005
+Ponte Preta;Santos;bet-at-home;2.60;3.20;2.29;02 Nov 2005; 2;1 ;2005
+Ponte Preta;Santos;bet365;2.60;3.25;2.29;02 Nov 2005; 2;1 ;2005
+Ponte Preta;Santos;bwin;2.65;3.15;2.40;02 Nov 2005; 2;1 ;2005
+Ponte Preta;Santos;William Hill;2.54;3.30;2.35;02 Nov 2005; 2;1 ;2005
+Juventude;Fortaleza;bet-at-home;1.80;3.25;3.70;02 Nov 2005; 2;0 ;2005
+Juventude;Fortaleza;bet365;1.80;3.29;3.75;02 Nov 2005; 2;0 ;2005
+Juventude;Fortaleza;bwin;1.80;3.35;3.85;02 Nov 2005; 2;0 ;2005
+Juventude;Fortaleza;William Hill;1.75;3.45;3.80;02 Nov 2005; 2;0 ;2005
+Sao Paulo;Atletico-MG;bet-at-home;1.40;3.80;6.50;02 Nov 2005; 2;2 ;2005
+Sao Paulo;Atletico-MG;bet365;1.39;1.39;7.00;02 Nov 2005; 2;2 ;2005
+Sao Paulo;Atletico-MG;bwin;1.40;3.90;7.00;02 Nov 2005; 2;2 ;2005
+Sao Paulo;Atletico-MG;William Hill;7.00;7.00;7.00;02 Nov 2005; 2;2 ;2005
+Flamengo RJ;Coritiba;bet-at-home;1.80;3.20;3.65;31 Oct 2005; 2;1 ;2005
+Flamengo RJ;Coritiba;bet365;1.57;3.50;5.00;31 Oct 2005; 2;1 ;2005
+Flamengo RJ;Coritiba;bwin;1.55;3.55;5.40;31 Oct 2005; 2;1 ;2005
+Flamengo RJ;Coritiba;Pinnacle;1.80;3.40;4.00;31 Oct 2005; 2;1 ;2005
+Flamengo RJ;Coritiba;William Hill;1.60;3.55;4.59;31 Oct 2005; 2;1 ;2005
+Internacional;Paysandu PA;bet-at-home;1.35;4.20;6.50;31 Oct 2005; 1;0 ;2005
+Internacional;Paysandu PA;bet365;1.33;4.00;8.00;31 Oct 2005; 1;0 ;2005
+Internacional;Paysandu PA;bwin;1.40;3.90;7.00;31 Oct 2005; 1;0 ;2005
+Internacional;Paysandu PA;Pinnacle;1.40;4.00;7.00;31 Oct 2005; 1;0 ;2005
+Internacional;Paysandu PA;William Hill;7.00;7.00;7.00;31 Oct 2005; 1;0 ;2005
+Brasiliense;Botafogo RJ;bet-at-home;2.00;3.20;3.15;30 Oct 2005; 0;0 ;2005
+Brasiliense;Botafogo RJ;bet365;2.20;3.25;2.75;30 Oct 2005; 0;0 ;2005
+Brasiliense;Botafogo RJ;bwin;2.29;3.10;2.80;30 Oct 2005; 0;0 ;2005
+Brasiliense;Botafogo RJ;Pinnacle;2.15;3.25;3.10;30 Oct 2005; 0;0 ;2005
+Brasiliense;Botafogo RJ;William Hill;2.00;3.40;3.00;30 Oct 2005; 0;0 ;2005
+Fluminense;Ponte Preta;bet-at-home;1.45;3.60;6.00;30 Oct 2005; 4;3 ;2005
+Fluminense;Ponte Preta;bet365;1.39;3.75;7.00;30 Oct 2005; 4;3 ;2005
+Fluminense;Ponte Preta;bwin;1.45;3.70;6.50;30 Oct 2005; 4;3 ;2005
+Fluminense;Ponte Preta;Pinnacle;1.43;3.85;6.75;30 Oct 2005; 4;3 ;2005
+Fluminense;Ponte Preta;William Hill;1.45;3.70;6.00;30 Oct 2005; 4;3 ;2005
+Sao Caetano;Sao Paulo;bet-at-home;2.50;2.50;2.40;30 Oct 2005; 0;1 ;2005
+Sao Caetano;Sao Paulo;bet365;2.60;3.39;2.25;30 Oct 2005; 0;1 ;2005
+Sao Caetano;Sao Paulo;bwin;2.75;3.20;2.29;30 Oct 2005; 0;1 ;2005
+Sao Caetano;Sao Paulo;Pinnacle;2.65;3.35;2.40;30 Oct 2005; 0;1 ;2005
+Sao Caetano;Sao Paulo;William Hill;2.40;2.40;2.40;30 Oct 2005; 0;1 ;2005
+Athletico-PR;Parana;bet-at-home;1.80;3.20;3.65;30 Oct 2005; 2;1 ;2005
+Athletico-PR;Parana;bwin;1.90;3.25;3.60;30 Oct 2005; 2;1 ;2005
+Athletico-PR;Parana;William Hill;3.60;3.60;3.60;30 Oct 2005; 2;1 ;2005
+Atletico-MG;Palmeiras;bet-at-home;2.60;3.20;2.29;30 Oct 2005; 1;3 ;2005
+Atletico-MG;Palmeiras;bet365;2.60;3.39;2.25;30 Oct 2005; 1;3 ;2005
+Atletico-MG;Palmeiras;bwin;2.40;2.40;2.60;30 Oct 2005; 1;3 ;2005
+Atletico-MG;Palmeiras;Pinnacle;2.60;2.60;2.60;30 Oct 2005; 1;3 ;2005
+Atletico-MG;Palmeiras;William Hill;2.60;2.60;2.60;30 Oct 2005; 1;3 ;2005
+Corinthians;Vasco;bet-at-home;1.35;4.20;6.50;30 Oct 2005; 1;1 ;2005
+Corinthians;Vasco;bet365;1.33;4.00;8.00;30 Oct 2005; 1;1 ;2005
+Corinthians;Vasco;bwin;8.00;8.00;8.00;30 Oct 2005; 1;1 ;2005
+Corinthians;Vasco;Pinnacle;8.00;8.00;8.00;30 Oct 2005; 1;1 ;2005
+Corinthians;Vasco;William Hill;8.00;8.00;8.00;30 Oct 2005; 1;1 ;2005
+Santos;Cruzeiro;bet-at-home;1.95;3.25;3.20;30 Oct 2005; 1;2 ;2005
+Santos;Cruzeiro;bet365;2.00;3.20;3.20;30 Oct 2005; 1;2 ;2005
+Santos;Cruzeiro;bwin;2.29;3.10;2.80;30 Oct 2005; 1;2 ;2005
+Santos;Cruzeiro;Pinnacle;2.10;3.30;3.15;30 Oct 2005; 1;2 ;2005
+Santos;Cruzeiro;William Hill;2.10;3.30;2.90;30 Oct 2005; 1;2 ;2005
+Fortaleza;Goias;bet-at-home;2.40;3.20;2.50;29 Oct 2005; 1;1 ;2005
+Fortaleza;Goias;bet365;2.37;2.37;2.60;29 Oct 2005; 1;1 ;2005
+Fortaleza;Goias;bwin;2.45;2.45;2.54;29 Oct 2005; 1;1 ;2005
+Fortaleza;Goias;Pinnacle;2.35;3.25;2.75;29 Oct 2005; 1;1 ;2005
+Fortaleza;Goias;William Hill;2.20;3.40;2.65;29 Oct 2005; 1;1 ;2005
+Figueirense;Juventude;bet-at-home;1.70;3.30;4.15;29 Oct 2005; 4;3 ;2005
+Figueirense;Juventude;bet365;4.15;3.50;3.50;29 Oct 2005; 4;3 ;2005
+Figueirense;Juventude;bwin;3.50;3.50;3.50;29 Oct 2005; 4;3 ;2005
+Figueirense;Juventude;Pinnacle;1.61;3.50;5.25;29 Oct 2005; 4;3 ;2005
+Figueirense;Juventude;William Hill;5.25;5.25;5.25;29 Oct 2005; 4;3 ;2005
+Parana;Sao Caetano;bet-at-home;1.60;3.40;4.65;28 Oct 2005; 1;3 ;2005
+Parana;Sao Caetano;bet365;1.61;1.61;5.00;28 Oct 2005; 1;3 ;2005
+Parana;Sao Caetano;bwin;5.00;5.00;5.00;28 Oct 2005; 1;3 ;2005
+Parana;Sao Caetano;Pinnacle;1.67;1.67;5.00;28 Oct 2005; 1;3 ;2005
+Parana;Sao Caetano;William Hill;5.00;5.00;5.00;28 Oct 2005; 1;3 ;2005
+Fluminense;Athletico-PR;bet365;1.83;3.25;3.75;27 Oct 2005; 4;1 ;2005
+Fluminense;Athletico-PR;bwin;3.75;3.75;3.75;27 Oct 2005; 4;1 ;2005
+Fluminense;Athletico-PR;Pinnacle;1.91;3.35;3.65;27 Oct 2005; 4;1 ;2005
+Fluminense;Athletico-PR;William Hill;3.65;3.65;3.65;27 Oct 2005; 4;1 ;2005
+Paysandu PA;Corinthians;bet-at-home;2.75;2.75;2.20;27 Oct 2005; 0;2 ;2005
+Paysandu PA;Corinthians;bet365;2.20;2.20;2.20;27 Oct 2005; 0;2 ;2005
+Paysandu PA;Corinthians;bwin;2.75;2.75;2.29;27 Oct 2005; 0;2 ;2005
+Paysandu PA;Corinthians;Pinnacle;2.90;3.30;2.25;27 Oct 2005; 0;2 ;2005
+Paysandu PA;Corinthians;William Hill;2.25;2.25;2.25;27 Oct 2005; 0;2 ;2005
+Ponte Preta;Botafogo RJ;bet-at-home;1.95;3.20;3.25;27 Oct 2005; 0;1 ;2005
+Ponte Preta;Botafogo RJ;bet365;2.00;3.25;3.25;27 Oct 2005; 0;1 ;2005
+Ponte Preta;Botafogo RJ;bwin;2.04;3.20;3.20;27 Oct 2005; 0;1 ;2005
+Ponte Preta;Botafogo RJ;Pinnacle;2.00;3.30;3.40;27 Oct 2005; 0;1 ;2005
+Ponte Preta;Botafogo RJ;William Hill;1.90;3.50;3.20;27 Oct 2005; 0;1 ;2005
+Sao Paulo;Brasiliense;bet-at-home;1.35;4.00;7.00;27 Oct 2005; 1;2 ;2005
+Sao Paulo;Brasiliense;bet365;1.36;4.20;7.00;27 Oct 2005; 1;2 ;2005
+Sao Paulo;Brasiliense;bwin;1.35;4.00;8.25;27 Oct 2005; 1;2 ;2005
+Sao Paulo;Brasiliense;Pinnacle;1.40;4.00;7.00;27 Oct 2005; 1;2 ;2005
+Sao Paulo;Brasiliense;William Hill;1.45;3.65;6.25;27 Oct 2005; 1;2 ;2005
+Atletico-MG;Fortaleza;bet-at-home;1.80;3.30;3.65;26 Oct 2005; 2;3 ;2005
+Atletico-MG;Fortaleza;bet365;1.72;3.29;4.20;26 Oct 2005; 2;3 ;2005
+Atletico-MG;Fortaleza;bwin;1.60;3.50;5.00;26 Oct 2005; 2;3 ;2005
+Atletico-MG;Fortaleza;Pinnacle;1.74;3.50;4.25;26 Oct 2005; 2;3 ;2005
+Atletico-MG;Fortaleza;William Hill;1.80;3.50;3.50;26 Oct 2005; 2;3 ;2005
+Juventude;Flamengo RJ;bet-at-home;1.60;3.40;4.65;26 Oct 2005; 2;2 ;2005
+Juventude;Flamengo RJ;bet365;1.61;3.39;5.00;26 Oct 2005; 2;2 ;2005
+Juventude;Flamengo RJ;bwin;1.60;3.50;5.00;26 Oct 2005; 2;2 ;2005
+Juventude;Flamengo RJ;William Hill;1.65;3.50;4.30;26 Oct 2005; 2;2 ;2005
+Palmeiras;Figueirense;bet-at-home;1.45;3.70;5.80;26 Oct 2005; 2;2 ;2005
+Palmeiras;Figueirense;bwin;1.45;3.75;6.50;26 Oct 2005; 2;2 ;2005
+Palmeiras;Figueirense;Pinnacle;1.48;3.75;6.25;26 Oct 2005; 2;2 ;2005
+Palmeiras;Figueirense;William Hill;1.45;3.75;6.00;26 Oct 2005; 2;2 ;2005
+Vasco;Santos;bet-at-home;2.20;3.10;2.80;26 Oct 2005; 1;3 ;2005
+Vasco;Santos;bet365;2.20;2.20;3.10;26 Oct 2005; 1;3 ;2005
+Vasco;Santos;bwin;3.10;3.10;3.10;26 Oct 2005; 1;3 ;2005
+Vasco;Santos;Pinnacle;3.10;3.10;3.10;26 Oct 2005; 1;3 ;2005
+Vasco;Santos;William Hill;3.10;3.10;3.10;26 Oct 2005; 1;3 ;2005
+Coritiba;Cruzeiro;bet-at-home;2.20;3.10;2.80;25 Oct 2005; 0;3 ;2005
+Coritiba;Cruzeiro;Pinnacle;2.25;3.20;3.00;25 Oct 2005; 0;3 ;2005
+Coritiba;Cruzeiro;William Hill;2.29;3.40;2.54;25 Oct 2005; 0;3 ;2005
+Goias;Internacional;bet-at-home;1.95;3.20;3.25;25 Oct 2005; 0;1 ;2005
+Goias;Internacional;bet365;2.00;3.25;3.25;25 Oct 2005; 0;1 ;2005
+Goias;Internacional;bwin;2.15;3.20;3.00;25 Oct 2005; 0;1 ;2005
+Goias;Internacional;Pinnacle;2.04;3.30;3.30;25 Oct 2005; 0;1 ;2005
+Goias;Internacional;William Hill;3.30;3.30;3.30;25 Oct 2005; 0;1 ;2005
+Fluminense;Brasiliense;bet-at-home;1.40;4.00;6.00;24 Oct 2005; 1;1 ;2005
+Fluminense;Brasiliense;bet365;1.36;4.00;7.00;24 Oct 2005; 1;1 ;2005
+Fluminense;Brasiliense;Pinnacle;1.40;4.00;7.25;24 Oct 2005; 1;1 ;2005
+Fluminense;Brasiliense;William Hill;7.25;7.25;7.25;24 Oct 2005; 1;1 ;2005
+Sao Paulo;Corinthians;bet-at-home;2.35;3.15;2.60;24 Oct 2005; 1;1 ;2005
+Sao Paulo;Corinthians;bet365;2.60;3.25;2.29;24 Oct 2005; 1;1 ;2005
+Sao Paulo;Corinthians;bwin;2.29;2.29;2.29;24 Oct 2005; 1;1 ;2005
+Sao Paulo;Corinthians;William Hill;2.45;2.45;2.45;24 Oct 2005; 1;1 ;2005
+Sao Paulo;Santos;Pinnacle;2.40;3.30;2.65;22 Oct 2005; 1;2 ;2005
+Sao Paulo;Santos;William Hill;2.40;3.30;2.45;22 Oct 2005; 1;2 ;2005
+Botafogo RJ;Coritiba;bet-at-home;1.70;3.35;4.09;22 Oct 2005; 2;0 ;2005
+Botafogo RJ;Coritiba;bet365;1.66;3.39;4.33;22 Oct 2005; 2;0 ;2005
+Botafogo RJ;Coritiba;bwin;1.70;3.40;4.34;22 Oct 2005; 2;0 ;2005
+Botafogo RJ;Coritiba;Pinnacle;1.80;3.30;4.25;22 Oct 2005; 2;0 ;2005
+Botafogo RJ;Coritiba;William Hill;1.70;3.40;4.09;22 Oct 2005; 2;0 ;2005
+Cruzeiro;Paysandu PA;bet-at-home;1.45;3.70;5.80;22 Oct 2005; 4;3 ;2005
+Cruzeiro;Paysandu PA;bet365;1.44;3.60;6.50;22 Oct 2005; 4;3 ;2005
+Cruzeiro;Paysandu PA;bwin;1.46;1.46;6.00;22 Oct 2005; 4;3 ;2005
+Cruzeiro;Paysandu PA;Pinnacle;6.00;6.00;6.00;22 Oct 2005; 4;3 ;2005
+Cruzeiro;Paysandu PA;William Hill;6.00;6.00;6.00;22 Oct 2005; 4;3 ;2005
+Juventude;Internacional;bet-at-home;2.70;3.15;2.25;22 Oct 2005; 2;1 ;2005
+Juventude;Internacional;bet365;2.75;3.25;2.20;22 Oct 2005; 2;1 ;2005
+Juventude;Internacional;bwin;2.80;3.15;2.29;22 Oct 2005; 2;1 ;2005
+Juventude;Internacional;Pinnacle;2.80;3.30;2.29;22 Oct 2005; 2;1 ;2005
+Juventude;Internacional;William Hill;2.70;3.40;2.15;22 Oct 2005; 2;1 ;2005
+Figueirense;Ponte Preta;bet-at-home;1.60;3.40;4.70;22 Oct 2005; 4;0 ;2005
+Figueirense;Ponte Preta;bet365;1.66;3.39;4.33;22 Oct 2005; 4;0 ;2005
+Figueirense;Ponte Preta;bwin;1.65;3.55;4.50;22 Oct 2005; 4;0 ;2005
+Figueirense;Ponte Preta;Pinnacle;1.67;3.60;4.59;22 Oct 2005; 4;0 ;2005
+Figueirense;Ponte Preta;William Hill;4.59;4.59;4.59;22 Oct 2005; 4;0 ;2005
+Athletico-PR;Atletico-MG;bet-at-home;1.45;3.80;5.70;22 Oct 2005; 2;0 ;2005
+Athletico-PR;Atletico-MG;bet365;1.39;3.75;7.00;22 Oct 2005; 2;0 ;2005
+Athletico-PR;Atletico-MG;bwin;1.46;3.80;6.00;22 Oct 2005; 2;0 ;2005
+Athletico-PR;Atletico-MG;Pinnacle;1.47;3.80;6.25;22 Oct 2005; 2;0 ;2005
+Athletico-PR;Atletico-MG;William Hill;1.45;3.70;6.00;22 Oct 2005; 2;0 ;2005
+Corinthians;Parana;bet-at-home;1.45;3.80;5.70;22 Oct 2005; 1;0 ;2005
+Corinthians;Parana;bet365;1.44;3.60;6.50;22 Oct 2005; 1;0 ;2005
+Corinthians;Parana;bwin;1.46;3.80;6.00;22 Oct 2005; 1;0 ;2005
+Corinthians;Parana;Pinnacle;1.47;3.80;6.25;22 Oct 2005; 1;0 ;2005
+Corinthians;Parana;William Hill;1.45;3.70;6.00;22 Oct 2005; 1;0 ;2005
+Fortaleza;Palmeiras;bet-at-home;2.54;3.10;2.40;22 Oct 2005; 1;1 ;2005
+Fortaleza;Palmeiras;bet365;2.50;3.25;2.37;22 Oct 2005; 1;1 ;2005
+Fortaleza;Palmeiras;bwin;2.54;3.20;2.45;22 Oct 2005; 1;1 ;2005
+Fortaleza;Palmeiras;Pinnacle;2.45;2.45;2.45;22 Oct 2005; 1;1 ;2005
+Fortaleza;Palmeiras;William Hill;2.45;2.45;2.45;22 Oct 2005; 1;1 ;2005
+Vasco;Flamengo RJ;bet-at-home;2.20;3.15;2.80;22 Oct 2005; 2;1 ;2005
+Vasco;Flamengo RJ;bet365;2.20;3.25;2.75;22 Oct 2005; 2;1 ;2005
+Vasco;Flamengo RJ;bwin;2.29;3.10;2.80;22 Oct 2005; 2;1 ;2005
+Vasco;Flamengo RJ;Pinnacle;2.80;2.80;2.80;22 Oct 2005; 2;1 ;2005
+Vasco;Flamengo RJ;William Hill;2.80;2.80;2.80;22 Oct 2005; 2;1 ;2005
+Brasiliense;Goias;bet-at-home;2.50;3.20;2.40;21 Oct 2005; 1;2 ;2005
+Brasiliense;Goias;bet365;2.60;2.60;2.37;21 Oct 2005; 1;2 ;2005
+Brasiliense;Goias;bwin;2.37;2.37;2.37;21 Oct 2005; 1;2 ;2005
+Brasiliense;Goias;Pinnacle;2.50;3.35;2.50;21 Oct 2005; 1;2 ;2005
+Brasiliense;Goias;William Hill;2.15;2.15;2.75;21 Oct 2005; 1;2 ;2005
+Sao Caetano;Fluminense;bet-at-home;2.50;3.10;2.45;21 Oct 2005; 2;2 ;2005
+Sao Caetano;Fluminense;bet365;2.50;3.10;2.50;21 Oct 2005; 2;2 ;2005
+Sao Caetano;Fluminense;bwin;2.54;2.54;2.45;21 Oct 2005; 2;2 ;2005
+Sao Caetano;Fluminense;Pinnacle;2.54;3.25;2.54;21 Oct 2005; 2;2 ;2005
+Sao Caetano;Fluminense;William Hill;2.54;2.54;2.54;21 Oct 2005; 2;2 ;2005
+Juventude;Figueirense;bet-at-home;1.50;3.60;5.00;19 Oct 2005; 2;2 ;2005
+Juventude;Figueirense;bet365;1.50;3.60;5.50;19 Oct 2005; 2;2 ;2005
+Juventude;Figueirense;bwin;1.45;3.75;6.50;19 Oct 2005; 2;2 ;2005
+Juventude;Figueirense;Pinnacle;1.50;3.65;6.30;19 Oct 2005; 2;2 ;2005
+Juventude;Figueirense;William Hill;1.50;3.60;5.50;19 Oct 2005; 2;2 ;2005
+Paysandu PA;Cruzeiro;bet-at-home;2.15;3.20;2.80;19 Oct 2005; 4;1 ;2005
+Paysandu PA;Cruzeiro;bet365;2.80;2.80;2.80;19 Oct 2005; 4;1 ;2005
+Paysandu PA;Cruzeiro;bwin;2.35;3.10;3.10;19 Oct 2005; 4;1 ;2005
+Paysandu PA;Cruzeiro;William Hill;2.00;3.20;3.20;19 Oct 2005; 4;1 ;2005
+Ponte Preta;Sao Paulo;bet-at-home;2.95;3.15;2.10;19 Oct 2005; 2;0 ;2005
+Ponte Preta;Sao Paulo;bet365;3.00;3.25;2.10;19 Oct 2005; 2;0 ;2005
+Ponte Preta;Sao Paulo;bwin;1.50;3.60;6.00;19 Oct 2005; 2;0 ;2005
+Ponte Preta;Sao Paulo;Pinnacle;1.89;3.60;3.48;19 Oct 2005; 2;0 ;2005
+Ponte Preta;Sao Paulo;William Hill;1.60;3.50;4.59;19 Oct 2005; 2;0 ;2005
+Vasco;Botafogo RJ;bet-at-home;2.40;3.15;2.40;19 Oct 2005; 1;0 ;2005
+Vasco;Botafogo RJ;bet365;2.50;2.50;2.39;19 Oct 2005; 1;0 ;2005
+Vasco;Botafogo RJ;bwin;2.45;3.20;2.54;19 Oct 2005; 1;0 ;2005
+Vasco;Botafogo RJ;Pinnacle;2.45;3.20;2.70;19 Oct 2005; 1;0 ;2005
+Vasco;Botafogo RJ;William Hill;2.29;3.10;3.10;19 Oct 2005; 1;0 ;2005
+Ponte Preta;Sao Caetano;bet-at-home;2.00;3.15;3.20;16 Oct 2005; 1;2 ;2005
+Ponte Preta;Sao Caetano;bet365;2.00;3.25;3.25;16 Oct 2005; 1;2 ;2005
+Ponte Preta;Sao Caetano;bwin;2.10;3.15;3.15;16 Oct 2005; 1;2 ;2005
+Ponte Preta;Sao Caetano;Pinnacle;2.00;3.30;3.30;16 Oct 2005; 1;2 ;2005
+Ponte Preta;Sao Caetano;William Hill;3.30;3.30;3.30;16 Oct 2005; 1;2 ;2005
+Santos;Goias;bet-at-home;1.80;3.30;3.65;16 Oct 2005; 1;1 ;2005
+Santos;Goias;bet365;1.80;3.25;4.00;16 Oct 2005; 1;1 ;2005
+Santos;Goias;bwin;1.75;3.35;4.09;16 Oct 2005; 1;1 ;2005
+Santos;Goias;Pinnacle;1.80;3.35;4.09;16 Oct 2005; 1;1 ;2005
+Santos;Goias;William Hill;4.09;4.09;4.09;16 Oct 2005; 1;1 ;2005
+Atletico-MG;Cruzeiro;bet-at-home;2.45;3.10;2.50;16 Oct 2005; 0;1 ;2005
+Atletico-MG;Cruzeiro;bwin;2.54;3.05;2.54;16 Oct 2005; 0;1 ;2005
+Atletico-MG;Cruzeiro;Pinnacle;2.50;3.25;2.60;16 Oct 2005; 0;1 ;2005
+Atletico-MG;Cruzeiro;William Hill;2.60;2.60;2.60;16 Oct 2005; 0;1 ;2005
+Flamengo RJ;Sao Paulo;bet365;2.37;3.20;2.62;16 Oct 2005; 1;6 ;2005
+Flamengo RJ;Sao Paulo;bwin;2.40;3.05;2.70;16 Oct 2005; 1;6 ;2005
+Flamengo RJ;Sao Paulo;Pinnacle;2.45;3.25;3.25;16 Oct 2005; 1;6 ;2005
+Flamengo RJ;Sao Paulo;William Hill;3.25;3.25;3.25;16 Oct 2005; 1;6 ;2005
+Internacional;Vasco;bet-at-home;1.50;3.60;5.35;16 Oct 2005; 3;1 ;2005
+Internacional;Vasco;bet365;1.50;3.75;5.50;16 Oct 2005; 3;1 ;2005
+Internacional;Vasco;bwin;1.46;3.80;6.00;16 Oct 2005; 3;1 ;2005
+Internacional;Vasco;Pinnacle;1.50;3.75;5.85;16 Oct 2005; 3;1 ;2005
+Internacional;Vasco;William Hill;5.85;5.85;5.85;16 Oct 2005; 3;1 ;2005
+Palmeiras;Corinthians;bet365;2.62;3.20;2.37;16 Oct 2005; 1;1 ;2005
+Palmeiras;Corinthians;Pinnacle;2.70;3.25;3.25;16 Oct 2005; 1;1 ;2005
+Palmeiras;Corinthians;William Hill;3.25;3.25;3.25;16 Oct 2005; 1;1 ;2005
+Coritiba;Athletico-PR;bet-at-home;2.54;3.10;2.40;15 Oct 2005; 1;2 ;2005
+Coritiba;Athletico-PR;bet365;2.50;3.20;2.50;15 Oct 2005; 1;2 ;2005
+Coritiba;Athletico-PR;bwin;2.54;3.10;2.50;15 Oct 2005; 1;2 ;2005
+Coritiba;Athletico-PR;Pinnacle;2.50;3.40;2.50;15 Oct 2005; 1;2 ;2005
+Coritiba;Athletico-PR;William Hill;2.50;2.50;2.50;15 Oct 2005; 1;2 ;2005
+Figueirense;Parana;bet-at-home;2.35;3.10;2.60;15 Oct 2005; 2;0 ;2005
+Figueirense;Parana;bwin;2.35;3.10;2.75;15 Oct 2005; 2;0 ;2005
+Figueirense;Parana;Pinnacle;2.45;3.30;2.60;15 Oct 2005; 2;0 ;2005
+Figueirense;Parana;William Hill;2.60;2.60;2.60;15 Oct 2005; 2;0 ;2005
+Brasiliense;Juventude;bet-at-home;2.00;3.20;3.15;15 Oct 2005; 1;0 ;2005
+Brasiliense;Juventude;bet365;2.00;3.25;3.25;15 Oct 2005; 1;0 ;2005
+Brasiliense;Juventude;Pinnacle;2.15;3.15;3.20;15 Oct 2005; 1;0 ;2005
+Brasiliense;Juventude;William Hill;3.20;3.20;3.20;15 Oct 2005; 1;0 ;2005
+Fluminense;Botafogo RJ;bet-at-home;2.00;3.20;3.15;15 Oct 2005; 3;2 ;2005
+Fluminense;Botafogo RJ;bet365;2.10;3.25;3.00;15 Oct 2005; 3;2 ;2005
+Fluminense;Botafogo RJ;bwin;2.35;3.10;2.75;15 Oct 2005; 3;2 ;2005
+Fluminense;Botafogo RJ;Pinnacle;2.10;3.40;3.10;15 Oct 2005; 3;2 ;2005
+Fluminense;Botafogo RJ;William Hill;3.10;3.10;3.10;15 Oct 2005; 3;2 ;2005
+Fortaleza;Paysandu PA;bwin;1.45;1.45;6.00;15 Oct 2005; 1;2 ;2005
+Fortaleza;Paysandu PA;Pinnacle;1.50;3.70;6.00;15 Oct 2005; 1;2 ;2005
+Fortaleza;Paysandu PA;William Hill;6.00;6.00;6.00;15 Oct 2005; 1;2 ;2005
+Santos;Corinthians;bet-at-home;2.29;3.10;2.65;13 Oct 2005; 2;3 ;2005
+Santos;Corinthians;bet365;2.50;2.50;2.39;13 Oct 2005; 2;3 ;2005
+Santos;Corinthians;bwin;2.75;2.75;2.29;13 Oct 2005; 2;3 ;2005
+Santos;Corinthians;Pinnacle;2.65;3.10;2.50;13 Oct 2005; 2;3 ;2005
+Cruzeiro;Botafogo RJ;bet-at-home;1.65;3.35;4.40;12 Oct 2005; 2;2 ;2005
+Cruzeiro;Botafogo RJ;bet365;1.72;3.20;4.33;12 Oct 2005; 2;2 ;2005
+Cruzeiro;Botafogo RJ;bwin;4.33;4.33;4.33;12 Oct 2005; 2;2 ;2005
+Cruzeiro;Botafogo RJ;Pinnacle;1.70;3.40;4.59;12 Oct 2005; 2;2 ;2005
+Cruzeiro;Botafogo RJ;William Hill;1.60;3.55;4.59;12 Oct 2005; 2;2 ;2005
+Juventude;Fluminense;bet-at-home;2.15;3.20;2.80;12 Oct 2005; 3;4 ;2005
+Juventude;Fluminense;bet365;2.37;3.10;2.62;12 Oct 2005; 3;4 ;2005
+Juventude;Fluminense;bwin;2.62;2.62;2.62;12 Oct 2005; 3;4 ;2005
+Juventude;Fluminense;Pinnacle;2.40;3.20;2.70;12 Oct 2005; 3;4 ;2005
+Juventude;Fluminense;William Hill;2.35;3.30;2.50;12 Oct 2005; 3;4 ;2005
+Vasco;Figueirense;bet-at-home;1.90;3.30;3.30;12 Oct 2005; 3;3 ;2005
+Vasco;Figueirense;bet365;1.83;1.83;3.60;12 Oct 2005; 3;3 ;2005
+Vasco;Figueirense;bwin;1.85;3.25;3.75;12 Oct 2005; 3;3 ;2005
+Vasco;Figueirense;Pinnacle;1.80;1.80;4.00;12 Oct 2005; 3;3 ;2005
+Vasco;Figueirense;William Hill;1.90;3.40;3.25;12 Oct 2005; 3;3 ;2005
+Athletico-PR;Brasiliense;bet-at-home;1.45;3.80;5.70;11 Oct 2005; 4;0 ;2005
+Athletico-PR;Brasiliense;bet365;1.33;4.33;7.00;11 Oct 2005; 4;0 ;2005
+Athletico-PR;Brasiliense;bwin;1.45;3.75;6.50;11 Oct 2005; 4;0 ;2005
+Athletico-PR;Brasiliense;Pinnacle;1.40;4.00;7.00;11 Oct 2005; 4;0 ;2005
+Athletico-PR;Brasiliense;William Hill;1.40;3.90;6.60;11 Oct 2005; 4;0 ;2005
+Flamengo RJ;Atletico-MG;bet-at-home;1.85;3.25;3.50;11 Oct 2005; 1;2 ;2005
+Flamengo RJ;Atletico-MG;bet365;1.83;3.25;3.60;11 Oct 2005; 1;2 ;2005
+Flamengo RJ;Atletico-MG;bwin;1.90;3.25;3.60;11 Oct 2005; 1;2 ;2005
+Flamengo RJ;Atletico-MG;Pinnacle;1.91;3.25;3.85;11 Oct 2005; 1;2 ;2005
+Flamengo RJ;Atletico-MG;William Hill;3.85;3.85;3.85;11 Oct 2005; 1;2 ;2005
+Paysandu PA;Coritiba;bet-at-home;2.10;3.20;2.90;11 Oct 2005; 2;1 ;2005
+Paysandu PA;Coritiba;bet365;2.10;3.25;3.00;11 Oct 2005; 2;1 ;2005
+Paysandu PA;Coritiba;bwin;2.04;3.20;3.20;11 Oct 2005; 2;1 ;2005
+Paysandu PA;Coritiba;Pinnacle;2.15;3.30;3.10;11 Oct 2005; 2;1 ;2005
+Paysandu PA;Coritiba;William Hill;3.10;3.10;3.10;11 Oct 2005; 2;1 ;2005
+Sao Caetano;Internacional;bet-at-home;2.50;3.15;2.40;11 Oct 2005; 1;1 ;2005
+Sao Caetano;Internacional;bet365;2.62;2.62;2.29;11 Oct 2005; 1;1 ;2005
+Sao Caetano;Internacional;bwin;2.50;3.20;2.50;11 Oct 2005; 1;1 ;2005
+Sao Caetano;Internacional;Pinnacle;2.80;2.80;2.35;11 Oct 2005; 1;1 ;2005
+Sao Caetano;Internacional;William Hill;2.35;2.35;2.35;11 Oct 2005; 1;1 ;2005
+Sao Paulo;Ponte Preta;bet-at-home;1.40;3.90;6.20;11 Oct 2005; 3;2 ;2005
+Sao Paulo;Ponte Preta;bet365;1.39;3.79;6.50;11 Oct 2005; 3;2 ;2005
+Sao Paulo;Ponte Preta;bwin;1.35;4.00;8.25;11 Oct 2005; 3;2 ;2005
+Sao Paulo;Ponte Preta;Pinnacle;1.40;4.00;7.00;11 Oct 2005; 3;2 ;2005
+Sao Paulo;Ponte Preta;William Hill;7.00;7.00;7.00;11 Oct 2005; 3;2 ;2005
+Cruzeiro;Figueirense;bet365;1.57;3.60;5.00;08 Oct 2005; 4;0 ;2005
+Cruzeiro;Figueirense;bwin;1.60;3.50;5.00;08 Oct 2005; 4;0 ;2005
+Cruzeiro;Figueirense;Pinnacle;1.57;3.65;5.50;08 Oct 2005; 4;0 ;2005
+Cruzeiro;Figueirense;William Hill;5.50;5.50;5.50;08 Oct 2005; 4;0 ;2005
+Juventude;Santos;bet-at-home;2.40;3.10;2.50;08 Oct 2005; 3;1 ;2005
+Juventude;Santos;bet365;2.50;3.20;2.50;08 Oct 2005; 3;1 ;2005
+Juventude;Santos;bwin;2.50;3.20;2.50;08 Oct 2005; 3;1 ;2005
+Juventude;Santos;Pinnacle;2.70;3.25;2.40;08 Oct 2005; 3;1 ;2005
+Juventude;Santos;William Hill;2.40;3.25;2.50;08 Oct 2005; 3;1 ;2005
+Goias;Vasco;bet-at-home;1.45;3.80;5.70;08 Oct 2005; 4;3 ;2005
+Goias;Vasco;bet365;1.44;3.75;6.50;08 Oct 2005; 4;3 ;2005
+Goias;Vasco;bwin;1.40;3.90;7.00;08 Oct 2005; 4;3 ;2005
+Goias;Vasco;Pinnacle;1.44;1.44;6.25;08 Oct 2005; 4;3 ;2005
+Goias;Vasco;William Hill;6.25;6.25;6.25;08 Oct 2005; 4;3 ;2005
+Botafogo RJ;Palmeiras;bet-at-home;2.20;3.20;2.75;08 Oct 2005; 1;2 ;2005
+Botafogo RJ;Palmeiras;bet365;2.25;3.25;2.75;08 Oct 2005; 1;2 ;2005
+Botafogo RJ;Palmeiras;bwin;2.25;3.20;2.80;08 Oct 2005; 1;2 ;2005
+Botafogo RJ;Palmeiras;Pinnacle;2.35;3.25;2.80;08 Oct 2005; 1;2 ;2005
+Botafogo RJ;Palmeiras;William Hill;2.40;3.25;2.50;08 Oct 2005; 1;2 ;2005
+Corinthians;Fortaleza;bet-at-home;1.40;3.90;6.20;08 Oct 2005; 3;0 ;2005
+Corinthians;Fortaleza;bet365;1.44;3.75;6.50;08 Oct 2005; 3;0 ;2005
+Corinthians;Fortaleza;bwin;6.50;4.00;8.25;08 Oct 2005; 3;0 ;2005
+Corinthians;Fortaleza;William Hill;8.25;8.25;8.25;08 Oct 2005; 3;0 ;2005
+Parana;Fluminense;bet-at-home;2.25;3.10;2.75;08 Oct 2005; 6;1 ;2005
+Parana;Fluminense;bet365;2.20;3.25;2.79;08 Oct 2005; 6;1 ;2005
+Parana;Fluminense;bwin;2.29;3.20;2.75;08 Oct 2005; 6;1 ;2005
+Parana;Fluminense;Pinnacle;2.29;3.40;2.75;08 Oct 2005; 6;1 ;2005
+Parana;Fluminense;William Hill;2.15;3.35;2.80;08 Oct 2005; 6;1 ;2005
+Brasiliense;Flamengo RJ;bet-at-home;2.10;3.20;2.90;05 Oct 2005; 2;3 ;2005
+Brasiliense;Flamengo RJ;bet365;2.10;3.20;3.00;05 Oct 2005; 2;3 ;2005
+Brasiliense;Flamengo RJ;bwin;2.25;3.15;2.85;05 Oct 2005; 2;3 ;2005
+Brasiliense;Flamengo RJ;William Hill;1.95;3.30;3.25;05 Oct 2005; 2;3 ;2005
+Figueirense;Botafogo RJ;bet-at-home;1.95;3.20;3.25;05 Oct 2005; 1;0 ;2005
+Figueirense;Botafogo RJ;bet365;2.00;3.20;3.20;05 Oct 2005; 1;0 ;2005
+Figueirense;Botafogo RJ;bwin;1.95;3.20;3.50;05 Oct 2005; 1;0 ;2005
+Figueirense;Botafogo RJ;Pinnacle;2.00;3.25;3.50;05 Oct 2005; 1;0 ;2005
+Figueirense;Botafogo RJ;William Hill;2.04;3.30;3.00;05 Oct 2005; 1;0 ;2005
+Fluminense;Corinthians;bet-at-home;1.90;1.90;3.40;05 Oct 2005; 0;2 ;2005
+Fluminense;Corinthians;bet365;2.00;2.00;3.20;05 Oct 2005; 0;2 ;2005
+Fluminense;Corinthians;bwin;1.90;3.25;3.60;05 Oct 2005; 0;2 ;2005
+Fluminense;Corinthians;William Hill;2.29;3.40;3.40;05 Oct 2005; 0;2 ;2005
+Fortaleza;Athletico-PR;bet-at-home;1.80;3.25;3.70;05 Oct 2005; 1;4 ;2005
+Fortaleza;Athletico-PR;bet365;1.80;3.39;3.60;05 Oct 2005; 1;4 ;2005
+Fortaleza;Athletico-PR;bwin;3.60;3.60;3.60;05 Oct 2005; 1;4 ;2005
+Fortaleza;Athletico-PR;William Hill;3.60;3.60;3.60;05 Oct 2005; 1;4 ;2005
+Internacional;Sao Paulo;bet-at-home;1.85;3.20;3.60;05 Oct 2005; 3;0 ;2005
+Internacional;Sao Paulo;bet365;1.80;3.39;3.60;05 Oct 2005; 3;0 ;2005
+Internacional;Sao Paulo;bwin;3.60;3.60;3.60;05 Oct 2005; 3;0 ;2005
+Internacional;Sao Paulo;Pinnacle;1.91;1.91;3.80;05 Oct 2005; 3;0 ;2005
+Internacional;Sao Paulo;William Hill;3.80;3.80;3.80;05 Oct 2005; 3;0 ;2005
+Palmeiras;Paysandu PA;bet-at-home;1.30;4.50;7.00;05 Oct 2005; 5;3 ;2005
+Palmeiras;Paysandu PA;bet365;1.25;4.50;9.99;05 Oct 2005; 5;3 ;2005
+Palmeiras;Paysandu PA;bwin;1.25;5.00;9.00;05 Oct 2005; 5;3 ;2005
+Palmeiras;Paysandu PA;Pinnacle;1.27;4.50;9.99;05 Oct 2005; 5;3 ;2005
+Palmeiras;Paysandu PA;William Hill;1.25;4.50;9.99;05 Oct 2005; 5;3 ;2005
+Vasco;Cruzeiro;bet-at-home;2.00;3.20;3.15;05 Oct 2005; 3;3 ;2005
+Vasco;Cruzeiro;bet365;2.10;3.20;3.00;05 Oct 2005; 3;3 ;2005
+Vasco;Cruzeiro;bwin;2.20;3.20;2.90;05 Oct 2005; 3;3 ;2005
+Vasco;Cruzeiro;Pinnacle;2.10;3.25;3.20;05 Oct 2005; 3;3 ;2005
+Vasco;Cruzeiro;William Hill;1.95;3.30;3.25;05 Oct 2005; 3;3 ;2005
+Coritiba;Goias;bet-at-home;1.90;1.90;3.40;04 Oct 2005; 0;2 ;2005
+Coritiba;Goias;bet365;3.40;3.40;3.40;04 Oct 2005; 0;2 ;2005
+Coritiba;Goias;bwin;1.95;1.95;3.50;04 Oct 2005; 0;2 ;2005
+Coritiba;Goias;William Hill;3.50;3.50;3.50;04 Oct 2005; 0;2 ;2005
+Ponte Preta;Juventude;bet-at-home;1.75;3.30;3.90;04 Oct 2005; 3;2 ;2005
+Ponte Preta;Juventude;bet365;1.72;3.39;4.00;04 Oct 2005; 3;2 ;2005
+Ponte Preta;Juventude;bwin;1.70;3.40;4.30;04 Oct 2005; 3;2 ;2005
+Ponte Preta;Juventude;William Hill;1.75;3.40;3.90;04 Oct 2005; 3;2 ;2005
+Santos;Sao Caetano;bet-at-home;1.50;3.65;5.30;04 Oct 2005; 2;0 ;2005
+Santos;Sao Caetano;bet365;1.39;3.75;7.00;04 Oct 2005; 2;0 ;2005
+Santos;Sao Caetano;bwin;1.55;3.55;5.40;04 Oct 2005; 2;0 ;2005
+Santos;Sao Caetano;William Hill;5.40;5.40;5.40;04 Oct 2005; 2;0 ;2005
+Atletico-MG;Parana;bet-at-home;1.90;3.20;3.40;04 Oct 2005; 0;1 ;2005
+Atletico-MG;Parana;bet365;1.90;3.25;3.39;04 Oct 2005; 0;1 ;2005
+Atletico-MG;Parana;bwin;1.85;3.25;3.75;04 Oct 2005; 0;1 ;2005
+Atletico-MG;Parana;Pinnacle;1.95;3.25;3.65;04 Oct 2005; 0;1 ;2005
+Atletico-MG;Parana;William Hill;2.20;2.20;2.70;04 Oct 2005; 0;1 ;2005
+Athletico-PR;Flamengo RJ;bet-at-home;1.50;3.60;5.50;02 Oct 2005; 2;0 ;2005
+Athletico-PR;Flamengo RJ;bet365;1.50;3.75;5.50;02 Oct 2005; 2;0 ;2005
+Athletico-PR;Flamengo RJ;bwin;1.50;3.60;6.00;02 Oct 2005; 2;0 ;2005
+Athletico-PR;Flamengo RJ;Pinnacle;6.00;6.00;6.00;02 Oct 2005; 2;0 ;2005
+Botafogo RJ;Sao Paulo;bet-at-home;2.35;3.20;2.54;02 Oct 2005; 1;1 ;2005
+Botafogo RJ;Sao Paulo;bet365;2.54;2.54;2.54;02 Oct 2005; 1;1 ;2005
+Botafogo RJ;Sao Paulo;bwin;2.40;2.40;2.65;02 Oct 2005; 1;1 ;2005
+Botafogo RJ;Sao Paulo;Pinnacle;2.40;3.25;2.70;02 Oct 2005; 1;1 ;2005
+Corinthians;Brasiliense;bet-at-home;1.35;4.20;6.80;02 Oct 2005; 3;2 ;2005
+Corinthians;Brasiliense;bet365;1.33;4.50;7.00;02 Oct 2005; 3;2 ;2005
+Corinthians;Brasiliense;bwin;1.35;4.25;7.25;02 Oct 2005; 3;2 ;2005
+Corinthians;Brasiliense;Pinnacle;1.32;4.59;7.50;02 Oct 2005; 3;2 ;2005
+Internacional;Fluminense;bet-at-home;1.90;3.20;3.45;02 Oct 2005; 2;2 ;2005
+Internacional;Fluminense;bet365;1.83;3.25;3.75;02 Oct 2005; 2;2 ;2005
+Internacional;Fluminense;bwin;1.85;3.25;3.75;02 Oct 2005; 2;2 ;2005
+Internacional;Fluminense;Pinnacle;1.87;3.30;3.85;02 Oct 2005; 2;2 ;2005
+Vasco;Palmeiras;bet-at-home;2.50;3.20;2.40;02 Oct 2005; 0;0 ;2005
+Vasco;Palmeiras;bet365;2.50;3.20;2.50;02 Oct 2005; 0;0 ;2005
+Vasco;Palmeiras;bwin;2.60;3.15;2.45;02 Oct 2005; 0;0 ;2005
+Vasco;Palmeiras;Pinnacle;2.60;3.25;2.50;02 Oct 2005; 0;0 ;2005
+Santos;Fortaleza;bet-at-home;1.40;4.00;6.00;01 Oct 2005; 0;0 ;2005
+Santos;Fortaleza;bet365;1.44;3.75;6.50;01 Oct 2005; 0;0 ;2005
+Santos;Fortaleza;bwin;1.35;4.25;7.25;01 Oct 2005; 0;0 ;2005
+Santos;Fortaleza;Pinnacle;1.44;3.80;6.65;01 Oct 2005; 0;0 ;2005
+Sao Caetano;Atletico-MG;bet-at-home;2.20;3.20;2.75;01 Oct 2005; 3;1 ;2005
+Sao Caetano;Atletico-MG;bet365;2.25;3.20;2.79;01 Oct 2005; 3;1 ;2005
+Sao Caetano;Atletico-MG;Pinnacle;2.25;3.25;2.90;01 Oct 2005; 3;1 ;2005
+Paysandu PA;Figueirense;bet-at-home;1.95;3.25;3.25;01 Oct 2005; 3;1 ;2005
+Paysandu PA;Figueirense;bet365;2.00;3.25;3.25;01 Oct 2005; 3;1 ;2005
+Paysandu PA;Figueirense;bwin;1.90;1.90;3.60;01 Oct 2005; 3;1 ;2005
+Paysandu PA;Figueirense;Pinnacle;2.00;2.00;3.50;01 Oct 2005; 3;1 ;2005
+Cruzeiro;Juventude;bet-at-home;1.65;3.40;4.30;01 Oct 2005; 2;0 ;2005
+Cruzeiro;Juventude;bet365;1.66;3.39;4.50;01 Oct 2005; 2;0 ;2005
+Cruzeiro;Juventude;bwin;1.60;3.60;4.80;01 Oct 2005; 2;0 ;2005
+Cruzeiro;Juventude;Pinnacle;1.68;3.40;4.80;01 Oct 2005; 2;0 ;2005
+Goias;Ponte Preta;bet-at-home;1.55;3.60;4.90;01 Oct 2005; 4;1 ;2005
+Goias;Ponte Preta;bet365;1.53;3.50;5.50;01 Oct 2005; 4;1 ;2005
+Goias;Ponte Preta;bwin;1.55;1.55;5.35;01 Oct 2005; 4;1 ;2005
+Goias;Ponte Preta;Pinnacle;5.35;5.35;5.35;01 Oct 2005; 4;1 ;2005
+Parana;Coritiba;bet-at-home;2.20;3.15;2.80;01 Oct 2005; 3;2 ;2005
+Parana;Coritiba;bwin;2.25;3.15;2.85;01 Oct 2005; 3;2 ;2005
+Parana;Coritiba;Pinnacle;2.25;3.25;2.90;01 Oct 2005; 3;2 ;2005
+Atletico-MG;Internacional;bet-at-home;2.40;3.10;2.50;25 Sep 2005; 1;1 ;2005
+Atletico-MG;Internacional;bet365;2.37;3.25;2.60;25 Sep 2005; 1;1 ;2005
+Atletico-MG;Internacional;bwin;2.40;2.40;2.70;25 Sep 2005; 1;1 ;2005
+Atletico-MG;Internacional;Pinnacle;2.54;3.10;2.65;25 Sep 2005; 1;1 ;2005
+Fluminense;Santos;bet-at-home;1.85;3.20;3.50;25 Sep 2005; 4;3 ;2005
+Fluminense;Santos;bet365;1.90;3.25;3.50;25 Sep 2005; 4;3 ;2005
+Fluminense;Santos;bwin;1.85;3.25;3.75;25 Sep 2005; 4;3 ;2005
+Fluminense;Santos;Pinnacle;2.00;3.25;3.50;25 Sep 2005; 4;3 ;2005
+Palmeiras;Goias;bet-at-home;1.75;3.20;4.00;25 Sep 2005; 3;1 ;2005
+Palmeiras;Goias;bet365;1.72;3.25;4.33;25 Sep 2005; 3;1 ;2005
+Palmeiras;Goias;bwin;1.70;3.40;4.30;25 Sep 2005; 3;1 ;2005
+Palmeiras;Goias;Pinnacle;1.83;3.35;4.00;25 Sep 2005; 3;1 ;2005
+Coritiba;Vasco;bet-at-home;1.75;3.20;4.00;25 Sep 2005; 2;0 ;2005
+Coritiba;Vasco;bet365;1.72;3.25;4.33;25 Sep 2005; 2;0 ;2005
+Coritiba;Vasco;bwin;1.75;3.35;4.09;25 Sep 2005; 2;0 ;2005
+Coritiba;Vasco;Pinnacle;1.80;3.30;4.20;25 Sep 2005; 2;0 ;2005
+Juventude;Botafogo RJ;bet-at-home;1.90;3.20;3.40;25 Sep 2005; 0;0 ;2005
+Juventude;Botafogo RJ;bet365;1.90;3.25;3.50;25 Sep 2005; 0;0 ;2005
+Juventude;Botafogo RJ;bwin;2.10;3.15;3.15;25 Sep 2005; 0;0 ;2005
+Juventude;Botafogo RJ;Pinnacle;2.00;3.25;3.45;25 Sep 2005; 0;0 ;2005
+Figueirense;Athletico-PR;bet-at-home;2.15;3.10;2.80;25 Sep 2005; 2;0 ;2005
+Figueirense;Athletico-PR;bet365;2.14;3.25;2.87;25 Sep 2005; 2;0 ;2005
+Figueirense;Athletico-PR;bwin;2.20;3.10;3.00;25 Sep 2005; 2;0 ;2005
+Figueirense;Athletico-PR;Pinnacle;2.35;3.15;2.85;25 Sep 2005; 2;0 ;2005
+Flamengo RJ;Corinthians;bet-at-home;2.45;3.10;2.50;25 Sep 2005; 1;3 ;2005
+Flamengo RJ;Corinthians;bet365;2.37;3.25;2.60;25 Sep 2005; 1;3 ;2005
+Flamengo RJ;Corinthians;bwin;2.60;2.60;2.60;25 Sep 2005; 1;3 ;2005
+Flamengo RJ;Corinthians;Pinnacle;2.50;3.30;2.54;25 Sep 2005; 1;3 ;2005
+Ponte Preta;Cruzeiro;bet-at-home;1.85;3.20;3.50;25 Sep 2005; 2;3 ;2005
+Ponte Preta;Cruzeiro;bet365;1.90;3.25;3.50;25 Sep 2005; 2;3 ;2005
+Ponte Preta;Cruzeiro;bwin;1.95;3.20;3.50;25 Sep 2005; 2;3 ;2005
+Ponte Preta;Cruzeiro;Pinnacle;1.91;3.25;3.75;25 Sep 2005; 2;3 ;2005
+Brasiliense;Sao Caetano;bet-at-home;1.90;3.25;3.35;24 Sep 2005; 1;1 ;2005
+Brasiliense;Sao Caetano;bet365;1.83;3.25;3.75;24 Sep 2005; 1;1 ;2005
+Brasiliense;Sao Caetano;bwin;1.75;3.35;4.09;24 Sep 2005; 1;1 ;2005
+Brasiliense;Sao Caetano;Pinnacle;1.91;3.30;3.75;24 Sep 2005; 1;1 ;2005
+Sao Paulo;Paysandu PA;bet-at-home;1.30;4.30;7.60;24 Sep 2005; 4;1 ;2005
+Sao Paulo;Paysandu PA;bet365;1.25;5.00;8.50;24 Sep 2005; 4;1 ;2005
+Sao Paulo;Paysandu PA;bwin;1.25;4.90;9.19;24 Sep 2005; 4;1 ;2005
+Sao Paulo;Paysandu PA;Pinnacle;1.25;5.00;9.50;24 Sep 2005; 4;1 ;2005
+Juventude;Coritiba;bet-at-home;1.75;3.35;3.85;22 Sep 2005; 0;0 ;2005
+Juventude;Coritiba;bet365;1.72;3.25;4.33;22 Sep 2005; 0;0 ;2005
+Juventude;Coritiba;bwin;1.80;3.35;3.85;22 Sep 2005; 0;0 ;2005
+Juventude;Coritiba;Pinnacle;3.85;3.85;3.85;22 Sep 2005; 0;0 ;2005
+Vasco;Ponte Preta;bet-at-home;1.75;3.35;3.85;22 Sep 2005; 0;0 ;2005
+Vasco;Ponte Preta;bet365;1.72;3.25;4.33;22 Sep 2005; 0;0 ;2005
+Vasco;Ponte Preta;bwin;1.70;3.45;4.25;22 Sep 2005; 0;0 ;2005
+Vasco;Ponte Preta;Pinnacle;1.74;3.40;4.50;22 Sep 2005; 0;0 ;2005
+Cruzeiro;Sao Paulo;bet-at-home;2.20;3.15;2.80;21 Sep 2005; 2;3 ;2005
+Cruzeiro;Sao Paulo;bet365;2.29;3.25;2.62;21 Sep 2005; 2;3 ;2005
+Fortaleza;Internacional;bet-at-home;2.20;3.20;2.75;21 Sep 2005; 1;2 ;2005
+Fortaleza;Internacional;bet365;2.10;3.25;2.89;21 Sep 2005; 1;2 ;2005
+Fortaleza;Internacional;bwin;2.29;3.10;2.80;21 Sep 2005; 1;2 ;2005
+Fortaleza;Internacional;Pinnacle;2.25;3.25;2.90;21 Sep 2005; 1;2 ;2005
+Goias;Paysandu PA;bet-at-home;1.45;3.80;5.60;21 Sep 2005; 4;1 ;2005
+Goias;Paysandu PA;bwin;1.35;4.09;7.75;21 Sep 2005; 4;1 ;2005
+Goias;Paysandu PA;Pinnacle;1.40;4.00;7.00;21 Sep 2005; 4;1 ;2005
+Parana;Brasiliense;bwin;1.55;3.55;5.35;21 Sep 2005; 4;1 ;2005
+Santos;Palmeiras;bet-at-home;2.15;3.15;2.85;21 Sep 2005; 2;1 ;2005
+Santos;Palmeiras;bet365;2.29;3.25;2.62;21 Sep 2005; 2;1 ;2005
+Santos;Palmeiras;Pinnacle;2.29;3.25;2.85;21 Sep 2005; 2;1 ;2005
+Sao Caetano;Figueirense;bet-at-home;1.65;3.35;4.34;21 Sep 2005; 0;1 ;2005
+Sao Caetano;Figueirense;bet365;1.66;3.25;4.50;21 Sep 2005; 0;1 ;2005
+Sao Caetano;Figueirense;Pinnacle;1.67;3.45;4.84;21 Sep 2005; 0;1 ;2005
+Fluminense;Flamengo RJ;bet-at-home;2.00;3.30;3.15;21 Sep 2005; 2;2 ;2005
+Fluminense;Flamengo RJ;bet365;2.00;3.25;3.20;21 Sep 2005; 2;2 ;2005
+Atletico-MG;Santos;bet-at-home;2.54;3.20;2.35;18 Sep 2005; 3;0 ;2005
+Atletico-MG;Santos;bet365;2.60;3.25;2.29;18 Sep 2005; 3;0 ;2005
+Atletico-MG;Santos;bwin;2.60;3.05;2.50;18 Sep 2005; 3;0 ;2005
+Atletico-MG;Santos;Pinnacle;2.80;3.15;2.40;18 Sep 2005; 3;0 ;2005
+Coritiba;Fluminense;bet-at-home;2.50;3.20;2.40;18 Sep 2005; 0;0 ;2005
+Coritiba;Fluminense;bet365;2.60;3.25;2.37;18 Sep 2005; 0;0 ;2005
+Coritiba;Fluminense;bwin;2.60;3.15;2.45;18 Sep 2005; 0;0 ;2005
+Coritiba;Fluminense;Pinnacle;2.60;3.25;2.50;18 Sep 2005; 0;0 ;2005
+Botafogo RJ;Goias;bet-at-home;2.04;3.25;2.95;18 Sep 2005; 3;1 ;2005
+Botafogo RJ;Goias;bet365;2.04;3.25;3.00;18 Sep 2005; 3;1 ;2005
+Botafogo RJ;Goias;bwin;2.20;3.10;3.00;18 Sep 2005; 3;1 ;2005
+Botafogo RJ;Goias;Pinnacle;2.20;3.25;3.00;18 Sep 2005; 3;1 ;2005
+Brasiliense;Fortaleza;bet-at-home;1.90;3.25;3.35;18 Sep 2005; 0;2 ;2005
+Brasiliense;Fortaleza;bet365;1.83;3.25;3.75;18 Sep 2005; 0;2 ;2005
+Brasiliense;Fortaleza;bwin;1.85;3.25;3.75;18 Sep 2005; 0;2 ;2005
+Brasiliense;Fortaleza;Pinnacle;3.75;3.75;3.75;18 Sep 2005; 0;2 ;2005
+Figueirense;Corinthians;bet-at-home;2.70;3.15;2.25;18 Sep 2005; 2;3 ;2005
+Figueirense;Corinthians;bet365;2.75;3.25;2.25;18 Sep 2005; 2;3 ;2005
+Figueirense;Corinthians;bwin;2.80;3.10;2.29;18 Sep 2005; 2;3 ;2005
+Figueirense;Corinthians;Pinnacle;2.90;3.20;2.29;18 Sep 2005; 2;3 ;2005
+Internacional;Athletico-PR;bet-at-home;1.65;3.40;4.30;18 Sep 2005; 3;2 ;2005
+Internacional;Athletico-PR;bet365;1.61;3.50;4.50;18 Sep 2005; 3;2 ;2005
+Internacional;Athletico-PR;bwin;1.65;3.50;4.50;18 Sep 2005; 3;2 ;2005
+Internacional;Athletico-PR;Pinnacle;1.69;3.50;4.59;18 Sep 2005; 3;2 ;2005
+Sao Paulo;Vasco;bet-at-home;1.55;3.50;5.00;18 Sep 2005; 4;2 ;2005
+Sao Paulo;Vasco;bet365;1.50;3.60;3.60;18 Sep 2005; 4;2 ;2005
+Sao Paulo;Vasco;bwin;3.60;3.60;3.60;18 Sep 2005; 4;2 ;2005
+Sao Paulo;Vasco;Pinnacle;3.60;3.60;3.60;18 Sep 2005; 4;2 ;2005
+Flamengo RJ;Sao Caetano;bet-at-home;1.95;3.20;3.30;17 Sep 2005; 2;0 ;2005
+Flamengo RJ;Sao Caetano;bet365;1.90;3.25;3.39;17 Sep 2005; 2;0 ;2005
+Flamengo RJ;Sao Caetano;bwin;1.95;3.20;3.50;17 Sep 2005; 2;0 ;2005
+Flamengo RJ;Sao Caetano;Pinnacle;1.95;3.25;3.60;17 Sep 2005; 2;0 ;2005
+Palmeiras;Cruzeiro;bet-at-home;1.70;3.30;4.15;17 Sep 2005; 2;1 ;2005
+Palmeiras;Cruzeiro;bet365;1.72;3.25;4.33;17 Sep 2005; 2;1 ;2005
+Palmeiras;Cruzeiro;bwin;1.75;3.35;4.09;17 Sep 2005; 2;1 ;2005
+Palmeiras;Cruzeiro;Pinnacle;4.09;4.09;4.09;17 Sep 2005; 2;1 ;2005
+Ponte Preta;Parana;bet-at-home;2.10;3.15;2.95;17 Sep 2005; 1;0 ;2005
+Ponte Preta;Parana;bet365;2.10;3.25;2.89;17 Sep 2005; 1;0 ;2005
+Ponte Preta;Parana;bwin;2.10;3.10;3.20;17 Sep 2005; 1;0 ;2005
+Ponte Preta;Parana;Pinnacle;2.10;3.20;3.25;17 Sep 2005; 1;0 ;2005
+Atletico-MG;Botafogo RJ;bet-at-home;1.90;3.25;3.35;11 Sep 2005; 0;2 ;2005
+Atletico-MG;Botafogo RJ;bet365;1.72;3.39;4.00;11 Sep 2005; 0;2 ;2005
+Atletico-MG;Botafogo RJ;bwin;1.80;3.30;4.00;11 Sep 2005; 0;2 ;2005
+Atletico-MG;Botafogo RJ;Pinnacle;1.80;3.40;4.00;11 Sep 2005; 0;2 ;2005
+Atletico-MG;Botafogo RJ;William Hill;4.00;4.00;4.00;11 Sep 2005; 0;2 ;2005
+Coritiba;Sao Paulo;bet-at-home;2.20;3.10;2.80;11 Sep 2005; 1;4 ;2005
+Coritiba;Sao Paulo;bet365;2.20;3.25;2.75;11 Sep 2005; 1;4 ;2005
+Coritiba;Sao Paulo;bwin;2.20;3.10;3.00;11 Sep 2005; 1;4 ;2005
+Coritiba;Sao Paulo;Pinnacle;2.25;2.25;2.90;11 Sep 2005; 1;4 ;2005
+Coritiba;Sao Paulo;William Hill;2.90;2.90;2.90;11 Sep 2005; 1;4 ;2005
+Ponte Preta;Fortaleza;bet-at-home;1.90;3.25;3.35;11 Sep 2005; 2;1 ;2005
+Ponte Preta;Fortaleza;bet365;1.90;3.25;3.39;11 Sep 2005; 2;1 ;2005
+Ponte Preta;Fortaleza;bwin;1.85;3.25;3.80;11 Sep 2005; 2;1 ;2005
+Ponte Preta;Fortaleza;Pinnacle;3.80;3.80;3.80;11 Sep 2005; 2;1 ;2005
+Ponte Preta;Fortaleza;William Hill;3.80;3.80;3.80;11 Sep 2005; 2;1 ;2005
+Internacional;Figueirense;bet-at-home;1.40;4.00;6.00;11 Sep 2005; 3;0 ;2005
+Internacional;Figueirense;bet365;1.39;3.75;7.00;11 Sep 2005; 3;0 ;2005
+Internacional;Figueirense;bwin;1.40;4.00;7.00;11 Sep 2005; 3;0 ;2005
+Internacional;Figueirense;Pinnacle;1.40;3.85;7.50;11 Sep 2005; 3;0 ;2005
+Parana;Palmeiras;bet-at-home;2.29;3.20;2.60;11 Sep 2005; 1;3 ;2005
+Parana;Palmeiras;bet365;3.00;3.00;2.10;11 Sep 2005; 1;3 ;2005
+Parana;Palmeiras;bwin;2.10;2.10;2.10;11 Sep 2005; 1;3 ;2005
+Parana;Palmeiras;Pinnacle;2.94;3.29;2.21;11 Sep 2005; 1;3 ;2005
+Santos;Flamengo RJ;bet-at-home;1.40;4.00;6.00;11 Sep 2005; 0;0 ;2005
+Santos;Flamengo RJ;bet365;1.39;3.75;7.00;11 Sep 2005; 0;0 ;2005
+Santos;Flamengo RJ;bwin;7.00;7.00;7.00;11 Sep 2005; 0;0 ;2005
+Santos;Flamengo RJ;Pinnacle;7.00;7.00;7.00;11 Sep 2005; 0;0 ;2005
+Santos;Flamengo RJ;William Hill;7.00;7.00;7.00;11 Sep 2005; 0;0 ;2005
+Vasco;Juventude;bet-at-home;2.04;3.10;3.10;11 Sep 2005; 5;2 ;2005
+Vasco;Juventude;bet365;3.10;3.10;3.10;11 Sep 2005; 5;2 ;2005
+Vasco;Juventude;bwin;3.10;3.10;3.10;11 Sep 2005; 5;2 ;2005
+Vasco;Juventude;Pinnacle;3.10;3.10;3.10;11 Sep 2005; 5;2 ;2005
+Corinthians;Athletico-PR;bet-at-home;1.80;3.30;3.65;11 Sep 2005; 2;0 ;2005
+Corinthians;Athletico-PR;bet365;1.72;3.39;4.00;11 Sep 2005; 2;0 ;2005
+Corinthians;Athletico-PR;bwin;1.75;3.30;4.20;11 Sep 2005; 2;0 ;2005
+Corinthians;Athletico-PR;Pinnacle;1.74;3.40;4.34;11 Sep 2005; 2;0 ;2005
+Goias;Cruzeiro;bet-at-home;1.90;1.90;3.30;10 Sep 2005; 1;0 ;2005
+Goias;Cruzeiro;bet365;3.30;3.30;3.30;10 Sep 2005; 1;0 ;2005
+Goias;Cruzeiro;Pinnacle;1.74;3.40;4.34;10 Sep 2005; 1;0 ;2005
+Sao Caetano;Paysandu PA;bet-at-home;1.40;3.90;6.30;10 Sep 2005; 1;2 ;2005
+Sao Caetano;Paysandu PA;bet365;1.39;3.75;7.00;10 Sep 2005; 1;2 ;2005
+Sao Caetano;Paysandu PA;Pinnacle;1.40;4.00;7.25;10 Sep 2005; 1;2 ;2005
+Flamengo RJ;Internacional;bet-at-home;2.45;3.10;2.50;08 Sep 2005; 1;1 ;2005
+Flamengo RJ;Internacional;bet365;2.50;3.25;2.39;08 Sep 2005; 1;1 ;2005
+Flamengo RJ;Internacional;bwin;2.54;3.05;2.54;08 Sep 2005; 1;1 ;2005
+Flamengo RJ;Internacional;Pinnacle;2.54;3.25;2.50;08 Sep 2005; 1;1 ;2005
+Flamengo RJ;Internacional;William Hill;2.50;2.50;2.50;08 Sep 2005; 1;1 ;2005
+Palmeiras;Coritiba;bet-at-home;1.60;3.40;4.65;08 Sep 2005; 1;1 ;2005
+Palmeiras;Coritiba;bet365;4.65;4.65;4.65;08 Sep 2005; 1;1 ;2005
+Palmeiras;Coritiba;bwin;4.65;4.65;4.65;08 Sep 2005; 1;1 ;2005
+Palmeiras;Coritiba;Pinnacle;1.56;3.75;5.30;08 Sep 2005; 1;1 ;2005
+Palmeiras;Coritiba;William Hill;5.30;5.30;5.30;08 Sep 2005; 1;1 ;2005
+Athletico-PR;Santos;bet-at-home;2.10;3.20;2.90;07 Sep 2005; 3;3 ;2005
+Athletico-PR;Santos;bet365;2.00;3.25;3.10;07 Sep 2005; 3;3 ;2005
+Athletico-PR;Santos;William Hill;2.20;3.30;2.75;07 Sep 2005; 3;3 ;2005
+Cruzeiro;Fluminense;bet-at-home;1.85;3.15;3.65;07 Sep 2005; 2;6 ;2005
+Cruzeiro;Fluminense;bet365;3.65;3.65;3.65;07 Sep 2005; 2;6 ;2005
+Cruzeiro;Fluminense;bwin;3.65;3.65;3.65;07 Sep 2005; 2;6 ;2005
+Cruzeiro;Fluminense;William Hill;3.65;3.65;3.65;07 Sep 2005; 2;6 ;2005
+Paysandu PA;Ponte Preta;bet-at-home;2.10;2.10;2.90;07 Sep 2005; 2;2 ;2005
+Paysandu PA;Ponte Preta;bet365;2.00;2.00;3.10;07 Sep 2005; 2;2 ;2005
+Paysandu PA;Ponte Preta;William Hill;2.00;3.35;3.05;07 Sep 2005; 2;2 ;2005
+Juventude;Parana;bet-at-home;2.04;3.15;3.05;07 Sep 2005; 2;0 ;2005
+Juventude;Parana;bet365;2.20;3.25;2.75;07 Sep 2005; 2;0 ;2005
+Juventude;Parana;bwin;2.20;3.15;2.95;07 Sep 2005; 2;0 ;2005
+Juventude;Parana;Pinnacle;2.29;3.25;2.85;07 Sep 2005; 2;0 ;2005
+Juventude;Parana;William Hill;2.04;3.35;2.95;07 Sep 2005; 2;0 ;2005
+Botafogo RJ;Vasco;bet-at-home;2.15;3.20;2.80;07 Sep 2005; 2;2 ;2005
+Botafogo RJ;Vasco;bet365;2.39;3.25;2.50;07 Sep 2005; 2;2 ;2005
+Botafogo RJ;Vasco;bwin;2.45;3.15;2.60;07 Sep 2005; 2;2 ;2005
+Botafogo RJ;Vasco;Pinnacle;2.45;3.25;2.65;07 Sep 2005; 2;2 ;2005
+Botafogo RJ;Vasco;William Hill;2.65;3.25;2.45;07 Sep 2005; 2;2 ;2005
+Figueirense;Goias;bet-at-home;2.65;3.20;2.25;07 Sep 2005; 3;0 ;2005
+Figueirense;Goias;bet365;2.60;3.25;2.29;07 Sep 2005; 3;0 ;2005
+Figueirense;Goias;bwin;2.54;2.54;2.45;07 Sep 2005; 3;0 ;2005
+Figueirense;Goias;Pinnacle;2.85;3.25;2.29;07 Sep 2005; 3;0 ;2005
+Figueirense;Goias;William Hill;2.65;3.35;2.25;07 Sep 2005; 3;0 ;2005
+Fortaleza;Sao Caetano;bet-at-home;1.95;3.20;3.25;07 Sep 2005; 5;2 ;2005
+Fortaleza;Sao Caetano;bet365;1.90;3.25;3.39;07 Sep 2005; 5;2 ;2005
+Fortaleza;Sao Caetano;bwin;2.10;3.15;3.15;07 Sep 2005; 5;2 ;2005
+Fortaleza;Sao Caetano;Pinnacle;3.15;3.15;3.15;07 Sep 2005; 5;2 ;2005
+Fortaleza;Sao Caetano;William Hill;3.15;3.15;3.15;07 Sep 2005; 5;2 ;2005
+Fluminense;Paysandu PA;bet-at-home;1.45;3.80;5.60;28 Aug 2005; 5;2 ;2005
+Fluminense;Paysandu PA;bet365;1.30;1.30;9.50;28 Aug 2005; 5;2 ;2005
+Fluminense;Paysandu PA;William Hill;9.50;9.50;9.50;28 Aug 2005; 5;2 ;2005
+Fortaleza;Vasco;bet-at-home;1.90;3.20;3.40;28 Aug 2005; 4;2 ;2005
+Fortaleza;Vasco;bet365;1.72;3.39;4.00;28 Aug 2005; 4;2 ;2005
+Fortaleza;Vasco;William Hill;1.70;3.45;4.09;28 Aug 2005; 4;2 ;2005
+Santos;Coritiba;bet-at-home;1.50;3.60;5.30;28 Aug 2005; 2;0 ;2005
+Santos;Coritiba;bet365;1.57;3.50;5.00;28 Aug 2005; 2;0 ;2005
+Santos;Coritiba;William Hill;1.55;3.65;4.90;28 Aug 2005; 2;0 ;2005
+Atletico-MG;Ponte Preta;bet-at-home;1.95;3.25;3.20;28 Aug 2005; 1;0 ;2005
+Atletico-MG;Ponte Preta;bet365;3.20;3.20;3.20;28 Aug 2005; 1;0 ;2005
+Atletico-MG;Ponte Preta;William Hill;3.20;3.20;3.20;28 Aug 2005; 1;0 ;2005
+Corinthians;Botafogo RJ;bet-at-home;1.45;3.80;5.60;28 Aug 2005; 3;3 ;2005
+Corinthians;Botafogo RJ;bet365;1.44;3.60;3.60;28 Aug 2005; 3;3 ;2005
+Corinthians;Botafogo RJ;William Hill;3.60;3.60;3.60;28 Aug 2005; 3;3 ;2005
+Flamengo RJ;Figueirense;bet365;1.61;3.25;5.00;28 Aug 2005; 2;2 ;2005
+Flamengo RJ;Figueirense;William Hill;1.65;3.50;4.30;28 Aug 2005; 2;2 ;2005
+Internacional;Cruzeiro;bet-at-home;2.04;3.20;3.00;28 Aug 2005; 4;1 ;2005
+Internacional;Cruzeiro;bet365;2.10;2.10;3.00;28 Aug 2005; 4;1 ;2005
+Internacional;Cruzeiro;William Hill;2.10;2.10;2.85;28 Aug 2005; 4;1 ;2005
+Parana;Sao Paulo;bet-at-home;1.95;3.25;3.20;28 Aug 2005; 0;4 ;2005
+Parana;Sao Paulo;bet365;2.00;3.20;3.20;28 Aug 2005; 0;4 ;2005
+Parana;Sao Paulo;William Hill;1.90;1.90;3.35;28 Aug 2005; 0;4 ;2005
+Athletico-PR;Juventude;bet-at-home;1.70;3.40;4.00;27 Aug 2005; 2;2 ;2005
+Athletico-PR;Juventude;bet365;4.00;4.00;4.00;27 Aug 2005; 2;2 ;2005
+Athletico-PR;Juventude;William Hill;4.00;4.00;4.00;27 Aug 2005; 2;2 ;2005
+Brasiliense;Palmeiras;bet-at-home;2.50;3.10;2.40;27 Aug 2005; 3;2 ;2005
+Brasiliense;Palmeiras;bet365;2.50;3.25;2.39;27 Aug 2005; 3;2 ;2005
+Brasiliense;Palmeiras;William Hill;2.60;3.30;2.29;27 Aug 2005; 3;2 ;2005
+Sao Caetano;Goias;bet-at-home;2.00;3.25;3.10;27 Aug 2005; 0;1 ;2005
+Sao Caetano;Goias;bet365;2.10;3.20;3.00;27 Aug 2005; 0;1 ;2005
+Sao Caetano;Goias;William Hill;2.10;3.35;2.85;27 Aug 2005; 0;1 ;2005
+Botafogo RJ;Internacional;bet-at-home;2.10;3.25;2.90;25 Aug 2005; 0;1 ;2005
+Botafogo RJ;Internacional;bet365;2.10;3.20;3.00;25 Aug 2005; 0;1 ;2005
+Botafogo RJ;Internacional;Pinnacle;2.20;3.25;3.00;25 Aug 2005; 0;1 ;2005
+Botafogo RJ;Internacional;William Hill;2.15;3.30;2.80;25 Aug 2005; 0;1 ;2005
+Coritiba;Fortaleza;bet-at-home;1.65;3.40;4.30;25 Aug 2005; 2;0 ;2005
+Coritiba;Fortaleza;bet365;1.66;3.39;4.33;25 Aug 2005; 2;0 ;2005
+Coritiba;Fortaleza;Pinnacle;1.68;3.50;4.65;25 Aug 2005; 2;0 ;2005
+Coritiba;Fortaleza;William Hill;4.65;4.65;4.65;25 Aug 2005; 2;0 ;2005
+Figueirense;Atletico-MG;bet-at-home;1.90;3.30;3.30;25 Aug 2005; 0;1 ;2005
+Figueirense;Atletico-MG;bet365;1.83;3.39;3.50;25 Aug 2005; 0;1 ;2005
+Figueirense;Atletico-MG;Pinnacle;1.90;3.30;3.80;25 Aug 2005; 0;1 ;2005
+Figueirense;Atletico-MG;William Hill;3.80;3.80;3.80;25 Aug 2005; 0;1 ;2005
+Cruzeiro;Flamengo RJ;bet-at-home;1.40;4.00;6.00;24 Aug 2005; 0;0 ;2005
+Cruzeiro;Flamengo RJ;bet365;1.39;3.75;7.00;24 Aug 2005; 0;0 ;2005
+Cruzeiro;Flamengo RJ;Pinnacle;1.44;3.85;6.60;24 Aug 2005; 0;0 ;2005
+Cruzeiro;Flamengo RJ;William Hill;1.40;3.90;6.50;24 Aug 2005; 0;0 ;2005
+Juventude;Corinthians;bet-at-home;2.65;2.65;2.25;24 Aug 2005; 1;0 ;2005
+Juventude;Corinthians;bet365;2.25;2.25;2.25;24 Aug 2005; 1;0 ;2005
+Juventude;Corinthians;Pinnacle;2.54;3.40;2.45;24 Aug 2005; 1;0 ;2005
+Juventude;Corinthians;William Hill;2.45;2.45;2.45;24 Aug 2005; 1;0 ;2005
+Goias;Parana;bet-at-home;1.80;3.30;3.65;24 Aug 2005; 1;1 ;2005
+Goias;Parana;bet365;1.83;3.39;3.50;24 Aug 2005; 1;1 ;2005
+Goias;Parana;William Hill;1.85;3.30;3.60;24 Aug 2005; 1;1 ;2005
+Palmeiras;Sao Caetano;bet-at-home;1.75;3.30;3.90;24 Aug 2005; 2;1 ;2005
+Palmeiras;Sao Caetano;bet365;1.72;3.39;4.00;24 Aug 2005; 2;1 ;2005
+Palmeiras;Sao Caetano;William Hill;1.75;3.40;3.90;24 Aug 2005; 2;1 ;2005
+Paysandu PA;Santos;bet-at-home;2.80;3.25;2.15;24 Aug 2005; 2;3 ;2005
+Paysandu PA;Santos;bet365;3.00;3.20;2.10;24 Aug 2005; 2;3 ;2005
+Paysandu PA;Santos;William Hill;3.00;3.30;2.04;24 Aug 2005; 2;3 ;2005
+Ponte Preta;Athletico-PR;bet-at-home;2.35;2.35;2.50;24 Aug 2005; 0;2 ;2005
+Ponte Preta;Athletico-PR;bet365;2.50;2.50;2.50;24 Aug 2005; 0;2 ;2005
+Ponte Preta;Athletico-PR;Pinnacle;2.50;2.50;2.50;24 Aug 2005; 0;2 ;2005
+Ponte Preta;Athletico-PR;William Hill;2.40;2.40;2.45;24 Aug 2005; 0;2 ;2005
+Sao Paulo;Fluminense;bet365;1.90;3.25;3.39;24 Aug 2005; 1;1 ;2005
+Sao Paulo;Fluminense;Pinnacle;1.90;3.35;3.70;24 Aug 2005; 1;1 ;2005
+Sao Paulo;Fluminense;William Hill;3.70;3.70;3.70;24 Aug 2005; 1;1 ;2005
+Vasco;Brasiliense;bet-at-home;1.75;3.30;3.90;24 Aug 2005; 1;0 ;2005
+Vasco;Brasiliense;bet365;1.80;3.39;3.60;24 Aug 2005; 1;0 ;2005
+Vasco;Brasiliense;William Hill;1.75;3.30;4.00;24 Aug 2005; 1;0 ;2005
+Flamengo RJ;Paysandu PA;bet365;1.50;3.60;5.50;21 Aug 2005; 2;1 ;2005
+Flamengo RJ;Paysandu PA;Pinnacle;1.50;3.75;6.00;21 Aug 2005; 2;1 ;2005
+Flamengo RJ;Paysandu PA;William Hill;6.00;6.00;6.00;21 Aug 2005; 2;1 ;2005
+Fortaleza;Botafogo RJ;bet-at-home;2.04;3.20;3.00;21 Aug 2005; 3;1 ;2005
+Fortaleza;Botafogo RJ;bet365;2.00;3.20;3.20;21 Aug 2005; 3;1 ;2005
+Fortaleza;Botafogo RJ;Pinnacle;2.04;2.04;3.30;21 Aug 2005; 3;1 ;2005
+Fortaleza;Botafogo RJ;William Hill;3.30;3.30;3.30;21 Aug 2005; 3;1 ;2005
+Santos;Figueirense;bet-at-home;1.40;4.00;6.00;21 Aug 2005; 4;3 ;2005
+Santos;Figueirense;Pinnacle;1.37;4.50;6.75;21 Aug 2005; 4;3 ;2005
+Santos;Figueirense;William Hill;6.75;6.75;6.75;21 Aug 2005; 4;3 ;2005
+Brasiliense;Ponte Preta;bet365;1.90;3.25;3.39;21 Aug 2005; 4;0 ;2005
+Brasiliense;Ponte Preta;Pinnacle;1.95;3.25;3.60;21 Aug 2005; 4;0 ;2005
+Brasiliense;Ponte Preta;William Hill;2.10;3.30;2.90;21 Aug 2005; 4;0 ;2005
+Corinthians;Goias;bet-at-home;1.55;3.50;4.90;21 Aug 2005; 1;1 ;2005
+Corinthians;Goias;bet365;1.57;3.50;5.00;21 Aug 2005; 1;1 ;2005
+Corinthians;Goias;Pinnacle;1.56;3.75;5.50;21 Aug 2005; 1;1 ;2005
+Corinthians;Goias;William Hill;1.65;3.50;4.30;21 Aug 2005; 1;1 ;2005
+Fluminense;Palmeiras;bet-at-home;1.95;3.25;3.20;21 Aug 2005; 2;2 ;2005
+Fluminense;Palmeiras;bet365;2.00;3.20;3.20;21 Aug 2005; 2;2 ;2005
+Fluminense;Palmeiras;Pinnacle;2.00;3.25;3.45;21 Aug 2005; 2;2 ;2005
+Fluminense;Palmeiras;William Hill;3.45;3.45;3.45;21 Aug 2005; 2;2 ;2005
+Parana;Vasco;bet-at-home;1.45;3.80;5.50;21 Aug 2005; 0;0 ;2005
+Parana;Vasco;bet365;1.44;3.75;6.00;21 Aug 2005; 0;0 ;2005
+Parana;Vasco;Pinnacle;1.46;3.80;6.50;21 Aug 2005; 0;0 ;2005
+Parana;Vasco;William Hill;1.45;3.60;6.50;21 Aug 2005; 0;0 ;2005
+Athletico-PR;Sao Paulo;bet-at-home;1.85;3.30;3.45;20 Aug 2005; 4;2 ;2005
+Athletico-PR;Sao Paulo;bet365;1.83;3.25;3.60;20 Aug 2005; 4;2 ;2005
+Athletico-PR;Sao Paulo;Pinnacle;1.80;3.35;4.09;20 Aug 2005; 4;2 ;2005
+Athletico-PR;Sao Paulo;William Hill;4.09;4.09;4.09;20 Aug 2005; 4;2 ;2005
+Sao Caetano;Cruzeiro;bet-at-home;2.15;3.20;2.80;20 Aug 2005; 0;1 ;2005
+Sao Caetano;Cruzeiro;bet365;2.20;3.25;2.75;20 Aug 2005; 0;1 ;2005
+Sao Caetano;Cruzeiro;Pinnacle;2.20;3.20;3.05;20 Aug 2005; 0;1 ;2005
+Sao Caetano;Cruzeiro;William Hill;2.10;3.30;2.90;20 Aug 2005; 0;1 ;2005
+Atletico-MG;Juventude;bet-at-home;1.90;3.25;3.35;20 Aug 2005; 2;1 ;2005
+Atletico-MG;Juventude;bet365;1.90;3.25;3.39;20 Aug 2005; 2;1 ;2005
+Atletico-MG;Juventude;Pinnacle;1.87;3.20;4.00;20 Aug 2005; 2;1 ;2005
+Botafogo RJ;Santos;bet-at-home;2.25;3.20;2.65;14 Aug 2005; 3;3 ;2005
+Botafogo RJ;Santos;bet365;2.37;3.10;2.62;14 Aug 2005; 3;3 ;2005
+Botafogo RJ;Santos;Pinnacle;2.40;3.40;2.63;14 Aug 2005; 3;3 ;2005
+Botafogo RJ;Santos;William Hill;2.63;2.63;2.63;14 Aug 2005; 3;3 ;2005
+Sao Paulo;Fortaleza;bet-at-home;1.55;3.60;4.75;14 Aug 2005; 3;2 ;2005
+Sao Paulo;Fortaleza;Pinnacle;1.55;3.60;5.70;14 Aug 2005; 3;2 ;2005
+Sao Paulo;Fortaleza;William Hill;1.60;3.60;4.50;14 Aug 2005; 3;2 ;2005
+Cruzeiro;Parana;bet-at-home;1.70;3.35;4.09;14 Aug 2005; 0;1 ;2005
+Cruzeiro;Parana;bet365;1.66;3.29;4.50;14 Aug 2005; 0;1 ;2005
+Cruzeiro;Parana;Pinnacle;1.70;3.40;4.59;14 Aug 2005; 0;1 ;2005
+Cruzeiro;Parana;William Hill;4.59;4.59;4.59;14 Aug 2005; 0;1 ;2005
+Figueirense;Brasiliense;bet-at-home;1.85;3.30;3.45;14 Aug 2005; 2;2 ;2005
+Figueirense;Brasiliense;bet365;1.80;3.29;3.75;14 Aug 2005; 2;2 ;2005
+Figueirense;Brasiliense;Pinnacle;1.85;3.40;3.80;14 Aug 2005; 2;2 ;2005
+Figueirense;Brasiliense;William Hill;3.80;3.80;3.80;14 Aug 2005; 2;2 ;2005
+Ponte Preta;Corinthians;bet-at-home;2.45;3.15;2.45;14 Aug 2005; 3;5 ;2005
+Ponte Preta;Corinthians;bet365;2.50;3.25;2.39;14 Aug 2005; 3;5 ;2005
+Ponte Preta;Corinthians;Pinnacle;2.54;3.25;2.50;14 Aug 2005; 3;5 ;2005
+Ponte Preta;Corinthians;William Hill;2.37;3.30;2.50;14 Aug 2005; 3;5 ;2005
+Vasco;Atletico-MG;bet-at-home;1.75;3.30;3.90;14 Aug 2005; 2;1 ;2005
+Vasco;Atletico-MG;bet365;2.00;3.20;3.20;14 Aug 2005; 2;1 ;2005
+Vasco;Atletico-MG;Pinnacle;3.20;3.20;3.20;14 Aug 2005; 2;1 ;2005
+Vasco;Atletico-MG;William Hill;3.20;3.20;3.20;14 Aug 2005; 2;1 ;2005
+Goias;Flamengo RJ;bet-at-home;1.55;3.50;5.00;14 Aug 2005; 2;0 ;2005
+Goias;Flamengo RJ;bet365;1.57;3.50;5.00;14 Aug 2005; 2;0 ;2005
+Goias;Flamengo RJ;Pinnacle;1.60;3.45;5.50;14 Aug 2005; 2;0 ;2005
+Goias;Flamengo RJ;William Hill;1.60;3.60;4.50;14 Aug 2005; 2;0 ;2005
+Paysandu PA;Athletico-PR;bet-at-home;2.80;3.20;2.15;13 Aug 2005; 2;1 ;2005
+Paysandu PA;Athletico-PR;bet365;2.75;3.25;2.20;13 Aug 2005; 2;1 ;2005
+Paysandu PA;Athletico-PR;Pinnacle;2.88;3.25;2.25;13 Aug 2005; 2;1 ;2005
+Paysandu PA;Athletico-PR;William Hill;2.90;3.30;2.10;13 Aug 2005; 2;1 ;2005
+Coritiba;Sao Caetano;bet-at-home;2.04;3.25;2.95;13 Aug 2005; 2;2 ;2005
+Coritiba;Sao Caetano;bet365;1.90;3.25;3.39;13 Aug 2005; 2;2 ;2005
+Coritiba;Sao Caetano;Pinnacle;2.04;3.25;3.30;13 Aug 2005; 2;2 ;2005
+Coritiba;Sao Caetano;William Hill;2.00;3.25;3.15;13 Aug 2005; 2;2 ;2005
+Palmeiras;Internacional;bet365;1.72;3.39;4.00;13 Aug 2005; 3;2 ;2005
+Palmeiras;Internacional;Pinnacle;1.85;3.30;3.95;13 Aug 2005; 3;2 ;2005
+Palmeiras;Internacional;William Hill;1.80;3.30;3.75;13 Aug 2005; 3;2 ;2005
+Flamengo RJ;Parana;Pinnacle;2.35;3.25;2.75;11 Aug 2005; 1;1 ;2005
+Fluminense;Fortaleza;bet-at-home;1.55;3.50;5.00;11 Aug 2005; 2;0 ;2005
+Fluminense;Fortaleza;bet365;1.57;3.50;5.00;11 Aug 2005; 2;0 ;2005
+Fluminense;Fortaleza;Pinnacle;1.57;3.60;5.50;11 Aug 2005; 2;0 ;2005
+Fluminense;Fortaleza;William Hill;1.55;3.60;5.00;11 Aug 2005; 2;0 ;2005
+Goias;Juventude;bet-at-home;1.65;3.40;4.30;11 Aug 2005; 1;0 ;2005
+Goias;Juventude;bet365;1.61;3.50;4.50;11 Aug 2005; 1;0 ;2005
+Goias;Juventude;Pinnacle;1.65;3.50;4.84;11 Aug 2005; 1;0 ;2005
+Goias;Juventude;William Hill;4.84;4.84;4.84;11 Aug 2005; 1;0 ;2005
+Santos;Brasiliense;bet-at-home;1.40;3.90;6.20;11 Aug 2005; 1;1 ;2005
+Santos;Brasiliense;bet365;1.36;4.00;7.00;11 Aug 2005; 1;1 ;2005
+Coritiba;Atletico-MG;bet-at-home;1.55;3.50;5.00;10 Aug 2005; 1;0 ;2005
+Coritiba;Atletico-MG;bet365;1.57;3.50;5.00;10 Aug 2005; 1;0 ;2005
+Coritiba;Atletico-MG;William Hill;1.50;3.70;5.40;10 Aug 2005; 1;0 ;2005
+Figueirense;Sao Paulo;William Hill;2.45;3.25;2.45;10 Aug 2005; 3;1 ;2005
+Internacional;Corinthians;bet-at-home;2.10;3.20;2.90;10 Aug 2005; 0;0 ;2005
+Internacional;Corinthians;bet365;2.10;3.25;2.89;10 Aug 2005; 0;0 ;2005
+Internacional;Corinthians;William Hill;2.20;3.30;2.75;10 Aug 2005; 0;0 ;2005
+Palmeiras;Ponte Preta;bet365;1.61;3.50;4.50;10 Aug 2005; 2;1 ;2005
+Palmeiras;Ponte Preta;Pinnacle;4.50;4.50;4.50;10 Aug 2005; 2;1 ;2005
+Palmeiras;Ponte Preta;William Hill;4.50;4.50;4.50;10 Aug 2005; 2;1 ;2005
+Paysandu PA;Vasco;bet-at-home;1.95;3.25;3.20;10 Aug 2005; 0;2 ;2005
+Paysandu PA;Vasco;bet365;3.20;3.20;3.20;10 Aug 2005; 0;2 ;2005
+Sao Caetano;Athletico-PR;bet365;1.90;3.25;3.39;10 Aug 2005; 3;2 ;2005
+Sao Caetano;Athletico-PR;William Hill;2.10;3.30;2.90;10 Aug 2005; 3;2 ;2005
+Brasiliense;Internacional;bet-at-home;2.40;3.20;2.50;07 Aug 2005; 0;0 ;2005
+Brasiliense;Internacional;bet365;2.37;3.25;2.50;07 Aug 2005; 0;0 ;2005
+Brasiliense;Internacional;bwin;2.40;3.20;2.60;07 Aug 2005; 0;0 ;2005
+Brasiliense;Internacional;Pinnacle;2.54;3.25;2.54;07 Aug 2005; 0;0 ;2005
+Brasiliense;Internacional;William Hill;2.65;3.30;2.25;07 Aug 2005; 0;0 ;2005
+Ponte Preta;Coritiba;bet-at-home;1.55;3.60;4.80;07 Aug 2005; 0;3 ;2005
+Ponte Preta;Coritiba;bet365;1.57;3.50;5.00;07 Aug 2005; 0;3 ;2005
+Ponte Preta;Coritiba;bwin;1.60;3.50;5.00;07 Aug 2005; 0;3 ;2005
+Ponte Preta;Coritiba;Pinnacle;1.56;3.75;5.25;07 Aug 2005; 0;3 ;2005
+Ponte Preta;Coritiba;William Hill;1.60;3.50;4.59;07 Aug 2005; 0;3 ;2005
+Sao Paulo;Goias;bet-at-home;1.70;3.35;4.09;07 Aug 2005; 0;1 ;2005
+Sao Paulo;Goias;bet365;1.72;3.39;4.00;07 Aug 2005; 0;1 ;2005
+Sao Paulo;Goias;bwin;4.00;4.00;4.00;07 Aug 2005; 0;1 ;2005
+Sao Paulo;Goias;Pinnacle;1.67;3.50;4.80;07 Aug 2005; 0;1 ;2005
+Sao Paulo;Goias;William Hill;4.80;4.80;4.80;07 Aug 2005; 0;1 ;2005
+Juventude;Palmeiras;bet-at-home;1.95;3.25;3.20;07 Aug 2005; 1;2 ;2005
+Juventude;Palmeiras;bet365;1.90;3.29;3.29;07 Aug 2005; 1;2 ;2005
+Juventude;Palmeiras;bwin;1.90;3.35;3.50;07 Aug 2005; 1;2 ;2005
+Juventude;Palmeiras;Pinnacle;2.00;3.25;3.50;07 Aug 2005; 1;2 ;2005
+Juventude;Palmeiras;William Hill;1.90;3.30;3.40;07 Aug 2005; 1;2 ;2005
+Fortaleza;Flamengo RJ;bet-at-home;1.75;3.30;3.85;07 Aug 2005; 2;1 ;2005
+Fortaleza;Flamengo RJ;bet365;1.80;3.25;3.75;07 Aug 2005; 2;1 ;2005
+Fortaleza;Flamengo RJ;bwin;1.80;3.40;3.80;07 Aug 2005; 2;1 ;2005
+Fortaleza;Flamengo RJ;Pinnacle;1.80;1.80;4.00;07 Aug 2005; 2;1 ;2005
+Fortaleza;Flamengo RJ;William Hill;4.00;4.00;4.00;07 Aug 2005; 2;1 ;2005
+Parana;Santos;bet-at-home;2.15;3.25;2.80;07 Aug 2005; 1;1 ;2005
+Parana;Santos;bet365;2.10;2.10;2.89;07 Aug 2005; 1;1 ;2005
+Parana;Santos;bwin;2.89;2.89;2.89;07 Aug 2005; 1;1 ;2005
+Parana;Santos;Pinnacle;2.25;2.25;2.95;07 Aug 2005; 1;1 ;2005
+Parana;Santos;William Hill;2.95;2.95;2.95;07 Aug 2005; 1;1 ;2005
+Athletico-PR;Cruzeiro;bet-at-home;2.00;3.20;3.15;06 Aug 2005; 5;4 ;2005
+Athletico-PR;Cruzeiro;bet365;2.00;3.20;3.20;06 Aug 2005; 5;4 ;2005
+Athletico-PR;Cruzeiro;bwin;1.95;3.25;3.40;06 Aug 2005; 5;4 ;2005
+Athletico-PR;Cruzeiro;Pinnacle;2.10;3.25;3.25;06 Aug 2005; 5;4 ;2005
+Athletico-PR;Cruzeiro;William Hill;2.10;3.30;2.90;06 Aug 2005; 5;4 ;2005
+Botafogo RJ;Paysandu PA;bet-at-home;1.40;4.00;6.00;06 Aug 2005; 2;0 ;2005
+Botafogo RJ;Paysandu PA;bet365;1.44;3.75;6.00;06 Aug 2005; 2;0 ;2005
+Botafogo RJ;Paysandu PA;bwin;1.40;4.00;6.75;06 Aug 2005; 2;0 ;2005
+Botafogo RJ;Paysandu PA;Pinnacle;1.40;4.00;7.00;06 Aug 2005; 2;0 ;2005
+Botafogo RJ;Paysandu PA;William Hill;7.00;7.00;7.00;06 Aug 2005; 2;0 ;2005
+Corinthians;Sao Caetano;bet-at-home;1.60;3.45;4.55;06 Aug 2005; 0;2 ;2005
+Corinthians;Sao Caetano;bet365;1.50;3.60;5.50;06 Aug 2005; 0;2 ;2005
+Corinthians;Sao Caetano;bwin;1.45;3.75;6.50;06 Aug 2005; 0;2 ;2005
+Corinthians;Sao Caetano;Pinnacle;1.50;3.75;5.75;06 Aug 2005; 0;2 ;2005
+Corinthians;Sao Caetano;William Hill;1.60;3.50;4.59;06 Aug 2005; 0;2 ;2005
+Fluminense;Vasco;bwin;2.04;2.04;3.20;04 Aug 2005; 3;2 ;2005
+Fortaleza;Figueirense;bet-at-home;1.80;3.30;3.55;04 Aug 2005; 5;2 ;2005
+Sao Paulo;Palmeiras;bet-at-home;2.10;3.20;2.85;04 Aug 2005; 3;3 ;2005
+Sao Paulo;Palmeiras;bwin;2.40;2.40;2.60;04 Aug 2005; 3;3 ;2005
+Athletico-PR;Goias;bet-at-home;1.60;3.40;4.50;03 Aug 2005; 1;0 ;2005
+Athletico-PR;Goias;bwin;1.60;3.50;5.00;03 Aug 2005; 1;0 ;2005
+Atletico-MG;Paysandu PA;bwin;1.50;3.60;6.00;03 Aug 2005; 2;2 ;2005
+Brasiliense;Cruzeiro;bet-at-home;2.54;3.10;2.35;03 Aug 2005; 1;2 ;2005
+Corinthians;Coritiba;bet-at-home;1.40;3.80;6.10;03 Aug 2005; 3;0 ;2005
+Corinthians;Coritiba;bwin;1.35;4.00;8.25;03 Aug 2005; 3;0 ;2005
+Flamengo RJ;Ponte Preta;bet-at-home;2.45;3.10;2.45;03 Aug 2005; 1;0 ;2005
+Flamengo RJ;Ponte Preta;bwin;2.50;3.20;2.50;03 Aug 2005; 1;0 ;2005
+Internacional;Santos;bet-at-home;2.04;3.20;2.95;03 Aug 2005; 0;1 ;2005
+Internacional;Santos;bwin;2.25;3.20;2.80;03 Aug 2005; 0;1 ;2005
+Parana;Botafogo RJ;bet-at-home;1.80;3.25;3.60;03 Aug 2005; 2;0 ;2005
+Parana;Botafogo RJ;bwin;1.80;3.40;3.80;03 Aug 2005; 2;0 ;2005
+Sao Caetano;Juventude;bet-at-home;1.65;3.35;4.20;03 Aug 2005; 1;1 ;2005
+Sao Caetano;Juventude;bwin;1.65;3.50;4.50;03 Aug 2005; 1;1 ;2005
+Botafogo RJ;Flamengo RJ;bet-at-home;1.80;3.35;3.50;31 Jul 2005; 0;2 ;2005
+Botafogo RJ;Flamengo RJ;bwin;2.00;2.00;3.40;31 Jul 2005; 0;2 ;2005
+Coritiba;Brasiliense;bet-at-home;1.70;3.30;4.00;31 Jul 2005; 1;1 ;2005
+Coritiba;Brasiliense;bwin;1.65;3.50;4.50;31 Jul 2005; 1;1 ;2005
+Coritiba;Brasiliense;Pinnacle;1.77;3.30;4.30;31 Jul 2005; 1;1 ;2005
+Coritiba;Brasiliense;William Hill;4.30;4.30;4.30;31 Jul 2005; 1;1 ;2005
+Juventude;Sao Paulo;bet-at-home;2.25;3.20;2.65;31 Jul 2005; 2;1 ;2005
+Juventude;Sao Paulo;bwin;2.50;3.20;2.50;31 Jul 2005; 2;1 ;2005
+Figueirense;Fluminense;bet-at-home;2.20;3.20;2.65;31 Jul 2005; 1;1 ;2005
+Figueirense;Fluminense;bwin;2.40;3.20;2.60;31 Jul 2005; 1;1 ;2005
+Figueirense;Fluminense;Pinnacle;2.29;3.10;2.90;31 Jul 2005; 1;1 ;2005
+Figueirense;Fluminense;William Hill;2.90;2.90;2.90;31 Jul 2005; 1;1 ;2005
+Palmeiras;Athletico-PR;bet-at-home;2.00;3.15;3.10;31 Jul 2005; 1;1 ;2005
+Palmeiras;Athletico-PR;bwin;2.15;3.20;3.00;31 Jul 2005; 1;1 ;2005
+Palmeiras;Athletico-PR;William Hill;2.25;3.20;2.75;31 Jul 2005; 1;1 ;2005
+Paysandu PA;Parana;bet-at-home;2.15;3.20;2.75;31 Jul 2005; 3;4 ;2005
+Paysandu PA;Parana;bwin;2.25;3.20;2.80;31 Jul 2005; 3;4 ;2005
+Paysandu PA;Parana;Pinnacle;2.29;3.20;2.80;31 Jul 2005; 3;4 ;2005
+Ponte Preta;Internacional;bwin;1.95;3.20;3.50;31 Jul 2005; 1;1 ;2005
+Ponte Preta;Internacional;Pinnacle;2.00;3.10;3.60;31 Jul 2005; 1;1 ;2005
+Ponte Preta;Internacional;William Hill;3.60;3.60;3.60;31 Jul 2005; 1;1 ;2005
+Brasiliense;Paysandu PA;bet365;1.53;3.39;5.50;28 Jul 2005; 0;0 ;2005
+Brasiliense;Paysandu PA;bwin;1.40;4.00;6.70;28 Jul 2005; 0;0 ;2005
+Brasiliense;Paysandu PA;Pinnacle;6.70;6.70;6.70;28 Jul 2005; 0;0 ;2005
+Brasiliense;Paysandu PA;William Hill;6.70;6.70;6.70;28 Jul 2005; 0;0 ;2005
+Figueirense;Coritiba;bet-at-home;2.04;3.10;3.00;28 Jul 2005; 0;0 ;2005
+Figueirense;Coritiba;bet365;2.10;3.20;3.00;28 Jul 2005; 0;0 ;2005
+Figueirense;Coritiba;bwin;2.04;3.15;3.25;28 Jul 2005; 0;0 ;2005
+Figueirense;Coritiba;Pinnacle;2.15;3.10;3.25;28 Jul 2005; 0;0 ;2005
+Figueirense;Coritiba;William Hill;2.15;3.30;2.80;28 Jul 2005; 0;0 ;2005
+Flamengo RJ;Palmeiras;bet-at-home;2.35;3.10;2.54;28 Jul 2005; 0;0 ;2005
+Flamengo RJ;Palmeiras;bet365;2.37;3.20;2.60;28 Jul 2005; 0;0 ;2005
+Flamengo RJ;Palmeiras;bwin;2.50;3.20;2.50;28 Jul 2005; 0;0 ;2005
+Flamengo RJ;Palmeiras;Pinnacle;2.45;3.10;2.75;28 Jul 2005; 0;0 ;2005
+Flamengo RJ;Palmeiras;William Hill;2.75;2.75;2.75;28 Jul 2005; 0;0 ;2005
+Internacional;Parana;bet-at-home;1.50;3.60;5.09;28 Jul 2005; 0;2 ;2005
+Internacional;Parana;bet365;1.57;3.50;5.00;28 Jul 2005; 0;2 ;2005
+Internacional;Parana;bwin;1.55;3.65;5.20;28 Jul 2005; 0;2 ;2005
+Internacional;Parana;Pinnacle;1.57;3.45;5.80;28 Jul 2005; 0;2 ;2005
+Internacional;Parana;William Hill;5.80;5.80;5.80;28 Jul 2005; 0;2 ;2005
+Athletico-PR;Vasco;bet-at-home;1.50;3.60;5.09;27 Jul 2005; 7;2 ;2005
+Athletico-PR;Vasco;bet365;1.57;3.50;5.00;27 Jul 2005; 7;2 ;2005
+Athletico-PR;Vasco;William Hill;5.00;5.00;5.00;27 Jul 2005; 7;2 ;2005
+Fluminense;Goias;bet-at-home;1.70;3.35;3.90;27 Jul 2005; 1;1 ;2005
+Fluminense;Goias;bet365;1.72;3.39;4.00;27 Jul 2005; 1;1 ;2005
+Fluminense;Goias;bwin;1.70;3.50;4.20;27 Jul 2005; 1;1 ;2005
+Fluminense;Goias;Pinnacle;4.20;4.20;4.20;27 Jul 2005; 1;1 ;2005
+Fluminense;Goias;William Hill;4.20;4.20;4.20;27 Jul 2005; 1;1 ;2005
+Fortaleza;Juventude;bet-at-home;1.95;3.20;3.20;27 Jul 2005; 2;0 ;2005
+Fortaleza;Juventude;bet365;1.90;3.25;3.39;27 Jul 2005; 2;0 ;2005
+Fortaleza;Juventude;bwin;1.95;3.25;3.40;27 Jul 2005; 2;0 ;2005
+Fortaleza;Juventude;Pinnacle;1.95;3.20;3.65;27 Jul 2005; 2;0 ;2005
+Fortaleza;Juventude;William Hill;1.90;3.35;3.35;27 Jul 2005; 2;0 ;2005
+Sao Caetano;Botafogo RJ;bet-at-home;1.65;3.35;4.20;27 Jul 2005; 0;1 ;2005
+Sao Caetano;Botafogo RJ;bet365;1.72;3.39;4.00;27 Jul 2005; 0;1 ;2005
+Sao Caetano;Botafogo RJ;bwin;1.65;3.55;4.50;27 Jul 2005; 0;1 ;2005
+Sao Caetano;Botafogo RJ;Pinnacle;1.71;3.30;4.75;27 Jul 2005; 0;1 ;2005
+Sao Caetano;Botafogo RJ;William Hill;1.60;3.55;4.59;27 Jul 2005; 0;1 ;2005
+Atletico-MG;Sao Paulo;bet-at-home;2.50;3.10;2.40;27 Jul 2005; 0;0 ;2005
+Atletico-MG;Sao Paulo;William Hill;2.50;3.25;2.40;27 Jul 2005; 0;0 ;2005
+Corinthians;Cruzeiro;bet-at-home;1.65;3.35;4.20;27 Jul 2005; 4;3 ;2005
+Corinthians;Cruzeiro;bet365;1.72;3.39;4.00;27 Jul 2005; 4;3 ;2005
+Corinthians;Cruzeiro;bwin;1.70;3.50;4.20;27 Jul 2005; 4;3 ;2005
+Corinthians;Cruzeiro;Pinnacle;4.20;4.20;4.20;27 Jul 2005; 4;3 ;2005
+Corinthians;Cruzeiro;William Hill;4.20;4.20;4.20;27 Jul 2005; 4;3 ;2005
+Santos;Ponte Preta;bet-at-home;1.70;3.35;3.90;27 Jul 2005; 0;1 ;2005
+Santos;Ponte Preta;bet365;1.66;3.39;4.33;27 Jul 2005; 0;1 ;2005
+Santos;Ponte Preta;William Hill;1.85;3.35;3.50;27 Jul 2005; 0;1 ;2005
+Cruzeiro;Santos;bet365;2.00;3.20;3.20;24 Jul 2005; 3;2 ;2005
+Cruzeiro;Santos;bwin;2.15;3.30;2.90;24 Jul 2005; 3;2 ;2005
+Cruzeiro;Santos;Pinnacle;2.00;3.25;3.45;24 Jul 2005; 3;2 ;2005
+Cruzeiro;Santos;William Hill;3.45;3.45;3.45;24 Jul 2005; 3;2 ;2005
+Paysandu PA;Internacional;bet-at-home;2.65;3.15;2.25;24 Jul 2005; 1;2 ;2005
+Paysandu PA;Internacional;bet365;2.62;3.20;2.29;24 Jul 2005; 1;2 ;2005
+Paysandu PA;Internacional;bwin;2.60;3.20;2.40;24 Jul 2005; 1;2 ;2005
+Paysandu PA;Internacional;Pinnacle;2.57;3.25;2.50;24 Jul 2005; 1;2 ;2005
+Ponte Preta;Fluminense;bet-at-home;1.90;3.25;3.25;24 Jul 2005; 2;1 ;2005
+Ponte Preta;Fluminense;bet365;2.00;3.20;3.20;24 Jul 2005; 2;1 ;2005
+Ponte Preta;Fluminense;bwin;2.00;3.20;3.35;24 Jul 2005; 2;1 ;2005
+Ponte Preta;Fluminense;Pinnacle;2.00;3.25;3.45;24 Jul 2005; 2;1 ;2005
+Ponte Preta;Fluminense;William Hill;3.45;3.45;3.45;24 Jul 2005; 2;1 ;2005
+Coritiba;Flamengo RJ;bet-at-home;1.65;3.35;4.20;24 Jul 2005; 3;2 ;2005
+Coritiba;Flamengo RJ;bet365;1.66;3.39;4.33;24 Jul 2005; 3;2 ;2005
+Coritiba;Flamengo RJ;bwin;1.65;3.35;4.95;24 Jul 2005; 3;2 ;2005
+Coritiba;Flamengo RJ;Pinnacle;1.69;3.58;4.38;24 Jul 2005; 3;2 ;2005
+Coritiba;Flamengo RJ;William Hill;4.38;4.38;4.38;24 Jul 2005; 3;2 ;2005
+Palmeiras;Atletico-MG;bet-at-home;1.55;3.50;4.70;24 Jul 2005; 1;0 ;2005
+Palmeiras;Atletico-MG;bet365;4.70;4.70;4.70;24 Jul 2005; 1;0 ;2005
+Palmeiras;Atletico-MG;bwin;4.70;4.70;4.70;24 Jul 2005; 1;0 ;2005
+Palmeiras;Atletico-MG;Pinnacle;4.70;4.70;4.70;24 Jul 2005; 1;0 ;2005
+Palmeiras;Atletico-MG;William Hill;4.70;4.70;4.70;24 Jul 2005; 1;0 ;2005
+Vasco;Corinthians;bet-at-home;3.25;3.25;1.90;24 Jul 2005; 2;3 ;2005
+Vasco;Corinthians;bet365;3.20;3.20;2.00;24 Jul 2005; 2;3 ;2005
+Vasco;Corinthians;bwin;3.20;3.20;2.04;24 Jul 2005; 2;3 ;2005
+Vasco;Corinthians;Pinnacle;3.25;3.34;2.04;24 Jul 2005; 2;3 ;2005
+Vasco;Corinthians;William Hill;3.30;3.10;2.00;24 Jul 2005; 2;3 ;2005
+Sao Paulo;Sao Caetano;bet-at-home;1.65;3.35;4.20;23 Jul 2005; 0;1 ;2005
+Sao Paulo;Sao Caetano;bet365;1.72;3.39;4.00;23 Jul 2005; 0;1 ;2005
+Sao Paulo;Sao Caetano;bwin;1.60;3.50;5.00;23 Jul 2005; 0;1 ;2005
+Sao Paulo;Sao Caetano;Pinnacle;1.67;3.50;4.70;23 Jul 2005; 0;1 ;2005
+Sao Paulo;Sao Caetano;William Hill;4.70;4.70;4.70;23 Jul 2005; 0;1 ;2005
+Botafogo RJ;Brasiliense;bet-at-home;1.60;3.40;4.45;23 Jul 2005; 1;1 ;2005
+Botafogo RJ;Brasiliense;bet365;1.61;3.25;5.00;23 Jul 2005; 1;1 ;2005
+Botafogo RJ;Brasiliense;Pinnacle;1.61;3.45;5.35;23 Jul 2005; 1;1 ;2005
+Botafogo RJ;Brasiliense;William Hill;1.60;3.40;4.80;23 Jul 2005; 1;1 ;2005
+Goias;Fortaleza;bet-at-home;1.70;3.30;4.00;23 Jul 2005; 2;1 ;2005
+Goias;Fortaleza;bet365;1.72;3.39;4.00;23 Jul 2005; 2;1 ;2005
+Goias;Fortaleza;Pinnacle;1.65;3.45;4.95;23 Jul 2005; 2;1 ;2005
+Goias;Fortaleza;William Hill;1.70;3.20;4.50;23 Jul 2005; 2;1 ;2005
+Parana;Athletico-PR;bet-at-home;2.25;3.15;2.65;23 Jul 2005; 2;0 ;2005
+Parana;Athletico-PR;bet365;2.39;3.20;2.50;23 Jul 2005; 2;0 ;2005
+Parana;Athletico-PR;Pinnacle;2.40;3.25;2.70;23 Jul 2005; 2;0 ;2005
+Parana;Athletico-PR;William Hill;2.50;3.10;2.50;23 Jul 2005; 2;0 ;2005
+Corinthians;Paysandu PA;bet-at-home;1.30;4.30;7.60;21 Jul 2005; 3;2 ;2005
+Corinthians;Paysandu PA;bet365;1.25;4.50;9.99;21 Jul 2005; 3;2 ;2005
+Corinthians;Paysandu PA;bwin;1.25;5.00;9.00;21 Jul 2005; 3;2 ;2005
+Corinthians;Paysandu PA;Pinnacle;1.31;4.30;9.00;21 Jul 2005; 3;2 ;2005
+Corinthians;Paysandu PA;William Hill;9.00;9.00;9.00;21 Jul 2005; 3;2 ;2005
+Cruzeiro;Coritiba;bet-at-home;1.60;3.40;4.70;21 Jul 2005; 2;2 ;2005
+Cruzeiro;Coritiba;bet365;1.66;3.39;4.33;21 Jul 2005; 2;2 ;2005
+Cruzeiro;Coritiba;bwin;1.55;3.75;5.00;21 Jul 2005; 2;2 ;2005
+Cruzeiro;Coritiba;Pinnacle;1.65;3.45;5.00;21 Jul 2005; 2;2 ;2005
+Cruzeiro;Coritiba;William Hill;1.65;3.40;4.50;21 Jul 2005; 2;2 ;2005
+Flamengo RJ;Juventude;bet-at-home;2.15;3.20;2.80;21 Jul 2005; 3;4 ;2005
+Flamengo RJ;Juventude;bet365;2.80;2.80;2.80;21 Jul 2005; 3;4 ;2005
+Flamengo RJ;Juventude;bwin;2.80;2.80;2.80;21 Jul 2005; 3;4 ;2005
+Flamengo RJ;Juventude;Pinnacle;2.80;2.80;2.80;21 Jul 2005; 3;4 ;2005
+Flamengo RJ;Juventude;William Hill;2.80;2.80;2.80;21 Jul 2005; 3;4 ;2005
+Athletico-PR;Fluminense;bet-at-home;1.90;3.25;3.35;20 Jul 2005; 3;2 ;2005
+Athletico-PR;Fluminense;bwin;1.80;3.35;3.85;20 Jul 2005; 3;2 ;2005
+Athletico-PR;Fluminense;William Hill;3.85;3.85;3.85;20 Jul 2005; 3;2 ;2005
+Botafogo RJ;Ponte Preta;bet-at-home;2.04;3.10;3.10;20 Jul 2005; 4;2 ;2005
+Botafogo RJ;Ponte Preta;bet365;2.10;3.20;3.00;20 Jul 2005; 4;2 ;2005
+Botafogo RJ;Ponte Preta;bwin;2.04;3.15;3.25;20 Jul 2005; 4;2 ;2005
+Botafogo RJ;Ponte Preta;Pinnacle;3.25;3.25;3.25;20 Jul 2005; 4;2 ;2005
+Botafogo RJ;Ponte Preta;William Hill;3.25;3.25;3.25;20 Jul 2005; 4;2 ;2005
+Brasiliense;Sao Paulo;bet-at-home;2.65;2.65;2.25;20 Jul 2005; 3;3 ;2005
+Brasiliense;Sao Paulo;bet365;2.75;2.75;2.50;20 Jul 2005; 3;3 ;2005
+Brasiliense;Sao Paulo;bwin;2.54;2.54;2.45;20 Jul 2005; 3;3 ;2005
+Brasiliense;Sao Paulo;William Hill;2.45;2.45;2.45;20 Jul 2005; 3;3 ;2005
+Figueirense;Palmeiras;bet-at-home;2.04;3.20;3.00;20 Jul 2005; 1;4 ;2005
+Figueirense;Palmeiras;bet365;2.10;3.20;3.00;20 Jul 2005; 1;4 ;2005
+Figueirense;Palmeiras;bwin;2.29;3.20;2.75;20 Jul 2005; 1;4 ;2005
+Figueirense;Palmeiras;Pinnacle;2.15;3.20;3.15;20 Jul 2005; 1;4 ;2005
+Figueirense;Palmeiras;William Hill;3.15;3.15;3.15;20 Jul 2005; 1;4 ;2005
+Fortaleza;Atletico-MG;bet-at-home;1.65;3.30;4.45;20 Jul 2005; 1;4 ;2005
+Fortaleza;Atletico-MG;bet365;1.72;3.39;4.00;20 Jul 2005; 1;4 ;2005
+Fortaleza;Atletico-MG;bwin;1.70;3.50;4.20;20 Jul 2005; 1;4 ;2005
+Fortaleza;Atletico-MG;William Hill;1.65;3.40;4.50;20 Jul 2005; 1;4 ;2005
+Internacional;Goias;bet-at-home;1.45;3.60;6.00;20 Jul 2005; 2;3 ;2005
+Internacional;Goias;bet365;1.50;3.60;5.50;20 Jul 2005; 2;3 ;2005
+Internacional;Goias;bwin;1.40;3.90;7.00;20 Jul 2005; 2;3 ;2005
+Internacional;Goias;Pinnacle;1.50;3.65;6.20;20 Jul 2005; 2;3 ;2005
+Internacional;Goias;William Hill;1.45;3.60;6.50;20 Jul 2005; 2;3 ;2005
+Santos;Vasco;bet-at-home;1.30;4.30;7.60;20 Jul 2005; 2;3 ;2005
+Santos;Vasco;bet365;1.25;5.00;8.00;20 Jul 2005; 2;3 ;2005
+Santos;Vasco;bwin;1.25;5.00;9.00;20 Jul 2005; 2;3 ;2005
+Santos;Vasco;Pinnacle;1.31;4.30;9.00;20 Jul 2005; 2;3 ;2005
+Santos;Vasco;William Hill;9.00;9.00;9.00;20 Jul 2005; 2;3 ;2005
+Sao Caetano;Parana;bet-at-home;1.60;3.40;4.70;20 Jul 2005; 1;1 ;2005
+Sao Caetano;Parana;bet365;1.72;3.39;3.39;20 Jul 2005; 1;1 ;2005
+Sao Caetano;Parana;Pinnacle;1.65;3.45;5.00;20 Jul 2005; 1;1 ;2005
+Sao Caetano;Parana;William Hill;5.00;5.00;5.00;20 Jul 2005; 1;1 ;2005
+Internacional;Juventude;bet-at-home;1.75;3.30;3.85;17 Jul 2005; 5;2 ;2005
+Internacional;Juventude;bet365;1.72;3.20;4.33;17 Jul 2005; 5;2 ;2005
+Internacional;Juventude;bwin;1.70;3.45;4.25;17 Jul 2005; 5;2 ;2005
+Internacional;Juventude;Pinnacle;1.80;3.35;4.09;17 Jul 2005; 5;2 ;2005
+Internacional;Juventude;William Hill;1.72;3.25;4.20;17 Jul 2005; 5;2 ;2005
+Palmeiras;Fortaleza;bet-at-home;1.55;3.50;5.00;17 Jul 2005; 1;2 ;2005
+Palmeiras;Fortaleza;bet365;1.57;3.50;5.00;17 Jul 2005; 1;2 ;2005
+Palmeiras;Fortaleza;bwin;1.50;3.65;5.75;17 Jul 2005; 1;2 ;2005
+Palmeiras;Fortaleza;Pinnacle;1.53;3.62;5.66;17 Jul 2005; 1;2 ;2005
+Palmeiras;Fortaleza;William Hill;1.50;3.60;5.50;17 Jul 2005; 1;2 ;2005
+Atletico-MG;Athletico-PR;bet-at-home;1.95;3.25;3.20;17 Jul 2005; 2;3 ;2005
+Atletico-MG;Athletico-PR;bet365;1.80;3.25;3.75;17 Jul 2005; 2;3 ;2005
+Atletico-MG;Athletico-PR;bwin;1.95;3.25;3.40;17 Jul 2005; 2;3 ;2005
+Atletico-MG;Athletico-PR;Pinnacle;1.91;3.35;3.65;17 Jul 2005; 2;3 ;2005
+Atletico-MG;Athletico-PR;William Hill;2.04;3.20;3.10;17 Jul 2005; 2;3 ;2005
+Coritiba;Botafogo RJ;bet-at-home;1.65;3.35;4.34;17 Jul 2005; 0;3 ;2005
+Coritiba;Botafogo RJ;bet365;1.66;3.39;4.33;17 Jul 2005; 0;3 ;2005
+Coritiba;Botafogo RJ;bwin;1.60;3.45;5.00;17 Jul 2005; 0;3 ;2005
+Coritiba;Botafogo RJ;Pinnacle;1.65;3.45;5.00;17 Jul 2005; 0;3 ;2005
+Coritiba;Botafogo RJ;William Hill;5.00;5.00;5.00;17 Jul 2005; 0;3 ;2005
+Flamengo RJ;Vasco;bet-at-home;2.20;3.10;2.80;17 Jul 2005; 1;0 ;2005
+Flamengo RJ;Vasco;bet365;2.25;3.20;2.70;17 Jul 2005; 1;0 ;2005
+Flamengo RJ;Vasco;bwin;2.29;3.10;2.80;17 Jul 2005; 1;0 ;2005
+Flamengo RJ;Vasco;Pinnacle;2.25;3.15;3.00;17 Jul 2005; 1;0 ;2005
+Flamengo RJ;Vasco;William Hill;2.25;3.00;2.87;17 Jul 2005; 1;0 ;2005
+Santos;Sao Paulo;bet-at-home;1.85;1.85;3.50;17 Jul 2005; 2;1 ;2005
+Santos;Sao Paulo;bet365;1.83;3.29;3.60;17 Jul 2005; 2;1 ;2005
+Santos;Sao Paulo;bwin;1.90;3.30;3.55;17 Jul 2005; 2;1 ;2005
+Santos;Sao Paulo;Pinnacle;1.90;3.30;3.75;17 Jul 2005; 2;1 ;2005
+Santos;Sao Paulo;William Hill;2.10;3.10;3.10;17 Jul 2005; 2;1 ;2005
+Fluminense;Sao Caetano;bet-at-home;1.70;3.35;4.09;16 Jul 2005; 0;1 ;2005
+Fluminense;Sao Caetano;bet365;1.66;3.39;4.33;16 Jul 2005; 0;1 ;2005
+Fluminense;Sao Caetano;bwin;1.70;3.45;4.25;16 Jul 2005; 0;1 ;2005
+Fluminense;Sao Caetano;William Hill;1.66;3.30;4.50;16 Jul 2005; 0;1 ;2005
+Parana;Corinthians;bet-at-home;2.85;3.15;2.15;16 Jul 2005; 2;3 ;2005
+Parana;Corinthians;bet365;3.00;3.25;2.04;16 Jul 2005; 2;3 ;2005
+Parana;Corinthians;bwin;3.40;3.25;1.95;16 Jul 2005; 2;3 ;2005
+Parana;Corinthians;Pinnacle;3.05;3.20;2.20;16 Jul 2005; 2;3 ;2005
+Parana;Corinthians;William Hill;2.62;3.20;2.29;16 Jul 2005; 2;3 ;2005
+Goias;Brasiliense;bet-at-home;1.55;3.50;5.00;16 Jul 2005; 1;3 ;2005
+Goias;Brasiliense;bet365;5.00;5.00;5.00;16 Jul 2005; 1;3 ;2005
+Goias;Brasiliense;bwin;5.00;5.00;5.00;16 Jul 2005; 1;3 ;2005
+Goias;Brasiliense;Pinnacle;1.56;3.70;5.50;16 Jul 2005; 1;3 ;2005
+Goias;Brasiliense;William Hill;5.50;5.50;5.50;16 Jul 2005; 1;3 ;2005
+Athletico-PR;Coritiba;bet365;2.70;3.10;2.29;10 Jul 2005; 1;0 ;2005
+Athletico-PR;Coritiba;Pinnacle;2.85;3.15;2.35;10 Jul 2005; 1;0 ;2005
+Athletico-PR;Coritiba;William Hill;2.35;2.35;2.35;10 Jul 2005; 1;0 ;2005
+Cruzeiro;Atletico-MG;bet-at-home;2.00;3.20;3.15;10 Jul 2005; 2;1 ;2005
+Cruzeiro;Atletico-MG;bet365;1.90;3.20;3.50;10 Jul 2005; 2;1 ;2005
+Cruzeiro;Atletico-MG;bwin;2.29;3.10;2.80;10 Jul 2005; 2;1 ;2005
+Cruzeiro;Atletico-MG;Pinnacle;2.10;3.15;3.30;10 Jul 2005; 2;1 ;2005
+Cruzeiro;Atletico-MG;William Hill;3.30;3.30;3.30;10 Jul 2005; 2;1 ;2005
+Vasco;Internacional;bet-at-home;2.60;3.20;2.29;10 Jul 2005; 2;4 ;2005
+Vasco;Internacional;bet365;2.60;3.10;2.39;10 Jul 2005; 2;4 ;2005
+Vasco;Internacional;bwin;2.60;3.05;2.50;10 Jul 2005; 2;4 ;2005
+Vasco;Internacional;Pinnacle;2.60;3.20;2.50;10 Jul 2005; 2;4 ;2005
+Vasco;Internacional;William Hill;2.50;2.50;2.50;10 Jul 2005; 2;4 ;2005
+Botafogo RJ;Fluminense;bet-at-home;2.65;3.15;2.29;10 Jul 2005; 1;2 ;2005
+Botafogo RJ;Fluminense;bet365;2.50;3.25;2.37;10 Jul 2005; 1;2 ;2005
+Botafogo RJ;Fluminense;bwin;2.70;3.05;2.40;10 Jul 2005; 1;2 ;2005
+Botafogo RJ;Fluminense;Pinnacle;2.80;3.20;2.35;10 Jul 2005; 1;2 ;2005
+Botafogo RJ;Fluminense;William Hill;2.35;2.35;2.35;10 Jul 2005; 1;2 ;2005
+Corinthians;Palmeiras;bet-at-home;2.00;3.20;3.15;10 Jul 2005; 3;1 ;2005
+Corinthians;Palmeiras;bet365;1.90;3.25;3.39;10 Jul 2005; 3;1 ;2005
+Corinthians;Palmeiras;bwin;2.35;3.10;2.75;10 Jul 2005; 3;1 ;2005
+Corinthians;Palmeiras;Pinnacle;2.10;3.20;3.25;10 Jul 2005; 3;1 ;2005
+Corinthians;Palmeiras;William Hill;2.25;3.10;2.80;10 Jul 2005; 3;1 ;2005
+Goias;Santos;bet-at-home;2.10;3.15;2.95;10 Jul 2005; 3;4 ;2005
+Goias;Santos;bet365;2.20;3.10;2.87;10 Jul 2005; 3;4 ;2005
+Goias;Santos;bwin;2.20;3.10;3.00;10 Jul 2005; 3;4 ;2005
+Goias;Santos;Pinnacle;2.20;3.20;3.05;10 Jul 2005; 3;4 ;2005
+Goias;Santos;William Hill;2.20;3.20;2.80;10 Jul 2005; 3;4 ;2005
+Sao Caetano;Ponte Preta;bet-at-home;2.20;3.20;2.75;09 Jul 2005; 2;1 ;2005
+Sao Caetano;Ponte Preta;bet365;2.29;3.10;2.70;09 Jul 2005; 2;1 ;2005
+Sao Caetano;Ponte Preta;bwin;2.29;3.10;2.80;09 Jul 2005; 2;1 ;2005
+Sao Caetano;Ponte Preta;Pinnacle;2.25;3.20;2.95;09 Jul 2005; 2;1 ;2005
+Sao Caetano;Ponte Preta;William Hill;2.95;2.95;2.95;09 Jul 2005; 2;1 ;2005
+Sao Paulo;Flamengo RJ;bet365;1.66;1.66;4.33;09 Jul 2005; 2;0 ;2005
+Sao Paulo;Flamengo RJ;Pinnacle;4.33;4.33;4.33;09 Jul 2005; 2;0 ;2005
+Sao Paulo;Flamengo RJ;William Hill;4.33;4.33;4.33;09 Jul 2005; 2;0 ;2005
+Juventude;Brasiliense;bet-at-home;1.60;3.40;4.70;09 Jul 2005; 2;1 ;2005
+Juventude;Brasiliense;bet365;1.53;3.60;5.00;09 Jul 2005; 2;1 ;2005
+Juventude;Brasiliense;bwin;5.00;5.00;5.00;09 Jul 2005; 2;1 ;2005
+Juventude;Brasiliense;Pinnacle;1.57;3.50;5.65;09 Jul 2005; 2;1 ;2005
+Juventude;Brasiliense;William Hill;5.65;5.65;5.65;09 Jul 2005; 2;1 ;2005
+Parana;Figueirense;bet-at-home;1.75;3.30;3.85;09 Jul 2005; 3;0 ;2005
+Parana;Figueirense;bet365;1.80;3.25;3.75;09 Jul 2005; 3;0 ;2005
+Parana;Figueirense;bwin;1.85;3.25;3.75;09 Jul 2005; 3;0 ;2005
+Parana;Figueirense;Pinnacle;1.80;3.35;4.09;09 Jul 2005; 3;0 ;2005
+Parana;Figueirense;William Hill;4.09;4.09;4.09;09 Jul 2005; 3;0 ;2005
+Paysandu PA;Fortaleza;bet-at-home;1.70;3.35;4.09;09 Jul 2005; 1;2 ;2005
+Paysandu PA;Fortaleza;bet365;1.66;3.39;4.33;09 Jul 2005; 1;2 ;2005
+Paysandu PA;Fortaleza;bwin;1.70;3.40;4.25;09 Jul 2005; 1;2 ;2005
+Paysandu PA;Fortaleza;Pinnacle;4.25;4.25;4.25;09 Jul 2005; 1;2 ;2005
+Paysandu PA;Fortaleza;William Hill;4.25;4.25;4.25;09 Jul 2005; 1;2 ;2005
+Internacional;Sao Caetano;bet-at-home;1.75;3.30;3.90;03 Jul 2005; 2;1 ;2005
+Internacional;Sao Caetano;bet365;1.70;3.20;4.50;03 Jul 2005; 2;1 ;2005
+Internacional;Sao Caetano;bwin;1.75;3.40;4.05;03 Jul 2005; 2;1 ;2005
+Internacional;Sao Caetano;Pinnacle;1.80;3.40;4.09;03 Jul 2005; 2;1 ;2005
+Internacional;Sao Caetano;William Hill;1.80;3.25;3.80;03 Jul 2005; 2;1 ;2005
+Santos;Juventude;bet-at-home;1.55;3.50;5.00;03 Jul 2005; 0;0 ;2005
+Santos;Juventude;bet365;1.50;3.60;5.50;03 Jul 2005; 0;0 ;2005
+Santos;Juventude;bwin;1.50;3.60;6.00;03 Jul 2005; 0;0 ;2005
+Santos;Juventude;Pinnacle;1.50;3.60;6.10;03 Jul 2005; 0;0 ;2005
+Santos;Juventude;William Hill;6.10;6.10;6.10;03 Jul 2005; 0;0 ;2005
+Brasiliense;Athletico-PR;bwin;1.55;3.50;5.50;03 Jul 2005; 2;1 ;2005
+Brasiliense;Athletico-PR;William Hill;1.70;3.45;4.00;03 Jul 2005; 2;1 ;2005
+Figueirense;Cruzeiro;bet-at-home;2.10;3.00;3.10;03 Jul 2005; 0;0 ;2005
+Figueirense;Cruzeiro;bet365;2.10;3.20;3.00;03 Jul 2005; 0;0 ;2005
+Figueirense;Cruzeiro;bwin;2.04;3.20;3.20;03 Jul 2005; 0;0 ;2005
+Figueirense;Cruzeiro;Pinnacle;2.10;3.30;3.15;03 Jul 2005; 0;0 ;2005
+Figueirense;Cruzeiro;William Hill;3.15;3.15;3.15;03 Jul 2005; 0;0 ;2005
+Atletico-MG;Flamengo RJ;bet-at-home;1.95;3.20;3.25;03 Jul 2005; 3;1 ;2005
+Atletico-MG;Flamengo RJ;bet365;2.00;3.20;3.20;03 Jul 2005; 3;1 ;2005
+Atletico-MG;Flamengo RJ;bwin;2.10;3.10;3.20;03 Jul 2005; 3;1 ;2005
+Atletico-MG;Flamengo RJ;Pinnacle;2.10;3.10;3.40;03 Jul 2005; 3;1 ;2005
+Atletico-MG;Flamengo RJ;William Hill;3.40;3.40;3.40;03 Jul 2005; 3;1 ;2005
+Fortaleza;Corinthians;bet-at-home;2.80;3.10;2.20;03 Jul 2005; 2;1 ;2005
+Fortaleza;Corinthians;bet365;2.75;3.25;2.20;03 Jul 2005; 2;1 ;2005
+Fortaleza;Corinthians;bwin;2.65;2.65;2.40;03 Jul 2005; 2;1 ;2005
+Fortaleza;Corinthians;Pinnacle;2.90;3.10;2.35;03 Jul 2005; 2;1 ;2005
+Fortaleza;Corinthians;William Hill;2.35;2.35;2.35;03 Jul 2005; 2;1 ;2005
+Vasco;Goias;bet-at-home;2.10;3.00;3.10;02 Jul 2005; 1;2 ;2005
+Vasco;Goias;bet365;2.10;3.20;3.00;02 Jul 2005; 1;2 ;2005
+Vasco;Goias;bwin;2.04;3.15;3.25;02 Jul 2005; 1;2 ;2005
+Vasco;Goias;Pinnacle;2.04;3.35;3.20;02 Jul 2005; 1;2 ;2005
+Vasco;Goias;William Hill;2.04;3.20;3.10;02 Jul 2005; 1;2 ;2005
+Coritiba;Paysandu PA;bet-at-home;1.55;3.50;5.00;02 Jul 2005; 3;1 ;2005
+Coritiba;Paysandu PA;bet365;1.50;3.60;5.50;02 Jul 2005; 3;1 ;2005
+Coritiba;Paysandu PA;bwin;1.50;3.60;5.50;02 Jul 2005; 3;1 ;2005
+Coritiba;Paysandu PA;Pinnacle;1.50;3.85;5.60;02 Jul 2005; 3;1 ;2005
+Coritiba;Paysandu PA;William Hill;5.60;5.60;5.60;02 Jul 2005; 3;1 ;2005
+Fluminense;Parana;bet-at-home;1.45;3.80;5.60;02 Jul 2005; 0;1 ;2005
+Fluminense;Parana;bet365;1.39;3.75;7.00;02 Jul 2005; 0;1 ;2005
+Fluminense;Parana;bwin;1.40;3.75;6.00;02 Jul 2005; 0;1 ;2005
+Fluminense;Parana;Pinnacle;1.48;3.75;6.35;02 Jul 2005; 0;1 ;2005
+Fluminense;Parana;William Hill;6.35;6.35;6.35;02 Jul 2005; 0;1 ;2005
+Athletico-PR;Fortaleza;bet-at-home;1.75;3.30;3.90;26 Jun 2005; 0;0 ;2005
+Athletico-PR;Fortaleza;bet365;1.80;3.29;3.60;26 Jun 2005; 0;0 ;2005
+Athletico-PR;Fortaleza;bwin;3.60;3.60;3.60;26 Jun 2005; 0;0 ;2005
+Athletico-PR;Fortaleza;William Hill;3.60;3.60;3.60;26 Jun 2005; 0;0 ;2005
+Cruzeiro;Vasco;bet-at-home;1.50;3.60;5.40;26 Jun 2005; 3;3 ;2005
+Cruzeiro;Vasco;bet365;1.44;3.75;6.00;26 Jun 2005; 3;3 ;2005
+Cruzeiro;Vasco;bwin;1.50;3.70;5.65;26 Jun 2005; 3;3 ;2005
+Cruzeiro;Vasco;Pinnacle;1.50;3.75;5.85;26 Jun 2005; 3;3 ;2005
+Cruzeiro;Vasco;William Hill;5.85;5.85;5.85;26 Jun 2005; 3;3 ;2005
+Paysandu PA;Palmeiras;bet-at-home;1.90;3.20;3.40;26 Jun 2005; 2;1 ;2005
+Paysandu PA;Palmeiras;bet365;3.40;3.40;3.40;26 Jun 2005; 2;1 ;2005
+Paysandu PA;Palmeiras;bwin;2.04;2.04;3.15;26 Jun 2005; 2;1 ;2005
+Paysandu PA;Palmeiras;Pinnacle;1.83;1.83;3.90;26 Jun 2005; 2;1 ;2005
+Paysandu PA;Palmeiras;William Hill;1.95;3.20;3.30;26 Jun 2005; 2;1 ;2005
+Botafogo RJ;Figueirense;bet-at-home;1.50;3.60;5.40;26 Jun 2005; 0;1 ;2005
+Botafogo RJ;Figueirense;bet365;1.44;3.75;6.00;26 Jun 2005; 0;1 ;2005
+Botafogo RJ;Figueirense;bwin;1.45;3.77;6.30;26 Jun 2005; 0;1 ;2005
+Botafogo RJ;Figueirense;Pinnacle;1.50;3.75;6.00;26 Jun 2005; 0;1 ;2005
+Botafogo RJ;Figueirense;William Hill;6.00;6.00;6.00;26 Jun 2005; 0;1 ;2005
+Corinthians;Fluminense;bet-at-home;1.90;3.20;3.40;26 Jun 2005; 0;1 ;2005
+Corinthians;Fluminense;bet365;1.90;3.25;3.39;26 Jun 2005; 0;1 ;2005
+Corinthians;Fluminense;bwin;2.15;3.20;3.00;26 Jun 2005; 0;1 ;2005
+Corinthians;Fluminense;Pinnacle;1.95;1.95;3.65;26 Jun 2005; 0;1 ;2005
+Goias;Coritiba;bet365;1.80;3.25;3.75;26 Jun 2005; 2;1 ;2005
+Goias;Coritiba;bwin;1.85;3.30;3.70;26 Jun 2005; 2;1 ;2005
+Goias;Coritiba;Pinnacle;1.87;1.87;3.75;26 Jun 2005; 2;1 ;2005
+Goias;Coritiba;William Hill;3.75;3.75;3.75;26 Jun 2005; 2;1 ;2005
+Sao Caetano;Santos;bet365;2.10;3.25;2.89;26 Jun 2005; 1;3 ;2005
+Sao Caetano;Santos;bwin;2.25;3.20;2.80;26 Jun 2005; 1;3 ;2005
+Sao Caetano;Santos;Pinnacle;2.20;2.20;3.00;26 Jun 2005; 1;3 ;2005
+Sao Caetano;Santos;William Hill;2.40;2.40;2.60;26 Jun 2005; 1;3 ;2005
+Flamengo RJ;Brasiliense;bet-at-home;1.55;3.50;5.00;25 Jun 2005; 3;4 ;2005
+Flamengo RJ;Brasiliense;bet365;1.50;3.60;5.50;25 Jun 2005; 3;4 ;2005
+Flamengo RJ;Brasiliense;bwin;1.55;3.65;5.20;25 Jun 2005; 3;4 ;2005
+Flamengo RJ;Brasiliense;Pinnacle;1.61;3.55;5.25;25 Jun 2005; 3;4 ;2005
+Flamengo RJ;Brasiliense;William Hill;5.25;5.25;5.25;25 Jun 2005; 3;4 ;2005
+Sao Paulo;Internacional;bet365;1.72;3.25;4.20;25 Jun 2005; 1;3 ;2005
+Sao Paulo;Internacional;Pinnacle;1.80;1.80;4.09;25 Jun 2005; 1;3 ;2005
+Juventude;Ponte Preta;bet-at-home;1.75;3.30;3.90;25 Jun 2005; 1;3 ;2005
+Juventude;Ponte Preta;bet365;3.90;3.90;3.90;25 Jun 2005; 1;3 ;2005
+Juventude;Ponte Preta;bwin;3.90;3.90;3.90;25 Jun 2005; 1;3 ;2005
+Juventude;Ponte Preta;Pinnacle;3.90;3.90;3.90;25 Jun 2005; 1;3 ;2005
+Juventude;Ponte Preta;William Hill;3.90;3.90;3.90;25 Jun 2005; 1;3 ;2005
+Parana;Atletico-MG;bet-at-home;1.75;3.30;3.90;25 Jun 2005; 1;0 ;2005
+Parana;Atletico-MG;bet365;1.72;3.25;4.20;25 Jun 2005; 1;0 ;2005
+Parana;Atletico-MG;bwin;1.75;3.40;4.05;25 Jun 2005; 1;0 ;2005
+Parana;Atletico-MG;Pinnacle;1.74;3.40;4.34;25 Jun 2005; 1;0 ;2005
+Parana;Atletico-MG;William Hill;1.75;3.30;4.00;25 Jun 2005; 1;0 ;2005
+Juventude;Cruzeiro;bet-at-home;1.90;1.90;3.35;19 Jun 2005; 0;0 ;2005
+Juventude;Cruzeiro;bet365;3.35;3.35;3.35;19 Jun 2005; 0;0 ;2005
+Juventude;Cruzeiro;Pinnacle;1.91;3.30;3.70;19 Jun 2005; 0;0 ;2005
+Juventude;Cruzeiro;William Hill;3.70;3.70;3.70;19 Jun 2005; 0;0 ;2005
+Fortaleza;Santos;bwin;2.50;2.50;2.50;19 Jun 2005; 0;0 ;2005
+Fortaleza;Santos;Pinnacle;2.50;2.50;2.50;19 Jun 2005; 0;0 ;2005
+Fortaleza;Santos;William Hill;2.50;2.50;2.50;19 Jun 2005; 0;0 ;2005
+Sao Paulo;Botafogo RJ;bet-at-home;1.85;3.30;3.45;19 Jun 2005; 1;0 ;2005
+Sao Paulo;Botafogo RJ;bet365;1.80;3.25;3.75;19 Jun 2005; 1;0 ;2005
+Sao Paulo;Botafogo RJ;bwin;1.85;3.25;3.75;19 Jun 2005; 1;0 ;2005
+Sao Paulo;Botafogo RJ;Pinnacle;1.85;3.35;3.85;19 Jun 2005; 1;0 ;2005
+Coritiba;Parana;bet-at-home;2.00;3.25;3.10;19 Jun 2005; 2;1 ;2005
+Coritiba;Parana;bet365;2.00;3.20;3.20;19 Jun 2005; 2;1 ;2005
+Coritiba;Parana;bwin;2.15;3.20;3.00;19 Jun 2005; 2;1 ;2005
+Coritiba;Parana;Pinnacle;2.20;3.25;3.00;19 Jun 2005; 2;1 ;2005
+Fluminense;Internacional;bet-at-home;1.95;3.25;3.25;19 Jun 2005; 3;0 ;2005
+Fluminense;Internacional;bwin;3.25;3.25;3.25;19 Jun 2005; 3;0 ;2005
+Fluminense;Internacional;Pinnacle;1.95;3.35;3.50;19 Jun 2005; 3;0 ;2005
+Fluminense;Internacional;William Hill;3.50;3.50;3.50;19 Jun 2005; 3;0 ;2005
+Atletico-MG;Sao Caetano;bet-at-home;2.15;3.20;2.80;18 Jun 2005; 2;3 ;2005
+Atletico-MG;Sao Caetano;bet365;2.10;3.20;3.00;18 Jun 2005; 2;3 ;2005
+Atletico-MG;Sao Caetano;bwin;2.20;3.20;2.90;18 Jun 2005; 2;3 ;2005
+Atletico-MG;Sao Caetano;Pinnacle;2.20;3.20;3.05;18 Jun 2005; 2;3 ;2005
+Atletico-MG;Sao Caetano;William Hill;2.25;3.20;2.75;18 Jun 2005; 2;3 ;2005
+Flamengo RJ;Athletico-PR;bet365;1.72;3.39;4.33;18 Jun 2005; 1;1 ;2005
+Flamengo RJ;Athletico-PR;Pinnacle;1.67;3.45;4.80;18 Jun 2005; 1;1 ;2005
+Flamengo RJ;Athletico-PR;William Hill;1.50;3.55;5.60;18 Jun 2005; 1;1 ;2005
+Ponte Preta;Goias;bet365;1.80;3.25;3.75;18 Jun 2005; 2;0 ;2005
+Ponte Preta;Goias;bwin;1.75;3.40;4.05;18 Jun 2005; 2;0 ;2005
+Ponte Preta;Goias;Pinnacle;1.87;3.30;3.90;18 Jun 2005; 2;0 ;2005
+Ponte Preta;Goias;William Hill;3.90;3.90;3.90;18 Jun 2005; 2;0 ;2005
+Brasiliense;Corinthians;bet-at-home;2.70;3.20;2.25;18 Jun 2005; 2;4 ;2005
+Brasiliense;Corinthians;bet365;2.62;3.20;2.29;18 Jun 2005; 2;4 ;2005
+Brasiliense;Corinthians;bwin;2.75;2.75;2.29;18 Jun 2005; 2;4 ;2005
+Brasiliense;Corinthians;Pinnacle;2.94;3.37;2.19;18 Jun 2005; 2;4 ;2005
+Brasiliense;Corinthians;William Hill;2.19;2.19;2.19;18 Jun 2005; 2;4 ;2005
+Figueirense;Paysandu PA;bet-at-home;1.65;3.35;4.40;18 Jun 2005; 3;3 ;2005
+Figueirense;Paysandu PA;bwin;1.55;3.65;5.20;18 Jun 2005; 3;3 ;2005
+Figueirense;Paysandu PA;Pinnacle;1.59;3.55;5.20;18 Jun 2005; 3;3 ;2005
+Palmeiras;Vasco;bet-at-home;1.65;3.35;4.40;18 Jun 2005; 5;2 ;2005
+Palmeiras;Vasco;bet365;1.57;3.50;5.00;18 Jun 2005; 5;2 ;2005
+Palmeiras;Vasco;bwin;1.55;3.65;5.20;18 Jun 2005; 5;2 ;2005
+Palmeiras;Vasco;Pinnacle;1.59;3.63;5.17;18 Jun 2005; 5;2 ;2005
+Palmeiras;Vasco;William Hill;5.17;5.17;5.17;18 Jun 2005; 5;2 ;2005
+Internacional;Atletico-MG;bet-at-home;1.55;3.50;5.00;12 Jun 2005; 1;1 ;2005
+Internacional;Atletico-MG;bet365;1.53;3.50;5.50;12 Jun 2005; 1;1 ;2005
+Internacional;Atletico-MG;bwin;1.65;3.50;4.55;12 Jun 2005; 1;1 ;2005
+Internacional;Atletico-MG;Pinnacle;1.54;3.70;5.65;12 Jun 2005; 1;1 ;2005
+Internacional;Atletico-MG;William Hill;1.44;3.50;7.00;12 Jun 2005; 1;1 ;2005
+Paysandu PA;Sao Paulo;bet-at-home;2.10;3.15;2.95;12 Jun 2005; 2;2 ;2005
+Paysandu PA;Sao Paulo;bet365;2.95;2.95;2.95;12 Jun 2005; 2;2 ;2005
+Paysandu PA;Sao Paulo;bwin;2.95;2.95;2.95;12 Jun 2005; 2;2 ;2005
+Paysandu PA;Sao Paulo;Pinnacle;2.25;3.20;3.00;12 Jun 2005; 2;2 ;2005
+Paysandu PA;Sao Paulo;William Hill;2.37;3.10;2.62;12 Jun 2005; 2;2 ;2005
+Santos;Fluminense;bet-at-home;1.75;3.30;3.90;12 Jun 2005; 1;1 ;2005
+Santos;Fluminense;bet365;1.72;3.20;4.33;12 Jun 2005; 1;1 ;2005
+Santos;Fluminense;bwin;1.80;3.40;3.80;12 Jun 2005; 1;1 ;2005
+Santos;Fluminense;Pinnacle;1.77;3.35;4.30;12 Jun 2005; 1;1 ;2005
+Santos;Fluminense;William Hill;4.30;4.30;4.30;12 Jun 2005; 1;1 ;2005
+Vasco;Coritiba;bet-at-home;2.04;3.15;3.05;12 Jun 2005; 2;2 ;2005
+Vasco;Coritiba;bet365;2.20;3.20;2.79;12 Jun 2005; 2;2 ;2005
+Vasco;Coritiba;bwin;2.25;3.20;2.80;12 Jun 2005; 2;2 ;2005
+Vasco;Coritiba;Pinnacle;2.80;2.80;2.80;12 Jun 2005; 2;2 ;2005
+Vasco;Coritiba;William Hill;2.80;2.80;2.80;12 Jun 2005; 2;2 ;2005
+Botafogo RJ;Juventude;bet-at-home;1.90;3.25;3.35;11 Jun 2005; 3;2 ;2005
+Botafogo RJ;Juventude;bet365;1.83;1.83;3.75;11 Jun 2005; 3;2 ;2005
+Botafogo RJ;Juventude;bwin;3.75;3.75;3.75;11 Jun 2005; 3;2 ;2005
+Botafogo RJ;Juventude;Pinnacle;3.75;3.75;3.75;11 Jun 2005; 3;2 ;2005
+Botafogo RJ;Juventude;William Hill;3.75;3.75;3.75;11 Jun 2005; 3;2 ;2005
+Goias;Palmeiras;bet365;1.72;3.20;4.33;11 Jun 2005; 2;1 ;2005
+Goias;Palmeiras;bwin;4.33;4.33;4.33;11 Jun 2005; 2;1 ;2005
+Goias;Palmeiras;Pinnacle;4.33;4.33;4.33;11 Jun 2005; 2;1 ;2005
+Goias;Palmeiras;William Hill;1.90;1.90;3.50;11 Jun 2005; 2;1 ;2005
+Athletico-PR;Figueirense;bet-at-home;1.95;3.25;3.20;11 Jun 2005; 0;0 ;2005
+Athletico-PR;Figueirense;Pinnacle;2.15;3.20;3.20;11 Jun 2005; 0;0 ;2005
+Athletico-PR;Figueirense;William Hill;3.20;3.20;3.20;11 Jun 2005; 0;0 ;2005
+Cruzeiro;Ponte Preta;bet-at-home;1.55;3.50;5.00;11 Jun 2005; 1;2 ;2005
+Cruzeiro;Ponte Preta;bet365;1.53;3.50;5.50;11 Jun 2005; 1;2 ;2005
+Cruzeiro;Ponte Preta;bwin;1.65;3.50;4.55;11 Jun 2005; 1;2 ;2005
+Cruzeiro;Ponte Preta;Pinnacle;4.55;4.55;4.55;11 Jun 2005; 1;2 ;2005
+Cruzeiro;Ponte Preta;William Hill;4.55;4.55;4.55;11 Jun 2005; 1;2 ;2005
+Parana;Fortaleza;bet-at-home;1.70;3.35;4.09;11 Jun 2005; 3;0 ;2005
+Parana;Fortaleza;bet365;1.72;3.20;4.33;11 Jun 2005; 3;0 ;2005
+Parana;Fortaleza;bwin;1.65;3.50;4.55;11 Jun 2005; 3;0 ;2005
+Parana;Fortaleza;Pinnacle;1.71;3.40;4.55;11 Jun 2005; 3;0 ;2005
+Parana;Fortaleza;William Hill;1.66;3.30;4.50;11 Jun 2005; 3;0 ;2005
+Sao Caetano;Brasiliense;bet-at-home;1.50;3.60;5.40;11 Jun 2005; 2;0 ;2005
+Sao Caetano;Brasiliense;bwin;1.50;3.70;5.65;11 Jun 2005; 2;0 ;2005
+Sao Caetano;Brasiliense;Pinnacle;1.51;3.80;5.54;11 Jun 2005; 2;0 ;2005
+Sao Caetano;Brasiliense;William Hill;1.53;3.50;5.50;11 Jun 2005; 2;0 ;2005
+Botafogo RJ;Athletico-PR;bet-at-home;1.50;3.50;5.00;29 May 2005; 2;0 ;2005
+Botafogo RJ;Athletico-PR;bet365;1.50;3.60;5.50;29 May 2005; 2;0 ;2005
+Botafogo RJ;Athletico-PR;bwin;1.45;3.75;6.50;29 May 2005; 2;0 ;2005
+Botafogo RJ;Athletico-PR;Pinnacle;1.50;3.60;6.25;29 May 2005; 2;0 ;2005
+Botafogo RJ;Athletico-PR;William Hill;6.25;6.25;6.25;29 May 2005; 2;0 ;2005
+Coritiba;Juventude;bet-at-home;1.85;3.20;3.35;29 May 2005; 1;2 ;2005
+Coritiba;Juventude;bet365;1.80;1.80;4.00;29 May 2005; 1;2 ;2005
+Coritiba;Juventude;bwin;1.80;1.80;3.80;29 May 2005; 1;2 ;2005
+Coritiba;Juventude;Pinnacle;1.90;3.25;3.80;29 May 2005; 1;2 ;2005
+Coritiba;Juventude;William Hill;3.80;3.80;3.80;29 May 2005; 1;2 ;2005
+Internacional;Fortaleza;bet365;1.44;3.75;6.00;29 May 2005; 1;0 ;2005
+Internacional;Fortaleza;bwin;1.40;3.90;7.00;29 May 2005; 1;0 ;2005
+Internacional;Fortaleza;Pinnacle;1.44;3.80;6.60;29 May 2005; 1;0 ;2005
+Internacional;Fortaleza;William Hill;1.45;3.70;6.00;29 May 2005; 1;0 ;2005
+Brasiliense;Parana;bwin;1.85;3.25;3.75;29 May 2005; 1;0 ;2005
+Brasiliense;Parana;William Hill;1.95;3.15;3.35;29 May 2005; 1;0 ;2005
+Flamengo RJ;Fluminense;bet-at-home;2.35;3.15;2.45;29 May 2005; 0;0 ;2005
+Flamengo RJ;Fluminense;bet365;2.62;3.20;2.29;29 May 2005; 0;0 ;2005
+Flamengo RJ;Fluminense;bwin;2.65;3.20;2.35;29 May 2005; 0;0 ;2005
+Flamengo RJ;Fluminense;Pinnacle;2.70;3.25;2.40;29 May 2005; 0;0 ;2005
+Flamengo RJ;Fluminense;William Hill;2.80;3.20;2.20;29 May 2005; 0;0 ;2005
+Palmeiras;Santos;bet-at-home;2.40;3.00;2.40;29 May 2005; 2;1 ;2005
+Palmeiras;Santos;bet365;2.75;2.75;2.20;29 May 2005; 2;1 ;2005
+Palmeiras;Santos;bwin;2.20;2.20;2.20;29 May 2005; 2;1 ;2005
+Palmeiras;Santos;William Hill;2.20;2.20;2.20;29 May 2005; 2;1 ;2005
+Ponte Preta;Vasco;bet-at-home;1.70;3.30;3.80;29 May 2005; 4;2 ;2005
+Ponte Preta;Vasco;bet365;1.72;3.29;4.20;29 May 2005; 4;2 ;2005
+Ponte Preta;Vasco;bwin;1.75;3.45;4.00;29 May 2005; 4;2 ;2005
+Ponte Preta;Vasco;William Hill;1.75;3.25;4.00;29 May 2005; 4;2 ;2005
+Figueirense;Sao Caetano;bet365;2.29;3.20;2.62;28 May 2005; 2;0 ;2005
+Figueirense;Sao Caetano;bwin;2.25;3.20;2.80;28 May 2005; 2;0 ;2005
+Figueirense;Sao Caetano;Pinnacle;2.29;3.25;2.80;28 May 2005; 2;0 ;2005
+Sao Paulo;Cruzeiro;bet-at-home;1.75;3.20;3.75;28 May 2005; 1;1 ;2005
+Sao Paulo;Cruzeiro;bet365;1.90;3.25;3.39;28 May 2005; 1;1 ;2005
+Sao Paulo;Cruzeiro;bwin;1.95;3.20;3.50;28 May 2005; 1;1 ;2005
+Sao Paulo;Cruzeiro;Pinnacle;1.93;3.25;3.70;28 May 2005; 1;1 ;2005
+Sao Paulo;Cruzeiro;William Hill;3.70;3.70;3.70;28 May 2005; 1;1 ;2005
+Paysandu PA;Goias;bet365;2.25;3.25;2.70;28 May 2005; 1;0 ;2005
+Paysandu PA;Goias;bwin;2.25;3.20;2.80;28 May 2005; 1;0 ;2005
+Paysandu PA;Goias;Pinnacle;2.27;3.25;2.85;28 May 2005; 1;0 ;2005
+Paysandu PA;Goias;William Hill;2.25;3.20;2.70;28 May 2005; 1;0 ;2005
+Santos;Atletico-MG;bet-at-home;1.40;3.70;5.95;22 May 2005; 3;0 ;2005
+Santos;Atletico-MG;bet365;1.39;3.75;7.00;22 May 2005; 3;0 ;2005
+Santos;Atletico-MG;Pinnacle;1.44;3.90;6.75;22 May 2005; 3;0 ;2005
+Athletico-PR;Internacional;bet-at-home;2.15;3.10;2.75;22 May 2005; 1;3 ;2005
+Athletico-PR;Internacional;bet365;2.10;3.20;3.00;22 May 2005; 1;3 ;2005
+Athletico-PR;Internacional;William Hill;2.20;3.30;2.70;22 May 2005; 1;3 ;2005
+Corinthians;Figueirense;bet-at-home;1.40;3.70;5.90;22 May 2005; 2;1 ;2005
+Corinthians;Figueirense;bet365;1.36;4.00;7.00;22 May 2005; 2;1 ;2005
+Corinthians;Figueirense;William Hill;1.50;3.60;5.50;22 May 2005; 2;1 ;2005
+Cruzeiro;Palmeiras;bet-at-home;1.55;3.50;4.55;22 May 2005; 2;0 ;2005
+Cruzeiro;Palmeiras;bet365;1.61;3.25;5.00;22 May 2005; 2;0 ;2005
+Cruzeiro;Palmeiras;William Hill;1.60;3.55;4.50;22 May 2005; 2;0 ;2005
+Sao Caetano;Flamengo RJ;bet-at-home;1.90;3.20;3.20;22 May 2005; 1;0 ;2005
+Vasco;Sao Paulo;bet-at-home;2.29;3.10;2.54;22 May 2005; 3;1 ;2005
+Vasco;Sao Paulo;bet365;2.60;3.39;2.25;22 May 2005; 3;1 ;2005
+Vasco;Sao Paulo;Pinnacle;2.54;3.32;2.52;22 May 2005; 3;1 ;2005
+Vasco;Sao Paulo;William Hill;2.40;2.40;2.50;22 May 2005; 3;1 ;2005
+Fluminense;Coritiba;bet-at-home;1.50;3.50;5.00;21 May 2005; 2;4 ;2005
+Fluminense;Coritiba;bet365;1.50;3.60;5.50;21 May 2005; 2;4 ;2005
+Fluminense;Coritiba;Pinnacle;1.55;3.80;5.25;21 May 2005; 2;4 ;2005
+Fluminense;Coritiba;William Hill;1.50;3.60;5.50;21 May 2005; 2;4 ;2005
+Goias;Botafogo RJ;bet-at-home;2.10;3.10;2.85;21 May 2005; 4;0 ;2005
+Goias;Botafogo RJ;bet365;2.10;3.20;3.00;21 May 2005; 4;0 ;2005
+Goias;Botafogo RJ;Pinnacle;2.11;3.30;3.19;21 May 2005; 4;0 ;2005
+Goias;Botafogo RJ;William Hill;2.04;3.25;3.05;21 May 2005; 4;0 ;2005
+Juventude;Paysandu PA;bet-at-home;1.40;3.70;5.95;21 May 2005; 2;0 ;2005
+Juventude;Paysandu PA;bet365;1.39;3.75;7.00;21 May 2005; 2;0 ;2005
+Juventude;Paysandu PA;Pinnacle;1.46;3.85;6.35;21 May 2005; 2;0 ;2005
+Juventude;Paysandu PA;William Hill;1.40;3.90;6.50;21 May 2005; 2;0 ;2005
+Fortaleza;Brasiliense;bet-at-home;1.90;3.20;3.20;21 May 2005; 2;0 ;2005
+Fortaleza;Brasiliense;bet365;1.90;3.25;3.39;21 May 2005; 2;0 ;2005
+Fortaleza;Brasiliense;Pinnacle;1.84;3.47;3.79;21 May 2005; 2;0 ;2005
+Fortaleza;Brasiliense;William Hill;1.90;3.25;3.40;21 May 2005; 2;0 ;2005
+Parana;Ponte Preta;bet-at-home;1.85;3.20;3.35;21 May 2005; 1;1 ;2005
+Parana;Ponte Preta;bet365;1.80;3.39;3.60;21 May 2005; 1;1 ;2005
+Parana;Ponte Preta;Pinnacle;1.87;3.35;3.85;21 May 2005; 1;1 ;2005
+Athletico-PR;Corinthians;bet-at-home;2.00;3.10;3.10;15 May 2005; 1;2 ;2005
+Athletico-PR;Corinthians;bet365;1.90;3.25;3.39;15 May 2005; 1;2 ;2005
+Athletico-PR;Corinthians;Pinnacle;2.00;3.20;3.50;15 May 2005; 1;2 ;2005
+Athletico-PR;Corinthians;William Hill;2.00;3.20;3.20;15 May 2005; 1;2 ;2005
+Brasiliense;Fluminense;bet-at-home;2.29;3.10;2.54;15 May 2005; 0;3 ;2005
+Brasiliense;Fluminense;Pinnacle;2.40;3.20;2.73;15 May 2005; 0;3 ;2005
+Brasiliense;Fluminense;William Hill;2.29;3.00;2.80;15 May 2005; 0;3 ;2005
+Cruzeiro;Goias;bet-at-home;1.50;3.40;5.20;15 May 2005; 3;1 ;2005
+Cruzeiro;Goias;bet365;1.50;3.75;5.50;15 May 2005; 3;1 ;2005
+Cruzeiro;Goias;Pinnacle;1.50;3.70;6.00;15 May 2005; 3;1 ;2005
+Cruzeiro;Goias;William Hill;1.55;3.50;5.20;15 May 2005; 3;1 ;2005
+Juventude;Vasco;bet-at-home;1.60;3.40;4.25;15 May 2005; 4;1 ;2005
+Juventude;Vasco;bet365;1.66;3.39;4.33;15 May 2005; 4;1 ;2005
+Juventude;Vasco;Pinnacle;1.67;3.45;4.84;15 May 2005; 4;1 ;2005
+Juventude;Vasco;William Hill;1.60;3.40;4.75;15 May 2005; 4;1 ;2005
+Flamengo RJ;Santos;bet-at-home;2.60;3.10;2.25;15 May 2005; 2;1 ;2005
+Flamengo RJ;Santos;bet365;2.79;3.20;2.20;15 May 2005; 2;1 ;2005
+Flamengo RJ;Santos;Pinnacle;2.95;3.20;2.25;15 May 2005; 2;1 ;2005
+Flamengo RJ;Santos;William Hill;2.90;3.10;2.20;15 May 2005; 2;1 ;2005
+Palmeiras;Parana;bet-at-home;1.40;3.70;5.90;15 May 2005; 1;2 ;2005
+Palmeiras;Parana;bet365;1.39;3.75;7.00;15 May 2005; 1;2 ;2005
+Palmeiras;Parana;William Hill;1.45;3.50;6.50;15 May 2005; 1;2 ;2005
+Paysandu PA;Sao Caetano;bet-at-home;2.35;3.10;2.50;15 May 2005; 3;2 ;2005
+Paysandu PA;Sao Caetano;bet365;2.39;3.25;2.50;15 May 2005; 3;2 ;2005
+Paysandu PA;Sao Caetano;Pinnacle;2.45;3.20;2.70;15 May 2005; 3;2 ;2005
+Paysandu PA;Sao Caetano;William Hill;2.40;3.10;2.60;15 May 2005; 3;2 ;2005
+Botafogo RJ;Atletico-MG;Pinnacle;2.10;3.15;3.30;14 May 2005; 2;1 ;2005
+Figueirense;Internacional;bet-at-home;2.10;3.10;2.85;14 May 2005; 1;2 ;2005
+Figueirense;Internacional;Pinnacle;2.23;3.25;2.95;14 May 2005; 1;2 ;2005
+Fortaleza;Ponte Preta;bet-at-home;2.15;3.10;2.75;14 May 2005; 2;1 ;2005
+Fortaleza;Ponte Preta;Pinnacle;2.15;3.25;3.10;14 May 2005; 2;1 ;2005
+Sao Paulo;Coritiba;bet-at-home;1.45;3.50;5.60;14 May 2005; 1;0 ;2005
+Sao Paulo;Coritiba;Pinnacle;1.47;3.75;6.30;14 May 2005; 1;0 ;2005
+Atletico-MG;Brasiliense;bet-at-home;1.35;4.00;6.20;08 May 2005; 0;1 ;2005
+Atletico-MG;Brasiliense;bet365;1.39;3.75;6.50;08 May 2005; 0;1 ;2005
+Atletico-MG;Brasiliense;Pinnacle;1.36;4.40;7.75;08 May 2005; 0;1 ;2005
+Atletico-MG;Brasiliense;William Hill;1.40;3.70;7.00;08 May 2005; 0;1 ;2005
+Sao Caetano;Fortaleza;bet-at-home;1.40;3.80;5.80;08 May 2005; 2;1 ;2005
+Sao Caetano;Fortaleza;bet365;1.39;3.75;6.50;08 May 2005; 2;1 ;2005
+Sao Caetano;Fortaleza;Pinnacle;1.42;3.85;7.35;08 May 2005; 2;1 ;2005
+Sao Caetano;Fortaleza;William Hill;1.40;3.70;7.00;08 May 2005; 2;1 ;2005
+Corinthians;Sao Paulo;bet-at-home;2.04;3.10;2.95;08 May 2005; 1;5 ;2005
+Corinthians;Sao Paulo;bet365;2.39;3.25;2.50;08 May 2005; 1;5 ;2005
+Corinthians;Sao Paulo;Pinnacle;2.40;3.20;2.75;08 May 2005; 1;5 ;2005
+Coritiba;Palmeiras;bet-at-home;2.10;3.10;2.85;08 May 2005; 1;0 ;2005
+Coritiba;Palmeiras;bet365;2.85;2.85;2.85;08 May 2005; 1;0 ;2005
+Coritiba;Palmeiras;Pinnacle;2.15;3.25;3.15;08 May 2005; 1;0 ;2005
+Coritiba;Palmeiras;William Hill;2.10;3.20;2.95;08 May 2005; 1;0 ;2005
+Fluminense;Cruzeiro;bet-at-home;1.90;3.10;3.30;08 May 2005; 2;1 ;2005
+Fluminense;Cruzeiro;bet365;1.83;3.25;3.60;08 May 2005; 2;1 ;2005
+Fluminense;Cruzeiro;Pinnacle;1.90;3.35;3.70;08 May 2005; 2;1 ;2005
+Fluminense;Cruzeiro;William Hill;1.80;3.30;3.70;08 May 2005; 2;1 ;2005
+Internacional;Flamengo RJ;bet-at-home;1.75;3.20;3.75;08 May 2005; 1;0 ;2005
+Internacional;Flamengo RJ;bet365;1.72;3.29;4.20;08 May 2005; 1;0 ;2005
+Internacional;Flamengo RJ;Pinnacle;1.74;3.40;4.45;08 May 2005; 1;0 ;2005
+Internacional;Flamengo RJ;William Hill;1.65;3.35;4.50;08 May 2005; 1;0 ;2005
+Ponte Preta;Paysandu PA;bet-at-home;1.40;3.80;5.80;07 May 2005; 2;0 ;2005
+Ponte Preta;Paysandu PA;bet365;1.44;3.75;6.00;07 May 2005; 2;0 ;2005
+Ponte Preta;Paysandu PA;Pinnacle;1.44;3.90;6.50;07 May 2005; 2;0 ;2005
+Ponte Preta;Paysandu PA;William Hill;1.45;3.55;6.50;07 May 2005; 2;0 ;2005
+Santos;Athletico-PR;bet-at-home;1.45;3.50;5.80;07 May 2005; 2;1 ;2005
+Santos;Athletico-PR;bet365;1.44;3.75;6.00;07 May 2005; 2;1 ;2005
+Santos;Athletico-PR;Pinnacle;1.50;3.75;5.90;07 May 2005; 2;1 ;2005
+Santos;Athletico-PR;William Hill;1.45;3.50;6.50;07 May 2005; 2;1 ;2005
+Goias;Figueirense;bet-at-home;1.50;3.60;4.80;07 May 2005; 0;0 ;2005
+Goias;Figueirense;Pinnacle;1.61;3.70;4.90;07 May 2005; 0;0 ;2005
+Goias;Figueirense;William Hill;1.55;3.45;5.20;07 May 2005; 0;0 ;2005
+Parana;Juventude;bet-at-home;2.20;3.10;2.65;07 May 2005; 2;2 ;2005
+Parana;Juventude;Pinnacle;2.29;3.25;2.85;07 May 2005; 2;2 ;2005
+Parana;Juventude;William Hill;2.20;3.15;2.80;07 May 2005; 2;2 ;2005
+Coritiba;Santos;bet-at-home;2.45;3.10;2.40;01 May 2005; 2;3 ;2005
+Coritiba;Santos;bet365;2.50;3.20;2.50;01 May 2005; 2;3 ;2005
+Coritiba;Santos;Pinnacle;2.54;3.35;2.50;01 May 2005; 2;3 ;2005
+Coritiba;Santos;William Hill;2.50;2.50;2.50;01 May 2005; 2;3 ;2005
+Paysandu PA;Fluminense;bet-at-home;2.10;3.10;2.85;01 May 2005; 1;2 ;2005
+Paysandu PA;Fluminense;Pinnacle;2.12;3.40;3.03;01 May 2005; 1;2 ;2005
+Paysandu PA;Fluminense;William Hill;2.00;3.25;3.15;01 May 2005; 1;2 ;2005
+Botafogo RJ;Corinthians;bet-at-home;2.54;3.10;2.29;01 May 2005; 3;1 ;2005
+Botafogo RJ;Corinthians;bet365;2.75;3.20;2.25;01 May 2005; 3;1 ;2005
+Botafogo RJ;Corinthians;Pinnacle;2.80;3.25;2.35;01 May 2005; 3;1 ;2005
+Botafogo RJ;Corinthians;William Hill;2.35;2.35;2.35;01 May 2005; 3;1 ;2005
+Cruzeiro;Internacional;bet-at-home;1.70;3.30;3.85;01 May 2005; 3;2 ;2005
+Cruzeiro;Internacional;bet365;1.66;3.39;4.33;01 May 2005; 3;2 ;2005
+Cruzeiro;Internacional;Pinnacle;1.69;3.45;4.65;01 May 2005; 3;2 ;2005
+Cruzeiro;Internacional;William Hill;1.70;3.35;4.15;01 May 2005; 3;2 ;2005
+Juventude;Athletico-PR;bet-at-home;2.00;3.15;3.00;01 May 2005; 1;0 ;2005
+Juventude;Athletico-PR;bet365;2.00;3.20;3.20;01 May 2005; 1;0 ;2005
+Juventude;Athletico-PR;Pinnacle;2.10;3.30;3.15;01 May 2005; 1;0 ;2005
+Juventude;Athletico-PR;William Hill;3.15;3.15;3.15;01 May 2005; 1;0 ;2005
+Figueirense;Flamengo RJ;bet-at-home;1.85;3.20;3.35;01 May 2005; 0;1 ;2005
+Figueirense;Flamengo RJ;bet365;1.83;3.25;3.60;01 May 2005; 0;1 ;2005
+Figueirense;Flamengo RJ;Pinnacle;1.83;3.35;4.00;01 May 2005; 0;1 ;2005
+Ponte Preta;Atletico-MG;bet-at-home;1.95;3.10;3.15;30 Apr 2005; 3;3 ;2005
+Ponte Preta;Atletico-MG;bet365;2.00;3.20;3.20;30 Apr 2005; 3;3 ;2005
+Ponte Preta;Atletico-MG;Pinnacle;2.04;3.30;3.25;30 Apr 2005; 3;3 ;2005
+Ponte Preta;Atletico-MG;William Hill;1.90;3.25;3.40;30 Apr 2005; 3;3 ;2005
+Sao Paulo;Parana;bet-at-home;1.30;4.30;6.70;30 Apr 2005; 1;1 ;2005
+Sao Paulo;Parana;bet365;1.30;4.33;8.50;30 Apr 2005; 1;1 ;2005
+Sao Paulo;Parana;Pinnacle;1.30;4.80;8.00;30 Apr 2005; 1;1 ;2005
+Sao Paulo;Parana;William Hill;1.30;4.25;8.00;30 Apr 2005; 1;1 ;2005
+Goias;Sao Caetano;bet-at-home;1.90;3.20;3.20;30 Apr 2005; 0;0 ;2005
+Goias;Sao Caetano;bet365;1.90;3.20;3.50;30 Apr 2005; 0;0 ;2005
+Goias;Sao Caetano;Pinnacle;1.95;3.35;3.50;30 Apr 2005; 0;0 ;2005
+Goias;Sao Caetano;William Hill;1.80;3.30;3.70;30 Apr 2005; 0;0 ;2005
+Palmeiras;Brasiliense;bet-at-home;1.45;3.60;5.40;30 Apr 2005; 2;1 ;2005
+Palmeiras;Brasiliense;bet365;1.39;3.75;7.00;30 Apr 2005; 2;1 ;2005
+Palmeiras;Brasiliense;Pinnacle;1.50;3.80;5.80;30 Apr 2005; 2;1 ;2005
+Palmeiras;Brasiliense;William Hill;1.40;3.85;6.50;30 Apr 2005; 2;1 ;2005
+Vasco;Fortaleza;bet-at-home;1.50;3.60;4.80;30 Apr 2005; 0;0 ;2005
+Vasco;Fortaleza;bet365;1.44;3.75;6.50;30 Apr 2005; 0;0 ;2005
+Vasco;Fortaleza;Pinnacle;1.50;3.75;6.00;30 Apr 2005; 0;0 ;2005
+Vasco;Fortaleza;William Hill;1.50;3.55;5.60;30 Apr 2005; 0;0 ;2005
+Athletico-PR;Ponte Preta;bet-at-home;1.35;4.20;6.20;24 Apr 2005; 0;1 ;2005
+Athletico-PR;Ponte Preta;William Hill;1.35;4.00;7.20;24 Apr 2005; 0;1 ;2005
+Brasiliense;Vasco;bet365;1.90;3.29;3.39;24 Apr 2005; 2;2 ;2005
+Brasiliense;Vasco;Pinnacle;2.00;2.00;3.35;24 Apr 2005; 2;2 ;2005
+Brasiliense;Vasco;William Hill;3.35;3.35;3.35;24 Apr 2005; 2;2 ;2005
+Santos;Paysandu PA;bet-at-home;1.25;4.50;7.50;24 Apr 2005; 4;1 ;2005
+Santos;Paysandu PA;bet365;1.22;5.00;9.00;24 Apr 2005; 4;1 ;2005
+Santos;Paysandu PA;Pinnacle;1.20;5.50;9.99;24 Apr 2005; 4;1 ;2005
+Santos;Paysandu PA;William Hill;1.25;4.59;9.00;24 Apr 2005; 4;1 ;2005
+Corinthians;Juventude;bet-at-home;1.40;3.90;6.00;24 Apr 2005; 2;2 ;2005
+Corinthians;Juventude;bet365;1.33;4.33;7.00;24 Apr 2005; 2;2 ;2005
+Corinthians;Juventude;Pinnacle;1.31;4.25;9.50;24 Apr 2005; 2;2 ;2005
+Corinthians;Juventude;William Hill;1.35;4.00;7.20;24 Apr 2005; 2;2 ;2005
+Fluminense;Sao Paulo;bet-at-home;2.29;3.20;2.60;24 Apr 2005; 2;1 ;2005
+Fluminense;Sao Paulo;bet365;2.25;3.20;2.75;24 Apr 2005; 2;1 ;2005
+Fluminense;Sao Paulo;Pinnacle;2.60;3.10;2.60;24 Apr 2005; 2;1 ;2005
+Fluminense;Sao Paulo;William Hill;2.40;3.10;2.60;24 Apr 2005; 2;1 ;2005
+Fortaleza;Coritiba;bet-at-home;2.20;3.20;2.70;24 Apr 2005; 0;1 ;2005
+Fortaleza;Coritiba;bet365;2.20;3.25;2.75;24 Apr 2005; 0;1 ;2005
+Fortaleza;Coritiba;Pinnacle;2.25;3.25;2.95;24 Apr 2005; 0;1 ;2005
+Internacional;Botafogo RJ;bet365;1.61;3.50;4.50;24 Apr 2005; 0;2 ;2005
+Internacional;Botafogo RJ;Pinnacle;1.44;3.75;6.75;24 Apr 2005; 0;2 ;2005
+Internacional;Botafogo RJ;William Hill;6.75;6.75;6.75;24 Apr 2005; 0;2 ;2005
+Sao Caetano;Palmeiras;bet365;2.00;3.20;3.20;23 Apr 2005; 2;2 ;2005
+Sao Caetano;Palmeiras;Pinnacle;2.00;3.25;3.50;23 Apr 2005; 2;2 ;2005
+Sao Caetano;Palmeiras;William Hill;2.00;3.20;3.20;23 Apr 2005; 2;2 ;2005
+Flamengo RJ;Cruzeiro;bet-at-home;2.35;3.10;2.45;23 Apr 2005; 1;1 ;2005
+Flamengo RJ;Cruzeiro;bet365;2.50;3.25;2.37;23 Apr 2005; 1;1 ;2005
+Flamengo RJ;Cruzeiro;Pinnacle;2.70;3.10;2.50;23 Apr 2005; 1;1 ;2005
+Atletico-MG;Figueirense;bet-at-home;1.65;3.35;4.15;23 Apr 2005; 4;1 ;2005
+Atletico-MG;Figueirense;bet365;1.66;3.39;4.33;23 Apr 2005; 4;1 ;2005
+Atletico-MG;Figueirense;Pinnacle;1.67;3.40;5.00;23 Apr 2005; 4;1 ;2005
+Atletico-MG;Figueirense;William Hill;1.65;3.45;4.30;23 Apr 2005; 4;1 ;2005
+Parana;Goias;bet-at-home;2.15;3.20;2.80;23 Apr 2005; 0;2 ;2005
+Parana;Goias;bet365;2.10;3.20;3.00;23 Apr 2005; 0;2 ;2005
+Parana;Goias;Pinnacle;2.15;3.20;3.20;23 Apr 2005; 0;2 ;2005
+Parana;Goias;William Hill;2.10;3.20;3.00;23 Apr 2005; 0;2 ;2005

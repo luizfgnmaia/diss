@@ -1,0 +1,19 @@
+
+load("odds/data/bet365.RData")
+load("weight/data/HDA_dc_2.RData")
+
+nrow(HDA_dc)
+nrow(bet365)
+
+bet365 = bet365 %>%
+  select(-Date, -Score_Home, -Score_Away)
+
+HDA_bet365 = left_join(HDA_dc, bet365, by = c("Season", "Home_Team", "Away_Team"))
+
+HDA_bet365 %>%
+  filter(is.na(Home_bet365)) %>%
+  View()
+
+save(HDA_bet365, file = "odds/data/HDA_bet365.RData")
+
+# só comparo com esses odds do bet365 ou com com os odds da média dos bookmakers?

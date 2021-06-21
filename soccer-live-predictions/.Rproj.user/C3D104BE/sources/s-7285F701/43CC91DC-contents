@@ -1,0 +1,18 @@
+
+# farei só pro bet365 por enquanto
+
+library(dplyr)
+library(tidyr)
+
+files = paste0("odds/serie-a-open/serie-a_", 2004:2020, ".csv")
+
+csv = list()
+wide = list()
+
+for(i in 1:length(files)) {
+  csv[[i]] = read.csv2(files[i])
+  wide[[i]] =  csv[[i]] %>%
+    pivot_wider(names_from = "Bookmaker", 
+                values_from = c("OddHome", "OddDraw", "OddAway"))
+}
+
