@@ -1,0 +1,2766 @@
+Home_id;Away_id;Bookmaker;OddHome;OddDraw;OddAway;Date;Score_home;Score_away;Season
+Botafogo RJ;Atletico-MG;1xBet;4.40;4.00;1.83;07 Dec 2014; 0;0 ;2014
+Botafogo RJ;Atletico-MG;bet-at-home;3.93;3.47;1.83;07 Dec 2014; 0;0 ;2014
+Botafogo RJ;Atletico-MG;bet365;4.20;3.50;1.83;07 Dec 2014; 0;0 ;2014
+Botafogo RJ;Atletico-MG;bwin;4.25;3.30;1.78;07 Dec 2014; 0;0 ;2014
+Botafogo RJ;Atletico-MG;Marathonbet;4.50;3.85;1.84;07 Dec 2014; 0;0 ;2014
+Botafogo RJ;Atletico-MG;Pinnacle;4.00;3.84;1.94;07 Dec 2014; 0;0 ;2014
+Botafogo RJ;Atletico-MG;Unibet;3.90;3.55;1.85;07 Dec 2014; 0;0 ;2014
+Botafogo RJ;Atletico-MG;William Hill;4.33;3.40;1.80;07 Dec 2014; 0;0 ;2014
+Coritiba;Bahia;1xBet;2.24;3.50;3.40;07 Dec 2014; 3;2 ;2014
+Coritiba;Bahia;bet-at-home;2.10;3.24;3.27;07 Dec 2014; 3;2 ;2014
+Coritiba;Bahia;bet365;2.10;3.30;3.50;07 Dec 2014; 3;2 ;2014
+Coritiba;Bahia;bwin;2.15;3.30;3.00;07 Dec 2014; 3;2 ;2014
+Coritiba;Bahia;Marathonbet;2.00;3.50;4.15;07 Dec 2014; 3;2 ;2014
+Coritiba;Bahia;Pinnacle;2.06;3.63;3.76;07 Dec 2014; 3;2 ;2014
+Coritiba;Bahia;Unibet;2.22;3.35;3.05;07 Dec 2014; 3;2 ;2014
+Coritiba;Bahia;William Hill;2.00;3.40;3.50;07 Dec 2014; 3;2 ;2014
+Cruzeiro;Fluminense;1xBet;1.64;4.30;5.60;07 Dec 2014; 2;1 ;2014
+Cruzeiro;Fluminense;bet-at-home;1.61;3.63;5.15;07 Dec 2014; 2;1 ;2014
+Cruzeiro;Fluminense;bet365;1.62;3.75;5.50;07 Dec 2014; 2;1 ;2014
+Cruzeiro;Fluminense;bwin;1.55;3.60;5.50;07 Dec 2014; 2;1 ;2014
+Cruzeiro;Fluminense;Marathonbet;1.63;4.30;5.60;07 Dec 2014; 2;1 ;2014
+Cruzeiro;Fluminense;Pinnacle;1.68;4.07;5.28;07 Dec 2014; 2;1 ;2014
+Cruzeiro;Fluminense;Unibet;1.60;3.60;5.50;07 Dec 2014; 2;1 ;2014
+Cruzeiro;Fluminense;William Hill;1.62;3.80;5.00;07 Dec 2014; 2;1 ;2014
+Goias;Chapecoense-SC;1xBet;2.08;3.45;3.95;07 Dec 2014; 4;2 ;2014
+Goias;Chapecoense-SC;bet-at-home;2.00;3.18;3.64;07 Dec 2014; 4;2 ;2014
+Goias;Chapecoense-SC;bet365;2.00;3.30;3.80;07 Dec 2014; 4;2 ;2014
+Goias;Chapecoense-SC;bwin;2.10;3.10;3.30;07 Dec 2014; 4;2 ;2014
+Goias;Chapecoense-SC;Marathonbet;2.06;3.40;4.05;07 Dec 2014; 4;2 ;2014
+Goias;Chapecoense-SC;Pinnacle;2.07;3.39;3.97;07 Dec 2014; 4;2 ;2014
+Goias;Chapecoense-SC;Unibet;2.10;3.25;3.60;07 Dec 2014; 4;2 ;2014
+Goias;Chapecoense-SC;William Hill;2.10;3.10;3.60;07 Dec 2014; 4;2 ;2014
+Gremio;Flamengo RJ;1xBet;1.47;4.45;8.60;07 Dec 2014; 1;1 ;2014
+Gremio;Flamengo RJ;bet-at-home;1.45;3.93;6.77;07 Dec 2014; 1;1 ;2014
+Gremio;Flamengo RJ;bet365;1.44;4.20;7.50;07 Dec 2014; 1;1 ;2014
+Gremio;Flamengo RJ;bwin;1.44;3.90;6.75;07 Dec 2014; 1;1 ;2014
+Gremio;Flamengo RJ;Marathonbet;1.46;4.45;8.60;07 Dec 2014; 1;1 ;2014
+Gremio;Flamengo RJ;Pinnacle;1.50;4.34;7.91;07 Dec 2014; 1;1 ;2014
+Gremio;Flamengo RJ;Unibet;1.41;4.20;7.50;07 Dec 2014; 1;1 ;2014
+Gremio;Flamengo RJ;William Hill;1.44;3.80;8.00;07 Dec 2014; 1;1 ;2014
+Palmeiras;Athletico-PR;1xBet;1.44;5.10;7.60;07 Dec 2014; 1;1 ;2014
+Palmeiras;Athletico-PR;bet-at-home;1.40;4.34;6.92;07 Dec 2014; 1;1 ;2014
+Palmeiras;Athletico-PR;bet365;1.36;4.75;8.00;07 Dec 2014; 1;1 ;2014
+Palmeiras;Athletico-PR;bwin;1.40;4.33;6.50;07 Dec 2014; 1;1 ;2014
+Palmeiras;Athletico-PR;Marathonbet;1.40;5.00;9.00;07 Dec 2014; 1;1 ;2014
+Palmeiras;Athletico-PR;Pinnacle;1.44;4.64;8.37;07 Dec 2014; 1;1 ;2014
+Palmeiras;Athletico-PR;Unibet;1.38;4.50;7.70;07 Dec 2014; 1;1 ;2014
+Palmeiras;Athletico-PR;William Hill;1.40;4.33;7.50;07 Dec 2014; 1;1 ;2014
+Sport Recife;Sao Paulo;1xBet;2.66;3.65;2.68;07 Dec 2014; 1;0 ;2014
+Sport Recife;Sao Paulo;bet-at-home;2.30;3.21;2.91;07 Dec 2014; 1;0 ;2014
+Sport Recife;Sao Paulo;bet365;2.30;3.40;3.00;07 Dec 2014; 1;0 ;2014
+Sport Recife;Sao Paulo;bwin;2.40;3.25;2.65;07 Dec 2014; 1;0 ;2014
+Sport Recife;Sao Paulo;Marathonbet;2.50;3.40;3.00;07 Dec 2014; 1;0 ;2014
+Sport Recife;Sao Paulo;Pinnacle;2.46;3.52;2.94;07 Dec 2014; 1;0 ;2014
+Sport Recife;Sao Paulo;Unibet;2.35;3.25;2.90;07 Dec 2014; 1;0 ;2014
+Sport Recife;Sao Paulo;William Hill;2.25;3.30;3.00;07 Dec 2014; 1;0 ;2014
+Vitoria;Santos;1xBet;1.85;3.90;4.45;07 Dec 2014; 0;1 ;2014
+Vitoria;Santos;bet-at-home;1.74;3.48;4.40;07 Dec 2014; 0;1 ;2014
+Vitoria;Santos;bet365;1.73;3.75;4.50;07 Dec 2014; 0;1 ;2014
+Vitoria;Santos;bwin;1.70;3.60;4.33;07 Dec 2014; 0;1 ;2014
+Vitoria;Santos;Marathonbet;1.86;3.80;4.45;07 Dec 2014; 0;1 ;2014
+Vitoria;Santos;Pinnacle;1.79;3.83;4.92;07 Dec 2014; 0;1 ;2014
+Vitoria;Santos;Unibet;1.78;3.50;4.35;07 Dec 2014; 0;1 ;2014
+Vitoria;Santos;William Hill;1.75;3.50;4.50;07 Dec 2014; 0;1 ;2014
+Corinthians;Criciuma;1xBet;1.25;6.70;14.00;06 Dec 2014; 2;1 ;2014
+Corinthians;Criciuma;bet-at-home;1.19;5.60;14.17;06 Dec 2014; 2;1 ;2014
+Corinthians;Criciuma;bet365;1.22;6.00;13.00;06 Dec 2014; 2;1 ;2014
+Corinthians;Criciuma;bwin;1.20;5.50;11.50;06 Dec 2014; 2;1 ;2014
+Corinthians;Criciuma;Marathonbet;1.22;6.70;17.00;06 Dec 2014; 2;1 ;2014
+Corinthians;Criciuma;Pinnacle;1.24;6.25;16.65;06 Dec 2014; 2;1 ;2014
+Corinthians;Criciuma;Unibet;1.25;5.50;11.00;06 Dec 2014; 2;1 ;2014
+Corinthians;Criciuma;William Hill;1.18;6.00;15.00;06 Dec 2014; 2;1 ;2014
+Figueirense;Internacional;1xBet;3.75;3.50;2.13;06 Dec 2014; 1;2 ;2014
+Figueirense;Internacional;bet-at-home;3.57;3.26;1.99;06 Dec 2014; 1;2 ;2014
+Figueirense;Internacional;bet365;3.80;3.50;1.95;06 Dec 2014; 1;2 ;2014
+Figueirense;Internacional;bwin;3.50;3.20;2.00;06 Dec 2014; 1;2 ;2014
+Figueirense;Internacional;Marathonbet;3.75;3.50;2.12;06 Dec 2014; 1;2 ;2014
+Figueirense;Internacional;Pinnacle;3.83;3.57;2.04;06 Dec 2014; 1;2 ;2014
+Figueirense;Internacional;Unibet;3.50;3.25;2.05;06 Dec 2014; 1;2 ;2014
+Figueirense;Internacional;William Hill;3.60;3.30;2.00;06 Dec 2014; 1;2 ;2014
+Athletico-PR;Goias;1xBet;1.86;3.65;4.75;30 Nov 2014; 1;0 ;2014
+Athletico-PR;Goias;bet-at-home;1.78;3.31;4.41;30 Nov 2014; 1;0 ;2014
+Athletico-PR;Goias;bet365;1.80;3.30;5.00;30 Nov 2014; 1;0 ;2014
+Athletico-PR;Goias;bwin;1.65;3.40;5.00;30 Nov 2014; 1;0 ;2014
+Athletico-PR;Goias;Marathonbet;1.85;3.65;4.75;30 Nov 2014; 1;0 ;2014
+Athletico-PR;Goias;Pinnacle;1.84;3.62;4.85;30 Nov 2014; 1;0 ;2014
+Athletico-PR;Goias;Unibet;1.70;3.50;4.50;30 Nov 2014; 1;0 ;2014
+Athletico-PR;Goias;William Hill;1.75;3.30;4.60;30 Nov 2014; 1;0 ;2014
+Atletico-MG;Coritiba;1xBet;1.76;3.65;5.60;30 Nov 2014; 1;2 ;2014
+Atletico-MG;Coritiba;bet-at-home;1.70;3.46;4.68;30 Nov 2014; 1;2 ;2014
+Atletico-MG;Coritiba;bet365;1.73;3.75;4.50;30 Nov 2014; 1;2 ;2014
+Atletico-MG;Coritiba;bwin;1.67;3.40;4.75;30 Nov 2014; 1;2 ;2014
+Atletico-MG;Coritiba;Marathonbet;1.69;3.90;5.60;30 Nov 2014; 1;2 ;2014
+Atletico-MG;Coritiba;Pinnacle;1.72;3.82;5.50;30 Nov 2014; 1;2 ;2014
+Atletico-MG;Coritiba;Unibet;1.75;3.35;4.50;30 Nov 2014; 1;2 ;2014
+Atletico-MG;Coritiba;William Hill;1.75;3.40;4.50;30 Nov 2014; 1;2 ;2014
+Bahia;Gremio;1xBet;3.12;3.30;2.48;30 Nov 2014; 1;0 ;2014
+Bahia;Gremio;bet-at-home;3.02;3.09;2.30;30 Nov 2014; 1;0 ;2014
+Bahia;Gremio;bet365;3.00;3.20;2.38;30 Nov 2014; 1;0 ;2014
+Bahia;Gremio;bwin;3.10;3.10;2.20;30 Nov 2014; 1;0 ;2014
+Bahia;Gremio;Marathonbet;3.10;3.30;2.50;30 Nov 2014; 1;0 ;2014
+Bahia;Gremio;Pinnacle;3.12;3.41;2.43;30 Nov 2014; 1;0 ;2014
+Bahia;Gremio;Unibet;3.00;3.25;2.30;30 Nov 2014; 1;0 ;2014
+Bahia;Gremio;William Hill;3.20;3.00;2.25;30 Nov 2014; 1;0 ;2014
+Chapecoense-SC;Cruzeiro;1xBet;2.44;3.45;3.08;30 Nov 2014; 1;1 ;2014
+Chapecoense-SC;Cruzeiro;bet-at-home;2.33;3.19;2.88;30 Nov 2014; 1;1 ;2014
+Chapecoense-SC;Cruzeiro;bet365;2.45;3.20;2.90;30 Nov 2014; 1;1 ;2014
+Chapecoense-SC;Cruzeiro;bwin;2.25;3.20;2.90;30 Nov 2014; 1;1 ;2014
+Chapecoense-SC;Cruzeiro;Marathonbet;2.44;3.45;3.10;30 Nov 2014; 1;1 ;2014
+Chapecoense-SC;Cruzeiro;Pinnacle;2.50;3.49;2.95;30 Nov 2014; 1;1 ;2014
+Chapecoense-SC;Cruzeiro;Unibet;2.20;3.25;3.15;30 Nov 2014; 1;1 ;2014
+Chapecoense-SC;Cruzeiro;William Hill;2.38;3.20;2.80;30 Nov 2014; 1;1 ;2014
+Fluminense;Corinthians;1xBet;3.20;3.65;2.30;30 Nov 2014; 5;2 ;2014
+Fluminense;Corinthians;bet-at-home;2.97;3.13;2.31;30 Nov 2014; 5;2 ;2014
+Fluminense;Corinthians;bet365;3.00;3.20;2.38;30 Nov 2014; 5;2 ;2014
+Fluminense;Corinthians;bwin;2.80;3.10;2.40;30 Nov 2014; 5;2 ;2014
+Fluminense;Corinthians;Marathonbet;3.05;3.45;2.45;30 Nov 2014; 5;2 ;2014
+Fluminense;Corinthians;Pinnacle;3.24;3.32;2.40;30 Nov 2014; 5;2 ;2014
+Fluminense;Corinthians;Unibet;2.75;3.30;2.35;30 Nov 2014; 5;2 ;2014
+Fluminense;Corinthians;William Hill;2.80;3.00;2.50;30 Nov 2014; 5;2 ;2014
+Santos;Botafogo RJ;1xBet;1.67;4.25;5.30;30 Nov 2014; 2;0 ;2014
+Santos;Botafogo RJ;bet-at-home;1.60;3.73;5.04;30 Nov 2014; 2;0 ;2014
+Santos;Botafogo RJ;bet365;1.60;3.80;5.75;30 Nov 2014; 2;0 ;2014
+Santos;Botafogo RJ;bwin;1.53;3.90;5.25;30 Nov 2014; 2;0 ;2014
+Santos;Botafogo RJ;Marathonbet;1.65;4.20;5.50;30 Nov 2014; 2;0 ;2014
+Santos;Botafogo RJ;Pinnacle;1.67;4.20;5.35;30 Nov 2014; 2;0 ;2014
+Santos;Botafogo RJ;Unibet;1.57;3.90;5.50;30 Nov 2014; 2;0 ;2014
+Santos;Botafogo RJ;William Hill;1.53;4.00;5.50;30 Nov 2014; 2;0 ;2014
+Sao Paulo;Figueirense;1xBet;1.49;4.35;8.40;30 Nov 2014; 1;1 ;2014
+Sao Paulo;Figueirense;bet-at-home;1.46;3.79;7.04;30 Nov 2014; 1;1 ;2014
+Sao Paulo;Figueirense;bet365;1.40;4.20;9.00;30 Nov 2014; 1;1 ;2014
+Sao Paulo;Figueirense;bwin;1.50;3.75;6.00;30 Nov 2014; 1;1 ;2014
+Sao Paulo;Figueirense;Marathonbet;1.47;4.30;8.80;30 Nov 2014; 1;1 ;2014
+Sao Paulo;Figueirense;Pinnacle;1.42;4.47;10.22;30 Nov 2014; 1;1 ;2014
+Sao Paulo;Figueirense;Unibet;1.45;4.10;7.00;30 Nov 2014; 1;1 ;2014
+Sao Paulo;Figueirense;William Hill;1.55;3.60;6.00;30 Nov 2014; 1;1 ;2014
+Flamengo RJ;Vitoria;1xBet;2.68;3.55;2.72;30 Nov 2014; 4;0 ;2014
+Flamengo RJ;Vitoria;bet-at-home;2.64;3.21;2.51;30 Nov 2014; 4;0 ;2014
+Flamengo RJ;Vitoria;bet365;2.70;3.40;2.50;30 Nov 2014; 4;0 ;2014
+Flamengo RJ;Vitoria;bwin;2.40;3.20;2.70;30 Nov 2014; 4;0 ;2014
+Flamengo RJ;Vitoria;Marathonbet;2.75;3.45;2.68;30 Nov 2014; 4;0 ;2014
+Flamengo RJ;Vitoria;Pinnacle;2.78;3.45;2.66;30 Nov 2014; 4;0 ;2014
+Flamengo RJ;Vitoria;Unibet;2.45;3.30;2.75;30 Nov 2014; 4;0 ;2014
+Flamengo RJ;Vitoria;William Hill;2.38;3.30;2.70;30 Nov 2014; 4;0 ;2014
+Internacional;Palmeiras;1xBet;1.58;4.20;6.60;29 Nov 2014; 3;1 ;2014
+Internacional;Palmeiras;bet-at-home;1.51;3.84;5.96;29 Nov 2014; 3;1 ;2014
+Internacional;Palmeiras;bet365;1.50;4.00;7.00;29 Nov 2014; 3;1 ;2014
+Internacional;Palmeiras;bwin;1.53;3.70;5.75;29 Nov 2014; 3;1 ;2014
+Internacional;Palmeiras;Marathonbet;1.57;4.20;6.60;29 Nov 2014; 3;1 ;2014
+Internacional;Palmeiras;Pinnacle;1.54;4.43;6.73;29 Nov 2014; 3;1 ;2014
+Internacional;Palmeiras;Unibet;1.50;4.00;6.25;29 Nov 2014; 3;1 ;2014
+Internacional;Palmeiras;William Hill;1.55;3.80;5.50;29 Nov 2014; 3;1 ;2014
+Chapecoense-SC;Botafogo RJ;1xBet;1.78;3.75;5.20;23 Nov 2014; 2;0 ;2014
+Chapecoense-SC;Botafogo RJ;bet-at-home;1.85;3.28;4.07;23 Nov 2014; 2;0 ;2014
+Chapecoense-SC;Botafogo RJ;bet365;1.91;3.40;4.00;23 Nov 2014; 2;0 ;2014
+Chapecoense-SC;Botafogo RJ;bwin;1.70;3.50;4.50;23 Nov 2014; 2;0 ;2014
+Chapecoense-SC;Botafogo RJ;Marathonbet;1.90;3.65;4.45;23 Nov 2014; 2;0 ;2014
+Chapecoense-SC;Botafogo RJ;Pinnacle;1.91;3.58;4.49;23 Nov 2014; 2;0 ;2014
+Chapecoense-SC;Botafogo RJ;Unibet;1.85;3.35;4.25;23 Nov 2014; 2;0 ;2014
+Chapecoense-SC;Botafogo RJ;William Hill;1.67;3.60;4.60;23 Nov 2014; 2;0 ;2014
+Corinthians;Gremio;1xBet;1.95;3.40;4.55;23 Nov 2014; 1;0 ;2014
+Corinthians;Gremio;bet-at-home;1.86;3.20;4.16;23 Nov 2014; 1;0 ;2014
+Corinthians;Gremio;bet365;1.91;3.30;4.20;23 Nov 2014; 1;0 ;2014
+Corinthians;Gremio;bwin;1.95;3.10;3.75;23 Nov 2014; 1;0 ;2014
+Corinthians;Gremio;Marathonbet;1.95;3.40;4.55;23 Nov 2014; 1;0 ;2014
+Corinthians;Gremio;Pinnacle;1.94;3.26;4.77;23 Nov 2014; 1;0 ;2014
+Corinthians;Gremio;Unibet;1.85;3.40;4.00;23 Nov 2014; 1;0 ;2014
+Corinthians;Gremio;William Hill;1.85;3.10;4.40;23 Nov 2014; 1;0 ;2014
+Cruzeiro;Goias;1xBet;1.30;6.00;12.50;23 Nov 2014; 2;1 ;2014
+Cruzeiro;Goias;bet-at-home;1.31;4.64;8.87;23 Nov 2014; 2;1 ;2014
+Cruzeiro;Goias;bet365;1.33;4.75;9.50;23 Nov 2014; 2;1 ;2014
+Cruzeiro;Goias;bwin;1.30;4.40;9.25;23 Nov 2014; 2;1 ;2014
+Cruzeiro;Goias;Marathonbet;1.29;6.00;13.00;23 Nov 2014; 2;1 ;2014
+Cruzeiro;Goias;Pinnacle;1.34;5.26;11.37;23 Nov 2014; 2;1 ;2014
+Cruzeiro;Goias;Unibet;1.30;5.00;9.00;23 Nov 2014; 2;1 ;2014
+Cruzeiro;Goias;William Hill;1.33;4.50;8.50;23 Nov 2014; 2;1 ;2014
+Figueirense;Vitoria;1xBet;2.22;3.40;3.55;23 Nov 2014; 2;0 ;2014
+Figueirense;Vitoria;bet-at-home;2.14;3.23;3.19;23 Nov 2014; 2;0 ;2014
+Figueirense;Vitoria;bet365;2.10;3.40;3.40;23 Nov 2014; 2;0 ;2014
+Figueirense;Vitoria;bwin;2.00;3.25;3.40;23 Nov 2014; 2;0 ;2014
+Figueirense;Vitoria;Marathonbet;2.22;3.40;3.55;23 Nov 2014; 2;0 ;2014
+Figueirense;Vitoria;Pinnacle;2.20;3.34;3.62;23 Nov 2014; 2;0 ;2014
+Figueirense;Vitoria;Unibet;2.10;3.25;3.35;23 Nov 2014; 2;0 ;2014
+Figueirense;Vitoria;William Hill;2.15;3.10;3.30;23 Nov 2014; 2;0 ;2014
+Flamengo RJ;Criciuma;1xBet;1.49;4.75;7.20;23 Nov 2014; 1;1 ;2014
+Flamengo RJ;Criciuma;bet-at-home;1.48;3.87;6.39;23 Nov 2014; 1;1 ;2014
+Flamengo RJ;Criciuma;bet365;1.50;4.00;6.50;23 Nov 2014; 1;1 ;2014
+Flamengo RJ;Criciuma;bwin;1.50;3.80;5.75;23 Nov 2014; 1;1 ;2014
+Flamengo RJ;Criciuma;Marathonbet;1.46;4.55;8.30;23 Nov 2014; 1;1 ;2014
+Flamengo RJ;Criciuma;Pinnacle;1.52;4.49;6.95;23 Nov 2014; 1;1 ;2014
+Flamengo RJ;Criciuma;Unibet;1.45;4.25;6.50;23 Nov 2014; 1;1 ;2014
+Flamengo RJ;Criciuma;William Hill;1.44;4.00;6.50;23 Nov 2014; 1;1 ;2014
+Santos;Sao Paulo;1xBet;2.56;3.40;2.94;23 Nov 2014; 0;1 ;2014
+Santos;Sao Paulo;bet-at-home;2.35;3.20;2.85;23 Nov 2014; 0;1 ;2014
+Santos;Sao Paulo;bet365;2.40;3.30;2.88;23 Nov 2014; 0;1 ;2014
+Santos;Sao Paulo;bwin;2.45;3.00;2.80;23 Nov 2014; 0;1 ;2014
+Santos;Sao Paulo;Marathonbet;2.58;3.40;2.90;23 Nov 2014; 0;1 ;2014
+Santos;Sao Paulo;Pinnacle;2.47;3.59;2.93;23 Nov 2014; 0;1 ;2014
+Santos;Sao Paulo;Unibet;2.35;3.20;2.95;23 Nov 2014; 0;1 ;2014
+Santos;Sao Paulo;William Hill;2.45;3.20;2.70;23 Nov 2014; 0;1 ;2014
+Sport Recife;Fluminense;1xBet;2.42;3.65;2.98;23 Nov 2014; 2;2 ;2014
+Sport Recife;Fluminense;bet-at-home;2.32;3.16;2.92;23 Nov 2014; 2;2 ;2014
+Sport Recife;Fluminense;bet365;2.40;3.30;2.88;23 Nov 2014; 2;2 ;2014
+Sport Recife;Fluminense;bwin;2.30;3.10;2.90;23 Nov 2014; 2;2 ;2014
+Sport Recife;Fluminense;Marathonbet;2.34;3.60;3.13;23 Nov 2014; 2;2 ;2014
+Sport Recife;Fluminense;Pinnacle;2.44;3.53;3.01;23 Nov 2014; 2;2 ;2014
+Sport Recife;Fluminense;Unibet;2.40;3.25;2.80;23 Nov 2014; 2;2 ;2014
+Sport Recife;Fluminense;William Hill;2.30;3.25;2.80;23 Nov 2014; 2;2 ;2014
+Bahia;Athletico-PR;1xBet;1.70;3.80;5.80;23 Nov 2014; 1;2 ;2014
+Bahia;Athletico-PR;bet-at-home;1.71;3.47;4.63;23 Nov 2014; 1;2 ;2014
+Bahia;Athletico-PR;bet365;1.73;3.60;4.75;23 Nov 2014; 1;2 ;2014
+Bahia;Athletico-PR;bwin;1.72;3.40;4.50;23 Nov 2014; 1;2 ;2014
+Bahia;Athletico-PR;Marathonbet;1.68;3.85;5.90;23 Nov 2014; 1;2 ;2014
+Bahia;Athletico-PR;Pinnacle;1.76;3.77;5.19;23 Nov 2014; 1;2 ;2014
+Bahia;Athletico-PR;Unibet;1.67;3.55;5.00;23 Nov 2014; 1;2 ;2014
+Bahia;Athletico-PR;William Hill;1.70;3.40;4.80;23 Nov 2014; 1;2 ;2014
+Internacional;Atletico-MG;1xBet;1.75;3.95;4.45;22 Nov 2014; 2;1 ;2014
+Internacional;Atletico-MG;bet-at-home;1.68;3.59;4.64;22 Nov 2014; 2;1 ;2014
+Internacional;Atletico-MG;bet365;1.73;3.60;4.75;22 Nov 2014; 2;1 ;2014
+Internacional;Atletico-MG;bwin;1.57;3.50;5.50;22 Nov 2014; 2;1 ;2014
+Internacional;Atletico-MG;Marathonbet;1.71;3.85;5.50;22 Nov 2014; 2;1 ;2014
+Internacional;Atletico-MG;Pinnacle;1.76;3.99;4.86;22 Nov 2014; 2;1 ;2014
+Internacional;Atletico-MG;Unibet;1.65;3.90;4.80;22 Nov 2014; 2;1 ;2014
+Internacional;Atletico-MG;William Hill;1.70;3.50;4.60;22 Nov 2014; 2;1 ;2014
+Gremio;Cruzeiro;1xBet;2.08;3.50;3.90;21 Nov 2014; 1;2 ;2014
+Gremio;Cruzeiro;bet-at-home;2.05;3.16;3.51;21 Nov 2014; 1;2 ;2014
+Gremio;Cruzeiro;bet365;2.05;3.25;3.75;21 Nov 2014; 1;2 ;2014
+Gremio;Cruzeiro;bwin;2.05;2.95;3.60;21 Nov 2014; 1;2 ;2014
+Gremio;Cruzeiro;Marathonbet;2.08;3.50;3.85;21 Nov 2014; 1;2 ;2014
+Gremio;Cruzeiro;Pinnacle;2.13;3.28;4.01;21 Nov 2014; 1;2 ;2014
+Gremio;Cruzeiro;Unibet;2.00;3.20;3.80;21 Nov 2014; 1;2 ;2014
+Gremio;Cruzeiro;William Hill;2.05;3.10;3.60;21 Nov 2014; 1;2 ;2014
+Fluminense;Chapecoense-SC;1xBet;1.49;4.60;7.40;20 Nov 2014; 1;4 ;2014
+Fluminense;Chapecoense-SC;bet-at-home;1.46;3.96;6.60;20 Nov 2014; 1;4 ;2014
+Fluminense;Chapecoense-SC;bet365;1.50;4.00;7.00;20 Nov 2014; 1;4 ;2014
+Fluminense;Chapecoense-SC;bwin;1.44;3.90;6.75;20 Nov 2014; 1;4 ;2014
+Fluminense;Chapecoense-SC;Marathonbet;1.48;4.45;8.00;20 Nov 2014; 1;4 ;2014
+Fluminense;Chapecoense-SC;Pinnacle;1.52;4.23;7.53;20 Nov 2014; 1;4 ;2014
+Fluminense;Chapecoense-SC;Unibet;1.42;4.40;6.70;20 Nov 2014; 1;4 ;2014
+Fluminense;Chapecoense-SC;William Hill;1.50;3.75;6.50;20 Nov 2014; 1;4 ;2014
+Atletico-MG;Flamengo RJ;1xBet;1.60;4.25;6.20;20 Nov 2014; 4;0 ;2014
+Atletico-MG;Flamengo RJ;bet-at-home;1.55;3.68;5.73;20 Nov 2014; 4;0 ;2014
+Atletico-MG;Flamengo RJ;bet365;1.57;3.80;6.00;20 Nov 2014; 4;0 ;2014
+Atletico-MG;Flamengo RJ;bwin;1.57;3.75;5.00;20 Nov 2014; 4;0 ;2014
+Atletico-MG;Flamengo RJ;Marathonbet;1.56;4.05;7.30;20 Nov 2014; 4;0 ;2014
+Atletico-MG;Flamengo RJ;Pinnacle;1.59;4.22;6.30;20 Nov 2014; 4;0 ;2014
+Atletico-MG;Flamengo RJ;Unibet;1.55;3.75;6.30;20 Nov 2014; 4;0 ;2014
+Atletico-MG;Flamengo RJ;William Hill;1.53;3.50;5.50;20 Nov 2014; 4;0 ;2014
+Palmeiras;Sport Recife;1xBet;1.59;4.05;6.90;20 Nov 2014; 0;2 ;2014
+Palmeiras;Sport Recife;bet-at-home;1.56;3.75;5.44;20 Nov 2014; 0;2 ;2014
+Palmeiras;Sport Recife;bet365;1.62;3.75;5.75;20 Nov 2014; 0;2 ;2014
+Palmeiras;Sport Recife;bwin;1.62;3.50;5.00;20 Nov 2014; 0;2 ;2014
+Palmeiras;Sport Recife;Marathonbet;1.58;4.00;7.00;20 Nov 2014; 0;2 ;2014
+Palmeiras;Sport Recife;Pinnacle;1.65;4.04;5.89;20 Nov 2014; 0;2 ;2014
+Palmeiras;Sport Recife;Unibet;1.52;3.90;6.25;20 Nov 2014; 0;2 ;2014
+Palmeiras;Sport Recife;William Hill;1.55;3.60;6.00;20 Nov 2014; 0;2 ;2014
+Criciuma;Bahia;1xBet;2.12;3.65;3.60;20 Nov 2014; 0;1 ;2014
+Criciuma;Bahia;bet-at-home;2.06;3.30;3.31;20 Nov 2014; 0;1 ;2014
+Criciuma;Bahia;bet365;2.10;3.40;3.40;20 Nov 2014; 0;1 ;2014
+Criciuma;Bahia;bwin;1.95;3.30;3.50;20 Nov 2014; 0;1 ;2014
+Criciuma;Bahia;Marathonbet;2.12;3.65;3.55;20 Nov 2014; 0;1 ;2014
+Criciuma;Bahia;Pinnacle;2.15;3.68;3.47;20 Nov 2014; 0;1 ;2014
+Criciuma;Bahia;Unibet;2.05;3.35;3.50;20 Nov 2014; 0;1 ;2014
+Criciuma;Bahia;William Hill;2.00;3.30;3.50;20 Nov 2014; 0;1 ;2014
+Goias;Corinthians;1xBet;4.35;3.45;1.99;20 Nov 2014; 0;1 ;2014
+Goias;Corinthians;bet-at-home;3.82;3.24;1.92;20 Nov 2014; 0;1 ;2014
+Goias;Corinthians;bet365;3.75;3.25;2.05;20 Nov 2014; 0;1 ;2014
+Goias;Corinthians;bwin;4.00;3.30;1.83;20 Nov 2014; 0;1 ;2014
+Goias;Corinthians;Marathonbet;4.33;3.45;1.98;20 Nov 2014; 0;1 ;2014
+Goias;Corinthians;Pinnacle;4.20;3.34;2.04;20 Nov 2014; 0;1 ;2014
+Goias;Corinthians;Unibet;4.30;3.35;1.83;20 Nov 2014; 0;1 ;2014
+Goias;Corinthians;William Hill;3.80;3.00;1.91;20 Nov 2014; 0;1 ;2014
+Vitoria;Coritiba;1xBet;2.50;3.40;3.02;20 Nov 2014; 1;1 ;2014
+Vitoria;Coritiba;bet-at-home;2.29;3.14;2.99;20 Nov 2014; 1;1 ;2014
+Vitoria;Coritiba;bet365;2.40;3.10;3.10;20 Nov 2014; 1;1 ;2014
+Vitoria;Coritiba;bwin;2.25;3.10;3.00;20 Nov 2014; 1;1 ;2014
+Vitoria;Coritiba;Marathonbet;2.44;3.40;3.10;20 Nov 2014; 1;1 ;2014
+Vitoria;Coritiba;Pinnacle;2.47;3.27;3.18;20 Nov 2014; 1;1 ;2014
+Vitoria;Coritiba;Unibet;2.25;3.30;3.00;20 Nov 2014; 1;1 ;2014
+Vitoria;Coritiba;William Hill;2.20;3.00;3.00;20 Nov 2014; 1;1 ;2014
+Athletico-PR;Santos;1xBet;2.22;3.60;3.40;19 Nov 2014; 1;1 ;2014
+Athletico-PR;Santos;bet-at-home;2.09;3.26;3.27;19 Nov 2014; 1;1 ;2014
+Athletico-PR;Santos;bet365;2.20;3.40;3.20;19 Nov 2014; 1;1 ;2014
+Athletico-PR;Santos;bwin;2.10;3.10;3.30;19 Nov 2014; 1;1 ;2014
+Athletico-PR;Santos;Marathonbet;2.10;3.50;3.80;19 Nov 2014; 1;1 ;2014
+Athletico-PR;Santos;Pinnacle;2.21;3.51;3.51;19 Nov 2014; 1;1 ;2014
+Athletico-PR;Santos;Unibet;2.05;3.20;3.65;19 Nov 2014; 1;1 ;2014
+Athletico-PR;Santos;William Hill;2.05;3.25;3.40;19 Nov 2014; 1;1 ;2014
+Botafogo RJ;Figueirense;1xBet;2.03;3.50;4.10;19 Nov 2014; 0;1 ;2014
+Botafogo RJ;Figueirense;bet-at-home;2.02;3.25;3.48;19 Nov 2014; 0;1 ;2014
+Botafogo RJ;Figueirense;bet365;2.00;3.40;3.75;19 Nov 2014; 0;1 ;2014
+Botafogo RJ;Figueirense;bwin;1.95;3.10;3.75;19 Nov 2014; 0;1 ;2014
+Botafogo RJ;Figueirense;Marathonbet;2.02;3.50;4.10;19 Nov 2014; 0;1 ;2014
+Botafogo RJ;Figueirense;Pinnacle;2.04;3.48;4.04;19 Nov 2014; 0;1 ;2014
+Botafogo RJ;Figueirense;Unibet;1.95;3.30;3.75;19 Nov 2014; 0;1 ;2014
+Botafogo RJ;Figueirense;William Hill;2.00;3.00;3.50;19 Nov 2014; 0;1 ;2014
+Chapecoense-SC;Vitoria;1xBet;1.90;3.40;4.95;16 Nov 2014; 0;1 ;2014
+Chapecoense-SC;Vitoria;bet-at-home;1.88;3.23;4.02;16 Nov 2014; 0;1 ;2014
+Chapecoense-SC;Vitoria;bet365;1.91;3.30;4.20;16 Nov 2014; 0;1 ;2014
+Chapecoense-SC;Vitoria;bwin;1.83;3.10;4.25;16 Nov 2014; 0;1 ;2014
+Chapecoense-SC;Vitoria;Marathonbet;1.88;3.40;5.00;16 Nov 2014; 0;1 ;2014
+Chapecoense-SC;Vitoria;Pinnacle;1.95;3.40;4.56;16 Nov 2014; 0;1 ;2014
+Chapecoense-SC;Vitoria;Unibet;1.90;3.30;4.00;16 Nov 2014; 0;1 ;2014
+Chapecoense-SC;Vitoria;William Hill;1.95;3.25;3.70;16 Nov 2014; 0;1 ;2014
+Sao Paulo;Palmeiras;1xBet;1.61;4.05;6.60;16 Nov 2014; 2;0 ;2014
+Sao Paulo;Palmeiras;bet-at-home;1.66;3.58;4.83;16 Nov 2014; 2;0 ;2014
+Sao Paulo;Palmeiras;bet365;1.67;3.75;5.00;16 Nov 2014; 2;0 ;2014
+Sao Paulo;Palmeiras;bwin;1.57;3.50;5.75;16 Nov 2014; 2;0 ;2014
+Sao Paulo;Palmeiras;Marathonbet;1.61;4.00;6.50;16 Nov 2014; 2;0 ;2014
+Sao Paulo;Palmeiras;Pinnacle;1.74;3.82;5.34;16 Nov 2014; 2;0 ;2014
+Sao Paulo;Palmeiras;Unibet;1.62;3.60;5.50;16 Nov 2014; 2;0 ;2014
+Sao Paulo;Palmeiras;William Hill;1.55;3.80;5.50;16 Nov 2014; 2;0 ;2014
+Athletico-PR;Sport Recife;1xBet;1.68;3.90;5.80;16 Nov 2014; 0;1 ;2014
+Athletico-PR;Sport Recife;bet-at-home;1.66;3.50;4.97;16 Nov 2014; 0;1 ;2014
+Athletico-PR;Sport Recife;bet365;1.62;3.75;5.50;16 Nov 2014; 0;1 ;2014
+Athletico-PR;Sport Recife;bwin;1.67;3.25;5.25;16 Nov 2014; 0;1 ;2014
+Athletico-PR;Sport Recife;Marathonbet;1.67;3.95;5.80;16 Nov 2014; 0;1 ;2014
+Athletico-PR;Sport Recife;Pinnacle;1.69;3.93;5.49;16 Nov 2014; 0;1 ;2014
+Athletico-PR;Sport Recife;Unibet;1.65;3.50;5.25;16 Nov 2014; 0;1 ;2014
+Athletico-PR;Sport Recife;William Hill;1.75;3.40;4.40;16 Nov 2014; 0;1 ;2014
+Bahia;Corinthians;1xBet;3.18;3.25;2.48;16 Nov 2014; 1;2 ;2014
+Bahia;Corinthians;bet-at-home;2.83;2.96;2.51;16 Nov 2014; 1;2 ;2014
+Bahia;Corinthians;bet365;2.90;3.10;2.50;16 Nov 2014; 1;2 ;2014
+Bahia;Corinthians;bwin;2.90;2.90;2.45;16 Nov 2014; 1;2 ;2014
+Bahia;Corinthians;Marathonbet;3.10;3.20;2.56;16 Nov 2014; 1;2 ;2014
+Bahia;Corinthians;Pinnacle;3.00;3.12;2.69;16 Nov 2014; 1;2 ;2014
+Bahia;Corinthians;Unibet;2.90;3.15;2.40;16 Nov 2014; 1;2 ;2014
+Bahia;Corinthians;William Hill;2.75;3.10;2.45;16 Nov 2014; 1;2 ;2014
+Flamengo RJ;Coritiba;1xBet;2.03;3.45;4.15;16 Nov 2014; 3;2 ;2014
+Flamengo RJ;Coritiba;bet-at-home;2.05;3.22;3.44;16 Nov 2014; 3;2 ;2014
+Flamengo RJ;Coritiba;bet365;2.00;3.30;3.80;16 Nov 2014; 3;2 ;2014
+Flamengo RJ;Coritiba;bwin;1.90;3.25;3.75;16 Nov 2014; 3;2 ;2014
+Flamengo RJ;Coritiba;Marathonbet;2.04;3.40;4.15;16 Nov 2014; 3;2 ;2014
+Flamengo RJ;Coritiba;Pinnacle;2.11;3.41;3.89;16 Nov 2014; 3;2 ;2014
+Flamengo RJ;Coritiba;Unibet;1.95;3.25;3.70;16 Nov 2014; 3;2 ;2014
+Flamengo RJ;Coritiba;William Hill;2.05;3.20;3.40;16 Nov 2014; 3;2 ;2014
+Internacional;Goias;1xBet;1.55;4.40;6.70;16 Nov 2014; 1;0 ;2014
+Internacional;Goias;bet-at-home;1.47;3.99;6.34;16 Nov 2014; 1;0 ;2014
+Internacional;Goias;bet365;1.50;4.00;7.00;16 Nov 2014; 1;0 ;2014
+Internacional;Goias;bwin;1.45;4.00;6.25;16 Nov 2014; 1;0 ;2014
+Internacional;Goias;Marathonbet;1.45;4.75;8.00;16 Nov 2014; 1;0 ;2014
+Internacional;Goias;Pinnacle;1.52;4.34;7.30;16 Nov 2014; 1;0 ;2014
+Internacional;Goias;Unibet;1.45;4.00;8.00;16 Nov 2014; 1;0 ;2014
+Internacional;Goias;William Hill;1.44;4.00;6.50;16 Nov 2014; 1;0 ;2014
+Santos;Cruzeiro;1xBet;2.44;3.65;2.96;16 Nov 2014; 0;1 ;2014
+Santos;Cruzeiro;bet-at-home;2.43;3.23;2.71;16 Nov 2014; 0;1 ;2014
+Santos;Cruzeiro;bet365;2.40;3.40;2.80;16 Nov 2014; 0;1 ;2014
+Santos;Cruzeiro;bwin;2.35;3.10;2.85;16 Nov 2014; 0;1 ;2014
+Santos;Cruzeiro;Marathonbet;2.45;3.60;2.94;16 Nov 2014; 0;1 ;2014
+Santos;Cruzeiro;Pinnacle;2.56;3.53;2.84;16 Nov 2014; 0;1 ;2014
+Santos;Cruzeiro;Unibet;2.35;3.30;2.85;16 Nov 2014; 0;1 ;2014
+Santos;Cruzeiro;William Hill;2.20;3.30;3.00;16 Nov 2014; 0;1 ;2014
+Criciuma;Gremio;1xBet;3.55;3.50;2.19;15 Nov 2014; 0;3 ;2014
+Criciuma;Gremio;bet-at-home;3.20;3.12;2.19;15 Nov 2014; 0;3 ;2014
+Criciuma;Gremio;bet365;3.40;3.10;2.25;15 Nov 2014; 0;3 ;2014
+Criciuma;Gremio;bwin;3.25;3.20;2.10;15 Nov 2014; 0;3 ;2014
+Criciuma;Gremio;Marathonbet;3.50;3.45;2.22;15 Nov 2014; 0;3 ;2014
+Criciuma;Gremio;Pinnacle;3.39;3.32;2.33;15 Nov 2014; 0;3 ;2014
+Criciuma;Gremio;Unibet;3.40;3.20;2.10;15 Nov 2014; 0;3 ;2014
+Criciuma;Gremio;William Hill;3.30;3.10;2.15;15 Nov 2014; 0;3 ;2014
+Fluminense;Botafogo RJ;1xBet;1.64;4.15;5.80;15 Nov 2014; 1;0 ;2014
+Fluminense;Botafogo RJ;bet-at-home;1.64;3.66;4.85;15 Nov 2014; 1;0 ;2014
+Fluminense;Botafogo RJ;bet365;1.67;3.75;5.00;15 Nov 2014; 1;0 ;2014
+Fluminense;Botafogo RJ;bwin;1.62;3.70;4.75;15 Nov 2014; 1;0 ;2014
+Fluminense;Botafogo RJ;Marathonbet;1.63;4.10;5.90;15 Nov 2014; 1;0 ;2014
+Fluminense;Botafogo RJ;Pinnacle;1.74;3.94;5.08;15 Nov 2014; 1;0 ;2014
+Fluminense;Botafogo RJ;Unibet;1.65;3.60;5.25;15 Nov 2014; 1;0 ;2014
+Fluminense;Botafogo RJ;William Hill;1.60;3.75;5.00;15 Nov 2014; 1;0 ;2014
+Sao Paulo;Internacional;1xBet;1.56;4.25;7.00;13 Nov 2014; 1;1 ;2014
+Sao Paulo;Internacional;bet-at-home;1.59;3.71;5.18;13 Nov 2014; 1;1 ;2014
+Sao Paulo;Internacional;bet365;1.62;3.80;5.50;13 Nov 2014; 1;1 ;2014
+Sao Paulo;Internacional;bwin;1.55;3.40;6.25;13 Nov 2014; 1;1 ;2014
+Sao Paulo;Internacional;Marathonbet;1.59;4.00;6.80;13 Nov 2014; 1;1 ;2014
+Sao Paulo;Internacional;Pinnacle;1.66;4.04;5.69;13 Nov 2014; 1;1 ;2014
+Sao Paulo;Internacional;Unibet;1.60;3.80;5.50;13 Nov 2014; 1;1 ;2014
+Sao Paulo;Internacional;William Hill;1.60;3.75;5.00;13 Nov 2014; 1;1 ;2014
+Corinthians;Santos;1xBet;1.82;3.65;5.00;09 Nov 2014; 1;0 ;2014
+Corinthians;Santos;bet-at-home;1.77;3.37;4.38;09 Nov 2014; 1;0 ;2014
+Corinthians;Santos;bet365;1.85;3.50;4.20;09 Nov 2014; 1;0 ;2014
+Corinthians;Santos;bwin;1.83;3.20;4.20;09 Nov 2014; 1;0 ;2014
+Corinthians;Santos;Marathonbet;1.80;3.60;5.20;09 Nov 2014; 1;0 ;2014
+Corinthians;Santos;Pinnacle;1.88;3.61;4.57;09 Nov 2014; 1;0 ;2014
+Corinthians;Santos;Unibet;1.75;3.50;4.50;09 Nov 2014; 1;0 ;2014
+Corinthians;Santos;William Hill;1.80;3.30;4.33;09 Nov 2014; 1;0 ;2014
+Cruzeiro;Criciuma;1xBet;1.34;5.90;9.00;09 Nov 2014; 3;1 ;2014
+Cruzeiro;Criciuma;bet-at-home;1.28;5.04;9.15;09 Nov 2014; 3;1 ;2014
+Cruzeiro;Criciuma;bet365;1.29;5.00;11.00;09 Nov 2014; 3;1 ;2014
+Cruzeiro;Criciuma;bwin;1.25;5.00;10.00;09 Nov 2014; 3;1 ;2014
+Cruzeiro;Criciuma;Marathonbet;1.29;6.20;12.00;09 Nov 2014; 3;1 ;2014
+Cruzeiro;Criciuma;Pinnacle;1.28;6.02;13.31;09 Nov 2014; 3;1 ;2014
+Cruzeiro;Criciuma;Unibet;1.27;5.25;9.50;09 Nov 2014; 3;1 ;2014
+Cruzeiro;Criciuma;William Hill;1.25;5.50;9.50;09 Nov 2014; 3;1 ;2014
+Goias;Bahia;1xBet;2.15;3.35;3.85;09 Nov 2014; 3;0 ;2014
+Goias;Bahia;bet-at-home;1.96;3.23;3.71;09 Nov 2014; 3;0 ;2014
+Goias;Bahia;bet365;2.00;3.30;3.80;09 Nov 2014; 3;0 ;2014
+Goias;Bahia;bwin;1.87;3.30;3.80;09 Nov 2014; 3;0 ;2014
+Goias;Bahia;Marathonbet;2.10;3.30;4.05;09 Nov 2014; 3;0 ;2014
+Goias;Bahia;Pinnacle;2.07;3.38;4.06;09 Nov 2014; 3;0 ;2014
+Goias;Bahia;Unibet;1.85;3.30;4.20;09 Nov 2014; 3;0 ;2014
+Goias;Bahia;William Hill;1.85;3.20;4.20;09 Nov 2014; 3;0 ;2014
+Figueirense;Chapecoense-SC;1xBet;2.42;3.30;3.25;09 Nov 2014; 1;0 ;2014
+Figueirense;Chapecoense-SC;bet-at-home;2.21;3.03;3.26;09 Nov 2014; 1;0 ;2014
+Figueirense;Chapecoense-SC;bet365;2.25;3.10;3.40;09 Nov 2014; 1;0 ;2014
+Figueirense;Chapecoense-SC;bwin;2.15;3.10;3.20;09 Nov 2014; 1;0 ;2014
+Figueirense;Chapecoense-SC;Marathonbet;2.34;3.13;3.60;09 Nov 2014; 1;0 ;2014
+Figueirense;Chapecoense-SC;Pinnacle;2.27;3.14;3.75;09 Nov 2014; 1;0 ;2014
+Figueirense;Chapecoense-SC;Unibet;2.25;3.20;3.10;09 Nov 2014; 1;0 ;2014
+Figueirense;Chapecoense-SC;William Hill;2.20;3.00;3.30;09 Nov 2014; 1;0 ;2014
+Gremio;Internacional;1xBet;2.17;3.20;3.95;09 Nov 2014; 4;1 ;2014
+Gremio;Internacional;bet-at-home;2.03;3.03;3.75;09 Nov 2014; 4;1 ;2014
+Gremio;Internacional;bet365;2.00;3.20;4.00;09 Nov 2014; 4;1 ;2014
+Gremio;Internacional;bwin;2.10;3.10;3.30;09 Nov 2014; 4;1 ;2014
+Gremio;Internacional;Marathonbet;2.08;3.35;4.05;09 Nov 2014; 4;1 ;2014
+Gremio;Internacional;Pinnacle;2.07;3.32;4.14;09 Nov 2014; 4;1 ;2014
+Gremio;Internacional;Unibet;2.00;3.30;3.65;09 Nov 2014; 4;1 ;2014
+Gremio;Internacional;William Hill;2.00;3.10;3.75;09 Nov 2014; 4;1 ;2014
+Sport Recife;Flamengo RJ;1xBet;2.24;3.35;3.55;09 Nov 2014; 2;2 ;2014
+Sport Recife;Flamengo RJ;bet-at-home;2.15;3.11;3.31;09 Nov 2014; 2;2 ;2014
+Sport Recife;Flamengo RJ;bet365;2.10;3.30;3.50;09 Nov 2014; 2;2 ;2014
+Sport Recife;Flamengo RJ;bwin;2.15;3.00;3.30;09 Nov 2014; 2;2 ;2014
+Sport Recife;Flamengo RJ;Marathonbet;2.22;3.35;3.60;09 Nov 2014; 2;2 ;2014
+Sport Recife;Flamengo RJ;Pinnacle;2.21;3.23;3.79;09 Nov 2014; 2;2 ;2014
+Sport Recife;Flamengo RJ;Unibet;2.05;3.20;3.55;09 Nov 2014; 2;2 ;2014
+Sport Recife;Flamengo RJ;William Hill;2.25;3.00;3.20;09 Nov 2014; 2;2 ;2014
+Vitoria;Sao Paulo;1xBet;2.78;3.45;2.66;09 Nov 2014; 1;2 ;2014
+Vitoria;Sao Paulo;bet-at-home;2.59;3.20;2.55;09 Nov 2014; 1;2 ;2014
+Vitoria;Sao Paulo;bet365;2.63;3.30;2.60;09 Nov 2014; 1;2 ;2014
+Vitoria;Sao Paulo;bwin;2.60;2.95;2.65;09 Nov 2014; 1;2 ;2014
+Vitoria;Sao Paulo;Marathonbet;2.76;3.45;2.68;09 Nov 2014; 1;2 ;2014
+Vitoria;Sao Paulo;Pinnacle;2.71;3.47;2.71;09 Nov 2014; 1;2 ;2014
+Vitoria;Sao Paulo;Unibet;2.65;3.20;2.55;09 Nov 2014; 1;2 ;2014
+Vitoria;Sao Paulo;William Hill;2.60;3.10;2.60;09 Nov 2014; 1;2 ;2014
+Botafogo RJ;Athletico-PR;1xBet;2.36;2.88;3.95;09 Nov 2014; 0;2 ;2014
+Botafogo RJ;Athletico-PR;bet-at-home;2.18;3.09;3.24;09 Nov 2014; 0;2 ;2014
+Botafogo RJ;Athletico-PR;bet365;2.15;3.10;3.60;09 Nov 2014; 0;2 ;2014
+Botafogo RJ;Athletico-PR;bwin;2.20;2.90;3.30;09 Nov 2014; 0;2 ;2014
+Botafogo RJ;Athletico-PR;Marathonbet;2.38;2.88;3.90;09 Nov 2014; 0;2 ;2014
+Botafogo RJ;Athletico-PR;Pinnacle;2.26;3.35;3.54;09 Nov 2014; 0;2 ;2014
+Botafogo RJ;Athletico-PR;Unibet;2.35;3.20;2.95;09 Nov 2014; 0;2 ;2014
+Botafogo RJ;Athletico-PR;William Hill;2.25;3.20;3.00;09 Nov 2014; 0;2 ;2014
+Coritiba;Fluminense;1xBet;2.22;3.45;3.50;08 Nov 2014; 1;0 ;2014
+Coritiba;Fluminense;bet-at-home;2.11;3.28;3.22;08 Nov 2014; 1;0 ;2014
+Coritiba;Fluminense;bet365;2.10;3.40;3.40;08 Nov 2014; 1;0 ;2014
+Coritiba;Fluminense;bwin;2.05;3.20;3.30;08 Nov 2014; 1;0 ;2014
+Coritiba;Fluminense;Marathonbet;2.18;3.45;3.60;08 Nov 2014; 1;0 ;2014
+Coritiba;Fluminense;Pinnacle;2.27;3.48;3.38;08 Nov 2014; 1;0 ;2014
+Coritiba;Fluminense;Unibet;2.05;3.20;3.55;08 Nov 2014; 1;0 ;2014
+Coritiba;Fluminense;William Hill;2.00;3.20;3.60;08 Nov 2014; 1;0 ;2014
+Palmeiras;Atletico-MG;1xBet;1.89;4.10;4.00;08 Nov 2014; 0;2 ;2014
+Palmeiras;Atletico-MG;bet-at-home;1.73;3.43;4.56;08 Nov 2014; 0;2 ;2014
+Palmeiras;Atletico-MG;bet365;1.75;3.60;4.60;08 Nov 2014; 0;2 ;2014
+Palmeiras;Atletico-MG;bwin;1.75;3.40;4.25;08 Nov 2014; 0;2 ;2014
+Palmeiras;Atletico-MG;Marathonbet;1.77;3.75;5.20;08 Nov 2014; 0;2 ;2014
+Palmeiras;Atletico-MG;Pinnacle;1.76;3.84;5.08;08 Nov 2014; 0;2 ;2014
+Palmeiras;Atletico-MG;Unibet;1.80;3.50;4.15;08 Nov 2014; 0;2 ;2014
+Palmeiras;Atletico-MG;William Hill;1.83;3.40;4.00;08 Nov 2014; 0;2 ;2014
+Bahia;Palmeiras;1xBet;2.38;3.35;3.25;02 Nov 2014; 0;1 ;2014
+Bahia;Palmeiras;bet-at-home;2.23;3.11;3.11;02 Nov 2014; 0;1 ;2014
+Bahia;Palmeiras;bet365;2.30;3.20;3.20;02 Nov 2014; 0;1 ;2014
+Bahia;Palmeiras;bwin;2.10;3.00;3.40;02 Nov 2014; 0;1 ;2014
+Bahia;Palmeiras;Marathonbet;2.38;3.35;3.25;02 Nov 2014; 0;1 ;2014
+Bahia;Palmeiras;Pinnacle;2.36;3.29;3.35;02 Nov 2014; 0;1 ;2014
+Bahia;Palmeiras;Unibet;2.15;3.20;3.25;02 Nov 2014; 0;1 ;2014
+Bahia;Palmeiras;William Hill;2.10;3.10;3.40;02 Nov 2014; 0;1 ;2014
+Athletico-PR;Atletico-MG;1xBet;2.24;3.16;3.80;02 Nov 2014; 1;0 ;2014
+Athletico-PR;Atletico-MG;bet-at-home;2.04;3.25;3.42;02 Nov 2014; 1;0 ;2014
+Athletico-PR;Atletico-MG;bet365;1.95;3.50;3.75;02 Nov 2014; 1;0 ;2014
+Athletico-PR;Atletico-MG;bwin;2.15;3.10;3.20;02 Nov 2014; 1;0 ;2014
+Athletico-PR;Atletico-MG;Marathonbet;2.15;3.40;3.75;02 Nov 2014; 1;0 ;2014
+Athletico-PR;Atletico-MG;Pinnacle;2.11;3.47;3.76;02 Nov 2014; 1;0 ;2014
+Athletico-PR;Atletico-MG;Unibet;2.05;3.20;3.50;02 Nov 2014; 1;0 ;2014
+Athletico-PR;Atletico-MG;William Hill;2.10;3.25;3.25;02 Nov 2014; 1;0 ;2014
+Flamengo RJ;Chapecoense-SC;1xBet;1.93;3.45;4.65;02 Nov 2014; 3;0 ;2014
+Flamengo RJ;Chapecoense-SC;bet-at-home;1.91;3.16;3.99;02 Nov 2014; 3;0 ;2014
+Flamengo RJ;Chapecoense-SC;bet365;2.00;3.20;4.00;02 Nov 2014; 3;0 ;2014
+Flamengo RJ;Chapecoense-SC;bwin;1.72;3.30;4.60;02 Nov 2014; 3;0 ;2014
+Flamengo RJ;Chapecoense-SC;Marathonbet;1.93;3.45;4.60;02 Nov 2014; 3;0 ;2014
+Flamengo RJ;Chapecoense-SC;Pinnacle;2.02;3.36;4.30;02 Nov 2014; 3;0 ;2014
+Flamengo RJ;Chapecoense-SC;Unibet;1.84;3.20;4.40;02 Nov 2014; 3;0 ;2014
+Flamengo RJ;Chapecoense-SC;William Hill;1.91;3.00;4.33;02 Nov 2014; 3;0 ;2014
+Criciuma;Sao Paulo;1xBet;3.16;3.40;2.42;02 Nov 2014; 1;2 ;2014
+Criciuma;Sao Paulo;bet-at-home;2.82;3.11;2.41;02 Nov 2014; 1;2 ;2014
+Criciuma;Sao Paulo;bet365;2.90;3.20;2.45;02 Nov 2014; 1;2 ;2014
+Criciuma;Sao Paulo;bwin;3.00;3.10;2.25;02 Nov 2014; 1;2 ;2014
+Criciuma;Sao Paulo;Marathonbet;3.10;3.35;2.48;02 Nov 2014; 1;2 ;2014
+Criciuma;Sao Paulo;Pinnacle;2.95;3.51;2.49;02 Nov 2014; 1;2 ;2014
+Criciuma;Sao Paulo;Unibet;2.95;3.30;2.30;02 Nov 2014; 1;2 ;2014
+Criciuma;Sao Paulo;William Hill;2.88;3.00;2.45;02 Nov 2014; 1;2 ;2014
+Santos;Internacional;1xBet;2.42;3.40;3.18;02 Nov 2014; 1;2 ;2014
+Santos;Internacional;bet-at-home;2.25;3.19;3.00;02 Nov 2014; 1;2 ;2014
+Santos;Internacional;bet365;2.30;3.25;3.10;02 Nov 2014; 1;2 ;2014
+Santos;Internacional;bwin;2.40;3.10;2.75;02 Nov 2014; 1;2 ;2014
+Santos;Internacional;Marathonbet;2.45;3.35;3.13;02 Nov 2014; 1;2 ;2014
+Santos;Internacional;Pinnacle;2.33;3.48;3.24;02 Nov 2014; 1;2 ;2014
+Santos;Internacional;Unibet;2.30;3.50;2.75;02 Nov 2014; 1;2 ;2014
+Santos;Internacional;William Hill;2.38;3.10;2.88;02 Nov 2014; 1;2 ;2014
+Sport Recife;Figueirense;1xBet;1.85;3.50;5.10;02 Nov 2014; 1;0 ;2014
+Sport Recife;Figueirense;bet-at-home;1.76;3.30;4.57;02 Nov 2014; 1;0 ;2014
+Sport Recife;Figueirense;bet365;1.73;3.50;5.00;02 Nov 2014; 1;0 ;2014
+Sport Recife;Figueirense;bwin;1.83;3.25;4.10;02 Nov 2014; 1;0 ;2014
+Sport Recife;Figueirense;Marathonbet;1.84;3.50;5.10;02 Nov 2014; 1;0 ;2014
+Sport Recife;Figueirense;Pinnacle;1.82;3.52;5.20;02 Nov 2014; 1;0 ;2014
+Sport Recife;Figueirense;Unibet;1.80;3.30;4.50;02 Nov 2014; 1;0 ;2014
+Sport Recife;Figueirense;William Hill;1.80;3.20;4.50;02 Nov 2014; 1;0 ;2014
+Corinthians;Coritiba;1xBet;1.75;3.75;5.30;02 Nov 2014; 2;2 ;2014
+Corinthians;Coritiba;bet-at-home;1.77;3.33;4.49;02 Nov 2014; 2;2 ;2014
+Corinthians;Coritiba;bet365;1.75;3.50;4.75;02 Nov 2014; 2;2 ;2014
+Corinthians;Coritiba;bwin;1.70;3.30;4.75;02 Nov 2014; 2;2 ;2014
+Corinthians;Coritiba;Marathonbet;1.75;3.75;5.30;02 Nov 2014; 2;2 ;2014
+Corinthians;Coritiba;Pinnacle;1.85;3.56;4.88;02 Nov 2014; 2;2 ;2014
+Corinthians;Coritiba;Unibet;1.70;3.50;4.85;02 Nov 2014; 2;2 ;2014
+Corinthians;Coritiba;William Hill;1.75;3.25;4.75;02 Nov 2014; 2;2 ;2014
+Goias;Fluminense;1xBet;2.58;3.40;2.94;01 Nov 2014; 0;2 ;2014
+Goias;Fluminense;bet-at-home;2.52;3.07;2.72;01 Nov 2014; 0;2 ;2014
+Goias;Fluminense;bet365;2.50;3.20;2.88;01 Nov 2014; 0;2 ;2014
+Goias;Fluminense;bwin;2.50;3.10;2.65;01 Nov 2014; 0;2 ;2014
+Goias;Fluminense;Marathonbet;2.65;3.30;2.90;01 Nov 2014; 0;2 ;2014
+Goias;Fluminense;Pinnacle;2.63;3.25;2.97;01 Nov 2014; 0;2 ;2014
+Goias;Fluminense;Unibet;2.45;3.20;2.75;01 Nov 2014; 0;2 ;2014
+Goias;Fluminense;William Hill;2.45;3.10;2.75;01 Nov 2014; 0;2 ;2014
+Gremio;Vitoria;1xBet;1.47;4.45;8.60;01 Nov 2014; 1;0 ;2014
+Gremio;Vitoria;bet-at-home;1.44;3.92;7.17;01 Nov 2014; 1;0 ;2014
+Gremio;Vitoria;bet365;1.40;4.20;9.00;01 Nov 2014; 1;0 ;2014
+Gremio;Vitoria;bwin;1.45;4.00;6.25;01 Nov 2014; 1;0 ;2014
+Gremio;Vitoria;Marathonbet;1.45;4.50;8.80;01 Nov 2014; 1;0 ;2014
+Gremio;Vitoria;Pinnacle;1.47;4.41;8.42;01 Nov 2014; 1;0 ;2014
+Gremio;Vitoria;Unibet;1.45;4.00;7.25;01 Nov 2014; 1;0 ;2014
+Gremio;Vitoria;William Hill;1.44;3.80;7.50;01 Nov 2014; 1;0 ;2014
+Sao Paulo;Goias;1xBet;1.58;4.00;7.10;27 Oct 2014; 3;0 ;2014
+Sao Paulo;Goias;bet-at-home;1.57;3.64;5.60;27 Oct 2014; 3;0 ;2014
+Sao Paulo;Goias;bet365;1.62;3.75;5.50;27 Oct 2014; 3;0 ;2014
+Sao Paulo;Goias;bwin;1.55;3.60;5.75;27 Oct 2014; 3;0 ;2014
+Sao Paulo;Goias;Marathonbet;1.54;4.15;7.40;27 Oct 2014; 3;0 ;2014
+Sao Paulo;Goias;Pinnacle;1.61;3.94;6.68;27 Oct 2014; 3;0 ;2014
+Sao Paulo;Goias;Unibet;1.55;3.70;6.00;27 Oct 2014; 3;0 ;2014
+Sao Paulo;Goias;William Hill;1.44;4.20;6.00;27 Oct 2014; 3;0 ;2014
+Botafogo RJ;Flamengo RJ;1xBet;2.64;3.35;2.88;26 Oct 2014; 2;1 ;2014
+Botafogo RJ;Flamengo RJ;bet-at-home;2.73;3.07;2.52;26 Oct 2014; 2;1 ;2014
+Botafogo RJ;Flamengo RJ;bet365;2.75;3.20;2.60;26 Oct 2014; 2;1 ;2014
+Botafogo RJ;Flamengo RJ;bwin;2.55;3.10;2.60;26 Oct 2014; 2;1 ;2014
+Botafogo RJ;Flamengo RJ;Marathonbet;2.64;3.35;2.88;26 Oct 2014; 2;1 ;2014
+Botafogo RJ;Flamengo RJ;Pinnacle;2.87;3.33;2.66;26 Oct 2014; 2;1 ;2014
+Botafogo RJ;Flamengo RJ;Unibet;2.55;3.20;2.65;26 Oct 2014; 2;1 ;2014
+Botafogo RJ;Flamengo RJ;William Hill;2.70;3.00;2.60;26 Oct 2014; 2;1 ;2014
+Internacional;Bahia;1xBet;1.41;4.85;9.50;26 Oct 2014; 2;0 ;2014
+Internacional;Bahia;bet-at-home;1.42;3.96;7.60;26 Oct 2014; 2;0 ;2014
+Internacional;Bahia;bet365;1.44;4.00;8.00;26 Oct 2014; 2;0 ;2014
+Internacional;Bahia;bwin;1.45;3.75;6.75;26 Oct 2014; 2;0 ;2014
+Internacional;Bahia;Marathonbet;1.40;4.85;9.50;26 Oct 2014; 2;0 ;2014
+Internacional;Bahia;Pinnacle;1.45;4.62;8.35;26 Oct 2014; 2;0 ;2014
+Internacional;Bahia;Unibet;1.42;4.20;7.50;26 Oct 2014; 2;0 ;2014
+Internacional;Bahia;William Hill;1.40;4.00;8.00;26 Oct 2014; 2;0 ;2014
+Atletico-MG;Sport Recife;1xBet;1.66;4.05;5.80;25 Oct 2014; 3;2 ;2014
+Atletico-MG;Sport Recife;bet-at-home;1.66;3.54;4.89;25 Oct 2014; 3;2 ;2014
+Atletico-MG;Sport Recife;bet365;1.67;3.60;5.25;25 Oct 2014; 3;2 ;2014
+Atletico-MG;Sport Recife;bwin;1.55;3.75;5.25;25 Oct 2014; 3;2 ;2014
+Atletico-MG;Sport Recife;Marathonbet;1.65;4.05;5.80;25 Oct 2014; 3;2 ;2014
+Atletico-MG;Sport Recife;Pinnacle;1.69;3.90;5.67;25 Oct 2014; 3;2 ;2014
+Atletico-MG;Sport Recife;Unibet;1.60;3.75;5.25;25 Oct 2014; 3;2 ;2014
+Atletico-MG;Sport Recife;William Hill;1.50;3.80;6.00;25 Oct 2014; 3;2 ;2014
+Chapecoense-SC;Santos;1xBet;2.12;3.25;4.05;25 Oct 2014; 1;1 ;2014
+Chapecoense-SC;Santos;bet-at-home;2.04;3.12;3.57;25 Oct 2014; 1;1 ;2014
+Chapecoense-SC;Santos;bet365;2.10;3.25;3.60;25 Oct 2014; 1;1 ;2014
+Chapecoense-SC;Santos;bwin;2.00;3.10;3.60;25 Oct 2014; 1;1 ;2014
+Chapecoense-SC;Santos;Marathonbet;2.06;3.45;4.00;25 Oct 2014; 1;1 ;2014
+Chapecoense-SC;Santos;Pinnacle;2.12;3.29;3.95;25 Oct 2014; 1;1 ;2014
+Chapecoense-SC;Santos;Unibet;2.05;3.30;3.50;25 Oct 2014; 1;1 ;2014
+Chapecoense-SC;Santos;William Hill;2.00;3.10;3.75;25 Oct 2014; 1;1 ;2014
+Coritiba;Gremio;1xBet;2.38;3.14;3.50;25 Oct 2014; 1;1 ;2014
+Coritiba;Gremio;bet-at-home;2.18;3.09;3.24;25 Oct 2014; 1;1 ;2014
+Coritiba;Gremio;bet365;2.20;3.10;3.50;25 Oct 2014; 1;1 ;2014
+Coritiba;Gremio;bwin;2.10;3.10;3.30;25 Oct 2014; 1;1 ;2014
+Coritiba;Gremio;Marathonbet;2.32;3.25;3.50;25 Oct 2014; 1;1 ;2014
+Coritiba;Gremio;Pinnacle;2.31;3.09;3.72;25 Oct 2014; 1;1 ;2014
+Coritiba;Gremio;Unibet;2.20;3.20;3.20;25 Oct 2014; 1;1 ;2014
+Coritiba;Gremio;William Hill;2.00;3.20;3.50;25 Oct 2014; 1;1 ;2014
+Vitoria;Criciuma;1xBet;1.99;3.55;4.20;25 Oct 2014; 3;1 ;2014
+Vitoria;Criciuma;bet-at-home;1.96;3.20;3.72;25 Oct 2014; 3;1 ;2014
+Vitoria;Criciuma;bet365;1.95;3.20;4.20;25 Oct 2014; 3;1 ;2014
+Vitoria;Criciuma;bwin;1.95;3.10;3.80;25 Oct 2014; 3;1 ;2014
+Vitoria;Criciuma;Marathonbet;1.98;3.55;4.20;25 Oct 2014; 3;1 ;2014
+Vitoria;Criciuma;Pinnacle;2.07;3.49;3.90;25 Oct 2014; 3;1 ;2014
+Vitoria;Criciuma;Unibet;2.00;3.30;3.65;25 Oct 2014; 3;1 ;2014
+Vitoria;Criciuma;William Hill;1.95;3.20;3.80;25 Oct 2014; 3;1 ;2014
+Figueirense;Cruzeiro;1xBet;4.30;3.50;1.98;25 Oct 2014; 1;1 ;2014
+Figueirense;Cruzeiro;bet-at-home;4.19;3.33;1.81;25 Oct 2014; 1;1 ;2014
+Figueirense;Cruzeiro;bet365;4.33;3.50;1.83;25 Oct 2014; 1;1 ;2014
+Figueirense;Cruzeiro;bwin;4.00;3.25;1.83;25 Oct 2014; 1;1 ;2014
+Figueirense;Cruzeiro;Marathonbet;4.30;3.55;1.96;25 Oct 2014; 1;1 ;2014
+Figueirense;Cruzeiro;Pinnacle;4.71;3.58;1.88;25 Oct 2014; 1;1 ;2014
+Figueirense;Cruzeiro;Unibet;4.00;3.40;1.85;25 Oct 2014; 1;1 ;2014
+Figueirense;Cruzeiro;William Hill;3.75;3.25;1.95;25 Oct 2014; 1;1 ;2014
+Fluminense;Athletico-PR;1xBet;1.68;3.70;6.20;25 Oct 2014; 2;1 ;2014
+Fluminense;Athletico-PR;bet-at-home;1.67;3.58;4.72;25 Oct 2014; 2;1 ;2014
+Fluminense;Athletico-PR;bet365;1.65;3.80;5.25;25 Oct 2014; 2;1 ;2014
+Fluminense;Athletico-PR;bwin;1.57;3.50;5.75;25 Oct 2014; 2;1 ;2014
+Fluminense;Athletico-PR;Marathonbet;1.64;3.95;6.10;25 Oct 2014; 2;1 ;2014
+Fluminense;Athletico-PR;Pinnacle;1.75;3.77;5.33;25 Oct 2014; 2;1 ;2014
+Fluminense;Athletico-PR;Unibet;1.60;3.60;5.75;25 Oct 2014; 2;1 ;2014
+Fluminense;Athletico-PR;William Hill;1.62;3.75;5.00;25 Oct 2014; 2;1 ;2014
+Palmeiras;Corinthians;1xBet;3.10;3.10;2.64;25 Oct 2014; 1;1 ;2014
+Palmeiras;Corinthians;bet-at-home;2.75;3.01;2.54;25 Oct 2014; 1;1 ;2014
+Palmeiras;Corinthians;bet365;2.80;3.10;2.60;25 Oct 2014; 1;1 ;2014
+Palmeiras;Corinthians;bwin;2.50;3.10;2.65;25 Oct 2014; 1;1 ;2014
+Palmeiras;Corinthians;Marathonbet;3.05;3.13;2.65;25 Oct 2014; 1;1 ;2014
+Palmeiras;Corinthians;Pinnacle;3.00;3.11;2.71;25 Oct 2014; 1;1 ;2014
+Palmeiras;Corinthians;Unibet;2.75;3.10;2.55;25 Oct 2014; 1;1 ;2014
+Palmeiras;Corinthians;William Hill;2.80;3.00;2.50;25 Oct 2014; 1;1 ;2014
+Sport Recife;Goias;1xBet;1.99;3.40;4.50;23 Oct 2014; 0;1 ;2014
+Sport Recife;Goias;bet-at-home;1.92;3.16;3.95;23 Oct 2014; 0;1 ;2014
+Sport Recife;Goias;bet365;1.95;3.20;4.20;23 Oct 2014; 0;1 ;2014
+Sport Recife;Goias;bwin;1.90;3.20;3.90;23 Oct 2014; 0;1 ;2014
+Sport Recife;Goias;Marathonbet;1.99;3.35;4.45;23 Oct 2014; 0;1 ;2014
+Sport Recife;Goias;Pinnacle;2.00;3.37;4.39;23 Oct 2014; 0;1 ;2014
+Sport Recife;Goias;Unibet;2.00;3.20;3.65;23 Oct 2014; 0;1 ;2014
+Sport Recife;Goias;William Hill;2.00;3.10;3.80;23 Oct 2014; 0;1 ;2014
+Chapecoense-SC;Sao Paulo;1xBet;2.98;3.25;2.66;23 Oct 2014; 0;0 ;2014
+Chapecoense-SC;Sao Paulo;bet-at-home;2.74;3.06;2.51;23 Oct 2014; 0;0 ;2014
+Chapecoense-SC;Sao Paulo;bet365;2.70;3.10;2.70;23 Oct 2014; 0;0 ;2014
+Chapecoense-SC;Sao Paulo;bwin;2.85;3.00;2.40;23 Oct 2014; 0;0 ;2014
+Chapecoense-SC;Sao Paulo;Marathonbet;2.94;3.20;2.68;23 Oct 2014; 0;0 ;2014
+Chapecoense-SC;Sao Paulo;Pinnacle;2.79;3.34;2.73;23 Oct 2014; 0;0 ;2014
+Chapecoense-SC;Sao Paulo;Unibet;2.70;3.20;2.50;23 Oct 2014; 0;0 ;2014
+Chapecoense-SC;Sao Paulo;William Hill;2.80;3.00;2.50;23 Oct 2014; 0;0 ;2014
+Santos;Fluminense;1xBet;1.84;3.65;4.95;23 Oct 2014; 0;1 ;2014
+Santos;Fluminense;bet-at-home;1.73;3.49;4.40;23 Oct 2014; 0;1 ;2014
+Santos;Fluminense;bet365;1.73;3.60;4.75;23 Oct 2014; 0;1 ;2014
+Santos;Fluminense;bwin;1.80;3.30;4.20;23 Oct 2014; 0;1 ;2014
+Santos;Fluminense;Marathonbet;1.76;3.75;5.20;23 Oct 2014; 0;1 ;2014
+Santos;Fluminense;Pinnacle;1.74;3.91;5.21;23 Oct 2014; 0;1 ;2014
+Santos;Fluminense;Unibet;1.75;3.40;4.60;23 Oct 2014; 0;1 ;2014
+Santos;Fluminense;William Hill;1.75;3.50;4.33;23 Oct 2014; 0;1 ;2014
+Coritiba;Botafogo RJ;1xBet;1.64;3.95;6.50;23 Oct 2014; 2;0 ;2014
+Coritiba;Botafogo RJ;bet-at-home;1.56;3.76;5.43;23 Oct 2014; 2;0 ;2014
+Coritiba;Botafogo RJ;bet365;1.62;3.75;5.50;23 Oct 2014; 2;0 ;2014
+Coritiba;Botafogo RJ;bwin;1.60;3.60;5.00;23 Oct 2014; 2;0 ;2014
+Coritiba;Botafogo RJ;Marathonbet;1.61;4.00;6.50;23 Oct 2014; 2;0 ;2014
+Coritiba;Botafogo RJ;Pinnacle;1.64;4.13;5.83;23 Oct 2014; 2;0 ;2014
+Coritiba;Botafogo RJ;Unibet;1.55;3.75;6.00;23 Oct 2014; 2;0 ;2014
+Coritiba;Botafogo RJ;William Hill;1.60;3.75;5.00;23 Oct 2014; 2;0 ;2014
+Gremio;Figueirense;1xBet;1.54;4.25;7.30;23 Oct 2014; 1;0 ;2014
+Gremio;Figueirense;bet-at-home;1.44;4.00;6.96;23 Oct 2014; 1;0 ;2014
+Gremio;Figueirense;bet365;1.44;4.20;7.50;23 Oct 2014; 1;0 ;2014
+Gremio;Figueirense;bwin;1.45;3.70;7.00;23 Oct 2014; 1;0 ;2014
+Gremio;Figueirense;Marathonbet;1.47;4.45;8.30;23 Oct 2014; 1;0 ;2014
+Gremio;Figueirense;Pinnacle;1.48;4.44;8.07;23 Oct 2014; 1;0 ;2014
+Gremio;Figueirense;Unibet;1.44;3.90;7.50;23 Oct 2014; 1;0 ;2014
+Gremio;Figueirense;William Hill;1.44;3.80;7.50;23 Oct 2014; 1;0 ;2014
+Corinthians;Vitoria;1xBet;1.91;3.45;4.85;22 Oct 2014; 2;1 ;2014
+Corinthians;Vitoria;bet-at-home;1.85;3.23;4.14;22 Oct 2014; 2;1 ;2014
+Corinthians;Vitoria;bet365;1.83;3.25;4.75;22 Oct 2014; 2;1 ;2014
+Corinthians;Vitoria;bwin;1.80;3.25;4.20;22 Oct 2014; 2;1 ;2014
+Corinthians;Vitoria;Marathonbet;1.89;3.45;4.85;22 Oct 2014; 2;1 ;2014
+Corinthians;Vitoria;Pinnacle;1.92;3.43;4.70;22 Oct 2014; 2;1 ;2014
+Corinthians;Vitoria;Unibet;1.90;3.30;4.00;22 Oct 2014; 2;1 ;2014
+Corinthians;Vitoria;William Hill;1.91;3.00;4.20;22 Oct 2014; 2;1 ;2014
+Criciuma;Athletico-PR;1xBet;2.38;3.35;3.30;22 Oct 2014; 0;1 ;2014
+Criciuma;Athletico-PR;bet-at-home;2.27;3.15;3.02;22 Oct 2014; 0;1 ;2014
+Criciuma;Athletico-PR;bet365;2.30;3.20;3.20;22 Oct 2014; 0;1 ;2014
+Criciuma;Athletico-PR;bwin;2.25;3.00;3.10;22 Oct 2014; 0;1 ;2014
+Criciuma;Athletico-PR;Marathonbet;2.44;3.35;3.15;22 Oct 2014; 0;1 ;2014
+Criciuma;Athletico-PR;Pinnacle;2.43;3.47;3.08;22 Oct 2014; 0;1 ;2014
+Criciuma;Athletico-PR;Unibet;2.25;3.20;3.10;22 Oct 2014; 0;1 ;2014
+Criciuma;Athletico-PR;William Hill;2.38;3.10;2.90;22 Oct 2014; 0;1 ;2014
+Cruzeiro;Palmeiras;1xBet;1.40;5.10;9.00;22 Oct 2014; 1;1 ;2014
+Cruzeiro;Palmeiras;bet-at-home;1.31;4.71;8.82;22 Oct 2014; 1;1 ;2014
+Cruzeiro;Palmeiras;bet365;1.36;4.75;8.00;22 Oct 2014; 1;1 ;2014
+Cruzeiro;Palmeiras;bwin;1.35;4.40;7.50;22 Oct 2014; 1;1 ;2014
+Cruzeiro;Palmeiras;Marathonbet;1.32;5.50;12.00;22 Oct 2014; 1;1 ;2014
+Cruzeiro;Palmeiras;Pinnacle;1.34;5.45;10.66;22 Oct 2014; 1;1 ;2014
+Cruzeiro;Palmeiras;Unibet;1.28;5.25;9.00;22 Oct 2014; 1;1 ;2014
+Cruzeiro;Palmeiras;William Hill;1.30;4.75;9.00;22 Oct 2014; 1;1 ;2014
+Flamengo RJ;Internacional;1xBet;2.06;3.45;4.10;22 Oct 2014; 2;0 ;2014
+Flamengo RJ;Internacional;bet-at-home;2.02;3.17;3.57;22 Oct 2014; 2;0 ;2014
+Flamengo RJ;Internacional;bet365;2.00;3.20;4.00;22 Oct 2014; 2;0 ;2014
+Flamengo RJ;Internacional;bwin;2.00;3.10;3.60;22 Oct 2014; 2;0 ;2014
+Flamengo RJ;Internacional;Marathonbet;2.08;3.40;4.00;22 Oct 2014; 2;0 ;2014
+Flamengo RJ;Internacional;Pinnacle;2.08;3.44;3.95;22 Oct 2014; 2;0 ;2014
+Flamengo RJ;Internacional;Unibet;2.00;3.25;3.70;22 Oct 2014; 2;0 ;2014
+Flamengo RJ;Internacional;William Hill;1.95;3.00;4.00;22 Oct 2014; 2;0 ;2014
+Bahia;Atletico-MG;1xBet;2.92;3.35;2.66;22 Oct 2014; 1;1 ;2014
+Bahia;Atletico-MG;bet-at-home;2.82;3.01;2.48;22 Oct 2014; 1;1 ;2014
+Bahia;Atletico-MG;bet365;2.90;3.10;2.50;22 Oct 2014; 1;1 ;2014
+Bahia;Atletico-MG;bwin;2.80;3.00;2.45;22 Oct 2014; 1;1 ;2014
+Bahia;Atletico-MG;Marathonbet;2.98;3.30;2.58;22 Oct 2014; 1;1 ;2014
+Bahia;Atletico-MG;Pinnacle;2.91;3.36;2.60;22 Oct 2014; 1;1 ;2014
+Bahia;Atletico-MG;Unibet;2.90;3.15;2.40;22 Oct 2014; 1;1 ;2014
+Bahia;Atletico-MG;William Hill;2.80;3.00;2.50;22 Oct 2014; 1;1 ;2014
+Botafogo RJ;Sport Recife;1xBet;2.07;3.45;4.05;19 Oct 2014; 1;1 ;2014
+Botafogo RJ;Sport Recife;bet-at-home;2.00;3.22;3.58;19 Oct 2014; 1;1 ;2014
+Botafogo RJ;Sport Recife;bet365;2.05;3.30;3.60;19 Oct 2014; 1;1 ;2014
+Botafogo RJ;Sport Recife;bwin;2.00;3.20;3.50;19 Oct 2014; 1;1 ;2014
+Botafogo RJ;Sport Recife;Marathonbet;2.00;3.50;4.15;19 Oct 2014; 1;1 ;2014
+Botafogo RJ;Sport Recife;Pinnacle;2.04;3.50;3.98;19 Oct 2014; 1;1 ;2014
+Botafogo RJ;Sport Recife;Unibet;2.10;3.20;3.40;19 Oct 2014; 1;1 ;2014
+Botafogo RJ;Sport Recife;William Hill;2.10;3.10;3.40;19 Oct 2014; 1;1 ;2014
+Vitoria;Cruzeiro;1xBet;3.75;3.55;2.13;19 Oct 2014; 0;1 ;2014
+Vitoria;Cruzeiro;bet-at-home;3.39;3.26;2.05;19 Oct 2014; 0;1 ;2014
+Vitoria;Cruzeiro;bet365;3.50;3.40;2.05;19 Oct 2014; 0;1 ;2014
+Vitoria;Cruzeiro;bwin;3.70;3.30;1.90;19 Oct 2014; 0;1 ;2014
+Vitoria;Cruzeiro;Marathonbet;3.95;3.50;2.05;19 Oct 2014; 0;1 ;2014
+Vitoria;Cruzeiro;Pinnacle;3.74;3.51;2.12;19 Oct 2014; 0;1 ;2014
+Vitoria;Cruzeiro;Unibet;3.50;3.20;2.08;19 Oct 2014; 0;1 ;2014
+Vitoria;Cruzeiro;William Hill;3.20;3.30;2.10;19 Oct 2014; 0;1 ;2014
+Athletico-PR;Flamengo RJ;1xBet;2.12;3.25;4.15;19 Oct 2014; 2;1 ;2014
+Athletico-PR;Flamengo RJ;bet-at-home;2.04;3.15;3.53;19 Oct 2014; 2;1 ;2014
+Athletico-PR;Flamengo RJ;bet365;2.05;3.25;3.70;19 Oct 2014; 2;1 ;2014
+Athletico-PR;Flamengo RJ;bwin;2.10;3.10;3.30;19 Oct 2014; 2;1 ;2014
+Athletico-PR;Flamengo RJ;Marathonbet;2.02;3.40;4.25;19 Oct 2014; 2;1 ;2014
+Athletico-PR;Flamengo RJ;Pinnacle;2.10;3.38;3.98;19 Oct 2014; 2;1 ;2014
+Athletico-PR;Flamengo RJ;Unibet;2.05;3.20;3.60;19 Oct 2014; 2;1 ;2014
+Athletico-PR;Flamengo RJ;William Hill;2.15;3.00;3.40;19 Oct 2014; 2;1 ;2014
+Figueirense;Coritiba;1xBet;3.14;3.20;2.58;19 Oct 2014; 4;0 ;2014
+Figueirense;Coritiba;bet-at-home;2.98;3.06;2.34;19 Oct 2014; 4;0 ;2014
+Figueirense;Coritiba;bet365;3.00;3.10;2.40;19 Oct 2014; 4;0 ;2014
+Figueirense;Coritiba;bwin;2.90;2.95;2.40;19 Oct 2014; 4;0 ;2014
+Figueirense;Coritiba;Marathonbet;3.15;3.25;2.50;19 Oct 2014; 4;0 ;2014
+Figueirense;Coritiba;Pinnacle;3.28;3.33;2.37;19 Oct 2014; 4;0 ;2014
+Figueirense;Coritiba;Unibet;2.80;3.15;2.45;19 Oct 2014; 4;0 ;2014
+Figueirense;Coritiba;William Hill;2.90;3.00;2.45;19 Oct 2014; 4;0 ;2014
+Internacional;Corinthians;1xBet;1.91;3.45;4.85;19 Oct 2014; 1;2 ;2014
+Internacional;Corinthians;bet-at-home;1.88;3.14;4.17;19 Oct 2014; 1;2 ;2014
+Internacional;Corinthians;bet365;1.91;3.20;4.33;19 Oct 2014; 1;2 ;2014
+Internacional;Corinthians;bwin;1.95;3.25;3.60;19 Oct 2014; 1;2 ;2014
+Internacional;Corinthians;Marathonbet;1.86;3.45;5.00;19 Oct 2014; 1;2 ;2014
+Internacional;Corinthians;Pinnacle;1.94;3.36;4.71;19 Oct 2014; 1;2 ;2014
+Internacional;Corinthians;Unibet;1.90;3.30;4.00;19 Oct 2014; 1;2 ;2014
+Internacional;Corinthians;William Hill;1.80;3.00;5.00;19 Oct 2014; 1;2 ;2014
+Palmeiras;Santos;1xBet;2.40;3.40;3.25;19 Oct 2014; 1;3 ;2014
+Palmeiras;Santos;bet-at-home;2.28;3.16;2.97;19 Oct 2014; 1;3 ;2014
+Palmeiras;Santos;bet365;2.45;3.20;2.90;19 Oct 2014; 1;3 ;2014
+Palmeiras;Santos;bwin;2.30;3.20;2.80;19 Oct 2014; 1;3 ;2014
+Palmeiras;Santos;Marathonbet;2.40;3.40;3.20;19 Oct 2014; 1;3 ;2014
+Palmeiras;Santos;Pinnacle;2.36;3.41;3.22;19 Oct 2014; 1;3 ;2014
+Palmeiras;Santos;Unibet;2.35;3.20;2.90;19 Oct 2014; 1;3 ;2014
+Palmeiras;Santos;William Hill;2.30;3.10;3.00;19 Oct 2014; 1;3 ;2014
+Atletico-MG;Chapecoense-SC;1xBet;1.46;4.70;8.20;19 Oct 2014; 1;0 ;2014
+Atletico-MG;Chapecoense-SC;bet-at-home;1.46;3.91;6.61;19 Oct 2014; 1;0 ;2014
+Atletico-MG;Chapecoense-SC;bet365;1.44;4.20;7.50;19 Oct 2014; 1;0 ;2014
+Atletico-MG;Chapecoense-SC;bwin;1.42;3.90;7.00;19 Oct 2014; 1;0 ;2014
+Atletico-MG;Chapecoense-SC;Marathonbet;1.45;4.65;8.30;19 Oct 2014; 1;0 ;2014
+Atletico-MG;Chapecoense-SC;Pinnacle;1.54;4.28;7.06;19 Oct 2014; 1;0 ;2014
+Atletico-MG;Chapecoense-SC;Unibet;1.44;4.20;7.00;19 Oct 2014; 1;0 ;2014
+Atletico-MG;Chapecoense-SC;William Hill;1.50;3.75;6.50;19 Oct 2014; 1;0 ;2014
+Fluminense;Criciuma;1xBet;1.52;4.50;7.30;18 Oct 2014; 4;2 ;2014
+Fluminense;Criciuma;bet-at-home;1.50;3.81;6.14;18 Oct 2014; 4;2 ;2014
+Fluminense;Criciuma;bet365;1.50;4.00;7.00;18 Oct 2014; 4;2 ;2014
+Fluminense;Criciuma;bwin;1.45;4.00;6.25;18 Oct 2014; 4;2 ;2014
+Fluminense;Criciuma;Marathonbet;1.49;4.45;7.60;18 Oct 2014; 4;2 ;2014
+Fluminense;Criciuma;Pinnacle;1.53;4.37;7.09;18 Oct 2014; 4;2 ;2014
+Fluminense;Criciuma;Unibet;1.50;3.85;6.50;18 Oct 2014; 4;2 ;2014
+Fluminense;Criciuma;William Hill;1.55;3.80;5.50;18 Oct 2014; 4;2 ;2014
+Goias;Gremio;1xBet;2.46;3.18;3.35;18 Oct 2014; 0;0 ;2014
+Goias;Gremio;bet-at-home;2.36;2.90;3.12;18 Oct 2014; 0;0 ;2014
+Goias;Gremio;bet365;2.38;3.00;3.20;18 Oct 2014; 0;0 ;2014
+Goias;Gremio;bwin;2.40;3.10;2.75;18 Oct 2014; 0;0 ;2014
+Goias;Gremio;Marathonbet;2.44;3.13;3.40;18 Oct 2014; 0;0 ;2014
+Goias;Gremio;Pinnacle;2.41;3.08;3.50;18 Oct 2014; 0;0 ;2014
+Goias;Gremio;Unibet;2.35;2.85;3.25;18 Oct 2014; 0;0 ;2014
+Goias;Gremio;William Hill;2.60;2.80;2.88;18 Oct 2014; 0;0 ;2014
+Sao Paulo;Bahia;1xBet;1.42;4.90;9.00;18 Oct 2014; 2;1 ;2014
+Sao Paulo;Bahia;bet-at-home;1.40;4.13;7.56;18 Oct 2014; 2;1 ;2014
+Sao Paulo;Bahia;bet365;1.40;4.20;9.00;18 Oct 2014; 2;1 ;2014
+Sao Paulo;Bahia;bwin;1.45;3.90;6.50;18 Oct 2014; 2;1 ;2014
+Sao Paulo;Bahia;Marathonbet;1.39;5.00;9.40;18 Oct 2014; 2;1 ;2014
+Sao Paulo;Bahia;Pinnacle;1.42;4.66;9.12;18 Oct 2014; 2;1 ;2014
+Sao Paulo;Bahia;Unibet;1.40;4.40;7.25;18 Oct 2014; 2;1 ;2014
+Sao Paulo;Bahia;William Hill;1.44;3.80;7.50;18 Oct 2014; 2;1 ;2014
+Athletico-PR;Figueirense;1xBet;1.57;3.95;7.60;12 Oct 2014; 3;0 ;2014
+Athletico-PR;Figueirense;bet-at-home;1.51;3.66;6.45;12 Oct 2014; 3;0 ;2014
+Athletico-PR;Figueirense;bet365;1.50;4.00;7.00;12 Oct 2014; 3;0 ;2014
+Athletico-PR;Figueirense;bwin;1.55;3.60;5.75;12 Oct 2014; 3;0 ;2014
+Athletico-PR;Figueirense;Marathonbet;1.51;4.05;8.60;12 Oct 2014; 3;0 ;2014
+Athletico-PR;Figueirense;Pinnacle;1.54;4.04;7.70;12 Oct 2014; 3;0 ;2014
+Athletico-PR;Figueirense;Unibet;1.55;3.80;5.75;12 Oct 2014; 3;0 ;2014
+Athletico-PR;Figueirense;William Hill;1.53;3.60;6.00;12 Oct 2014; 3;0 ;2014
+Criciuma;Santos;1xBet;2.60;3.30;3.02;12 Oct 2014; 3;0 ;2014
+Criciuma;Santos;bet-at-home;2.34;3.10;2.94;12 Oct 2014; 3;0 ;2014
+Criciuma;Santos;bet365;2.38;3.10;3.10;12 Oct 2014; 3;0 ;2014
+Criciuma;Santos;bwin;2.40;3.25;2.65;12 Oct 2014; 3;0 ;2014
+Criciuma;Santos;Marathonbet;2.55;3.30;3.05;12 Oct 2014; 3;0 ;2014
+Criciuma;Santos;Pinnacle;2.40;3.50;3.13;12 Oct 2014; 3;0 ;2014
+Criciuma;Santos;Unibet;2.45;3.15;2.75;12 Oct 2014; 3;0 ;2014
+Criciuma;Santos;William Hill;2.25;3.10;3.10;12 Oct 2014; 3;0 ;2014
+Sport Recife;Vitoria;1xBet;1.90;3.75;4.45;12 Oct 2014; 1;2 ;2014
+Sport Recife;Vitoria;bet-at-home;1.98;3.32;3.53;12 Oct 2014; 1;2 ;2014
+Sport Recife;Vitoria;bet365;2.05;3.30;3.60;12 Oct 2014; 1;2 ;2014
+Sport Recife;Vitoria;bwin;1.91;3.30;3.60;12 Oct 2014; 1;2 ;2014
+Sport Recife;Vitoria;Marathonbet;1.86;3.65;4.65;12 Oct 2014; 1;2 ;2014
+Sport Recife;Vitoria;Pinnacle;2.08;3.58;3.77;12 Oct 2014; 1;2 ;2014
+Sport Recife;Vitoria;Unibet;1.85;3.35;4.20;12 Oct 2014; 1;2 ;2014
+Sport Recife;Vitoria;William Hill;1.91;3.30;3.80;12 Oct 2014; 1;2 ;2014
+Atletico-MG;Sao Paulo;1xBet;2.08;3.50;3.95;12 Oct 2014; 1;0 ;2014
+Atletico-MG;Sao Paulo;bet-at-home;1.98;3.25;3.61;12 Oct 2014; 1;0 ;2014
+Atletico-MG;Sao Paulo;bet365;1.95;3.40;3.80;12 Oct 2014; 1;0 ;2014
+Atletico-MG;Sao Paulo;bwin;1.95;3.25;3.60;12 Oct 2014; 1;0 ;2014
+Atletico-MG;Sao Paulo;Marathonbet;2.00;3.45;4.25;12 Oct 2014; 1;0 ;2014
+Atletico-MG;Sao Paulo;Pinnacle;2.05;3.54;3.92;12 Oct 2014; 1;0 ;2014
+Atletico-MG;Sao Paulo;Unibet;1.90;3.25;4.00;12 Oct 2014; 1;0 ;2014
+Atletico-MG;Sao Paulo;William Hill;1.91;3.30;3.80;12 Oct 2014; 1;0 ;2014
+Bahia;Chapecoense-SC;1xBet;1.93;3.45;4.80;12 Oct 2014; 0;1 ;2014
+Bahia;Chapecoense-SC;bet-at-home;1.86;3.24;4.11;12 Oct 2014; 0;1 ;2014
+Bahia;Chapecoense-SC;bet365;1.85;3.30;4.50;12 Oct 2014; 0;1 ;2014
+Bahia;Chapecoense-SC;bwin;1.80;3.25;4.20;12 Oct 2014; 0;1 ;2014
+Bahia;Chapecoense-SC;Marathonbet;1.91;3.45;4.70;12 Oct 2014; 0;1 ;2014
+Bahia;Chapecoense-SC;Pinnacle;1.93;3.52;4.50;12 Oct 2014; 0;1 ;2014
+Bahia;Chapecoense-SC;Unibet;1.78;3.40;4.50;12 Oct 2014; 0;1 ;2014
+Bahia;Chapecoense-SC;William Hill;1.80;3.20;4.50;12 Oct 2014; 0;1 ;2014
+Flamengo RJ;Cruzeiro;1xBet;2.84;3.30;2.76;12 Oct 2014; 3;0 ;2014
+Flamengo RJ;Cruzeiro;bet-at-home;2.63;3.03;2.65;12 Oct 2014; 3;0 ;2014
+Flamengo RJ;Cruzeiro;bet365;2.70;3.10;2.70;12 Oct 2014; 3;0 ;2014
+Flamengo RJ;Cruzeiro;bwin;2.70;3.10;2.45;12 Oct 2014; 3;0 ;2014
+Flamengo RJ;Cruzeiro;Marathonbet;2.86;3.30;2.68;12 Oct 2014; 3;0 ;2014
+Flamengo RJ;Cruzeiro;Pinnacle;2.72;3.26;2.85;12 Oct 2014; 3;0 ;2014
+Flamengo RJ;Cruzeiro;Unibet;2.65;3.15;2.60;12 Oct 2014; 3;0 ;2014
+Flamengo RJ;Cruzeiro;William Hill;2.60;3.00;2.70;12 Oct 2014; 3;0 ;2014
+Internacional;Fluminense;1xBet;1.94;3.60;3.75;12 Oct 2014; 2;1 ;2014
+Internacional;Fluminense;bet-at-home;1.92;3.32;3.75;12 Oct 2014; 2;1 ;2014
+Internacional;Fluminense;bet365;1.91;3.40;4.00;12 Oct 2014; 2;1 ;2014
+Internacional;Fluminense;bwin;1.90;3.40;3.60;12 Oct 2014; 2;1 ;2014
+Internacional;Fluminense;Marathonbet;1.99;3.50;4.20;12 Oct 2014; 2;1 ;2014
+Internacional;Fluminense;Pinnacle;1.97;3.64;4.07;12 Oct 2014; 2;1 ;2014
+Internacional;Fluminense;Unibet;1.85;3.35;4.10;12 Oct 2014; 2;1 ;2014
+Internacional;Fluminense;William Hill;1.95;3.20;3.80;12 Oct 2014; 2;1 ;2014
+Palmeiras;Gremio;1xBet;2.34;3.30;3.45;12 Oct 2014; 2;1 ;2014
+Palmeiras;Gremio;bet-at-home;2.30;3.02;3.07;12 Oct 2014; 2;1 ;2014
+Palmeiras;Gremio;bet365;2.25;3.25;3.25;12 Oct 2014; 2;1 ;2014
+Palmeiras;Gremio;bwin;2.45;3.10;2.70;12 Oct 2014; 2;1 ;2014
+Palmeiras;Gremio;Marathonbet;2.44;3.20;3.30;12 Oct 2014; 2;1 ;2014
+Palmeiras;Gremio;Pinnacle;2.41;3.24;3.32;12 Oct 2014; 2;1 ;2014
+Palmeiras;Gremio;Unibet;2.55;3.10;2.75;12 Oct 2014; 2;1 ;2014
+Palmeiras;Gremio;William Hill;2.50;3.00;2.80;12 Oct 2014; 2;1 ;2014
+Botafogo RJ;Corinthians;1xBet;4.70;3.80;1.84;11 Oct 2014; 1;0 ;2014
+Botafogo RJ;Corinthians;bet-at-home;4.80;3.40;1.70;11 Oct 2014; 1;0 ;2014
+Botafogo RJ;Corinthians;bet365;4.33;3.20;1.91;11 Oct 2014; 1;0 ;2014
+Botafogo RJ;Corinthians;bwin;3.90;3.40;1.83;11 Oct 2014; 1;0 ;2014
+Botafogo RJ;Corinthians;Marathonbet;4.80;3.60;1.85;11 Oct 2014; 1;0 ;2014
+Botafogo RJ;Corinthians;Pinnacle;4.74;3.45;1.91;11 Oct 2014; 1;0 ;2014
+Botafogo RJ;Corinthians;Unibet;4.50;3.45;1.75;11 Oct 2014; 1;0 ;2014
+Botafogo RJ;Corinthians;William Hill;4.20;3.20;1.85;11 Oct 2014; 1;0 ;2014
+Goias;Coritiba;1xBet;2.48;3.30;3.18;11 Oct 2014; 3;0 ;2014
+Goias;Coritiba;bet-at-home;2.29;3.03;3.10;11 Oct 2014; 3;0 ;2014
+Goias;Coritiba;bet365;2.38;3.10;3.10;11 Oct 2014; 3;0 ;2014
+Goias;Coritiba;bwin;2.40;3.10;2.80;11 Oct 2014; 3;0 ;2014
+Goias;Coritiba;Marathonbet;2.36;3.30;3.35;11 Oct 2014; 3;0 ;2014
+Goias;Coritiba;Pinnacle;2.28;3.17;3.68;11 Oct 2014; 3;0 ;2014
+Goias;Coritiba;Unibet;2.20;3.20;3.15;11 Oct 2014; 3;0 ;2014
+Goias;Coritiba;William Hill;2.25;3.00;3.20;11 Oct 2014; 3;0 ;2014
+Chapecoense-SC;Internacional;1xBet;3.30;3.30;2.40;09 Oct 2014; 5;0 ;2014
+Chapecoense-SC;Internacional;bet-at-home;3.18;2.99;2.27;09 Oct 2014; 5;0 ;2014
+Chapecoense-SC;Internacional;bet365;3.30;3.10;2.30;09 Oct 2014; 5;0 ;2014
+Chapecoense-SC;Internacional;bwin;3.00;3.00;2.30;09 Oct 2014; 5;0 ;2014
+Chapecoense-SC;Internacional;Marathonbet;3.25;3.25;2.44;09 Oct 2014; 5;0 ;2014
+Chapecoense-SC;Internacional;Pinnacle;3.44;3.22;2.36;09 Oct 2014; 5;0 ;2014
+Chapecoense-SC;Internacional;Unibet;3.10;3.20;2.25;09 Oct 2014; 5;0 ;2014
+Chapecoense-SC;Internacional;William Hill;3.30;2.90;2.25;09 Oct 2014; 5;0 ;2014
+Fluminense;Atletico-MG;1xBet;2.30;4.05;2.98;09 Oct 2014; 0;0 ;2014
+Fluminense;Atletico-MG;bet-at-home;2.02;3.29;3.43;09 Oct 2014; 0;0 ;2014
+Fluminense;Atletico-MG;bet365;2.05;3.40;3.50;09 Oct 2014; 0;0 ;2014
+Fluminense;Atletico-MG;bwin;2.05;3.25;3.30;09 Oct 2014; 0;0 ;2014
+Fluminense;Atletico-MG;Marathonbet;2.10;3.60;3.70;09 Oct 2014; 0;0 ;2014
+Fluminense;Atletico-MG;Pinnacle;2.04;3.62;3.88;09 Oct 2014; 0;0 ;2014
+Fluminense;Atletico-MG;Unibet;2.05;3.20;3.50;09 Oct 2014; 0;0 ;2014
+Fluminense;Atletico-MG;William Hill;2.05;3.25;3.40;09 Oct 2014; 0;0 ;2014
+Santos;Bahia;1xBet;1.57;4.05;7.40;09 Oct 2014; 1;0 ;2014
+Santos;Bahia;bet-at-home;1.59;3.60;5.41;09 Oct 2014; 1;0 ;2014
+Santos;Bahia;bet365;1.62;3.80;5.50;09 Oct 2014; 1;0 ;2014
+Santos;Bahia;bwin;1.55;3.50;5.75;09 Oct 2014; 1;0 ;2014
+Santos;Bahia;Marathonbet;1.55;4.00;7.70;09 Oct 2014; 1;0 ;2014
+Santos;Bahia;Pinnacle;1.65;3.78;6.57;09 Oct 2014; 1;0 ;2014
+Santos;Bahia;Unibet;1.55;3.50;5.75;09 Oct 2014; 1;0 ;2014
+Santos;Bahia;William Hill;1.53;3.50;6.50;09 Oct 2014; 1;0 ;2014
+Cruzeiro;Corinthians;1xBet;1.68;3.85;6.20;09 Oct 2014; 0;1 ;2014
+Cruzeiro;Corinthians;bet-at-home;1.62;3.47;5.39;09 Oct 2014; 0;1 ;2014
+Cruzeiro;Corinthians;bet365;1.62;3.60;6.00;09 Oct 2014; 0;1 ;2014
+Cruzeiro;Corinthians;bwin;1.60;3.40;5.50;09 Oct 2014; 0;1 ;2014
+Cruzeiro;Corinthians;Marathonbet;1.65;3.75;6.50;09 Oct 2014; 0;1 ;2014
+Cruzeiro;Corinthians;Pinnacle;1.66;3.69;6.60;09 Oct 2014; 0;1 ;2014
+Cruzeiro;Corinthians;Unibet;1.65;3.50;5.30;09 Oct 2014; 0;1 ;2014
+Cruzeiro;Corinthians;William Hill;1.65;3.30;5.50;09 Oct 2014; 0;1 ;2014
+Figueirense;Flamengo RJ;1xBet;3.06;3.50;2.46;09 Oct 2014; 1;2 ;2014
+Figueirense;Flamengo RJ;bet-at-home;2.61;2.98;2.69;09 Oct 2014; 1;2 ;2014
+Figueirense;Flamengo RJ;bet365;2.63;3.10;2.75;09 Oct 2014; 1;2 ;2014
+Figueirense;Flamengo RJ;bwin;2.75;2.95;2.50;09 Oct 2014; 1;2 ;2014
+Figueirense;Flamengo RJ;Marathonbet;2.75;3.25;2.82;09 Oct 2014; 1;2 ;2014
+Figueirense;Flamengo RJ;Pinnacle;2.90;3.09;2.81;09 Oct 2014; 1;2 ;2014
+Figueirense;Flamengo RJ;Unibet;2.65;3.20;2.60;09 Oct 2014; 1;2 ;2014
+Figueirense;Flamengo RJ;William Hill;2.50;3.00;2.80;09 Oct 2014; 1;2 ;2014
+Gremio;Sport Recife;1xBet;1.51;4.35;8.10;09 Oct 2014; 2;0 ;2014
+Gremio;Sport Recife;bet-at-home;1.44;4.05;6.67;09 Oct 2014; 2;0 ;2014
+Gremio;Sport Recife;bet365;1.44;4.20;7.50;09 Oct 2014; 2;0 ;2014
+Gremio;Sport Recife;bwin;1.36;4.10;8.25;09 Oct 2014; 2;0 ;2014
+Gremio;Sport Recife;Marathonbet;1.46;4.35;9.00;09 Oct 2014; 2;0 ;2014
+Gremio;Sport Recife;Pinnacle;1.50;4.28;7.97;09 Oct 2014; 2;0 ;2014
+Gremio;Sport Recife;Unibet;1.46;4.00;7.00;09 Oct 2014; 2;0 ;2014
+Gremio;Sport Recife;William Hill;1.40;4.00;8.00;09 Oct 2014; 2;0 ;2014
+Vitoria;Goias;1xBet;2.03;3.70;3.95;09 Oct 2014; 2;2 ;2014
+Vitoria;Goias;bet-at-home;2.07;3.27;3.32;09 Oct 2014; 2;2 ;2014
+Vitoria;Goias;bet365;2.05;3.30;3.60;09 Oct 2014; 2;2 ;2014
+Vitoria;Goias;bwin;1.95;3.25;3.60;09 Oct 2014; 2;2 ;2014
+Vitoria;Goias;Marathonbet;2.04;3.55;3.95;09 Oct 2014; 2;2 ;2014
+Vitoria;Goias;Pinnacle;2.16;3.48;3.64;09 Oct 2014; 2;2 ;2014
+Vitoria;Goias;Unibet;2.00;3.35;3.60;09 Oct 2014; 2;2 ;2014
+Vitoria;Goias;William Hill;2.00;3.20;3.60;09 Oct 2014; 2;2 ;2014
+Botafogo RJ;Palmeiras;1xBet;2.32;3.80;3.10;08 Oct 2014; 0;1 ;2014
+Botafogo RJ;Palmeiras;bet-at-home;2.43;3.19;2.74;08 Oct 2014; 0;1 ;2014
+Botafogo RJ;Palmeiras;bet365;2.45;3.30;2.80;08 Oct 2014; 0;1 ;2014
+Botafogo RJ;Palmeiras;bwin;2.35;3.20;2.75;08 Oct 2014; 0;1 ;2014
+Botafogo RJ;Palmeiras;Marathonbet;2.42;3.60;2.98;08 Oct 2014; 0;1 ;2014
+Botafogo RJ;Palmeiras;Pinnacle;2.50;3.59;2.90;08 Oct 2014; 0;1 ;2014
+Botafogo RJ;Palmeiras;Unibet;2.45;3.20;2.75;08 Oct 2014; 0;1 ;2014
+Botafogo RJ;Palmeiras;William Hill;2.38;3.20;2.80;08 Oct 2014; 0;1 ;2014
+Coritiba;Criciuma;1xBet;1.69;3.95;5.70;08 Oct 2014; 1;0 ;2014
+Coritiba;Criciuma;bet-at-home;1.54;3.69;5.88;08 Oct 2014; 1;0 ;2014
+Coritiba;Criciuma;bet365;1.57;3.80;6.00;08 Oct 2014; 1;0 ;2014
+Coritiba;Criciuma;bwin;1.53;3.70;5.75;08 Oct 2014; 1;0 ;2014
+Coritiba;Criciuma;Marathonbet;1.62;4.00;6.40;08 Oct 2014; 1;0 ;2014
+Coritiba;Criciuma;Pinnacle;1.54;4.25;7.10;08 Oct 2014; 1;0 ;2014
+Coritiba;Criciuma;Unibet;1.55;3.85;5.85;08 Oct 2014; 1;0 ;2014
+Coritiba;Criciuma;William Hill;1.60;3.50;5.50;08 Oct 2014; 1;0 ;2014
+Sao Paulo;Athletico-PR;1xBet;1.63;4.05;6.40;08 Oct 2014; 1;0 ;2014
+Sao Paulo;Athletico-PR;bet-at-home;1.61;3.67;5.14;08 Oct 2014; 1;0 ;2014
+Sao Paulo;Athletico-PR;bet365;1.62;3.75;5.50;08 Oct 2014; 1;0 ;2014
+Sao Paulo;Athletico-PR;bwin;1.53;3.80;5.50;08 Oct 2014; 1;0 ;2014
+Sao Paulo;Athletico-PR;Marathonbet;1.62;4.00;6.40;08 Oct 2014; 1;0 ;2014
+Sao Paulo;Athletico-PR;Pinnacle;1.69;3.93;5.58;08 Oct 2014; 1;0 ;2014
+Sao Paulo;Athletico-PR;Unibet;1.58;3.50;5.70;08 Oct 2014; 1;0 ;2014
+Sao Paulo;Athletico-PR;William Hill;1.55;3.60;6.00;08 Oct 2014; 1;0 ;2014
+Corinthians;Sport Recife;1xBet;1.47;4.30;9.50;04 Oct 2014; 3;0 ;2014
+Corinthians;Sport Recife;bet-at-home;1.40;3.85;8.30;04 Oct 2014; 3;0 ;2014
+Corinthians;Sport Recife;bet365;1.44;4.00;8.00;04 Oct 2014; 3;0 ;2014
+Corinthians;Sport Recife;bwin;1.45;3.75;6.75;04 Oct 2014; 3;0 ;2014
+Corinthians;Sport Recife;Marathonbet;1.48;4.30;8.50;04 Oct 2014; 3;0 ;2014
+Corinthians;Sport Recife;Pinnacle;1.43;4.35;10.53;04 Oct 2014; 3;0 ;2014
+Corinthians;Sport Recife;Unibet;1.46;3.85;7.00;04 Oct 2014; 3;0 ;2014
+Corinthians;Sport Recife;William Hill;1.44;3.60;8.50;04 Oct 2014; 3;0 ;2014
+Criciuma;Atletico-MG;1xBet;3.30;3.50;2.34;04 Oct 2014; 3;1 ;2014
+Criciuma;Atletico-MG;bet-at-home;3.00;3.10;2.30;04 Oct 2014; 3;1 ;2014
+Criciuma;Atletico-MG;bet365;3.20;3.20;2.30;04 Oct 2014; 3;1 ;2014
+Criciuma;Atletico-MG;bwin;2.75;3.20;2.35;04 Oct 2014; 3;1 ;2014
+Criciuma;Atletico-MG;Marathonbet;3.13;3.30;2.48;04 Oct 2014; 3;1 ;2014
+Criciuma;Atletico-MG;Pinnacle;3.26;3.42;2.34;04 Oct 2014; 3;1 ;2014
+Criciuma;Atletico-MG;Unibet;2.90;3.15;2.40;04 Oct 2014; 3;1 ;2014
+Criciuma;Atletico-MG;William Hill;2.80;3.00;2.50;04 Oct 2014; 3;1 ;2014
+Cruzeiro;Internacional;1xBet;1.65;4.00;6.20;04 Oct 2014; 2;1 ;2014
+Cruzeiro;Internacional;bet-at-home;1.65;3.55;4.80;04 Oct 2014; 2;1 ;2014
+Cruzeiro;Internacional;bet365;1.67;3.75;5.00;04 Oct 2014; 2;1 ;2014
+Cruzeiro;Internacional;bwin;1.62;3.40;5.25;04 Oct 2014; 2;1 ;2014
+Cruzeiro;Internacional;Marathonbet;1.63;4.00;6.20;04 Oct 2014; 2;1 ;2014
+Cruzeiro;Internacional;Pinnacle;1.75;3.79;5.30;04 Oct 2014; 2;1 ;2014
+Cruzeiro;Internacional;Unibet;1.60;3.50;5.75;04 Oct 2014; 2;1 ;2014
+Cruzeiro;Internacional;William Hill;1.60;3.50;5.50;04 Oct 2014; 2;1 ;2014
+Coritiba;Athletico-PR;1xBet;1.98;3.55;4.35;04 Oct 2014; 1;0 ;2014
+Coritiba;Athletico-PR;bet-at-home;1.80;3.25;4.25;04 Oct 2014; 1;0 ;2014
+Coritiba;Athletico-PR;bet365;1.80;3.30;4.75;04 Oct 2014; 1;0 ;2014
+Coritiba;Athletico-PR;bwin;1.87;3.30;3.75;04 Oct 2014; 1;0 ;2014
+Coritiba;Athletico-PR;Marathonbet;1.94;3.50;4.45;04 Oct 2014; 1;0 ;2014
+Coritiba;Athletico-PR;Pinnacle;1.90;3.47;4.75;04 Oct 2014; 1;0 ;2014
+Coritiba;Athletico-PR;Unibet;1.90;3.30;3.90;04 Oct 2014; 1;0 ;2014
+Coritiba;Athletico-PR;William Hill;1.83;3.25;4.20;04 Oct 2014; 1;0 ;2014
+Flamengo RJ;Santos;1xBet;2.06;3.30;4.35;04 Oct 2014; 0;1 ;2014
+Flamengo RJ;Santos;bet-at-home;1.95;3.25;3.75;04 Oct 2014; 0;1 ;2014
+Flamengo RJ;Santos;bet365;1.91;3.40;4.00;04 Oct 2014; 0;1 ;2014
+Flamengo RJ;Santos;bwin;2.00;3.10;3.60;04 Oct 2014; 0;1 ;2014
+Flamengo RJ;Santos;Marathonbet;2.04;3.30;4.33;04 Oct 2014; 0;1 ;2014
+Flamengo RJ;Santos;Pinnacle;2.00;3.39;4.35;04 Oct 2014; 0;1 ;2014
+Flamengo RJ;Santos;Unibet;2.00;3.30;3.65;04 Oct 2014; 0;1 ;2014
+Flamengo RJ;Santos;William Hill;1.95;3.20;3.80;04 Oct 2014; 0;1 ;2014
+Fluminense;Bahia;1xBet;1.84;3.70;4.95;04 Oct 2014; 1;1 ;2014
+Fluminense;Bahia;bet-at-home;1.85;3.25;4.15;04 Oct 2014; 1;1 ;2014
+Fluminense;Bahia;bet365;1.85;3.40;4.33;04 Oct 2014; 1;1 ;2014
+Fluminense;Bahia;bwin;1.75;3.40;4.33;04 Oct 2014; 1;1 ;2014
+Fluminense;Bahia;Marathonbet;1.85;3.65;4.75;04 Oct 2014; 1;1 ;2014
+Fluminense;Bahia;Pinnacle;1.94;3.43;4.59;04 Oct 2014; 1;1 ;2014
+Fluminense;Bahia;Unibet;1.80;3.35;4.40;04 Oct 2014; 1;1 ;2014
+Fluminense;Bahia;William Hill;1.80;3.30;4.33;04 Oct 2014; 1;1 ;2014
+Gremio;Sao Paulo;1xBet;1.83;3.65;5.00;04 Oct 2014; 0;1 ;2014
+Gremio;Sao Paulo;bet-at-home;1.70;3.30;4.85;04 Oct 2014; 0;1 ;2014
+Gremio;Sao Paulo;bet365;1.73;3.40;5.25;04 Oct 2014; 0;1 ;2014
+Gremio;Sao Paulo;bwin;1.80;3.30;4.20;04 Oct 2014; 0;1 ;2014
+Gremio;Sao Paulo;Marathonbet;1.81;3.65;5.00;04 Oct 2014; 0;1 ;2014
+Gremio;Sao Paulo;Pinnacle;1.74;3.50;6.11;04 Oct 2014; 0;1 ;2014
+Gremio;Sao Paulo;Unibet;1.90;3.30;4.00;04 Oct 2014; 0;1 ;2014
+Gremio;Sao Paulo;William Hill;1.67;3.25;5.50;04 Oct 2014; 0;1 ;2014
+Vitoria;Botafogo RJ;1xBet;1.74;3.60;6.10;04 Oct 2014; 2;1 ;2014
+Vitoria;Botafogo RJ;bet-at-home;1.65;3.50;4.90;04 Oct 2014; 2;1 ;2014
+Vitoria;Botafogo RJ;bet365;1.70;3.60;5.00;04 Oct 2014; 2;1 ;2014
+Vitoria;Botafogo RJ;bwin;1.67;3.40;4.75;04 Oct 2014; 2;1 ;2014
+Vitoria;Botafogo RJ;Marathonbet;1.68;3.90;5.70;04 Oct 2014; 2;1 ;2014
+Vitoria;Botafogo RJ;Pinnacle;1.68;3.89;5.76;04 Oct 2014; 2;1 ;2014
+Vitoria;Botafogo RJ;Unibet;1.65;3.60;5.00;04 Oct 2014; 2;1 ;2014
+Vitoria;Botafogo RJ;William Hill;1.73;3.40;4.60;04 Oct 2014; 2;1 ;2014
+Palmeiras;Chapecoense-SC;1xBet;1.98;3.55;4.35;02 Oct 2014; 4;2 ;2014
+Palmeiras;Chapecoense-SC;bet-at-home;1.85;3.30;4.10;02 Oct 2014; 4;2 ;2014
+Palmeiras;Chapecoense-SC;bet365;1.85;3.40;4.33;02 Oct 2014; 4;2 ;2014
+Palmeiras;Chapecoense-SC;bwin;1.91;3.20;3.80;02 Oct 2014; 4;2 ;2014
+Palmeiras;Chapecoense-SC;Marathonbet;1.95;3.55;4.30;02 Oct 2014; 4;2 ;2014
+Palmeiras;Chapecoense-SC;Pinnacle;1.88;3.54;4.73;02 Oct 2014; 4;2 ;2014
+Palmeiras;Chapecoense-SC;Unibet;1.75;3.45;4.50;02 Oct 2014; 4;2 ;2014
+Palmeiras;Chapecoense-SC;William Hill;1.95;3.20;3.80;02 Oct 2014; 4;2 ;2014
+Figueirense;Palmeiras;1xBet;2.30;3.55;3.30;28 Sep 2014; 3;1 ;2014
+Figueirense;Palmeiras;bet-at-home;2.10;3.20;3.40;28 Sep 2014; 3;1 ;2014
+Figueirense;Palmeiras;bet365;2.15;3.20;3.50;28 Sep 2014; 3;1 ;2014
+Figueirense;Palmeiras;bwin;2.05;3.10;3.40;28 Sep 2014; 3;1 ;2014
+Figueirense;Palmeiras;Marathonbet;2.18;3.30;3.80;28 Sep 2014; 3;1 ;2014
+Figueirense;Palmeiras;Pinnacle;2.12;3.38;3.89;28 Sep 2014; 3;1 ;2014
+Figueirense;Palmeiras;Unibet;2.05;3.20;3.50;28 Sep 2014; 3;1 ;2014
+Figueirense;Palmeiras;William Hill;2.15;3.10;3.30;28 Sep 2014; 3;1 ;2014
+Internacional;Coritiba;1xBet;1.61;4.05;6.60;28 Sep 2014; 4;2 ;2014
+Internacional;Coritiba;bet-at-home;1.60;3.60;5.50;28 Sep 2014; 4;2 ;2014
+Internacional;Coritiba;bet365;1.62;3.60;6.00;28 Sep 2014; 4;2 ;2014
+Internacional;Coritiba;bwin;1.57;3.70;5.25;28 Sep 2014; 4;2 ;2014
+Internacional;Coritiba;Marathonbet;1.60;4.00;6.70;28 Sep 2014; 4;2 ;2014
+Internacional;Coritiba;Pinnacle;1.64;3.97;6.12;28 Sep 2014; 4;2 ;2014
+Internacional;Coritiba;Unibet;1.55;3.75;5.75;28 Sep 2014; 4;2 ;2014
+Internacional;Coritiba;William Hill;1.57;3.50;6.00;28 Sep 2014; 4;2 ;2014
+Santos;Goias;1xBet;1.75;3.80;5.40;28 Sep 2014; 2;0 ;2014
+Santos;Goias;bet-at-home;1.75;3.45;4.45;28 Sep 2014; 2;0 ;2014
+Santos;Goias;bet365;1.75;3.60;4.75;28 Sep 2014; 2;0 ;2014
+Santos;Goias;bwin;1.72;3.50;4.33;28 Sep 2014; 2;0 ;2014
+Santos;Goias;Marathonbet;1.73;3.80;5.40;28 Sep 2014; 2;0 ;2014
+Santos;Goias;Pinnacle;1.79;3.80;4.89;28 Sep 2014; 2;0 ;2014
+Santos;Goias;Unibet;1.80;3.40;4.40;28 Sep 2014; 2;0 ;2014
+Santos;Goias;William Hill;1.70;3.50;4.60;28 Sep 2014; 2;0 ;2014
+Athletico-PR;Corinthians;1xBet;2.82;3.02;3.02;28 Sep 2014; 1;0 ;2014
+Athletico-PR;Corinthians;bet-at-home;2.50;2.95;2.80;28 Sep 2014; 1;0 ;2014
+Athletico-PR;Corinthians;bet365;2.50;3.10;2.90;28 Sep 2014; 1;0 ;2014
+Athletico-PR;Corinthians;bwin;2.55;3.00;2.70;28 Sep 2014; 1;0 ;2014
+Athletico-PR;Corinthians;Marathonbet;2.80;3.00;2.98;28 Sep 2014; 1;0 ;2014
+Athletico-PR;Corinthians;Pinnacle;2.67;3.10;3.05;28 Sep 2014; 1;0 ;2014
+Athletico-PR;Corinthians;Unibet;2.55;3.15;2.65;28 Sep 2014; 1;0 ;2014
+Athletico-PR;Corinthians;William Hill;2.75;2.80;2.70;28 Sep 2014; 1;0 ;2014
+Atletico-MG;Vitoria;1xBet;1.50;4.45;8.00;28 Sep 2014; 2;0 ;2014
+Atletico-MG;Vitoria;bet-at-home;1.45;4.15;6.30;28 Sep 2014; 2;0 ;2014
+Atletico-MG;Vitoria;bet365;1.44;4.33;7.00;28 Sep 2014; 2;0 ;2014
+Atletico-MG;Vitoria;bwin;1.42;3.90;7.25;28 Sep 2014; 2;0 ;2014
+Atletico-MG;Vitoria;Marathonbet;1.48;4.50;7.80;28 Sep 2014; 2;0 ;2014
+Atletico-MG;Vitoria;Pinnacle;1.48;4.48;8.07;28 Sep 2014; 2;0 ;2014
+Atletico-MG;Vitoria;Unibet;1.42;4.30;7.00;28 Sep 2014; 2;0 ;2014
+Atletico-MG;Vitoria;William Hill;1.44;4.33;6.00;28 Sep 2014; 2;0 ;2014
+Bahia;Flamengo RJ;1xBet;2.38;3.18;3.55;28 Sep 2014; 2;1 ;2014
+Bahia;Flamengo RJ;bet-at-home;2.25;3.00;3.15;28 Sep 2014; 2;1 ;2014
+Bahia;Flamengo RJ;bet365;2.25;3.10;3.40;28 Sep 2014; 2;1 ;2014
+Bahia;Flamengo RJ;bwin;2.30;3.00;3.00;28 Sep 2014; 2;1 ;2014
+Bahia;Flamengo RJ;Marathonbet;2.38;3.15;3.50;28 Sep 2014; 2;1 ;2014
+Bahia;Flamengo RJ;Pinnacle;2.40;3.17;3.44;28 Sep 2014; 2;1 ;2014
+Bahia;Flamengo RJ;Unibet;2.30;3.15;3.00;28 Sep 2014; 2;1 ;2014
+Bahia;Flamengo RJ;William Hill;2.20;2.90;3.40;28 Sep 2014; 2;1 ;2014
+Botafogo RJ;Gremio;1xBet;3.06;3.12;2.70;28 Sep 2014; 0;2 ;2014
+Botafogo RJ;Gremio;bet-at-home;2.85;2.95;2.50;28 Sep 2014; 0;2 ;2014
+Botafogo RJ;Gremio;bet365;2.90;3.00;2.55;28 Sep 2014; 0;2 ;2014
+Botafogo RJ;Gremio;bwin;2.75;3.00;2.50;28 Sep 2014; 0;2 ;2014
+Botafogo RJ;Gremio;Marathonbet;3.05;3.10;2.66;28 Sep 2014; 0;2 ;2014
+Botafogo RJ;Gremio;Pinnacle;3.06;3.11;2.65;28 Sep 2014; 0;2 ;2014
+Botafogo RJ;Gremio;Unibet;2.85;3.10;2.45;28 Sep 2014; 0;2 ;2014
+Botafogo RJ;Gremio;William Hill;3.00;2.80;2.50;28 Sep 2014; 0;2 ;2014
+Sao Paulo;Fluminense;1xBet;1.76;4.00;5.00;28 Sep 2014; 1;3 ;2014
+Sao Paulo;Fluminense;bet-at-home;1.70;3.45;4.65;28 Sep 2014; 1;3 ;2014
+Sao Paulo;Fluminense;bet365;1.73;3.50;5.00;28 Sep 2014; 1;3 ;2014
+Sao Paulo;Fluminense;bwin;1.78;3.40;4.10;28 Sep 2014; 1;3 ;2014
+Sao Paulo;Fluminense;Marathonbet;1.75;3.95;4.95;28 Sep 2014; 1;3 ;2014
+Sao Paulo;Fluminense;Pinnacle;1.76;4.06;4.76;28 Sep 2014; 1;3 ;2014
+Sao Paulo;Fluminense;Unibet;1.72;3.60;4.40;28 Sep 2014; 1;3 ;2014
+Sao Paulo;Fluminense;William Hill;1.83;3.40;4.00;28 Sep 2014; 1;3 ;2014
+Chapecoense-SC;Criciuma;1xBet;1.81;3.70;5.10;27 Sep 2014; 1;1 ;2014
+Chapecoense-SC;Criciuma;bet-at-home;1.75;3.25;4.65;27 Sep 2014; 1;1 ;2014
+Chapecoense-SC;Criciuma;bet365;1.80;3.40;4.75;27 Sep 2014; 1;1 ;2014
+Chapecoense-SC;Criciuma;bwin;1.75;3.20;4.60;27 Sep 2014; 1;1 ;2014
+Chapecoense-SC;Criciuma;Marathonbet;1.80;3.65;5.10;27 Sep 2014; 1;1 ;2014
+Chapecoense-SC;Criciuma;Pinnacle;1.86;3.39;5.15;27 Sep 2014; 1;1 ;2014
+Chapecoense-SC;Criciuma;Unibet;1.82;3.30;4.40;27 Sep 2014; 1;1 ;2014
+Chapecoense-SC;Criciuma;William Hill;1.85;3.10;4.40;27 Sep 2014; 1;1 ;2014
+Sport Recife;Cruzeiro;1xBet;4.00;3.65;2.01;27 Sep 2014; 0;0 ;2014
+Sport Recife;Cruzeiro;bet-at-home;3.75;3.35;1.90;27 Sep 2014; 0;0 ;2014
+Sport Recife;Cruzeiro;bet365;4.00;3.50;1.91;27 Sep 2014; 0;0 ;2014
+Sport Recife;Cruzeiro;bwin;3.80;3.40;1.83;27 Sep 2014; 0;0 ;2014
+Sport Recife;Cruzeiro;Marathonbet;3.95;3.65;2.00;27 Sep 2014; 0;0 ;2014
+Sport Recife;Cruzeiro;Pinnacle;4.12;3.70;1.95;27 Sep 2014; 0;0 ;2014
+Sport Recife;Cruzeiro;Unibet;3.40;3.30;2.05;27 Sep 2014; 0;0 ;2014
+Sport Recife;Cruzeiro;William Hill;3.60;3.20;2.00;27 Sep 2014; 0;0 ;2014
+Atletico-MG;Santos;1xBet;1.73;4.10;5.10;25 Sep 2014; 3;2 ;2014
+Atletico-MG;Santos;bet-at-home;1.70;3.45;4.85;25 Sep 2014; 3;2 ;2014
+Atletico-MG;Santos;bet365;1.67;3.60;5.50;25 Sep 2014; 3;2 ;2014
+Atletico-MG;Santos;bwin;1.72;3.40;4.40;25 Sep 2014; 3;2 ;2014
+Atletico-MG;Santos;Marathonbet;1.68;4.00;5.50;25 Sep 2014; 3;2 ;2014
+Atletico-MG;Santos;Pinnacle;1.86;3.66;4.67;25 Sep 2014; 3;2 ;2014
+Atletico-MG;Santos;Unibet;1.68;3.50;5.15;25 Sep 2014; 3;2 ;2014
+Atletico-MG;Santos;William Hill;1.73;3.40;4.60;25 Sep 2014; 3;2 ;2014
+Botafogo RJ;Goias;1xBet;2.10;3.70;3.70;25 Sep 2014; 1;0 ;2014
+Botafogo RJ;Goias;bet-at-home;2.00;3.25;3.45;25 Sep 2014; 1;0 ;2014
+Botafogo RJ;Goias;bet365;2.15;3.40;3.30;25 Sep 2014; 1;0 ;2014
+Botafogo RJ;Goias;bwin;1.87;3.20;3.90;25 Sep 2014; 1;0 ;2014
+Botafogo RJ;Goias;Marathonbet;2.04;3.55;3.95;25 Sep 2014; 1;0 ;2014
+Botafogo RJ;Goias;Pinnacle;1.92;3.48;4.65;25 Sep 2014; 1;0 ;2014
+Botafogo RJ;Goias;Unibet;1.90;3.30;4.00;25 Sep 2014; 1;0 ;2014
+Botafogo RJ;Goias;William Hill;1.85;3.20;4.20;25 Sep 2014; 1;0 ;2014
+Palmeiras;Vitoria;1xBet;1.84;3.85;4.75;25 Sep 2014; 2;0 ;2014
+Palmeiras;Vitoria;bet-at-home;1.85;3.45;3.85;25 Sep 2014; 2;0 ;2014
+Palmeiras;Vitoria;bet365;1.91;3.50;4.00;25 Sep 2014; 2;0 ;2014
+Palmeiras;Vitoria;bwin;1.83;3.20;4.20;25 Sep 2014; 2;0 ;2014
+Palmeiras;Vitoria;Marathonbet;1.83;3.80;4.60;25 Sep 2014; 2;0 ;2014
+Palmeiras;Vitoria;Pinnacle;1.85;3.60;4.80;25 Sep 2014; 2;0 ;2014
+Palmeiras;Vitoria;Unibet;1.85;3.35;4.10;25 Sep 2014; 2;0 ;2014
+Palmeiras;Vitoria;William Hill;1.83;3.40;4.00;25 Sep 2014; 2;0 ;2014
+Figueirense;Corinthians;1xBet;3.60;3.30;2.28;25 Sep 2014; 1;0 ;2014
+Figueirense;Corinthians;bet-at-home;3.25;3.05;2.20;25 Sep 2014; 1;0 ;2014
+Figueirense;Corinthians;bet365;3.25;3.25;2.20;25 Sep 2014; 1;0 ;2014
+Figueirense;Corinthians;bwin;2.90;3.10;2.30;25 Sep 2014; 1;0 ;2014
+Figueirense;Corinthians;Marathonbet;3.65;3.25;2.25;25 Sep 2014; 1;0 ;2014
+Figueirense;Corinthians;Pinnacle;3.70;3.12;2.30;25 Sep 2014; 1;0 ;2014
+Figueirense;Corinthians;Unibet;3.25;3.20;2.15;25 Sep 2014; 1;0 ;2014
+Figueirense;Corinthians;William Hill;3.30;2.90;2.25;25 Sep 2014; 1;0 ;2014
+Fluminense;Gremio;1xBet;2.40;3.30;3.30;25 Sep 2014; 0;0 ;2014
+Fluminense;Gremio;bet-at-home;2.35;3.00;3.05;25 Sep 2014; 0;0 ;2014
+Fluminense;Gremio;bet365;2.40;3.00;3.20;25 Sep 2014; 0;0 ;2014
+Fluminense;Gremio;bwin;2.15;3.00;3.30;25 Sep 2014; 0;0 ;2014
+Fluminense;Gremio;Marathonbet;2.38;3.30;3.30;25 Sep 2014; 0;0 ;2014
+Fluminense;Gremio;Pinnacle;2.49;3.18;3.23;25 Sep 2014; 0;0 ;2014
+Fluminense;Gremio;Unibet;2.20;3.20;3.20;25 Sep 2014; 0;0 ;2014
+Fluminense;Gremio;William Hill;2.38;2.90;3.10;25 Sep 2014; 0;0 ;2014
+Sao Paulo;Flamengo RJ;1xBet;1.66;4.00;6.10;25 Sep 2014; 2;2 ;2014
+Sao Paulo;Flamengo RJ;bet-at-home;1.70;3.50;4.65;25 Sep 2014; 2;2 ;2014
+Sao Paulo;Flamengo RJ;bet365;1.73;3.50;5.00;25 Sep 2014; 2;2 ;2014
+Sao Paulo;Flamengo RJ;bwin;1.60;3.60;5.00;25 Sep 2014; 2;2 ;2014
+Sao Paulo;Flamengo RJ;Marathonbet;1.64;4.00;6.00;25 Sep 2014; 2;2 ;2014
+Sao Paulo;Flamengo RJ;Pinnacle;1.78;3.88;4.88;25 Sep 2014; 2;2 ;2014
+Sao Paulo;Flamengo RJ;Unibet;1.67;3.60;5.00;25 Sep 2014; 2;2 ;2014
+Sao Paulo;Flamengo RJ;William Hill;1.70;3.40;4.80;25 Sep 2014; 2;2 ;2014
+Bahia;Sport Recife;1xBet;1.95;3.55;4.50;25 Sep 2014; 1;0 ;2014
+Bahia;Sport Recife;bet-at-home;1.90;3.25;3.85;25 Sep 2014; 1;0 ;2014
+Bahia;Sport Recife;bet365;1.91;3.40;4.00;25 Sep 2014; 1;0 ;2014
+Bahia;Sport Recife;bwin;1.91;3.20;3.75;25 Sep 2014; 1;0 ;2014
+Bahia;Sport Recife;Marathonbet;1.92;3.55;4.50;25 Sep 2014; 1;0 ;2014
+Bahia;Sport Recife;Pinnacle;1.96;3.47;4.39;25 Sep 2014; 1;0 ;2014
+Bahia;Sport Recife;Unibet;1.88;3.30;4.10;25 Sep 2014; 1;0 ;2014
+Bahia;Sport Recife;William Hill;2.00;3.25;3.50;25 Sep 2014; 1;0 ;2014
+Chapecoense-SC;Athletico-PR;1xBet;2.24;3.30;3.65;25 Sep 2014; 3;0 ;2014
+Chapecoense-SC;Athletico-PR;bet-at-home;2.25;3.05;3.20;25 Sep 2014; 3;0 ;2014
+Chapecoense-SC;Athletico-PR;bet365;2.30;3.10;3.25;25 Sep 2014; 3;0 ;2014
+Chapecoense-SC;Athletico-PR;bwin;2.00;3.10;3.60;25 Sep 2014; 3;0 ;2014
+Chapecoense-SC;Athletico-PR;Marathonbet;2.22;3.30;3.65;25 Sep 2014; 3;0 ;2014
+Chapecoense-SC;Athletico-PR;Pinnacle;2.38;3.17;3.46;25 Sep 2014; 3;0 ;2014
+Chapecoense-SC;Athletico-PR;Unibet;2.20;3.15;3.25;25 Sep 2014; 3;0 ;2014
+Chapecoense-SC;Athletico-PR;William Hill;2.25;3.00;3.20;25 Sep 2014; 3;0 ;2014
+Coritiba;Cruzeiro;1xBet;3.12;3.55;2.40;24 Sep 2014; 1;2 ;2014
+Coritiba;Cruzeiro;bet-at-home;2.75;3.15;2.45;24 Sep 2014; 1;2 ;2014
+Coritiba;Cruzeiro;bet365;2.88;3.20;2.50;24 Sep 2014; 1;2 ;2014
+Coritiba;Cruzeiro;bwin;2.85;3.10;2.35;24 Sep 2014; 1;2 ;2014
+Coritiba;Cruzeiro;Marathonbet;2.88;3.30;2.66;24 Sep 2014; 1;2 ;2014
+Coritiba;Cruzeiro;Pinnacle;2.95;3.37;2.56;24 Sep 2014; 1;2 ;2014
+Coritiba;Cruzeiro;Unibet;2.75;3.20;2.45;24 Sep 2014; 1;2 ;2014
+Coritiba;Cruzeiro;William Hill;2.62;3.10;2.60;24 Sep 2014; 1;2 ;2014
+Internacional;Criciuma;1xBet;1.46;4.60;8.60;24 Sep 2014; 3;0 ;2014
+Internacional;Criciuma;bet-at-home;1.45;4.00;7.10;24 Sep 2014; 3;0 ;2014
+Internacional;Criciuma;bet365;1.44;4.00;8.00;24 Sep 2014; 3;0 ;2014
+Internacional;Criciuma;bwin;1.40;4.00;7.25;24 Sep 2014; 3;0 ;2014
+Internacional;Criciuma;Marathonbet;1.42;4.65;9.30;24 Sep 2014; 3;0 ;2014
+Internacional;Criciuma;Pinnacle;1.45;4.48;8.97;24 Sep 2014; 3;0 ;2014
+Internacional;Criciuma;Unibet;1.48;4.00;6.50;24 Sep 2014; 3;0 ;2014
+Internacional;Criciuma;William Hill;1.44;3.80;7.50;24 Sep 2014; 3;0 ;2014
+Goias;Palmeiras;1xBet;2.18;3.25;3.95;21 Sep 2014; 6;0 ;2014
+Goias;Palmeiras;bet-at-home;2.05;3.15;3.55;21 Sep 2014; 6;0 ;2014
+Goias;Palmeiras;bet365;2.10;3.25;3.60;21 Sep 2014; 6;0 ;2014
+Goias;Palmeiras;Marathonbet;2.06;3.40;4.05;21 Sep 2014; 6;0 ;2014
+Goias;Palmeiras;Pinnacle;2.11;3.42;3.92;21 Sep 2014; 6;0 ;2014
+Goias;Palmeiras;Unibet;2.00;3.30;3.65;21 Sep 2014; 6;0 ;2014
+Goias;Palmeiras;William Hill;2.05;3.00;3.75;21 Sep 2014; 6;0 ;2014
+Gremio;Chapecoense-SC;1xBet;1.62;3.95;6.90;21 Sep 2014; 1;0 ;2014
+Gremio;Chapecoense-SC;bet-at-home;1.60;3.50;5.50;21 Sep 2014; 1;0 ;2014
+Gremio;Chapecoense-SC;bet365;1.62;3.60;6.00;21 Sep 2014; 1;0 ;2014
+Gremio;Chapecoense-SC;Marathonbet;1.53;4.05;7.90;21 Sep 2014; 1;0 ;2014
+Gremio;Chapecoense-SC;Pinnacle;1.65;3.78;6.47;21 Sep 2014; 1;0 ;2014
+Gremio;Chapecoense-SC;Unibet;1.50;3.85;6.50;21 Sep 2014; 1;0 ;2014
+Gremio;Chapecoense-SC;William Hill;1.53;3.50;6.50;21 Sep 2014; 1;0 ;2014
+Corinthians;Sao Paulo;1xBet;2.40;3.35;3.30;21 Sep 2014; 3;2 ;2014
+Corinthians;Sao Paulo;bet-at-home;2.20;3.05;3.30;21 Sep 2014; 3;2 ;2014
+Corinthians;Sao Paulo;bet365;2.20;3.20;3.40;21 Sep 2014; 3;2 ;2014
+Corinthians;Sao Paulo;Marathonbet;2.60;3.20;3.05;21 Sep 2014; 3;2 ;2014
+Corinthians;Sao Paulo;Pinnacle;2.29;3.23;3.58;21 Sep 2014; 3;2 ;2014
+Corinthians;Sao Paulo;Unibet;2.30;3.15;3.00;21 Sep 2014; 3;2 ;2014
+Corinthians;Sao Paulo;William Hill;2.15;3.00;3.40;21 Sep 2014; 3;2 ;2014
+Cruzeiro;Atletico-MG;1xBet;1.67;3.95;6.10;21 Sep 2014; 2;3 ;2014
+Cruzeiro;Atletico-MG;bet-at-home;1.70;3.50;4.70;21 Sep 2014; 2;3 ;2014
+Cruzeiro;Atletico-MG;bet365;1.73;3.50;5.00;21 Sep 2014; 2;3 ;2014
+Cruzeiro;Atletico-MG;Marathonbet;1.77;3.80;5.10;21 Sep 2014; 2;3 ;2014
+Cruzeiro;Atletico-MG;Pinnacle;1.72;3.84;5.46;21 Sep 2014; 2;3 ;2014
+Cruzeiro;Atletico-MG;Unibet;1.72;3.55;4.60;21 Sep 2014; 2;3 ;2014
+Cruzeiro;Atletico-MG;William Hill;1.75;3.50;4.20;21 Sep 2014; 2;3 ;2014
+Flamengo RJ;Fluminense;1xBet;2.64;3.30;2.94;21 Sep 2014; 1;1 ;2014
+Flamengo RJ;Fluminense;bet-at-home;2.50;3.10;2.75;21 Sep 2014; 1;1 ;2014
+Flamengo RJ;Fluminense;bet365;2.50;3.25;2.80;21 Sep 2014; 1;1 ;2014
+Flamengo RJ;Fluminense;Marathonbet;2.96;3.30;2.60;21 Sep 2014; 1;1 ;2014
+Flamengo RJ;Fluminense;Pinnacle;2.54;3.35;3.00;21 Sep 2014; 1;1 ;2014
+Flamengo RJ;Fluminense;Unibet;2.78;3.20;2.45;21 Sep 2014; 1;1 ;2014
+Flamengo RJ;Fluminense;William Hill;2.50;3.00;2.80;21 Sep 2014; 1;1 ;2014
+Sport Recife;Coritiba;1xBet;2.26;3.35;3.55;21 Sep 2014; 1;0 ;2014
+Sport Recife;Coritiba;bet-at-home;2.25;3.00;3.20;21 Sep 2014; 1;0 ;2014
+Sport Recife;Coritiba;bet365;2.25;3.10;3.40;21 Sep 2014; 1;0 ;2014
+Sport Recife;Coritiba;Marathonbet;2.30;3.35;3.40;21 Sep 2014; 1;0 ;2014
+Sport Recife;Coritiba;Pinnacle;2.31;3.22;3.55;21 Sep 2014; 1;0 ;2014
+Sport Recife;Coritiba;Unibet;2.35;3.10;2.90;21 Sep 2014; 1;0 ;2014
+Sport Recife;Coritiba;William Hill;2.30;3.00;3.10;21 Sep 2014; 1;0 ;2014
+Vitoria;Bahia;1xBet;2.86;3.35;2.68;21 Sep 2014; 2;1 ;2014
+Vitoria;Bahia;bet-at-home;2.70;3.05;2.60;21 Sep 2014; 2;1 ;2014
+Vitoria;Bahia;bet365;2.75;3.10;2.63;21 Sep 2014; 2;1 ;2014
+Vitoria;Bahia;Marathonbet;2.90;3.30;2.65;21 Sep 2014; 2;1 ;2014
+Vitoria;Bahia;Pinnacle;2.83;3.25;2.75;21 Sep 2014; 2;1 ;2014
+Vitoria;Bahia;Unibet;2.65;3.10;2.60;21 Sep 2014; 2;1 ;2014
+Vitoria;Bahia;William Hill;2.80;3.00;2.50;21 Sep 2014; 2;1 ;2014
+Criciuma;Botafogo RJ;1xBet;1.88;3.65;4.75;21 Sep 2014; 1;1 ;2014
+Criciuma;Botafogo RJ;bet-at-home;1.90;3.35;3.90;21 Sep 2014; 1;1 ;2014
+Criciuma;Botafogo RJ;bet365;1.91;3.40;4.00;21 Sep 2014; 1;1 ;2014
+Criciuma;Botafogo RJ;Marathonbet;1.86;3.65;4.65;21 Sep 2014; 1;1 ;2014
+Criciuma;Botafogo RJ;Pinnacle;2.03;3.44;4.16;21 Sep 2014; 1;1 ;2014
+Criciuma;Botafogo RJ;Unibet;1.75;3.40;4.50;21 Sep 2014; 1;1 ;2014
+Criciuma;Botafogo RJ;William Hill;1.75;3.25;4.75;21 Sep 2014; 1;1 ;2014
+Athletico-PR;Internacional;1xBet;2.70;3.40;2.60;20 Sep 2014; 0;1 ;2014
+Athletico-PR;Internacional;bet-at-home;2.50;3.10;2.70;20 Sep 2014; 0;1 ;2014
+Athletico-PR;Internacional;bet365;2.70;3.10;2.70;20 Sep 2014; 0;1 ;2014
+Athletico-PR;Internacional;Marathonbet;2.68;3.30;2.86;20 Sep 2014; 0;1 ;2014
+Athletico-PR;Internacional;Pinnacle;2.71;3.36;2.80;20 Sep 2014; 0;1 ;2014
+Athletico-PR;Internacional;Unibet;2.55;3.15;2.65;20 Sep 2014; 0;1 ;2014
+Athletico-PR;Internacional;William Hill;2.60;3.00;2.70;20 Sep 2014; 0;1 ;2014
+Gremio;Santos;1xBet;1.84;3.55;5.20;18 Sep 2014; 0;0 ;2014
+Gremio;Santos;bet-at-home;1.90;3.20;4.10;18 Sep 2014; 0;0 ;2014
+Gremio;Santos;bet365;1.91;3.10;4.50;18 Sep 2014; 0;0 ;2014
+Gremio;Santos;Marathonbet;1.86;3.55;4.85;18 Sep 2014; 0;0 ;2014
+Gremio;Santos;Pinnacle;1.93;3.43;4.68;18 Sep 2014; 0;0 ;2014
+Gremio;Santos;Unibet;1.92;3.30;4.00;18 Sep 2014; 0;0 ;2014
+Gremio;Santos;William Hill;1.80;3.10;4.80;18 Sep 2014; 0;0 ;2014
+Corinthians;Chapecoense-SC;1xBet;1.48;4.40;9.00;18 Sep 2014; 1;1 ;2014
+Corinthians;Chapecoense-SC;bet-at-home;1.50;3.75;6.30;18 Sep 2014; 1;1 ;2014
+Corinthians;Chapecoense-SC;bet365;1.57;3.60;6.50;18 Sep 2014; 1;1 ;2014
+Corinthians;Chapecoense-SC;Marathonbet;1.44;4.35;9.60;18 Sep 2014; 1;1 ;2014
+Corinthians;Chapecoense-SC;Pinnacle;1.54;4.20;7.32;18 Sep 2014; 1;1 ;2014
+Corinthians;Chapecoense-SC;Unibet;1.42;4.00;7.50;18 Sep 2014; 1;1 ;2014
+Corinthians;Chapecoense-SC;William Hill;1.44;3.60;8.50;18 Sep 2014; 1;1 ;2014
+Goias;Atletico-MG;1xBet;2.62;3.40;2.94;18 Sep 2014; 2;3 ;2014
+Goias;Atletico-MG;bet-at-home;2.45;3.05;2.85;18 Sep 2014; 2;3 ;2014
+Goias;Atletico-MG;bet365;2.40;3.20;3.00;18 Sep 2014; 2;3 ;2014
+Goias;Atletico-MG;Marathonbet;2.54;3.35;3.00;18 Sep 2014; 2;3 ;2014
+Goias;Atletico-MG;Pinnacle;2.57;3.11;3.19;18 Sep 2014; 2;3 ;2014
+Goias;Atletico-MG;Unibet;2.55;3.15;2.65;18 Sep 2014; 2;3 ;2014
+Goias;Atletico-MG;William Hill;2.50;3.00;2.80;18 Sep 2014; 2;3 ;2014
+Botafogo RJ;Bahia;1xBet;1.82;3.30;6.00;18 Sep 2014; 2;3 ;2014
+Botafogo RJ;Bahia;bet-at-home;1.70;3.25;4.90;18 Sep 2014; 2;3 ;2014
+Botafogo RJ;Bahia;bet365;1.73;3.30;5.50;18 Sep 2014; 2;3 ;2014
+Botafogo RJ;Bahia;Marathonbet;1.78;3.40;5.90;18 Sep 2014; 2;3 ;2014
+Botafogo RJ;Bahia;Pinnacle;1.78;3.57;5.50;18 Sep 2014; 2;3 ;2014
+Botafogo RJ;Bahia;Unibet;1.78;3.40;4.40;18 Sep 2014; 2;3 ;2014
+Botafogo RJ;Bahia;William Hill;1.73;3.20;5.00;18 Sep 2014; 2;3 ;2014
+Coritiba;Sao Paulo;1xBet;2.56;3.65;2.82;18 Sep 2014; 3;1 ;2014
+Coritiba;Sao Paulo;bet-at-home;2.25;3.15;3.00;18 Sep 2014; 3;1 ;2014
+Coritiba;Sao Paulo;bet365;2.25;3.25;3.20;18 Sep 2014; 3;1 ;2014
+Coritiba;Sao Paulo;Marathonbet;2.48;3.55;2.94;18 Sep 2014; 3;1 ;2014
+Coritiba;Sao Paulo;Pinnacle;2.26;3.47;3.40;18 Sep 2014; 3;1 ;2014
+Coritiba;Sao Paulo;Unibet;2.45;3.00;2.95;18 Sep 2014; 3;1 ;2014
+Coritiba;Sao Paulo;William Hill;2.30;3.10;3.00;18 Sep 2014; 3;1 ;2014
+Palmeiras;Flamengo RJ;1xBet;2.44;3.20;3.40;18 Sep 2014; 2;2 ;2014
+Palmeiras;Flamengo RJ;bet-at-home;2.40;2.95;3.00;18 Sep 2014; 2;2 ;2014
+Palmeiras;Flamengo RJ;bet365;2.50;3.00;3.00;18 Sep 2014; 2;2 ;2014
+Palmeiras;Flamengo RJ;Marathonbet;2.44;3.20;3.30;18 Sep 2014; 2;2 ;2014
+Palmeiras;Flamengo RJ;Pinnacle;2.59;3.14;3.11;18 Sep 2014; 2;2 ;2014
+Palmeiras;Flamengo RJ;Unibet;2.40;3.00;3.00;18 Sep 2014; 2;2 ;2014
+Palmeiras;Flamengo RJ;William Hill;2.30;3.00;3.10;18 Sep 2014; 2;2 ;2014
+Figueirense;Criciuma;1xBet;2.06;3.45;4.10;18 Sep 2014; 1;1 ;2014
+Figueirense;Criciuma;bet-at-home;2.05;3.20;3.45;18 Sep 2014; 1;1 ;2014
+Figueirense;Criciuma;bet365;2.10;3.20;3.60;18 Sep 2014; 1;1 ;2014
+Figueirense;Criciuma;Marathonbet;2.04;3.45;4.05;18 Sep 2014; 1;1 ;2014
+Figueirense;Criciuma;Pinnacle;2.14;3.25;3.96;18 Sep 2014; 1;1 ;2014
+Figueirense;Criciuma;Unibet;2.00;3.25;3.60;18 Sep 2014; 1;1 ;2014
+Figueirense;Criciuma;William Hill;2.00;3.10;3.75;18 Sep 2014; 1;1 ;2014
+Sport Recife;Internacional;1xBet;2.98;2.98;2.88;18 Sep 2014; 0;0 ;2014
+Sport Recife;Internacional;bet-at-home;2.70;3.05;2.55;18 Sep 2014; 0;0 ;2014
+Sport Recife;Internacional;bet365;2.90;3.10;2.50;18 Sep 2014; 0;0 ;2014
+Sport Recife;Internacional;Marathonbet;2.84;3.25;2.74;18 Sep 2014; 0;0 ;2014
+Sport Recife;Internacional;Pinnacle;2.85;3.35;2.67;18 Sep 2014; 0;0 ;2014
+Sport Recife;Internacional;Unibet;2.60;3.20;2.60;18 Sep 2014; 0;0 ;2014
+Sport Recife;Internacional;William Hill;2.70;3.00;2.60;18 Sep 2014; 0;0 ;2014
+Cruzeiro;Athletico-PR;1xBet;1.35;5.60;10.50;17 Sep 2014; 2;0 ;2014
+Cruzeiro;Athletico-PR;bet-at-home;1.40;4.45;7.30;17 Sep 2014; 2;0 ;2014
+Cruzeiro;Athletico-PR;bet365;1.33;4.75;10.00;17 Sep 2014; 2;0 ;2014
+Cruzeiro;Athletico-PR;Marathonbet;1.33;5.50;10.50;17 Sep 2014; 2;0 ;2014
+Cruzeiro;Athletico-PR;Pinnacle;1.44;4.86;8.03;17 Sep 2014; 2;0 ;2014
+Cruzeiro;Athletico-PR;Unibet;1.30;5.20;8.25;17 Sep 2014; 2;0 ;2014
+Cruzeiro;Athletico-PR;William Hill;1.36;4.50;7.50;17 Sep 2014; 2;0 ;2014
+Vitoria;Fluminense;1xBet;3.60;3.40;2.24;17 Sep 2014; 3;1 ;2014
+Vitoria;Fluminense;bet-at-home;2.90;3.15;2.30;17 Sep 2014; 3;1 ;2014
+Vitoria;Fluminense;bet365;3.00;3.20;2.38;17 Sep 2014; 3;1 ;2014
+Vitoria;Fluminense;Marathonbet;3.35;3.25;2.38;17 Sep 2014; 3;1 ;2014
+Vitoria;Fluminense;Pinnacle;3.18;3.39;2.39;17 Sep 2014; 3;1 ;2014
+Vitoria;Fluminense;Unibet;3.00;3.20;2.30;17 Sep 2014; 3;1 ;2014
+Vitoria;Fluminense;William Hill;3.00;3.20;2.25;17 Sep 2014; 3;1 ;2014
+Athletico-PR;Vitoria;1xBet;1.84;3.65;4.95;14 Sep 2014; 2;0 ;2014
+Athletico-PR;Vitoria;bet-at-home;1.75;3.40;4.45;14 Sep 2014; 2;0 ;2014
+Athletico-PR;Vitoria;bet365;1.75;3.60;4.75;14 Sep 2014; 2;0 ;2014
+Athletico-PR;Vitoria;bwin;1.80;3.50;3.90;14 Sep 2014; 2;0 ;2014
+Athletico-PR;Vitoria;Marathonbet;1.89;3.55;4.65;14 Sep 2014; 2;0 ;2014
+Athletico-PR;Vitoria;Pinnacle;1.82;3.68;4.93;14 Sep 2014; 2;0 ;2014
+Athletico-PR;Vitoria;Unibet;1.80;3.40;4.40;14 Sep 2014; 2;0 ;2014
+Athletico-PR;Vitoria;William Hill;1.83;3.40;4.00;14 Sep 2014; 2;0 ;2014
+Atletico-MG;Gremio;1xBet;2.05;3.35;4.40;14 Sep 2014; 0;0 ;2014
+Atletico-MG;Gremio;bet-at-home;2.00;3.15;3.75;14 Sep 2014; 0;0 ;2014
+Atletico-MG;Gremio;bet365;2.05;3.20;3.80;14 Sep 2014; 0;0 ;2014
+Atletico-MG;Gremio;bwin;1.90;3.10;4.00;14 Sep 2014; 0;0 ;2014
+Atletico-MG;Gremio;Marathonbet;2.02;3.25;4.50;14 Sep 2014; 0;0 ;2014
+Atletico-MG;Gremio;Pinnacle;2.08;3.23;4.26;14 Sep 2014; 0;0 ;2014
+Atletico-MG;Gremio;Unibet;1.85;3.30;4.25;14 Sep 2014; 0;0 ;2014
+Atletico-MG;Gremio;William Hill;2.00;3.20;3.60;14 Sep 2014; 0;0 ;2014
+Criciuma;Goias;1xBet;2.38;3.45;3.20;14 Sep 2014; 1;0 ;2014
+Criciuma;Goias;bet-at-home;2.30;2.95;3.15;14 Sep 2014; 1;0 ;2014
+Criciuma;Goias;bet365;2.40;3.00;3.20;14 Sep 2014; 1;0 ;2014
+Criciuma;Goias;bwin;2.10;3.00;3.50;14 Sep 2014; 1;0 ;2014
+Criciuma;Goias;Marathonbet;2.25;3.30;3.60;14 Sep 2014; 1;0 ;2014
+Criciuma;Goias;Pinnacle;2.39;3.17;3.43;14 Sep 2014; 1;0 ;2014
+Criciuma;Goias;Unibet;2.20;3.15;3.20;14 Sep 2014; 1;0 ;2014
+Criciuma;Goias;William Hill;2.38;2.75;3.30;14 Sep 2014; 1;0 ;2014
+Bahia;Figueirense;1xBet;2.24;3.30;3.70;14 Sep 2014; 3;0 ;2014
+Bahia;Figueirense;bet-at-home;2.10;3.05;3.50;14 Sep 2014; 3;0 ;2014
+Bahia;Figueirense;bet365;2.05;3.10;4.00;14 Sep 2014; 3;0 ;2014
+Bahia;Figueirense;bwin;2.15;3.10;3.25;14 Sep 2014; 3;0 ;2014
+Bahia;Figueirense;Marathonbet;2.22;3.25;3.75;14 Sep 2014; 3;0 ;2014
+Bahia;Figueirense;Pinnacle;2.13;3.30;3.97;14 Sep 2014; 3;0 ;2014
+Bahia;Figueirense;Unibet;2.15;3.20;3.30;14 Sep 2014; 3;0 ;2014
+Bahia;Figueirense;William Hill;2.15;3.20;3.20;14 Sep 2014; 3;0 ;2014
+Flamengo RJ;Corinthians;1xBet;3.30;2.88;2.72;14 Sep 2014; 1;0 ;2014
+Flamengo RJ;Corinthians;bet-at-home;3.00;2.85;2.45;14 Sep 2014; 1;0 ;2014
+Flamengo RJ;Corinthians;bet365;2.90;3.00;2.60;14 Sep 2014; 1;0 ;2014
+Flamengo RJ;Corinthians;bwin;2.75;2.95;2.50;14 Sep 2014; 1;0 ;2014
+Flamengo RJ;Corinthians;Marathonbet;2.90;3.20;2.72;14 Sep 2014; 1;0 ;2014
+Flamengo RJ;Corinthians;Pinnacle;3.07;3.11;2.65;14 Sep 2014; 1;0 ;2014
+Flamengo RJ;Corinthians;Unibet;3.00;2.90;2.50;14 Sep 2014; 1;0 ;2014
+Flamengo RJ;Corinthians;William Hill;3.00;2.80;2.50;14 Sep 2014; 1;0 ;2014
+Internacional;Botafogo RJ;1xBet;1.58;3.85;8.10;14 Sep 2014; 2;0 ;2014
+Internacional;Botafogo RJ;bet-at-home;1.50;3.75;6.30;14 Sep 2014; 2;0 ;2014
+Internacional;Botafogo RJ;bet365;1.53;3.75;7.00;14 Sep 2014; 2;0 ;2014
+Internacional;Botafogo RJ;bwin;1.45;3.90;6.50;14 Sep 2014; 2;0 ;2014
+Internacional;Botafogo RJ;Marathonbet;1.54;4.05;7.70;14 Sep 2014; 2;0 ;2014
+Internacional;Botafogo RJ;Pinnacle;1.57;4.10;6.89;14 Sep 2014; 2;0 ;2014
+Internacional;Botafogo RJ;Unibet;1.48;3.85;6.50;14 Sep 2014; 2;0 ;2014
+Internacional;Botafogo RJ;William Hill;1.50;3.70;6.50;14 Sep 2014; 2;0 ;2014
+Sao Paulo;Cruzeiro;1xBet;2.24;3.45;3.55;14 Sep 2014; 2;0 ;2014
+Sao Paulo;Cruzeiro;bet-at-home;2.10;3.25;3.20;14 Sep 2014; 2;0 ;2014
+Sao Paulo;Cruzeiro;bet365;2.15;3.30;3.40;14 Sep 2014; 2;0 ;2014
+Sao Paulo;Cruzeiro;bwin;2.20;3.20;3.00;14 Sep 2014; 2;0 ;2014
+Sao Paulo;Cruzeiro;Marathonbet;2.22;3.40;3.55;14 Sep 2014; 2;0 ;2014
+Sao Paulo;Cruzeiro;Pinnacle;2.20;3.39;3.64;14 Sep 2014; 2;0 ;2014
+Sao Paulo;Cruzeiro;Unibet;2.20;3.30;3.10;14 Sep 2014; 2;0 ;2014
+Sao Paulo;Cruzeiro;William Hill;2.15;3.30;3.10;14 Sep 2014; 2;0 ;2014
+Santos;Coritiba;1xBet;2.02;3.16;4.90;14 Sep 2014; 2;1 ;2014
+Santos;Coritiba;bet-at-home;1.90;3.30;3.90;14 Sep 2014; 2;1 ;2014
+Santos;Coritiba;bet365;1.91;3.50;4.00;14 Sep 2014; 2;1 ;2014
+Santos;Coritiba;bwin;1.80;3.25;4.20;14 Sep 2014; 2;1 ;2014
+Santos;Coritiba;Marathonbet;1.92;3.45;4.65;14 Sep 2014; 2;1 ;2014
+Santos;Coritiba;Pinnacle;1.93;3.62;4.31;14 Sep 2014; 2;1 ;2014
+Santos;Coritiba;Unibet;1.80;3.40;4.40;14 Sep 2014; 2;1 ;2014
+Santos;Coritiba;William Hill;1.80;3.30;4.20;14 Sep 2014; 2;1 ;2014
+Chapecoense-SC;Sport Recife;1xBet;2.16;3.35;3.85;13 Sep 2014; 3;1 ;2014
+Chapecoense-SC;Sport Recife;bet-at-home;1.95;3.10;4.00;13 Sep 2014; 3;1 ;2014
+Chapecoense-SC;Sport Recife;bet365;1.95;3.30;4.00;13 Sep 2014; 3;1 ;2014
+Chapecoense-SC;Sport Recife;bwin;2.00;3.10;3.60;13 Sep 2014; 3;1 ;2014
+Chapecoense-SC;Sport Recife;Marathonbet;2.05;3.40;4.10;13 Sep 2014; 3;1 ;2014
+Chapecoense-SC;Sport Recife;Pinnacle;1.99;3.25;4.65;13 Sep 2014; 3;1 ;2014
+Chapecoense-SC;Sport Recife;Unibet;2.05;3.20;3.50;13 Sep 2014; 3;1 ;2014
+Chapecoense-SC;Sport Recife;William Hill;2.10;3.20;3.30;13 Sep 2014; 3;1 ;2014
+Fluminense;Palmeiras;1xBet;1.63;4.15;6.10;13 Sep 2014; 3;0 ;2014
+Fluminense;Palmeiras;bet-at-home;1.55;3.70;5.50;13 Sep 2014; 3;0 ;2014
+Fluminense;Palmeiras;bet365;1.57;4.00;5.75;13 Sep 2014; 3;0 ;2014
+Fluminense;Palmeiras;bwin;1.60;3.75;4.75;13 Sep 2014; 3;0 ;2014
+Fluminense;Palmeiras;Marathonbet;1.62;4.10;6.10;13 Sep 2014; 3;0 ;2014
+Fluminense;Palmeiras;Pinnacle;1.60;4.26;5.99;13 Sep 2014; 3;0 ;2014
+Fluminense;Palmeiras;Unibet;1.58;3.70;5.45;13 Sep 2014; 3;0 ;2014
+Fluminense;Palmeiras;William Hill;1.60;3.75;5.00;13 Sep 2014; 3;0 ;2014
+Cruzeiro;Bahia;1xBet;1.31;5.90;11.50;11 Sep 2014; 2;1 ;2014
+Cruzeiro;Bahia;bet-at-home;1.30;5.00;7.50;11 Sep 2014; 2;1 ;2014
+Cruzeiro;Bahia;bet365;1.33;5.00;9.00;11 Sep 2014; 2;1 ;2014
+Cruzeiro;Bahia;bwin;1.25;5.00;9.75;11 Sep 2014; 2;1 ;2014
+Cruzeiro;Bahia;Marathonbet;1.29;5.90;13.00;11 Sep 2014; 2;1 ;2014
+Cruzeiro;Bahia;Pinnacle;1.35;5.18;11.20;11 Sep 2014; 2;1 ;2014
+Cruzeiro;Bahia;Unibet;1.25;5.50;11.00;11 Sep 2014; 2;1 ;2014
+Cruzeiro;Bahia;William Hill;1.29;5.00;9.00;11 Sep 2014; 2;1 ;2014
+Corinthians;Atletico-MG;1xBet;2.12;3.40;3.95;11 Sep 2014; 1;0 ;2014
+Corinthians;Atletico-MG;bet-at-home;2.00;3.10;3.65;11 Sep 2014; 1;0 ;2014
+Corinthians;Atletico-MG;bet365;2.05;3.10;4.00;11 Sep 2014; 1;0 ;2014
+Corinthians;Atletico-MG;bwin;1.87;3.10;4.20;11 Sep 2014; 1;0 ;2014
+Corinthians;Atletico-MG;Marathonbet;2.00;3.40;4.33;11 Sep 2014; 1;0 ;2014
+Corinthians;Atletico-MG;Pinnacle;2.12;3.20;4.14;11 Sep 2014; 1;0 ;2014
+Corinthians;Atletico-MG;Unibet;2.05;2.95;3.90;11 Sep 2014; 1;0 ;2014
+Corinthians;Atletico-MG;William Hill;2.10;2.88;3.75;11 Sep 2014; 1;0 ;2014
+Botafogo RJ;Sao Paulo;1xBet;6.10;3.90;1.68;11 Sep 2014; 2;4 ;2014
+Botafogo RJ;Sao Paulo;bet-at-home;5.30;3.60;1.60;11 Sep 2014; 2;4 ;2014
+Botafogo RJ;Sao Paulo;bet365;5.50;3.80;1.62;11 Sep 2014; 2;4 ;2014
+Botafogo RJ;Sao Paulo;bwin;4.75;3.50;1.65;11 Sep 2014; 2;4 ;2014
+Botafogo RJ;Sao Paulo;Marathonbet;6.10;3.85;1.66;11 Sep 2014; 2;4 ;2014
+Botafogo RJ;Sao Paulo;Pinnacle;5.84;4.17;1.63;11 Sep 2014; 2;4 ;2014
+Botafogo RJ;Sao Paulo;Unibet;5.20;3.65;1.62;11 Sep 2014; 2;4 ;2014
+Botafogo RJ;Sao Paulo;William Hill;4.33;3.50;1.73;11 Sep 2014; 2;4 ;2014
+Goias;Flamengo RJ;1xBet;3.40;3.08;2.50;11 Sep 2014; 1;0 ;2014
+Goias;Flamengo RJ;bet-at-home;3.05;3.00;2.35;11 Sep 2014; 1;0 ;2014
+Goias;Flamengo RJ;bet365;3.10;3.10;2.40;11 Sep 2014; 1;0 ;2014
+Goias;Flamengo RJ;bwin;2.70;3.10;2.45;11 Sep 2014; 1;0 ;2014
+Goias;Flamengo RJ;Marathonbet;3.40;3.10;2.45;11 Sep 2014; 1;0 ;2014
+Goias;Flamengo RJ;Pinnacle;3.32;3.30;2.38;11 Sep 2014; 1;0 ;2014
+Goias;Flamengo RJ;Unibet;2.80;3.20;2.40;11 Sep 2014; 1;0 ;2014
+Goias;Flamengo RJ;William Hill;3.00;2.88;2.45;11 Sep 2014; 1;0 ;2014
+Vitoria;Internacional;1xBet;3.55;3.45;2.24;11 Sep 2014; 2;0 ;2014
+Vitoria;Internacional;bet-at-home;2.90;3.15;2.35;11 Sep 2014; 2;0 ;2014
+Vitoria;Internacional;bet365;3.00;3.20;2.38;11 Sep 2014; 2;0 ;2014
+Vitoria;Internacional;bwin;3.10;3.20;2.15;11 Sep 2014; 2;0 ;2014
+Vitoria;Internacional;Marathonbet;3.35;3.30;2.35;11 Sep 2014; 2;0 ;2014
+Vitoria;Internacional;Pinnacle;3.12;3.32;2.47;11 Sep 2014; 2;0 ;2014
+Vitoria;Internacional;Unibet;2.95;3.20;2.30;11 Sep 2014; 2;0 ;2014
+Vitoria;Internacional;William Hill;2.80;3.10;2.40;11 Sep 2014; 2;0 ;2014
+Coritiba;Chapecoense-SC;1xBet;1.74;3.65;5.90;11 Sep 2014; 3;0 ;2014
+Coritiba;Chapecoense-SC;bet-at-home;1.70;3.30;5.10;11 Sep 2014; 3;0 ;2014
+Coritiba;Chapecoense-SC;bet365;1.73;3.40;5.25;11 Sep 2014; 3;0 ;2014
+Coritiba;Chapecoense-SC;bwin;1.70;3.30;4.75;11 Sep 2014; 3;0 ;2014
+Coritiba;Chapecoense-SC;Marathonbet;1.72;3.65;5.90;11 Sep 2014; 3;0 ;2014
+Coritiba;Chapecoense-SC;Pinnacle;1.75;3.43;6.10;11 Sep 2014; 3;0 ;2014
+Coritiba;Chapecoense-SC;Unibet;1.65;3.30;5.75;11 Sep 2014; 3;0 ;2014
+Coritiba;Chapecoense-SC;William Hill;1.67;3.10;6.00;11 Sep 2014; 3;0 ;2014
+Sport Recife;Santos;1xBet;2.56;3.12;3.25;11 Sep 2014; 3;1 ;2014
+Sport Recife;Santos;bet-at-home;2.50;3.10;2.70;11 Sep 2014; 3;1 ;2014
+Sport Recife;Santos;bet365;2.60;3.10;2.80;11 Sep 2014; 3;1 ;2014
+Sport Recife;Santos;bwin;2.50;3.10;2.65;11 Sep 2014; 3;1 ;2014
+Sport Recife;Santos;Marathonbet;2.63;3.15;3.05;11 Sep 2014; 3;1 ;2014
+Sport Recife;Santos;Pinnacle;2.68;3.36;2.81;11 Sep 2014; 3;1 ;2014
+Sport Recife;Santos;Unibet;2.45;3.10;2.80;11 Sep 2014; 3;1 ;2014
+Sport Recife;Santos;William Hill;2.50;3.00;2.80;11 Sep 2014; 3;1 ;2014
+Figueirense;Fluminense;1xBet;3.16;3.50;2.42;10 Sep 2014; 1;1 ;2014
+Figueirense;Fluminense;bet-at-home;2.80;3.20;2.40;10 Sep 2014; 1;1 ;2014
+Figueirense;Fluminense;bet365;2.90;3.30;2.38;10 Sep 2014; 1;1 ;2014
+Figueirense;Fluminense;bwin;2.80;3.10;2.40;10 Sep 2014; 1;1 ;2014
+Figueirense;Fluminense;Marathonbet;3.13;3.45;2.40;10 Sep 2014; 1;1 ;2014
+Figueirense;Fluminense;Pinnacle;3.03;3.52;2.43;10 Sep 2014; 1;1 ;2014
+Figueirense;Fluminense;Unibet;2.70;3.20;2.50;10 Sep 2014; 1;1 ;2014
+Figueirense;Fluminense;William Hill;2.80;3.20;2.38;10 Sep 2014; 1;1 ;2014
+Gremio;Athletico-PR;1xBet;1.50;4.35;8.30;10 Sep 2014; 1;0 ;2014
+Gremio;Athletico-PR;bet-at-home;1.45;3.85;6.90;10 Sep 2014; 1;0 ;2014
+Gremio;Athletico-PR;bet365;1.44;4.20;7.50;10 Sep 2014; 1;0 ;2014
+Gremio;Athletico-PR;bwin;1.50;3.70;6.00;10 Sep 2014; 1;0 ;2014
+Gremio;Athletico-PR;Marathonbet;1.47;4.30;8.90;10 Sep 2014; 1;0 ;2014
+Gremio;Athletico-PR;Pinnacle;1.50;4.35;7.75;10 Sep 2014; 1;0 ;2014
+Gremio;Athletico-PR;Unibet;1.45;4.00;7.00;10 Sep 2014; 1;0 ;2014
+Gremio;Athletico-PR;William Hill;1.50;3.75;6.50;10 Sep 2014; 1;0 ;2014
+Palmeiras;Criciuma;1xBet;1.80;3.60;5.50;10 Sep 2014; 1;0 ;2014
+Palmeiras;Criciuma;bet-at-home;1.80;3.30;4.45;10 Sep 2014; 1;0 ;2014
+Palmeiras;Criciuma;bet365;1.83;3.40;4.50;10 Sep 2014; 1;0 ;2014
+Palmeiras;Criciuma;bwin;1.70;3.30;4.75;10 Sep 2014; 1;0 ;2014
+Palmeiras;Criciuma;Marathonbet;1.78;3.65;5.30;10 Sep 2014; 1;0 ;2014
+Palmeiras;Criciuma;Pinnacle;1.88;3.53;4.79;10 Sep 2014; 1;0 ;2014
+Palmeiras;Criciuma;Unibet;1.72;3.45;4.75;10 Sep 2014; 1;0 ;2014
+Palmeiras;Criciuma;William Hill;1.73;3.40;4.50;10 Sep 2014; 1;0 ;2014
+Athletico-PR;Palmeiras;1xBet;2.00;3.70;4.00;07 Sep 2014; 1;1 ;2014
+Athletico-PR;Palmeiras;bet-at-home;2.05;3.25;3.45;07 Sep 2014; 1;1 ;2014
+Athletico-PR;Palmeiras;bet365;2.10;3.30;3.50;07 Sep 2014; 1;1 ;2014
+Athletico-PR;Palmeiras;bwin;2.05;3.20;3.30;07 Sep 2014; 1;1 ;2014
+Athletico-PR;Palmeiras;Marathonbet;2.08;3.60;3.75;07 Sep 2014; 1;1 ;2014
+Athletico-PR;Palmeiras;Pinnacle;2.12;3.52;3.70;07 Sep 2014; 1;1 ;2014
+Athletico-PR;Palmeiras;Unibet;2.00;3.30;3.60;07 Sep 2014; 1;1 ;2014
+Athletico-PR;Palmeiras;William Hill;2.05;3.25;3.40;07 Sep 2014; 1;1 ;2014
+Bahia;Coritiba;1xBet;2.48;3.16;3.35;07 Sep 2014; 0;0 ;2014
+Bahia;Coritiba;bet-at-home;2.40;2.85;3.05;07 Sep 2014; 0;0 ;2014
+Bahia;Coritiba;bet365;2.50;2.90;3.10;07 Sep 2014; 0;0 ;2014
+Bahia;Coritiba;bwin;2.20;3.00;3.25;07 Sep 2014; 0;0 ;2014
+Bahia;Coritiba;Marathonbet;2.46;3.20;3.25;07 Sep 2014; 0;0 ;2014
+Bahia;Coritiba;Pinnacle;2.48;3.08;3.37;07 Sep 2014; 0;0 ;2014
+Bahia;Coritiba;Unibet;2.35;3.10;3.05;07 Sep 2014; 0;0 ;2014
+Bahia;Coritiba;William Hill;2.38;2.80;3.20;07 Sep 2014; 0;0 ;2014
+Internacional;Figueirense;1xBet;1.55;3.95;8.60;07 Sep 2014; 2;3 ;2014
+Internacional;Figueirense;bet-at-home;1.45;3.90;6.50;07 Sep 2014; 2;3 ;2014
+Internacional;Figueirense;bet365;1.40;4.33;8.50;07 Sep 2014; 2;3 ;2014
+Internacional;Figueirense;bwin;1.45;4.00;6.25;07 Sep 2014; 2;3 ;2014
+Internacional;Figueirense;Marathonbet;1.46;4.40;8.80;07 Sep 2014; 2;3 ;2014
+Internacional;Figueirense;Pinnacle;1.44;4.45;9.34;07 Sep 2014; 2;3 ;2014
+Internacional;Figueirense;Unibet;1.42;4.30;7.00;07 Sep 2014; 2;3 ;2014
+Internacional;Figueirense;William Hill;1.44;3.80;7.50;07 Sep 2014; 2;3 ;2014
+Atletico-MG;Botafogo RJ;1xBet;1.65;4.00;6.30;07 Sep 2014; 1;0 ;2014
+Atletico-MG;Botafogo RJ;bet-at-home;1.60;3.65;5.40;07 Sep 2014; 1;0 ;2014
+Atletico-MG;Botafogo RJ;bet365;1.57;3.75;6.00;07 Sep 2014; 1;0 ;2014
+Atletico-MG;Botafogo RJ;bwin;1.60;3.60;5.00;07 Sep 2014; 1;0 ;2014
+Atletico-MG;Botafogo RJ;Marathonbet;1.63;4.00;6.20;07 Sep 2014; 1;0 ;2014
+Atletico-MG;Botafogo RJ;Pinnacle;1.64;4.05;5.94;07 Sep 2014; 1;0 ;2014
+Atletico-MG;Botafogo RJ;Unibet;1.55;3.70;6.00;07 Sep 2014; 1;0 ;2014
+Atletico-MG;Botafogo RJ;William Hill;1.55;3.75;5.50;07 Sep 2014; 1;0 ;2014
+Criciuma;Corinthians;1xBet;3.70;3.40;2.20;07 Sep 2014; 0;0 ;2014
+Criciuma;Corinthians;bet-at-home;3.35;3.00;2.20;07 Sep 2014; 0;0 ;2014
+Criciuma;Corinthians;bet365;3.50;3.10;2.20;07 Sep 2014; 0;0 ;2014
+Criciuma;Corinthians;bwin;3.10;3.10;2.20;07 Sep 2014; 0;0 ;2014
+Criciuma;Corinthians;Marathonbet;3.65;3.35;2.20;07 Sep 2014; 0;0 ;2014
+Criciuma;Corinthians;Pinnacle;3.65;3.21;2.28;07 Sep 2014; 0;0 ;2014
+Criciuma;Corinthians;Unibet;3.30;3.15;2.15;07 Sep 2014; 0;0 ;2014
+Criciuma;Corinthians;William Hill;3.30;3.00;2.20;07 Sep 2014; 0;0 ;2014
+Fluminense;Cruzeiro;1xBet;2.66;3.50;2.82;07 Sep 2014; 3;3 ;2014
+Fluminense;Cruzeiro;bet-at-home;2.45;3.20;2.70;07 Sep 2014; 3;3 ;2014
+Fluminense;Cruzeiro;bet365;2.50;3.30;2.75;07 Sep 2014; 3;3 ;2014
+Fluminense;Cruzeiro;bwin;2.40;3.20;2.70;07 Sep 2014; 3;3 ;2014
+Fluminense;Cruzeiro;Marathonbet;2.55;3.40;2.95;07 Sep 2014; 3;3 ;2014
+Fluminense;Cruzeiro;Pinnacle;2.72;3.34;2.79;07 Sep 2014; 3;3 ;2014
+Fluminense;Cruzeiro;Unibet;2.30;3.30;2.90;07 Sep 2014; 3;3 ;2014
+Fluminense;Cruzeiro;William Hill;2.45;3.10;2.80;07 Sep 2014; 3;3 ;2014
+Sao Paulo;Sport Recife;1xBet;1.44;4.75;8.70;07 Sep 2014; 2;0 ;2014
+Sao Paulo;Sport Recife;bet-at-home;1.40;4.30;6.70;07 Sep 2014; 2;0 ;2014
+Sao Paulo;Sport Recife;bet365;1.40;4.50;8.00;07 Sep 2014; 2;0 ;2014
+Sao Paulo;Sport Recife;bwin;1.40;4.10;7.25;07 Sep 2014; 2;0 ;2014
+Sao Paulo;Sport Recife;Marathonbet;1.43;4.70;8.80;07 Sep 2014; 2;0 ;2014
+Sao Paulo;Sport Recife;Pinnacle;1.47;4.54;7.91;07 Sep 2014; 2;0 ;2014
+Sao Paulo;Sport Recife;Unibet;1.38;4.50;7.25;07 Sep 2014; 2;0 ;2014
+Sao Paulo;Sport Recife;William Hill;1.40;4.20;7.50;07 Sep 2014; 2;0 ;2014
+Chapecoense-SC;Goias;1xBet;2.26;3.20;3.80;07 Sep 2014; 0;0 ;2014
+Chapecoense-SC;Goias;bet-at-home;2.15;3.00;3.40;07 Sep 2014; 0;0 ;2014
+Chapecoense-SC;Goias;bet365;2.15;3.10;3.60;07 Sep 2014; 0;0 ;2014
+Chapecoense-SC;Goias;bwin;2.05;3.00;3.60;07 Sep 2014; 0;0 ;2014
+Chapecoense-SC;Goias;Marathonbet;2.20;3.20;3.85;07 Sep 2014; 0;0 ;2014
+Chapecoense-SC;Goias;Pinnacle;2.27;3.13;3.78;07 Sep 2014; 0;0 ;2014
+Chapecoense-SC;Goias;Unibet;2.05;3.20;3.50;07 Sep 2014; 0;0 ;2014
+Chapecoense-SC;Goias;William Hill;2.15;3.10;3.30;07 Sep 2014; 0;0 ;2014
+Flamengo RJ;Gremio;1xBet;2.68;3.00;3.20;06 Sep 2014; 0;1 ;2014
+Flamengo RJ;Gremio;bet-at-home;2.30;2.90;3.20;06 Sep 2014; 0;1 ;2014
+Flamengo RJ;Gremio;bet365;2.40;3.10;3.10;06 Sep 2014; 0;1 ;2014
+Flamengo RJ;Gremio;bwin;2.40;3.00;2.85;06 Sep 2014; 0;1 ;2014
+Flamengo RJ;Gremio;Marathonbet;2.55;3.20;3.13;06 Sep 2014; 0;1 ;2014
+Flamengo RJ;Gremio;Pinnacle;2.35;3.14;3.55;06 Sep 2014; 0;1 ;2014
+Flamengo RJ;Gremio;Unibet;2.35;2.95;3.10;06 Sep 2014; 0;1 ;2014
+Flamengo RJ;Gremio;William Hill;2.60;2.80;2.88;06 Sep 2014; 0;1 ;2014
+Santos;Vitoria;1xBet;1.59;3.90;7.60;06 Sep 2014; 3;1 ;2014
+Santos;Vitoria;bet-at-home;1.50;3.70;6.40;06 Sep 2014; 3;1 ;2014
+Santos;Vitoria;bet365;1.50;3.75;7.50;06 Sep 2014; 3;1 ;2014
+Santos;Vitoria;bwin;1.50;3.90;5.50;06 Sep 2014; 3;1 ;2014
+Santos;Vitoria;Marathonbet;1.53;4.25;7.30;06 Sep 2014; 3;1 ;2014
+Santos;Vitoria;Pinnacle;1.51;4.32;7.64;06 Sep 2014; 3;1 ;2014
+Santos;Vitoria;Unibet;1.50;3.90;6.10;06 Sep 2014; 3;1 ;2014
+Santos;Vitoria;William Hill;1.50;3.75;6.50;06 Sep 2014; 3;1 ;2014
+Goias;Athletico-PR;bet-at-home;2.15;3.15;3.20;31 Aug 2014; 3;1 ;2014
+Goias;Athletico-PR;bet365;2.15;3.20;3.50;31 Aug 2014; 3;1 ;2014
+Goias;Athletico-PR;bwin;2.00;3.25;3.40;31 Aug 2014; 3;1 ;2014
+Goias;Athletico-PR;Marathonbet;2.22;3.35;3.60;31 Aug 2014; 3;1 ;2014
+Goias;Athletico-PR;Pinnacle;2.24;3.27;3.66;31 Aug 2014; 3;1 ;2014
+Goias;Athletico-PR;Unibet;2.05;3.20;3.20;31 Aug 2014; 3;1 ;2014
+Goias;Athletico-PR;William Hill;2.00;3.10;3.75;31 Aug 2014; 3;1 ;2014
+Gremio;Bahia;bet-at-home;1.55;3.50;6.00;31 Aug 2014; 1;0 ;2014
+Gremio;Bahia;bet365;1.62;3.40;6.50;31 Aug 2014; 1;0 ;2014
+Gremio;Bahia;bwin;1.50;3.60;6.25;31 Aug 2014; 1;0 ;2014
+Gremio;Bahia;Marathonbet;1.61;3.75;7.30;31 Aug 2014; 1;0 ;2014
+Gremio;Bahia;Pinnacle;1.55;3.96;7.74;31 Aug 2014; 1;0 ;2014
+Gremio;Bahia;Unibet;1.55;3.80;5.75;31 Aug 2014; 1;0 ;2014
+Gremio;Bahia;William Hill;1.57;3.60;5.50;31 Aug 2014; 1;0 ;2014
+Vitoria;Flamengo RJ;bet-at-home;2.35;3.05;2.95;31 Aug 2014; 1;2 ;2014
+Vitoria;Flamengo RJ;bet365;2.30;3.20;3.20;31 Aug 2014; 1;2 ;2014
+Vitoria;Flamengo RJ;bwin;2.30;3.10;2.95;31 Aug 2014; 1;2 ;2014
+Vitoria;Flamengo RJ;Marathonbet;2.54;3.13;3.20;31 Aug 2014; 1;2 ;2014
+Vitoria;Flamengo RJ;Pinnacle;2.39;3.28;3.32;31 Aug 2014; 1;2 ;2014
+Vitoria;Flamengo RJ;Unibet;2.25;3.20;3.00;31 Aug 2014; 1;2 ;2014
+Vitoria;Flamengo RJ;William Hill;2.30;3.00;3.10;31 Aug 2014; 1;2 ;2014
+Botafogo RJ;Santos;bet-at-home;2.50;3.00;2.80;31 Aug 2014; 1;0 ;2014
+Botafogo RJ;Santos;bet365;2.60;3.00;2.88;31 Aug 2014; 1;0 ;2014
+Botafogo RJ;Santos;bwin;2.40;2.80;3.10;31 Aug 2014; 1;0 ;2014
+Botafogo RJ;Santos;Marathonbet;2.62;3.25;2.98;31 Aug 2014; 1;0 ;2014
+Botafogo RJ;Santos;Pinnacle;2.60;3.26;3.00;31 Aug 2014; 1;0 ;2014
+Botafogo RJ;Santos;Unibet;2.25;3.20;3.00;31 Aug 2014; 1;0 ;2014
+Botafogo RJ;Santos;William Hill;2.50;3.00;2.80;31 Aug 2014; 1;0 ;2014
+Corinthians;Fluminense;bet-at-home;1.75;3.35;4.40;31 Aug 2014; 1;1 ;2014
+Corinthians;Fluminense;bet365;1.73;3.50;5.00;31 Aug 2014; 1;1 ;2014
+Corinthians;Fluminense;bwin;1.85;3.25;3.90;31 Aug 2014; 1;1 ;2014
+Corinthians;Fluminense;Marathonbet;1.80;3.55;5.30;31 Aug 2014; 1;1 ;2014
+Corinthians;Fluminense;Pinnacle;1.73;3.66;5.75;31 Aug 2014; 1;1 ;2014
+Corinthians;Fluminense;Unibet;1.85;3.25;4.25;31 Aug 2014; 1;1 ;2014
+Corinthians;Fluminense;William Hill;1.75;3.25;4.75;31 Aug 2014; 1;1 ;2014
+Coritiba;Atletico-MG;bet-at-home;2.40;3.05;2.90;31 Aug 2014; 0;0 ;2014
+Coritiba;Atletico-MG;bet365;2.38;3.10;3.10;31 Aug 2014; 0;0 ;2014
+Coritiba;Atletico-MG;bwin;2.40;3.30;2.60;31 Aug 2014; 0;0 ;2014
+Coritiba;Atletico-MG;Marathonbet;2.50;3.20;3.20;31 Aug 2014; 0;0 ;2014
+Coritiba;Atletico-MG;Pinnacle;2.44;3.50;3.04;31 Aug 2014; 0;0 ;2014
+Coritiba;Atletico-MG;Unibet;2.40;3.15;2.80;31 Aug 2014; 0;0 ;2014
+Coritiba;Atletico-MG;William Hill;2.45;3.00;2.88;31 Aug 2014; 0;0 ;2014
+Figueirense;Sao Paulo;bet-at-home;2.75;3.15;2.45;31 Aug 2014; 1;1 ;2014
+Figueirense;Sao Paulo;bet365;2.88;3.30;2.40;31 Aug 2014; 1;1 ;2014
+Figueirense;Sao Paulo;bwin;2.75;3.25;2.35;31 Aug 2014; 1;1 ;2014
+Figueirense;Sao Paulo;Marathonbet;2.86;3.35;2.65;31 Aug 2014; 1;1 ;2014
+Figueirense;Sao Paulo;Pinnacle;2.99;3.26;2.61;31 Aug 2014; 1;1 ;2014
+Figueirense;Sao Paulo;Unibet;2.85;3.25;2.35;31 Aug 2014; 1;1 ;2014
+Figueirense;Sao Paulo;William Hill;2.75;3.10;2.45;31 Aug 2014; 1;1 ;2014
+Sport Recife;Criciuma;bet-at-home;1.75;3.35;4.50;31 Aug 2014; 2;0 ;2014
+Sport Recife;Criciuma;bet365;1.80;3.30;4.75;31 Aug 2014; 2;0 ;2014
+Sport Recife;Criciuma;bwin;1.75;3.30;4.40;31 Aug 2014; 2;0 ;2014
+Sport Recife;Criciuma;Marathonbet;1.79;3.60;5.30;31 Aug 2014; 2;0 ;2014
+Sport Recife;Criciuma;Pinnacle;1.78;3.70;5.16;31 Aug 2014; 2;0 ;2014
+Sport Recife;Criciuma;Unibet;1.80;3.40;4.20;31 Aug 2014; 2;0 ;2014
+Sport Recife;Criciuma;William Hill;1.80;3.30;4.20;31 Aug 2014; 2;0 ;2014
+Cruzeiro;Chapecoense-SC;bet-at-home;1.30;4.95;9.20;30 Aug 2014; 4;2 ;2014
+Cruzeiro;Chapecoense-SC;bet365;1.30;5.00;10.00;30 Aug 2014; 4;2 ;2014
+Cruzeiro;Chapecoense-SC;bwin;1.25;5.00;10.50;30 Aug 2014; 4;2 ;2014
+Cruzeiro;Chapecoense-SC;Marathonbet;1.32;5.30;13.00;30 Aug 2014; 4;2 ;2014
+Cruzeiro;Chapecoense-SC;Pinnacle;1.33;5.50;10.90;30 Aug 2014; 4;2 ;2014
+Cruzeiro;Chapecoense-SC;Unibet;1.25;5.50;10.00;30 Aug 2014; 4;2 ;2014
+Cruzeiro;Chapecoense-SC;William Hill;1.29;4.75;10.00;30 Aug 2014; 4;2 ;2014
+Palmeiras;Internacional;bet-at-home;2.80;2.95;2.55;30 Aug 2014; 0;1 ;2014
+Palmeiras;Internacional;bet365;2.80;3.10;2.60;30 Aug 2014; 0;1 ;2014
+Palmeiras;Internacional;bwin;2.55;3.10;2.60;30 Aug 2014; 0;1 ;2014
+Palmeiras;Internacional;Marathonbet;2.92;3.13;2.75;30 Aug 2014; 0;1 ;2014
+Palmeiras;Internacional;Pinnacle;3.04;3.08;2.69;30 Aug 2014; 0;1 ;2014
+Palmeiras;Internacional;Unibet;2.65;3.00;2.70;30 Aug 2014; 0;1 ;2014
+Palmeiras;Internacional;William Hill;2.50;3.00;2.80;30 Aug 2014; 0;1 ;2014
+Athletico-PR;Bahia;bet-at-home;1.80;3.30;4.30;24 Aug 2014; 0;0 ;2014
+Athletico-PR;Bahia;bet365;1.85;3.40;4.33;24 Aug 2014; 0;0 ;2014
+Athletico-PR;Bahia;bwin;1.90;3.10;4.00;24 Aug 2014; 0;0 ;2014
+Athletico-PR;Bahia;Marathonbet;1.92;3.50;4.55;24 Aug 2014; 0;0 ;2014
+Athletico-PR;Bahia;Pinnacle;1.89;3.56;4.61;24 Aug 2014; 0;0 ;2014
+Athletico-PR;Bahia;Unibet;1.85;3.40;4.00;24 Aug 2014; 0;0 ;2014
+Athletico-PR;Bahia;William Hill;1.83;3.25;4.33;24 Aug 2014; 0;0 ;2014
+Goias;Cruzeiro;bet-at-home;3.55;3.25;2.00;24 Aug 2014; 0;1 ;2014
+Goias;Cruzeiro;bet365;3.60;3.30;2.05;24 Aug 2014; 0;1 ;2014
+Goias;Cruzeiro;bwin;4.10;3.10;1.87;24 Aug 2014; 0;1 ;2014
+Goias;Cruzeiro;Marathonbet;4.65;3.45;1.92;24 Aug 2014; 0;1 ;2014
+Goias;Cruzeiro;Pinnacle;4.06;3.38;2.07;24 Aug 2014; 0;1 ;2014
+Goias;Cruzeiro;Unibet;3.85;3.35;1.92;24 Aug 2014; 0;1 ;2014
+Goias;Cruzeiro;William Hill;4.20;3.20;1.85;24 Aug 2014; 0;1 ;2014
+Criciuma;Flamengo RJ;bet-at-home;2.20;3.00;3.35;24 Aug 2014; 0;2 ;2014
+Criciuma;Flamengo RJ;bet365;2.20;3.00;3.60;24 Aug 2014; 0;2 ;2014
+Criciuma;Flamengo RJ;bwin;2.30;2.95;3.10;24 Aug 2014; 0;2 ;2014
+Criciuma;Flamengo RJ;Marathonbet;2.26;3.15;3.75;24 Aug 2014; 0;2 ;2014
+Criciuma;Flamengo RJ;Pinnacle;2.19;3.27;3.80;24 Aug 2014; 0;2 ;2014
+Criciuma;Flamengo RJ;Unibet;2.25;3.00;3.25;24 Aug 2014; 0;2 ;2014
+Criciuma;Flamengo RJ;William Hill;2.15;3.00;3.40;24 Aug 2014; 0;2 ;2014
+Fluminense;Sport Recife;bet-at-home;1.50;3.80;6.20;24 Aug 2014; 4;0 ;2014
+Fluminense;Sport Recife;bet365;1.53;4.00;6.00;24 Aug 2014; 4;0 ;2014
+Fluminense;Sport Recife;bwin;1.44;3.90;6.75;24 Aug 2014; 4;0 ;2014
+Fluminense;Sport Recife;Marathonbet;1.58;4.00;7.00;24 Aug 2014; 4;0 ;2014
+Fluminense;Sport Recife;Pinnacle;1.53;4.32;7.17;24 Aug 2014; 4;0 ;2014
+Fluminense;Sport Recife;Unibet;1.55;3.60;6.00;24 Aug 2014; 4;0 ;2014
+Fluminense;Sport Recife;William Hill;1.53;3.75;6.00;24 Aug 2014; 4;0 ;2014
+Gremio;Corinthians;bet-at-home;2.15;2.90;3.55;24 Aug 2014; 2;1 ;2014
+Gremio;Corinthians;bet365;2.20;3.10;3.50;24 Aug 2014; 2;1 ;2014
+Gremio;Corinthians;bwin;2.20;2.85;3.40;24 Aug 2014; 2;1 ;2014
+Gremio;Corinthians;Marathonbet;2.32;3.25;3.50;24 Aug 2014; 2;1 ;2014
+Gremio;Corinthians;Pinnacle;2.28;3.16;3.69;24 Aug 2014; 2;1 ;2014
+Gremio;Corinthians;Unibet;2.25;3.15;3.10;24 Aug 2014; 2;1 ;2014
+Gremio;Corinthians;William Hill;2.20;2.88;3.50;24 Aug 2014; 2;1 ;2014
+Sao Paulo;Santos;bet-at-home;1.80;3.30;4.20;24 Aug 2014; 2;1 ;2014
+Sao Paulo;Santos;bet365;1.80;3.50;4.50;24 Aug 2014; 2;1 ;2014
+Sao Paulo;Santos;bwin;1.91;3.10;3.90;24 Aug 2014; 2;1 ;2014
+Sao Paulo;Santos;Marathonbet;1.90;3.65;4.45;24 Aug 2014; 2;1 ;2014
+Sao Paulo;Santos;Pinnacle;1.91;3.39;4.85;24 Aug 2014; 2;1 ;2014
+Sao Paulo;Santos;Unibet;1.90;3.30;3.85;24 Aug 2014; 2;1 ;2014
+Sao Paulo;Santos;William Hill;1.83;3.40;4.00;24 Aug 2014; 2;1 ;2014
+Vitoria;Figueirense;bet-at-home;1.85;3.35;3.90;24 Aug 2014; 0;1 ;2014
+Vitoria;Figueirense;bet365;1.85;3.40;4.33;24 Aug 2014; 0;1 ;2014
+Vitoria;Figueirense;bwin;1.80;3.40;4.00;24 Aug 2014; 0;1 ;2014
+Vitoria;Figueirense;Marathonbet;1.92;3.60;4.40;24 Aug 2014; 0;1 ;2014
+Vitoria;Figueirense;Pinnacle;1.93;3.73;4.20;24 Aug 2014; 0;1 ;2014
+Vitoria;Figueirense;Unibet;1.85;3.40;4.00;24 Aug 2014; 0;1 ;2014
+Vitoria;Figueirense;William Hill;1.83;3.25;4.33;24 Aug 2014; 0;1 ;2014
+Palmeiras;Coritiba;bet-at-home;1.95;3.25;3.70;24 Aug 2014; 1;0 ;2014
+Palmeiras;Coritiba;bet365;2.00;3.20;4.00;24 Aug 2014; 1;0 ;2014
+Palmeiras;Coritiba;bwin;1.90;3.20;3.90;24 Aug 2014; 1;0 ;2014
+Palmeiras;Coritiba;Marathonbet;2.00;3.40;4.33;24 Aug 2014; 1;0 ;2014
+Palmeiras;Coritiba;Pinnacle;2.03;3.41;4.18;24 Aug 2014; 1;0 ;2014
+Palmeiras;Coritiba;Unibet;2.00;3.20;3.60;24 Aug 2014; 1;0 ;2014
+Palmeiras;Coritiba;William Hill;2.00;3.25;3.50;24 Aug 2014; 1;0 ;2014
+Atletico-MG;Internacional;bet-at-home;2.05;3.20;3.45;23 Aug 2014; 1;0 ;2014
+Atletico-MG;Internacional;bet365;2.05;3.30;3.60;23 Aug 2014; 1;0 ;2014
+Atletico-MG;Internacional;bwin;2.15;3.20;3.10;23 Aug 2014; 1;0 ;2014
+Atletico-MG;Internacional;Marathonbet;2.15;3.35;3.80;23 Aug 2014; 1;0 ;2014
+Atletico-MG;Internacional;Pinnacle;2.14;3.32;3.90;23 Aug 2014; 1;0 ;2014
+Atletico-MG;Internacional;Unibet;2.15;3.25;3.20;23 Aug 2014; 1;0 ;2014
+Atletico-MG;Internacional;William Hill;2.15;3.20;3.20;23 Aug 2014; 1;0 ;2014
+Botafogo RJ;Chapecoense-SC;bet-at-home;1.75;3.25;4.65;23 Aug 2014; 1;0 ;2014
+Botafogo RJ;Chapecoense-SC;bet365;1.83;3.40;4.50;23 Aug 2014; 1;0 ;2014
+Botafogo RJ;Chapecoense-SC;bwin;1.78;3.20;4.50;23 Aug 2014; 1;0 ;2014
+Botafogo RJ;Chapecoense-SC;Marathonbet;1.87;3.50;4.85;23 Aug 2014; 1;0 ;2014
+Botafogo RJ;Chapecoense-SC;Pinnacle;1.82;3.56;5.11;23 Aug 2014; 1;0 ;2014
+Botafogo RJ;Chapecoense-SC;Unibet;1.80;3.40;4.20;23 Aug 2014; 1;0 ;2014
+Botafogo RJ;Chapecoense-SC;William Hill;1.83;3.25;4.33;23 Aug 2014; 1;0 ;2014
+Cruzeiro;Gremio;bet-at-home;1.65;3.50;5.00;21 Aug 2014; 1;0 ;2014
+Cruzeiro;Gremio;bet365;1.67;3.60;5.50;21 Aug 2014; 1;0 ;2014
+Cruzeiro;Gremio;bwin;1.50;3.80;5.75;21 Aug 2014; 1;0 ;2014
+Cruzeiro;Gremio;Marathonbet;1.66;3.75;6.40;21 Aug 2014; 1;0 ;2014
+Cruzeiro;Gremio;Pinnacle;1.72;3.72;5.65;21 Aug 2014; 1;0 ;2014
+Cruzeiro;Gremio;Unibet;1.60;3.70;5.40;21 Aug 2014; 1;0 ;2014
+Cruzeiro;Gremio;William Hill;1.65;3.50;5.00;21 Aug 2014; 1;0 ;2014
+Corinthians;Goias;bet-at-home;1.50;3.60;6.60;21 Aug 2014; 5;2 ;2014
+Corinthians;Goias;bet365;1.53;3.60;7.50;21 Aug 2014; 5;2 ;2014
+Corinthians;Goias;bwin;1.45;3.75;7.00;21 Aug 2014; 5;2 ;2014
+Corinthians;Goias;Marathonbet;1.50;4.30;7.90;21 Aug 2014; 5;2 ;2014
+Corinthians;Goias;Pinnacle;1.56;3.97;7.65;21 Aug 2014; 5;2 ;2014
+Corinthians;Goias;Unibet;1.50;3.75;6.50;21 Aug 2014; 5;2 ;2014
+Corinthians;Goias;William Hill;1.50;3.50;7.50;21 Aug 2014; 5;2 ;2014
+Chapecoense-SC;Fluminense;bet-at-home;2.75;3.00;2.55;21 Aug 2014; 1;0 ;2014
+Chapecoense-SC;Fluminense;bet365;2.90;3.10;2.50;21 Aug 2014; 1;0 ;2014
+Chapecoense-SC;Fluminense;bwin;2.75;3.10;2.40;21 Aug 2014; 1;0 ;2014
+Chapecoense-SC;Fluminense;Marathonbet;3.10;3.30;2.50;21 Aug 2014; 1;0 ;2014
+Chapecoense-SC;Fluminense;Pinnacle;3.01;3.20;2.63;21 Aug 2014; 1;0 ;2014
+Chapecoense-SC;Fluminense;Unibet;3.00;3.10;2.35;21 Aug 2014; 1;0 ;2014
+Chapecoense-SC;Fluminense;William Hill;2.80;3.00;2.50;21 Aug 2014; 1;0 ;2014
+Flamengo RJ;Atletico-MG;bet-at-home;2.60;3.15;2.55;21 Aug 2014; 2;1 ;2014
+Flamengo RJ;Atletico-MG;bet365;2.63;3.30;2.60;21 Aug 2014; 2;1 ;2014
+Flamengo RJ;Atletico-MG;bwin;2.55;3.10;2.60;21 Aug 2014; 2;1 ;2014
+Flamengo RJ;Atletico-MG;Marathonbet;2.78;3.15;2.88;21 Aug 2014; 2;1 ;2014
+Flamengo RJ;Atletico-MG;Pinnacle;2.80;3.17;2.84;21 Aug 2014; 2;1 ;2014
+Flamengo RJ;Atletico-MG;Unibet;2.55;3.20;2.60;21 Aug 2014; 2;1 ;2014
+Flamengo RJ;Atletico-MG;William Hill;2.62;3.10;2.60;21 Aug 2014; 2;1 ;2014
+Internacional;Sao Paulo;bet-at-home;1.85;3.30;4.05;21 Aug 2014; 0;1 ;2014
+Internacional;Sao Paulo;bet365;1.91;3.40;4.00;21 Aug 2014; 0;1 ;2014
+Internacional;Sao Paulo;bwin;1.85;3.20;4.00;21 Aug 2014; 0;1 ;2014
+Internacional;Sao Paulo;Marathonbet;1.87;3.55;4.80;21 Aug 2014; 0;1 ;2014
+Internacional;Sao Paulo;Pinnacle;1.94;3.48;4.49;21 Aug 2014; 0;1 ;2014
+Internacional;Sao Paulo;Unibet;1.85;3.40;4.00;21 Aug 2014; 0;1 ;2014
+Internacional;Sao Paulo;William Hill;1.80;3.30;4.33;21 Aug 2014; 0;1 ;2014
+Bahia;Criciuma;bet-at-home;1.75;3.25;4.60;21 Aug 2014; 0;0 ;2014
+Bahia;Criciuma;bet365;1.85;3.30;4.50;21 Aug 2014; 0;0 ;2014
+Bahia;Criciuma;bwin;1.65;3.40;5.00;21 Aug 2014; 0;0 ;2014
+Bahia;Criciuma;Marathonbet;1.77;3.60;5.50;21 Aug 2014; 0;0 ;2014
+Bahia;Criciuma;Pinnacle;1.94;3.40;4.63;21 Aug 2014; 0;0 ;2014
+Bahia;Criciuma;Unibet;1.70;3.50;4.75;21 Aug 2014; 0;0 ;2014
+Bahia;Criciuma;William Hill;1.85;3.10;4.40;21 Aug 2014; 0;0 ;2014
+Coritiba;Vitoria;bet-at-home;1.75;3.40;4.40;21 Aug 2014; 2;0 ;2014
+Coritiba;Vitoria;bet365;1.75;3.50;4.75;21 Aug 2014; 2;0 ;2014
+Coritiba;Vitoria;bwin;1.75;3.40;4.20;21 Aug 2014; 2;0 ;2014
+Coritiba;Vitoria;Marathonbet;1.87;3.70;4.55;21 Aug 2014; 2;0 ;2014
+Coritiba;Vitoria;Pinnacle;1.85;3.65;4.76;21 Aug 2014; 2;0 ;2014
+Coritiba;Vitoria;Unibet;1.70;3.50;4.75;21 Aug 2014; 2;0 ;2014
+Coritiba;Vitoria;William Hill;1.80;3.20;4.50;21 Aug 2014; 2;0 ;2014
+Figueirense;Botafogo RJ;bet-at-home;2.35;3.15;2.90;20 Aug 2014; 1;0 ;2014
+Figueirense;Botafogo RJ;bet365;2.30;3.30;3.10;20 Aug 2014; 1;0 ;2014
+Figueirense;Botafogo RJ;bwin;2.40;3.20;2.70;20 Aug 2014; 1;0 ;2014
+Figueirense;Botafogo RJ;Marathonbet;2.54;3.35;3.00;20 Aug 2014; 1;0 ;2014
+Figueirense;Botafogo RJ;Pinnacle;2.40;3.39;3.20;20 Aug 2014; 1;0 ;2014
+Figueirense;Botafogo RJ;Unibet;2.40;3.20;2.80;20 Aug 2014; 1;0 ;2014
+Figueirense;Botafogo RJ;William Hill;2.45;3.00;2.88;20 Aug 2014; 1;0 ;2014
+Santos;Athletico-PR;bet-at-home;1.65;3.45;5.20;20 Aug 2014; 2;0 ;2014
+Santos;Athletico-PR;bet365;1.67;3.60;5.25;20 Aug 2014; 2;0 ;2014
+Santos;Athletico-PR;bwin;1.70;3.50;4.33;20 Aug 2014; 2;0 ;2014
+Santos;Athletico-PR;Marathonbet;1.69;3.65;6.30;20 Aug 2014; 2;0 ;2014
+Santos;Athletico-PR;Pinnacle;1.70;3.72;5.94;20 Aug 2014; 2;0 ;2014
+Santos;Athletico-PR;Unibet;1.72;3.40;4.75;20 Aug 2014; 2;0 ;2014
+Santos;Athletico-PR;William Hill;1.65;3.50;5.00;20 Aug 2014; 2;0 ;2014
+Sport Recife;Palmeiras;bet-at-home;2.20;3.15;3.15;20 Aug 2014; 2;1 ;2014
+Sport Recife;Palmeiras;bet365;2.25;3.25;3.20;20 Aug 2014; 2;1 ;2014
+Sport Recife;Palmeiras;bwin;2.15;3.20;3.10;20 Aug 2014; 2;1 ;2014
+Sport Recife;Palmeiras;Marathonbet;2.18;3.60;3.45;20 Aug 2014; 2;1 ;2014
+Sport Recife;Palmeiras;Pinnacle;2.28;3.41;3.41;20 Aug 2014; 2;1 ;2014
+Sport Recife;Palmeiras;Unibet;2.30;3.20;2.95;20 Aug 2014; 2;1 ;2014
+Sport Recife;Palmeiras;William Hill;2.30;3.00;3.10;20 Aug 2014; 2;1 ;2014
+Botafogo RJ;Fluminense;bet-at-home;3.75;3.25;1.95;17 Aug 2014; 2;0 ;2014
+Botafogo RJ;Fluminense;bet365;3.80;3.30;2.00;17 Aug 2014; 2;0 ;2014
+Botafogo RJ;Fluminense;bwin;3.50;3.30;1.95;17 Aug 2014; 2;0 ;2014
+Botafogo RJ;Fluminense;Marathonbet;4.10;3.50;2.02;17 Aug 2014; 2;0 ;2014
+Botafogo RJ;Fluminense;Pinnacle;4.01;3.53;2.03;17 Aug 2014; 2;0 ;2014
+Botafogo RJ;Fluminense;Unibet;3.70;3.30;1.95;17 Aug 2014; 2;0 ;2014
+Botafogo RJ;Fluminense;William Hill;3.60;3.20;2.00;17 Aug 2014; 2;0 ;2014
+Figueirense;Atletico-MG;bet-at-home;3.15;3.10;2.20;17 Aug 2014; 2;2 ;2014
+Figueirense;Atletico-MG;bet365;3.25;3.25;2.25;17 Aug 2014; 2;2 ;2014
+Figueirense;Atletico-MG;bwin;3.00;3.20;2.20;17 Aug 2014; 2;2 ;2014
+Figueirense;Atletico-MG;Marathonbet;3.50;3.30;2.28;17 Aug 2014; 2;2 ;2014
+Figueirense;Atletico-MG;Pinnacle;3.29;3.45;2.32;17 Aug 2014; 2;2 ;2014
+Figueirense;Atletico-MG;Unibet;3.10;3.20;2.20;17 Aug 2014; 2;2 ;2014
+Figueirense;Atletico-MG;William Hill;3.20;3.00;2.25;17 Aug 2014; 2;2 ;2014
+Sport Recife;Athletico-PR;bet-at-home;2.25;3.10;3.10;17 Aug 2014; 1;1 ;2014
+Sport Recife;Athletico-PR;bet365;2.30;3.10;3.25;17 Aug 2014; 1;1 ;2014
+Sport Recife;Athletico-PR;bwin;2.25;3.10;3.00;17 Aug 2014; 1;1 ;2014
+Sport Recife;Athletico-PR;Marathonbet;2.34;3.25;3.45;17 Aug 2014; 1;1 ;2014
+Sport Recife;Athletico-PR;Pinnacle;2.36;3.35;3.30;17 Aug 2014; 1;1 ;2014
+Sport Recife;Athletico-PR;Unibet;2.25;3.20;3.05;17 Aug 2014; 1;1 ;2014
+Sport Recife;Athletico-PR;William Hill;2.25;3.00;3.20;17 Aug 2014; 1;1 ;2014
+Coritiba;Flamengo RJ;bet-at-home;1.85;3.25;4.20;17 Aug 2014; 0;1 ;2014
+Coritiba;Flamengo RJ;bet365;1.85;3.25;4.60;17 Aug 2014; 0;1 ;2014
+Coritiba;Flamengo RJ;bwin;1.87;3.20;4.00;17 Aug 2014; 0;1 ;2014
+Coritiba;Flamengo RJ;Marathonbet;1.95;3.25;4.85;17 Aug 2014; 0;1 ;2014
+Coritiba;Flamengo RJ;Pinnacle;1.88;3.42;5.02;17 Aug 2014; 0;1 ;2014
+Coritiba;Flamengo RJ;Unibet;1.85;3.30;4.25;17 Aug 2014; 0;1 ;2014
+Coritiba;Flamengo RJ;William Hill;1.95;3.10;4.00;17 Aug 2014; 0;1 ;2014
+Cruzeiro;Santos;bet-at-home;1.45;3.80;6.70;17 Aug 2014; 3;0 ;2014
+Cruzeiro;Santos;bet365;1.50;3.80;7.50;17 Aug 2014; 3;0 ;2014
+Cruzeiro;Santos;bwin;1.50;3.70;6.00;17 Aug 2014; 3;0 ;2014
+Cruzeiro;Santos;Marathonbet;1.53;4.25;7.20;17 Aug 2014; 3;0 ;2014
+Cruzeiro;Santos;Pinnacle;1.52;4.36;7.31;17 Aug 2014; 3;0 ;2014
+Cruzeiro;Santos;Unibet;1.50;3.80;6.50;17 Aug 2014; 3;0 ;2014
+Cruzeiro;Santos;William Hill;1.44;4.00;6.50;17 Aug 2014; 3;0 ;2014
+Palmeiras;Sao Paulo;bet-at-home;2.50;3.10;2.70;17 Aug 2014; 1;2 ;2014
+Palmeiras;Sao Paulo;bet365;2.63;3.20;2.70;17 Aug 2014; 1;2 ;2014
+Palmeiras;Sao Paulo;bwin;2.65;3.10;2.50;17 Aug 2014; 1;2 ;2014
+Palmeiras;Sao Paulo;Marathonbet;2.72;3.40;2.75;17 Aug 2014; 1;2 ;2014
+Palmeiras;Sao Paulo;Pinnacle;2.54;3.35;2.99;17 Aug 2014; 1;2 ;2014
+Palmeiras;Sao Paulo;Unibet;2.60;3.10;2.60;17 Aug 2014; 1;2 ;2014
+Palmeiras;Sao Paulo;William Hill;2.60;3.00;2.70;17 Aug 2014; 1;2 ;2014
+Vitoria;Chapecoense-SC;bet-at-home;1.75;3.30;4.60;17 Aug 2014; 0;0 ;2014
+Vitoria;Chapecoense-SC;bet365;1.75;3.40;5.00;17 Aug 2014; 0;0 ;2014
+Vitoria;Chapecoense-SC;bwin;1.80;3.25;4.20;17 Aug 2014; 0;0 ;2014
+Vitoria;Chapecoense-SC;Marathonbet;1.88;3.50;4.80;17 Aug 2014; 0;0 ;2014
+Vitoria;Chapecoense-SC;Pinnacle;1.81;3.52;5.30;17 Aug 2014; 0;0 ;2014
+Vitoria;Chapecoense-SC;Unibet;1.85;3.40;4.00;17 Aug 2014; 0;0 ;2014
+Vitoria;Chapecoense-SC;William Hill;1.80;3.10;4.75;17 Aug 2014; 0;0 ;2014
+Corinthians;Bahia;bet-at-home;1.45;3.75;7.60;17 Aug 2014; 1;1 ;2014
+Corinthians;Bahia;bet365;1.44;3.75;9.50;17 Aug 2014; 1;1 ;2014
+Corinthians;Bahia;bwin;1.40;3.80;8.50;17 Aug 2014; 1;1 ;2014
+Corinthians;Bahia;Marathonbet;1.47;4.33;8.70;17 Aug 2014; 1;1 ;2014
+Corinthians;Bahia;Pinnacle;1.51;3.93;9.13;17 Aug 2014; 1;1 ;2014
+Corinthians;Bahia;Unibet;1.42;4.20;7.00;17 Aug 2014; 1;1 ;2014
+Corinthians;Bahia;William Hill;1.44;3.60;8.50;17 Aug 2014; 1;1 ;2014
+Goias;Internacional;bet-at-home;2.60;3.00;2.70;16 Aug 2014; 0;1 ;2014
+Goias;Internacional;bet365;2.60;3.10;2.80;16 Aug 2014; 0;1 ;2014
+Goias;Internacional;bwin;2.50;3.00;2.75;16 Aug 2014; 0;1 ;2014
+Goias;Internacional;Marathonbet;2.78;3.20;2.82;16 Aug 2014; 0;1 ;2014
+Goias;Internacional;Pinnacle;2.77;3.26;2.80;16 Aug 2014; 0;1 ;2014
+Goias;Internacional;Unibet;2.65;3.00;2.70;16 Aug 2014; 0;1 ;2014
+Goias;Internacional;William Hill;2.62;2.90;2.75;16 Aug 2014; 0;1 ;2014
+Atletico-MG;Palmeiras;bet-at-home;1.60;3.60;5.20;10 Aug 2014; 2;1 ;2014
+Atletico-MG;Palmeiras;bet365;1.62;3.75;5.50;10 Aug 2014; 2;1 ;2014
+Atletico-MG;Palmeiras;bwin;1.65;3.50;4.75;10 Aug 2014; 2;1 ;2014
+Atletico-MG;Palmeiras;Marathonbet;1.65;3.85;6.30;10 Aug 2014; 2;1 ;2014
+Atletico-MG;Palmeiras;Pinnacle;1.67;4.10;5.50;10 Aug 2014; 2;1 ;2014
+Atletico-MG;Palmeiras;Unibet;1.65;3.50;5.25;10 Aug 2014; 2;1 ;2014
+Atletico-MG;Palmeiras;William Hill;1.67;3.60;4.60;10 Aug 2014; 2;1 ;2014
+Chapecoense-SC;Figueirense;bet-at-home;1.95;3.15;3.80;10 Aug 2014; 0;1 ;2014
+Chapecoense-SC;Figueirense;bet365;2.00;3.20;4.00;10 Aug 2014; 0;1 ;2014
+Chapecoense-SC;Figueirense;bwin;1.85;3.25;4.00;10 Aug 2014; 0;1 ;2014
+Chapecoense-SC;Figueirense;Marathonbet;1.95;3.40;4.55;10 Aug 2014; 0;1 ;2014
+Chapecoense-SC;Figueirense;Pinnacle;2.02;3.34;4.32;10 Aug 2014; 0;1 ;2014
+Chapecoense-SC;Figueirense;Unibet;1.85;3.40;4.00;10 Aug 2014; 0;1 ;2014
+Chapecoense-SC;Figueirense;William Hill;1.85;3.30;4.00;10 Aug 2014; 0;1 ;2014
+Sao Paulo;Vitoria;bet-at-home;1.50;3.85;6.20;10 Aug 2014; 3;1 ;2014
+Sao Paulo;Vitoria;bet365;1.50;4.00;7.00;10 Aug 2014; 3;1 ;2014
+Sao Paulo;Vitoria;bwin;1.48;3.60;6.75;10 Aug 2014; 3;1 ;2014
+Sao Paulo;Vitoria;Marathonbet;1.50;4.40;7.60;10 Aug 2014; 3;1 ;2014
+Sao Paulo;Vitoria;Pinnacle;1.55;4.28;6.82;10 Aug 2014; 3;1 ;2014
+Sao Paulo;Vitoria;Unibet;1.45;4.00;7.00;10 Aug 2014; 3;1 ;2014
+Sao Paulo;Vitoria;William Hill;1.50;3.70;6.50;10 Aug 2014; 3;1 ;2014
+Athletico-PR;Botafogo RJ;bet-at-home;2.15;3.25;3.15;10 Aug 2014; 2;0 ;2014
+Athletico-PR;Botafogo RJ;bet365;2.20;3.40;3.20;10 Aug 2014; 2;0 ;2014
+Athletico-PR;Botafogo RJ;bwin;2.05;3.25;3.25;10 Aug 2014; 2;0 ;2014
+Athletico-PR;Botafogo RJ;Marathonbet;2.22;3.45;3.50;10 Aug 2014; 2;0 ;2014
+Athletico-PR;Botafogo RJ;Pinnacle;2.31;3.43;3.32;10 Aug 2014; 2;0 ;2014
+Athletico-PR;Botafogo RJ;Unibet;2.15;3.30;3.20;10 Aug 2014; 2;0 ;2014
+Athletico-PR;Botafogo RJ;William Hill;2.10;3.20;3.30;10 Aug 2014; 2;0 ;2014
+Flamengo RJ;Sport Recife;bet-at-home;1.70;3.45;4.80;10 Aug 2014; 1;0 ;2014
+Flamengo RJ;Sport Recife;bet365;1.73;3.50;5.00;10 Aug 2014; 1;0 ;2014
+Flamengo RJ;Sport Recife;bwin;1.70;3.50;4.50;10 Aug 2014; 1;0 ;2014
+Flamengo RJ;Sport Recife;Marathonbet;1.80;3.65;5.10;10 Aug 2014; 1;0 ;2014
+Flamengo RJ;Sport Recife;Pinnacle;1.71;3.85;5.48;10 Aug 2014; 1;0 ;2014
+Flamengo RJ;Sport Recife;Unibet;1.75;3.40;4.75;10 Aug 2014; 1;0 ;2014
+Flamengo RJ;Sport Recife;William Hill;1.75;3.30;4.60;10 Aug 2014; 1;0 ;2014
+Internacional;Gremio;bet-at-home;2.00;3.10;3.85;10 Aug 2014; 2;0 ;2014
+Internacional;Gremio;bet365;2.00;3.20;4.00;10 Aug 2014; 2;0 ;2014
+Internacional;Gremio;bwin;2.10;3.20;3.20;10 Aug 2014; 2;0 ;2014
+Internacional;Gremio;Marathonbet;2.08;3.35;4.05;10 Aug 2014; 2;0 ;2014
+Internacional;Gremio;Pinnacle;2.10;3.27;4.11;10 Aug 2014; 2;0 ;2014
+Internacional;Gremio;Unibet;2.15;3.30;3.20;10 Aug 2014; 2;0 ;2014
+Internacional;Gremio;William Hill;2.05;3.00;3.75;10 Aug 2014; 2;0 ;2014
+Santos;Corinthians;bet-at-home;2.55;2.90;2.80;10 Aug 2014; 0;1 ;2014
+Santos;Corinthians;bet365;2.50;3.00;3.00;10 Aug 2014; 0;1 ;2014
+Santos;Corinthians;bwin;2.45;2.95;2.80;10 Aug 2014; 0;1 ;2014
+Santos;Corinthians;Marathonbet;2.70;2.96;3.15;10 Aug 2014; 0;1 ;2014
+Santos;Corinthians;Pinnacle;2.74;3.05;2.99;10 Aug 2014; 0;1 ;2014
+Santos;Corinthians;Unibet;2.35;3.00;3.10;10 Aug 2014; 0;1 ;2014
+Santos;Corinthians;William Hill;2.50;3.00;2.80;10 Aug 2014; 0;1 ;2014
+Fluminense;Coritiba;bet-at-home;1.75;3.50;4.45;10 Aug 2014; 1;1 ;2014
+Fluminense;Coritiba;bet365;1.73;3.60;4.75;10 Aug 2014; 1;1 ;2014
+Fluminense;Coritiba;bwin;1.55;3.70;5.50;10 Aug 2014; 1;1 ;2014
+Fluminense;Coritiba;Marathonbet;1.71;3.75;5.70;10 Aug 2014; 1;1 ;2014
+Fluminense;Coritiba;Pinnacle;1.83;3.86;4.59;10 Aug 2014; 1;1 ;2014
+Fluminense;Coritiba;Unibet;1.70;3.70;4.60;10 Aug 2014; 1;1 ;2014
+Fluminense;Coritiba;William Hill;1.55;3.75;5.50;10 Aug 2014; 1;1 ;2014
+Bahia;Goias;bet-at-home;2.20;3.00;3.35;09 Aug 2014; 1;0 ;2014
+Bahia;Goias;bet365;2.20;3.10;3.50;09 Aug 2014; 1;0 ;2014
+Bahia;Goias;bwin;2.20;3.10;3.10;09 Aug 2014; 1;0 ;2014
+Bahia;Goias;Marathonbet;2.30;3.25;3.55;09 Aug 2014; 1;0 ;2014
+Bahia;Goias;Pinnacle;2.24;3.20;3.74;09 Aug 2014; 1;0 ;2014
+Bahia;Goias;Unibet;2.25;3.10;3.15;09 Aug 2014; 1;0 ;2014
+Bahia;Goias;William Hill;2.15;3.00;3.40;09 Aug 2014; 1;0 ;2014
+Criciuma;Cruzeiro;bet-at-home;4.55;3.40;1.75;09 Aug 2014; 0;0 ;2014
+Criciuma;Cruzeiro;bet365;4.20;3.70;1.80;09 Aug 2014; 0;0 ;2014
+Criciuma;Cruzeiro;bwin;4.50;3.25;1.75;09 Aug 2014; 0;0 ;2014
+Criciuma;Cruzeiro;Marathonbet;5.10;3.95;1.74;09 Aug 2014; 0;0 ;2014
+Criciuma;Cruzeiro;Pinnacle;4.63;3.97;1.79;09 Aug 2014; 0;0 ;2014
+Criciuma;Cruzeiro;Unibet;4.50;3.40;1.75;09 Aug 2014; 0;0 ;2014
+Criciuma;Cruzeiro;William Hill;4.33;3.50;1.75;09 Aug 2014; 0;0 ;2014
+Chapecoense-SC;Atletico-MG;bet-at-home;2.85;3.05;2.45;07 Aug 2014; 1;1 ;2014
+Chapecoense-SC;Atletico-MG;bet365;2.90;3.10;2.50;07 Aug 2014; 1;1 ;2014
+Chapecoense-SC;Atletico-MG;bwin;3.20;3.10;2.15;07 Aug 2014; 1;1 ;2014
+Chapecoense-SC;Atletico-MG;Marathonbet;3.10;3.40;2.45;07 Aug 2014; 1;1 ;2014
+Chapecoense-SC;Atletico-MG;Pinnacle;2.89;3.28;2.67;07 Aug 2014; 1;1 ;2014
+Chapecoense-SC;Atletico-MG;Unibet;3.00;3.20;2.30;07 Aug 2014; 1;1 ;2014
+Chapecoense-SC;Atletico-MG;William Hill;3.20;3.00;2.25;07 Aug 2014; 1;1 ;2014
+Atletico-MG;Athletico-PR;bet-at-home;1.50;3.85;5.80;03 Aug 2014; 3;1 ;2014
+Atletico-MG;Athletico-PR;bet365;1.50;4.00;7.00;03 Aug 2014; 3;1 ;2014
+Atletico-MG;Athletico-PR;bwin;1.55;3.75;5.25;03 Aug 2014; 3;1 ;2014
+Atletico-MG;Athletico-PR;Marathonbet;1.60;4.20;6.20;03 Aug 2014; 3;1 ;2014
+Atletico-MG;Athletico-PR;Pinnacle;1.55;4.36;6.61;03 Aug 2014; 3;1 ;2014
+Atletico-MG;Athletico-PR;Unibet;1.55;3.90;5.50;03 Aug 2014; 3;1 ;2014
+Atletico-MG;Athletico-PR;William Hill;1.55;3.80;5.50;03 Aug 2014; 3;1 ;2014
+Fluminense;Goias;bet-at-home;1.60;3.50;5.40;03 Aug 2014; 2;0 ;2014
+Fluminense;Goias;bet365;1.62;3.60;6.00;03 Aug 2014; 2;0 ;2014
+Fluminense;Goias;bwin;1.55;3.60;5.75;03 Aug 2014; 2;0 ;2014
+Fluminense;Goias;Marathonbet;1.60;4.05;6.50;03 Aug 2014; 2;0 ;2014
+Fluminense;Goias;Pinnacle;1.66;3.87;6.04;03 Aug 2014; 2;0 ;2014
+Fluminense;Goias;Unibet;1.55;3.80;5.75;03 Aug 2014; 2;0 ;2014
+Fluminense;Goias;William Hill;1.57;3.50;6.00;03 Aug 2014; 2;0 ;2014
+Internacional;Santos;bet-at-home;1.75;3.35;4.55;03 Aug 2014; 1;0 ;2014
+Internacional;Santos;bet365;1.75;3.50;4.75;03 Aug 2014; 1;0 ;2014
+Internacional;Santos;bwin;1.78;3.30;4.25;03 Aug 2014; 1;0 ;2014
+Internacional;Santos;Marathonbet;1.80;3.50;5.40;03 Aug 2014; 1;0 ;2014
+Internacional;Santos;Pinnacle;1.82;3.53;5.18;03 Aug 2014; 1;0 ;2014
+Internacional;Santos;Unibet;1.75;3.45;4.50;03 Aug 2014; 1;0 ;2014
+Internacional;Santos;William Hill;1.80;3.30;4.33;03 Aug 2014; 1;0 ;2014
+Chapecoense-SC;Flamengo RJ;bet-at-home;2.00;3.05;3.75;03 Aug 2014; 1;0 ;2014
+Chapecoense-SC;Flamengo RJ;bet365;2.10;3.00;4.00;03 Aug 2014; 1;0 ;2014
+Chapecoense-SC;Flamengo RJ;bwin;2.00;3.10;3.50;03 Aug 2014; 1;0 ;2014
+Chapecoense-SC;Flamengo RJ;Marathonbet;2.06;3.35;4.15;03 Aug 2014; 1;0 ;2014
+Chapecoense-SC;Flamengo RJ;Pinnacle;2.14;3.23;4.06;03 Aug 2014; 1;0 ;2014
+Chapecoense-SC;Flamengo RJ;Unibet;2.05;3.30;3.50;03 Aug 2014; 1;0 ;2014
+Chapecoense-SC;Flamengo RJ;William Hill;2.05;3.00;3.75;03 Aug 2014; 1;0 ;2014
+Coritiba;Corinthians;bet-at-home;2.75;2.85;2.65;03 Aug 2014; 0;0 ;2014
+Coritiba;Corinthians;bet365;2.80;2.88;2.75;03 Aug 2014; 0;0 ;2014
+Coritiba;Corinthians;bwin;2.80;2.90;2.50;03 Aug 2014; 0;0 ;2014
+Coritiba;Corinthians;Marathonbet;2.88;3.15;2.78;03 Aug 2014; 0;0 ;2014
+Coritiba;Corinthians;Pinnacle;2.83;2.99;2.96;03 Aug 2014; 0;0 ;2014
+Coritiba;Corinthians;Unibet;2.80;3.00;2.55;03 Aug 2014; 0;0 ;2014
+Coritiba;Corinthians;William Hill;3.00;2.80;2.50;03 Aug 2014; 0;0 ;2014
+Figueirense;Sport Recife;bet-at-home;2.20;3.05;3.25;03 Aug 2014; 3;0 ;2014
+Figueirense;Sport Recife;bet365;2.20;3.00;3.60;03 Aug 2014; 3;0 ;2014
+Figueirense;Sport Recife;bwin;2.30;3.10;2.90;03 Aug 2014; 3;0 ;2014
+Figueirense;Sport Recife;Marathonbet;2.38;3.30;3.30;03 Aug 2014; 3;0 ;2014
+Figueirense;Sport Recife;Pinnacle;2.25;3.27;3.63;03 Aug 2014; 3;0 ;2014
+Figueirense;Sport Recife;Unibet;2.25;3.20;3.05;03 Aug 2014; 3;0 ;2014
+Figueirense;Sport Recife;William Hill;2.25;3.00;3.20;03 Aug 2014; 3;0 ;2014
+Palmeiras;Bahia;bet-at-home;1.75;3.30;4.50;03 Aug 2014; 1;1 ;2014
+Palmeiras;Bahia;bet365;1.83;3.25;4.75;03 Aug 2014; 1;1 ;2014
+Palmeiras;Bahia;bwin;1.75;3.40;4.33;03 Aug 2014; 1;1 ;2014
+Palmeiras;Bahia;Marathonbet;1.79;3.60;5.30;03 Aug 2014; 1;1 ;2014
+Palmeiras;Bahia;Pinnacle;1.83;3.51;5.13;03 Aug 2014; 1;1 ;2014
+Palmeiras;Bahia;Unibet;1.75;3.40;4.60;03 Aug 2014; 1;1 ;2014
+Palmeiras;Bahia;William Hill;1.73;3.20;5.00;03 Aug 2014; 1;1 ;2014
+Vitoria;Gremio;bet-at-home;2.60;3.00;2.70;03 Aug 2014; 2;1 ;2014
+Vitoria;Gremio;bet365;2.60;3.10;2.80;03 Aug 2014; 2;1 ;2014
+Vitoria;Gremio;bwin;2.55;3.00;2.70;03 Aug 2014; 2;1 ;2014
+Vitoria;Gremio;Marathonbet;2.74;3.20;2.88;03 Aug 2014; 2;1 ;2014
+Vitoria;Gremio;Pinnacle;2.71;3.24;2.88;03 Aug 2014; 2;1 ;2014
+Vitoria;Gremio;Unibet;2.60;3.20;2.60;03 Aug 2014; 2;1 ;2014
+Vitoria;Gremio;William Hill;2.50;3.00;2.80;03 Aug 2014; 2;1 ;2014
+Botafogo RJ;Cruzeiro;bet-at-home;2.85;3.25;2.35;02 Aug 2014; 1;1 ;2014
+Botafogo RJ;Cruzeiro;bet365;2.90;3.30;2.38;02 Aug 2014; 1;1 ;2014
+Botafogo RJ;Cruzeiro;bwin;3.20;3.25;2.10;02 Aug 2014; 1;1 ;2014
+Botafogo RJ;Cruzeiro;Marathonbet;3.25;3.45;2.34;02 Aug 2014; 1;1 ;2014
+Botafogo RJ;Cruzeiro;Pinnacle;3.11;3.46;2.42;02 Aug 2014; 1;1 ;2014
+Botafogo RJ;Cruzeiro;Unibet;3.05;3.40;2.15;02 Aug 2014; 1;1 ;2014
+Botafogo RJ;Cruzeiro;William Hill;3.40;3.25;2.05;02 Aug 2014; 1;1 ;2014
+Sao Paulo;Criciuma;bet-at-home;1.30;4.85;8.30;02 Aug 2014; 1;1 ;2014
+Sao Paulo;Criciuma;bet365;1.33;5.00;9.00;02 Aug 2014; 1;1 ;2014
+Sao Paulo;Criciuma;bwin;1.26;5.00;9.75;02 Aug 2014; 1;1 ;2014
+Sao Paulo;Criciuma;Marathonbet;1.35;5.50;9.70;02 Aug 2014; 1;1 ;2014
+Sao Paulo;Criciuma;Pinnacle;1.39;5.13;9.08;02 Aug 2014; 1;1 ;2014
+Sao Paulo;Criciuma;Unibet;1.30;5.00;9.00;02 Aug 2014; 1;1 ;2014
+Sao Paulo;Criciuma;William Hill;1.33;4.40;9.00;02 Aug 2014; 1;1 ;2014
+Flamengo RJ;Botafogo RJ;bet-at-home;2.70;3.10;2.50;27 Jul 2014; 1;0 ;2014
+Flamengo RJ;Botafogo RJ;bet365;2.80;3.10;2.60;27 Jul 2014; 1;0 ;2014
+Flamengo RJ;Botafogo RJ;bwin;2.45;3.10;2.70;27 Jul 2014; 1;0 ;2014
+Flamengo RJ;Botafogo RJ;Marathonbet;2.76;3.20;2.84;27 Jul 2014; 1;0 ;2014
+Flamengo RJ;Botafogo RJ;Pinnacle;2.85;3.30;2.70;27 Jul 2014; 1;0 ;2014
+Flamengo RJ;Botafogo RJ;Unibet;2.60;3.20;2.55;27 Jul 2014; 1;0 ;2014
+Flamengo RJ;Botafogo RJ;William Hill;2.60;3.10;2.62;27 Jul 2014; 1;0 ;2014
+Gremio;Coritiba;bet-at-home;1.65;3.45;5.00;27 Jul 2014; 2;3 ;2014
+Gremio;Coritiba;bet365;1.67;3.60;5.25;27 Jul 2014; 2;3 ;2014
+Gremio;Coritiba;bwin;1.70;3.30;4.75;27 Jul 2014; 2;3 ;2014
+Gremio;Coritiba;Marathonbet;1.63;3.90;6.40;27 Jul 2014; 2;3 ;2014
+Gremio;Coritiba;Pinnacle;1.71;3.67;5.95;27 Jul 2014; 2;3 ;2014
+Gremio;Coritiba;Unibet;1.67;3.45;5.00;27 Jul 2014; 2;3 ;2014
+Gremio;Coritiba;William Hill;1.67;3.25;5.50;27 Jul 2014; 2;3 ;2014
+Athletico-PR;Fluminense;bet-at-home;2.55;3.20;2.60;27 Jul 2014; 0;3 ;2014
+Athletico-PR;Fluminense;bet365;2.63;3.20;2.70;27 Jul 2014; 0;3 ;2014
+Athletico-PR;Fluminense;bwin;2.60;3.20;2.50;27 Jul 2014; 0;3 ;2014
+Athletico-PR;Fluminense;Marathonbet;2.82;3.40;2.66;27 Jul 2014; 0;3 ;2014
+Athletico-PR;Fluminense;Pinnacle;2.74;3.25;2.84;27 Jul 2014; 0;3 ;2014
+Athletico-PR;Fluminense;Unibet;2.60;3.25;2.55;27 Jul 2014; 0;3 ;2014
+Athletico-PR;Fluminense;William Hill;2.60;3.10;2.60;27 Jul 2014; 0;3 ;2014
+Corinthians;Palmeiras;bet-at-home;1.75;3.35;4.50;27 Jul 2014; 2;0 ;2014
+Corinthians;Palmeiras;bet365;1.75;3.40;5.00;27 Jul 2014; 2;0 ;2014
+Corinthians;Palmeiras;bwin;1.78;3.50;4.00;27 Jul 2014; 2;0 ;2014
+Corinthians;Palmeiras;Marathonbet;1.80;3.55;5.30;27 Jul 2014; 2;0 ;2014
+Corinthians;Palmeiras;Pinnacle;1.83;3.49;5.20;27 Jul 2014; 2;0 ;2014
+Corinthians;Palmeiras;Unibet;1.75;3.35;4.70;27 Jul 2014; 2;0 ;2014
+Corinthians;Palmeiras;William Hill;1.73;3.20;5.00;27 Jul 2014; 2;0 ;2014
+Goias;Sao Paulo;bet-at-home;2.65;3.05;2.60;27 Jul 2014; 2;1 ;2014
+Goias;Sao Paulo;bet365;2.70;3.20;2.63;27 Jul 2014; 2;1 ;2014
+Goias;Sao Paulo;bwin;2.85;3.10;2.35;27 Jul 2014; 2;1 ;2014
+Goias;Sao Paulo;Marathonbet;2.96;3.30;2.60;27 Jul 2014; 2;1 ;2014
+Goias;Sao Paulo;Pinnacle;2.84;3.25;2.74;27 Jul 2014; 2;1 ;2014
+Goias;Sao Paulo;Unibet;2.70;3.20;2.50;27 Jul 2014; 2;1 ;2014
+Goias;Sao Paulo;William Hill;2.80;3.00;2.50;27 Jul 2014; 2;1 ;2014
+Sport Recife;Atletico-MG;bet-at-home;2.95;3.15;2.30;27 Jul 2014; 2;1 ;2014
+Sport Recife;Atletico-MG;bet365;3.10;3.25;2.30;27 Jul 2014; 2;1 ;2014
+Sport Recife;Atletico-MG;bwin;2.85;3.10;2.35;27 Jul 2014; 2;1 ;2014
+Sport Recife;Atletico-MG;Marathonbet;3.15;3.30;2.46;27 Jul 2014; 2;1 ;2014
+Sport Recife;Atletico-MG;Pinnacle;3.40;3.40;2.29;27 Jul 2014; 2;1 ;2014
+Sport Recife;Atletico-MG;Unibet;3.00;3.30;2.25;27 Jul 2014; 2;1 ;2014
+Sport Recife;Atletico-MG;William Hill;2.90;3.10;2.38;27 Jul 2014; 2;1 ;2014
+Bahia;Internacional;bet-at-home;3.30;3.15;2.15;27 Jul 2014; 0;1 ;2014
+Bahia;Internacional;bet365;3.50;3.30;2.10;27 Jul 2014; 0;1 ;2014
+Bahia;Internacional;bwin;3.20;3.20;2.10;27 Jul 2014; 0;1 ;2014
+Bahia;Internacional;Marathonbet;3.70;3.45;2.15;27 Jul 2014; 0;1 ;2014
+Bahia;Internacional;Pinnacle;3.71;3.33;2.19;27 Jul 2014; 0;1 ;2014
+Bahia;Internacional;Unibet;3.40;3.20;2.10;27 Jul 2014; 0;1 ;2014
+Bahia;Internacional;William Hill;3.20;3.00;2.25;27 Jul 2014; 0;1 ;2014
+Criciuma;Vitoria;bet-at-home;2.00;3.20;3.60;26 Jul 2014; 1;3 ;2014
+Criciuma;Vitoria;bet365;2.10;3.30;3.50;26 Jul 2014; 1;3 ;2014
+Criciuma;Vitoria;bwin;1.87;3.30;3.80;26 Jul 2014; 1;3 ;2014
+Criciuma;Vitoria;Marathonbet;2.04;3.55;3.95;26 Jul 2014; 1;3 ;2014
+Criciuma;Vitoria;Pinnacle;2.11;3.32;4.05;26 Jul 2014; 1;3 ;2014
+Criciuma;Vitoria;Unibet;1.85;3.40;3.90;26 Jul 2014; 1;3 ;2014
+Criciuma;Vitoria;William Hill;2.00;3.25;3.50;26 Jul 2014; 1;3 ;2014
+Cruzeiro;Figueirense;bet-at-home;1.18;6.30;12.00;26 Jul 2014; 5;0 ;2014
+Cruzeiro;Figueirense;bet365;1.20;6.00;15.00;26 Jul 2014; 5;0 ;2014
+Cruzeiro;Figueirense;bwin;1.17;6.00;13.50;26 Jul 2014; 5;0 ;2014
+Cruzeiro;Figueirense;Marathonbet;1.20;7.40;17.00;26 Jul 2014; 5;0 ;2014
+Cruzeiro;Figueirense;Pinnacle;1.24;6.30;16.80;26 Jul 2014; 5;0 ;2014
+Cruzeiro;Figueirense;Unibet;1.18;6.25;13.00;26 Jul 2014; 5;0 ;2014
+Cruzeiro;Figueirense;William Hill;1.18;6.00;13.00;26 Jul 2014; 5;0 ;2014
+Santos;Chapecoense-SC;bet-at-home;1.55;3.60;5.70;26 Jul 2014; 3;0 ;2014
+Santos;Chapecoense-SC;bet365;1.57;3.60;6.50;26 Jul 2014; 3;0 ;2014
+Santos;Chapecoense-SC;bwin;1.60;3.40;5.50;26 Jul 2014; 3;0 ;2014
+Santos;Chapecoense-SC;Marathonbet;1.57;3.95;7.30;26 Jul 2014; 3;0 ;2014
+Santos;Chapecoense-SC;Pinnacle;1.59;3.99;6.84;26 Jul 2014; 3;0 ;2014
+Santos;Chapecoense-SC;Unibet;1.60;3.50;5.50;26 Jul 2014; 3;0 ;2014
+Santos;Chapecoense-SC;William Hill;1.60;3.50;5.50;26 Jul 2014; 3;0 ;2014
+Athletico-PR;Criciuma;bet-at-home;1.70;3.55;4.55;20 Jul 2014; 2;0 ;2014
+Athletico-PR;Criciuma;bet365;1.75;3.75;4.50;20 Jul 2014; 2;0 ;2014
+Athletico-PR;Criciuma;bwin;1.78;3.40;4.10;20 Jul 2014; 2;0 ;2014
+Athletico-PR;Criciuma;Marathonbet;1.73;3.90;5.20;20 Jul 2014; 2;0 ;2014
+Athletico-PR;Criciuma;Pinnacle;1.75;3.80;5.27;20 Jul 2014; 2;0 ;2014
+Athletico-PR;Criciuma;Unibet;1.80;3.50;4.20;20 Jul 2014; 2;0 ;2014
+Athletico-PR;Criciuma;William Hill;1.73;3.50;4.40;20 Jul 2014; 2;0 ;2014
+Fluminense;Santos;bet-at-home;1.95;3.30;3.70;20 Jul 2014; 1;0 ;2014
+Fluminense;Santos;bet365;2.00;3.40;3.75;20 Jul 2014; 1;0 ;2014
+Fluminense;Santos;bwin;1.91;3.30;3.60;20 Jul 2014; 1;0 ;2014
+Fluminense;Santos;Marathonbet;2.00;3.35;4.40;20 Jul 2014; 1;0 ;2014
+Fluminense;Santos;Pinnacle;2.04;3.37;4.17;20 Jul 2014; 1;0 ;2014
+Fluminense;Santos;Unibet;1.95;3.30;3.90;20 Jul 2014; 1;0 ;2014
+Fluminense;Santos;William Hill;1.95;3.20;3.80;20 Jul 2014; 1;0 ;2014
+Goias;Sport Recife;bet-at-home;1.75;3.40;4.55;20 Jul 2014; 0;0 ;2014
+Goias;Sport Recife;bet365;1.75;3.60;4.75;20 Jul 2014; 0;0 ;2014
+Goias;Sport Recife;bwin;1.80;3.30;4.10;20 Jul 2014; 0;0 ;2014
+Goias;Sport Recife;Marathonbet;1.90;3.60;4.50;20 Jul 2014; 0;0 ;2014
+Goias;Sport Recife;Pinnacle;1.75;3.62;5.67;20 Jul 2014; 0;0 ;2014
+Goias;Sport Recife;Unibet;1.85;3.40;4.00;20 Jul 2014; 0;0 ;2014
+Goias;Sport Recife;William Hill;1.85;3.20;4.20;20 Jul 2014; 0;0 ;2014
+Internacional;Flamengo RJ;bet-at-home;1.60;3.60;5.60;20 Jul 2014; 4;0 ;2014
+Internacional;Flamengo RJ;bet365;1.62;3.60;6.00;20 Jul 2014; 4;0 ;2014
+Internacional;Flamengo RJ;bwin;1.60;3.60;5.00;20 Jul 2014; 4;0 ;2014
+Internacional;Flamengo RJ;Marathonbet;1.58;4.00;7.00;20 Jul 2014; 4;0 ;2014
+Internacional;Flamengo RJ;Pinnacle;1.62;3.94;6.49;20 Jul 2014; 4;0 ;2014
+Internacional;Flamengo RJ;Unibet;1.60;3.60;5.50;20 Jul 2014; 4;0 ;2014
+Internacional;Flamengo RJ;William Hill;1.65;3.50;5.00;20 Jul 2014; 4;0 ;2014
+Palmeiras;Cruzeiro;bet-at-home;3.35;3.20;2.10;20 Jul 2014; 1;2 ;2014
+Palmeiras;Cruzeiro;bet365;3.25;3.30;2.20;20 Jul 2014; 1;2 ;2014
+Palmeiras;Cruzeiro;bwin;3.10;3.20;2.15;20 Jul 2014; 1;2 ;2014
+Palmeiras;Cruzeiro;Marathonbet;3.60;3.35;2.22;20 Jul 2014; 1;2 ;2014
+Palmeiras;Cruzeiro;Pinnacle;3.84;3.36;2.15;20 Jul 2014; 1;2 ;2014
+Palmeiras;Cruzeiro;Unibet;3.10;3.25;2.20;20 Jul 2014; 1;2 ;2014
+Palmeiras;Cruzeiro;William Hill;3.30;3.10;2.15;20 Jul 2014; 1;2 ;2014
+Vitoria;Corinthians;bet-at-home;2.90;3.00;2.45;20 Jul 2014; 0;0 ;2014
+Vitoria;Corinthians;bet365;3.00;3.00;2.50;20 Jul 2014; 0;0 ;2014
+Vitoria;Corinthians;bwin;2.85;3.10;2.35;20 Jul 2014; 0;0 ;2014
+Vitoria;Corinthians;Marathonbet;3.13;3.20;2.54;20 Jul 2014; 0;0 ;2014
+Vitoria;Corinthians;Pinnacle;3.02;3.17;2.65;20 Jul 2014; 0;0 ;2014
+Vitoria;Corinthians;Unibet;2.85;3.20;2.45;20 Jul 2014; 0;0 ;2014
+Vitoria;Corinthians;William Hill;3.00;2.80;2.50;20 Jul 2014; 0;0 ;2014
+Botafogo RJ;Coritiba;bet-at-home;2.10;3.15;3.35;20 Jul 2014; 1;0 ;2014
+Botafogo RJ;Coritiba;bet365;2.10;3.30;3.50;20 Jul 2014; 1;0 ;2014
+Botafogo RJ;Coritiba;bwin;2.05;3.20;3.30;20 Jul 2014; 1;0 ;2014
+Botafogo RJ;Coritiba;Marathonbet;2.08;3.45;3.90;20 Jul 2014; 1;0 ;2014
+Botafogo RJ;Coritiba;Pinnacle;2.18;3.40;3.68;20 Jul 2014; 1;0 ;2014
+Botafogo RJ;Coritiba;Unibet;2.20;3.30;3.10;20 Jul 2014; 1;0 ;2014
+Botafogo RJ;Coritiba;William Hill;2.15;3.10;3.30;20 Jul 2014; 1;0 ;2014
+Atletico-MG;Bahia;bet-at-home;1.65;3.50;4.80;19 Jul 2014; 1;1 ;2014
+Atletico-MG;Bahia;bet365;1.67;3.60;5.25;19 Jul 2014; 1;1 ;2014
+Atletico-MG;Bahia;bwin;1.65;3.40;5.00;19 Jul 2014; 1;1 ;2014
+Atletico-MG;Bahia;Marathonbet;1.63;3.85;6.60;19 Jul 2014; 1;1 ;2014
+Atletico-MG;Bahia;Pinnacle;1.72;3.83;5.44;19 Jul 2014; 1;1 ;2014
+Atletico-MG;Bahia;Unibet;1.58;3.60;5.80;19 Jul 2014; 1;1 ;2014
+Atletico-MG;Bahia;William Hill;1.70;3.40;4.80;19 Jul 2014; 1;1 ;2014
+Figueirense;Gremio;bet-at-home;3.45;3.10;2.10;19 Jul 2014; 0;1 ;2014
+Figueirense;Gremio;bet365;3.50;3.25;2.10;19 Jul 2014; 0;1 ;2014
+Figueirense;Gremio;bwin;3.20;3.10;2.15;19 Jul 2014; 0;1 ;2014
+Figueirense;Gremio;Marathonbet;3.75;3.30;2.20;19 Jul 2014; 0;1 ;2014
+Figueirense;Gremio;Pinnacle;3.72;3.27;2.17;19 Jul 2014; 0;1 ;2014
+Figueirense;Gremio;Unibet;3.40;3.25;2.10;19 Jul 2014; 0;1 ;2014
+Figueirense;Gremio;William Hill;3.40;3.00;2.15;19 Jul 2014; 0;1 ;2014
+Sao Paulo;Chapecoense-SC;bet-at-home;1.35;4.40;8.70;19 Jul 2014; 0;1 ;2014
+Sao Paulo;Chapecoense-SC;bet365;1.33;4.75;10.00;19 Jul 2014; 0;1 ;2014
+Sao Paulo;Chapecoense-SC;bwin;1.35;4.25;8.00;19 Jul 2014; 0;1 ;2014
+Sao Paulo;Chapecoense-SC;Marathonbet;1.33;5.40;11.00;19 Jul 2014; 0;1 ;2014
+Sao Paulo;Chapecoense-SC;Pinnacle;1.40;4.98;9.17;19 Jul 2014; 0;1 ;2014
+Sao Paulo;Chapecoense-SC;Unibet;1.35;4.70;8.00;19 Jul 2014; 0;1 ;2014
+Sao Paulo;Chapecoense-SC;William Hill;1.33;4.33;9.50;19 Jul 2014; 0;1 ;2014
+Cruzeiro;Vitoria;bet-at-home;1.30;4.90;8.30;18 Jul 2014; 3;1 ;2014
+Cruzeiro;Vitoria;bet365;1.33;5.00;9.00;18 Jul 2014; 3;1 ;2014
+Cruzeiro;Vitoria;bwin;1.35;4.33;7.75;18 Jul 2014; 3;1 ;2014
+Cruzeiro;Vitoria;Marathonbet;1.32;5.60;11.00;18 Jul 2014; 3;1 ;2014
+Cruzeiro;Vitoria;Pinnacle;1.36;5.30;9.70;18 Jul 2014; 3;1 ;2014
+Cruzeiro;Vitoria;Unibet;1.32;5.00;8.00;18 Jul 2014; 3;1 ;2014
+Cruzeiro;Vitoria;William Hill;1.30;4.60;9.00;18 Jul 2014; 3;1 ;2014
+Corinthians;Internacional;bet-at-home;1.90;3.10;4.05;17 Jul 2014; 2;1 ;2014
+Corinthians;Internacional;bet365;1.95;3.20;4.20;17 Jul 2014; 2;1 ;2014
+Corinthians;Internacional;bwin;1.95;3.00;3.90;17 Jul 2014; 2;1 ;2014
+Corinthians;Internacional;Marathonbet;1.97;3.40;4.45;17 Jul 2014; 2;1 ;2014
+Corinthians;Internacional;Pinnacle;1.97;3.33;4.62;17 Jul 2014; 2;1 ;2014
+Corinthians;Internacional;Unibet;1.95;3.20;3.85;17 Jul 2014; 2;1 ;2014
+Corinthians;Internacional;William Hill;2.00;2.90;4.00;17 Jul 2014; 2;1 ;2014
+Santos;Palmeiras;bet-at-home;1.90;3.20;3.85;17 Jul 2014; 2;0 ;2014
+Santos;Palmeiras;bet365;1.95;3.20;4.20;17 Jul 2014; 2;0 ;2014
+Santos;Palmeiras;bwin;2.00;3.25;3.40;17 Jul 2014; 2;0 ;2014
+Santos;Palmeiras;Marathonbet;1.96;3.60;4.20;17 Jul 2014; 2;0 ;2014
+Santos;Palmeiras;Pinnacle;1.99;3.48;4.25;17 Jul 2014; 2;0 ;2014
+Santos;Palmeiras;Unibet;1.95;3.25;3.80;17 Jul 2014; 2;0 ;2014
+Santos;Palmeiras;William Hill;1.91;3.30;3.75;17 Jul 2014; 2;0 ;2014
+Criciuma;Fluminense;bet-at-home;3.30;3.15;2.15;17 Jul 2014; 3;2 ;2014
+Criciuma;Fluminense;bet365;3.50;3.20;2.15;17 Jul 2014; 3;2 ;2014
+Criciuma;Fluminense;bwin;3.00;3.10;2.25;17 Jul 2014; 3;2 ;2014
+Criciuma;Fluminense;Marathonbet;3.70;3.50;2.12;17 Jul 2014; 3;2 ;2014
+Criciuma;Fluminense;Pinnacle;3.65;3.34;2.21;17 Jul 2014; 3;2 ;2014
+Criciuma;Fluminense;Unibet;3.00;3.25;2.25;17 Jul 2014; 3;2 ;2014
+Criciuma;Fluminense;William Hill;3.10;3.10;2.25;17 Jul 2014; 3;2 ;2014
+Flamengo RJ;Athletico-PR;bet-at-home;2.05;3.30;3.30;17 Jul 2014; 1;2 ;2014
+Flamengo RJ;Athletico-PR;bet365;2.10;3.40;3.40;17 Jul 2014; 1;2 ;2014
+Flamengo RJ;Athletico-PR;bwin;2.20;3.20;3.00;17 Jul 2014; 1;2 ;2014
+Flamengo RJ;Athletico-PR;Marathonbet;2.12;3.40;3.85;17 Jul 2014; 1;2 ;2014
+Flamengo RJ;Athletico-PR;Pinnacle;2.24;3.45;3.47;17 Jul 2014; 1;2 ;2014
+Flamengo RJ;Athletico-PR;Unibet;2.10;3.25;3.30;17 Jul 2014; 1;2 ;2014
+Flamengo RJ;Athletico-PR;William Hill;2.05;3.40;3.25;17 Jul 2014; 1;2 ;2014
+Coritiba;Figueirense;bet-at-home;1.50;3.70;6.60;16 Jul 2014; 0;2 ;2014
+Coritiba;Figueirense;bet365;1.50;3.75;7.50;16 Jul 2014; 0;2 ;2014
+Coritiba;Figueirense;bwin;1.55;3.60;5.50;16 Jul 2014; 0;2 ;2014
+Coritiba;Figueirense;Marathonbet;1.54;4.10;7.60;16 Jul 2014; 0;2 ;2014
+Coritiba;Figueirense;Pinnacle;1.51;4.03;8.75;16 Jul 2014; 0;2 ;2014
+Coritiba;Figueirense;Unibet;1.50;3.80;6.50;16 Jul 2014; 0;2 ;2014
+Coritiba;Figueirense;William Hill;1.55;3.60;6.00;16 Jul 2014; 0;2 ;2014
+Gremio;Goias;bet-at-home;1.55;3.65;6.10;16 Jul 2014; 0;0 ;2014
+Gremio;Goias;bet365;1.57;3.50;7.00;16 Jul 2014; 0;0 ;2014
+Gremio;Goias;bwin;1.60;3.40;5.50;16 Jul 2014; 0;0 ;2014
+Gremio;Goias;Marathonbet;1.62;3.60;7.50;16 Jul 2014; 0;0 ;2014
+Gremio;Goias;Pinnacle;1.56;3.79;8.21;16 Jul 2014; 0;0 ;2014
+Gremio;Goias;Unibet;1.55;3.70;6.00;16 Jul 2014; 0;0 ;2014
+Gremio;Goias;William Hill;1.65;3.50;5.00;16 Jul 2014; 0;0 ;2014
+Sport Recife;Bahia;bet-at-home;2.30;3.00;3.10;05 Jun 2014; 1;0 ;2014
+Sport Recife;Bahia;bet365;2.40;3.00;3.20;05 Jun 2014; 1;0 ;2014
+Sport Recife;Bahia;bwin;2.15;3.10;3.25;05 Jun 2014; 1;0 ;2014
+Sport Recife;Bahia;Marathonbet;2.35;3.25;3.45;05 Jun 2014; 1;0 ;2014
+Sport Recife;Bahia;Pinnacle;2.45;3.27;3.20;05 Jun 2014; 1;0 ;2014
+Sport Recife;Bahia;Unibet;2.30;3.10;3.10;05 Jun 2014; 1;0 ;2014
+Sport Recife;Bahia;William Hill;2.20;3.00;3.30;05 Jun 2014; 1;0 ;2014
+Figueirense;Athletico-PR;bet-at-home;2.90;3.15;2.35;01 Jun 2014; 1;3 ;2014
+Figueirense;Athletico-PR;bet365;3.00;3.10;2.30;01 Jun 2014; 1;3 ;2014
+Figueirense;Athletico-PR;bwin;2.70;3.30;2.35;01 Jun 2014; 1;3 ;2014
+Figueirense;Athletico-PR;Marathonbet;3.20;3.25;2.50;01 Jun 2014; 1;3 ;2014
+Figueirense;Athletico-PR;Pinnacle;3.04;3.37;2.50;01 Jun 2014; 1;3 ;2014
+Figueirense;Athletico-PR;Unibet;2.90;3.20;2.40;01 Jun 2014; 1;3 ;2014
+Figueirense;Athletico-PR;William Hill;2.80;3.00;2.50;01 Jun 2014; 1;3 ;2014
+Fluminense;Internacional;bet-at-home;2.05;3.10;3.60;01 Jun 2014; 1;1 ;2014
+Fluminense;Internacional;bet365;2.10;3.10;3.75;01 Jun 2014; 1;1 ;2014
+Fluminense;Internacional;bwin;2.00;3.10;3.60;01 Jun 2014; 1;1 ;2014
+Fluminense;Internacional;Marathonbet;2.12;3.20;4.25;01 Jun 2014; 1;1 ;2014
+Fluminense;Internacional;Pinnacle;2.05;3.33;4.23;01 Jun 2014; 1;1 ;2014
+Fluminense;Internacional;Unibet;2.00;3.25;3.65;01 Jun 2014; 1;1 ;2014
+Fluminense;Internacional;William Hill;2.00;3.20;3.60;01 Jun 2014; 1;1 ;2014
+Santos;Criciuma;bet-at-home;1.95;3.30;3.65;01 Jun 2014; 2;0 ;2014
+Santos;Criciuma;bet365;2.05;3.30;3.60;01 Jun 2014; 2;0 ;2014
+Santos;Criciuma;bwin;1.95;3.40;3.40;01 Jun 2014; 2;0 ;2014
+Santos;Criciuma;Marathonbet;1.95;3.50;4.50;01 Jun 2014; 2;0 ;2014
+Santos;Criciuma;Pinnacle;2.12;3.42;3.84;01 Jun 2014; 2;0 ;2014
+Santos;Criciuma;Unibet;1.75;3.40;4.50;01 Jun 2014; 2;0 ;2014
+Santos;Criciuma;William Hill;2.00;3.20;3.60;01 Jun 2014; 2;0 ;2014
+Chapecoense-SC;Bahia;bet-at-home;2.00;3.10;3.80;01 Jun 2014; 2;1 ;2014
+Chapecoense-SC;Bahia;bet365;2.00;3.10;4.00;01 Jun 2014; 2;1 ;2014
+Chapecoense-SC;Bahia;bwin;2.10;3.00;3.50;01 Jun 2014; 2;1 ;2014
+Chapecoense-SC;Bahia;Marathonbet;2.10;3.25;4.25;01 Jun 2014; 2;1 ;2014
+Chapecoense-SC;Bahia;Pinnacle;2.07;3.29;4.11;01 Jun 2014; 2;1 ;2014
+Chapecoense-SC;Bahia;Unibet;2.05;3.20;3.55;01 Jun 2014; 2;1 ;2014
+Chapecoense-SC;Bahia;William Hill;2.15;3.00;3.40;01 Jun 2014; 2;1 ;2014
+Corinthians;Botafogo RJ;bet-at-home;1.70;3.35;5.00;01 Jun 2014; 1;1 ;2014
+Corinthians;Botafogo RJ;bet365;1.70;3.50;5.25;01 Jun 2014; 1;1 ;2014
+Corinthians;Botafogo RJ;bwin;1.72;3.30;4.60;01 Jun 2014; 1;1 ;2014
+Corinthians;Botafogo RJ;Marathonbet;1.71;3.50;6.70;01 Jun 2014; 1;1 ;2014
+Corinthians;Botafogo RJ;Pinnacle;1.69;3.74;5.79;01 Jun 2014; 1;1 ;2014
+Corinthians;Botafogo RJ;Unibet;1.72;3.40;4.70;01 Jun 2014; 1;1 ;2014
+Corinthians;Botafogo RJ;William Hill;1.73;3.20;5.00;01 Jun 2014; 1;1 ;2014
+Cruzeiro;Flamengo RJ;bet-at-home;1.75;3.40;4.30;01 Jun 2014; 3;0 ;2014
+Cruzeiro;Flamengo RJ;bet365;1.75;3.40;5.00;01 Jun 2014; 3;0 ;2014
+Cruzeiro;Flamengo RJ;bwin;1.83;3.40;3.80;01 Jun 2014; 3;0 ;2014
+Cruzeiro;Flamengo RJ;Marathonbet;1.83;3.75;4.80;01 Jun 2014; 3;0 ;2014
+Cruzeiro;Flamengo RJ;Pinnacle;1.83;3.89;4.54;01 Jun 2014; 3;0 ;2014
+Cruzeiro;Flamengo RJ;Unibet;1.75;3.45;4.50;01 Jun 2014; 3;0 ;2014
+Cruzeiro;Flamengo RJ;William Hill;1.75;3.40;4.50;01 Jun 2014; 3;0 ;2014
+Gremio;Palmeiras;bet-at-home;1.85;3.20;4.30;01 Jun 2014; 0;0 ;2014
+Gremio;Palmeiras;bet365;1.80;3.30;4.75;01 Jun 2014; 0;0 ;2014
+Gremio;Palmeiras;bwin;1.90;3.20;3.90;01 Jun 2014; 0;0 ;2014
+Gremio;Palmeiras;Marathonbet;1.90;3.50;4.80;01 Jun 2014; 0;0 ;2014
+Gremio;Palmeiras;Pinnacle;1.91;3.36;4.89;01 Jun 2014; 0;0 ;2014
+Gremio;Palmeiras;Unibet;1.85;3.40;4.00;01 Jun 2014; 0;0 ;2014
+Gremio;Palmeiras;William Hill;1.83;3.10;4.50;01 Jun 2014; 0;0 ;2014
+Vitoria;Sport Recife;bet-at-home;1.70;3.50;4.70;01 Jun 2014; 0;1 ;2014
+Vitoria;Sport Recife;bet365;1.67;3.60;5.25;01 Jun 2014; 0;1 ;2014
+Vitoria;Sport Recife;bwin;1.78;3.25;4.33;01 Jun 2014; 0;1 ;2014
+Vitoria;Sport Recife;Marathonbet;1.73;3.85;5.50;01 Jun 2014; 0;1 ;2014
+Vitoria;Sport Recife;Pinnacle;1.71;3.85;5.57;01 Jun 2014; 0;1 ;2014
+Vitoria;Sport Recife;Unibet;1.75;3.65;4.25;01 Jun 2014; 0;1 ;2014
+Vitoria;Sport Recife;William Hill;1.80;3.25;4.40;01 Jun 2014; 0;1 ;2014
+Sao Paulo;Atletico-MG;bet-at-home;1.70;3.55;4.55;31 May 2014; 2;1 ;2014
+Sao Paulo;Atletico-MG;bet365;1.75;3.75;4.33;31 May 2014; 2;1 ;2014
+Sao Paulo;Atletico-MG;bwin;1.72;3.40;4.40;31 May 2014; 2;1 ;2014
+Sao Paulo;Atletico-MG;Marathonbet;1.73;4.00;5.20;31 May 2014; 2;1 ;2014
+Sao Paulo;Atletico-MG;Pinnacle;1.73;4.06;5.00;31 May 2014; 2;1 ;2014
+Sao Paulo;Atletico-MG;Unibet;1.70;3.55;4.80;31 May 2014; 2;1 ;2014
+Sao Paulo;Atletico-MG;William Hill;1.73;3.50;4.40;31 May 2014; 2;1 ;2014
+Coritiba;Goias;bet-at-home;2.10;3.20;3.35;31 May 2014; 3;0 ;2014
+Coritiba;Goias;bet365;2.15;3.30;3.40;31 May 2014; 3;0 ;2014
+Coritiba;Goias;bwin;2.15;3.20;3.10;31 May 2014; 3;0 ;2014
+Coritiba;Goias;Marathonbet;2.22;3.35;3.70;31 May 2014; 3;0 ;2014
+Coritiba;Goias;Pinnacle;2.13;3.38;3.88;31 May 2014; 3;0 ;2014
+Coritiba;Goias;Unibet;2.00;3.25;3.50;31 May 2014; 3;0 ;2014
+Coritiba;Goias;William Hill;2.00;3.10;3.75;31 May 2014; 3;0 ;2014
+Bahia;Santos;bet-at-home;2.20;2.95;3.35;30 May 2014; 0;2 ;2014
+Bahia;Santos;bet365;2.25;3.10;3.40;30 May 2014; 0;2 ;2014
+Bahia;Santos;bwin;2.20;3.10;3.10;30 May 2014; 0;2 ;2014
+Bahia;Santos;Marathonbet;2.44;2.95;3.70;30 May 2014; 0;2 ;2014
+Bahia;Santos;Pinnacle;2.35;3.12;3.59;30 May 2014; 0;2 ;2014
+Bahia;Santos;Unibet;2.20;3.10;3.20;30 May 2014; 0;2 ;2014
+Bahia;Santos;William Hill;2.30;3.00;3.10;30 May 2014; 0;2 ;2014
+Flamengo RJ;Figueirense;bet-at-home;1.70;3.40;4.75;29 May 2014; 1;1 ;2014
+Flamengo RJ;Figueirense;bet365;1.80;3.50;4.50;29 May 2014; 1;1 ;2014
+Flamengo RJ;Figueirense;bwin;1.70;3.30;4.75;29 May 2014; 1;1 ;2014
+Flamengo RJ;Figueirense;Marathonbet;1.77;3.65;5.50;29 May 2014; 1;1 ;2014
+Flamengo RJ;Figueirense;Pinnacle;1.76;3.64;5.52;29 May 2014; 1;1 ;2014
+Flamengo RJ;Figueirense;Unibet;1.80;3.40;4.30;29 May 2014; 1;1 ;2014
+Flamengo RJ;Figueirense;William Hill;1.80;3.20;4.50;29 May 2014; 1;1 ;2014
+Athletico-PR;Sao Paulo;bet-at-home;2.75;3.15;2.40;29 May 2014; 2;2 ;2014
+Athletico-PR;Sao Paulo;bet365;2.80;3.20;2.50;29 May 2014; 2;2 ;2014
+Athletico-PR;Sao Paulo;bwin;3.20;3.20;2.10;29 May 2014; 2;2 ;2014
+Athletico-PR;Sao Paulo;Marathonbet;3.15;3.35;2.48;29 May 2014; 2;2 ;2014
+Athletico-PR;Sao Paulo;Pinnacle;2.94;3.44;2.53;29 May 2014; 2;2 ;2014
+Athletico-PR;Sao Paulo;Unibet;3.14;3.20;2.25;29 May 2014; 2;2 ;2014
+Athletico-PR;Sao Paulo;William Hill;2.80;3.20;2.38;29 May 2014; 2;2 ;2014
+Atletico-MG;Fluminense;bet-at-home;2.70;3.05;2.55;29 May 2014; 2;0 ;2014
+Atletico-MG;Fluminense;bet365;2.88;3.20;2.50;29 May 2014; 2;0 ;2014
+Atletico-MG;Fluminense;bwin;2.30;3.20;2.85;29 May 2014; 2;0 ;2014
+Atletico-MG;Fluminense;Marathonbet;2.80;3.20;2.85;29 May 2014; 2;0 ;2014
+Atletico-MG;Fluminense;Pinnacle;2.54;3.37;2.63;29 May 2014; 2;0 ;2014
+Atletico-MG;Fluminense;Unibet;2.55;3.15;2.75;29 May 2014; 2;0 ;2014
+Atletico-MG;Fluminense;William Hill;2.80;3.00;2.50;29 May 2014; 2;0 ;2014
+Corinthians;Cruzeiro;bet-at-home;2.35;2.95;3.10;29 May 2014; 1;0 ;2014
+Corinthians;Cruzeiro;bet365;2.38;3.10;3.10;29 May 2014; 1;0 ;2014
+Corinthians;Cruzeiro;bwin;2.50;3.00;2.70;29 May 2014; 1;0 ;2014
+Corinthians;Cruzeiro;Marathonbet;2.56;3.13;3.25;29 May 2014; 1;0 ;2014
+Corinthians;Cruzeiro;Pinnacle;2.38;3.37;3.25;29 May 2014; 1;0 ;2014
+Corinthians;Cruzeiro;Unibet;2.55;3.05;2.80;29 May 2014; 1;0 ;2014
+Corinthians;Cruzeiro;William Hill;2.50;3.00;2.80;29 May 2014; 1;0 ;2014
+Goias;Vitoria;bet-at-home;1.90;3.30;3.85;29 May 2014; 0;0 ;2014
+Goias;Vitoria;bet365;1.91;3.40;4.00;29 May 2014; 0;0 ;2014
+Goias;Vitoria;bwin;1.80;3.30;4.10;29 May 2014; 0;0 ;2014
+Goias;Vitoria;Marathonbet;1.87;3.60;4.80;29 May 2014; 0;0 ;2014
+Goias;Vitoria;Pinnacle;1.95;3.68;4.14;29 May 2014; 0;0 ;2014
+Goias;Vitoria;Unibet;1.80;3.40;4.25;29 May 2014; 0;0 ;2014
+Goias;Vitoria;William Hill;1.75;3.25;4.75;29 May 2014; 0;0 ;2014
+Internacional;Chapecoense-SC;bet-at-home;1.60;3.60;5.60;29 May 2014; 2;0 ;2014
+Internacional;Chapecoense-SC;bet365;1.62;3.60;6.00;29 May 2014; 2;0 ;2014
+Internacional;Chapecoense-SC;bwin;1.57;3.70;5.25;29 May 2014; 2;0 ;2014
+Internacional;Chapecoense-SC;Marathonbet;1.61;4.00;6.70;29 May 2014; 2;0 ;2014
+Internacional;Chapecoense-SC;Pinnacle;1.63;3.87;6.43;29 May 2014; 2;0 ;2014
+Internacional;Chapecoense-SC;Unibet;1.50;3.80;6.50;29 May 2014; 2;0 ;2014
+Internacional;Chapecoense-SC;William Hill;1.55;3.60;6.00;29 May 2014; 2;0 ;2014
+Criciuma;Coritiba;bet-at-home;2.30;3.10;3.05;28 May 2014; 1;0 ;2014
+Criciuma;Coritiba;bet365;2.30;3.20;3.20;28 May 2014; 1;0 ;2014
+Criciuma;Coritiba;bwin;2.25;3.10;3.00;28 May 2014; 1;0 ;2014
+Criciuma;Coritiba;Marathonbet;2.34;3.35;3.40;28 May 2014; 1;0 ;2014
+Criciuma;Coritiba;Pinnacle;2.42;3.33;3.21;28 May 2014; 1;0 ;2014
+Criciuma;Coritiba;Unibet;2.25;3.20;3.10;28 May 2014; 1;0 ;2014
+Criciuma;Coritiba;William Hill;2.25;3.00;3.20;28 May 2014; 1;0 ;2014
+Palmeiras;Botafogo RJ;bet-at-home;2.30;3.10;3.00;28 May 2014; 0;2 ;2014
+Palmeiras;Botafogo RJ;bet365;2.38;3.10;3.10;28 May 2014; 0;2 ;2014
+Palmeiras;Botafogo RJ;bwin;2.20;3.25;3.00;28 May 2014; 0;2 ;2014
+Palmeiras;Botafogo RJ;Marathonbet;2.32;3.20;3.60;28 May 2014; 0;2 ;2014
+Palmeiras;Botafogo RJ;Pinnacle;2.41;3.28;3.27;28 May 2014; 0;2 ;2014
+Palmeiras;Botafogo RJ;Unibet;2.30;3.20;3.00;28 May 2014; 0;2 ;2014
+Palmeiras;Botafogo RJ;William Hill;2.30;3.10;3.00;28 May 2014; 0;2 ;2014
+Sport Recife;Gremio;bet-at-home;3.60;3.15;2.00;28 May 2014; 0;0 ;2014
+Sport Recife;Gremio;bet365;3.80;3.20;2.05;28 May 2014; 0;0 ;2014
+Sport Recife;Gremio;bwin;3.60;3.25;1.95;28 May 2014; 0;0 ;2014
+Sport Recife;Gremio;Marathonbet;3.70;3.40;2.20;28 May 2014; 0;0 ;2014
+Sport Recife;Gremio;Pinnacle;3.86;3.47;2.09;28 May 2014; 0;0 ;2014
+Sport Recife;Gremio;Unibet;3.40;3.20;2.10;28 May 2014; 0;0 ;2014
+Sport Recife;Gremio;William Hill;3.60;3.10;2.05;28 May 2014; 0;0 ;2014
+Atletico-MG;Criciuma;bet-at-home;1.60;3.60;5.40;25 May 2014; 0;0 ;2014
+Atletico-MG;Criciuma;bet365;1.62;3.75;5.50;25 May 2014; 0;0 ;2014
+Atletico-MG;Criciuma;bwin;1.57;3.70;5.25;25 May 2014; 0;0 ;2014
+Atletico-MG;Criciuma;Marathonbet;1.64;3.90;6.50;25 May 2014; 0;0 ;2014
+Atletico-MG;Criciuma;Pinnacle;1.65;4.00;5.96;25 May 2014; 0;0 ;2014
+Atletico-MG;Criciuma;Unibet;1.55;3.70;6.20;25 May 2014; 0;0 ;2014
+Atletico-MG;Criciuma;William Hill;1.65;3.50;5.00;25 May 2014; 0;0 ;2014
+Botafogo RJ;Vitoria;bet-at-home;1.80;3.50;3.95;25 May 2014; 1;1 ;2014
+Botafogo RJ;Vitoria;bet365;1.83;3.75;4.00;25 May 2014; 1;1 ;2014
+Botafogo RJ;Vitoria;bwin;1.70;3.50;4.50;25 May 2014; 1;1 ;2014
+Botafogo RJ;Vitoria;Marathonbet;1.82;3.85;4.70;25 May 2014; 1;1 ;2014
+Botafogo RJ;Vitoria;Pinnacle;1.86;3.95;4.25;25 May 2014; 1;1 ;2014
+Botafogo RJ;Vitoria;Unibet;1.80;3.40;4.30;25 May 2014; 1;1 ;2014
+Botafogo RJ;Vitoria;William Hill;1.75;3.50;4.33;25 May 2014; 1;1 ;2014
+Chapecoense-SC;Palmeiras;bet-at-home;2.35;2.95;3.05;25 May 2014; 2;0 ;2014
+Chapecoense-SC;Palmeiras;bet365;2.40;3.10;3.10;25 May 2014; 2;0 ;2014
+Chapecoense-SC;Palmeiras;bwin;2.45;3.00;2.80;25 May 2014; 2;0 ;2014
+Chapecoense-SC;Palmeiras;Marathonbet;2.52;3.30;3.13;25 May 2014; 2;0 ;2014
+Chapecoense-SC;Palmeiras;Pinnacle;2.49;3.27;3.15;25 May 2014; 2;0 ;2014
+Chapecoense-SC;Palmeiras;Unibet;2.50;3.15;2.75;25 May 2014; 2;0 ;2014
+Chapecoense-SC;Palmeiras;William Hill;2.38;2.90;3.10;25 May 2014; 2;0 ;2014
+Internacional;Cruzeiro;bet-at-home;2.40;3.15;2.80;25 May 2014; 1;3 ;2014
+Internacional;Cruzeiro;bet365;2.40;3.20;3.00;25 May 2014; 1;3 ;2014
+Internacional;Cruzeiro;bwin;2.20;3.20;3.00;25 May 2014; 1;3 ;2014
+Internacional;Cruzeiro;Marathonbet;2.52;3.35;3.10;25 May 2014; 1;3 ;2014
+Internacional;Cruzeiro;Pinnacle;2.52;3.42;2.97;25 May 2014; 1;3 ;2014
+Internacional;Cruzeiro;Unibet;2.40;3.20;2.85;25 May 2014; 1;3 ;2014
+Internacional;Cruzeiro;William Hill;2.25;3.20;3.00;25 May 2014; 1;3 ;2014
+Athletico-PR;Coritiba;bet-at-home;2.80;3.15;2.45;25 May 2014; 2;0 ;2014
+Athletico-PR;Coritiba;bet365;2.80;3.30;2.45;25 May 2014; 2;0 ;2014
+Athletico-PR;Coritiba;bwin;2.60;3.10;2.55;25 May 2014; 2;0 ;2014
+Athletico-PR;Coritiba;Marathonbet;2.84;3.30;2.74;25 May 2014; 2;0 ;2014
+Athletico-PR;Coritiba;Pinnacle;2.94;3.33;2.60;25 May 2014; 2;0 ;2014
+Athletico-PR;Coritiba;Unibet;2.60;3.20;2.60;25 May 2014; 2;0 ;2014
+Athletico-PR;Coritiba;William Hill;2.62;3.10;2.60;25 May 2014; 2;0 ;2014
+Figueirense;Goias;bet-at-home;2.60;3.00;2.70;25 May 2014; 0;1 ;2014
+Figueirense;Goias;bet365;2.60;3.10;2.80;25 May 2014; 0;1 ;2014
+Figueirense;Goias;bwin;2.65;3.00;2.55;25 May 2014; 0;1 ;2014
+Figueirense;Goias;Marathonbet;2.70;3.25;2.92;25 May 2014; 0;1 ;2014
+Figueirense;Goias;Pinnacle;2.76;3.29;2.77;25 May 2014; 0;1 ;2014
+Figueirense;Goias;Unibet;2.55;3.20;2.65;25 May 2014; 0;1 ;2014
+Figueirense;Goias;William Hill;2.70;3.00;2.60;25 May 2014; 0;1 ;2014
+Santos;Flamengo RJ;bet-at-home;2.10;3.15;3.35;25 May 2014; 0;0 ;2014
+Santos;Flamengo RJ;bet365;2.10;3.25;3.50;25 May 2014; 0;0 ;2014
+Santos;Flamengo RJ;bwin;2.00;3.25;3.40;25 May 2014; 0;0 ;2014
+Santos;Flamengo RJ;Marathonbet;2.14;3.35;3.95;25 May 2014; 0;0 ;2014
+Santos;Flamengo RJ;Pinnacle;2.22;3.21;3.75;25 May 2014; 0;0 ;2014
+Santos;Flamengo RJ;Unibet;2.00;3.25;3.65;25 May 2014; 0;0 ;2014
+Santos;Flamengo RJ;William Hill;2.10;3.10;3.40;25 May 2014; 0;0 ;2014
+Sport Recife;Corinthians;bet-at-home;2.85;2.85;2.60;25 May 2014; 1;4 ;2014
+Sport Recife;Corinthians;bet365;2.90;3.00;2.60;25 May 2014; 1;4 ;2014
+Sport Recife;Corinthians;bwin;3.00;3.00;2.30;25 May 2014; 1;4 ;2014
+Sport Recife;Corinthians;Marathonbet;3.13;3.05;2.68;25 May 2014; 1;4 ;2014
+Sport Recife;Corinthians;Pinnacle;2.92;3.08;2.79;25 May 2014; 1;4 ;2014
+Sport Recife;Corinthians;Unibet;2.90;2.95;2.50;25 May 2014; 1;4 ;2014
+Sport Recife;Corinthians;William Hill;3.00;2.80;2.50;25 May 2014; 1;4 ;2014
+Sao Paulo;Gremio;bet-at-home;2.00;3.25;3.55;25 May 2014; 1;0 ;2014
+Sao Paulo;Gremio;bet365;2.00;3.30;3.80;25 May 2014; 1;0 ;2014
+Sao Paulo;Gremio;bwin;1.95;3.20;3.60;25 May 2014; 1;0 ;2014
+Sao Paulo;Gremio;Marathonbet;2.00;3.45;4.33;25 May 2014; 1;0 ;2014
+Sao Paulo;Gremio;Pinnacle;2.08;3.48;3.95;25 May 2014; 1;0 ;2014
+Sao Paulo;Gremio;Unibet;2.05;3.20;3.50;25 May 2014; 1;0 ;2014
+Sao Paulo;Gremio;William Hill;2.00;3.10;3.75;25 May 2014; 1;0 ;2014
+Bahia;Fluminense;bet-at-home;4.30;3.30;1.80;24 May 2014; 0;1 ;2014
+Bahia;Fluminense;bet365;4.50;3.50;1.80;24 May 2014; 0;1 ;2014
+Bahia;Fluminense;bwin;4.25;3.20;1.80;24 May 2014; 0;1 ;2014
+Bahia;Fluminense;Marathonbet;4.85;3.55;1.88;24 May 2014; 0;1 ;2014
+Bahia;Fluminense;Pinnacle;4.66;3.50;1.91;24 May 2014; 0;1 ;2014
+Bahia;Fluminense;Unibet;4.25;3.35;1.85;24 May 2014; 0;1 ;2014
+Bahia;Fluminense;William Hill;4.20;3.20;1.85;24 May 2014; 0;1 ;2014
+Vitoria;Atletico-MG;bet-at-home;2.30;3.15;2.90;23 May 2014; 2;3 ;2014
+Vitoria;Atletico-MG;bet365;2.38;3.20;3.00;23 May 2014; 2;3 ;2014
+Vitoria;Atletico-MG;bwin;2.10;3.40;3.00;23 May 2014; 2;3 ;2014
+Vitoria;Atletico-MG;Marathonbet;2.52;3.25;3.15;23 May 2014; 2;3 ;2014
+Vitoria;Atletico-MG;Pinnacle;2.43;3.37;3.15;23 May 2014; 2;3 ;2014
+Vitoria;Atletico-MG;Unibet;2.15;3.20;3.30;23 May 2014; 2;3 ;2014
+Vitoria;Atletico-MG;William Hill;2.15;3.20;3.20;23 May 2014; 2;3 ;2014
+Goias;Santos;bet-at-home;1.95;3.15;3.85;22 May 2014; 2;2 ;2014
+Goias;Santos;bet365;1.95;3.20;4.20;22 May 2014; 2;2 ;2014
+Goias;Santos;bwin;2.00;3.10;3.60;22 May 2014; 2;2 ;2014
+Goias;Santos;Marathonbet;2.00;3.55;4.20;22 May 2014; 2;2 ;2014
+Goias;Santos;Pinnacle;1.99;3.51;4.22;22 May 2014; 2;2 ;2014
+Goias;Santos;Unibet;2.05;3.30;3.50;22 May 2014; 2;2 ;2014
+Goias;Santos;William Hill;2.15;3.00;3.40;22 May 2014; 2;2 ;2014
+Palmeiras;Figueirense;bet-at-home;1.50;3.80;5.80;22 May 2014; 1;0 ;2014
+Palmeiras;Figueirense;bet365;1.53;3.80;6.50;22 May 2014; 1;0 ;2014
+Palmeiras;Figueirense;bwin;1.50;3.70;6.00;22 May 2014; 1;0 ;2014
+Palmeiras;Figueirense;Marathonbet;1.52;4.33;7.60;22 May 2014; 1;0 ;2014
+Palmeiras;Figueirense;Pinnacle;1.58;4.08;6.76;22 May 2014; 1;0 ;2014
+Palmeiras;Figueirense;Unibet;1.50;3.90;6.25;22 May 2014; 1;0 ;2014
+Palmeiras;Figueirense;William Hill;1.50;3.70;6.50;22 May 2014; 1;0 ;2014
+Corinthians;Athletico-PR;bet-at-home;1.60;3.55;5.80;22 May 2014; 1;1 ;2014
+Corinthians;Athletico-PR;bet365;1.57;3.60;6.50;22 May 2014; 1;1 ;2014
+Corinthians;Athletico-PR;bwin;1.65;3.50;4.75;22 May 2014; 1;1 ;2014
+Corinthians;Athletico-PR;Marathonbet;1.63;3.85;6.80;22 May 2014; 1;1 ;2014
+Corinthians;Athletico-PR;Pinnacle;1.64;3.85;6.40;22 May 2014; 1;1 ;2014
+Corinthians;Athletico-PR;Unibet;1.65;3.50;5.00;22 May 2014; 1;1 ;2014
+Corinthians;Athletico-PR;William Hill;1.65;3.30;5.50;22 May 2014; 1;1 ;2014
+Fluminense;Sao Paulo;bet-at-home;2.25;3.15;3.10;22 May 2014; 5;2 ;2014
+Fluminense;Sao Paulo;bet365;2.30;3.10;3.30;22 May 2014; 5;2 ;2014
+Fluminense;Sao Paulo;bwin;2.15;3.20;3.10;22 May 2014; 5;2 ;2014
+Fluminense;Sao Paulo;Marathonbet;2.34;3.30;3.45;22 May 2014; 5;2 ;2014
+Fluminense;Sao Paulo;Pinnacle;2.40;3.34;3.23;22 May 2014; 5;2 ;2014
+Fluminense;Sao Paulo;Unibet;2.25;3.20;3.10;22 May 2014; 5;2 ;2014
+Fluminense;Sao Paulo;William Hill;2.20;3.10;3.20;22 May 2014; 5;2 ;2014
+Gremio;Botafogo RJ;bet-at-home;1.75;3.45;4.25;22 May 2014; 2;1 ;2014
+Gremio;Botafogo RJ;bet365;1.85;3.30;4.50;22 May 2014; 2;1 ;2014
+Gremio;Botafogo RJ;bwin;1.65;3.40;5.00;22 May 2014; 2;1 ;2014
+Gremio;Botafogo RJ;Marathonbet;1.71;3.90;5.60;22 May 2014; 2;1 ;2014
+Gremio;Botafogo RJ;Pinnacle;1.88;3.71;4.49;22 May 2014; 2;1 ;2014
+Gremio;Botafogo RJ;Unibet;1.60;3.60;5.50;22 May 2014; 2;1 ;2014
+Gremio;Botafogo RJ;William Hill;1.73;3.40;4.60;22 May 2014; 2;1 ;2014
+Criciuma;Chapecoense-SC;bet-at-home;2.00;3.20;3.55;22 May 2014; 1;0 ;2014
+Criciuma;Chapecoense-SC;bet365;2.10;3.20;3.60;22 May 2014; 1;0 ;2014
+Criciuma;Chapecoense-SC;bwin;2.00;3.10;3.60;22 May 2014; 1;0 ;2014
+Criciuma;Chapecoense-SC;Marathonbet;2.04;3.60;3.95;22 May 2014; 1;0 ;2014
+Criciuma;Chapecoense-SC;Pinnacle;2.10;3.59;3.69;22 May 2014; 1;0 ;2014
+Criciuma;Chapecoense-SC;Unibet;2.10;3.30;3.30;22 May 2014; 1;0 ;2014
+Criciuma;Chapecoense-SC;William Hill;2.00;3.10;3.75;22 May 2014; 1;0 ;2014
+Cruzeiro;Sport Recife;bet-at-home;1.30;4.95;9.10;22 May 2014; 2;0 ;2014
+Cruzeiro;Sport Recife;bet365;1.29;5.25;11.00;22 May 2014; 2;0 ;2014
+Cruzeiro;Sport Recife;bwin;1.30;4.60;8.75;22 May 2014; 2;0 ;2014
+Cruzeiro;Sport Recife;Marathonbet;1.30;6.00;12.00;22 May 2014; 2;0 ;2014
+Cruzeiro;Sport Recife;Pinnacle;1.31;5.92;10.62;22 May 2014; 2;0 ;2014
+Cruzeiro;Sport Recife;Unibet;1.28;5.15;9.50;22 May 2014; 2;0 ;2014
+Cruzeiro;Sport Recife;William Hill;1.29;5.00;9.00;22 May 2014; 2;0 ;2014
+Coritiba;Internacional;bet-at-home;2.30;3.05;3.05;21 May 2014; 1;1 ;2014
+Coritiba;Internacional;bet365;2.25;3.10;3.40;21 May 2014; 1;1 ;2014
+Coritiba;Internacional;bwin;2.20;3.10;3.10;21 May 2014; 1;1 ;2014
+Coritiba;Internacional;Marathonbet;2.32;3.70;3.13;21 May 2014; 1;1 ;2014
+Coritiba;Internacional;Pinnacle;2.43;3.45;3.08;21 May 2014; 1;1 ;2014
+Coritiba;Internacional;Unibet;2.35;3.25;2.90;21 May 2014; 1;1 ;2014
+Coritiba;Internacional;William Hill;2.25;3.00;3.20;21 May 2014; 1;1 ;2014
+Flamengo RJ;Bahia;bet-at-home;1.80;3.40;4.15;21 May 2014; 1;1 ;2014
+Flamengo RJ;Bahia;bet365;1.80;3.30;4.75;21 May 2014; 1;1 ;2014
+Flamengo RJ;Bahia;bwin;1.85;3.30;3.90;21 May 2014; 1;1 ;2014
+Flamengo RJ;Bahia;Marathonbet;1.83;3.70;4.90;21 May 2014; 1;1 ;2014
+Flamengo RJ;Bahia;Pinnacle;1.88;3.76;4.40;21 May 2014; 1;1 ;2014
+Flamengo RJ;Bahia;Unibet;1.85;3.40;4.00;21 May 2014; 1;1 ;2014
+Flamengo RJ;Bahia;William Hill;1.80;3.25;4.40;21 May 2014; 1;1 ;2014
+Santos;Atletico-MG;bet-at-home;2.45;3.05;2.90;18 May 2014; 1;2 ;2014
+Santos;Atletico-MG;bet365;2.50;3.10;2.90;18 May 2014; 1;2 ;2014
+Santos;Atletico-MG;bwin;2.25;3.25;2.85;18 May 2014; 1;2 ;2014
+Santos;Atletico-MG;Marathonbet;2.50;3.25;3.25;18 May 2014; 1;2 ;2014
+Santos;Atletico-MG;Pinnacle;2.49;3.42;3.03;18 May 2014; 1;2 ;2014
+Santos;Atletico-MG;Unibet;2.40;3.20;2.90;18 May 2014; 1;2 ;2014
+Santos;Atletico-MG;William Hill;2.50;3.00;2.80;18 May 2014; 1;2 ;2014
+Vitoria;Palmeiras;bet-at-home;2.25;3.15;3.05;18 May 2014; 0;1 ;2014
+Vitoria;Palmeiras;bet365;2.20;3.20;3.40;18 May 2014; 0;1 ;2014
+Vitoria;Palmeiras;bwin;2.30;3.20;2.80;18 May 2014; 0;1 ;2014
+Vitoria;Palmeiras;Marathonbet;2.40;3.25;3.40;18 May 2014; 0;1 ;2014
+Vitoria;Palmeiras;Pinnacle;2.28;3.37;3.44;18 May 2014; 0;1 ;2014
+Vitoria;Palmeiras;Unibet;2.20;3.25;3.10;18 May 2014; 0;1 ;2014
+Vitoria;Palmeiras;William Hill;2.25;3.20;3.00;18 May 2014; 0;1 ;2014
+Athletico-PR;Chapecoense-SC;bet-at-home;1.70;3.50;4.85;18 May 2014; 1;1 ;2014
+Athletico-PR;Chapecoense-SC;bet365;1.75;3.60;4.75;18 May 2014; 1;1 ;2014
+Athletico-PR;Chapecoense-SC;bwin;1.75;3.25;4.50;18 May 2014; 1;1 ;2014
+Athletico-PR;Chapecoense-SC;Marathonbet;1.72;3.90;5.50;18 May 2014; 1;1 ;2014
+Athletico-PR;Chapecoense-SC;Pinnacle;1.71;3.85;5.52;18 May 2014; 1;1 ;2014
+Athletico-PR;Chapecoense-SC;Unibet;1.75;3.40;4.60;18 May 2014; 1;1 ;2014
+Athletico-PR;Chapecoense-SC;William Hill;1.73;3.40;4.60;18 May 2014; 1;1 ;2014
+Corinthians;Figueirense;bet-at-home;1.30;4.75;9.80;18 May 2014; 0;1 ;2014
+Corinthians;Figueirense;bet365;1.29;5.00;11.00;18 May 2014; 0;1 ;2014
+Corinthians;Figueirense;bwin;1.28;4.50;10.00;18 May 2014; 0;1 ;2014
+Corinthians;Figueirense;Marathonbet;1.36;5.20;10.50;18 May 2014; 0;1 ;2014
+Corinthians;Figueirense;Pinnacle;1.32;5.38;12.70;18 May 2014; 0;1 ;2014
+Corinthians;Figueirense;Unibet;1.30;4.70;9.75;18 May 2014; 0;1 ;2014
+Corinthians;Figueirense;William Hill;1.29;4.50;11.00;18 May 2014; 0;1 ;2014
+Flamengo RJ;Sao Paulo;bet-at-home;2.30;3.05;3.05;18 May 2014; 0;2 ;2014
+Flamengo RJ;Sao Paulo;bet365;2.25;3.20;3.25;18 May 2014; 0;2 ;2014
+Flamengo RJ;Sao Paulo;bwin;2.40;3.10;2.75;18 May 2014; 0;2 ;2014
+Flamengo RJ;Sao Paulo;Marathonbet;2.45;3.20;3.35;18 May 2014; 0;2 ;2014
+Flamengo RJ;Sao Paulo;Pinnacle;2.48;3.33;3.11;18 May 2014; 0;2 ;2014
+Flamengo RJ;Sao Paulo;Unibet;2.40;3.25;2.80;18 May 2014; 0;2 ;2014
+Flamengo RJ;Sao Paulo;William Hill;2.50;3.00;2.80;18 May 2014; 0;2 ;2014
+Gremio;Fluminense;bet-at-home;2.05;3.15;3.55;18 May 2014; 1;0 ;2014
+Gremio;Fluminense;bet365;2.05;3.10;4.00;18 May 2014; 1;0 ;2014
+Gremio;Fluminense;bwin;2.00;3.20;3.50;18 May 2014; 1;0 ;2014
+Gremio;Fluminense;Marathonbet;2.14;3.30;4.00;18 May 2014; 1;0 ;2014
+Gremio;Fluminense;Pinnacle;2.09;3.24;4.24;18 May 2014; 1;0 ;2014
+Gremio;Fluminense;Unibet;2.05;3.20;3.55;18 May 2014; 1;0 ;2014
+Gremio;Fluminense;William Hill;2.00;3.10;3.75;18 May 2014; 1;0 ;2014
+Cruzeiro;Coritiba;bet-at-home;1.45;4.10;6.90;17 May 2014; 3;2 ;2014
+Cruzeiro;Coritiba;bet365;1.44;4.20;7.50;17 May 2014; 3;2 ;2014
+Cruzeiro;Coritiba;bwin;1.44;4.00;6.50;17 May 2014; 3;2 ;2014
+Cruzeiro;Coritiba;Marathonbet;1.42;4.90;8.90;17 May 2014; 3;2 ;2014
+Cruzeiro;Coritiba;Pinnacle;1.46;4.65;7.92;17 May 2014; 3;2 ;2014
+Cruzeiro;Coritiba;Unibet;1.43;4.05;7.25;17 May 2014; 3;2 ;2014
+Cruzeiro;Coritiba;William Hill;1.44;4.00;6.50;17 May 2014; 3;2 ;2014
+Goias;Botafogo RJ;bet-at-home;3.40;3.15;2.10;15 May 2014; 2;0 ;2014
+Goias;Botafogo RJ;bet365;3.75;3.20;2.05;15 May 2014; 2;0 ;2014
+Goias;Botafogo RJ;bwin;3.00;3.10;2.25;15 May 2014; 2;0 ;2014
+Goias;Botafogo RJ;Marathonbet;3.70;3.40;2.20;15 May 2014; 2;0 ;2014
+Goias;Botafogo RJ;Pinnacle;3.86;3.39;2.13;15 May 2014; 2;0 ;2014
+Goias;Botafogo RJ;Unibet;3.05;3.25;2.20;15 May 2014; 2;0 ;2014
+Goias;Botafogo RJ;William Hill;3.00;3.10;2.30;15 May 2014; 2;0 ;2014
+Bahia;Vitoria;bet-at-home;2.30;3.10;2.95;11 May 2014; 1;1 ;2014
+Bahia;Vitoria;bet365;2.40;3.20;3.00;11 May 2014; 1;1 ;2014
+Bahia;Vitoria;bwin;2.45;3.10;2.70;11 May 2014; 1;1 ;2014
+Bahia;Vitoria;Marathonbet;2.38;3.30;3.35;11 May 2014; 1;1 ;2014
+Bahia;Vitoria;Pinnacle;2.41;3.29;3.27;11 May 2014; 1;1 ;2014
+Bahia;Vitoria;Unibet;2.30;3.20;2.90;11 May 2014; 1;1 ;2014
+Bahia;Vitoria;William Hill;2.25;3.20;3.00;11 May 2014; 1;1 ;2014
+Coritiba;Sport Recife;bet-at-home;1.50;3.80;6.00;11 May 2014; 0;1 ;2014
+Coritiba;Sport Recife;bet365;1.57;4.00;5.75;11 May 2014; 0;1 ;2014
+Coritiba;Sport Recife;bwin;1.53;3.70;5.75;11 May 2014; 0;1 ;2014
+Coritiba;Sport Recife;Marathonbet;1.58;4.25;6.60;11 May 2014; 0;1 ;2014
+Coritiba;Sport Recife;Pinnacle;1.55;4.48;6.33;11 May 2014; 0;1 ;2014
+Coritiba;Sport Recife;Unibet;1.50;3.80;6.50;11 May 2014; 0;1 ;2014
+Coritiba;Sport Recife;William Hill;1.53;3.70;6.00;11 May 2014; 0;1 ;2014
+Figueirense;Santos;bet-at-home;5.00;3.50;1.65;11 May 2014; 0;2 ;2014
+Figueirense;Santos;bet365;5.50;3.75;1.62;11 May 2014; 0;2 ;2014
+Figueirense;Santos;bwin;5.00;3.40;1.65;11 May 2014; 0;2 ;2014
+Figueirense;Santos;Marathonbet;5.40;3.80;1.75;11 May 2014; 0;2 ;2014
+Figueirense;Santos;Pinnacle;5.72;3.98;1.67;11 May 2014; 0;2 ;2014
+Figueirense;Santos;Unibet;4.75;3.40;1.70;11 May 2014; 0;2 ;2014
+Figueirense;Santos;William Hill;5.50;3.80;1.53;11 May 2014; 0;2 ;2014
+Atletico-MG;Cruzeiro;bet-at-home;2.10;3.20;3.40;11 May 2014; 2;1 ;2014
+Atletico-MG;Cruzeiro;bet365;2.10;3.40;3.40;11 May 2014; 2;1 ;2014
+Atletico-MG;Cruzeiro;bwin;2.20;3.10;3.10;11 May 2014; 2;1 ;2014
+Atletico-MG;Cruzeiro;Marathonbet;2.28;3.35;3.55;11 May 2014; 2;1 ;2014
+Atletico-MG;Cruzeiro;Pinnacle;2.19;3.38;3.67;11 May 2014; 2;1 ;2014
+Atletico-MG;Cruzeiro;Unibet;2.15;3.30;3.20;11 May 2014; 2;1 ;2014
+Atletico-MG;Cruzeiro;William Hill;2.15;3.20;3.20;11 May 2014; 2;1 ;2014
+Chapecoense-SC;Gremio;bet-at-home;3.45;3.10;2.10;11 May 2014; 1;2 ;2014
+Chapecoense-SC;Gremio;bet365;3.60;3.25;2.10;11 May 2014; 1;2 ;2014
+Chapecoense-SC;Gremio;bwin;3.40;3.00;2.10;11 May 2014; 1;2 ;2014
+Chapecoense-SC;Gremio;Marathonbet;3.85;3.30;2.18;11 May 2014; 1;2 ;2014
+Chapecoense-SC;Gremio;Pinnacle;3.91;3.14;2.23;11 May 2014; 1;2 ;2014
+Chapecoense-SC;Gremio;Unibet;3.10;3.20;2.15;11 May 2014; 1;2 ;2014
+Chapecoense-SC;Gremio;William Hill;3.20;3.10;2.20;11 May 2014; 1;2 ;2014
+Fluminense;Flamengo RJ;bet-at-home;1.90;3.40;3.70;11 May 2014; 2;0 ;2014
+Fluminense;Flamengo RJ;bet365;2.05;3.30;3.60;11 May 2014; 2;0 ;2014
+Fluminense;Flamengo RJ;bwin;1.91;3.25;3.75;11 May 2014; 2;0 ;2014
+Fluminense;Flamengo RJ;Marathonbet;2.10;3.45;3.95;11 May 2014; 2;0 ;2014
+Fluminense;Flamengo RJ;Pinnacle;2.14;3.39;3.78;11 May 2014; 2;0 ;2014
+Fluminense;Flamengo RJ;Unibet;2.00;3.20;3.55;11 May 2014; 2;0 ;2014
+Fluminense;Flamengo RJ;William Hill;1.95;3.20;3.80;11 May 2014; 2;0 ;2014
+Sao Paulo;Corinthians;bet-at-home;2.70;2.90;2.65;11 May 2014; 1;1 ;2014
+Sao Paulo;Corinthians;bet365;2.60;3.25;2.70;11 May 2014; 1;1 ;2014
+Sao Paulo;Corinthians;bwin;2.70;2.95;2.55;11 May 2014; 1;1 ;2014
+Sao Paulo;Corinthians;Marathonbet;2.80;3.10;2.94;11 May 2014; 1;1 ;2014
+Sao Paulo;Corinthians;Pinnacle;2.81;3.08;2.90;11 May 2014; 1;1 ;2014
+Sao Paulo;Corinthians;Unibet;2.45;3.20;2.70;11 May 2014; 1;1 ;2014
+Sao Paulo;Corinthians;William Hill;2.50;3.20;2.62;11 May 2014; 1;1 ;2014
+Botafogo RJ;Criciuma;bet-at-home;1.55;3.70;5.50;11 May 2014; 6;0 ;2014
+Botafogo RJ;Criciuma;bet365;1.57;3.80;6.00;11 May 2014; 6;0 ;2014
+Botafogo RJ;Criciuma;bwin;1.62;3.50;5.00;11 May 2014; 6;0 ;2014
+Botafogo RJ;Criciuma;Marathonbet;1.62;3.95;6.70;11 May 2014; 6;0 ;2014
+Botafogo RJ;Criciuma;Pinnacle;1.61;3.95;6.68;11 May 2014; 6;0 ;2014
+Botafogo RJ;Criciuma;Unibet;1.60;3.75;5.00;11 May 2014; 6;0 ;2014
+Botafogo RJ;Criciuma;William Hill;1.57;3.75;5.50;11 May 2014; 6;0 ;2014
+Internacional;Athletico-PR;bet-at-home;1.50;3.85;6.00;10 May 2014; 2;1 ;2014
+Internacional;Athletico-PR;bet365;1.53;3.80;6.50;10 May 2014; 2;1 ;2014
+Internacional;Athletico-PR;bwin;1.53;3.75;5.50;10 May 2014; 2;1 ;2014
+Internacional;Athletico-PR;Marathonbet;1.52;4.40;7.40;10 May 2014; 2;1 ;2014
+Internacional;Athletico-PR;Pinnacle;1.56;4.27;6.67;10 May 2014; 2;1 ;2014
+Internacional;Athletico-PR;Unibet;1.45;3.95;7.00;10 May 2014; 2;1 ;2014
+Internacional;Athletico-PR;William Hill;1.44;4.00;6.50;10 May 2014; 2;1 ;2014
+Palmeiras;Goias;bet-at-home;1.95;3.30;3.75;10 May 2014; 2;0 ;2014
+Palmeiras;Goias;bet365;1.95;3.30;4.00;10 May 2014; 2;0 ;2014
+Palmeiras;Goias;bwin;1.85;3.40;3.75;10 May 2014; 2;0 ;2014
+Palmeiras;Goias;Marathonbet;1.96;3.50;4.45;10 May 2014; 2;0 ;2014
+Palmeiras;Goias;Pinnacle;2.04;3.39;4.15;10 May 2014; 2;0 ;2014
+Palmeiras;Goias;Unibet;1.85;3.40;4.00;10 May 2014; 2;0 ;2014
+Palmeiras;Goias;William Hill;1.91;3.30;3.80;10 May 2014; 2;0 ;2014
+Atletico-MG;Goias;bet-at-home;1.85;3.40;3.95;04 May 2014; 0;1 ;2014
+Atletico-MG;Goias;bet365;1.91;3.40;4.00;04 May 2014; 0;1 ;2014
+Atletico-MG;Goias;bwin;1.75;3.40;4.33;04 May 2014; 0;1 ;2014
+Atletico-MG;Goias;Marathonbet;1.79;3.65;5.30;04 May 2014; 0;1 ;2014
+Atletico-MG;Goias;Pinnacle;1.93;3.56;4.46;04 May 2014; 0;1 ;2014
+Atletico-MG;Goias;Unibet;1.75;3.40;4.40;04 May 2014; 0;1 ;2014
+Atletico-MG;Goias;William Hill;1.80;3.40;4.00;04 May 2014; 0;1 ;2014
+Chapecoense-SC;Corinthians;bet-at-home;3.45;2.90;2.20;04 May 2014; 0;1 ;2014
+Chapecoense-SC;Corinthians;bet365;3.50;3.00;2.25;04 May 2014; 0;1 ;2014
+Chapecoense-SC;Corinthians;bwin;3.20;3.00;2.20;04 May 2014; 0;1 ;2014
+Chapecoense-SC;Corinthians;Marathonbet;3.80;3.05;2.32;04 May 2014; 0;1 ;2014
+Chapecoense-SC;Corinthians;Pinnacle;3.84;3.11;2.26;04 May 2014; 0;1 ;2014
+Chapecoense-SC;Corinthians;Unibet;3.25;3.00;2.25;04 May 2014; 0;1 ;2014
+Chapecoense-SC;Corinthians;William Hill;3.30;2.75;2.38;04 May 2014; 0;1 ;2014
+Bahia;Botafogo RJ;bet-at-home;2.20;3.15;3.10;04 May 2014; 1;0 ;2014
+Bahia;Botafogo RJ;bet365;2.20;3.25;3.30;04 May 2014; 1;0 ;2014
+Bahia;Botafogo RJ;bwin;2.10;3.20;3.20;04 May 2014; 1;0 ;2014
+Bahia;Botafogo RJ;Marathonbet;2.18;3.35;3.80;04 May 2014; 1;0 ;2014
+Bahia;Botafogo RJ;Pinnacle;2.32;3.30;3.42;04 May 2014; 1;0 ;2014
+Bahia;Botafogo RJ;Unibet;2.10;3.25;3.30;04 May 2014; 1;0 ;2014
+Bahia;Botafogo RJ;William Hill;2.20;3.20;3.10;04 May 2014; 1;0 ;2014
+Criciuma;Figueirense;bet-at-home;1.85;3.35;4.10;04 May 2014; 1;0 ;2014
+Criciuma;Figueirense;bet365;1.85;3.40;4.33;04 May 2014; 1;0 ;2014
+Criciuma;Figueirense;bwin;1.85;3.20;4.00;04 May 2014; 1;0 ;2014
+Criciuma;Figueirense;Marathonbet;2.02;3.55;4.30;04 May 2014; 1;0 ;2014
+Criciuma;Figueirense;Pinnacle;1.88;3.66;4.53;04 May 2014; 1;0 ;2014
+Criciuma;Figueirense;Unibet;1.90;3.30;3.75;04 May 2014; 1;0 ;2014
+Criciuma;Figueirense;William Hill;1.91;3.30;3.80;04 May 2014; 1;0 ;2014
+Flamengo RJ;Palmeiras;bet-at-home;2.15;3.15;3.20;04 May 2014; 4;2 ;2014
+Flamengo RJ;Palmeiras;bet365;2.20;3.20;3.40;04 May 2014; 4;2 ;2014
+Flamengo RJ;Palmeiras;bwin;2.20;3.20;3.00;04 May 2014; 4;2 ;2014
+Flamengo RJ;Palmeiras;Marathonbet;2.34;3.35;3.40;04 May 2014; 4;2 ;2014
+Flamengo RJ;Palmeiras;Pinnacle;2.29;3.39;3.41;04 May 2014; 4;2 ;2014
+Flamengo RJ;Palmeiras;Unibet;2.20;3.25;3.10;04 May 2014; 4;2 ;2014
+Flamengo RJ;Palmeiras;William Hill;2.25;3.20;3.00;04 May 2014; 4;2 ;2014
+Internacional;Sport Recife;bet-at-home;1.30;4.60;8.80;04 May 2014; 2;1 ;2014
+Internacional;Sport Recife;bet365;1.33;4.75;9.50;04 May 2014; 2;1 ;2014
+Internacional;Sport Recife;bwin;1.35;4.20;8.25;04 May 2014; 2;1 ;2014
+Internacional;Sport Recife;Marathonbet;1.40;4.95;9.60;04 May 2014; 2;1 ;2014
+Internacional;Sport Recife;Pinnacle;1.36;5.20;10.55;04 May 2014; 2;1 ;2014
+Internacional;Sport Recife;Unibet;1.33;4.75;9.00;04 May 2014; 2;1 ;2014
+Internacional;Sport Recife;William Hill;1.40;4.33;7.00;04 May 2014; 2;1 ;2014
+Fluminense;Vitoria;bet-at-home;1.35;4.20;8.10;04 May 2014; 1;2 ;2014
+Fluminense;Vitoria;bet365;1.40;4.50;8.00;04 May 2014; 1;2 ;2014
+Fluminense;Vitoria;bwin;1.36;4.33;7.25;04 May 2014; 1;2 ;2014
+Fluminense;Vitoria;Marathonbet;1.38;5.10;10.00;04 May 2014; 1;2 ;2014
+Fluminense;Vitoria;Pinnacle;1.38;5.01;10.01;04 May 2014; 1;2 ;2014
+Fluminense;Vitoria;Unibet;1.35;4.40;8.75;04 May 2014; 1;2 ;2014
+Fluminense;Vitoria;William Hill;1.44;4.00;7.00;04 May 2014; 1;2 ;2014
+Athletico-PR;Cruzeiro;bet-at-home;2.90;3.20;2.30;03 May 2014; 2;3 ;2014
+Athletico-PR;Cruzeiro;bet365;2.88;3.20;2.50;03 May 2014; 2;3 ;2014
+Athletico-PR;Cruzeiro;bwin;2.95;3.25;2.20;03 May 2014; 2;3 ;2014
+Athletico-PR;Cruzeiro;Marathonbet;3.13;3.40;2.46;03 May 2014; 2;3 ;2014
+Athletico-PR;Cruzeiro;Pinnacle;3.03;3.46;2.46;03 May 2014; 2;3 ;2014
+Athletico-PR;Cruzeiro;Unibet;2.80;3.25;2.35;03 May 2014; 2;3 ;2014
+Athletico-PR;Cruzeiro;William Hill;2.80;3.20;2.38;03 May 2014; 2;3 ;2014
+Santos;Gremio;bet-at-home;2.00;3.15;3.60;03 May 2014; 0;0 ;2014
+Santos;Gremio;bet365;2.10;3.25;3.60;03 May 2014; 0;0 ;2014
+Santos;Gremio;bwin;2.00;3.30;3.40;03 May 2014; 0;0 ;2014
+Santos;Gremio;Marathonbet;2.00;3.50;4.25;03 May 2014; 0;0 ;2014
+Santos;Gremio;Pinnacle;2.17;3.30;3.82;03 May 2014; 0;0 ;2014
+Santos;Gremio;Unibet;1.85;3.30;4.00;03 May 2014; 0;0 ;2014
+Santos;Gremio;William Hill;1.85;3.20;4.20;03 May 2014; 0;0 ;2014
+Sao Paulo;Coritiba;bet-at-home;1.60;3.65;5.40;03 May 2014; 2;2 ;2014
+Sao Paulo;Coritiba;bet365;1.67;3.50;5.50;03 May 2014; 2;2 ;2014
+Sao Paulo;Coritiba;bwin;1.55;3.60;5.75;03 May 2014; 2;2 ;2014
+Sao Paulo;Coritiba;Marathonbet;1.56;4.00;7.70;03 May 2014; 2;2 ;2014
+Sao Paulo;Coritiba;Pinnacle;1.68;3.88;5.77;03 May 2014; 2;2 ;2014
+Sao Paulo;Coritiba;Unibet;1.62;3.50;5.50;03 May 2014; 2;2 ;2014
+Sao Paulo;Coritiba;William Hill;1.57;3.60;5.50;03 May 2014; 2;2 ;2014
+Figueirense;Bahia;bet-at-home;2.95;3.15;2.30;27 Apr 2014; 0;2 ;2014
+Figueirense;Bahia;bet365;3.00;3.20;2.40;27 Apr 2014; 0;2 ;2014
+Figueirense;Bahia;bwin;2.85;3.10;2.35;27 Apr 2014; 0;2 ;2014
+Figueirense;Bahia;Marathonbet;3.20;3.15;2.55;27 Apr 2014; 0;2 ;2014
+Figueirense;Bahia;Pinnacle;3.24;3.38;2.38;27 Apr 2014; 0;2 ;2014
+Figueirense;Bahia;Unibet;2.80;3.10;2.50;27 Apr 2014; 0;2 ;2014
+Figueirense;Bahia;William Hill;2.80;3.20;2.38;27 Apr 2014; 0;2 ;2014
+Goias;Criciuma;bet-at-home;1.75;3.35;4.65;27 Apr 2014; 1;0 ;2014
+Goias;Criciuma;bet365;1.75;3.50;4.75;27 Apr 2014; 1;0 ;2014
+Goias;Criciuma;bwin;1.65;3.50;4.75;27 Apr 2014; 1;0 ;2014
+Goias;Criciuma;Marathonbet;1.78;3.65;5.40;27 Apr 2014; 1;0 ;2014
+Goias;Criciuma;Pinnacle;1.85;3.53;5.00;27 Apr 2014; 1;0 ;2014
+Goias;Criciuma;Unibet;1.70;3.55;4.70;27 Apr 2014; 1;0 ;2014
+Goias;Criciuma;William Hill;1.65;3.50;5.00;27 Apr 2014; 1;0 ;2014
+Gremio;Atletico-MG;bet-at-home;2.35;3.00;2.95;27 Apr 2014; 2;1 ;2014
+Gremio;Atletico-MG;bet365;2.50;3.10;2.90;27 Apr 2014; 2;1 ;2014
+Gremio;Atletico-MG;bwin;2.30;3.10;2.95;27 Apr 2014; 2;1 ;2014
+Gremio;Atletico-MG;Marathonbet;2.54;3.25;3.13;27 Apr 2014; 2;1 ;2014
+Gremio;Atletico-MG;Pinnacle;2.45;3.32;3.16;27 Apr 2014; 2;1 ;2014
+Gremio;Atletico-MG;Unibet;2.30;3.20;2.95;27 Apr 2014; 2;1 ;2014
+Gremio;Atletico-MG;William Hill;2.25;3.00;3.20;27 Apr 2014; 2;1 ;2014
+Sport Recife;Chapecoense-SC;bet-at-home;1.80;3.35;4.35;27 Apr 2014; 2;1 ;2014
+Sport Recife;Chapecoense-SC;bet365;1.80;3.50;4.50;27 Apr 2014; 2;1 ;2014
+Sport Recife;Chapecoense-SC;bwin;1.85;3.25;4.00;27 Apr 2014; 2;1 ;2014
+Sport Recife;Chapecoense-SC;Marathonbet;1.86;3.70;4.70;27 Apr 2014; 2;1 ;2014
+Sport Recife;Chapecoense-SC;Pinnacle;1.85;3.61;4.85;27 Apr 2014; 2;1 ;2014
+Sport Recife;Chapecoense-SC;Unibet;1.85;3.40;3.95;27 Apr 2014; 2;1 ;2014
+Sport Recife;Chapecoense-SC;William Hill;1.91;3.30;3.80;27 Apr 2014; 2;1 ;2014
+Botafogo RJ;Internacional;bet-at-home;2.60;3.15;2.60;27 Apr 2014; 2;2 ;2014
+Botafogo RJ;Internacional;bet365;2.50;3.25;2.80;27 Apr 2014; 2;2 ;2014
+Botafogo RJ;Internacional;bwin;2.50;3.10;2.65;27 Apr 2014; 2;2 ;2014
+Botafogo RJ;Internacional;Marathonbet;2.76;3.35;2.78;27 Apr 2014; 2;2 ;2014
+Botafogo RJ;Internacional;Pinnacle;2.77;3.31;2.76;27 Apr 2014; 2;2 ;2014
+Botafogo RJ;Internacional;Unibet;2.60;3.25;2.50;27 Apr 2014; 2;2 ;2014
+Botafogo RJ;Internacional;William Hill;2.70;3.20;2.45;27 Apr 2014; 2;2 ;2014
+Corinthians;Flamengo RJ;bet-at-home;1.85;3.25;4.05;27 Apr 2014; 2;0 ;2014
+Corinthians;Flamengo RJ;bet365;1.85;3.40;4.33;27 Apr 2014; 2;0 ;2014
+Corinthians;Flamengo RJ;bwin;1.90;3.10;4.00;27 Apr 2014; 2;0 ;2014
+Corinthians;Flamengo RJ;Marathonbet;1.90;3.45;4.85;27 Apr 2014; 2;0 ;2014
+Corinthians;Flamengo RJ;Pinnacle;1.94;3.31;4.79;27 Apr 2014; 2;0 ;2014
+Corinthians;Flamengo RJ;Unibet;1.95;3.30;3.70;27 Apr 2014; 2;0 ;2014
+Corinthians;Flamengo RJ;William Hill;1.95;3.25;3.70;27 Apr 2014; 2;0 ;2014
+Cruzeiro;Sao Paulo;bet-at-home;2.10;3.20;3.30;27 Apr 2014; 1;1 ;2014
+Cruzeiro;Sao Paulo;bet365;2.10;3.30;3.50;27 Apr 2014; 1;1 ;2014
+Cruzeiro;Sao Paulo;bwin;2.05;3.20;3.30;27 Apr 2014; 1;1 ;2014
+Cruzeiro;Sao Paulo;Marathonbet;2.15;3.50;3.70;27 Apr 2014; 1;1 ;2014
+Cruzeiro;Sao Paulo;Pinnacle;2.21;3.40;3.58;27 Apr 2014; 1;1 ;2014
+Cruzeiro;Sao Paulo;Unibet;2.20;3.30;3.05;27 Apr 2014; 1;1 ;2014
+Cruzeiro;Sao Paulo;William Hill;2.25;3.20;3.00;27 Apr 2014; 1;1 ;2014
+Vitoria;Athletico-PR;bet-at-home;2.10;3.25;3.30;27 Apr 2014; 2;2 ;2014
+Vitoria;Athletico-PR;bet365;2.10;3.30;3.50;27 Apr 2014; 2;2 ;2014
+Vitoria;Athletico-PR;bwin;2.10;3.25;3.20;27 Apr 2014; 2;2 ;2014
+Vitoria;Athletico-PR;Marathonbet;2.14;3.45;3.80;27 Apr 2014; 2;2 ;2014
+Vitoria;Athletico-PR;Pinnacle;2.15;3.48;3.72;27 Apr 2014; 2;2 ;2014
+Vitoria;Athletico-PR;Unibet;2.20;3.30;3.00;27 Apr 2014; 2;2 ;2014
+Vitoria;Athletico-PR;William Hill;2.20;3.20;3.10;27 Apr 2014; 2;2 ;2014
+Palmeiras;Fluminense;bet-at-home;2.35;3.15;2.90;27 Apr 2014; 0;1 ;2014
+Palmeiras;Fluminense;bet365;2.40;3.20;3.00;27 Apr 2014; 0;1 ;2014
+Palmeiras;Fluminense;bwin;2.15;3.20;3.10;27 Apr 2014; 0;1 ;2014
+Palmeiras;Fluminense;Marathonbet;2.38;3.35;3.30;27 Apr 2014; 0;1 ;2014
+Palmeiras;Fluminense;Pinnacle;2.42;3.33;3.20;27 Apr 2014; 0;1 ;2014
+Palmeiras;Fluminense;Unibet;2.30;3.20;3.00;27 Apr 2014; 0;1 ;2014
+Palmeiras;Fluminense;William Hill;2.25;3.20;3.00;27 Apr 2014; 0;1 ;2014
+Coritiba;Santos;bet-at-home;2.30;3.15;2.95;26 Apr 2014; 0;0 ;2014
+Coritiba;Santos;bet365;2.40;3.20;3.00;26 Apr 2014; 0;0 ;2014
+Coritiba;Santos;bwin;2.30;3.20;2.80;26 Apr 2014; 0;0 ;2014
+Coritiba;Santos;Marathonbet;2.50;3.35;3.10;26 Apr 2014; 0;0 ;2014
+Coritiba;Santos;Pinnacle;2.46;3.34;3.14;26 Apr 2014; 0;0 ;2014
+Coritiba;Santos;Unibet;2.40;3.30;2.70;26 Apr 2014; 0;0 ;2014
+Coritiba;Santos;William Hill;2.40;3.20;2.75;26 Apr 2014; 0;0 ;2014
+Criciuma;Palmeiras;bet-at-home;2.90;3.10;2.40;20 Apr 2014; 1;2 ;2014
+Criciuma;Palmeiras;bet365;3.00;3.20;2.40;20 Apr 2014; 1;2 ;2014
+Criciuma;Palmeiras;bwin;2.65;3.10;2.50;20 Apr 2014; 1;2 ;2014
+Criciuma;Palmeiras;Marathonbet;3.20;3.30;2.46;20 Apr 2014; 1;2 ;2014
+Criciuma;Palmeiras;Pinnacle;3.13;3.33;2.47;20 Apr 2014; 1;2 ;2014
+Criciuma;Palmeiras;Unibet;2.90;3.20;2.35;20 Apr 2014; 1;2 ;2014
+Criciuma;Palmeiras;William Hill;2.90;3.10;2.38;20 Apr 2014; 1;2 ;2014
+Flamengo RJ;Goias;bet-at-home;1.90;3.35;3.80;20 Apr 2014; 0;0 ;2014
+Flamengo RJ;Goias;bet365;2.25;3.20;3.30;20 Apr 2014; 0;0 ;2014
+Flamengo RJ;Goias;bwin;1.90;3.25;3.75;20 Apr 2014; 0;0 ;2014
+Flamengo RJ;Goias;Marathonbet;2.24;3.30;3.70;20 Apr 2014; 0;0 ;2014
+Flamengo RJ;Goias;Pinnacle;2.28;3.33;3.49;20 Apr 2014; 0;0 ;2014
+Flamengo RJ;Goias;Unibet;1.90;3.40;3.80;20 Apr 2014; 0;0 ;2014
+Flamengo RJ;Goias;William Hill;2.15;3.20;3.20;20 Apr 2014; 0;0 ;2014
+Santos;Sport Recife;bet-at-home;1.35;4.30;8.10;20 Apr 2014; 1;1 ;2014
+Santos;Sport Recife;bet365;1.40;4.50;8.00;20 Apr 2014; 1;1 ;2014
+Santos;Sport Recife;bwin;1.42;4.00;6.75;20 Apr 2014; 1;1 ;2014
+Santos;Sport Recife;Marathonbet;1.39;5.10;9.50;20 Apr 2014; 1;1 ;2014
+Santos;Sport Recife;Pinnacle;1.37;5.12;9.68;20 Apr 2014; 1;1 ;2014
+Santos;Sport Recife;Unibet;1.40;4.20;7.50;20 Apr 2014; 1;1 ;2014
+Santos;Sport Recife;William Hill;1.40;4.33;7.00;20 Apr 2014; 1;1 ;2014
+Athletico-PR;Gremio;bet-at-home;3.20;3.15;2.15;20 Apr 2014; 1;0 ;2014
+Athletico-PR;Gremio;bet365;3.10;3.40;2.25;20 Apr 2014; 1;0 ;2014
+Athletico-PR;Gremio;bwin;2.90;3.10;2.30;20 Apr 2014; 1;0 ;2014
+Athletico-PR;Gremio;Marathonbet;3.40;3.30;2.38;20 Apr 2014; 1;0 ;2014
+Athletico-PR;Gremio;Pinnacle;3.53;3.40;2.23;20 Apr 2014; 1;0 ;2014
+Athletico-PR;Gremio;Unibet;2.90;3.20;2.28;20 Apr 2014; 1;0 ;2014
+Athletico-PR;Gremio;William Hill;2.50;3.00;2.80;20 Apr 2014; 1;0 ;2014
+Atletico-MG;Corinthians;bet-at-home;2.35;3.00;3.00;20 Apr 2014; 0;0 ;2014
+Atletico-MG;Corinthians;bet365;2.38;3.10;3.10;20 Apr 2014; 0;0 ;2014
+Atletico-MG;Corinthians;bwin;2.30;3.10;2.95;20 Apr 2014; 0;0 ;2014
+Atletico-MG;Corinthians;Marathonbet;2.52;3.30;3.13;20 Apr 2014; 0;0 ;2014
+Atletico-MG;Corinthians;Pinnacle;2.48;3.19;3.24;20 Apr 2014; 0;0 ;2014
+Atletico-MG;Corinthians;Unibet;2.30;3.15;3.00;20 Apr 2014; 0;0 ;2014
+Atletico-MG;Corinthians;William Hill;2.25;3.00;3.20;20 Apr 2014; 0;0 ;2014
+Bahia;Cruzeiro;bet-at-home;2.45;3.15;2.75;20 Apr 2014; 1;2 ;2014
+Bahia;Cruzeiro;bet365;2.50;3.00;3.00;20 Apr 2014; 1;2 ;2014
+Bahia;Cruzeiro;bwin;2.50;3.20;2.60;20 Apr 2014; 1;2 ;2014
+Bahia;Cruzeiro;Marathonbet;2.63;3.45;2.86;20 Apr 2014; 1;2 ;2014
+Bahia;Cruzeiro;Pinnacle;2.58;3.43;2.89;20 Apr 2014; 1;2 ;2014
+Bahia;Cruzeiro;Unibet;2.50;3.25;2.60;20 Apr 2014; 1;2 ;2014
+Bahia;Cruzeiro;William Hill;2.60;3.00;2.70;20 Apr 2014; 1;2 ;2014
+Sao Paulo;Botafogo RJ;bet-at-home;1.75;3.50;4.35;20 Apr 2014; 3;0 ;2014
+Sao Paulo;Botafogo RJ;bet365;1.73;3.75;4.50;20 Apr 2014; 3;0 ;2014
+Sao Paulo;Botafogo RJ;bwin;1.72;3.50;4.33;20 Apr 2014; 3;0 ;2014
+Sao Paulo;Botafogo RJ;Marathonbet;1.80;3.75;5.00;20 Apr 2014; 3;0 ;2014
+Sao Paulo;Botafogo RJ;Pinnacle;1.79;3.69;5.06;20 Apr 2014; 3;0 ;2014
+Sao Paulo;Botafogo RJ;Unibet;1.75;3.50;4.40;20 Apr 2014; 3;0 ;2014
+Sao Paulo;Botafogo RJ;William Hill;1.83;3.25;4.20;20 Apr 2014; 3;0 ;2014
+Chapecoense-SC;Coritiba;bet-at-home;2.30;3.10;3.00;20 Apr 2014; 0;0 ;2014
+Chapecoense-SC;Coritiba;bet365;2.30;3.20;3.20;20 Apr 2014; 0;0 ;2014
+Chapecoense-SC;Coritiba;bwin;2.25;3.10;3.00;20 Apr 2014; 0;0 ;2014
+Chapecoense-SC;Coritiba;Marathonbet;2.45;3.30;3.25;20 Apr 2014; 0;0 ;2014
+Chapecoense-SC;Coritiba;Pinnacle;2.48;3.30;3.15;20 Apr 2014; 0;0 ;2014
+Chapecoense-SC;Coritiba;Unibet;2.30;3.25;2.90;20 Apr 2014; 0;0 ;2014
+Chapecoense-SC;Coritiba;William Hill;2.30;3.10;3.00;20 Apr 2014; 0;0 ;2014
+Fluminense;Figueirense;bet-at-home;1.55;3.80;5.50;19 Apr 2014; 3;0 ;2014
+Fluminense;Figueirense;bet365;1.50;3.90;7.00;19 Apr 2014; 3;0 ;2014
+Fluminense;Figueirense;bwin;1.48;3.70;6.50;19 Apr 2014; 3;0 ;2014
+Fluminense;Figueirense;Marathonbet;1.56;4.33;6.70;19 Apr 2014; 3;0 ;2014
+Fluminense;Figueirense;Pinnacle;1.55;4.23;7.02;19 Apr 2014; 3;0 ;2014
+Fluminense;Figueirense;Unibet;1.52;3.65;6.25;19 Apr 2014; 3;0 ;2014
+Fluminense;Figueirense;William Hill;1.55;3.60;6.00;19 Apr 2014; 3;0 ;2014
+Internacional;Vitoria;bet-at-home;1.50;3.90;6.40;19 Apr 2014; 1;0 ;2014
+Internacional;Vitoria;bet365;1.44;4.20;7.50;19 Apr 2014; 1;0 ;2014
+Internacional;Vitoria;bwin;1.48;3.80;6.25;19 Apr 2014; 1;0 ;2014
+Internacional;Vitoria;Marathonbet;1.46;4.65;8.30;19 Apr 2014; 1;0 ;2014
+Internacional;Vitoria;Pinnacle;1.51;4.41;7.41;19 Apr 2014; 1;0 ;2014
+Internacional;Vitoria;Unibet;1.47;3.95;6.50;19 Apr 2014; 1;0 ;2014
+Internacional;Vitoria;William Hill;1.60;3.75;5.00;19 Apr 2014; 1;0 ;2014

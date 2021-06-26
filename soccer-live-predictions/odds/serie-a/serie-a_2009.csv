@@ -1,0 +1,1768 @@
+Home_id;Away_id;Bookmaker;OddHome;OddDraw;OddAway;Date;Score_home;Score_away;Season
+Barueri;Athletico-PR;bet-at-home;2.15;3.25;2.85;06 Dec 2009; 0;0 ;2009
+Barueri;Athletico-PR;bet365;2.10;3.40;3.40;06 Dec 2009; 0;0 ;2009
+Barueri;Athletico-PR;bwin;1.91;3.30;3.50;06 Dec 2009; 0;0 ;2009
+Barueri;Athletico-PR;Pinnacle;2.15;3.46;3.74;06 Dec 2009; 0;0 ;2009
+Barueri;Athletico-PR;Unibet;2.04;3.30;3.35;06 Dec 2009; 0;0 ;2009
+Botafogo RJ;Palmeiras;bet-at-home;2.04;3.30;3.00;06 Dec 2009; 2;1 ;2009
+Botafogo RJ;Palmeiras;bet365;2.15;3.50;3.20;06 Dec 2009; 2;1 ;2009
+Botafogo RJ;Palmeiras;bwin;2.00;3.30;3.25;06 Dec 2009; 2;1 ;2009
+Botafogo RJ;Palmeiras;Pinnacle;2.15;3.70;3.51;06 Dec 2009; 2;1 ;2009
+Botafogo RJ;Palmeiras;Unibet;2.20;3.40;2.90;06 Dec 2009; 2;1 ;2009
+Coritiba;Fluminense;bet-at-home;2.20;3.15;2.85;06 Dec 2009; 1;1 ;2009
+Coritiba;Fluminense;bet365;2.10;3.30;3.40;06 Dec 2009; 1;1 ;2009
+Coritiba;Fluminense;bwin;2.25;3.20;2.80;06 Dec 2009; 1;1 ;2009
+Coritiba;Fluminense;Pinnacle;2.16;3.51;3.68;06 Dec 2009; 1;1 ;2009
+Coritiba;Fluminense;Unibet;2.20;3.25;3.00;06 Dec 2009; 1;1 ;2009
+Flamengo RJ;Gremio;bet-at-home;1.20;5.25;10.00;06 Dec 2009; 2;1 ;2009
+Flamengo RJ;Gremio;bet365;1.22;5.75;12.00;06 Dec 2009; 2;1 ;2009
+Flamengo RJ;Gremio;bwin;1.20;5.50;10.50;06 Dec 2009; 2;1 ;2009
+Flamengo RJ;Gremio;Pinnacle;1.26;6.67;11.24;06 Dec 2009; 2;1 ;2009
+Flamengo RJ;Gremio;Unibet;1.25;4.95;11.50;06 Dec 2009; 2;1 ;2009
+Internacional;Santo Andre;bet-at-home;1.35;4.00;7.50;06 Dec 2009; 4;1 ;2009
+Internacional;Santo Andre;bet365;1.36;4.75;8.00;06 Dec 2009; 4;1 ;2009
+Internacional;Santo Andre;bwin;1.35;4.20;7.50;06 Dec 2009; 4;1 ;2009
+Internacional;Santo Andre;Pinnacle;1.41;5.14;8.02;06 Dec 2009; 4;1 ;2009
+Internacional;Santo Andre;Unibet;1.40;4.00;8.00;06 Dec 2009; 4;1 ;2009
+Santos;Cruzeiro;bet-at-home;2.75;3.10;2.29;06 Dec 2009; 1;2 ;2009
+Santos;Cruzeiro;bet365;2.63;3.40;2.63;06 Dec 2009; 1;2 ;2009
+Santos;Cruzeiro;bwin;2.70;3.20;2.35;06 Dec 2009; 1;2 ;2009
+Santos;Cruzeiro;Pinnacle;2.65;3.52;2.78;06 Dec 2009; 1;2 ;2009
+Santos;Cruzeiro;Unibet;2.65;3.30;2.45;06 Dec 2009; 1;2 ;2009
+Sao Paulo;Sport Recife;bet-at-home;1.14;5.85;12.00;06 Dec 2009; 4;0 ;2009
+Sao Paulo;Sport Recife;bet365;1.22;6.00;12.00;06 Dec 2009; 4;0 ;2009
+Sao Paulo;Sport Recife;bwin;1.20;5.50;10.50;06 Dec 2009; 4;0 ;2009
+Sao Paulo;Sport Recife;Unibet;1.17;5.80;15.00;06 Dec 2009; 4;0 ;2009
+Vitoria;Goias;bet-at-home;1.60;3.50;4.70;06 Dec 2009; 2;2 ;2009
+Vitoria;Goias;bet365;1.62;3.75;5.50;06 Dec 2009; 2;2 ;2009
+Vitoria;Goias;bwin;1.60;3.50;5.00;06 Dec 2009; 2;2 ;2009
+Vitoria;Goias;Pinnacle;1.66;4.05;5.93;06 Dec 2009; 2;2 ;2009
+Vitoria;Goias;Unibet;1.55;3.60;6.00;06 Dec 2009; 2;2 ;2009
+Atletico-MG;Corinthians;bet-at-home;1.60;3.60;4.50;05 Dec 2009; 0;3 ;2009
+Atletico-MG;Corinthians;bet365;1.62;3.75;5.25;05 Dec 2009; 0;3 ;2009
+Atletico-MG;Corinthians;bwin;1.72;3.45;4.20;05 Dec 2009; 0;3 ;2009
+Atletico-MG;Corinthians;Pinnacle;1.68;4.16;5.54;05 Dec 2009; 0;3 ;2009
+Atletico-MG;Corinthians;Unibet;1.60;3.50;5.50;05 Dec 2009; 0;3 ;2009
+Nautico;Avai;bet-at-home;2.00;3.25;3.20;05 Dec 2009; 0;1 ;2009
+Nautico;Avai;bet365;2.25;3.25;3.25;05 Dec 2009; 0;1 ;2009
+Nautico;Avai;bwin;2.04;3.25;3.15;05 Dec 2009; 0;1 ;2009
+Nautico;Avai;Pinnacle;2.25;3.63;3.33;05 Dec 2009; 0;1 ;2009
+Nautico;Avai;Unibet;2.15;3.30;3.10;05 Dec 2009; 0;1 ;2009
+Athletico-PR;Botafogo RJ;bet-at-home;1.85;3.35;3.50;29 Nov 2009; 2;0 ;2009
+Athletico-PR;Botafogo RJ;bet365;2.00;3.40;3.75;29 Nov 2009; 2;0 ;2009
+Athletico-PR;Botafogo RJ;bwin;1.80;3.35;3.90;29 Nov 2009; 2;0 ;2009
+Athletico-PR;Botafogo RJ;Pinnacle;2.15;3.42;3.66;29 Nov 2009; 2;0 ;2009
+Athletico-PR;Botafogo RJ;Unibet;1.90;3.30;3.85;29 Nov 2009; 2;0 ;2009
+Avai;Santos;bet-at-home;2.00;3.20;3.20;29 Nov 2009; 2;2 ;2009
+Avai;Santos;bet365;2.29;3.25;3.00;29 Nov 2009; 2;2 ;2009
+Avai;Santos;bwin;2.10;3.20;3.10;29 Nov 2009; 2;2 ;2009
+Avai;Santos;Pinnacle;2.18;3.38;3.59;29 Nov 2009; 2;2 ;2009
+Avai;Santos;Unibet;2.20;3.25;3.10;29 Nov 2009; 2;2 ;2009
+Corinthians;Flamengo RJ;bet-at-home;3.20;3.20;2.00;29 Nov 2009; 0;2 ;2009
+Corinthians;Flamengo RJ;bet365;3.50;3.25;2.10;29 Nov 2009; 0;2 ;2009
+Corinthians;Flamengo RJ;bwin;3.25;3.30;2.00;29 Nov 2009; 0;2 ;2009
+Corinthians;Flamengo RJ;Pinnacle;3.73;3.53;2.08;29 Nov 2009; 0;2 ;2009
+Corinthians;Flamengo RJ;Unibet;3.15;3.25;2.15;29 Nov 2009; 0;2 ;2009
+Cruzeiro;Coritiba;bet-at-home;1.45;3.70;6.10;29 Nov 2009; 4;1 ;2009
+Cruzeiro;Coritiba;bet365;1.50;4.20;6.50;29 Nov 2009; 4;1 ;2009
+Cruzeiro;Coritiba;bwin;1.42;3.95;6.50;29 Nov 2009; 4;1 ;2009
+Cruzeiro;Coritiba;Pinnacle;1.48;4.45;7.79;29 Nov 2009; 4;1 ;2009
+Cruzeiro;Coritiba;Unibet;1.50;3.65;6.75;29 Nov 2009; 4;1 ;2009
+Fluminense;Vitoria;bet-at-home;1.50;3.60;5.60;29 Nov 2009; 4;0 ;2009
+Fluminense;Vitoria;bet365;1.60;3.75;5.50;29 Nov 2009; 4;0 ;2009
+Fluminense;Vitoria;bwin;1.45;3.85;6.15;29 Nov 2009; 4;0 ;2009
+Fluminense;Vitoria;Pinnacle;1.53;4.30;6.99;29 Nov 2009; 4;0 ;2009
+Fluminense;Vitoria;Unibet;1.50;3.65;6.75;29 Nov 2009; 4;0 ;2009
+Goias;Sao Paulo;bet-at-home;3.50;3.20;1.90;29 Nov 2009; 4;2 ;2009
+Goias;Sao Paulo;bet365;3.10;3.25;2.25;29 Nov 2009; 4;2 ;2009
+Goias;Sao Paulo;bwin;3.10;3.30;2.04;29 Nov 2009; 4;2 ;2009
+Goias;Sao Paulo;Pinnacle;3.78;3.52;2.08;29 Nov 2009; 4;2 ;2009
+Goias;Sao Paulo;Unibet;2.95;3.25;2.25;29 Nov 2009; 4;2 ;2009
+Gremio;Barueri;bet-at-home;1.55;3.40;5.45;29 Nov 2009; 4;2 ;2009
+Gremio;Barueri;bet365;1.57;3.80;5.75;29 Nov 2009; 4;2 ;2009
+Gremio;Barueri;bwin;1.52;3.70;5.50;29 Nov 2009; 4;2 ;2009
+Gremio;Barueri;Pinnacle;1.61;4.11;5.92;29 Nov 2009; 4;2 ;2009
+Gremio;Barueri;Unibet;1.58;3.55;5.75;29 Nov 2009; 4;2 ;2009
+Palmeiras;Atletico-MG;bet-at-home;1.75;3.20;4.20;29 Nov 2009; 3;1 ;2009
+Palmeiras;Atletico-MG;bet365;1.85;3.40;4.33;29 Nov 2009; 3;1 ;2009
+Palmeiras;Atletico-MG;bwin;1.80;3.30;3.95;29 Nov 2009; 3;1 ;2009
+Palmeiras;Atletico-MG;Pinnacle;1.87;3.70;4.43;29 Nov 2009; 3;1 ;2009
+Palmeiras;Atletico-MG;Unibet;1.90;3.30;3.85;29 Nov 2009; 3;1 ;2009
+Santo Andre;Nautico;bet-at-home;1.60;3.40;4.90;29 Nov 2009; 5;3 ;2009
+Santo Andre;Nautico;bet365;1.60;3.80;5.50;29 Nov 2009; 5;3 ;2009
+Santo Andre;Nautico;bwin;1.65;3.50;4.50;29 Nov 2009; 5;3 ;2009
+Santo Andre;Nautico;Pinnacle;1.80;3.75;4.80;29 Nov 2009; 5;3 ;2009
+Santo Andre;Nautico;Unibet;1.60;3.45;5.50;29 Nov 2009; 5;3 ;2009
+Sport Recife;Internacional;bet-at-home;4.09;3.45;1.70;29 Nov 2009; 1;2 ;2009
+Sport Recife;Internacional;bet365;4.50;3.50;1.83;29 Nov 2009; 1;2 ;2009
+Sport Recife;Internacional;bwin;4.40;3.35;1.70;29 Nov 2009; 1;2 ;2009
+Sport Recife;Internacional;Pinnacle;4.95;3.71;1.79;29 Nov 2009; 1;2 ;2009
+Sport Recife;Internacional;Unibet;4.30;3.35;1.80;29 Nov 2009; 1;2 ;2009
+Atletico-MG;Internacional;bet-at-home;2.10;3.10;3.10;22 Nov 2009; 0;1 ;2009
+Atletico-MG;Internacional;bet365;2.25;3.25;3.25;22 Nov 2009; 0;1 ;2009
+Atletico-MG;Internacional;bwin;2.00;3.20;3.35;22 Nov 2009; 0;1 ;2009
+Atletico-MG;Internacional;Pinnacle;2.12;3.61;3.51;22 Nov 2009; 0;1 ;2009
+Atletico-MG;Internacional;Unibet;2.15;3.25;3.10;22 Nov 2009; 0;1 ;2009
+Flamengo RJ;Goias;bet-at-home;1.35;4.15;7.00;22 Nov 2009; 0;0 ;2009
+Flamengo RJ;Goias;bet365;1.40;4.50;8.00;22 Nov 2009; 0;0 ;2009
+Flamengo RJ;Goias;bwin;1.35;4.20;7.50;22 Nov 2009; 0;0 ;2009
+Flamengo RJ;Goias;Pinnacle;1.43;4.70;8.36;22 Nov 2009; 0;0 ;2009
+Flamengo RJ;Goias;Unibet;1.40;4.00;7.50;22 Nov 2009; 0;0 ;2009
+Vitoria;Barueri;bet-at-home;1.70;3.45;4.09;22 Nov 2009; 2;1 ;2009
+Vitoria;Barueri;bet365;1.73;3.75;4.75;22 Nov 2009; 2;1 ;2009
+Vitoria;Barueri;bwin;1.70;3.35;4.45;22 Nov 2009; 2;1 ;2009
+Vitoria;Barueri;Pinnacle;1.85;3.74;4.50;22 Nov 2009; 2;1 ;2009
+Vitoria;Barueri;Unibet;1.80;3.35;4.09;22 Nov 2009; 2;1 ;2009
+Botafogo RJ;Sao Paulo;bet-at-home;2.40;3.10;2.60;22 Nov 2009; 3;2 ;2009
+Botafogo RJ;Sao Paulo;bet365;2.50;3.25;2.80;22 Nov 2009; 3;2 ;2009
+Botafogo RJ;Sao Paulo;bwin;2.50;3.20;2.50;22 Nov 2009; 3;2 ;2009
+Botafogo RJ;Sao Paulo;Pinnacle;2.68;3.32;2.79;22 Nov 2009; 3;2 ;2009
+Botafogo RJ;Sao Paulo;Unibet;2.35;3.25;2.70;22 Nov 2009; 3;2 ;2009
+Santo Andre;Avai;bet-at-home;2.20;3.20;2.80;22 Nov 2009; 4;2 ;2009
+Santo Andre;Avai;bet365;2.10;3.40;3.50;22 Nov 2009; 4;2 ;2009
+Santo Andre;Avai;bwin;2.20;3.25;2.85;22 Nov 2009; 4;2 ;2009
+Santo Andre;Avai;Unibet;2.20;3.25;3.00;22 Nov 2009; 4;2 ;2009
+Santos;Coritiba;bet-at-home;1.80;3.25;3.85;22 Nov 2009; 4;0 ;2009
+Santos;Coritiba;bet365;1.91;3.40;4.00;22 Nov 2009; 4;0 ;2009
+Santos;Coritiba;bwin;1.85;3.30;3.70;22 Nov 2009; 4;0 ;2009
+Santos;Coritiba;Pinnacle;1.93;3.65;4.29;22 Nov 2009; 4;0 ;2009
+Santos;Coritiba;Unibet;1.80;3.40;4.00;22 Nov 2009; 4;0 ;2009
+Sport Recife;Fluminense;bet-at-home;3.10;3.20;2.04;22 Nov 2009; 0;3 ;2009
+Sport Recife;Fluminense;bet365;3.20;3.25;2.25;22 Nov 2009; 0;3 ;2009
+Sport Recife;Fluminense;bwin;3.25;3.30;2.00;22 Nov 2009; 0;3 ;2009
+Sport Recife;Fluminense;Pinnacle;3.87;3.55;2.02;22 Nov 2009; 0;3 ;2009
+Sport Recife;Fluminense;Unibet;3.10;3.25;2.15;22 Nov 2009; 0;3 ;2009
+Athletico-PR;Cruzeiro;bet-at-home;2.50;3.10;2.50;21 Nov 2009; 1;1 ;2009
+Athletico-PR;Cruzeiro;bet365;2.70;3.25;2.60;21 Nov 2009; 1;1 ;2009
+Athletico-PR;Cruzeiro;bwin;2.45;3.20;2.54;21 Nov 2009; 1;1 ;2009
+Athletico-PR;Cruzeiro;Pinnacle;2.72;3.58;2.69;21 Nov 2009; 1;1 ;2009
+Athletico-PR;Cruzeiro;Unibet;2.45;3.25;2.65;21 Nov 2009; 1;1 ;2009
+Corinthians;Nautico;bet-at-home;1.75;3.30;4.00;21 Nov 2009; 2;3 ;2009
+Corinthians;Nautico;bet365;1.73;3.60;4.75;21 Nov 2009; 2;3 ;2009
+Corinthians;Nautico;bwin;1.70;3.45;4.25;21 Nov 2009; 2;3 ;2009
+Corinthians;Nautico;Pinnacle;1.82;3.63;4.99;21 Nov 2009; 2;3 ;2009
+Corinthians;Nautico;Unibet;1.70;3.45;4.75;21 Nov 2009; 2;3 ;2009
+Gremio;Palmeiras;bet-at-home;2.35;3.20;2.60;19 Nov 2009; 2;0 ;2009
+Gremio;Palmeiras;bet365;2.29;3.60;2.88;19 Nov 2009; 2;0 ;2009
+Gremio;Palmeiras;bwin;2.29;3.20;2.75;19 Nov 2009; 2;0 ;2009
+Gremio;Palmeiras;Pinnacle;2.27;3.81;3.12;19 Nov 2009; 2;0 ;2009
+Gremio;Palmeiras;Unibet;2.29;3.25;2.85;19 Nov 2009; 2;0 ;2009
+Fluminense;Athletico-PR;bet-at-home;1.55;3.70;4.90;15 Nov 2009; 2;1 ;2009
+Fluminense;Athletico-PR;bet365;1.62;3.70;5.50;15 Nov 2009; 2;1 ;2009
+Fluminense;Athletico-PR;bwin;1.55;3.65;5.15;15 Nov 2009; 2;1 ;2009
+Fluminense;Athletico-PR;Pinnacle;1.69;3.74;6.13;15 Nov 2009; 2;1 ;2009
+Fluminense;Athletico-PR;Unibet;1.62;3.50;5.40;15 Nov 2009; 2;1 ;2009
+Goias;Santo Andre;bet-at-home;1.70;3.40;4.20;15 Nov 2009; 3;1 ;2009
+Goias;Santo Andre;bet365;1.80;3.60;4.20;15 Nov 2009; 3;1 ;2009
+Goias;Santo Andre;bwin;1.70;3.45;4.25;15 Nov 2009; 3;1 ;2009
+Goias;Santo Andre;Pinnacle;1.97;3.69;4.17;15 Nov 2009; 3;1 ;2009
+Goias;Santo Andre;Unibet;1.80;3.35;4.30;15 Nov 2009; 3;1 ;2009
+Internacional;Santos;bet-at-home;1.60;3.40;4.90;15 Nov 2009; 3;1 ;2009
+Internacional;Santos;bet365;1.62;3.80;5.25;15 Nov 2009; 3;1 ;2009
+Internacional;Santos;bwin;1.60;3.50;5.00;15 Nov 2009; 3;1 ;2009
+Internacional;Santos;Pinnacle;1.66;3.92;6.13;15 Nov 2009; 3;1 ;2009
+Internacional;Santos;Unibet;1.60;3.45;5.50;15 Nov 2009; 3;1 ;2009
+Avai;Corinthians;bet-at-home;1.90;3.35;3.35;15 Nov 2009; 3;1 ;2009
+Avai;Corinthians;bet365;1.91;3.40;3.80;15 Nov 2009; 3;1 ;2009
+Avai;Corinthians;bwin;2.00;3.25;3.30;15 Nov 2009; 3;1 ;2009
+Avai;Corinthians;Pinnacle;1.93;3.67;4.37;15 Nov 2009; 3;1 ;2009
+Avai;Corinthians;Unibet;1.90;3.20;3.80;15 Nov 2009; 3;1 ;2009
+Barueri;Botafogo RJ;bet-at-home;2.10;3.10;3.10;15 Nov 2009; 3;0 ;2009
+Barueri;Botafogo RJ;bet365;2.25;3.30;3.10;15 Nov 2009; 3;0 ;2009
+Barueri;Botafogo RJ;bwin;2.29;3.20;2.75;15 Nov 2009; 3;0 ;2009
+Barueri;Botafogo RJ;Pinnacle;2.57;3.36;3.01;15 Nov 2009; 3;0 ;2009
+Barueri;Botafogo RJ;Unibet;2.20;3.25;3.00;15 Nov 2009; 3;0 ;2009
+Nautico;Flamengo RJ;bet-at-home;2.80;3.25;2.20;15 Nov 2009; 0;2 ;2009
+Nautico;Flamengo RJ;bet365;2.88;3.40;2.40;15 Nov 2009; 0;2 ;2009
+Nautico;Flamengo RJ;bwin;2.95;3.35;2.10;15 Nov 2009; 0;2 ;2009
+Nautico;Flamengo RJ;Pinnacle;2.94;3.53;2.52;15 Nov 2009; 0;2 ;2009
+Nautico;Flamengo RJ;Unibet;3.00;3.30;2.20;15 Nov 2009; 0;2 ;2009
+Coritiba;Atletico-MG;bet-at-home;2.20;3.25;2.80;14 Nov 2009; 2;1 ;2009
+Coritiba;Atletico-MG;bet365;2.29;3.25;3.10;14 Nov 2009; 2;1 ;2009
+Coritiba;Atletico-MG;bwin;2.00;3.25;3.30;14 Nov 2009; 2;1 ;2009
+Coritiba;Atletico-MG;Pinnacle;2.37;3.19;3.47;14 Nov 2009; 2;1 ;2009
+Coritiba;Atletico-MG;Unibet;2.15;3.25;3.10;14 Nov 2009; 2;1 ;2009
+Cruzeiro;Gremio;bet-at-home;1.60;3.60;4.50;14 Nov 2009; 1;1 ;2009
+Cruzeiro;Gremio;bet365;1.70;3.50;5.00;14 Nov 2009; 1;1 ;2009
+Cruzeiro;Gremio;bwin;1.55;3.60;5.40;14 Nov 2009; 1;1 ;2009
+Cruzeiro;Gremio;Pinnacle;1.71;3.79;5.75;14 Nov 2009; 1;1 ;2009
+Cruzeiro;Gremio;Unibet;1.67;3.45;5.00;14 Nov 2009; 1;1 ;2009
+Sao Paulo;Vitoria;bet-at-home;1.50;3.80;5.25;14 Nov 2009; 2;0 ;2009
+Sao Paulo;Vitoria;bet365;1.55;3.80;6.50;14 Nov 2009; 2;0 ;2009
+Sao Paulo;Vitoria;bwin;1.45;3.75;6.50;14 Nov 2009; 2;0 ;2009
+Sao Paulo;Vitoria;Pinnacle;1.53;4.22;7.36;14 Nov 2009; 2;0 ;2009
+Sao Paulo;Vitoria;Unibet;1.50;3.65;6.75;14 Nov 2009; 2;0 ;2009
+Palmeiras;Sport Recife;bet-at-home;1.25;4.75;8.75;12 Nov 2009; 2;2 ;2009
+Palmeiras;Sport Recife;bet365;1.29;5.00;11.00;12 Nov 2009; 2;2 ;2009
+Palmeiras;Sport Recife;bwin;1.27;4.75;8.75;12 Nov 2009; 2;2 ;2009
+Palmeiras;Sport Recife;Pinnacle;1.34;5.33;11.04;12 Nov 2009; 2;2 ;2009
+Palmeiras;Sport Recife;Unibet;1.40;4.00;8.00;12 Nov 2009; 2;2 ;2009
+Athletico-PR;Goias;bet-at-home;1.75;3.40;3.90;08 Nov 2009; 2;0 ;2009
+Athletico-PR;Goias;bet365;1.80;3.60;4.33;08 Nov 2009; 2;0 ;2009
+Athletico-PR;Goias;bwin;1.65;3.50;4.50;08 Nov 2009; 2;0 ;2009
+Athletico-PR;Goias;Pinnacle;1.81;4.01;4.57;08 Nov 2009; 2;0 ;2009
+Athletico-PR;Goias;Unibet;1.80;3.40;4.20;08 Nov 2009; 2;0 ;2009
+Barueri;Internacional;bet-at-home;2.29;3.25;2.65;08 Nov 2009; 1;1 ;2009
+Barueri;Internacional;bet365;2.70;3.25;2.60;08 Nov 2009; 1;1 ;2009
+Barueri;Internacional;bwin;2.35;3.25;2.65;08 Nov 2009; 1;1 ;2009
+Barueri;Internacional;Pinnacle;2.72;3.55;2.72;08 Nov 2009; 1;1 ;2009
+Barueri;Internacional;Unibet;2.45;3.20;2.70;08 Nov 2009; 1;1 ;2009
+Botafogo RJ;Coritiba;bet-at-home;1.80;3.35;3.70;08 Nov 2009; 2;0 ;2009
+Botafogo RJ;Coritiba;bet365;1.83;3.60;4.20;08 Nov 2009; 2;0 ;2009
+Botafogo RJ;Coritiba;bwin;1.85;3.30;3.70;08 Nov 2009; 2;0 ;2009
+Botafogo RJ;Coritiba;Pinnacle;1.93;3.75;4.28;08 Nov 2009; 2;0 ;2009
+Botafogo RJ;Coritiba;Unibet;1.95;3.25;3.75;08 Nov 2009; 2;0 ;2009
+Atletico-MG;Flamengo RJ;bet-at-home;2.04;3.20;3.10;08 Nov 2009; 1;3 ;2009
+Atletico-MG;Flamengo RJ;bet365;2.20;3.30;3.25;08 Nov 2009; 1;3 ;2009
+Atletico-MG;Flamengo RJ;bwin;2.04;3.25;3.15;08 Nov 2009; 1;3 ;2009
+Atletico-MG;Flamengo RJ;Pinnacle;2.21;3.47;3.55;08 Nov 2009; 1;3 ;2009
+Atletico-MG;Flamengo RJ;Unibet;2.15;3.25;3.10;08 Nov 2009; 1;3 ;2009
+Corinthians;Santo Andre;bet-at-home;1.80;3.20;4.00;08 Nov 2009; 2;0 ;2009
+Corinthians;Santo Andre;bet365;1.83;3.50;4.20;08 Nov 2009; 2;0 ;2009
+Corinthians;Santo Andre;bwin;1.65;3.50;4.50;08 Nov 2009; 2;0 ;2009
+Corinthians;Santo Andre;Pinnacle;1.98;3.56;4.21;08 Nov 2009; 2;0 ;2009
+Corinthians;Santo Andre;Unibet;1.70;3.40;4.70;08 Nov 2009; 2;0 ;2009
+Fluminense;Palmeiras;bet-at-home;2.40;3.10;2.60;08 Nov 2009; 1;0 ;2009
+Fluminense;Palmeiras;bet365;2.40;3.30;2.90;08 Nov 2009; 1;0 ;2009
+Fluminense;Palmeiras;bwin;2.54;3.15;2.50;08 Nov 2009; 1;0 ;2009
+Fluminense;Palmeiras;Pinnacle;2.50;3.49;3.00;08 Nov 2009; 1;0 ;2009
+Fluminense;Palmeiras;Unibet;2.45;3.30;2.60;08 Nov 2009; 1;0 ;2009
+Santos;Nautico;bet-at-home;1.70;3.35;4.25;07 Nov 2009; 3;1 ;2009
+Santos;Nautico;bet365;1.67;3.80;5.00;07 Nov 2009; 3;1 ;2009
+Santos;Nautico;bwin;1.75;3.25;4.30;07 Nov 2009; 3;1 ;2009
+Santos;Nautico;Pinnacle;1.69;4.03;5.56;07 Nov 2009; 3;1 ;2009
+Santos;Nautico;Unibet;1.75;3.40;4.30;07 Nov 2009; 3;1 ;2009
+Sport Recife;Cruzeiro;bet-at-home;2.80;3.30;2.15;07 Nov 2009; 2;3 ;2009
+Sport Recife;Cruzeiro;bet365;3.20;3.30;2.25;07 Nov 2009; 2;3 ;2009
+Sport Recife;Cruzeiro;bwin;2.95;3.30;2.15;07 Nov 2009; 2;3 ;2009
+Sport Recife;Cruzeiro;Pinnacle;3.10;3.43;2.46;07 Nov 2009; 2;3 ;2009
+Sport Recife;Cruzeiro;Unibet;2.95;3.30;2.25;07 Nov 2009; 2;3 ;2009
+Vitoria;Avai;bet-at-home;1.90;3.20;3.50;07 Nov 2009; 0;1 ;2009
+Vitoria;Avai;bet365;1.95;3.50;3.75;07 Nov 2009; 0;1 ;2009
+Vitoria;Avai;bwin;1.90;3.35;3.45;07 Nov 2009; 0;1 ;2009
+Vitoria;Avai;Pinnacle;1.93;3.76;4.23;07 Nov 2009; 0;1 ;2009
+Vitoria;Avai;Unibet;1.90;3.30;3.80;07 Nov 2009; 0;1 ;2009
+Gremio;Sao Paulo;bet-at-home;2.20;3.25;2.75;05 Nov 2009; 1;1 ;2009
+Gremio;Sao Paulo;bet365;2.20;3.30;3.20;05 Nov 2009; 1;1 ;2009
+Gremio;Sao Paulo;bwin;2.35;3.25;2.65;05 Nov 2009; 1;1 ;2009
+Gremio;Sao Paulo;Pinnacle;2.23;3.61;3.38;05 Nov 2009; 1;1 ;2009
+Gremio;Sao Paulo;Unibet;2.29;3.25;2.90;05 Nov 2009; 1;1 ;2009
+Cruzeiro;Fluminense;bet-at-home;1.55;3.40;5.40;01 Nov 2009; 2;3 ;2009
+Cruzeiro;Fluminense;bet365;1.62;3.60;5.75;01 Nov 2009; 2;3 ;2009
+Cruzeiro;Fluminense;bwin;1.55;3.60;5.30;01 Nov 2009; 2;3 ;2009
+Cruzeiro;Fluminense;Unibet;1.60;3.45;5.75;01 Nov 2009; 2;3 ;2009
+Nautico;Sport Recife;bet-at-home;2.15;3.10;3.00;01 Nov 2009; 3;2 ;2009
+Nautico;Sport Recife;bet365;2.63;3.25;2.75;01 Nov 2009; 3;2 ;2009
+Nautico;Sport Recife;bwin;2.20;3.15;2.95;01 Nov 2009; 3;2 ;2009
+Nautico;Sport Recife;Unibet;2.25;3.25;2.90;01 Nov 2009; 3;2 ;2009
+Santo Andre;Gremio;bet-at-home;2.35;3.10;2.65;01 Nov 2009; 2;0 ;2009
+Santo Andre;Gremio;bet365;2.63;3.30;2.60;01 Nov 2009; 2;0 ;2009
+Santo Andre;Gremio;bwin;2.29;3.20;2.75;01 Nov 2009; 2;0 ;2009
+Santo Andre;Gremio;Unibet;2.40;3.20;2.70;01 Nov 2009; 2;0 ;2009
+Coritiba;Vitoria;bet-at-home;1.80;3.30;3.80;01 Nov 2009; 1;0 ;2009
+Coritiba;Vitoria;bet365;1.83;3.40;4.33;01 Nov 2009; 1;0 ;2009
+Coritiba;Vitoria;bwin;1.75;3.45;4.00;01 Nov 2009; 1;0 ;2009
+Coritiba;Vitoria;Unibet;1.80;3.40;4.00;01 Nov 2009; 1;0 ;2009
+Goias;Atletico-MG;bet-at-home;2.04;3.25;3.05;01 Nov 2009; 2;3 ;2009
+Goias;Atletico-MG;bet365;2.15;3.50;3.10;01 Nov 2009; 2;3 ;2009
+Goias;Atletico-MG;bwin;2.15;3.20;3.00;01 Nov 2009; 2;3 ;2009
+Goias;Atletico-MG;Unibet;2.10;3.25;3.20;01 Nov 2009; 2;3 ;2009
+Internacional;Botafogo RJ;bet-at-home;1.70;3.40;4.15;01 Nov 2009; 0;1 ;2009
+Internacional;Botafogo RJ;bet365;1.73;3.60;4.75;01 Nov 2009; 0;1 ;2009
+Internacional;Botafogo RJ;bwin;1.65;3.30;5.00;01 Nov 2009; 0;1 ;2009
+Internacional;Botafogo RJ;Unibet;1.65;3.40;5.00;01 Nov 2009; 0;1 ;2009
+Palmeiras;Corinthians;bet-at-home;2.15;3.15;2.95;01 Nov 2009; 2;2 ;2009
+Palmeiras;Corinthians;bet365;2.20;3.40;3.10;01 Nov 2009; 2;2 ;2009
+Palmeiras;Corinthians;bwin;2.00;3.20;3.35;01 Nov 2009; 2;2 ;2009
+Palmeiras;Corinthians;Unibet;2.15;3.20;3.20;01 Nov 2009; 2;2 ;2009
+Avai;Athletico-PR;bet-at-home;1.85;3.20;3.70;31 Oct 2009; 2;0 ;2009
+Avai;Athletico-PR;bet365;1.91;3.25;3.80;31 Oct 2009; 2;0 ;2009
+Avai;Athletico-PR;bwin;1.85;3.25;3.80;31 Oct 2009; 2;0 ;2009
+Avai;Athletico-PR;Unibet;1.90;3.30;3.80;31 Oct 2009; 2;0 ;2009
+Flamengo RJ;Santos;bet-at-home;1.70;3.40;4.20;31 Oct 2009; 1;0 ;2009
+Flamengo RJ;Santos;bet365;1.70;3.60;5.00;31 Oct 2009; 1;0 ;2009
+Flamengo RJ;Santos;bwin;1.70;3.25;4.59;31 Oct 2009; 1;0 ;2009
+Flamengo RJ;Santos;Unibet;1.70;3.40;4.70;31 Oct 2009; 1;0 ;2009
+Sao Paulo;Barueri;bet-at-home;1.40;3.70;7.00;31 Oct 2009; 1;0 ;2009
+Sao Paulo;Barueri;bet365;1.60;3.75;5.25;31 Oct 2009; 1;0 ;2009
+Sao Paulo;Barueri;bwin;1.45;3.70;6.50;31 Oct 2009; 1;0 ;2009
+Sao Paulo;Barueri;Unibet;1.45;3.80;7.00;31 Oct 2009; 1;0 ;2009
+Fluminense;Atletico-MG;bet-at-home;2.25;3.25;2.70;30 Oct 2009; 2;1 ;2009
+Fluminense;Atletico-MG;bet365;2.38;3.40;2.88;30 Oct 2009; 2;1 ;2009
+Fluminense;Atletico-MG;bwin;2.29;3.25;2.70;30 Oct 2009; 2;1 ;2009
+Fluminense;Atletico-MG;Pinnacle;2.57;3.58;2.84;30 Oct 2009; 2;1 ;2009
+Fluminense;Atletico-MG;Unibet;2.40;3.25;2.75;30 Oct 2009; 2;1 ;2009
+Palmeiras;Goias;bet-at-home;1.55;3.45;5.30;30 Oct 2009; 4;0 ;2009
+Palmeiras;Goias;bet365;1.65;3.60;5.00;30 Oct 2009; 4;0 ;2009
+Palmeiras;Goias;bwin;1.55;3.50;5.50;30 Oct 2009; 4;0 ;2009
+Palmeiras;Goias;Pinnacle;1.78;3.68;5.26;30 Oct 2009; 4;0 ;2009
+Palmeiras;Goias;Unibet;1.65;3.40;5.25;30 Oct 2009; 4;0 ;2009
+Barueri;Flamengo RJ;bet-at-home;2.70;3.15;2.29;29 Oct 2009; 2;0 ;2009
+Barueri;Flamengo RJ;bet365;2.75;3.40;2.45;29 Oct 2009; 2;0 ;2009
+Barueri;Flamengo RJ;bwin;2.75;3.50;2.15;29 Oct 2009; 2;0 ;2009
+Barueri;Flamengo RJ;Pinnacle;2.64;3.59;2.75;29 Oct 2009; 2;0 ;2009
+Barueri;Flamengo RJ;Unibet;2.75;3.25;2.40;29 Oct 2009; 2;0 ;2009
+Sao Paulo;Internacional;bet-at-home;1.85;3.35;3.55;29 Oct 2009; 1;0 ;2009
+Sao Paulo;Internacional;bet365;1.91;3.40;4.00;29 Oct 2009; 1;0 ;2009
+Sao Paulo;Internacional;bwin;1.80;3.35;3.85;29 Oct 2009; 1;0 ;2009
+Sao Paulo;Internacional;Pinnacle;1.86;3.76;4.59;29 Oct 2009; 1;0 ;2009
+Sao Paulo;Internacional;Unibet;1.90;3.25;4.00;29 Oct 2009; 1;0 ;2009
+Vitoria;Corinthians;bet-at-home;1.95;3.25;3.30;29 Oct 2009; 0;1 ;2009
+Vitoria;Corinthians;bet365;2.00;3.40;3.75;29 Oct 2009; 0;1 ;2009
+Vitoria;Corinthians;bwin;2.00;3.25;3.30;29 Oct 2009; 0;1 ;2009
+Vitoria;Corinthians;Pinnacle;2.11;3.48;3.86;29 Oct 2009; 0;1 ;2009
+Vitoria;Corinthians;Unibet;2.00;3.25;3.50;29 Oct 2009; 0;1 ;2009
+Cruzeiro;Santo Andre;bet-at-home;1.50;3.70;5.40;29 Oct 2009; 3;2 ;2009
+Cruzeiro;Santo Andre;bet365;1.60;4.00;5.25;29 Oct 2009; 3;2 ;2009
+Cruzeiro;Santo Andre;bwin;1.45;3.85;6.15;29 Oct 2009; 3;2 ;2009
+Cruzeiro;Santo Andre;Pinnacle;1.68;3.83;5.99;29 Oct 2009; 3;2 ;2009
+Cruzeiro;Santo Andre;Unibet;1.50;3.65;6.75;29 Oct 2009; 3;2 ;2009
+Gremio;Avai;bet-at-home;1.55;3.50;5.20;29 Oct 2009; 3;1 ;2009
+Gremio;Avai;bet365;1.57;3.80;6.00;29 Oct 2009; 3;1 ;2009
+Gremio;Avai;bwin;1.55;3.60;5.25;29 Oct 2009; 3;1 ;2009
+Gremio;Avai;Pinnacle;1.64;3.98;6.15;29 Oct 2009; 3;1 ;2009
+Gremio;Avai;Unibet;1.65;3.40;5.30;29 Oct 2009; 3;1 ;2009
+Athletico-PR;Santos;bet-at-home;2.04;3.10;3.20;28 Oct 2009; 1;1 ;2009
+Athletico-PR;Santos;bet365;2.29;3.25;3.10;28 Oct 2009; 1;1 ;2009
+Athletico-PR;Santos;bwin;1.95;3.25;3.45;28 Oct 2009; 1;1 ;2009
+Athletico-PR;Santos;Pinnacle;2.44;3.30;3.24;28 Oct 2009; 1;1 ;2009
+Athletico-PR;Santos;Unibet;2.15;3.25;3.20;28 Oct 2009; 1;1 ;2009
+Botafogo RJ;Nautico;bet-at-home;1.50;3.45;6.00;28 Oct 2009; 1;0 ;2009
+Botafogo RJ;Nautico;bet365;1.50;4.00;7.00;28 Oct 2009; 1;0 ;2009
+Botafogo RJ;Nautico;bwin;1.52;3.65;5.55;28 Oct 2009; 1;0 ;2009
+Botafogo RJ;Nautico;Pinnacle;1.52;4.30;7.34;28 Oct 2009; 1;0 ;2009
+Botafogo RJ;Nautico;Unibet;1.55;3.50;6.25;28 Oct 2009; 1;0 ;2009
+Avai;Sport Recife;bet-at-home;1.60;3.45;4.84;25 Oct 2009; 2;2 ;2009
+Avai;Sport Recife;bet365;1.62;3.60;5.50;25 Oct 2009; 2;2 ;2009
+Avai;Sport Recife;bwin;1.60;3.35;5.25;25 Oct 2009; 2;2 ;2009
+Avai;Sport Recife;Pinnacle;1.71;4.01;5.24;25 Oct 2009; 2;2 ;2009
+Avai;Sport Recife;Unibet;1.65;3.40;5.00;25 Oct 2009; 2;2 ;2009
+Botafogo RJ;Flamengo RJ;bet-at-home;2.40;3.20;2.54;25 Oct 2009; 0;1 ;2009
+Botafogo RJ;Flamengo RJ;bet365;2.50;3.30;2.75;25 Oct 2009; 0;1 ;2009
+Botafogo RJ;Flamengo RJ;bwin;2.40;3.15;2.65;25 Oct 2009; 0;1 ;2009
+Botafogo RJ;Flamengo RJ;Pinnacle;2.43;3.55;3.02;25 Oct 2009; 0;1 ;2009
+Botafogo RJ;Flamengo RJ;Unibet;2.50;3.20;2.65;25 Oct 2009; 0;1 ;2009
+Corinthians;Cruzeiro;bet-at-home;2.25;3.00;2.90;25 Oct 2009; 0;1 ;2009
+Corinthians;Cruzeiro;bet365;2.29;3.25;3.10;25 Oct 2009; 0;1 ;2009
+Corinthians;Cruzeiro;bwin;2.29;3.20;2.75;25 Oct 2009; 0;1 ;2009
+Corinthians;Cruzeiro;Pinnacle;2.35;3.45;3.27;25 Oct 2009; 0;1 ;2009
+Corinthians;Cruzeiro;Unibet;2.29;3.30;2.80;25 Oct 2009; 0;1 ;2009
+Coritiba;Athletico-PR;bet-at-home;2.00;3.15;3.30;25 Oct 2009; 3;2 ;2009
+Coritiba;Athletico-PR;bet365;2.10;3.30;3.50;25 Oct 2009; 3;2 ;2009
+Coritiba;Athletico-PR;bwin;2.04;3.25;3.15;25 Oct 2009; 3;2 ;2009
+Coritiba;Athletico-PR;Pinnacle;2.14;3.49;3.75;25 Oct 2009; 3;2 ;2009
+Coritiba;Athletico-PR;Unibet;2.15;3.20;3.20;25 Oct 2009; 3;2 ;2009
+Goias;Fluminense;bet-at-home;1.60;3.35;5.00;25 Oct 2009; 2;2 ;2009
+Goias;Fluminense;bet365;1.75;3.60;3.50;25 Oct 2009; 2;2 ;2009
+Goias;Fluminense;bwin;1.60;3.50;5.00;25 Oct 2009; 2;2 ;2009
+Goias;Fluminense;Pinnacle;1.87;3.70;4.65;25 Oct 2009; 2;2 ;2009
+Goias;Fluminense;Unibet;1.75;3.40;4.50;25 Oct 2009; 2;2 ;2009
+Internacional;Gremio;bet-at-home;2.00;3.20;3.20;25 Oct 2009; 1;0 ;2009
+Internacional;Gremio;bet365;2.10;3.25;3.50;25 Oct 2009; 1;0 ;2009
+Internacional;Gremio;bwin;1.90;3.25;3.60;25 Oct 2009; 1;0 ;2009
+Internacional;Gremio;Pinnacle;2.09;3.56;3.78;25 Oct 2009; 1;0 ;2009
+Internacional;Gremio;Unibet;2.10;3.20;3.30;25 Oct 2009; 1;0 ;2009
+Santos;Sao Paulo;bet-at-home;2.70;3.15;2.29;25 Oct 2009; 3;4 ;2009
+Santos;Sao Paulo;bet365;2.88;3.30;2.50;25 Oct 2009; 3;4 ;2009
+Santos;Sao Paulo;bwin;2.80;3.15;2.29;25 Oct 2009; 3;4 ;2009
+Santos;Sao Paulo;Pinnacle;2.91;3.46;2.58;25 Oct 2009; 3;4 ;2009
+Santos;Sao Paulo;Unibet;2.90;3.20;2.29;25 Oct 2009; 3;4 ;2009
+Atletico-MG;Vitoria;bet-at-home;1.60;3.50;4.70;24 Oct 2009; 1;0 ;2009
+Atletico-MG;Vitoria;bet365;1.73;3.60;4.50;24 Oct 2009; 1;0 ;2009
+Atletico-MG;Vitoria;bwin;1.65;3.50;4.50;24 Oct 2009; 1;0 ;2009
+Atletico-MG;Vitoria;Pinnacle;1.80;3.75;5.03;24 Oct 2009; 1;0 ;2009
+Atletico-MG;Vitoria;Unibet;1.67;3.40;5.00;24 Oct 2009; 1;0 ;2009
+Nautico;Barueri;bet-at-home;2.00;3.20;3.20;24 Oct 2009; 2;1 ;2009
+Nautico;Barueri;bet365;2.00;3.40;3.75;24 Oct 2009; 2;1 ;2009
+Nautico;Barueri;bwin;2.04;3.15;3.25;24 Oct 2009; 2;1 ;2009
+Nautico;Barueri;Pinnacle;2.25;3.56;3.38;24 Oct 2009; 2;1 ;2009
+Nautico;Barueri;Unibet;2.04;3.25;3.40;24 Oct 2009; 2;1 ;2009
+Santo Andre;Palmeiras;bet-at-home;3.45;3.25;1.90;22 Oct 2009; 2;0 ;2009
+Santo Andre;Palmeiras;bet365;4.00;3.50;1.91;22 Oct 2009; 2;0 ;2009
+Santo Andre;Palmeiras;bwin;3.85;3.20;1.85;22 Oct 2009; 2;0 ;2009
+Santo Andre;Palmeiras;Pinnacle;3.98;3.99;1.93;22 Oct 2009; 2;0 ;2009
+Santo Andre;Palmeiras;Unibet;3.65;3.30;1.95;22 Oct 2009; 2;0 ;2009
+Athletico-PR;Santo Andre;bet-at-home;1.70;3.40;4.20;18 Oct 2009; 3;0 ;2009
+Athletico-PR;Santo Andre;bet365;1.95;3.40;3.80;18 Oct 2009; 3;0 ;2009
+Athletico-PR;Santo Andre;bwin;1.80;3.30;4.00;18 Oct 2009; 3;0 ;2009
+Athletico-PR;Santo Andre;Pinnacle;1.75;3.88;5.26;18 Oct 2009; 3;0 ;2009
+Athletico-PR;Santo Andre;Unibet;1.75;3.30;4.40;18 Oct 2009; 3;0 ;2009
+Cruzeiro;Botafogo RJ;bet-at-home;1.80;3.25;3.85;18 Oct 2009; 1;0 ;2009
+Cruzeiro;Botafogo RJ;bet365;1.91;3.40;4.00;18 Oct 2009; 1;0 ;2009
+Cruzeiro;Botafogo RJ;bwin;1.65;3.35;4.80;18 Oct 2009; 1;0 ;2009
+Cruzeiro;Botafogo RJ;Pinnacle;1.81;3.75;5.01;18 Oct 2009; 1;0 ;2009
+Cruzeiro;Botafogo RJ;Unibet;1.70;3.40;4.75;18 Oct 2009; 1;0 ;2009
+Vitoria;Nautico;bet-at-home;1.50;3.50;5.80;18 Oct 2009; 3;1 ;2009
+Vitoria;Nautico;bet365;1.60;3.60;6.50;18 Oct 2009; 3;1 ;2009
+Vitoria;Nautico;bwin;1.55;3.50;5.50;18 Oct 2009; 3;1 ;2009
+Vitoria;Nautico;Pinnacle;1.60;4.17;6.38;18 Oct 2009; 3;1 ;2009
+Vitoria;Nautico;Unibet;1.55;3.50;6.10;18 Oct 2009; 3;1 ;2009
+Fluminense;Internacional;bet-at-home;2.45;3.20;2.50;18 Oct 2009; 2;2 ;2009
+Fluminense;Internacional;bet365;2.40;3.30;2.88;18 Oct 2009; 2;2 ;2009
+Fluminense;Internacional;bwin;2.54;3.20;2.45;18 Oct 2009; 2;2 ;2009
+Fluminense;Internacional;Pinnacle;2.61;3.36;2.94;18 Oct 2009; 2;2 ;2009
+Fluminense;Internacional;Unibet;2.54;3.25;2.54;18 Oct 2009; 2;2 ;2009
+Gremio;Coritiba;bet-at-home;1.50;3.60;5.60;18 Oct 2009; 2;0 ;2009
+Gremio;Coritiba;bet365;1.57;3.75;6.00;18 Oct 2009; 2;0 ;2009
+Gremio;Coritiba;bwin;1.55;3.50;5.50;18 Oct 2009; 2;0 ;2009
+Gremio;Coritiba;Pinnacle;1.58;4.33;6.49;18 Oct 2009; 2;0 ;2009
+Gremio;Coritiba;Unibet;1.55;3.50;6.00;18 Oct 2009; 2;0 ;2009
+Palmeiras;Flamengo RJ;bet-at-home;1.70;3.40;4.15;18 Oct 2009; 0;2 ;2009
+Palmeiras;Flamengo RJ;bet365;1.80;3.50;4.50;18 Oct 2009; 0;2 ;2009
+Palmeiras;Flamengo RJ;bwin;1.70;3.25;4.59;18 Oct 2009; 0;2 ;2009
+Palmeiras;Flamengo RJ;Pinnacle;1.83;3.74;4.92;18 Oct 2009; 0;2 ;2009
+Palmeiras;Flamengo RJ;Unibet;1.85;3.35;4.00;18 Oct 2009; 0;2 ;2009
+Sport Recife;Corinthians;bet-at-home;2.00;3.25;3.20;18 Oct 2009; 2;0 ;2009
+Sport Recife;Corinthians;bet365;2.00;3.50;3.25;18 Oct 2009; 2;0 ;2009
+Sport Recife;Corinthians;bwin;2.00;3.20;3.30;18 Oct 2009; 2;0 ;2009
+Sport Recife;Corinthians;Pinnacle;2.18;3.50;3.62;18 Oct 2009; 2;0 ;2009
+Sport Recife;Corinthians;Unibet;2.10;3.25;3.30;18 Oct 2009; 2;0 ;2009
+Avai;Goias;bet-at-home;2.04;3.20;3.10;17 Oct 2009; 2;1 ;2009
+Avai;Goias;bet365;2.04;3.30;3.60;17 Oct 2009; 2;1 ;2009
+Avai;Goias;bwin;2.04;3.30;3.10;17 Oct 2009; 2;1 ;2009
+Avai;Goias;Pinnacle;2.08;3.79;3.59;17 Oct 2009; 2;1 ;2009
+Avai;Goias;Unibet;2.10;3.25;3.25;17 Oct 2009; 2;1 ;2009
+Barueri;Santos;bet-at-home;1.95;3.25;3.30;17 Oct 2009; 0;0 ;2009
+Barueri;Santos;bet365;2.00;3.30;3.50;17 Oct 2009; 0;0 ;2009
+Barueri;Santos;bwin;1.90;3.30;3.55;17 Oct 2009; 0;0 ;2009
+Barueri;Santos;Pinnacle;2.17;3.48;3.66;17 Oct 2009; 0;0 ;2009
+Barueri;Santos;Unibet;1.95;3.25;3.70;17 Oct 2009; 0;0 ;2009
+Sao Paulo;Atletico-MG;bet-at-home;1.60;3.50;4.75;17 Oct 2009; 0;1 ;2009
+Sao Paulo;Atletico-MG;bet365;1.62;3.75;5.50;17 Oct 2009; 0;1 ;2009
+Sao Paulo;Atletico-MG;bwin;1.55;3.60;5.25;17 Oct 2009; 0;1 ;2009
+Sao Paulo;Atletico-MG;Pinnacle;1.72;3.80;5.54;17 Oct 2009; 0;1 ;2009
+Sao Paulo;Atletico-MG;Unibet;1.65;3.40;5.25;17 Oct 2009; 0;1 ;2009
+Atletico-MG;Cruzeiro;bet-at-home;2.75;3.20;2.25;12 Oct 2009; 0;1 ;2009
+Atletico-MG;Cruzeiro;bet365;3.30;3.25;2.20;12 Oct 2009; 0;1 ;2009
+Atletico-MG;Cruzeiro;bwin;2.90;3.30;2.15;12 Oct 2009; 0;1 ;2009
+Atletico-MG;Cruzeiro;Pinnacle;3.53;3.53;2.20;12 Oct 2009; 0;1 ;2009
+Atletico-MG;Cruzeiro;Unibet;3.20;3.30;2.10;12 Oct 2009; 0;1 ;2009
+Botafogo RJ;Avai;bet-at-home;1.70;3.40;4.15;12 Oct 2009; 2;2 ;2009
+Botafogo RJ;Avai;bet365;1.73;3.75;4.50;12 Oct 2009; 2;2 ;2009
+Botafogo RJ;Avai;bwin;1.65;3.50;4.55;12 Oct 2009; 2;2 ;2009
+Botafogo RJ;Avai;Pinnacle;1.74;3.96;5.19;12 Oct 2009; 2;2 ;2009
+Botafogo RJ;Avai;Unibet;1.70;3.40;4.75;12 Oct 2009; 2;2 ;2009
+Goias;Sport Recife;bet-at-home;1.50;3.55;5.75;12 Oct 2009; 1;1 ;2009
+Goias;Sport Recife;bet365;1.57;3.80;5.75;12 Oct 2009; 1;1 ;2009
+Goias;Sport Recife;bwin;1.45;3.75;6.50;12 Oct 2009; 1;1 ;2009
+Goias;Sport Recife;Pinnacle;1.67;3.79;6.20;12 Oct 2009; 1;1 ;2009
+Goias;Sport Recife;Unibet;1.50;3.60;6.50;12 Oct 2009; 1;1 ;2009
+Nautico;Palmeiras;bet-at-home;2.80;3.20;2.20;12 Oct 2009; 3;0 ;2009
+Nautico;Palmeiras;bet365;3.00;3.25;2.38;12 Oct 2009; 3;0 ;2009
+Nautico;Palmeiras;bwin;3.10;3.30;2.04;12 Oct 2009; 3;0 ;2009
+Nautico;Palmeiras;Pinnacle;3.16;3.42;2.43;12 Oct 2009; 3;0 ;2009
+Nautico;Palmeiras;Unibet;2.90;3.20;2.29;12 Oct 2009; 3;0 ;2009
+Santos;Vitoria;bet-at-home;1.75;3.35;3.95;12 Oct 2009; 0;0 ;2009
+Santos;Vitoria;bet365;1.85;3.50;4.00;12 Oct 2009; 0;0 ;2009
+Santos;Vitoria;bwin;1.75;3.35;4.15;12 Oct 2009; 0;0 ;2009
+Santos;Vitoria;Pinnacle;2.02;3.51;4.17;12 Oct 2009; 0;0 ;2009
+Santos;Vitoria;Unibet;1.85;3.30;4.00;12 Oct 2009; 0;0 ;2009
+Coritiba;Barueri;bet-at-home;1.70;3.30;4.34;10 Oct 2009; 1;2 ;2009
+Coritiba;Barueri;bet365;1.83;3.50;4.33;10 Oct 2009; 1;2 ;2009
+Coritiba;Barueri;bwin;1.70;3.45;4.25;10 Oct 2009; 1;2 ;2009
+Coritiba;Barueri;Unibet;1.75;3.40;4.50;10 Oct 2009; 1;2 ;2009
+Internacional;Athletico-PR;bet-at-home;1.45;3.70;6.20;10 Oct 2009; 1;1 ;2009
+Internacional;Athletico-PR;bet365;1.53;4.00;6.50;10 Oct 2009; 1;1 ;2009
+Internacional;Athletico-PR;bwin;1.45;3.65;6.00;10 Oct 2009; 1;1 ;2009
+Internacional;Athletico-PR;Unibet;1.50;3.60;6.75;10 Oct 2009; 1;1 ;2009
+Corinthians;Gremio;bet-at-home;2.00;3.20;3.20;10 Oct 2009; 2;1 ;2009
+Corinthians;Gremio;bet365;2.10;3.30;3.40;10 Oct 2009; 2;1 ;2009
+Corinthians;Gremio;bwin;2.00;3.25;3.30;10 Oct 2009; 2;1 ;2009
+Corinthians;Gremio;Unibet;2.10;3.25;3.20;10 Oct 2009; 2;1 ;2009
+Flamengo RJ;Sao Paulo;bet-at-home;2.29;3.15;2.70;10 Oct 2009; 2;1 ;2009
+Flamengo RJ;Sao Paulo;bet365;2.80;3.25;2.50;10 Oct 2009; 2;1 ;2009
+Flamengo RJ;Sao Paulo;bwin;2.29;3.10;2.80;10 Oct 2009; 2;1 ;2009
+Flamengo RJ;Sao Paulo;Unibet;2.40;3.20;2.75;10 Oct 2009; 2;1 ;2009
+Santo Andre;Fluminense;bet-at-home;1.95;3.20;3.35;10 Oct 2009; 1;2 ;2009
+Santo Andre;Fluminense;bet365;2.20;3.30;3.30;10 Oct 2009; 1;2 ;2009
+Santo Andre;Fluminense;bwin;2.25;3.15;2.85;10 Oct 2009; 1;2 ;2009
+Santo Andre;Fluminense;Unibet;2.00;3.25;3.40;10 Oct 2009; 1;2 ;2009
+Botafogo RJ;Atletico-MG;bet-at-home;1.90;3.20;3.50;09 Oct 2009; 3;1 ;2009
+Botafogo RJ;Atletico-MG;bet365;1.91;3.50;4.00;09 Oct 2009; 3;1 ;2009
+Botafogo RJ;Atletico-MG;bwin;2.00;3.25;3.30;09 Oct 2009; 3;1 ;2009
+Botafogo RJ;Atletico-MG;Pinnacle;2.13;3.48;3.75;09 Oct 2009; 3;1 ;2009
+Botafogo RJ;Atletico-MG;Unibet;2.04;3.35;3.30;09 Oct 2009; 3;1 ;2009
+Cruzeiro;Goias;bet-at-home;1.80;3.35;3.70;09 Oct 2009; 3;0 ;2009
+Cruzeiro;Goias;bet365;1.75;3.75;4.75;09 Oct 2009; 3;0 ;2009
+Cruzeiro;Goias;bwin;1.85;3.35;3.65;09 Oct 2009; 3;0 ;2009
+Cruzeiro;Goias;Pinnacle;1.96;3.71;4.16;09 Oct 2009; 3;0 ;2009
+Cruzeiro;Goias;Unibet;1.80;3.40;4.00;09 Oct 2009; 3;0 ;2009
+Palmeiras;Avai;bet-at-home;1.35;3.90;8.00;09 Oct 2009; 2;2 ;2009
+Palmeiras;Avai;bet365;1.50;3.75;8.00;09 Oct 2009; 2;2 ;2009
+Palmeiras;Avai;bwin;1.35;4.25;7.25;09 Oct 2009; 2;2 ;2009
+Palmeiras;Avai;Pinnacle;1.43;4.45;9.94;09 Oct 2009; 2;2 ;2009
+Palmeiras;Avai;Unibet;1.40;4.00;8.00;09 Oct 2009; 2;2 ;2009
+Fluminense;Corinthians;bet-at-home;2.25;3.20;2.75;08 Oct 2009; 1;1 ;2009
+Fluminense;Corinthians;bet365;2.25;3.25;3.25;08 Oct 2009; 1;1 ;2009
+Fluminense;Corinthians;bwin;2.22;3.25;2.85;08 Oct 2009; 1;1 ;2009
+Fluminense;Corinthians;Pinnacle;2.27;3.47;3.40;08 Oct 2009; 1;1 ;2009
+Fluminense;Corinthians;Unibet;2.29;3.20;2.90;08 Oct 2009; 1;1 ;2009
+Internacional;Nautico;bet-at-home;1.25;4.50;10.00;08 Oct 2009; 3;1 ;2009
+Internacional;Nautico;bet365;1.30;5.00;10.00;08 Oct 2009; 3;1 ;2009
+Internacional;Nautico;bwin;1.30;4.50;8.25;08 Oct 2009; 3;1 ;2009
+Internacional;Nautico;Pinnacle;1.33;5.28;11.77;08 Oct 2009; 3;1 ;2009
+Internacional;Nautico;Unibet;1.25;5.00;11.00;08 Oct 2009; 3;1 ;2009
+Vitoria;Flamengo RJ;bet-at-home;1.90;3.20;3.50;08 Oct 2009; 3;3 ;2009
+Vitoria;Flamengo RJ;bet365;1.83;3.50;4.33;08 Oct 2009; 3;3 ;2009
+Vitoria;Flamengo RJ;bwin;1.90;3.25;3.60;08 Oct 2009; 3;3 ;2009
+Vitoria;Flamengo RJ;Pinnacle;1.94;3.64;4.32;08 Oct 2009; 3;3 ;2009
+Vitoria;Flamengo RJ;Unibet;1.95;3.30;3.60;08 Oct 2009; 3;3 ;2009
+Athletico-PR;Gremio;bet-at-home;2.50;3.10;2.50;08 Oct 2009; 0;0 ;2009
+Athletico-PR;Gremio;bet365;2.80;3.30;2.50;08 Oct 2009; 0;0 ;2009
+Athletico-PR;Gremio;bwin;2.35;3.20;2.65;08 Oct 2009; 0;0 ;2009
+Athletico-PR;Gremio;Pinnacle;2.94;3.26;2.67;08 Oct 2009; 0;0 ;2009
+Athletico-PR;Gremio;Unibet;2.54;3.25;2.54;08 Oct 2009; 0;0 ;2009
+Sao Paulo;Coritiba;bet-at-home;1.45;3.75;6.00;08 Oct 2009; 2;2 ;2009
+Sao Paulo;Coritiba;bet365;1.62;3.75;5.50;08 Oct 2009; 2;2 ;2009
+Sao Paulo;Coritiba;bwin;1.40;3.90;7.00;08 Oct 2009; 2;2 ;2009
+Sao Paulo;Coritiba;Pinnacle;1.68;3.50;6.32;08 Oct 2009; 2;2 ;2009
+Sao Paulo;Coritiba;Unibet;1.50;3.65;6.75;08 Oct 2009; 2;2 ;2009
+Barueri;Santo Andre;bet-at-home;1.80;3.30;3.80;07 Oct 2009; 0;0 ;2009
+Barueri;Santo Andre;bet365;1.85;3.50;4.20;07 Oct 2009; 0;0 ;2009
+Barueri;Santo Andre;bwin;1.70;3.35;4.40;07 Oct 2009; 0;0 ;2009
+Barueri;Santo Andre;Pinnacle;1.99;3.46;4.38;07 Oct 2009; 0;0 ;2009
+Barueri;Santo Andre;Unibet;1.80;3.35;4.30;07 Oct 2009; 0;0 ;2009
+Sport Recife;Santos;bet-at-home;1.80;3.30;3.80;07 Oct 2009; 0;1 ;2009
+Sport Recife;Santos;bet365;1.91;3.50;4.00;07 Oct 2009; 0;1 ;2009
+Sport Recife;Santos;bwin;1.95;3.30;3.40;07 Oct 2009; 0;1 ;2009
+Sport Recife;Santos;Pinnacle;2.00;3.55;4.21;07 Oct 2009; 0;1 ;2009
+Sport Recife;Santos;Unibet;1.90;3.30;3.85;07 Oct 2009; 0;1 ;2009
+Avai;Cruzeiro;bet-at-home;2.25;3.20;2.75;04 Oct 2009; 2;2 ;2009
+Avai;Cruzeiro;bet365;2.50;3.40;2.75;04 Oct 2009; 2;2 ;2009
+Avai;Cruzeiro;bwin;2.29;3.25;2.70;04 Oct 2009; 2;2 ;2009
+Avai;Cruzeiro;Unibet;2.40;3.25;2.75;04 Oct 2009; 2;2 ;2009
+Coritiba;Internacional;bet-at-home;2.25;3.10;2.80;04 Oct 2009; 2;0 ;2009
+Coritiba;Internacional;bet365;2.45;3.20;2.90;04 Oct 2009; 2;0 ;2009
+Coritiba;Internacional;bwin;2.50;3.20;2.50;04 Oct 2009; 2;0 ;2009
+Coritiba;Internacional;Unibet;2.35;3.25;2.80;04 Oct 2009; 2;0 ;2009
+Flamengo RJ;Fluminense;bet-at-home;1.85;3.15;3.75;04 Oct 2009; 2;0 ;2009
+Flamengo RJ;Fluminense;bet365;2.04;3.40;3.40;04 Oct 2009; 2;0 ;2009
+Flamengo RJ;Fluminense;bwin;1.65;3.50;4.50;04 Oct 2009; 2;0 ;2009
+Flamengo RJ;Fluminense;Unibet;1.75;3.40;4.30;04 Oct 2009; 2;0 ;2009
+Goias;Botafogo RJ;bet-at-home;1.75;3.30;4.00;04 Oct 2009; 1;3 ;2009
+Goias;Botafogo RJ;bet365;1.75;3.60;4.50;04 Oct 2009; 1;3 ;2009
+Goias;Botafogo RJ;bwin;1.60;3.50;5.00;04 Oct 2009; 1;3 ;2009
+Goias;Botafogo RJ;Unibet;1.67;3.45;5.00;04 Oct 2009; 1;3 ;2009
+Gremio;Sport Recife;bet-at-home;1.40;3.85;6.70;04 Oct 2009; 3;3 ;2009
+Gremio;Sport Recife;bet365;1.36;4.59;8.50;04 Oct 2009; 3;3 ;2009
+Gremio;Sport Recife;bwin;1.35;4.20;7.50;04 Oct 2009; 3;3 ;2009
+Gremio;Sport Recife;Unibet;1.40;4.00;7.50;04 Oct 2009; 3;3 ;2009
+Santos;Palmeiras;bet-at-home;2.29;3.20;2.65;04 Oct 2009; 1;3 ;2009
+Santos;Palmeiras;bet365;2.50;3.25;2.80;04 Oct 2009; 1;3 ;2009
+Santos;Palmeiras;bwin;2.40;3.20;2.60;04 Oct 2009; 1;3 ;2009
+Santos;Palmeiras;Unibet;2.40;3.20;2.80;04 Oct 2009; 1;3 ;2009
+Atletico-MG;Barueri;bet-at-home;1.60;3.50;4.65;03 Oct 2009; 2;1 ;2009
+Atletico-MG;Barueri;bet365;1.70;3.50;5.00;03 Oct 2009; 2;1 ;2009
+Atletico-MG;Barueri;bwin;1.60;3.50;5.00;03 Oct 2009; 2;1 ;2009
+Atletico-MG;Barueri;Unibet;1.65;3.45;5.09;03 Oct 2009; 2;1 ;2009
+Corinthians;Athletico-PR;bet-at-home;1.55;3.50;5.20;03 Oct 2009; 1;3 ;2009
+Corinthians;Athletico-PR;bet365;1.67;3.60;5.25;03 Oct 2009; 1;3 ;2009
+Corinthians;Athletico-PR;bwin;1.60;3.50;5.00;03 Oct 2009; 1;3 ;2009
+Corinthians;Athletico-PR;Unibet;1.67;3.45;5.00;03 Oct 2009; 1;3 ;2009
+Santo Andre;Vitoria;bet-at-home;2.20;3.20;2.80;03 Oct 2009; 1;0 ;2009
+Santo Andre;Vitoria;bet365;2.25;3.30;3.20;03 Oct 2009; 1;0 ;2009
+Santo Andre;Vitoria;bwin;2.20;3.25;2.90;03 Oct 2009; 1;0 ;2009
+Santo Andre;Vitoria;Unibet;2.10;3.25;3.20;03 Oct 2009; 1;0 ;2009
+Nautico;Sao Paulo;bet-at-home;3.60;3.30;1.85;01 Oct 2009; 1;2 ;2009
+Nautico;Sao Paulo;bet365;3.80;3.30;1.95;01 Oct 2009; 1;2 ;2009
+Nautico;Sao Paulo;bwin;3.65;3.35;1.85;01 Oct 2009; 1;2 ;2009
+Nautico;Sao Paulo;Pinnacle;3.88;3.51;2.04;01 Oct 2009; 1;2 ;2009
+Nautico;Sao Paulo;Unibet;3.40;3.25;2.04;01 Oct 2009; 1;2 ;2009
+Atletico-MG;Santos;bet-at-home;1.90;3.25;3.45;27 Sep 2009; 3;1 ;2009
+Atletico-MG;Santos;bet365;2.00;3.30;3.75;27 Sep 2009; 3;1 ;2009
+Atletico-MG;Santos;bwin;1.95;3.20;3.50;27 Sep 2009; 3;1 ;2009
+Atletico-MG;Santos;Pinnacle;2.04;3.57;3.91;27 Sep 2009; 3;1 ;2009
+Atletico-MG;Santos;Unibet;2.04;3.25;3.40;27 Sep 2009; 3;1 ;2009
+Botafogo RJ;Vitoria;bet-at-home;1.70;3.40;4.20;27 Sep 2009; 1;3 ;2009
+Botafogo RJ;Vitoria;bet365;1.60;3.80;5.50;27 Sep 2009; 1;3 ;2009
+Botafogo RJ;Vitoria;bwin;1.60;3.75;4.50;27 Sep 2009; 1;3 ;2009
+Botafogo RJ;Vitoria;Pinnacle;1.82;3.73;4.80;27 Sep 2009; 1;3 ;2009
+Botafogo RJ;Vitoria;Unibet;1.67;3.40;5.00;27 Sep 2009; 1;3 ;2009
+Sport Recife;Santo Andre;bet-at-home;1.80;3.30;3.80;27 Sep 2009; 2;1 ;2009
+Sport Recife;Santo Andre;bet365;1.85;3.50;4.33;27 Sep 2009; 2;1 ;2009
+Sport Recife;Santo Andre;bwin;1.75;3.35;4.15;27 Sep 2009; 2;1 ;2009
+Sport Recife;Santo Andre;Pinnacle;1.88;3.69;4.48;27 Sep 2009; 2;1 ;2009
+Sport Recife;Santo Andre;Unibet;1.75;3.40;4.30;27 Sep 2009; 2;1 ;2009
+Coritiba;Nautico;bet-at-home;1.65;3.35;4.55;27 Sep 2009; 2;0 ;2009
+Coritiba;Nautico;bet365;1.62;4.00;5.00;27 Sep 2009; 2;0 ;2009
+Coritiba;Nautico;bwin;1.65;3.50;4.50;27 Sep 2009; 2;0 ;2009
+Coritiba;Nautico;Pinnacle;1.68;4.00;5.47;27 Sep 2009; 2;0 ;2009
+Coritiba;Nautico;Unibet;1.65;3.40;5.00;27 Sep 2009; 2;0 ;2009
+Fluminense;Avai;bet-at-home;2.04;3.20;3.10;27 Sep 2009; 3;2 ;2009
+Fluminense;Avai;bet365;2.25;3.25;3.20;27 Sep 2009; 3;2 ;2009
+Fluminense;Avai;bwin;2.15;3.20;3.00;27 Sep 2009; 3;2 ;2009
+Fluminense;Avai;Pinnacle;2.38;3.35;3.24;27 Sep 2009; 3;2 ;2009
+Fluminense;Avai;Unibet;2.15;3.25;3.05;27 Sep 2009; 3;2 ;2009
+Goias;Gremio;bet-at-home;2.25;3.10;2.80;27 Sep 2009; 2;1 ;2009
+Goias;Gremio;bet365;2.29;3.25;3.10;27 Sep 2009; 2;1 ;2009
+Goias;Gremio;bwin;2.15;3.25;2.95;27 Sep 2009; 2;1 ;2009
+Goias;Gremio;Pinnacle;2.46;3.35;3.18;27 Sep 2009; 2;1 ;2009
+Goias;Gremio;Unibet;2.20;3.25;3.05;27 Sep 2009; 2;1 ;2009
+Internacional;Flamengo RJ;bet-at-home;1.65;3.50;4.30;27 Sep 2009; 0;0 ;2009
+Internacional;Flamengo RJ;bet365;1.73;3.50;5.00;27 Sep 2009; 0;0 ;2009
+Internacional;Flamengo RJ;bwin;1.65;3.55;4.50;27 Sep 2009; 0;0 ;2009
+Internacional;Flamengo RJ;Pinnacle;1.75;3.90;5.09;27 Sep 2009; 0;0 ;2009
+Internacional;Flamengo RJ;Unibet;1.75;3.45;4.25;27 Sep 2009; 0;0 ;2009
+Sao Paulo;Corinthians;bet-at-home;1.90;3.20;3.50;27 Sep 2009; 1;1 ;2009
+Sao Paulo;Corinthians;bet365;1.91;3.50;4.00;27 Sep 2009; 1;1 ;2009
+Sao Paulo;Corinthians;bwin;1.80;3.25;4.00;27 Sep 2009; 1;1 ;2009
+Sao Paulo;Corinthians;Pinnacle;2.00;3.51;4.09;27 Sep 2009; 1;1 ;2009
+Sao Paulo;Corinthians;Unibet;2.00;3.20;3.50;27 Sep 2009; 1;1 ;2009
+Barueri;Cruzeiro;bet-at-home;2.29;3.20;2.65;26 Sep 2009; 0;1 ;2009
+Barueri;Cruzeiro;bet365;2.38;3.30;2.88;26 Sep 2009; 0;1 ;2009
+Barueri;Cruzeiro;bwin;2.29;3.25;2.70;26 Sep 2009; 0;1 ;2009
+Barueri;Cruzeiro;Pinnacle;2.41;3.48;3.14;26 Sep 2009; 0;1 ;2009
+Barueri;Cruzeiro;Unibet;2.25;3.25;3.00;26 Sep 2009; 0;1 ;2009
+Palmeiras;Athletico-PR;bet-at-home;1.40;3.75;7.00;26 Sep 2009; 2;1 ;2009
+Palmeiras;Athletico-PR;bet365;1.44;4.20;7.00;26 Sep 2009; 2;1 ;2009
+Palmeiras;Athletico-PR;bwin;1.40;4.09;6.50;26 Sep 2009; 2;1 ;2009
+Palmeiras;Athletico-PR;Pinnacle;1.50;4.53;7.51;26 Sep 2009; 2;1 ;2009
+Palmeiras;Athletico-PR;Unibet;1.45;3.65;7.80;26 Sep 2009; 2;1 ;2009
+Corinthians;Goias;bet-at-home;1.70;3.40;4.20;20 Sep 2009; 1;4 ;2009
+Corinthians;Goias;bet365;1.75;3.50;4.50;20 Sep 2009; 1;4 ;2009
+Corinthians;Goias;bwin;1.55;3.50;5.50;20 Sep 2009; 1;4 ;2009
+Corinthians;Goias;Unibet;1.70;3.40;5.00;20 Sep 2009; 1;4 ;2009
+Flamengo RJ;Coritiba;bet-at-home;1.55;3.65;4.90;20 Sep 2009; 3;0 ;2009
+Flamengo RJ;Coritiba;bet365;1.67;3.60;5.50;20 Sep 2009; 3;0 ;2009
+Flamengo RJ;Coritiba;bwin;1.55;3.50;5.50;20 Sep 2009; 3;0 ;2009
+Flamengo RJ;Coritiba;Unibet;1.57;3.50;6.00;20 Sep 2009; 3;0 ;2009
+Santos;Botafogo RJ;bet-at-home;1.75;3.30;4.00;20 Sep 2009; 0;0 ;2009
+Santos;Botafogo RJ;bet365;1.85;3.30;4.50;20 Sep 2009; 0;0 ;2009
+Santos;Botafogo RJ;bwin;1.75;3.45;4.00;20 Sep 2009; 0;0 ;2009
+Santos;Botafogo RJ;Unibet;1.75;3.40;4.50;20 Sep 2009; 0;0 ;2009
+Avai;Barueri;bet-at-home;2.00;3.15;3.30;20 Sep 2009; 4;0 ;2009
+Avai;Barueri;bet365;2.04;3.30;3.60;20 Sep 2009; 4;0 ;2009
+Avai;Barueri;bwin;2.00;3.15;3.40;20 Sep 2009; 4;0 ;2009
+Avai;Barueri;Unibet;2.10;3.25;3.20;20 Sep 2009; 4;0 ;2009
+Gremio;Fluminense;bet-at-home;1.50;3.55;5.80;20 Sep 2009; 5;1 ;2009
+Gremio;Fluminense;bet365;1.50;3.80;7.00;20 Sep 2009; 5;1 ;2009
+Gremio;Fluminense;bwin;1.40;4.00;6.75;20 Sep 2009; 5;1 ;2009
+Gremio;Fluminense;Unibet;1.45;3.80;7.00;20 Sep 2009; 5;1 ;2009
+Santo Andre;Sao Paulo;bet-at-home;4.50;3.40;1.65;20 Sep 2009; 1;1 ;2009
+Santo Andre;Sao Paulo;bet365;5.50;3.40;1.70;20 Sep 2009; 1;1 ;2009
+Santo Andre;Sao Paulo;bwin;5.50;3.50;1.55;20 Sep 2009; 1;1 ;2009
+Santo Andre;Sao Paulo;Unibet;4.75;3.40;1.70;20 Sep 2009; 1;1 ;2009
+Athletico-PR;Sport Recife;bet-at-home;1.75;3.25;4.09;19 Sep 2009; 1;0 ;2009
+Athletico-PR;Sport Recife;bet365;1.73;3.60;4.75;19 Sep 2009; 1;0 ;2009
+Athletico-PR;Sport Recife;bwin;1.75;3.30;4.20;19 Sep 2009; 1;0 ;2009
+Athletico-PR;Sport Recife;Unibet;1.75;3.40;4.30;19 Sep 2009; 1;0 ;2009
+Nautico;Atletico-MG;bet-at-home;2.60;3.10;2.40;19 Sep 2009; 0;0 ;2009
+Nautico;Atletico-MG;bet365;2.54;3.30;2.70;19 Sep 2009; 0;0 ;2009
+Nautico;Atletico-MG;bwin;2.54;3.15;2.50;19 Sep 2009; 0;0 ;2009
+Nautico;Atletico-MG;Unibet;2.65;3.25;2.45;19 Sep 2009; 0;0 ;2009
+Vitoria;Internacional;bet-at-home;2.40;3.25;2.50;19 Sep 2009; 2;0 ;2009
+Vitoria;Internacional;bet365;2.40;3.30;2.88;19 Sep 2009; 2;0 ;2009
+Vitoria;Internacional;bwin;2.54;3.20;2.45;19 Sep 2009; 2;0 ;2009
+Vitoria;Internacional;Unibet;2.50;3.25;2.60;19 Sep 2009; 2;0 ;2009
+Coritiba;Corinthians;bet-at-home;2.29;3.10;2.70;17 Sep 2009; 1;1 ;2009
+Coritiba;Corinthians;bet365;2.45;3.30;2.80;17 Sep 2009; 1;1 ;2009
+Coritiba;Corinthians;bwin;2.35;3.25;2.65;17 Sep 2009; 1;1 ;2009
+Coritiba;Corinthians;Pinnacle;2.25;3.65;3.30;17 Sep 2009; 1;1 ;2009
+Coritiba;Corinthians;Unibet;2.40;3.25;2.75;17 Sep 2009; 1;1 ;2009
+Barueri;Goias;bet-at-home;2.00;3.10;3.35;13 Sep 2009; 3;1 ;2009
+Barueri;Goias;bet365;2.00;3.50;3.60;13 Sep 2009; 3;1 ;2009
+Barueri;Goias;bwin;2.04;3.20;3.20;13 Sep 2009; 3;1 ;2009
+Barueri;Goias;Pinnacle;2.02;3.80;3.82;13 Sep 2009; 3;1 ;2009
+Barueri;Goias;Unibet;2.10;3.25;3.25;13 Sep 2009; 3;1 ;2009
+Botafogo RJ;Fluminense;bet-at-home;1.80;3.35;3.70;13 Sep 2009; 0;0 ;2009
+Botafogo RJ;Fluminense;bet365;1.83;3.40;4.50;13 Sep 2009; 0;0 ;2009
+Botafogo RJ;Fluminense;bwin;1.85;3.25;3.80;13 Sep 2009; 0;0 ;2009
+Botafogo RJ;Fluminense;Pinnacle;1.93;3.48;4.69;13 Sep 2009; 0;0 ;2009
+Botafogo RJ;Fluminense;Unibet;1.95;3.25;3.75;13 Sep 2009; 0;0 ;2009
+Nautico;Gremio;bet-at-home;2.54;3.20;2.40;13 Sep 2009; 0;2 ;2009
+Nautico;Gremio;bet365;3.00;3.30;2.29;13 Sep 2009; 0;2 ;2009
+Nautico;Gremio;bwin;2.75;3.20;2.29;13 Sep 2009; 0;2 ;2009
+Nautico;Gremio;Pinnacle;3.13;3.37;2.46;13 Sep 2009; 0;2 ;2009
+Nautico;Gremio;Unibet;2.90;3.25;2.29;13 Sep 2009; 0;2 ;2009
+Atletico-MG;Athletico-PR;bet-at-home;1.75;3.20;4.15;13 Sep 2009; 2;1 ;2009
+Atletico-MG;Athletico-PR;bet365;1.75;3.50;4.75;13 Sep 2009; 2;1 ;2009
+Atletico-MG;Athletico-PR;bwin;1.70;3.30;4.50;13 Sep 2009; 2;1 ;2009
+Atletico-MG;Athletico-PR;Pinnacle;1.76;3.92;5.01;13 Sep 2009; 2;1 ;2009
+Atletico-MG;Athletico-PR;Unibet;1.80;3.40;4.20;13 Sep 2009; 2;1 ;2009
+Sao Paulo;Avai;bet-at-home;1.50;3.50;5.80;12 Sep 2009; 2;0 ;2009
+Sao Paulo;Avai;bet365;1.50;4.00;7.00;12 Sep 2009; 2;0 ;2009
+Sao Paulo;Avai;bwin;1.45;3.70;6.50;12 Sep 2009; 2;0 ;2009
+Sao Paulo;Avai;Pinnacle;1.57;4.19;6.79;12 Sep 2009; 2;0 ;2009
+Sao Paulo;Avai;Unibet;1.50;3.60;6.50;12 Sep 2009; 2;0 ;2009
+Avai;Internacional;bet-at-home;2.90;3.10;2.20;06 Sep 2009; 0;2 ;2009
+Avai;Internacional;bet365;3.00;3.30;2.29;06 Sep 2009; 0;2 ;2009
+Avai;Internacional;bwin;2.75;3.30;2.25;06 Sep 2009; 0;2 ;2009
+Avai;Internacional;Unibet;2.95;3.25;2.25;06 Sep 2009; 0;2 ;2009
+Fluminense;Nautico;bet-at-home;1.60;3.50;4.70;06 Sep 2009; 1;1 ;2009
+Fluminense;Nautico;bet365;1.60;3.75;5.75;06 Sep 2009; 1;1 ;2009
+Fluminense;Nautico;bwin;1.65;3.40;4.75;06 Sep 2009; 1;1 ;2009
+Fluminense;Nautico;Unibet;1.70;3.40;5.00;06 Sep 2009; 1;1 ;2009
+Santo Andre;Atletico-MG;bet-at-home;2.10;3.20;3.00;06 Sep 2009; 1;2 ;2009
+Santo Andre;Atletico-MG;bet365;2.15;3.30;3.30;06 Sep 2009; 1;2 ;2009
+Santo Andre;Atletico-MG;bwin;2.00;3.25;3.30;06 Sep 2009; 1;2 ;2009
+Santo Andre;Atletico-MG;Unibet;2.15;3.25;3.20;06 Sep 2009; 1;2 ;2009
+Athletico-PR;Flamengo RJ;bet-at-home;2.00;3.20;3.25;06 Sep 2009; 0;0 ;2009
+Athletico-PR;Flamengo RJ;bet365;2.10;3.30;3.50;06 Sep 2009; 0;0 ;2009
+Athletico-PR;Flamengo RJ;bwin;2.00;3.25;3.30;06 Sep 2009; 0;0 ;2009
+Athletico-PR;Flamengo RJ;Unibet;2.10;3.25;3.30;06 Sep 2009; 0;0 ;2009
+Cruzeiro;Sao Paulo;bet-at-home;2.20;3.20;2.80;06 Sep 2009; 1;2 ;2009
+Cruzeiro;Sao Paulo;bet365;2.25;3.30;3.20;06 Sep 2009; 1;2 ;2009
+Cruzeiro;Sao Paulo;bwin;2.20;3.25;2.85;06 Sep 2009; 1;2 ;2009
+Cruzeiro;Sao Paulo;Unibet;2.20;3.25;3.00;06 Sep 2009; 1;2 ;2009
+Goias;Coritiba;bet-at-home;1.50;3.50;5.80;06 Sep 2009; 2;2 ;2009
+Goias;Coritiba;bet365;1.53;3.80;6.50;06 Sep 2009; 2;2 ;2009
+Goias;Coritiba;bwin;1.50;3.60;6.00;06 Sep 2009; 2;2 ;2009
+Goias;Coritiba;Unibet;1.55;3.50;6.00;06 Sep 2009; 2;2 ;2009
+Gremio;Vitoria;bet-at-home;1.40;3.80;7.00;05 Sep 2009; 1;1 ;2009
+Gremio;Vitoria;bet365;1.45;4.20;7.00;05 Sep 2009; 1;1 ;2009
+Gremio;Vitoria;bwin;1.40;3.90;7.00;05 Sep 2009; 1;1 ;2009
+Gremio;Vitoria;Pinnacle;1.50;4.55;7.26;05 Sep 2009; 1;1 ;2009
+Gremio;Vitoria;Unibet;1.45;3.80;7.00;05 Sep 2009; 1;1 ;2009
+Palmeiras;Barueri;bet-at-home;1.40;3.80;7.00;05 Sep 2009; 2;1 ;2009
+Palmeiras;Barueri;bet365;1.45;3.75;8.50;05 Sep 2009; 2;1 ;2009
+Palmeiras;Barueri;bwin;1.38;4.30;6.50;05 Sep 2009; 2;1 ;2009
+Palmeiras;Barueri;Pinnacle;1.50;4.40;7.50;05 Sep 2009; 2;1 ;2009
+Palmeiras;Barueri;Unibet;1.50;3.65;7.00;05 Sep 2009; 2;1 ;2009
+Sport Recife;Botafogo RJ;bet-at-home;2.15;3.20;2.90;05 Sep 2009; 2;1 ;2009
+Sport Recife;Botafogo RJ;bet365;2.20;3.20;3.40;05 Sep 2009; 2;1 ;2009
+Sport Recife;Botafogo RJ;bwin;2.25;3.00;3.00;05 Sep 2009; 2;1 ;2009
+Sport Recife;Botafogo RJ;Pinnacle;2.48;3.38;3.12;05 Sep 2009; 2;1 ;2009
+Sport Recife;Botafogo RJ;Unibet;2.25;3.25;2.90;05 Sep 2009; 2;1 ;2009
+Corinthians;Santos;bet-at-home;2.15;3.20;2.90;03 Sep 2009; 2;1 ;2009
+Corinthians;Santos;bet365;2.25;3.30;3.20;03 Sep 2009; 2;1 ;2009
+Corinthians;Santos;bwin;2.04;3.20;3.20;03 Sep 2009; 2;1 ;2009
+Corinthians;Santos;Pinnacle;2.37;3.25;3.45;03 Sep 2009; 2;1 ;2009
+Corinthians;Santos;Unibet;2.15;3.25;3.10;03 Sep 2009; 2;1 ;2009
+Internacional;Atletico-MG;bet-at-home;1.40;4.00;6.25;03 Sep 2009; 3;0 ;2009
+Internacional;Atletico-MG;bet365;1.44;4.20;7.50;03 Sep 2009; 3;0 ;2009
+Internacional;Atletico-MG;bwin;1.40;4.09;6.50;03 Sep 2009; 3;0 ;2009
+Internacional;Atletico-MG;Pinnacle;1.52;4.25;7.31;03 Sep 2009; 3;0 ;2009
+Internacional;Atletico-MG;Unibet;1.45;3.80;7.25;03 Sep 2009; 3;0 ;2009
+Botafogo RJ;Gremio;bet-at-home;2.04;3.25;3.05;30 Aug 2009; 3;3 ;2009
+Botafogo RJ;Gremio;bet365;2.15;3.40;3.30;30 Aug 2009; 3;3 ;2009
+Botafogo RJ;Gremio;bwin;2.15;3.20;3.00;30 Aug 2009; 3;3 ;2009
+Botafogo RJ;Gremio;Pinnacle;2.15;3.53;3.70;30 Aug 2009; 3;3 ;2009
+Botafogo RJ;Gremio;Unibet;2.15;3.20;3.20;30 Aug 2009; 3;3 ;2009
+Internacional;Goias;bet-at-home;1.85;3.10;3.90;30 Aug 2009; 4;0 ;2009
+Internacional;Goias;bet365;1.83;3.75;4.20;30 Aug 2009; 4;0 ;2009
+Internacional;Goias;bwin;1.85;3.05;4.00;30 Aug 2009; 4;0 ;2009
+Internacional;Goias;Pinnacle;1.88;3.68;4.61;30 Aug 2009; 4;0 ;2009
+Internacional;Goias;Unibet;1.95;3.30;3.65;30 Aug 2009; 4;0 ;2009
+Vitoria;Cruzeiro;bet-at-home;2.15;3.20;2.90;30 Aug 2009; 3;3 ;2009
+Vitoria;Cruzeiro;bet365;2.29;3.30;3.10;30 Aug 2009; 3;3 ;2009
+Vitoria;Cruzeiro;bwin;2.15;3.20;3.00;30 Aug 2009; 3;3 ;2009
+Vitoria;Cruzeiro;Pinnacle;2.31;3.41;3.35;30 Aug 2009; 3;3 ;2009
+Vitoria;Cruzeiro;Unibet;2.15;3.25;3.15;30 Aug 2009; 3;3 ;2009
+Atletico-MG;Sport Recife;bet-at-home;1.50;3.40;6.20;30 Aug 2009; 1;1 ;2009
+Atletico-MG;Sport Recife;bet365;1.50;4.20;6.50;30 Aug 2009; 1;1 ;2009
+Atletico-MG;Sport Recife;bwin;1.45;3.70;6.50;30 Aug 2009; 1;1 ;2009
+Atletico-MG;Sport Recife;Pinnacle;1.56;4.37;6.69;30 Aug 2009; 1;1 ;2009
+Atletico-MG;Sport Recife;Unibet;1.50;3.65;6.50;30 Aug 2009; 1;1 ;2009
+Santos;Fluminense;bet-at-home;1.55;3.40;5.50;30 Aug 2009; 2;0 ;2009
+Santos;Fluminense;bet365;1.67;3.60;5.50;30 Aug 2009; 2;0 ;2009
+Santos;Fluminense;bwin;1.55;3.50;5.50;30 Aug 2009; 2;0 ;2009
+Santos;Fluminense;Pinnacle;1.71;3.76;5.63;30 Aug 2009; 2;0 ;2009
+Santos;Fluminense;Unibet;1.75;3.40;4.40;30 Aug 2009; 2;0 ;2009
+Sao Paulo;Palmeiras;bet-at-home;2.04;3.15;3.15;30 Aug 2009; 0;0 ;2009
+Sao Paulo;Palmeiras;bet365;2.38;3.20;3.00;30 Aug 2009; 0;0 ;2009
+Sao Paulo;Palmeiras;bwin;2.04;3.00;3.45;30 Aug 2009; 0;0 ;2009
+Sao Paulo;Palmeiras;Pinnacle;2.52;3.29;3.12;30 Aug 2009; 0;0 ;2009
+Sao Paulo;Palmeiras;Unibet;2.25;3.20;3.00;30 Aug 2009; 0;0 ;2009
+Coritiba;Avai;bet-at-home;2.04;3.35;3.00;29 Aug 2009; 2;0 ;2009
+Coritiba;Avai;bet365;2.00;3.40;3.75;29 Aug 2009; 2;0 ;2009
+Coritiba;Avai;bwin;2.04;3.20;3.20;29 Aug 2009; 2;0 ;2009
+Coritiba;Avai;Pinnacle;2.18;3.32;3.65;29 Aug 2009; 2;0 ;2009
+Coritiba;Avai;Unibet;2.10;3.25;3.30;29 Aug 2009; 2;0 ;2009
+Flamengo RJ;Santo Andre;bet-at-home;1.75;3.30;4.05;29 Aug 2009; 3;0 ;2009
+Flamengo RJ;Santo Andre;bet365;1.85;3.40;4.20;29 Aug 2009; 3;0 ;2009
+Flamengo RJ;Santo Andre;bwin;1.70;3.30;4.50;29 Aug 2009; 3;0 ;2009
+Flamengo RJ;Santo Andre;Pinnacle;1.94;3.48;4.59;29 Aug 2009; 3;0 ;2009
+Flamengo RJ;Santo Andre;Unibet;1.80;3.40;4.00;29 Aug 2009; 3;0 ;2009
+Nautico;Athletico-PR;bet-at-home;2.04;3.20;3.10;29 Aug 2009; 3;0 ;2009
+Nautico;Athletico-PR;bet365;2.00;3.40;3.60;29 Aug 2009; 3;0 ;2009
+Nautico;Athletico-PR;bwin;2.10;3.10;3.20;29 Aug 2009; 3;0 ;2009
+Nautico;Athletico-PR;Pinnacle;2.06;3.41;4.05;29 Aug 2009; 3;0 ;2009
+Nautico;Athletico-PR;Unibet;2.10;3.25;3.20;29 Aug 2009; 3;0 ;2009
+Botafogo RJ;Cruzeiro;bet-at-home;2.00;3.20;3.20;28 Aug 2009; 1;1 ;2009
+Botafogo RJ;Cruzeiro;bet365;2.00;3.60;3.50;28 Aug 2009; 1;1 ;2009
+Botafogo RJ;Cruzeiro;bwin;2.10;3.15;3.15;28 Aug 2009; 1;1 ;2009
+Botafogo RJ;Cruzeiro;Pinnacle;2.04;3.65;3.86;28 Aug 2009; 1;1 ;2009
+Botafogo RJ;Cruzeiro;Unibet;2.10;3.20;3.30;28 Aug 2009; 1;1 ;2009
+Barueri;Corinthians;bet-at-home;2.10;3.20;3.00;27 Aug 2009; 2;2 ;2009
+Barueri;Corinthians;bet365;2.15;3.30;3.40;27 Aug 2009; 2;2 ;2009
+Barueri;Corinthians;bwin;2.29;3.10;2.80;27 Aug 2009; 2;2 ;2009
+Barueri;Corinthians;Pinnacle;2.25;3.32;3.60;27 Aug 2009; 2;2 ;2009
+Barueri;Corinthians;Unibet;2.20;3.20;3.10;27 Aug 2009; 2;2 ;2009
+Santos;Internacional;bet-at-home;1.95;3.20;3.35;27 Aug 2009; 3;3 ;2009
+Santos;Internacional;bet365;2.00;3.40;3.75;27 Aug 2009; 3;3 ;2009
+Santos;Internacional;bwin;1.95;3.25;3.45;27 Aug 2009; 3;3 ;2009
+Santos;Internacional;Pinnacle;2.06;3.76;3.72;27 Aug 2009; 3;3 ;2009
+Santos;Internacional;Unibet;2.00;3.25;3.50;27 Aug 2009; 3;3 ;2009
+Avai;Flamengo RJ;bet-at-home;1.75;3.30;4.00;23 Aug 2009; 3;0 ;2009
+Avai;Flamengo RJ;bet365;1.75;3.50;4.50;23 Aug 2009; 3;0 ;2009
+Avai;Flamengo RJ;bwin;1.75;3.25;4.25;23 Aug 2009; 3;0 ;2009
+Avai;Flamengo RJ;Pinnacle;1.85;3.88;4.47;23 Aug 2009; 3;0 ;2009
+Cruzeiro;Nautico;bet-at-home;1.40;3.75;7.00;23 Aug 2009; 4;2 ;2009
+Cruzeiro;Nautico;bet365;1.40;4.33;9.00;23 Aug 2009; 4;2 ;2009
+Cruzeiro;Nautico;bwin;1.45;3.80;6.20;23 Aug 2009; 4;2 ;2009
+Cruzeiro;Nautico;Pinnacle;1.46;4.66;8.77;23 Aug 2009; 4;2 ;2009
+Goias;Santos;bet-at-home;1.80;3.30;3.80;23 Aug 2009; 2;1 ;2009
+Goias;Santos;bet365;1.95;3.30;3.80;23 Aug 2009; 2;1 ;2009
+Goias;Santos;bwin;1.85;3.00;4.15;23 Aug 2009; 2;1 ;2009
+Goias;Santos;Pinnacle;2.04;3.55;3.97;23 Aug 2009; 2;1 ;2009
+Athletico-PR;Sao Paulo;bet-at-home;2.80;3.20;2.20;23 Aug 2009; 1;0 ;2009
+Athletico-PR;Sao Paulo;bet365;3.10;3.25;2.29;23 Aug 2009; 1;0 ;2009
+Athletico-PR;Sao Paulo;bwin;2.80;3.05;2.35;23 Aug 2009; 1;0 ;2009
+Athletico-PR;Sao Paulo;Pinnacle;3.39;3.28;2.37;23 Aug 2009; 1;0 ;2009
+Corinthians;Botafogo RJ;bet-at-home;1.90;3.00;3.80;23 Aug 2009; 3;3 ;2009
+Corinthians;Botafogo RJ;bet365;2.04;3.25;3.75;23 Aug 2009; 3;3 ;2009
+Corinthians;Botafogo RJ;bwin;1.85;3.25;3.80;23 Aug 2009; 3;3 ;2009
+Corinthians;Botafogo RJ;Pinnacle;2.17;3.35;3.83;23 Aug 2009; 3;3 ;2009
+Fluminense;Barueri;bet-at-home;1.95;3.20;3.35;23 Aug 2009; 0;0 ;2009
+Fluminense;Barueri;bet365;2.00;3.30;3.80;23 Aug 2009; 0;0 ;2009
+Fluminense;Barueri;bwin;1.95;3.20;3.50;23 Aug 2009; 0;0 ;2009
+Fluminense;Barueri;Pinnacle;2.00;3.70;3.95;23 Aug 2009; 0;0 ;2009
+Gremio;Atletico-MG;bet-at-home;1.70;3.40;4.20;23 Aug 2009; 4;1 ;2009
+Gremio;Atletico-MG;bet365;1.75;3.40;4.75;23 Aug 2009; 4;1 ;2009
+Gremio;Atletico-MG;bwin;1.65;3.35;4.80;23 Aug 2009; 4;1 ;2009
+Gremio;Atletico-MG;Pinnacle;1.76;3.99;5.14;23 Aug 2009; 4;1 ;2009
+Palmeiras;Internacional;bet-at-home;1.80;3.30;3.80;22 Aug 2009; 2;1 ;2009
+Palmeiras;Internacional;bet365;1.83;3.60;4.33;22 Aug 2009; 2;1 ;2009
+Palmeiras;Internacional;bwin;1.85;3.30;3.75;22 Aug 2009; 2;1 ;2009
+Palmeiras;Internacional;Pinnacle;1.86;3.92;4.43;22 Aug 2009; 2;1 ;2009
+Santo Andre;Coritiba;bet-at-home;2.00;3.20;3.20;22 Aug 2009; 1;0 ;2009
+Santo Andre;Coritiba;bet365;2.00;3.40;3.60;22 Aug 2009; 1;0 ;2009
+Santo Andre;Coritiba;bwin;2.04;3.20;3.20;22 Aug 2009; 1;0 ;2009
+Santo Andre;Coritiba;Pinnacle;2.10;3.43;4.03;22 Aug 2009; 1;0 ;2009
+Sport Recife;Vitoria;bet-at-home;2.15;3.20;2.90;22 Aug 2009; 2;0 ;2009
+Sport Recife;Vitoria;bet365;2.20;3.40;3.20;22 Aug 2009; 2;0 ;2009
+Sport Recife;Vitoria;bwin;2.20;3.20;2.90;22 Aug 2009; 2;0 ;2009
+Sport Recife;Vitoria;Pinnacle;2.29;3.60;3.25;22 Aug 2009; 2;0 ;2009
+Atletico-MG;Avai;bet-at-home;1.80;3.25;3.85;21 Aug 2009; 2;2 ;2009
+Atletico-MG;Avai;bet365;2.04;3.20;3.60;21 Aug 2009; 2;2 ;2009
+Atletico-MG;Avai;bwin;1.80;3.35;3.90;21 Aug 2009; 2;2 ;2009
+Atletico-MG;Avai;Pinnacle;2.06;3.27;4.37;21 Aug 2009; 2;2 ;2009
+Atletico-MG;Avai;Unibet;1.85;3.30;4.05;21 Aug 2009; 2;2 ;2009
+Flamengo RJ;Cruzeiro;bet-at-home;2.00;3.20;3.20;21 Aug 2009; 1;2 ;2009
+Flamengo RJ;Cruzeiro;bet365;2.20;3.30;3.20;21 Aug 2009; 1;2 ;2009
+Flamengo RJ;Cruzeiro;bwin;2.00;3.25;3.30;21 Aug 2009; 1;2 ;2009
+Flamengo RJ;Cruzeiro;Pinnacle;2.38;3.43;3.23;21 Aug 2009; 1;2 ;2009
+Flamengo RJ;Cruzeiro;Unibet;2.10;3.25;3.30;21 Aug 2009; 1;2 ;2009
+Nautico;Goias;bet-at-home;3.00;3.10;2.15;21 Aug 2009; 2;0 ;2009
+Nautico;Goias;bet365;3.25;3.30;2.20;21 Aug 2009; 2;0 ;2009
+Nautico;Goias;bwin;3.10;2.85;2.29;21 Aug 2009; 2;0 ;2009
+Nautico;Goias;Pinnacle;3.15;3.71;2.29;21 Aug 2009; 2;0 ;2009
+Nautico;Goias;Unibet;2.70;3.25;2.40;21 Aug 2009; 2;0 ;2009
+Coritiba;Palmeiras;bet-at-home;3.00;3.10;2.15;20 Aug 2009; 1;0 ;2009
+Coritiba;Palmeiras;bet365;2.90;3.30;2.40;20 Aug 2009; 1;0 ;2009
+Coritiba;Palmeiras;bwin;2.85;3.25;2.20;20 Aug 2009; 1;0 ;2009
+Coritiba;Palmeiras;Pinnacle;3.06;3.30;2.54;20 Aug 2009; 1;0 ;2009
+Coritiba;Palmeiras;Unibet;2.65;3.25;2.45;20 Aug 2009; 1;0 ;2009
+Internacional;Corinthians;bet-at-home;1.50;3.75;5.25;20 Aug 2009; 1;2 ;2009
+Internacional;Corinthians;bet365;1.62;3.60;5.75;20 Aug 2009; 1;2 ;2009
+Internacional;Corinthians;bwin;1.50;3.60;6.00;20 Aug 2009; 1;2 ;2009
+Internacional;Corinthians;Pinnacle;1.61;3.94;6.39;20 Aug 2009; 1;2 ;2009
+Internacional;Corinthians;Unibet;1.55;3.50;6.25;20 Aug 2009; 1;2 ;2009
+Sao Paulo;Fluminense;bet-at-home;1.45;3.75;6.00;20 Aug 2009; 1;0 ;2009
+Sao Paulo;Fluminense;bet365;1.44;4.20;7.50;20 Aug 2009; 1;0 ;2009
+Sao Paulo;Fluminense;bwin;1.40;3.90;7.50;20 Aug 2009; 1;0 ;2009
+Sao Paulo;Fluminense;Pinnacle;1.56;4.09;7.04;20 Aug 2009; 1;0 ;2009
+Sao Paulo;Fluminense;Unibet;1.40;4.00;7.50;20 Aug 2009; 1;0 ;2009
+Barueri;Sport Recife;bet-at-home;1.50;3.65;5.50;20 Aug 2009; 2;1 ;2009
+Barueri;Sport Recife;bet365;1.57;3.75;6.50;20 Aug 2009; 2;1 ;2009
+Barueri;Sport Recife;bwin;1.50;3.50;6.20;20 Aug 2009; 2;1 ;2009
+Barueri;Sport Recife;Pinnacle;1.63;4.09;6.52;20 Aug 2009; 2;1 ;2009
+Barueri;Sport Recife;Unibet;1.55;3.50;6.25;20 Aug 2009; 2;1 ;2009
+Botafogo RJ;Santo Andre;bet-at-home;1.55;3.50;5.20;19 Aug 2009; 1;2 ;2009
+Botafogo RJ;Santo Andre;bet365;1.55;3.75;6.50;19 Aug 2009; 1;2 ;2009
+Botafogo RJ;Santo Andre;bwin;1.55;3.50;5.50;19 Aug 2009; 1;2 ;2009
+Botafogo RJ;Santo Andre;Pinnacle;1.65;4.13;6.21;19 Aug 2009; 1;2 ;2009
+Botafogo RJ;Santo Andre;Unibet;1.60;3.45;5.50;19 Aug 2009; 1;2 ;2009
+Santos;Gremio;bet-at-home;2.00;3.20;3.25;19 Aug 2009; 1;0 ;2009
+Santos;Gremio;bet365;2.10;3.25;3.50;19 Aug 2009; 1;0 ;2009
+Santos;Gremio;bwin;1.95;3.20;3.50;19 Aug 2009; 1;0 ;2009
+Santos;Gremio;Pinnacle;2.12;3.45;3.89;19 Aug 2009; 1;0 ;2009
+Santos;Gremio;Unibet;2.10;3.25;3.30;19 Aug 2009; 1;0 ;2009
+Vitoria;Athletico-PR;bet-at-home;1.75;3.30;4.00;19 Aug 2009; 2;1 ;2009
+Vitoria;Athletico-PR;bet365;1.80;3.25;4.50;19 Aug 2009; 2;1 ;2009
+Vitoria;Athletico-PR;bwin;1.80;3.35;3.90;19 Aug 2009; 2;1 ;2009
+Vitoria;Athletico-PR;Pinnacle;1.79;3.83;4.88;19 Aug 2009; 2;1 ;2009
+Vitoria;Athletico-PR;Unibet;1.85;3.35;4.00;19 Aug 2009; 2;1 ;2009
+Athletico-PR;Barueri;bet-at-home;2.00;3.15;3.30;16 Aug 2009; 3;0 ;2009
+Athletico-PR;Barueri;bet365;2.20;3.25;3.30;16 Aug 2009; 3;0 ;2009
+Athletico-PR;Barueri;bwin;2.15;3.15;3.05;16 Aug 2009; 3;0 ;2009
+Athletico-PR;Barueri;Pinnacle;2.25;3.46;3.47;16 Aug 2009; 3;0 ;2009
+Athletico-PR;Barueri;Unibet;2.10;3.25;3.20;16 Aug 2009; 3;0 ;2009
+Cruzeiro;Santos;bet-at-home;1.75;3.30;4.00;16 Aug 2009; 0;0 ;2009
+Cruzeiro;Santos;bet365;1.80;3.60;4.50;16 Aug 2009; 0;0 ;2009
+Cruzeiro;Santos;bwin;1.80;3.25;4.00;16 Aug 2009; 0;0 ;2009
+Cruzeiro;Santos;Pinnacle;1.92;3.73;4.34;16 Aug 2009; 0;0 ;2009
+Cruzeiro;Santos;Unibet;1.80;3.30;4.20;16 Aug 2009; 0;0 ;2009
+Corinthians;Atletico-MG;bet-at-home;1.90;3.25;3.45;16 Aug 2009; 2;0 ;2009
+Corinthians;Atletico-MG;bet365;1.95;3.50;3.75;16 Aug 2009; 2;0 ;2009
+Corinthians;Atletico-MG;bwin;1.90;3.20;3.65;16 Aug 2009; 2;0 ;2009
+Corinthians;Atletico-MG;Pinnacle;2.02;3.68;3.96;16 Aug 2009; 2;0 ;2009
+Corinthians;Atletico-MG;Unibet;1.95;3.30;3.65;16 Aug 2009; 2;0 ;2009
+Fluminense;Coritiba;bet-at-home;1.60;3.40;4.90;16 Aug 2009; 1;3 ;2009
+Fluminense;Coritiba;bet365;1.70;3.60;5.00;16 Aug 2009; 1;3 ;2009
+Fluminense;Coritiba;bwin;1.65;3.35;4.80;16 Aug 2009; 1;3 ;2009
+Fluminense;Coritiba;Pinnacle;1.68;3.96;5.67;16 Aug 2009; 1;3 ;2009
+Fluminense;Coritiba;Unibet;1.70;3.40;4.75;16 Aug 2009; 1;3 ;2009
+Goias;Vitoria;bet-at-home;1.50;3.50;5.90;16 Aug 2009; 3;2 ;2009
+Goias;Vitoria;bet365;1.62;3.50;6.25;16 Aug 2009; 3;2 ;2009
+Goias;Vitoria;bwin;1.50;3.50;6.20;16 Aug 2009; 3;2 ;2009
+Goias;Vitoria;Pinnacle;1.67;3.83;6.34;16 Aug 2009; 3;2 ;2009
+Goias;Vitoria;Unibet;1.60;3.45;5.50;16 Aug 2009; 3;2 ;2009
+Gremio;Flamengo RJ;bet-at-home;1.80;3.30;3.80;16 Aug 2009; 4;1 ;2009
+Gremio;Flamengo RJ;bet365;1.80;3.50;4.50;16 Aug 2009; 4;1 ;2009
+Gremio;Flamengo RJ;bwin;1.80;3.35;3.85;16 Aug 2009; 4;1 ;2009
+Gremio;Flamengo RJ;Pinnacle;1.87;3.67;4.67;16 Aug 2009; 4;1 ;2009
+Gremio;Flamengo RJ;Unibet;1.75;3.40;4.30;16 Aug 2009; 4;1 ;2009
+Sport Recife;Sao Paulo;bet-at-home;3.00;3.15;2.10;16 Aug 2009; 1;2 ;2009
+Sport Recife;Sao Paulo;bet365;2.88;3.20;2.50;16 Aug 2009; 1;2 ;2009
+Sport Recife;Sao Paulo;bwin;2.95;3.15;2.20;16 Aug 2009; 1;2 ;2009
+Sport Recife;Sao Paulo;Pinnacle;3.13;3.29;2.49;16 Aug 2009; 1;2 ;2009
+Sport Recife;Sao Paulo;Unibet;3.30;3.25;2.04;16 Aug 2009; 1;2 ;2009
+Avai;Nautico;bet-at-home;1.50;3.50;5.80;15 Aug 2009; 2;1 ;2009
+Avai;Nautico;bet365;1.53;3.80;6.50;15 Aug 2009; 2;1 ;2009
+Avai;Nautico;bwin;1.55;3.40;5.75;15 Aug 2009; 2;1 ;2009
+Avai;Nautico;Unibet;1.55;3.50;6.25;15 Aug 2009; 2;1 ;2009
+Palmeiras;Botafogo RJ;bet-at-home;1.55;3.45;5.30;15 Aug 2009; 1;1 ;2009
+Palmeiras;Botafogo RJ;bet365;1.57;3.80;6.00;15 Aug 2009; 1;1 ;2009
+Palmeiras;Botafogo RJ;bwin;1.55;3.45;5.65;15 Aug 2009; 1;1 ;2009
+Palmeiras;Botafogo RJ;Pinnacle;1.63;4.05;6.68;15 Aug 2009; 1;1 ;2009
+Palmeiras;Botafogo RJ;Unibet;1.60;3.45;5.50;15 Aug 2009; 1;1 ;2009
+Santo Andre;Internacional;bet-at-home;2.80;3.20;2.20;15 Aug 2009; 0;2 ;2009
+Santo Andre;Internacional;bet365;2.88;3.40;2.50;15 Aug 2009; 0;2 ;2009
+Santo Andre;Internacional;bwin;2.95;3.15;2.20;15 Aug 2009; 0;2 ;2009
+Santo Andre;Internacional;Pinnacle;2.99;3.43;2.57;15 Aug 2009; 0;2 ;2009
+Santo Andre;Internacional;Unibet;2.90;3.25;2.25;15 Aug 2009; 0;2 ;2009
+Atletico-MG;Palmeiras;bet-at-home;2.50;3.10;2.50;13 Aug 2009; 1;1 ;2009
+Atletico-MG;Palmeiras;bet365;2.70;3.25;2.63;13 Aug 2009; 1;1 ;2009
+Atletico-MG;Palmeiras;bwin;2.25;3.15;2.85;13 Aug 2009; 1;1 ;2009
+Atletico-MG;Palmeiras;Pinnacle;2.83;3.31;2.77;13 Aug 2009; 1;1 ;2009
+Atletico-MG;Palmeiras;Unibet;2.29;3.25;2.80;13 Aug 2009; 1;1 ;2009
+Internacional;Sport Recife;bet-at-home;1.35;4.00;7.60;11 Aug 2009; 3;0 ;2009
+Internacional;Sport Recife;bet365;1.40;4.50;8.50;11 Aug 2009; 3;0 ;2009
+Internacional;Sport Recife;bwin;1.30;4.34;8.75;11 Aug 2009; 3;0 ;2009
+Internacional;Sport Recife;Pinnacle;1.46;4.53;9.36;11 Aug 2009; 3;0 ;2009
+Internacional;Sport Recife;Unibet;1.45;3.80;7.00;11 Aug 2009; 3;0 ;2009
+Barueri;Gremio;bet-at-home;2.15;3.20;2.90;09 Aug 2009; 1;0 ;2009
+Barueri;Gremio;bet365;2.40;3.30;2.88;09 Aug 2009; 1;0 ;2009
+Barueri;Gremio;bwin;2.20;3.15;2.95;09 Aug 2009; 1;0 ;2009
+Barueri;Gremio;Pinnacle;2.46;3.94;2.81;09 Aug 2009; 1;0 ;2009
+Barueri;Gremio;Unibet;2.25;3.25;2.90;09 Aug 2009; 1;0 ;2009
+Coritiba;Cruzeiro;bet-at-home;2.25;3.20;2.75;09 Aug 2009; 1;3 ;2009
+Coritiba;Cruzeiro;bet365;2.60;3.30;2.70;09 Aug 2009; 1;3 ;2009
+Coritiba;Cruzeiro;bwin;2.29;3.10;2.80;09 Aug 2009; 1;3 ;2009
+Coritiba;Cruzeiro;Pinnacle;2.70;3.53;2.73;09 Aug 2009; 1;3 ;2009
+Coritiba;Cruzeiro;Unibet;2.54;3.25;2.54;09 Aug 2009; 1;3 ;2009
+Sao Paulo;Goias;bet-at-home;1.60;3.50;4.75;09 Aug 2009; 3;1 ;2009
+Sao Paulo;Goias;bet365;1.70;3.60;5.25;09 Aug 2009; 3;1 ;2009
+Sao Paulo;Goias;bwin;1.60;3.25;5.50;09 Aug 2009; 3;1 ;2009
+Sao Paulo;Goias;Pinnacle;1.72;3.97;5.36;09 Aug 2009; 3;1 ;2009
+Sao Paulo;Goias;Unibet;1.65;3.40;5.00;09 Aug 2009; 3;1 ;2009
+Flamengo RJ;Corinthians;bet-at-home;1.60;3.70;4.40;09 Aug 2009; 1;0 ;2009
+Flamengo RJ;Corinthians;bet365;1.67;3.60;5.25;09 Aug 2009; 1;0 ;2009
+Flamengo RJ;Corinthians;bwin;1.60;3.50;5.00;09 Aug 2009; 1;0 ;2009
+Flamengo RJ;Corinthians;Pinnacle;1.76;3.79;5.32;09 Aug 2009; 1;0 ;2009
+Flamengo RJ;Corinthians;Unibet;1.70;3.45;4.59;09 Aug 2009; 1;0 ;2009
+Vitoria;Fluminense;bet-at-home;1.70;3.40;4.20;09 Aug 2009; 2;2 ;2009
+Vitoria;Fluminense;bet365;1.85;3.40;4.20;09 Aug 2009; 2;2 ;2009
+Vitoria;Fluminense;bwin;1.75;3.25;4.25;09 Aug 2009; 2;2 ;2009
+Vitoria;Fluminense;Pinnacle;1.91;3.74;4.40;09 Aug 2009; 2;2 ;2009
+Vitoria;Fluminense;Unibet;1.67;3.40;4.70;09 Aug 2009; 2;2 ;2009
+Botafogo RJ;Athletico-PR;bet-at-home;1.60;3.50;4.75;08 Aug 2009; 0;1 ;2009
+Botafogo RJ;Athletico-PR;bet365;1.70;3.50;5.25;08 Aug 2009; 0;1 ;2009
+Botafogo RJ;Athletico-PR;bwin;1.60;3.45;5.00;08 Aug 2009; 0;1 ;2009
+Botafogo RJ;Athletico-PR;Pinnacle;1.61;4.19;6.15;08 Aug 2009; 0;1 ;2009
+Botafogo RJ;Athletico-PR;Unibet;1.64;3.50;4.75;08 Aug 2009; 0;1 ;2009
+Nautico;Santo Andre;bet-at-home;2.10;3.20;3.00;08 Aug 2009; 2;1 ;2009
+Nautico;Santo Andre;bet365;2.38;3.30;3.10;08 Aug 2009; 2;1 ;2009
+Nautico;Santo Andre;bwin;2.04;3.25;3.15;08 Aug 2009; 2;1 ;2009
+Nautico;Santo Andre;Pinnacle;2.41;3.41;3.25;08 Aug 2009; 2;1 ;2009
+Nautico;Santo Andre;Unibet;2.15;3.25;3.10;08 Aug 2009; 2;1 ;2009
+Santos;Avai;bet-at-home;1.65;3.40;4.50;08 Aug 2009; 2;2 ;2009
+Santos;Avai;bet365;1.80;3.40;4.75;08 Aug 2009; 2;2 ;2009
+Santos;Avai;bwin;1.70;3.40;4.30;08 Aug 2009; 2;2 ;2009
+Santos;Avai;Unibet;1.70;3.40;4.50;08 Aug 2009; 2;2 ;2009
+Barueri;Vitoria;bet-at-home;1.80;3.35;3.70;07 Aug 2009; 4;0 ;2009
+Barueri;Vitoria;bet365;1.91;3.40;4.00;07 Aug 2009; 4;0 ;2009
+Barueri;Vitoria;bwin;1.80;3.25;4.00;07 Aug 2009; 4;0 ;2009
+Barueri;Vitoria;Pinnacle;2.00;3.68;3.98;07 Aug 2009; 4;0 ;2009
+Barueri;Vitoria;Unibet;1.90;3.35;3.75;07 Aug 2009; 4;0 ;2009
+Fluminense;Sport Recife;bet-at-home;1.80;3.25;3.85;07 Aug 2009; 5;1 ;2009
+Fluminense;Sport Recife;bet365;1.80;3.40;4.33;07 Aug 2009; 5;1 ;2009
+Fluminense;Sport Recife;bwin;1.70;3.30;4.50;07 Aug 2009; 5;1 ;2009
+Fluminense;Sport Recife;Pinnacle;1.88;3.62;4.67;07 Aug 2009; 5;1 ;2009
+Fluminense;Sport Recife;Unibet;1.80;3.40;4.00;07 Aug 2009; 5;1 ;2009
+Palmeiras;Gremio;bet-at-home;1.65;3.20;4.84;07 Aug 2009; 1;1 ;2009
+Palmeiras;Gremio;bet365;1.73;3.60;5.00;07 Aug 2009; 1;1 ;2009
+Palmeiras;Gremio;bwin;1.70;3.25;4.59;07 Aug 2009; 1;1 ;2009
+Palmeiras;Gremio;Pinnacle;1.81;3.56;5.55;07 Aug 2009; 1;1 ;2009
+Palmeiras;Gremio;Unibet;1.75;3.40;4.30;07 Aug 2009; 1;1 ;2009
+Coritiba;Santos;bet-at-home;2.60;3.10;2.40;06 Aug 2009; 0;1 ;2009
+Coritiba;Santos;bet365;3.20;3.25;2.20;06 Aug 2009; 0;1 ;2009
+Coritiba;Santos;bwin;2.70;3.10;2.40;06 Aug 2009; 0;1 ;2009
+Coritiba;Santos;Pinnacle;2.98;3.29;2.64;06 Aug 2009; 0;1 ;2009
+Coritiba;Santos;Unibet;2.65;3.25;2.45;06 Aug 2009; 0;1 ;2009
+Goias;Flamengo RJ;bet365;2.04;3.20;3.40;06 Aug 2009; 3;2 ;2009
+Goias;Flamengo RJ;bwin;2.00;3.15;3.40;06 Aug 2009; 3;2 ;2009
+Goias;Flamengo RJ;Pinnacle;2.12;3.66;3.64;06 Aug 2009; 3;2 ;2009
+Goias;Flamengo RJ;Unibet;2.00;3.25;3.50;06 Aug 2009; 3;2 ;2009
+Nautico;Corinthians;bet-at-home;2.50;3.10;2.50;06 Aug 2009; 1;0 ;2009
+Nautico;Corinthians;bet365;2.45;3.25;2.63;06 Aug 2009; 1;0 ;2009
+Nautico;Corinthians;bwin;2.75;3.20;2.29;06 Aug 2009; 1;0 ;2009
+Nautico;Corinthians;Pinnacle;2.58;3.45;2.91;06 Aug 2009; 1;0 ;2009
+Nautico;Corinthians;Unibet;2.50;3.25;2.60;06 Aug 2009; 1;0 ;2009
+Avai;Santo Andre;bet-at-home;1.60;3.50;4.70;06 Aug 2009; 1;0 ;2009
+Avai;Santo Andre;bet365;1.62;3.60;5.25;06 Aug 2009; 1;0 ;2009
+Avai;Santo Andre;bwin;1.70;3.25;4.59;06 Aug 2009; 1;0 ;2009
+Avai;Santo Andre;Pinnacle;1.72;3.99;5.19;06 Aug 2009; 1;0 ;2009
+Avai;Santo Andre;Unibet;1.70;3.40;4.75;06 Aug 2009; 1;0 ;2009
+Sao Paulo;Botafogo RJ;bet-at-home;1.60;3.50;4.70;06 Aug 2009; 3;1 ;2009
+Sao Paulo;Botafogo RJ;bet365;1.80;3.50;4.50;06 Aug 2009; 3;1 ;2009
+Sao Paulo;Botafogo RJ;bwin;1.55;3.50;5.55;06 Aug 2009; 3;1 ;2009
+Sao Paulo;Botafogo RJ;Pinnacle;1.91;3.49;4.84;06 Aug 2009; 3;1 ;2009
+Sao Paulo;Botafogo RJ;Unibet;1.65;3.40;5.25;06 Aug 2009; 3;1 ;2009
+Cruzeiro;Athletico-PR;bet-at-home;1.45;3.70;6.20;05 Aug 2009; 0;2 ;2009
+Cruzeiro;Athletico-PR;bet365;1.44;4.20;6.50;05 Aug 2009; 0;2 ;2009
+Cruzeiro;Athletico-PR;bwin;1.45;3.80;6.75;05 Aug 2009; 0;2 ;2009
+Cruzeiro;Athletico-PR;Pinnacle;1.47;4.59;7.40;05 Aug 2009; 0;2 ;2009
+Cruzeiro;Athletico-PR;Unibet;1.45;3.85;7.00;05 Aug 2009; 0;2 ;2009
+Atletico-MG;Coritiba;bet-at-home;1.50;3.50;5.80;02 Aug 2009; 3;2 ;2009
+Atletico-MG;Coritiba;bet365;1.57;3.80;6.00;02 Aug 2009; 3;2 ;2009
+Atletico-MG;Coritiba;bwin;1.45;3.65;6.75;02 Aug 2009; 3;2 ;2009
+Atletico-MG;Coritiba;Pinnacle;1.58;4.17;7.28;02 Aug 2009; 3;2 ;2009
+Atletico-MG;Coritiba;Unibet;1.55;3.50;6.00;02 Aug 2009; 3;2 ;2009
+Gremio;Cruzeiro;bet-at-home;1.80;3.35;3.70;02 Aug 2009; 4;1 ;2009
+Gremio;Cruzeiro;bet365;1.83;3.60;4.33;02 Aug 2009; 4;1 ;2009
+Gremio;Cruzeiro;bwin;1.75;3.45;4.00;02 Aug 2009; 4;1 ;2009
+Gremio;Cruzeiro;Pinnacle;1.93;3.71;4.37;02 Aug 2009; 4;1 ;2009
+Gremio;Cruzeiro;Unibet;1.80;3.40;4.00;02 Aug 2009; 4;1 ;2009
+Santo Andre;Goias;bet-at-home;2.29;3.20;2.65;02 Aug 2009; 1;2 ;2009
+Santo Andre;Goias;bet365;2.40;3.40;2.80;02 Aug 2009; 1;2 ;2009
+Santo Andre;Goias;bwin;2.50;3.15;2.54;02 Aug 2009; 1;2 ;2009
+Santo Andre;Goias;Pinnacle;2.43;3.52;3.08;02 Aug 2009; 1;2 ;2009
+Santo Andre;Goias;Unibet;2.45;3.25;2.65;02 Aug 2009; 1;2 ;2009
+Athletico-PR;Fluminense;bet-at-home;2.70;3.15;2.29;02 Aug 2009; 1;0 ;2009
+Athletico-PR;Fluminense;bet365;2.88;3.20;2.50;02 Aug 2009; 1;0 ;2009
+Athletico-PR;Fluminense;bwin;2.60;3.15;2.45;02 Aug 2009; 1;0 ;2009
+Athletico-PR;Fluminense;Pinnacle;3.09;3.24;2.58;02 Aug 2009; 1;0 ;2009
+Athletico-PR;Fluminense;Unibet;2.54;3.25;2.54;02 Aug 2009; 1;0 ;2009
+Corinthians;Avai;bet-at-home;1.80;3.15;4.00;02 Aug 2009; 0;0 ;2009
+Corinthians;Avai;bet365;1.95;3.30;4.00;02 Aug 2009; 0;0 ;2009
+Corinthians;Avai;bwin;1.95;3.20;3.50;02 Aug 2009; 0;0 ;2009
+Corinthians;Avai;Pinnacle;2.02;3.33;4.38;02 Aug 2009; 0;0 ;2009
+Corinthians;Avai;Unibet;1.90;3.30;3.80;02 Aug 2009; 0;0 ;2009
+Flamengo RJ;Nautico;bet-at-home;1.30;4.25;8.50;02 Aug 2009; 1;1 ;2009
+Flamengo RJ;Nautico;bet365;1.36;4.75;8.00;02 Aug 2009; 1;1 ;2009
+Flamengo RJ;Nautico;bwin;1.30;4.45;8.50;02 Aug 2009; 1;1 ;2009
+Flamengo RJ;Nautico;Pinnacle;1.36;5.09;9.94;02 Aug 2009; 1;1 ;2009
+Flamengo RJ;Nautico;Unibet;1.35;4.25;8.50;02 Aug 2009; 1;1 ;2009
+Vitoria;Sao Paulo;bet-at-home;2.45;3.10;2.54;02 Aug 2009; 0;1 ;2009
+Vitoria;Sao Paulo;bet365;2.60;3.20;2.70;02 Aug 2009; 0;1 ;2009
+Vitoria;Sao Paulo;bwin;2.65;3.15;2.40;02 Aug 2009; 0;1 ;2009
+Vitoria;Sao Paulo;Pinnacle;2.72;3.33;2.82;02 Aug 2009; 0;1 ;2009
+Vitoria;Sao Paulo;Unibet;2.50;3.20;2.75;02 Aug 2009; 0;1 ;2009
+Botafogo RJ;Barueri;bet-at-home;1.70;3.40;4.20;01 Aug 2009; 2;1 ;2009
+Botafogo RJ;Barueri;bet365;1.75;3.80;4.33;01 Aug 2009; 2;1 ;2009
+Botafogo RJ;Barueri;bwin;1.70;3.45;4.25;01 Aug 2009; 2;1 ;2009
+Botafogo RJ;Barueri;Pinnacle;1.81;3.89;4.92;01 Aug 2009; 2;1 ;2009
+Botafogo RJ;Barueri;Unibet;1.80;3.40;4.00;01 Aug 2009; 2;1 ;2009
+Sport Recife;Palmeiras;bet-at-home;2.90;3.20;2.15;01 Aug 2009; 0;1 ;2009
+Sport Recife;Palmeiras;bet365;3.10;3.30;2.29;01 Aug 2009; 0;1 ;2009
+Sport Recife;Palmeiras;bwin;2.95;3.25;2.15;01 Aug 2009; 0;1 ;2009
+Sport Recife;Palmeiras;Pinnacle;3.23;3.35;2.43;01 Aug 2009; 0;1 ;2009
+Sport Recife;Palmeiras;Unibet;2.70;3.25;2.40;01 Aug 2009; 0;1 ;2009
+Avai;Vitoria;bet-at-home;2.10;3.25;2.95;31 Jul 2009; 4;0 ;2009
+Avai;Vitoria;bet365;2.10;3.50;3.30;31 Jul 2009; 4;0 ;2009
+Avai;Vitoria;bwin;2.20;3.05;3.05;31 Jul 2009; 4;0 ;2009
+Avai;Vitoria;Pinnacle;2.16;3.55;3.59;31 Jul 2009; 4;0 ;2009
+Flamengo RJ;Atletico-MG;bet-at-home;2.10;3.25;2.95;31 Jul 2009; 3;1 ;2009
+Flamengo RJ;Atletico-MG;bet365;2.20;3.25;3.40;31 Jul 2009; 3;1 ;2009
+Flamengo RJ;Atletico-MG;bwin;2.00;3.20;3.35;31 Jul 2009; 3;1 ;2009
+Flamengo RJ;Atletico-MG;Pinnacle;2.44;3.26;3.30;31 Jul 2009; 3;1 ;2009
+Sao Paulo;Gremio;bet-at-home;1.75;3.35;3.95;31 Jul 2009; 2;1 ;2009
+Sao Paulo;Gremio;bet365;1.91;3.30;4.33;31 Jul 2009; 2;1 ;2009
+Sao Paulo;Gremio;bwin;1.75;3.25;4.30;31 Jul 2009; 2;1 ;2009
+Sao Paulo;Gremio;Pinnacle;1.99;3.58;4.25;31 Jul 2009; 2;1 ;2009
+Cruzeiro;Sport Recife;bet-at-home;1.45;3.65;6.25;30 Jul 2009; 1;0 ;2009
+Cruzeiro;Sport Recife;bet365;1.50;4.00;7.00;30 Jul 2009; 1;0 ;2009
+Cruzeiro;Sport Recife;bwin;1.45;3.65;6.80;30 Jul 2009; 1;0 ;2009
+Cruzeiro;Sport Recife;Pinnacle;1.51;4.26;7.92;30 Jul 2009; 1;0 ;2009
+Palmeiras;Fluminense;bet-at-home;1.34;4.00;8.00;30 Jul 2009; 1;0 ;2009
+Palmeiras;Fluminense;bet365;1.36;4.50;9.50;30 Jul 2009; 1;0 ;2009
+Palmeiras;Fluminense;bwin;1.40;3.95;7.50;30 Jul 2009; 1;0 ;2009
+Palmeiras;Fluminense;Pinnacle;1.42;4.63;10.06;30 Jul 2009; 1;0 ;2009
+Santo Andre;Corinthians;bet-at-home;2.60;3.10;2.40;30 Jul 2009; 1;1 ;2009
+Santo Andre;Corinthians;bet365;2.90;3.25;2.50;30 Jul 2009; 1;1 ;2009
+Santo Andre;Corinthians;bwin;2.80;3.05;2.35;30 Jul 2009; 1;1 ;2009
+Santo Andre;Corinthians;Pinnacle;2.96;3.29;2.63;30 Jul 2009; 1;1 ;2009
+Goias;Athletico-PR;bet365;1.65;3.60;5.75;30 Jul 2009; 3;0 ;2009
+Goias;Athletico-PR;bwin;1.53;3.65;5.15;30 Jul 2009; 3;0 ;2009
+Goias;Athletico-PR;Pinnacle;1.70;3.93;6.00;30 Jul 2009; 3;0 ;2009
+Internacional;Barueri;bet-at-home;1.60;3.40;5.00;30 Jul 2009; 3;2 ;2009
+Internacional;Barueri;bet365;1.67;3.75;5.00;30 Jul 2009; 3;2 ;2009
+Internacional;Barueri;bwin;1.65;3.35;4.80;30 Jul 2009; 3;2 ;2009
+Internacional;Barueri;Pinnacle;1.76;3.83;5.29;30 Jul 2009; 3;2 ;2009
+Coritiba;Botafogo RJ;bet-at-home;2.35;3.05;2.70;29 Jul 2009; 2;2 ;2009
+Coritiba;Botafogo RJ;bet365;2.60;3.20;2.80;29 Jul 2009; 2;2 ;2009
+Coritiba;Botafogo RJ;bwin;2.45;3.15;2.60;29 Jul 2009; 2;2 ;2009
+Coritiba;Botafogo RJ;Pinnacle;2.71;3.20;2.94;29 Jul 2009; 2;2 ;2009
+Nautico;Santos;bet-at-home;2.60;3.20;2.35;29 Jul 2009; 1;2 ;2009
+Nautico;Santos;bet365;2.63;3.30;2.63;29 Jul 2009; 1;2 ;2009
+Nautico;Santos;bwin;2.54;3.10;2.50;29 Jul 2009; 1;2 ;2009
+Nautico;Santos;Pinnacle;2.68;3.45;2.79;29 Jul 2009; 1;2 ;2009
+Barueri;Sao Paulo;bet-at-home;2.29;3.20;2.65;26 Jul 2009; 1;2 ;2009
+Barueri;Sao Paulo;bet365;2.75;3.25;2.50;26 Jul 2009; 1;2 ;2009
+Barueri;Sao Paulo;bwin;2.45;3.15;2.60;26 Jul 2009; 1;2 ;2009
+Barueri;Sao Paulo;Pinnacle;2.85;3.47;2.63;26 Jul 2009; 1;2 ;2009
+Barueri;Sao Paulo;Unibet;2.35;3.25;2.80;26 Jul 2009; 1;2 ;2009
+Fluminense;Cruzeiro;bet-at-home;2.45;3.20;2.50;26 Jul 2009; 1;1 ;2009
+Fluminense;Cruzeiro;bet365;2.80;3.30;2.50;26 Jul 2009; 1;1 ;2009
+Fluminense;Cruzeiro;bwin;2.54;3.00;2.60;26 Jul 2009; 1;1 ;2009
+Fluminense;Cruzeiro;Pinnacle;2.77;3.37;2.75;26 Jul 2009; 1;1 ;2009
+Fluminense;Cruzeiro;Unibet;2.54;3.20;2.54;26 Jul 2009; 1;1 ;2009
+Vitoria;Coritiba;bet-at-home;1.60;3.50;4.70;26 Jul 2009; 1;0 ;2009
+Vitoria;Coritiba;bet365;1.55;3.80;6.50;26 Jul 2009; 1;0 ;2009
+Vitoria;Coritiba;bwin;1.65;3.35;4.80;26 Jul 2009; 1;0 ;2009
+Vitoria;Coritiba;Pinnacle;1.70;3.94;5.59;26 Jul 2009; 1;0 ;2009
+Vitoria;Coritiba;Unibet;1.60;3.50;5.50;26 Jul 2009; 1;0 ;2009
+Atletico-MG;Goias;bet-at-home;1.60;3.40;4.90;26 Jul 2009; 0;1 ;2009
+Atletico-MG;Goias;bet365;1.70;3.50;5.00;26 Jul 2009; 0;1 ;2009
+Atletico-MG;Goias;bwin;1.65;3.30;5.00;26 Jul 2009; 0;1 ;2009
+Atletico-MG;Goias;Pinnacle;1.85;3.81;4.61;26 Jul 2009; 0;1 ;2009
+Atletico-MG;Goias;Unibet;1.65;3.40;5.25;26 Jul 2009; 0;1 ;2009
+Corinthians;Palmeiras;bet-at-home;2.65;3.20;2.29;26 Jul 2009; 0;3 ;2009
+Corinthians;Palmeiras;bet365;2.63;3.30;2.63;26 Jul 2009; 0;3 ;2009
+Corinthians;Palmeiras;bwin;2.45;3.05;2.65;26 Jul 2009; 0;3 ;2009
+Corinthians;Palmeiras;Pinnacle;3.07;3.48;2.46;26 Jul 2009; 0;3 ;2009
+Corinthians;Palmeiras;Unibet;2.45;3.20;2.70;26 Jul 2009; 0;3 ;2009
+Santos;Flamengo RJ;bet-at-home;1.85;3.25;3.65;26 Jul 2009; 1;2 ;2009
+Santos;Flamengo RJ;bet365;1.90;3.50;3.80;26 Jul 2009; 1;2 ;2009
+Santos;Flamengo RJ;bwin;1.90;3.15;3.75;26 Jul 2009; 1;2 ;2009
+Santos;Flamengo RJ;Pinnacle;2.00;3.68;3.94;26 Jul 2009; 1;2 ;2009
+Santos;Flamengo RJ;Unibet;1.95;3.25;3.75;26 Jul 2009; 1;2 ;2009
+Sport Recife;Nautico;bet-at-home;1.55;3.50;5.20;26 Jul 2009; 3;3 ;2009
+Sport Recife;Nautico;bet365;1.65;3.60;5.50;26 Jul 2009; 3;3 ;2009
+Sport Recife;Nautico;bwin;1.55;3.50;5.50;26 Jul 2009; 3;3 ;2009
+Sport Recife;Nautico;Pinnacle;1.70;3.80;5.87;26 Jul 2009; 3;3 ;2009
+Sport Recife;Nautico;Unibet;1.65;3.40;5.25;26 Jul 2009; 3;3 ;2009
+Athletico-PR;Avai;bet-at-home;2.04;3.20;3.10;25 Jul 2009; 1;3 ;2009
+Athletico-PR;Avai;bet365;2.25;3.40;3.25;25 Jul 2009; 1;3 ;2009
+Athletico-PR;Avai;bwin;1.90;3.15;3.65;25 Jul 2009; 1;3 ;2009
+Athletico-PR;Avai;Pinnacle;2.33;3.37;3.40;25 Jul 2009; 1;3 ;2009
+Athletico-PR;Avai;Unibet;1.90;3.30;3.85;25 Jul 2009; 1;3 ;2009
+Botafogo RJ;Internacional;bet-at-home;1.90;3.25;3.45;25 Jul 2009; 3;2 ;2009
+Botafogo RJ;Internacional;bet365;1.95;3.50;3.80;25 Jul 2009; 3;2 ;2009
+Botafogo RJ;Internacional;bwin;1.90;3.20;3.65;25 Jul 2009; 3;2 ;2009
+Botafogo RJ;Internacional;Pinnacle;1.94;3.78;4.13;25 Jul 2009; 3;2 ;2009
+Botafogo RJ;Internacional;Unibet;2.04;3.35;3.20;25 Jul 2009; 3;2 ;2009
+Gremio;Santo Andre;bet-at-home;1.45;3.60;6.50;25 Jul 2009; 3;2 ;2009
+Gremio;Santo Andre;bet365;1.50;3.75;6.50;25 Jul 2009; 3;2 ;2009
+Gremio;Santo Andre;bwin;1.50;3.45;6.40;25 Jul 2009; 3;2 ;2009
+Gremio;Santo Andre;Pinnacle;1.58;3.96;7.30;25 Jul 2009; 3;2 ;2009
+Gremio;Santo Andre;Unibet;1.45;3.80;7.00;25 Jul 2009; 3;2 ;2009
+Atletico-MG;Fluminense;bet-at-home;1.50;3.60;5.60;24 Jul 2009; 2;1 ;2009
+Atletico-MG;Fluminense;bet365;1.55;2.75;6.00;24 Jul 2009; 2;1 ;2009
+Atletico-MG;Fluminense;bwin;1.45;3.55;7.00;24 Jul 2009; 2;1 ;2009
+Atletico-MG;Fluminense;Pinnacle;1.57;3.87;7.52;24 Jul 2009; 2;1 ;2009
+Atletico-MG;Fluminense;Unibet;1.55;3.50;6.25;24 Jul 2009; 2;1 ;2009
+Corinthians;Vitoria;bet-at-home;1.70;3.20;4.50;24 Jul 2009; 2;1 ;2009
+Corinthians;Vitoria;bet365;1.91;3.30;4.00;24 Jul 2009; 2;1 ;2009
+Corinthians;Vitoria;bwin;1.70;3.35;4.40;24 Jul 2009; 2;1 ;2009
+Corinthians;Vitoria;Pinnacle;1.93;3.41;4.82;24 Jul 2009; 2;1 ;2009
+Corinthians;Vitoria;Unibet;1.85;3.30;4.00;24 Jul 2009; 2;1 ;2009
+Internacional;Sao Paulo;bet-at-home;1.60;3.50;4.75;23 Jul 2009; 2;2 ;2009
+Internacional;Sao Paulo;bet365;1.80;3.40;4.75;23 Jul 2009; 2;2 ;2009
+Internacional;Sao Paulo;bwin;1.65;3.50;4.50;23 Jul 2009; 2;2 ;2009
+Internacional;Sao Paulo;Pinnacle;1.79;3.89;4.97;23 Jul 2009; 2;2 ;2009
+Internacional;Sao Paulo;Unibet;1.80;3.40;4.20;23 Jul 2009; 2;2 ;2009
+Nautico;Botafogo RJ;bet-at-home;2.80;3.20;2.20;23 Jul 2009; 2;2 ;2009
+Nautico;Botafogo RJ;bet365;2.88;3.25;2.40;23 Jul 2009; 2;2 ;2009
+Nautico;Botafogo RJ;bwin;2.80;3.20;2.25;23 Jul 2009; 2;2 ;2009
+Nautico;Botafogo RJ;Pinnacle;3.03;3.18;2.65;23 Jul 2009; 2;2 ;2009
+Nautico;Botafogo RJ;Unibet;2.75;3.25;2.35;23 Jul 2009; 2;2 ;2009
+Santos;Athletico-PR;bet-at-home;1.50;3.65;5.50;23 Jul 2009; 1;0 ;2009
+Santos;Athletico-PR;bet365;1.60;3.75;5.50;23 Jul 2009; 1;0 ;2009
+Santos;Athletico-PR;bwin;1.55;3.50;5.50;23 Jul 2009; 1;0 ;2009
+Santos;Athletico-PR;Pinnacle;1.60;4.05;6.67;23 Jul 2009; 1;0 ;2009
+Santos;Athletico-PR;Unibet;1.60;3.50;5.40;23 Jul 2009; 1;0 ;2009
+Avai;Gremio;bet-at-home;2.80;3.00;2.29;22 Jul 2009; 1;0 ;2009
+Avai;Gremio;bet365;2.80;3.25;2.50;22 Jul 2009; 1;0 ;2009
+Avai;Gremio;bwin;2.70;3.00;2.45;22 Jul 2009; 1;0 ;2009
+Avai;Gremio;Pinnacle;2.89;3.56;2.54;22 Jul 2009; 1;0 ;2009
+Avai;Gremio;Unibet;2.70;3.25;2.35;22 Jul 2009; 1;0 ;2009
+Flamengo RJ;Barueri;bet-at-home;1.95;3.25;3.30;22 Jul 2009; 1;1 ;2009
+Flamengo RJ;Barueri;bet365;2.00;3.40;3.60;22 Jul 2009; 1;1 ;2009
+Flamengo RJ;Barueri;bwin;1.90;3.30;3.55;22 Jul 2009; 1;1 ;2009
+Flamengo RJ;Barueri;Pinnacle;2.04;3.51;4.09;22 Jul 2009; 1;1 ;2009
+Flamengo RJ;Barueri;Unibet;2.04;3.25;3.30;22 Jul 2009; 1;1 ;2009
+Santo Andre;Cruzeiro;bet-at-home;2.15;3.10;3.00;22 Jul 2009; 0;2 ;2009
+Santo Andre;Cruzeiro;bet365;2.50;3.25;2.80;22 Jul 2009; 0;2 ;2009
+Santo Andre;Cruzeiro;bwin;2.35;3.05;2.80;22 Jul 2009; 0;2 ;2009
+Santo Andre;Cruzeiro;Pinnacle;2.59;3.36;2.99;22 Jul 2009; 0;2 ;2009
+Santo Andre;Cruzeiro;Unibet;2.36;3.25;2.72;22 Jul 2009; 0;2 ;2009
+Barueri;Nautico;bet-at-home;1.50;3.60;5.60;19 Jul 2009; 4;0 ;2009
+Barueri;Nautico;bet365;1.53;4.00;6.00;19 Jul 2009; 4;0 ;2009
+Barueri;Nautico;bwin;1.45;3.75;6.00;19 Jul 2009; 4;0 ;2009
+Barueri;Nautico;Pinnacle;1.56;4.11;6.89;19 Jul 2009; 4;0 ;2009
+Barueri;Nautico;Unibet;1.55;3.60;6.00;19 Jul 2009; 4;0 ;2009
+Flamengo RJ;Botafogo RJ;bet-at-home;2.10;3.25;2.95;19 Jul 2009; 2;2 ;2009
+Flamengo RJ;Botafogo RJ;bet365;2.38;3.25;3.10;19 Jul 2009; 2;2 ;2009
+Flamengo RJ;Botafogo RJ;bwin;1.95;3.35;3.30;19 Jul 2009; 2;2 ;2009
+Flamengo RJ;Botafogo RJ;Pinnacle;2.52;3.36;3.06;19 Jul 2009; 2;2 ;2009
+Flamengo RJ;Botafogo RJ;Unibet;2.29;3.25;3.00;19 Jul 2009; 2;2 ;2009
+Sport Recife;Avai;bet-at-home;1.60;3.45;4.80;19 Jul 2009; 1;3 ;2009
+Sport Recife;Avai;bet365;1.62;3.60;6.00;19 Jul 2009; 1;3 ;2009
+Sport Recife;Avai;bwin;1.65;3.30;4.90;19 Jul 2009; 1;3 ;2009
+Sport Recife;Avai;Pinnacle;1.64;3.95;6.30;19 Jul 2009; 1;3 ;2009
+Sport Recife;Avai;Unibet;1.55;3.50;6.00;19 Jul 2009; 1;3 ;2009
+Athletico-PR;Coritiba;bet-at-home;2.40;3.10;2.60;19 Jul 2009; 0;0 ;2009
+Athletico-PR;Coritiba;bet365;2.50;3.20;2.88;19 Jul 2009; 0;0 ;2009
+Athletico-PR;Coritiba;bwin;2.40;3.15;2.65;19 Jul 2009; 0;0 ;2009
+Athletico-PR;Coritiba;Pinnacle;2.52;3.37;3.01;19 Jul 2009; 0;0 ;2009
+Athletico-PR;Coritiba;Unibet;2.35;3.20;2.85;19 Jul 2009; 0;0 ;2009
+Cruzeiro;Corinthians;bet-at-home;2.00;3.20;3.20;19 Jul 2009; 1;2 ;2009
+Cruzeiro;Corinthians;bet365;2.00;3.40;3.70;19 Jul 2009; 1;2 ;2009
+Cruzeiro;Corinthians;bwin;2.00;3.25;3.30;19 Jul 2009; 1;2 ;2009
+Cruzeiro;Corinthians;Pinnacle;2.11;3.48;3.84;19 Jul 2009; 1;2 ;2009
+Cruzeiro;Corinthians;Unibet;2.04;3.25;3.40;19 Jul 2009; 1;2 ;2009
+Gremio;Internacional;bet-at-home;2.20;3.20;2.80;19 Jul 2009; 2;1 ;2009
+Gremio;Internacional;bet365;2.25;3.25;3.30;19 Jul 2009; 2;1 ;2009
+Gremio;Internacional;bwin;2.20;3.20;2.90;19 Jul 2009; 2;1 ;2009
+Gremio;Internacional;Pinnacle;2.23;3.42;3.48;19 Jul 2009; 2;1 ;2009
+Gremio;Internacional;Unibet;2.35;3.25;2.75;19 Jul 2009; 2;1 ;2009
+Sao Paulo;Santos;bet-at-home;1.75;3.30;4.00;19 Jul 2009; 2;1 ;2009
+Sao Paulo;Santos;bet365;1.85;3.40;4.20;19 Jul 2009; 2;1 ;2009
+Sao Paulo;Santos;bwin;1.85;3.25;3.80;19 Jul 2009; 2;1 ;2009
+Sao Paulo;Santos;Pinnacle;1.93;3.59;4.55;19 Jul 2009; 2;1 ;2009
+Sao Paulo;Santos;Unibet;1.80;3.40;4.20;19 Jul 2009; 2;1 ;2009
+Vitoria;Atletico-MG;bet-at-home;2.00;3.20;3.20;19 Jul 2009; 0;0 ;2009
+Vitoria;Atletico-MG;bet365;2.10;3.50;3.30;19 Jul 2009; 0;0 ;2009
+Vitoria;Atletico-MG;bwin;2.15;3.20;3.00;19 Jul 2009; 0;0 ;2009
+Vitoria;Atletico-MG;Pinnacle;2.21;3.62;3.39;19 Jul 2009; 0;0 ;2009
+Vitoria;Atletico-MG;Unibet;2.00;3.25;3.50;19 Jul 2009; 0;0 ;2009
+Fluminense;Goias;bet-at-home;1.90;3.20;3.50;18 Jul 2009; 1;4 ;2009
+Fluminense;Goias;bet365;2.04;3.50;3.60;18 Jul 2009; 1;4 ;2009
+Fluminense;Goias;bwin;2.10;3.00;3.30;18 Jul 2009; 1;4 ;2009
+Fluminense;Goias;Pinnacle;2.09;3.54;3.86;18 Jul 2009; 1;4 ;2009
+Fluminense;Goias;Unibet;2.04;3.25;3.40;18 Jul 2009; 1;4 ;2009
+Palmeiras;Santo Andre;bet-at-home;1.45;3.75;6.00;18 Jul 2009; 1;0 ;2009
+Palmeiras;Santo Andre;bet365;1.50;4.00;6.50;18 Jul 2009; 1;0 ;2009
+Palmeiras;Santo Andre;bwin;1.42;3.75;7.00;18 Jul 2009; 1;0 ;2009
+Palmeiras;Santo Andre;Pinnacle;1.58;4.21;6.76;18 Jul 2009; 1;0 ;2009
+Palmeiras;Santo Andre;Unibet;1.45;3.85;7.00;18 Jul 2009; 1;0 ;2009
+Atletico-MG;Sao Paulo;bet-at-home;2.00;3.20;3.20;17 Jul 2009; 2;0 ;2009
+Atletico-MG;Sao Paulo;bet365;2.04;3.40;3.50;17 Jul 2009; 2;0 ;2009
+Atletico-MG;Sao Paulo;bwin;2.04;3.20;3.20;17 Jul 2009; 2;0 ;2009
+Atletico-MG;Sao Paulo;Pinnacle;2.13;3.59;3.67;17 Jul 2009; 2;0 ;2009
+Atletico-MG;Sao Paulo;Unibet;2.20;3.25;3.05;17 Jul 2009; 2;0 ;2009
+Corinthians;Sport Recife;bet-at-home;1.50;3.45;6.00;17 Jul 2009; 4;3 ;2009
+Corinthians;Sport Recife;bet365;1.57;3.75;5.75;17 Jul 2009; 4;3 ;2009
+Corinthians;Sport Recife;bwin;1.55;3.50;5.50;17 Jul 2009; 4;3 ;2009
+Corinthians;Sport Recife;Pinnacle;1.65;4.09;6.18;17 Jul 2009; 4;3 ;2009
+Corinthians;Sport Recife;Unibet;1.50;3.65;6.50;17 Jul 2009; 4;3 ;2009
+Nautico;Vitoria;bet-at-home;2.45;3.20;2.50;17 Jul 2009; 1;1 ;2009
+Nautico;Vitoria;bet365;2.88;3.40;2.40;17 Jul 2009; 1;1 ;2009
+Nautico;Vitoria;bwin;2.50;3.30;2.45;17 Jul 2009; 1;1 ;2009
+Nautico;Vitoria;Pinnacle;2.96;3.49;2.44;17 Jul 2009; 1;1 ;2009
+Nautico;Vitoria;Unibet;2.60;3.25;2.50;17 Jul 2009; 1;1 ;2009
+Flamengo RJ;Palmeiras;bet-at-home;1.90;3.20;3.50;16 Jul 2009; 1;2 ;2009
+Flamengo RJ;Palmeiras;bet365;2.10;3.30;3.50;16 Jul 2009; 1;2 ;2009
+Flamengo RJ;Palmeiras;bwin;1.85;3.30;3.70;16 Jul 2009; 1;2 ;2009
+Flamengo RJ;Palmeiras;Pinnacle;2.19;3.41;3.68;16 Jul 2009; 1;2 ;2009
+Flamengo RJ;Palmeiras;Unibet;1.95;3.30;3.65;16 Jul 2009; 1;2 ;2009
+Internacional;Fluminense;bet-at-home;1.40;3.75;7.00;16 Jul 2009; 4;2 ;2009
+Internacional;Fluminense;bet365;1.62;3.60;6.50;16 Jul 2009; 4;2 ;2009
+Internacional;Fluminense;bwin;1.38;3.80;7.50;16 Jul 2009; 4;2 ;2009
+Internacional;Fluminense;Pinnacle;1.70;3.76;5.88;16 Jul 2009; 4;2 ;2009
+Internacional;Fluminense;Unibet;1.50;3.65;6.50;16 Jul 2009; 4;2 ;2009
+Santo Andre;Athletico-PR;bet-at-home;1.90;3.20;3.50;16 Jul 2009; 1;0 ;2009
+Santo Andre;Athletico-PR;bet365;1.85;3.60;4.20;16 Jul 2009; 1;0 ;2009
+Santo Andre;Athletico-PR;bwin;1.95;3.20;3.50;16 Jul 2009; 1;0 ;2009
+Santo Andre;Athletico-PR;Pinnacle;1.93;3.72;4.32;16 Jul 2009; 1;0 ;2009
+Santo Andre;Athletico-PR;Unibet;2.00;3.25;3.55;16 Jul 2009; 1;0 ;2009
+Santos;Barueri;bet-at-home;1.80;3.30;3.80;16 Jul 2009; 3;3 ;2009
+Santos;Barueri;bet365;1.91;3.40;4.00;16 Jul 2009; 3;3 ;2009
+Santos;Barueri;bwin;1.85;3.35;3.65;16 Jul 2009; 3;3 ;2009
+Santos;Barueri;Pinnacle;2.04;3.39;4.19;16 Jul 2009; 3;3 ;2009
+Santos;Barueri;Unibet;1.85;3.35;4.00;16 Jul 2009; 3;3 ;2009
+Coritiba;Gremio;bet-at-home;2.25;3.25;2.70;15 Jul 2009; 2;1 ;2009
+Coritiba;Gremio;bet365;2.38;3.50;2.80;15 Jul 2009; 2;1 ;2009
+Coritiba;Gremio;bwin;2.25;3.20;2.80;15 Jul 2009; 2;1 ;2009
+Coritiba;Gremio;Pinnacle;2.46;3.60;2.94;15 Jul 2009; 2;1 ;2009
+Coritiba;Gremio;Unibet;2.40;3.20;2.75;15 Jul 2009; 2;1 ;2009
+Goias;Avai;bet-at-home;1.40;3.75;7.00;15 Jul 2009; 0;2 ;2009
+Goias;Avai;bet365;1.50;4.00;6.50;15 Jul 2009; 0;2 ;2009
+Goias;Avai;bwin;1.45;3.70;7.30;15 Jul 2009; 0;2 ;2009
+Goias;Avai;Pinnacle;1.60;3.94;7.19;15 Jul 2009; 0;2 ;2009
+Goias;Avai;Unibet;1.50;3.70;6.50;15 Jul 2009; 0;2 ;2009
+Fluminense;Santo Andre;bet-at-home;1.90;3.20;3.50;12 Jul 2009; 0;1 ;2009
+Fluminense;Santo Andre;bet365;2.00;3.40;3.80;12 Jul 2009; 0;1 ;2009
+Fluminense;Santo Andre;bwin;1.95;3.25;3.45;12 Jul 2009; 0;1 ;2009
+Fluminense;Santo Andre;Pinnacle;1.99;3.48;4.34;12 Jul 2009; 0;1 ;2009
+Fluminense;Santo Andre;Unibet;1.80;3.30;4.15;12 Jul 2009; 0;1 ;2009
+Sport Recife;Goias;bet-at-home;2.00;3.25;3.20;12 Jul 2009; 1;0 ;2009
+Sport Recife;Goias;bet365;2.20;3.30;3.20;12 Jul 2009; 1;0 ;2009
+Sport Recife;Goias;bwin;2.10;3.15;3.15;12 Jul 2009; 1;0 ;2009
+Sport Recife;Goias;Pinnacle;2.25;3.49;3.45;12 Jul 2009; 1;0 ;2009
+Sport Recife;Goias;Unibet;2.10;3.25;3.20;12 Jul 2009; 1;0 ;2009
+Vitoria;Santos;bet-at-home;2.00;3.20;3.25;12 Jul 2009; 6;2 ;2009
+Vitoria;Santos;bet365;2.00;3.40;3.75;12 Jul 2009; 6;2 ;2009
+Vitoria;Santos;bwin;2.00;3.20;3.35;12 Jul 2009; 6;2 ;2009
+Vitoria;Santos;Pinnacle;2.04;3.52;4.01;12 Jul 2009; 6;2 ;2009
+Vitoria;Santos;Unibet;2.00;3.25;3.50;12 Jul 2009; 6;2 ;2009
+Athletico-PR;Internacional;bet-at-home;2.70;3.20;2.25;12 Jul 2009; 3;2 ;2009
+Athletico-PR;Internacional;bet365;2.90;3.20;2.50;12 Jul 2009; 3;2 ;2009
+Athletico-PR;Internacional;bwin;2.80;3.30;2.20;12 Jul 2009; 3;2 ;2009
+Athletico-PR;Internacional;Pinnacle;2.80;3.75;2.54;12 Jul 2009; 3;2 ;2009
+Athletico-PR;Internacional;Unibet;2.80;3.25;2.35;12 Jul 2009; 3;2 ;2009
+Cruzeiro;Atletico-MG;bet-at-home;2.90;3.30;2.10;12 Jul 2009; 0;3 ;2009
+Cruzeiro;Atletico-MG;bet365;3.30;3.40;2.10;12 Jul 2009; 0;3 ;2009
+Cruzeiro;Atletico-MG;bwin;3.10;3.20;2.10;12 Jul 2009; 0;3 ;2009
+Cruzeiro;Atletico-MG;Pinnacle;3.31;3.64;2.25;12 Jul 2009; 0;3 ;2009
+Cruzeiro;Atletico-MG;Unibet;3.05;3.25;2.20;12 Jul 2009; 0;3 ;2009
+Gremio;Corinthians;bet-at-home;1.95;3.30;3.25;12 Jul 2009; 3;0 ;2009
+Gremio;Corinthians;bet365;1.91;3.30;4.00;12 Jul 2009; 3;0 ;2009
+Gremio;Corinthians;bwin;2.00;3.20;3.40;12 Jul 2009; 3;0 ;2009
+Gremio;Corinthians;Pinnacle;2.06;3.45;3.97;12 Jul 2009; 3;0 ;2009
+Gremio;Corinthians;Unibet;2.04;3.25;3.40;12 Jul 2009; 3;0 ;2009
+Sao Paulo;Flamengo RJ;bet-at-home;1.70;3.40;4.20;12 Jul 2009; 2;2 ;2009
+Sao Paulo;Flamengo RJ;bet365;1.73;3.50;5.00;12 Jul 2009; 2;2 ;2009
+Sao Paulo;Flamengo RJ;bwin;1.70;3.40;4.40;12 Jul 2009; 2;2 ;2009
+Sao Paulo;Flamengo RJ;Pinnacle;1.71;3.85;5.65;12 Jul 2009; 2;2 ;2009
+Sao Paulo;Flamengo RJ;Unibet;1.70;3.45;4.70;12 Jul 2009; 2;2 ;2009
+Avai;Botafogo RJ;bet-at-home;2.29;3.20;2.65;11 Jul 2009; 1;2 ;2009
+Avai;Botafogo RJ;bet365;2.50;3.30;2.75;11 Jul 2009; 1;2 ;2009
+Avai;Botafogo RJ;bwin;2.40;3.00;2.75;11 Jul 2009; 1;2 ;2009
+Avai;Botafogo RJ;Pinnacle;2.54;3.62;2.87;11 Jul 2009; 1;2 ;2009
+Avai;Botafogo RJ;Unibet;2.35;3.25;2.80;11 Jul 2009; 1;2 ;2009
+Barueri;Coritiba;bet-at-home;1.90;3.15;3.60;11 Jul 2009; 3;1 ;2009
+Barueri;Coritiba;bet365;2.04;3.30;3.60;11 Jul 2009; 3;1 ;2009
+Barueri;Coritiba;bwin;1.90;3.20;3.65;11 Jul 2009; 3;1 ;2009
+Barueri;Coritiba;Pinnacle;2.20;3.31;3.78;11 Jul 2009; 3;1 ;2009
+Barueri;Coritiba;Unibet;1.90;3.30;3.85;11 Jul 2009; 3;1 ;2009
+Palmeiras;Nautico;bet-at-home;1.30;4.50;7.50;11 Jul 2009; 4;1 ;2009
+Palmeiras;Nautico;bet365;1.36;4.50;8.50;11 Jul 2009; 4;1 ;2009
+Palmeiras;Nautico;bwin;1.30;4.55;8.00;11 Jul 2009; 4;1 ;2009
+Palmeiras;Nautico;Pinnacle;1.37;5.25;10.75;11 Jul 2009; 4;1 ;2009
+Palmeiras;Nautico;Unibet;1.35;4.25;9.00;11 Jul 2009; 4;1 ;2009
+Corinthians;Fluminense;bet-at-home;1.60;3.50;4.70;09 Jul 2009; 4;2 ;2009
+Corinthians;Fluminense;bet365;1.62;3.50;5.25;09 Jul 2009; 4;2 ;2009
+Corinthians;Fluminense;bwin;1.60;3.50;5.00;09 Jul 2009; 4;2 ;2009
+Corinthians;Fluminense;Pinnacle;1.74;3.75;5.63;09 Jul 2009; 4;2 ;2009
+Corinthians;Fluminense;Unibet;1.65;3.40;5.25;09 Jul 2009; 4;2 ;2009
+Avai;Palmeiras;bet-at-home;2.50;3.20;2.45;05 Jul 2009; 0;3 ;2009
+Avai;Palmeiras;bet365;2.50;3.40;2.70;05 Jul 2009; 0;3 ;2009
+Avai;Palmeiras;bwin;2.70;3.15;2.35;05 Jul 2009; 0;3 ;2009
+Avai;Palmeiras;Unibet;2.75;3.25;2.40;05 Jul 2009; 0;3 ;2009
+Nautico;Internacional;bet-at-home;3.10;3.20;2.04;05 Jul 2009; 0;2 ;2009
+Nautico;Internacional;bet365;3.40;3.30;2.15;05 Jul 2009; 0;2 ;2009
+Nautico;Internacional;bwin;3.35;3.30;1.95;05 Jul 2009; 0;2 ;2009
+Nautico;Internacional;Unibet;3.30;3.25;2.10;05 Jul 2009; 0;2 ;2009
+Atletico-MG;Botafogo RJ;bet-at-home;1.70;3.30;4.30;05 Jul 2009; 1;1 ;2009
+Atletico-MG;Botafogo RJ;bet365;1.67;3.60;5.25;05 Jul 2009; 1;1 ;2009
+Atletico-MG;Botafogo RJ;bwin;1.55;3.65;5.00;05 Jul 2009; 1;1 ;2009
+Atletico-MG;Botafogo RJ;Unibet;1.65;3.45;5.00;05 Jul 2009; 1;1 ;2009
+Coritiba;Sao Paulo;bet-at-home;2.65;3.15;2.35;05 Jul 2009; 2;0 ;2009
+Coritiba;Sao Paulo;bet365;2.80;3.40;2.40;05 Jul 2009; 2;0 ;2009
+Coritiba;Sao Paulo;bwin;2.75;3.20;2.29;05 Jul 2009; 2;0 ;2009
+Coritiba;Sao Paulo;Unibet;3.00;3.25;2.25;05 Jul 2009; 2;0 ;2009
+Goias;Cruzeiro;bet-at-home;1.75;3.40;4.05;05 Jul 2009; 1;0 ;2009
+Goias;Cruzeiro;bet365;1.67;3.60;5.00;05 Jul 2009; 1;0 ;2009
+Goias;Cruzeiro;bwin;1.70;3.35;4.40;05 Jul 2009; 1;0 ;2009
+Goias;Cruzeiro;Unibet;1.75;3.40;4.50;05 Jul 2009; 1;0 ;2009
+Gremio;Athletico-PR;bet-at-home;1.50;3.50;5.80;05 Jul 2009; 4;1 ;2009
+Gremio;Athletico-PR;bet365;1.62;3.75;6.00;05 Jul 2009; 4;1 ;2009
+Gremio;Athletico-PR;bwin;1.50;3.60;6.00;05 Jul 2009; 4;1 ;2009
+Gremio;Athletico-PR;Unibet;1.60;3.45;6.00;05 Jul 2009; 4;1 ;2009
+Flamengo RJ;Vitoria;bet-at-home;1.70;3.35;4.30;04 Jul 2009; 2;1 ;2009
+Flamengo RJ;Vitoria;bet365;1.70;3.75;5.50;04 Jul 2009; 2;1 ;2009
+Flamengo RJ;Vitoria;bwin;1.70;3.30;4.50;04 Jul 2009; 2;1 ;2009
+Flamengo RJ;Vitoria;Pinnacle;1.83;3.78;4.72;04 Jul 2009; 2;1 ;2009
+Flamengo RJ;Vitoria;Unibet;1.70;3.40;4.50;04 Jul 2009; 2;1 ;2009
+Santo Andre;Barueri;bet-at-home;1.95;3.20;3.35;04 Jul 2009; 1;1 ;2009
+Santo Andre;Barueri;bet365;2.10;3.40;3.50;04 Jul 2009; 1;1 ;2009
+Santo Andre;Barueri;bwin;2.10;3.05;3.25;04 Jul 2009; 1;1 ;2009
+Santo Andre;Barueri;Pinnacle;2.12;3.54;3.62;04 Jul 2009; 1;1 ;2009
+Santo Andre;Barueri;Unibet;2.04;3.25;3.30;04 Jul 2009; 1;1 ;2009
+Santos;Sport Recife;bet-at-home;1.60;3.40;5.00;04 Jul 2009; 1;0 ;2009
+Santos;Sport Recife;bet365;1.70;3.60;5.00;04 Jul 2009; 1;0 ;2009
+Santos;Sport Recife;bwin;1.50;3.60;5.90;04 Jul 2009; 1;0 ;2009
+Santos;Sport Recife;Pinnacle;1.66;4.08;6.04;04 Jul 2009; 1;0 ;2009
+Santos;Sport Recife;Unibet;1.65;3.45;5.25;04 Jul 2009; 1;0 ;2009
+Fluminense;Flamengo RJ;bet-at-home;2.75;3.10;2.29;28 Jun 2009; 0;0 ;2009
+Fluminense;Flamengo RJ;bet365;3.00;3.10;2.38;28 Jun 2009; 0;0 ;2009
+Fluminense;Flamengo RJ;bwin;2.70;3.05;2.40;28 Jun 2009; 0;0 ;2009
+Fluminense;Flamengo RJ;Pinnacle;3.11;3.59;2.41;28 Jun 2009; 0;0 ;2009
+Fluminense;Flamengo RJ;Unibet;2.75;3.20;2.40;28 Jun 2009; 0;0 ;2009
+Internacional;Coritiba;bet-at-home;1.80;3.30;3.80;28 Jun 2009; 3;0 ;2009
+Internacional;Coritiba;bet365;2.10;3.20;3.60;28 Jun 2009; 3;0 ;2009
+Internacional;Coritiba;bwin;1.95;3.30;3.35;28 Jun 2009; 3;0 ;2009
+Internacional;Coritiba;Pinnacle;2.12;3.30;4.05;28 Jun 2009; 3;0 ;2009
+Internacional;Coritiba;Unibet;2.04;3.25;3.40;28 Jun 2009; 3;0 ;2009
+Palmeiras;Santos;bet-at-home;1.90;3.25;3.50;28 Jun 2009; 1;1 ;2009
+Palmeiras;Santos;bet365;2.20;3.25;3.25;28 Jun 2009; 1;1 ;2009
+Palmeiras;Santos;bwin;1.85;3.35;3.65;28 Jun 2009; 1;1 ;2009
+Palmeiras;Santos;Pinnacle;2.10;3.51;3.88;28 Jun 2009; 1;1 ;2009
+Palmeiras;Santos;Unibet;2.00;3.25;3.55;28 Jun 2009; 1;1 ;2009
+Sport Recife;Gremio;bet-at-home;1.75;3.30;4.00;28 Jun 2009; 3;1 ;2009
+Sport Recife;Gremio;bet365;1.73;3.75;4.75;28 Jun 2009; 3;1 ;2009
+Sport Recife;Gremio;bwin;1.76;3.40;4.00;28 Jun 2009; 3;1 ;2009
+Sport Recife;Gremio;Pinnacle;1.79;3.95;4.86;28 Jun 2009; 3;1 ;2009
+Sport Recife;Gremio;Unibet;1.85;3.35;4.00;28 Jun 2009; 3;1 ;2009
+Vitoria;Santo Andre;bet-at-home;1.70;3.30;4.30;28 Jun 2009; 4;1 ;2009
+Vitoria;Santo Andre;bet365;1.75;3.60;4.75;28 Jun 2009; 4;1 ;2009
+Vitoria;Santo Andre;bwin;1.72;3.30;4.40;28 Jun 2009; 4;1 ;2009
+Vitoria;Santo Andre;Pinnacle;1.78;3.64;5.20;28 Jun 2009; 4;1 ;2009
+Vitoria;Santo Andre;Unibet;1.75;3.40;4.50;28 Jun 2009; 4;1 ;2009
+Botafogo RJ;Goias;bet-at-home;1.90;3.20;3.50;27 Jun 2009; 1;4 ;2009
+Botafogo RJ;Goias;bet365;1.95;3.30;4.00;27 Jun 2009; 1;4 ;2009
+Botafogo RJ;Goias;bwin;2.00;3.15;3.40;27 Jun 2009; 1;4 ;2009
+Botafogo RJ;Goias;Pinnacle;2.00;3.52;4.19;27 Jun 2009; 1;4 ;2009
+Botafogo RJ;Goias;Unibet;2.00;3.30;3.50;27 Jun 2009; 1;4 ;2009
+Cruzeiro;Avai;bet-at-home;1.90;3.20;3.50;27 Jun 2009; 1;0 ;2009
+Cruzeiro;Avai;bet365;2.00;3.25;4.00;27 Jun 2009; 1;0 ;2009
+Cruzeiro;Avai;bwin;1.80;3.35;3.85;27 Jun 2009; 1;0 ;2009
+Cruzeiro;Avai;Pinnacle;2.04;3.37;4.29;27 Jun 2009; 1;0 ;2009
+Cruzeiro;Avai;Unibet;1.95;3.30;3.65;27 Jun 2009; 1;0 ;2009
+Athletico-PR;Corinthians;bet-at-home;1.75;3.40;3.85;27 Jun 2009; 1;0 ;2009
+Athletico-PR;Corinthians;bet365;2.10;3.40;3.50;27 Jun 2009; 1;0 ;2009
+Athletico-PR;Corinthians;bwin;1.85;3.45;3.55;27 Jun 2009; 1;0 ;2009
+Athletico-PR;Corinthians;Pinnacle;2.13;3.45;3.83;27 Jun 2009; 1;0 ;2009
+Athletico-PR;Corinthians;Unibet;1.90;3.30;3.85;27 Jun 2009; 1;0 ;2009
+Barueri;Atletico-MG;bet-at-home;2.65;3.30;2.25;27 Jun 2009; 4;2 ;2009
+Barueri;Atletico-MG;bet365;2.70;3.30;2.63;27 Jun 2009; 4;2 ;2009
+Barueri;Atletico-MG;bwin;2.70;3.10;2.40;27 Jun 2009; 4;2 ;2009
+Barueri;Atletico-MG;Pinnacle;2.76;3.54;2.65;27 Jun 2009; 4;2 ;2009
+Barueri;Atletico-MG;Unibet;2.60;3.25;2.50;27 Jun 2009; 4;2 ;2009
+Sao Paulo;Nautico;bet-at-home;1.35;4.20;7.00;27 Jun 2009; 2;0 ;2009
+Sao Paulo;Nautico;bet365;1.40;4.50;7.50;27 Jun 2009; 2;0 ;2009
+Sao Paulo;Nautico;bwin;1.37;4.00;7.50;27 Jun 2009; 2;0 ;2009
+Sao Paulo;Nautico;Pinnacle;1.43;5.27;8.19;27 Jun 2009; 2;0 ;2009
+Sao Paulo;Nautico;Unibet;1.45;4.00;7.50;27 Jun 2009; 2;0 ;2009
+Corinthians;Sao Paulo;bet-at-home;2.15;3.20;2.90;21 Jun 2009; 3;1 ;2009
+Corinthians;Sao Paulo;bet365;2.10;3.40;3.50;21 Jun 2009; 3;1 ;2009
+Corinthians;Sao Paulo;bwin;2.15;3.25;2.95;21 Jun 2009; 3;1 ;2009
+Corinthians;Sao Paulo;Pinnacle;2.29;3.38;3.47;21 Jun 2009; 3;1 ;2009
+Corinthians;Sao Paulo;Unibet;2.20;3.20;3.00;21 Jun 2009; 3;1 ;2009
+Cruzeiro;Barueri;bet-at-home;1.55;3.50;5.20;21 Jun 2009; 2;4 ;2009
+Cruzeiro;Barueri;bet365;1.65;3.60;5.75;21 Jun 2009; 2;4 ;2009
+Cruzeiro;Barueri;bwin;1.50;3.60;6.00;21 Jun 2009; 2;4 ;2009
+Cruzeiro;Barueri;Pinnacle;1.65;3.85;6.46;21 Jun 2009; 2;4 ;2009
+Cruzeiro;Barueri;Unibet;1.60;3.50;5.25;21 Jun 2009; 2;4 ;2009
+Flamengo RJ;Internacional;bet-at-home;2.10;3.20;3.00;21 Jun 2009; 4;0 ;2009
+Flamengo RJ;Internacional;bet365;2.00;3.40;3.80;21 Jun 2009; 4;0 ;2009
+Flamengo RJ;Internacional;bwin;2.10;3.25;3.05;21 Jun 2009; 4;0 ;2009
+Flamengo RJ;Internacional;Pinnacle;2.06;3.36;4.15;21 Jun 2009; 4;0 ;2009
+Flamengo RJ;Internacional;Unibet;2.10;3.20;3.30;21 Jun 2009; 4;0 ;2009
+Santos;Atletico-MG;bet-at-home;1.75;3.35;4.00;21 Jun 2009; 2;3 ;2009
+Santos;Atletico-MG;bet365;1.85;3.60;4.00;21 Jun 2009; 2;3 ;2009
+Santos;Atletico-MG;bwin;1.75;3.35;4.09;21 Jun 2009; 2;3 ;2009
+Santos;Atletico-MG;Pinnacle;1.97;3.64;4.09;21 Jun 2009; 2;3 ;2009
+Santos;Atletico-MG;Unibet;1.80;3.30;4.20;21 Jun 2009; 2;3 ;2009
+Avai;Fluminense;bet-at-home;2.15;3.10;3.00;20 Jun 2009; 3;2 ;2009
+Avai;Fluminense;bet365;2.29;3.25;3.00;20 Jun 2009; 3;2 ;2009
+Avai;Fluminense;bwin;2.40;3.10;2.70;20 Jun 2009; 3;2 ;2009
+Avai;Fluminense;Pinnacle;2.31;3.30;3.40;20 Jun 2009; 3;2 ;2009
+Avai;Fluminense;Unibet;2.29;3.30;2.85;20 Jun 2009; 3;2 ;2009
+Gremio;Goias;bet-at-home;1.80;3.30;3.80;20 Jun 2009; 2;2 ;2009
+Gremio;Goias;bet365;1.85;3.40;4.50;20 Jun 2009; 2;2 ;2009
+Gremio;Goias;bwin;1.70;3.40;4.33;20 Jun 2009; 2;2 ;2009
+Gremio;Goias;Pinnacle;1.88;3.63;4.76;20 Jun 2009; 2;2 ;2009
+Gremio;Goias;Unibet;1.80;3.40;4.20;20 Jun 2009; 2;2 ;2009
+Nautico;Coritiba;bet-at-home;1.75;3.30;4.00;20 Jun 2009; 0;1 ;2009
+Nautico;Coritiba;bet365;1.91;3.40;4.00;20 Jun 2009; 0;1 ;2009
+Nautico;Coritiba;bwin;1.80;3.30;3.95;20 Jun 2009; 0;1 ;2009
+Nautico;Coritiba;Pinnacle;1.94;3.90;4.09;20 Jun 2009; 0;1 ;2009
+Nautico;Coritiba;Unibet;1.85;3.35;3.80;20 Jun 2009; 0;1 ;2009
+Athletico-PR;Palmeiras;bet-at-home;2.29;3.25;2.65;20 Jun 2009; 2;2 ;2009
+Athletico-PR;Palmeiras;bet365;2.45;3.30;2.80;20 Jun 2009; 2;2 ;2009
+Athletico-PR;Palmeiras;bwin;2.50;3.20;2.50;20 Jun 2009; 2;2 ;2009
+Athletico-PR;Palmeiras;Pinnacle;2.69;3.42;2.82;20 Jun 2009; 2;2 ;2009
+Athletico-PR;Palmeiras;Unibet;2.40;3.25;2.70;20 Jun 2009; 2;2 ;2009
+Santo Andre;Sport Recife;bet-at-home;1.90;3.30;3.40;20 Jun 2009; 2;1 ;2009
+Santo Andre;Sport Recife;bet365;1.91;3.50;4.20;20 Jun 2009; 2;1 ;2009
+Santo Andre;Sport Recife;bwin;2.00;3.25;3.30;20 Jun 2009; 2;1 ;2009
+Santo Andre;Sport Recife;Pinnacle;1.96;3.68;4.23;20 Jun 2009; 2;1 ;2009
+Santo Andre;Sport Recife;Unibet;1.95;3.40;3.50;20 Jun 2009; 2;1 ;2009
+Vitoria;Botafogo RJ;bet-at-home;1.90;3.10;3.65;20 Jun 2009; 4;3 ;2009
+Vitoria;Botafogo RJ;bet365;2.00;3.25;4.00;20 Jun 2009; 4;3 ;2009
+Vitoria;Botafogo RJ;bwin;1.90;3.25;3.60;20 Jun 2009; 4;3 ;2009
+Vitoria;Botafogo RJ;Pinnacle;2.13;3.35;3.94;20 Jun 2009; 4;3 ;2009
+Vitoria;Botafogo RJ;Unibet;1.90;3.20;3.85;20 Jun 2009; 4;3 ;2009
+Barueri;Avai;bet-at-home;1.90;3.20;3.50;14 Jun 2009; 3;1 ;2009
+Barueri;Avai;bet365;1.95;3.25;4.00;14 Jun 2009; 3;1 ;2009
+Barueri;Avai;bwin;1.90;3.15;3.75;14 Jun 2009; 3;1 ;2009
+Barueri;Avai;Pinnacle;1.99;3.62;4.04;14 Jun 2009; 3;1 ;2009
+Barueri;Avai;Unibet;1.90;3.30;3.75;14 Jun 2009; 3;1 ;2009
+Internacional;Vitoria;bet-at-home;1.65;3.30;4.70;14 Jun 2009; 0;0 ;2009
+Internacional;Vitoria;bet365;1.67;3.60;5.00;14 Jun 2009; 0;0 ;2009
+Internacional;Vitoria;bwin;1.60;3.35;5.30;14 Jun 2009; 0;0 ;2009
+Internacional;Vitoria;Pinnacle;1.71;3.77;5.74;14 Jun 2009; 0;0 ;2009
+Internacional;Vitoria;Unibet;1.62;3.60;5.00;14 Jun 2009; 0;0 ;2009
+Palmeiras;Cruzeiro;bet-at-home;1.90;3.25;3.50;14 Jun 2009; 3;1 ;2009
+Palmeiras;Cruzeiro;bet365;2.10;3.30;3.60;14 Jun 2009; 3;1 ;2009
+Palmeiras;Cruzeiro;bwin;1.80;3.30;3.95;14 Jun 2009; 3;1 ;2009
+Palmeiras;Cruzeiro;Pinnacle;2.00;3.46;4.32;14 Jun 2009; 3;1 ;2009
+Palmeiras;Cruzeiro;Unibet;1.95;3.25;3.55;14 Jun 2009; 3;1 ;2009
+Atletico-MG;Nautico;bet-at-home;1.50;3.80;5.20;14 Jun 2009; 3;0 ;2009
+Atletico-MG;Nautico;bet365;1.55;3.75;5.75;14 Jun 2009; 3;0 ;2009
+Atletico-MG;Nautico;bwin;1.55;3.60;5.25;14 Jun 2009; 3;0 ;2009
+Atletico-MG;Nautico;Pinnacle;1.57;4.29;6.25;14 Jun 2009; 3;0 ;2009
+Atletico-MG;Nautico;Unibet;1.55;3.40;6.25;14 Jun 2009; 3;0 ;2009
+Coritiba;Flamengo RJ;bet-at-home;2.50;3.20;2.45;14 Jun 2009; 5;0 ;2009
+Coritiba;Flamengo RJ;bet365;2.60;3.25;2.63;14 Jun 2009; 5;0 ;2009
+Coritiba;Flamengo RJ;bwin;2.60;3.20;2.40;14 Jun 2009; 5;0 ;2009
+Coritiba;Flamengo RJ;Pinnacle;2.74;3.50;2.64;14 Jun 2009; 5;0 ;2009
+Coritiba;Flamengo RJ;Unibet;2.60;3.30;2.45;14 Jun 2009; 5;0 ;2009
+Fluminense;Gremio;bet-at-home;2.29;3.15;2.70;14 Jun 2009; 0;0 ;2009
+Fluminense;Gremio;bet365;2.29;3.25;3.10;14 Jun 2009; 0;0 ;2009
+Fluminense;Gremio;bwin;2.10;3.20;3.10;14 Jun 2009; 0;0 ;2009
+Fluminense;Gremio;Pinnacle;2.40;3.32;3.31;14 Jun 2009; 0;0 ;2009
+Fluminense;Gremio;Unibet;2.25;3.25;2.90;14 Jun 2009; 0;0 ;2009
+Goias;Corinthians;bet-at-home;1.90;3.20;3.55;14 Jun 2009; 0;0 ;2009
+Goias;Corinthians;bet365;2.04;3.25;3.70;14 Jun 2009; 0;0 ;2009
+Goias;Corinthians;bwin;1.90;3.20;3.65;14 Jun 2009; 0;0 ;2009
+Goias;Corinthians;Pinnacle;2.18;3.30;3.69;14 Jun 2009; 0;0 ;2009
+Goias;Corinthians;Unibet;2.00;3.30;3.55;14 Jun 2009; 0;0 ;2009
+Botafogo RJ;Santos;bet-at-home;2.54;3.20;2.40;13 Jun 2009; 2;0 ;2009
+Botafogo RJ;Santos;bet365;2.29;3.30;3.10;13 Jun 2009; 2;0 ;2009
+Botafogo RJ;Santos;bwin;2.50;3.20;2.50;13 Jun 2009; 2;0 ;2009
+Botafogo RJ;Santos;Pinnacle;2.54;3.40;2.98;13 Jun 2009; 2;0 ;2009
+Botafogo RJ;Santos;Unibet;2.65;3.25;2.50;13 Jun 2009; 2;0 ;2009
+Sao Paulo;Santo Andre;bet-at-home;1.50;3.60;5.55;13 Jun 2009; 1;1 ;2009
+Sao Paulo;Santo Andre;bet365;1.50;4.00;6.50;13 Jun 2009; 1;1 ;2009
+Sao Paulo;Santo Andre;bwin;1.45;3.90;6.00;13 Jun 2009; 1;1 ;2009
+Sao Paulo;Santo Andre;Pinnacle;1.55;3.88;8.11;13 Jun 2009; 1;1 ;2009
+Sao Paulo;Santo Andre;Unibet;1.45;3.85;7.00;13 Jun 2009; 1;1 ;2009
+Sport Recife;Athletico-PR;bet-at-home;1.65;3.40;4.50;13 Jun 2009; 0;1 ;2009
+Sport Recife;Athletico-PR;bet365;1.65;3.60;5.25;13 Jun 2009; 0;1 ;2009
+Sport Recife;Athletico-PR;bwin;1.70;3.30;4.50;13 Jun 2009; 0;1 ;2009
+Sport Recife;Athletico-PR;Pinnacle;1.71;3.81;6.12;13 Jun 2009; 0;1 ;2009
+Sport Recife;Athletico-PR;Unibet;1.75;3.40;4.30;13 Jun 2009; 0;1 ;2009
+Cruzeiro;Internacional;bet-at-home;1.80;3.25;3.85;07 Jun 2009; 1;1 ;2009
+Cruzeiro;Internacional;bet365;1.80;3.40;4.50;07 Jun 2009; 1;1 ;2009
+Cruzeiro;Internacional;bwin;1.80;3.25;4.00;07 Jun 2009; 1;1 ;2009
+Cruzeiro;Internacional;Pinnacle;1.90;3.54;4.57;07 Jun 2009; 1;1 ;2009
+Cruzeiro;Internacional;Unibet;1.80;3.30;4.09;07 Jun 2009; 1;1 ;2009
+Fluminense;Botafogo RJ;bet-at-home;2.50;3.10;2.50;07 Jun 2009; 1;0 ;2009
+Fluminense;Botafogo RJ;bet365;2.75;3.25;2.50;07 Jun 2009; 1;0 ;2009
+Fluminense;Botafogo RJ;bwin;2.35;3.10;2.75;07 Jun 2009; 1;0 ;2009
+Fluminense;Botafogo RJ;Pinnacle;2.87;3.27;2.67;07 Jun 2009; 1;0 ;2009
+Fluminense;Botafogo RJ;Unibet;2.50;3.25;2.60;07 Jun 2009; 1;0 ;2009
+Goias;Barueri;bwin;1.65;3.50;4.50;07 Jun 2009; 2;2 ;2009
+Goias;Barueri;Unibet;1.67;3.45;5.00;07 Jun 2009; 2;2 ;2009
+Athletico-PR;Atletico-MG;bet-at-home;2.10;3.10;3.10;07 Jun 2009; 0;4 ;2009
+Athletico-PR;Atletico-MG;bet365;2.10;3.40;3.40;07 Jun 2009; 0;4 ;2009
+Athletico-PR;Atletico-MG;bwin;2.00;3.20;3.35;07 Jun 2009; 0;4 ;2009
+Athletico-PR;Atletico-MG;Pinnacle;2.18;3.44;3.65;07 Jun 2009; 0;4 ;2009
+Avai;Sao Paulo;bet-at-home;3.20;3.20;2.00;07 Jun 2009; 0;0 ;2009
+Avai;Sao Paulo;bet365;3.30;3.30;2.20;07 Jun 2009; 0;0 ;2009
+Avai;Sao Paulo;bwin;3.65;3.50;1.80;07 Jun 2009; 0;0 ;2009
+Avai;Sao Paulo;Pinnacle;3.59;3.41;2.22;07 Jun 2009; 0;0 ;2009
+Avai;Sao Paulo;Unibet;3.40;3.30;2.04;07 Jun 2009; 0;0 ;2009
+Palmeiras;Vitoria;bet-at-home;1.50;3.60;5.60;07 Jun 2009; 2;1 ;2009
+Palmeiras;Vitoria;bet365;1.55;3.80;6.50;07 Jun 2009; 2;1 ;2009
+Palmeiras;Vitoria;bwin;1.50;3.60;6.00;07 Jun 2009; 2;1 ;2009
+Palmeiras;Vitoria;Pinnacle;1.57;4.21;7.06;07 Jun 2009; 2;1 ;2009
+Palmeiras;Vitoria;Unibet;1.55;3.60;6.00;07 Jun 2009; 2;1 ;2009
+Sport Recife;Flamengo RJ;bet-at-home;2.20;3.20;2.80;07 Jun 2009; 4;2 ;2009
+Sport Recife;Flamengo RJ;bet365;2.45;3.25;2.88;07 Jun 2009; 4;2 ;2009
+Sport Recife;Flamengo RJ;bwin;2.35;3.25;2.65;07 Jun 2009; 4;2 ;2009
+Sport Recife;Flamengo RJ;Pinnacle;2.60;3.31;2.97;07 Jun 2009; 4;2 ;2009
+Sport Recife;Flamengo RJ;Unibet;2.45;3.25;2.65;07 Jun 2009; 4;2 ;2009
+Corinthians;Coritiba;bet-at-home;1.60;3.50;4.70;07 Jun 2009; 2;0 ;2009
+Corinthians;Coritiba;bet365;1.67;3.60;5.25;07 Jun 2009; 2;0 ;2009
+Corinthians;Coritiba;bwin;1.60;3.60;4.80;07 Jun 2009; 2;0 ;2009
+Corinthians;Coritiba;Pinnacle;1.72;3.67;6.01;07 Jun 2009; 2;0 ;2009
+Corinthians;Coritiba;Unibet;1.65;3.45;5.25;07 Jun 2009; 2;0 ;2009
+Gremio;Nautico;bet-at-home;1.40;3.95;6.50;05 Jun 2009; 3;0 ;2009
+Gremio;Nautico;bet365;1.44;4.33;8.00;05 Jun 2009; 3;0 ;2009
+Gremio;Nautico;bwin;1.45;3.75;6.50;05 Jun 2009; 3;0 ;2009
+Gremio;Nautico;Pinnacle;1.43;4.54;8.69;05 Jun 2009; 3;0 ;2009
+Gremio;Nautico;Unibet;1.40;4.00;8.00;05 Jun 2009; 3;0 ;2009
+Santo Andre;Santos;bet-at-home;3.50;3.20;1.90;05 Jun 2009; 3;3 ;2009
+Santo Andre;Santos;bet365;3.75;3.40;2.00;05 Jun 2009; 3;3 ;2009
+Santo Andre;Santos;bwin;3.65;3.35;1.85;05 Jun 2009; 3;3 ;2009
+Santo Andre;Santos;Pinnacle;3.96;3.49;2.08;05 Jun 2009; 3;3 ;2009
+Santo Andre;Santos;Unibet;3.20;3.30;2.10;05 Jun 2009; 3;3 ;2009
+Barueri;Palmeiras;bwin;3.15;3.25;2.04;31 May 2009; 2;2 ;2009
+Barueri;Palmeiras;Unibet;2.65;3.25;2.45;31 May 2009; 2;2 ;2009
+Internacional;Avai;bet-at-home;1.50;3.55;5.80;31 May 2009; 2;1 ;2009
+Internacional;Avai;bet365;1.50;4.00;6.50;31 May 2009; 2;1 ;2009
+Internacional;Avai;bwin;1.40;3.80;7.35;31 May 2009; 2;1 ;2009
+Internacional;Avai;Pinnacle;1.67;3.84;5.96;31 May 2009; 2;1 ;2009
+Internacional;Avai;Unibet;1.50;3.65;6.75;31 May 2009; 2;1 ;2009
+Flamengo RJ;Athletico-PR;bet-at-home;1.55;3.50;5.20;31 May 2009; 2;1 ;2009
+Flamengo RJ;Athletico-PR;bet365;1.57;3.75;6.50;31 May 2009; 2;1 ;2009
+Flamengo RJ;Athletico-PR;bwin;1.55;3.50;5.50;31 May 2009; 2;1 ;2009
+Flamengo RJ;Athletico-PR;Pinnacle;1.63;4.11;6.59;31 May 2009; 2;1 ;2009
+Nautico;Fluminense;bet-at-home;1.95;3.20;3.35;31 May 2009; 1;1 ;2009
+Nautico;Fluminense;bet365;2.10;3.20;3.40;31 May 2009; 1;1 ;2009
+Nautico;Fluminense;bwin;2.00;3.25;3.30;31 May 2009; 1;1 ;2009
+Nautico;Fluminense;Pinnacle;2.13;3.61;3.57;31 May 2009; 1;1 ;2009
+Nautico;Fluminense;Unibet;1.95;3.30;3.60;31 May 2009; 1;1 ;2009
+Santos;Corinthians;bet-at-home;1.65;3.45;4.40;31 May 2009; 3;1 ;2009
+Santos;Corinthians;bet365;1.70;3.60;5.25;31 May 2009; 3;1 ;2009
+Santos;Corinthians;bwin;1.60;3.55;4.90;31 May 2009; 3;1 ;2009
+Santos;Corinthians;Pinnacle;1.80;3.78;5.23;31 May 2009; 3;1 ;2009
+Santos;Corinthians;Unibet;1.70;3.40;4.75;31 May 2009; 3;1 ;2009
+Sao Paulo;Cruzeiro;bet-at-home;1.85;3.20;3.70;31 May 2009; 3;0 ;2009
+Sao Paulo;Cruzeiro;bet365;1.85;3.40;4.20;31 May 2009; 3;0 ;2009
+Sao Paulo;Cruzeiro;bwin;1.90;3.30;3.55;31 May 2009; 3;0 ;2009
+Sao Paulo;Cruzeiro;Pinnacle;1.94;3.66;4.30;31 May 2009; 3;0 ;2009
+Sao Paulo;Cruzeiro;Unibet;1.85;3.30;4.00;31 May 2009; 3;0 ;2009
+Vitoria;Gremio;bet-at-home;2.20;3.20;2.80;31 May 2009; 1;0 ;2009
+Vitoria;Gremio;bet365;2.29;3.25;3.10;31 May 2009; 1;0 ;2009
+Vitoria;Gremio;bwin;2.20;3.25;2.85;31 May 2009; 1;0 ;2009
+Vitoria;Gremio;Pinnacle;2.38;3.41;3.16;31 May 2009; 1;0 ;2009
+Vitoria;Gremio;Unibet;2.29;3.25;2.90;31 May 2009; 1;0 ;2009
+Atletico-MG;Santo Andre;bet-at-home;1.60;3.35;5.00;30 May 2009; 0;0 ;2009
+Atletico-MG;Santo Andre;bet365;1.57;3.60;6.00;30 May 2009; 0;0 ;2009
+Atletico-MG;Santo Andre;bwin;1.45;3.75;6.35;30 May 2009; 0;0 ;2009
+Atletico-MG;Santo Andre;Pinnacle;1.67;3.99;5.88;30 May 2009; 0;0 ;2009
+Atletico-MG;Santo Andre;Unibet;1.60;3.50;5.50;30 May 2009; 0;0 ;2009
+Botafogo RJ;Sport Recife;bet-at-home;1.70;3.30;4.30;30 May 2009; 2;2 ;2009
+Botafogo RJ;Sport Recife;bet365;1.65;3.60;5.50;30 May 2009; 2;2 ;2009
+Botafogo RJ;Sport Recife;bwin;1.70;3.30;4.65;30 May 2009; 2;2 ;2009
+Botafogo RJ;Sport Recife;Pinnacle;1.76;3.85;5.54;30 May 2009; 2;2 ;2009
+Botafogo RJ;Sport Recife;Unibet;1.75;3.40;4.50;30 May 2009; 2;2 ;2009
+Coritiba;Goias;bet-at-home;2.29;3.10;2.75;30 May 2009; 1;3 ;2009
+Coritiba;Goias;bet365;2.29;3.30;3.00;30 May 2009; 1;3 ;2009
+Coritiba;Goias;bwin;2.10;3.20;3.10;30 May 2009; 1;3 ;2009
+Coritiba;Goias;Pinnacle;2.52;3.35;3.07;30 May 2009; 1;3 ;2009
+Coritiba;Goias;Unibet;2.10;3.30;3.20;30 May 2009; 1;3 ;2009
+Avai;Coritiba;bet-at-home;1.85;3.30;3.60;24 May 2009; 2;2 ;2009
+Avai;Coritiba;bet365;1.91;3.60;3.75;24 May 2009; 2;2 ;2009
+Avai;Coritiba;bwin;1.90;3.20;3.65;24 May 2009; 2;2 ;2009
+Avai;Coritiba;Pinnacle;2.00;3.61;4.26;24 May 2009; 2;2 ;2009
+Avai;Coritiba;Unibet;1.95;3.30;3.65;24 May 2009; 2;2 ;2009
+Santo Andre;Flamengo RJ;bet-at-home;2.35;3.20;2.60;24 May 2009; 1;2 ;2009
+Santo Andre;Flamengo RJ;bet365;2.38;3.20;2.75;24 May 2009; 1;2 ;2009
+Santo Andre;Flamengo RJ;bwin;2.40;3.20;2.60;24 May 2009; 1;2 ;2009
+Santo Andre;Flamengo RJ;Pinnacle;2.57;3.38;2.87;24 May 2009; 1;2 ;2009
+Santo Andre;Flamengo RJ;Unibet;2.35;3.25;2.75;24 May 2009; 1;2 ;2009
+Sport Recife;Atletico-MG;bet-at-home;1.80;3.25;3.85;24 May 2009; 2;3 ;2009
+Sport Recife;Atletico-MG;bet365;1.83;3.50;4.50;24 May 2009; 2;3 ;2009
+Sport Recife;Atletico-MG;bwin;1.85;3.30;3.75;24 May 2009; 2;3 ;2009
+Sport Recife;Atletico-MG;Pinnacle;1.83;3.79;4.76;24 May 2009; 2;3 ;2009
+Sport Recife;Atletico-MG;Unibet;1.85;3.30;4.00;24 May 2009; 2;3 ;2009
+Athletico-PR;Nautico;bet-at-home;1.75;3.30;4.00;24 May 2009; 2;3 ;2009
+Athletico-PR;Nautico;bet365;1.75;3.40;4.50;24 May 2009; 2;3 ;2009
+Athletico-PR;Nautico;bwin;1.75;3.30;4.20;24 May 2009; 2;3 ;2009
+Athletico-PR;Nautico;Pinnacle;1.71;3.80;5.52;24 May 2009; 2;3 ;2009
+Fluminense;Santos;bet-at-home;1.90;3.20;3.50;24 May 2009; 1;4 ;2009
+Fluminense;Santos;bet365;2.04;3.40;3.60;24 May 2009; 1;4 ;2009
+Fluminense;Santos;bwin;1.95;3.30;3.35;24 May 2009; 1;4 ;2009
+Fluminense;Santos;Pinnacle;2.24;3.48;3.49;24 May 2009; 1;4 ;2009
+Fluminense;Santos;Unibet;2.04;3.25;3.40;24 May 2009; 1;4 ;2009
+Gremio;Botafogo RJ;bet-at-home;1.70;3.40;4.20;24 May 2009; 2;0 ;2009
+Gremio;Botafogo RJ;bet365;1.75;3.75;4.75;24 May 2009; 2;0 ;2009
+Gremio;Botafogo RJ;bwin;1.70;3.40;4.34;24 May 2009; 2;0 ;2009
+Gremio;Botafogo RJ;Pinnacle;1.71;3.94;5.26;24 May 2009; 2;0 ;2009
+Gremio;Botafogo RJ;Unibet;1.70;3.45;4.70;24 May 2009; 2;0 ;2009
+Palmeiras;Sao Paulo;bet-at-home;2.20;3.20;2.80;24 May 2009; 0;0 ;2009
+Palmeiras;Sao Paulo;bet365;2.29;3.30;3.10;24 May 2009; 0;0 ;2009
+Palmeiras;Sao Paulo;bwin;2.25;3.20;2.80;24 May 2009; 0;0 ;2009
+Palmeiras;Sao Paulo;Pinnacle;2.31;3.47;3.29;24 May 2009; 0;0 ;2009
+Palmeiras;Sao Paulo;Unibet;2.29;3.20;2.85;24 May 2009; 0;0 ;2009
+Corinthians;Barueri;bwin;1.55;3.65;5.15;23 May 2009; 2;1 ;2009
+Corinthians;Barueri;Unibet;1.65;3.50;5.00;23 May 2009; 2;1 ;2009
+Cruzeiro;Vitoria;bet-at-home;1.50;3.65;5.50;23 May 2009; 2;0 ;2009
+Cruzeiro;Vitoria;bet365;1.55;3.80;6.50;23 May 2009; 2;0 ;2009
+Cruzeiro;Vitoria;bwin;1.50;3.60;5.90;23 May 2009; 2;0 ;2009
+Cruzeiro;Vitoria;Pinnacle;1.63;3.96;6.82;23 May 2009; 2;0 ;2009
+Cruzeiro;Vitoria;Unibet;1.50;3.60;7.00;23 May 2009; 2;0 ;2009
+Goias;Internacional;bet-at-home;2.04;3.25;3.00;23 May 2009; 0;1 ;2009
+Goias;Internacional;bet365;2.10;3.30;3.50;23 May 2009; 0;1 ;2009
+Goias;Internacional;bwin;2.10;3.15;3.15;23 May 2009; 0;1 ;2009
+Goias;Internacional;Pinnacle;2.17;3.36;3.82;23 May 2009; 0;1 ;2009
+Goias;Internacional;Unibet;2.15;3.25;3.15;23 May 2009; 0;1 ;2009
+Botafogo RJ;Corinthians;bet-at-home;1.95;3.35;3.20;17 May 2009; 0;0 ;2009
+Botafogo RJ;Corinthians;bet365;2.25;3.30;3.20;17 May 2009; 0;0 ;2009
+Botafogo RJ;Corinthians;bwin;2.00;3.20;3.35;17 May 2009; 0;0 ;2009
+Botafogo RJ;Corinthians;Pinnacle;2.34;3.40;3.35;17 May 2009; 0;0 ;2009
+Botafogo RJ;Corinthians;Unibet;2.10;3.25;3.25;17 May 2009; 0;0 ;2009
+Nautico;Cruzeiro;bet-at-home;2.40;3.10;2.60;17 May 2009; 2;0 ;2009
+Nautico;Cruzeiro;bet365;2.50;3.20;2.75;17 May 2009; 2;0 ;2009
+Nautico;Cruzeiro;bwin;2.45;3.20;2.54;17 May 2009; 2;0 ;2009
+Nautico;Cruzeiro;Pinnacle;2.54;3.28;2.93;17 May 2009; 2;0 ;2009
+Nautico;Cruzeiro;Unibet;2.40;3.30;2.70;17 May 2009; 2;0 ;2009
+Vitoria;Sport Recife;bet-at-home;1.95;3.20;3.35;17 May 2009; 1;0 ;2009
+Vitoria;Sport Recife;bet365;2.10;3.20;3.25;17 May 2009; 1;0 ;2009
+Vitoria;Sport Recife;bwin;1.90;3.30;3.60;17 May 2009; 1;0 ;2009
+Vitoria;Sport Recife;Pinnacle;2.27;3.28;3.51;17 May 2009; 1;0 ;2009
+Vitoria;Sport Recife;Unibet;2.10;3.25;3.30;17 May 2009; 1;0 ;2009
+Barueri;Fluminense;bwin;2.29;3.20;2.75;17 May 2009; 0;0 ;2009
+Barueri;Fluminense;Unibet;2.20;3.25;3.05;17 May 2009; 0;0 ;2009
+Internacional;Palmeiras;bet-at-home;1.90;3.20;3.50;17 May 2009; 2;0 ;2009
+Internacional;Palmeiras;bet365;2.10;3.25;3.40;17 May 2009; 2;0 ;2009
+Internacional;Palmeiras;bwin;2.04;3.30;3.10;17 May 2009; 2;0 ;2009
+Internacional;Palmeiras;Pinnacle;2.22;3.38;3.63;17 May 2009; 2;0 ;2009
+Internacional;Palmeiras;Unibet;2.10;3.30;3.25;17 May 2009; 2;0 ;2009
+Santos;Goias;bet-at-home;1.65;3.40;4.50;17 May 2009; 3;3 ;2009
+Santos;Goias;bet365;1.67;3.60;5.50;17 May 2009; 3;3 ;2009
+Santos;Goias;bwin;1.60;3.55;4.84;17 May 2009; 3;3 ;2009
+Santos;Goias;Pinnacle;1.72;3.83;5.80;17 May 2009; 3;3 ;2009
+Santos;Goias;Unibet;1.65;3.40;5.00;17 May 2009; 3;3 ;2009
+Sao Paulo;Athletico-PR;bet-at-home;1.45;3.90;5.60;17 May 2009; 2;2 ;2009
+Sao Paulo;Athletico-PR;bet365;1.44;4.33;7.00;17 May 2009; 2;2 ;2009
+Sao Paulo;Athletico-PR;bwin;1.45;3.90;6.00;17 May 2009; 2;2 ;2009
+Sao Paulo;Athletico-PR;Pinnacle;1.56;4.16;7.09;17 May 2009; 2;2 ;2009
+Atletico-MG;Gremio;bet-at-home;2.25;3.10;2.80;16 May 2009; 2;1 ;2009
+Atletico-MG;Gremio;bet365;2.29;3.25;3.10;16 May 2009; 2;1 ;2009
+Atletico-MG;Gremio;bwin;2.25;3.20;2.80;16 May 2009; 2;1 ;2009
+Atletico-MG;Gremio;Pinnacle;2.38;3.54;3.06;16 May 2009; 2;1 ;2009
+Atletico-MG;Gremio;Unibet;2.35;3.20;2.85;16 May 2009; 2;1 ;2009
+Coritiba;Santo Andre;bet-at-home;2.00;3.20;3.20;16 May 2009; 2;4 ;2009
+Coritiba;Santo Andre;bet365;2.00;3.40;3.75;16 May 2009; 2;4 ;2009
+Coritiba;Santo Andre;bwin;1.95;3.35;3.30;16 May 2009; 2;4 ;2009
+Coritiba;Santo Andre;Pinnacle;2.14;3.21;4.24;16 May 2009; 2;4 ;2009
+Coritiba;Santo Andre;Unibet;1.95;3.30;3.65;16 May 2009; 2;4 ;2009
+Flamengo RJ;Avai;bet-at-home;1.40;3.85;6.75;16 May 2009; 0;0 ;2009
+Flamengo RJ;Avai;bet365;1.50;4.20;6.50;16 May 2009; 0;0 ;2009
+Flamengo RJ;Avai;bwin;1.45;3.90;6.00;16 May 2009; 0;0 ;2009
+Flamengo RJ;Avai;Pinnacle;1.50;4.28;7.65;16 May 2009; 0;0 ;2009
+Flamengo RJ;Avai;Unibet;1.40;4.00;8.00;16 May 2009; 0;0 ;2009
+Goias;Nautico;bet-at-home;1.55;3.50;5.20;10 May 2009; 3;3 ;2009
+Goias;Nautico;bet365;1.53;3.60;6.50;10 May 2009; 3;3 ;2009
+Goias;Nautico;bwin;1.50;3.60;5.90;10 May 2009; 3;3 ;2009
+Goias;Nautico;Pinnacle;1.59;4.24;6.51;10 May 2009; 3;3 ;2009
+Goias;Nautico;Unibet;1.50;3.65;6.75;10 May 2009; 3;3 ;2009
+Gremio;Santos;bet-at-home;1.75;3.45;3.80;10 May 2009; 1;1 ;2009
+Gremio;Santos;bet365;1.75;3.50;4.00;10 May 2009; 1;1 ;2009
+Gremio;Santos;bwin;1.70;3.30;4.50;10 May 2009; 1;1 ;2009
+Gremio;Santos;Pinnacle;1.84;3.75;4.76;10 May 2009; 1;1 ;2009
+Gremio;Santos;Unibet;1.70;3.40;4.50;10 May 2009; 1;1 ;2009
+Santo Andre;Botafogo RJ;bet-at-home;2.50;3.10;2.50;10 May 2009; 1;1 ;2009
+Santo Andre;Botafogo RJ;bet365;2.40;3.30;2.88;10 May 2009; 1;1 ;2009
+Santo Andre;Botafogo RJ;bwin;2.40;3.20;2.60;10 May 2009; 1;1 ;2009
+Santo Andre;Botafogo RJ;Pinnacle;2.42;3.52;2.90;10 May 2009; 1;1 ;2009
+Santo Andre;Botafogo RJ;Unibet;2.50;3.25;2.60;10 May 2009; 1;1 ;2009
+Athletico-PR;Vitoria;bet-at-home;1.60;3.30;5.20;10 May 2009; 0;2 ;2009
+Athletico-PR;Vitoria;bet365;1.62;3.40;5.25;10 May 2009; 0;2 ;2009
+Athletico-PR;Vitoria;bwin;1.65;3.50;4.50;10 May 2009; 0;2 ;2009
+Athletico-PR;Vitoria;Pinnacle;1.69;3.77;6.01;10 May 2009; 0;2 ;2009
+Corinthians;Internacional;bet-at-home;2.10;3.20;3.00;10 May 2009; 0;1 ;2009
+Corinthians;Internacional;bet365;2.29;3.30;3.10;10 May 2009; 0;1 ;2009
+Corinthians;Internacional;bwin;2.20;3.20;2.90;10 May 2009; 0;1 ;2009
+Corinthians;Internacional;Pinnacle;2.42;3.42;3.18;10 May 2009; 0;1 ;2009
+Corinthians;Internacional;Unibet;2.25;3.30;2.90;10 May 2009; 0;1 ;2009
+Cruzeiro;Flamengo RJ;bet-at-home;1.95;3.30;3.25;10 May 2009; 2;0 ;2009
+Cruzeiro;Flamengo RJ;bet365;1.95;3.30;3.60;10 May 2009; 2;0 ;2009
+Cruzeiro;Flamengo RJ;bwin;1.95;3.30;3.35;10 May 2009; 2;0 ;2009
+Cruzeiro;Flamengo RJ;Pinnacle;2.00;3.66;4.00;10 May 2009; 2;0 ;2009
+Cruzeiro;Flamengo RJ;Unibet;2.00;3.30;3.40;10 May 2009; 2;0 ;2009
+Fluminense;Sao Paulo;bet-at-home;2.20;3.20;2.80;10 May 2009; 1;0 ;2009
+Fluminense;Sao Paulo;bet365;2.54;3.30;2.70;10 May 2009; 1;0 ;2009
+Fluminense;Sao Paulo;bwin;2.29;3.25;2.70;10 May 2009; 1;0 ;2009
+Fluminense;Sao Paulo;Pinnacle;2.71;3.29;2.81;10 May 2009; 1;0 ;2009
+Fluminense;Sao Paulo;Unibet;2.35;3.25;2.80;10 May 2009; 1;0 ;2009
+Avai;Atletico-MG;bet-at-home;2.10;3.20;3.00;09 May 2009; 2;2 ;2009
+Avai;Atletico-MG;bet365;2.10;3.30;3.25;09 May 2009; 2;2 ;2009
+Avai;Atletico-MG;bwin;2.15;3.25;2.95;09 May 2009; 2;2 ;2009
+Avai;Atletico-MG;Unibet;2.25;3.30;2.90;09 May 2009; 2;2 ;2009
+Palmeiras;Coritiba;bet-at-home;1.50;3.55;5.80;09 May 2009; 2;1 ;2009
+Palmeiras;Coritiba;bet365;1.60;3.60;5.75;09 May 2009; 2;1 ;2009
+Palmeiras;Coritiba;bwin;1.55;3.50;5.50;09 May 2009; 2;1 ;2009
+Palmeiras;Coritiba;Unibet;1.60;3.45;5.75;09 May 2009; 2;1 ;2009
+Sport Recife;Barueri;bwin;1.55;3.50;5.50;09 May 2009; 1;1 ;2009
+Sport Recife;Barueri;Unibet;1.65;3.40;5.25;09 May 2009; 1;1 ;2009
