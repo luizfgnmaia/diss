@@ -34,9 +34,10 @@ results = tibble(GeoMean = apply(HDA[,c(99:128)], 2, EnvStats::geoMean),
          `Model D` = log(`Model D`) - log(`Model A`),
          `Model E` = log(`Model E`) - log(`Model A`),
          `Model A` = 0) %>%
-  pivot_longer(cols = starts_with("Model"), names_to = "Model", values_to = "GeoMean")
-  
-  
+  pivot_longer(cols = starts_with("Model"), names_to = "Model", values_to = "GeoMean") %>%  
+  mutate(Model = stringr::str_replace_all(Model, "Model ", ""))
+
+
 results %>%
   ggplot(aes(x = Minute, y = GeoMean, col = Model)) +
   geom_line() +
@@ -54,19 +55,20 @@ results %>%
 
 ```{r}
 scores = tibble(GeoMean = apply(HDA[,c(129:158)], 2, EnvStats::geoMean),
-                 Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 5)),
-                 Model = factor(c(rep("A", 6), 
-                                  rep("B", 6),
-                                  rep("C", 6),
-                                  rep("D", 6),
-                                  rep("E", 6)))) %>%
+                Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 5)),
+                Model = factor(c(rep("A", 6), 
+                                 rep("B", 6),
+                                 rep("C", 6),
+                                 rep("D", 6),
+                                 rep("E", 6)))) %>%
   pivot_wider(names_from = "Model", values_from = "GeoMean", names_prefix = "Model ") %>%
   mutate(`Model B` = log(`Model B`) - log(`Model A`),
          `Model C` = log(`Model C`) - log(`Model A`),
          `Model D` = log(`Model D`) - log(`Model A`),
          `Model E` = log(`Model E`) - log(`Model A`),
          `Model A` = 0) %>%
-  pivot_longer(cols = starts_with("Model"), names_to = "Model", values_to = "GeoMean")
+  pivot_longer(cols = starts_with("Model"), names_to = "Model", values_to = "GeoMean") %>%   
+  mutate(Model = stringr::str_replace_all(Model, "Model ", ""))
 
 scores %>%
   ggplot(aes(x = Minute, y = GeoMean, col = Model)) +
@@ -101,19 +103,20 @@ nrow(HDA_reds)
 
 ```{r}
 results_reds = tibble(GeoMean = apply(HDA_reds[,c(99:128)], 2, EnvStats::geoMean),
-                 Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 5)),
-                 Model = factor(c(rep("A", 6), 
-                                  rep("B", 6),
-                                  rep("C", 6),
-                                  rep("D", 6),
-                                  rep("E", 6)))) %>%
+                      Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 5)),
+                      Model = factor(c(rep("A", 6), 
+                                       rep("B", 6),
+                                       rep("C", 6),
+                                       rep("D", 6),
+                                       rep("E", 6)))) %>%
   pivot_wider(names_from = "Model", values_from = "GeoMean", names_prefix = "Model ") %>%
   mutate(`Model B` = log(`Model B`) - log(`Model A`),
          `Model C` = log(`Model C`) - log(`Model A`),
          `Model D` = log(`Model D`) - log(`Model A`),
          `Model E` = log(`Model E`) - log(`Model A`),
          `Model A` = 0) %>%
-  pivot_longer(cols = starts_with("Model"), names_to = "Model", values_to = "GeoMean")
+  pivot_longer(cols = starts_with("Model"), names_to = "Model", values_to = "GeoMean") %>%   
+  mutate(Model = stringr::str_replace_all(Model, "Model ", ""))
 
 results_reds %>%
   ggplot(aes(x = Minute, y = GeoMean, col = Model)) +
@@ -132,19 +135,20 @@ results_reds %>%
 
 ```{r}
 results_no_reds = tibble(GeoMean = apply(HDA_no_reds[,c(99:128)], 2, EnvStats::geoMean),
-                 Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 5)),
-                 Model = factor(c(rep("A", 6), 
-                                  rep("B", 6),
-                                  rep("C", 6),
-                                  rep("D", 6),
-                                  rep("E", 6)))) %>%
+                         Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 5)),
+                         Model = factor(c(rep("A", 6), 
+                                          rep("B", 6),
+                                          rep("C", 6),
+                                          rep("D", 6),
+                                          rep("E", 6)))) %>%
   pivot_wider(names_from = "Model", values_from = "GeoMean", names_prefix = "Model ") %>%
   mutate(`Model B` = log(`Model B`) - log(`Model A`),
          `Model C` = log(`Model C`) - log(`Model A`),
          `Model D` = log(`Model D`) - log(`Model A`),
          `Model E` = log(`Model E`) - log(`Model A`),
          `Model A` = 0) %>%
-  pivot_longer(cols = starts_with("Model"), names_to = "Model", values_to = "GeoMean")
+  pivot_longer(cols = starts_with("Model"), names_to = "Model", values_to = "GeoMean") %>%   
+  mutate(Model = stringr::str_replace_all(Model, "Model ", ""))
 
 results_no_reds %>%
   ggplot(aes(x = Minute, y = GeoMean, col = Model)) +
@@ -163,19 +167,20 @@ results_no_reds %>%
 
 ```{r}
 scores_reds = tibble(GeoMean = apply(HDA_reds[,c(129:158)], 2, EnvStats::geoMean),
-                 Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 5)),
-                 Model = factor(c(rep("A", 6), 
-                                  rep("B", 6),
-                                  rep("C", 6),
-                                  rep("D", 6),
-                                  rep("E", 6)))) %>%
+                     Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 5)),
+                     Model = factor(c(rep("A", 6), 
+                                      rep("B", 6),
+                                      rep("C", 6),
+                                      rep("D", 6),
+                                      rep("E", 6)))) %>%
   pivot_wider(names_from = "Model", values_from = "GeoMean", names_prefix = "Model ") %>%
   mutate(`Model B` = log(`Model B`) - log(`Model A`),
          `Model C` = log(`Model C`) - log(`Model A`),
          `Model D` = log(`Model D`) - log(`Model A`),
          `Model E` = log(`Model E`) - log(`Model A`),
          `Model A` = 0) %>%
-  pivot_longer(cols = starts_with("Model"), names_to = "Model", values_to = "GeoMean")
+  pivot_longer(cols = starts_with("Model"), names_to = "Model", values_to = "GeoMean") %>%   
+  mutate(Model = stringr::str_replace_all(Model, "Model ", ""))
 
 scores_reds %>%
   ggplot(aes(x = Minute, y = GeoMean, col = Model)) +
@@ -194,19 +199,20 @@ scores_reds %>%
 
 ```{r}
 scores_no_reds = tibble(GeoMean = apply(HDA_no_reds[,c(129:158)], 2, EnvStats::geoMean),
-                 Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 5)),
-                 Model = factor(c(rep("A", 6), 
-                                  rep("B", 6),
-                                  rep("C", 6),
-                                  rep("D", 6),
-                                  rep("E", 6)))) %>%
+                        Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 5)),
+                        Model = factor(c(rep("A", 6), 
+                                         rep("B", 6),
+                                         rep("C", 6),
+                                         rep("D", 6),
+                                         rep("E", 6)))) %>%
   pivot_wider(names_from = "Model", values_from = "GeoMean", names_prefix = "Model ") %>%
   mutate(`Model B` = log(`Model B`) - log(`Model A`),
          `Model C` = log(`Model C`) - log(`Model A`),
          `Model D` = log(`Model D`) - log(`Model A`),
          `Model E` = log(`Model E`) - log(`Model A`),
          `Model A` = 0) %>%
-  pivot_longer(cols = starts_with("Model"), names_to = "Model", values_to = "GeoMean")
+  pivot_longer(cols = starts_with("Model"), names_to = "Model", values_to = "GeoMean") %>%   
+  mutate(Model = stringr::str_replace_all(Model, "Model ", ""))
 
 scores_no_reds %>%
   ggplot(aes(x = Minute, y = GeoMean, col = Model)) +
@@ -232,19 +238,20 @@ nrow(HDA_2020)
 
 ```{r}
 results_2020 = tibble(GeoMean = apply(HDA_2020[,c(99:128)], 2, EnvStats::geoMean),
-                 Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 5)),
-                 Model = factor(c(rep("A", 6), 
-                                  rep("B", 6),
-                                  rep("C", 6),
-                                  rep("D", 6),
-                                  rep("E", 6)))) %>%
+                      Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 5)),
+                      Model = factor(c(rep("A", 6), 
+                                       rep("B", 6),
+                                       rep("C", 6),
+                                       rep("D", 6),
+                                       rep("E", 6)))) %>%
   pivot_wider(names_from = "Model", values_from = "GeoMean", names_prefix = "Model ") %>%
   mutate(`Model B` = log(`Model B`) - log(`Model A`),
          `Model C` = log(`Model C`) - log(`Model A`),
          `Model D` = log(`Model D`) - log(`Model A`),
          `Model E` = log(`Model E`) - log(`Model A`),
          `Model A` = 0) %>%
-  pivot_longer(cols = starts_with("Model"), names_to = "Model", values_to = "GeoMean")
+  pivot_longer(cols = starts_with("Model"), names_to = "Model", values_to = "GeoMean") %>%   
+  mutate(Model = stringr::str_replace_all(Model, "Model ", ""))
 
 results_2020 %>%
   ggplot(aes(x = Minute, y = GeoMean, col = Model)) +
@@ -263,19 +270,20 @@ results_2020 %>%
 
 ```{r}
 scores_2020 = tibble(GeoMean = apply(HDA_2020[,c(129:158)], 2, EnvStats::geoMean),
-                 Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 5)),
-                 Model = factor(c(rep("A", 6), 
-                                  rep("B", 6),
-                                  rep("C", 6),
-                                  rep("D", 6),
-                                  rep("E", 6)))) %>%
+                     Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 5)),
+                     Model = factor(c(rep("A", 6), 
+                                      rep("B", 6),
+                                      rep("C", 6),
+                                      rep("D", 6),
+                                      rep("E", 6)))) %>%
   pivot_wider(names_from = "Model", values_from = "GeoMean", names_prefix = "Model ") %>%
   mutate(`Model B` = log(`Model B`) - log(`Model A`),
          `Model C` = log(`Model C`) - log(`Model A`),
          `Model D` = log(`Model D`) - log(`Model A`),
          `Model E` = log(`Model E`) - log(`Model A`),
          `Model A` = 0) %>%
-  pivot_longer(cols = starts_with("Model"), names_to = "Model", values_to = "GeoMean")
+  pivot_longer(cols = starts_with("Model"), names_to = "Model", values_to = "GeoMean") %>%   
+  mutate(Model = stringr::str_replace_all(Model, "Model ", ""))
 
 scores_2020 %>%
   ggplot(aes(x = Minute, y = GeoMean, col = Model)) +
@@ -345,19 +353,20 @@ nrow(HDA_00)
 
 ```{r}
 results_00 = tibble(GeoMean = apply(HDA_00[,c(99:128)], 2, EnvStats::geoMean),
-                 Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 5)),
-                 Model = factor(c(rep("A", 6), 
-                                  rep("B", 6),
-                                  rep("C", 6),
-                                  rep("D", 6),
-                                  rep("E", 6)))) %>%
+                    Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 5)),
+                    Model = factor(c(rep("A", 6), 
+                                     rep("B", 6),
+                                     rep("C", 6),
+                                     rep("D", 6),
+                                     rep("E", 6)))) %>%
   pivot_wider(names_from = "Model", values_from = "GeoMean", names_prefix = "Model ") %>%
   mutate(`Model B` = log(`Model B`) - log(`Model A`),
          `Model C` = log(`Model C`) - log(`Model A`),
          `Model D` = log(`Model D`) - log(`Model A`),
          `Model E` = log(`Model E`) - log(`Model A`),
          `Model A` = 0) %>%
-  pivot_longer(cols = starts_with("Model"), names_to = "Model", values_to = "GeoMean")
+  pivot_longer(cols = starts_with("Model"), names_to = "Model", values_to = "GeoMean") %>%   
+  mutate(Model = stringr::str_replace_all(Model, "Model ", ""))
 
 results_00 %>%
   ggplot(aes(x = Minute, y = GeoMean, col = Model)) +
@@ -376,19 +385,20 @@ results_00 %>%
 
 ```{r}
 scores_00 = tibble(GeoMean = apply(HDA_00[,c(129:158)], 2, EnvStats::geoMean),
-                 Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 5)),
-                 Model = factor(c(rep("A", 6), 
-                                  rep("B", 6),
-                                  rep("C", 6),
-                                  rep("D", 6),
-                                  rep("E", 6)))) %>%
+                   Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 5)),
+                   Model = factor(c(rep("A", 6), 
+                                    rep("B", 6),
+                                    rep("C", 6),
+                                    rep("D", 6),
+                                    rep("E", 6)))) %>%
   pivot_wider(names_from = "Model", values_from = "GeoMean", names_prefix = "Model ") %>%
   mutate(`Model B` = log(`Model B`) - log(`Model A`),
          `Model C` = log(`Model C`) - log(`Model A`),
          `Model D` = log(`Model D`) - log(`Model A`),
          `Model E` = log(`Model E`) - log(`Model A`),
          `Model A` = 0) %>%
-  pivot_longer(cols = starts_with("Model"), names_to = "Model", values_to = "GeoMean")
+  pivot_longer(cols = starts_with("Model"), names_to = "Model", values_to = "GeoMean") %>%   
+  mutate(Model = stringr::str_replace_all(Model, "Model ", ""))
 
 scores_00 %>%
   ggplot(aes(x = Minute, y = GeoMean, col = Model)) +
@@ -418,19 +428,20 @@ nrow(HDA_20)
 
 ```{r}
 results_20 = tibble(GeoMean = apply(HDA_20[,c(99:128)], 2, EnvStats::geoMean),
-                 Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 5)),
-                 Model = factor(c(rep("A", 6), 
-                                  rep("B", 6),
-                                  rep("C", 6),
-                                  rep("D", 6),
-                                  rep("E", 6)))) %>%
+                    Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 5)),
+                    Model = factor(c(rep("A", 6), 
+                                     rep("B", 6),
+                                     rep("C", 6),
+                                     rep("D", 6),
+                                     rep("E", 6)))) %>%
   pivot_wider(names_from = "Model", values_from = "GeoMean", names_prefix = "Model ") %>%
   mutate(`Model B` = log(`Model B`) - log(`Model A`),
          `Model C` = log(`Model C`) - log(`Model A`),
          `Model D` = log(`Model D`) - log(`Model A`),
          `Model E` = log(`Model E`) - log(`Model A`),
          `Model A` = 0) %>%
-  pivot_longer(cols = starts_with("Model"), names_to = "Model", values_to = "GeoMean")
+  pivot_longer(cols = starts_with("Model"), names_to = "Model", values_to = "GeoMean") %>%   
+  mutate(Model = stringr::str_replace_all(Model, "Model ", ""))
 
 results_20 %>%
   ggplot(aes(x = Minute, y = GeoMean, col = Model)) +
@@ -449,19 +460,20 @@ results_20 %>%
 
 ```{r}
 scores_20 = tibble(GeoMean = apply(HDA_20[,c(129:158)], 2, EnvStats::geoMean),
-                 Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 5)),
-                 Model = factor(c(rep("A", 6), 
-                                  rep("B", 6),
-                                  rep("C", 6),
-                                  rep("D", 6),
-                                  rep("E", 6)))) %>%
+                   Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 5)),
+                   Model = factor(c(rep("A", 6), 
+                                    rep("B", 6),
+                                    rep("C", 6),
+                                    rep("D", 6),
+                                    rep("E", 6)))) %>%
   pivot_wider(names_from = "Model", values_from = "GeoMean", names_prefix = "Model ") %>%
   mutate(`Model B` = log(`Model B`) - log(`Model A`),
          `Model C` = log(`Model C`) - log(`Model A`),
          `Model D` = log(`Model D`) - log(`Model A`),
          `Model E` = log(`Model E`) - log(`Model A`),
          `Model A` = 0) %>%
-  pivot_longer(cols = starts_with("Model"), names_to = "Model", values_to = "GeoMean")
+  pivot_longer(cols = starts_with("Model"), names_to = "Model", values_to = "GeoMean") %>%   
+  mutate(Model = stringr::str_replace_all(Model, "Model ", ""))
 
 scores_20 %>%
   ggplot(aes(x = Minute, y = GeoMean, col = Model)) +
@@ -491,19 +503,20 @@ nrow(HDA_10)
 
 ```{r}
 results_10 = tibble(GeoMean = apply(HDA_10[,c(99:128)], 2, EnvStats::geoMean),
-                 Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 5)),
-                 Model = factor(c(rep("A", 6), 
-                                  rep("B", 6),
-                                  rep("C", 6),
-                                  rep("D", 6),
-                                  rep("E", 6)))) %>%
+                    Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 5)),
+                    Model = factor(c(rep("A", 6), 
+                                     rep("B", 6),
+                                     rep("C", 6),
+                                     rep("D", 6),
+                                     rep("E", 6)))) %>%
   pivot_wider(names_from = "Model", values_from = "GeoMean", names_prefix = "Model ") %>%
   mutate(`Model B` = log(`Model B`) - log(`Model A`),
          `Model C` = log(`Model C`) - log(`Model A`),
          `Model D` = log(`Model D`) - log(`Model A`),
          `Model E` = log(`Model E`) - log(`Model A`),
          `Model A` = 0) %>%
-  pivot_longer(cols = starts_with("Model"), names_to = "Model", values_to = "GeoMean")
+  pivot_longer(cols = starts_with("Model"), names_to = "Model", values_to = "GeoMean") %>%   
+  mutate(Model = stringr::str_replace_all(Model, "Model ", ""))
 
 results_10 %>%
   ggplot(aes(x = Minute, y = GeoMean, col = Model)) +
@@ -522,19 +535,20 @@ results_10 %>%
 
 ```{r}
 scores_10 = tibble(GeoMean = apply(HDA_10[,c(129:158)], 2, EnvStats::geoMean),
-                 Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 5)),
-                 Model = factor(c(rep("A", 6), 
-                                  rep("B", 6),
-                                  rep("C", 6),
-                                  rep("D", 6),
-                                  rep("E", 6)))) %>%
+                   Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 5)),
+                   Model = factor(c(rep("A", 6), 
+                                    rep("B", 6),
+                                    rep("C", 6),
+                                    rep("D", 6),
+                                    rep("E", 6)))) %>%
   pivot_wider(names_from = "Model", values_from = "GeoMean", names_prefix = "Model ") %>%
   mutate(`Model B` = log(`Model B`) - log(`Model A`),
          `Model C` = log(`Model C`) - log(`Model A`),
          `Model D` = log(`Model D`) - log(`Model A`),
          `Model E` = log(`Model E`) - log(`Model A`),
          `Model A` = 0) %>%
-  pivot_longer(cols = starts_with("Model"), names_to = "Model", values_to = "GeoMean")
+  pivot_longer(cols = starts_with("Model"), names_to = "Model", values_to = "GeoMean") %>%   
+  mutate(Model = stringr::str_replace_all(Model, "Model ", ""))
 
 scores_10 %>%
   ggplot(aes(x = Minute, y = GeoMean, col = Model)) +
@@ -564,19 +578,20 @@ nrow(HDA_01)
 
 ```{r}
 results_01 = tibble(GeoMean = apply(HDA_01[,c(99:128)], 2, EnvStats::geoMean),
-                 Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 5)),
-                 Model = factor(c(rep("A", 6), 
-                                  rep("B", 6),
-                                  rep("C", 6),
-                                  rep("D", 6),
-                                  rep("E", 6)))) %>%
+                    Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 5)),
+                    Model = factor(c(rep("A", 6), 
+                                     rep("B", 6),
+                                     rep("C", 6),
+                                     rep("D", 6),
+                                     rep("E", 6)))) %>%
   pivot_wider(names_from = "Model", values_from = "GeoMean", names_prefix = "Model ") %>%
   mutate(`Model B` = log(`Model B`) - log(`Model A`),
          `Model C` = log(`Model C`) - log(`Model A`),
          `Model D` = log(`Model D`) - log(`Model A`),
          `Model E` = log(`Model E`) - log(`Model A`),
          `Model A` = 0) %>%
-  pivot_longer(cols = starts_with("Model"), names_to = "Model", values_to = "GeoMean")
+  pivot_longer(cols = starts_with("Model"), names_to = "Model", values_to = "GeoMean") %>%   
+  mutate(Model = stringr::str_replace_all(Model, "Model ", ""))
 
 results_01 %>%
   ggplot(aes(x = Minute, y = GeoMean, col = Model)) +
@@ -595,19 +610,20 @@ results_01 %>%
 
 ```{r}
 scores_01 = tibble(GeoMean = apply(HDA_01[,c(129:158)], 2, EnvStats::geoMean),
-                 Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 5)),
-                 Model = factor(c(rep("A", 6), 
-                                  rep("B", 6),
-                                  rep("C", 6),
-                                  rep("D", 6),
-                                  rep("E", 6)))) %>%
+                   Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 5)),
+                   Model = factor(c(rep("A", 6), 
+                                    rep("B", 6),
+                                    rep("C", 6),
+                                    rep("D", 6),
+                                    rep("E", 6)))) %>%
   pivot_wider(names_from = "Model", values_from = "GeoMean", names_prefix = "Model ") %>%
   mutate(`Model B` = log(`Model B`) - log(`Model A`),
          `Model C` = log(`Model C`) - log(`Model A`),
          `Model D` = log(`Model D`) - log(`Model A`),
          `Model E` = log(`Model E`) - log(`Model A`),
          `Model A` = 0) %>%
-  pivot_longer(cols = starts_with("Model"), names_to = "Model", values_to = "GeoMean")
+  pivot_longer(cols = starts_with("Model"), names_to = "Model", values_to = "GeoMean") %>%   
+  mutate(Model = stringr::str_replace_all(Model, "Model ", ""))
 
 scores_01 %>%
   ggplot(aes(x = Minute, y = GeoMean, col = Model)) +

@@ -29,7 +29,6 @@ results = tibble(GeoMean = apply(HDA[,c(99:128)], 2, EnvStats::geoMean),
                                   rep("D", 6),
                                   rep("E", 6))))
   
-  
 results %>%
   ggplot(aes(x = Minute, y = GeoMean, col = Model)) +
   geom_line() +
