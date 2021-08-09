@@ -156,7 +156,8 @@ p = transfermarkt %>%
   geom_boxplot() +
   theme_bw() +
   xlab("Gols do time mandante") +
-  ylab("Valor do time mandante - valor do time visitante")
+  ylab("Valor do time mandante - valor do time visitante") +
+  coord_flip()
 p
 ggsave(filename = paste0("plots/mandante_sem_log.png"), 
        plot = p, width = 10, height = 5, dpi = 1000)
@@ -168,7 +169,8 @@ p = transfermarkt %>%
   geom_boxplot() +
   theme_bw() +
   xlab("Gols do time visitante") +
-  ylab("Valor do time mandante - valor do time visitante")
+  ylab("Valor do time mandante - valor do time visitante") +
+  coord_flip()
 ggsave(filename = paste0("plots/visitante_sem_log.png"), 
        plot = p, width = 10, height = 5, dpi = 1000)
 ```
@@ -179,7 +181,8 @@ p = transfermarkt %>%
   geom_boxplot() +
   theme_bw() +
   xlab("Gols do time mandante") +
-  ylab("log do valor do time mandante - log do valor do time visitante")
+  ylab("log do valor do time mandante - log do valor do time visitante") +
+  coord_flip()
 p
 ggsave(filename = paste0("plots/mandante_com_log.png"), 
        plot = p, width = 10, height = 5, dpi = 1000)
@@ -191,7 +194,8 @@ p = transfermarkt %>%
   geom_boxplot() +
   theme_bw() +
   xlab("Gols do time visitante") +
-  ylab("log do valor do time mandante - log do valor do time visitante")
+  ylab("log do valor do time mandante - log do valor do time visitante") +
+  coord_flip()
 p
 ggsave(filename = paste0("plots/visitante_com_log.png"), 
        plot = p, width = 10, height = 5, dpi = 1000)

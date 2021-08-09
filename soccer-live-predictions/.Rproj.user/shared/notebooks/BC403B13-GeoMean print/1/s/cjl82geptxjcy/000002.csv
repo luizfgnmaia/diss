@@ -1,0 +1,13 @@
+"0","tmp_01 = at_45 %>%"
+"0","  filter(Home_Score == 0, Away_Score == 1) %>%"
+"0","  select(Season, Match)"
+"0",""
+"0","HDA_01 = HDA %>%"
+"0","  inner_join(tmp_01)"
+"2","Joining, by = c(""Season"", ""Match"")
+"
+"0","nrow(HDA_01)"
+"1","[1]"
+"1"," 275"
+"1","
+"

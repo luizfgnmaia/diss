@@ -1,0 +1,3 @@
+"0","results = left_join(results, transfermarkt)"
+"2","Joining, by = c(""Season"", ""Home_Team"", ""Away_Team"", ""rodada"")
+"

@@ -1,0 +1,4 @@
+"0","results = results %>%"
+"0","  mutate(rodada = ceiling(results$Match/10))"
+"0","results$rodada[1020] = 28 # https://conteudo.cbf.com.br/sumulas/2017/142261se.pdf"
+"0","results$rodada[1030] = 27 # https://conteudo.cbf.com.br/sumulas/2017/142271se.pdf"

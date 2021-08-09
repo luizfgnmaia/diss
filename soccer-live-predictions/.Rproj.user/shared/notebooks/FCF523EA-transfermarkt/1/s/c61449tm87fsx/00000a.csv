@@ -1,0 +1,8 @@
+"0","p = transfermarkt %>%"
+"0","  ggplot(aes(x = factor(gols_man), y = dif_log_valor)) +"
+"0","  geom_boxplot() +"
+"0","  theme_bw() +"
+"0","  xlab(""Gols do time mandante"") +"
+"0","  ylab(""log do valor do time mandante - log do valor do time visitante"") +"
+"0","  coord_flip()"
+"0","p"

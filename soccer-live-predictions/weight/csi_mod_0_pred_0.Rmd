@@ -34,6 +34,27 @@ tib_csi %>%
 ```
 
 ```{r}
+library(latex2exp)
+options(OutDec = ",")
+
+p = tib_csi %>%
+  ggplot(aes(x = csi, y = GeoMean_Results)) +
+  geom_line() +
+  geom_point() +
+  theme_bw() +
+  ylab("Média geométrica") +
+  xlab(TeX("$\\xi$")) +
+  scale_x_continuous(breaks = c(0, 0.0005, 0.001, 0.0015, 0.002, 0.0025, 0.003, 0.0035, 0.004)) +
+  geom_vline(xintercept = 0.0065 / 3.5, col = "red")
+p
+
+ggsave(filename = "xi.png",
+       plot = p, width = 10, height = 5, dpi = 1000)
+
+options(OutDec = ".")
+```
+
+```{r}
 tib_csi %>%
   ggplot(aes(x = csi, y = GeoMean_Scores)) +
   geom_line() +

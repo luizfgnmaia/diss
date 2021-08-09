@@ -1,0 +1,2 @@
+"0","ggsave(filename = paste0(""plots/mandante_com_log.png""), "
+"0","       plot = p, width = 10, height = 5, dpi = 1000)"

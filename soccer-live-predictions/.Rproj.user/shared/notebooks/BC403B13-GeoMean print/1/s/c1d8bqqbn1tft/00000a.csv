@@ -1,0 +1,18 @@
+"0","xtable(df, digits = 4)"
+"1","% latex table generated in R 4.0.4 by xtable 1.8-4 package
+% Mon Aug 09 11:44:17 2021
+\begin{table}[ht]
+\centering
+\begin{tabular}{rlrrrrrr}
+  \hline
+ & Model & Minute 0 & Minute 15 & Minute 30 & Minute 45 & Minute 60 & Minute 75 \\ 
+  \hline
+1 & A & 0,3487 & 0,3457 & 0,3692 & 0,4147 & 0,4849 & 0,5769 \\ 
+  2 & B & 0,3522 & 0,3502 & 0,3765 & 0,4218 & 0,4881 & 0,5800 \\ 
+  3 & C & 0,3501 & 0,3505 & 0,3752 & 0,4211 & 0,4873 & 0,5792 \\ 
+  4 & D & 0,3436 & 0,3427 & 0,3939 & 0,4397 & 0,4989 & 0,5850 \\ 
+  5 & E & 0,3431 & 0,3453 & 0,3996 & 0,4446 & 0,5013 & 0,5877 \\ 
+   \hline
+\end{tabular}
+\end{table}
+"
