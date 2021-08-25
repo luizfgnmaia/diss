@@ -128,7 +128,7 @@ results_reds = tibble(GeoMean = apply(HDA_reds[,c(99:128)], 2, EnvStats::geoMean
   pivot_longer(cols = starts_with("Modelo"), names_to = "Modelo", values_to = "GeoMean") %>%   
   mutate(Modelo = stringr::str_replace_all(Modelo, "Modelo ", ""))
 
-results_reds %>%
+p = results_reds %>%
   ggplot(aes(x = Minuto, y = GeoMean, col = Modelo)) +
   geom_line() +
   geom_point() +
@@ -136,6 +136,7 @@ results_reds %>%
   theme_bw() +
   #ggtitle("All predicted matches with a red card in the first half") +
   ylab("ln(MG(Modelo)) - ln(MG(Modelo 0))")
+p
 
 ggsave(filename = paste0("plots/results_reds.png"),
        plot = p, width = 10, height = 5, dpi = 1000)
@@ -195,7 +196,7 @@ scores_reds = tibble(GeoMean = apply(HDA_reds[,c(129:158)], 2, EnvStats::geoMean
   pivot_longer(cols = starts_with("Modelo"), names_to = "Modelo", values_to = "GeoMean") %>%   
   mutate(Modelo = stringr::str_replace_all(Modelo, "Modelo ", ""))
 
-scores_reds %>%
+p = scores_reds %>%
   ggplot(aes(x = Minuto, y = GeoMean, col = Modelo)) +
   geom_line() +
   geom_point() +
@@ -203,6 +204,7 @@ scores_reds %>%
   theme_bw() +
   #ggtitle("All predicted matches with a red card in the first half") +
   ylab("ln(MG(Modelo)) - ln(MG(Modelo 0))")
+p
 
 ggsave(filename = paste0("plots/scores_reds.png"),
        plot = p, width = 10, height = 5, dpi = 1000)

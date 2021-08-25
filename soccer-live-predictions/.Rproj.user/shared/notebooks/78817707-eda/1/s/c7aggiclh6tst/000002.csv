@@ -1,0 +1,5 @@
+"0","medias = results %>%"
+"0","  rename(Ano = Season) %>%"
+"0","  group_by(Ano) %>%"
+"0","  summarise(Acréscimos_1 = mean(Stoppage_Time_1),"
+"0","            Acréscimos_2 = mean(Stoppage_Time_2))"

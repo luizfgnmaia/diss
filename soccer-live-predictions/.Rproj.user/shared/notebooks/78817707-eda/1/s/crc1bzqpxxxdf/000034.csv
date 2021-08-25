@@ -1,0 +1,6 @@
+"0",""
+"0","ggsave(filename = paste0(""plots/taxa_de_gols.png""), "
+"0","       plot = p, width = 10, height = 5, dpi = 1000)"
+"0",""
+"0","# 137 partidas no primeiro tempo 50+ "
+"0","# 10 gols"

@@ -1,0 +1,8 @@
+"0","p = comuns %>%"
+"0","  mutate(Placar = factor(Placar, levels = Placar)) %>%"
+"0","  ggplot(aes(y = p, x = Placar)) + "
+"0","  geom_bar(position = ""dodge"", stat = ""identity"") +"
+"0","  theme_bw() +"
+"0","  xlab(""Placar"") +"
+"0","  ylab(""Frequência relativa"")"
+"0","p"

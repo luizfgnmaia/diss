@@ -50,6 +50,7 @@ for(i in 2:nrow(tab_results)) {
   tab_results[i, 3:5] = tab_results[i, 3:5] - tab_results[1, 3:5]
 }
 kable(tab_results, digits = 4)
+max(tab_results[-1, -c(1,2)])
 ```
 
 ```{r}

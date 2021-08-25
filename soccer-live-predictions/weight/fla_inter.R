@@ -1,4 +1,6 @@
 
+set.seed(1)
+
 options(OutDec = ",")
 
 library(dplyr)
@@ -16,7 +18,7 @@ load("scrape/data/reds.RData")
 load("weight/data/mod_12_dc.RData")
 load("2015-2020/data/input.RData")
 
-n_pred = 10^5
+n_pred = 3*10^5 # <--- tava 10^5
 mod = mod_12_dc$`2021-02-21`
 ind = 2262
 pred = list()
@@ -56,13 +58,13 @@ for(m in 45:90) {
                             value_away = values$Value_Away)
 }
 
-# save(pred, file = "weight/data/pred_fla_inter.RData")
+save(pred, file = "weight/data/pred_fla_inter.RData")
 
 #################################################################################
 #################################################################################
 #################################################################################
 
-load("weight/data/pred_fla_inter.RData")
+# load("weight/data/pred_fla_inter.RData")
 
 wide = tibble()
 for(i in 1:91) {

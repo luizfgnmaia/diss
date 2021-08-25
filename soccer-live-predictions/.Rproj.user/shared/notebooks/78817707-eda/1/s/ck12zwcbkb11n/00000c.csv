@@ -1,0 +1,3 @@
+"0",""
+"0","ggsave(filename = paste0(""plots/taxa_de_reds.png""), "
+"0","       plot = p, width = 10, height = 5, dpi = 1000)"
