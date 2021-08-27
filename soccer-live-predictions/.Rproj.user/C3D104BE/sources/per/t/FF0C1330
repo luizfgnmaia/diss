@@ -1,0 +1,28 @@
+{
+    "id": "FF0C1330",
+    "path": "~/GitHub/soccer-live-predictions/soccer-live-predictions/weight/GeoMean print 2.Rmd",
+    "project_path": "weight/GeoMean print 2.Rmd",
+    "type": "r_markdown",
+    "hash": "841055377",
+    "contents": "",
+    "dirty": false,
+    "created": 1630037350349.0,
+    "source_on_save": false,
+    "relative_order": 6,
+    "properties": {
+        "tempName": "Untitled1",
+        "chunk_output_type": "inline",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "13,19",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1630037631,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1630037631189,
+    "read_only": false,
+    "read_only_alternatives": []
+}

@@ -1,0 +1,13 @@
+"0","tmp_20 = at_45 %>%"
+"0","  filter(abs_dif >= 2) %>%"
+"0","  select(Season, Match)"
+"0",""
+"0","HDA_20 = HDA %>%"
+"0","  inner_join(tmp_20)"
+"2","Joining, by = c(""Season"", ""Match"")
+"
+"0","nrow(HDA_20)"
+"1","[1]"
+"1"," 211"
+"1","
+"

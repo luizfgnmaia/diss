@@ -1,6 +1,0 @@
-"0","tib_csi %>%"
-"0","  ggplot(aes(x = csi, y = GeoMean_Scores)) +"
-"0","  geom_line() +"
-"0","  geom_point() +"
-"0","  theme_bw() +"
-"0","  ylab(""Geometric mean for the scores"")"

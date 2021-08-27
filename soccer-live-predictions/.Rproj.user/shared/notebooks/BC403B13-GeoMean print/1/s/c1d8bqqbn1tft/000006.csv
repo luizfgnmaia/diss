@@ -1,15 +1,18 @@
-"0","results_reds = tibble(GeoMean = apply(HDA_reds[,c(99:128)], 2, EnvStats::geoMean),"
-"0","                      Minute = as.integer(rep(c(0, 15, 30, 45, 60, 75), 5)),"
-"0","                      Model = factor(c(rep(""A"", 6), "
-"0","                                       rep(""B"", 6),"
-"0","                                       rep(""C"", 6),"
-"0","                                       rep(""D"", 6),"
-"0","                                       rep(""E"", 6))))"
-"0","results_reds %>%"
-"0","  ggplot(aes(x = Minute, y = GeoMean, col = Model)) +"
-"0","  geom_line() +"
-"0","  geom_point() +"
-"0","  scale_x_continuous(breaks = c(0, 15, 30, 45, 60, 75)) +"
-"0","  theme_bw() +"
-"0","  ggtitle(""All predicted matches with a red card in the first half"") +"
-"0","  ylab(""Geometric mean for the results"")"
+"0","xtable(df, digits = 4)"
+"1","% latex table generated in R 4.0.4 by xtable 1.8-4 package
+% Fri Aug 27 01:21:14 2021
+\begin{table}[ht]
+\centering
+\begin{tabular}{rlrrrrrr}
+  \hline
+ & Model & Minute 0 & Minute 15 & Minute 30 & Minute 45 & Minute 60 & Minute 75 \\ 
+  \hline
+1 & A & 0,3484 & 0,3495 & 0,3472 & 0,3372 & 0,3102 & 0,2404 \\ 
+  2 & B & 0,3522 & 0,3502 & 0,3765 & 0,4218 & 0,4881 & 0,5800 \\ 
+  3 & C & 0,3501 & 0,3505 & 0,3752 & 0,4211 & 0,4873 & 0,5792 \\ 
+  4 & D & 0,3436 & 0,3427 & 0,3939 & 0,4397 & 0,4989 & 0,5850 \\ 
+  5 & E & 0,3431 & 0,3453 & 0,3996 & 0,4446 & 0,5013 & 0,5877 \\ 
+   \hline
+\end{tabular}
+\end{table}
+"

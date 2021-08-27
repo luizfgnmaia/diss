@@ -1,0 +1,28 @@
+{
+    "id": "09855CFC",
+    "path": "~/GitHub/soccer-live-predictions/soccer-live-predictions/weight/csi_mod_0_pred_0.Rmd",
+    "project_path": "weight/csi_mod_0_pred_0.Rmd",
+    "type": "r_markdown",
+    "hash": "925438722",
+    "contents": "",
+    "dirty": false,
+    "created": 1630042904180.0,
+    "source_on_save": false,
+    "relative_order": 9,
+    "properties": {
+        "tempName": "Untitled1",
+        "chunk_output_type": "inline",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "45,23",
+        "scrollLine": "45"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1630080096,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1630080096905,
+    "read_only": false,
+    "read_only_alternatives": []
+}

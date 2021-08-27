@@ -1,4 +1,4 @@
-"0","csi = as.numeric(names(lst_csi_mod_0_pred_0))"
+"0","csi = seq(from = 0, to = 0.004, by = 0.0001)"
 "0","GeoMean_Results = NULL"
 "0","GeoMean_Scores = NULL"
 "0","for(i in 1:length(lst_csi_mod_0_pred_0)) {"
