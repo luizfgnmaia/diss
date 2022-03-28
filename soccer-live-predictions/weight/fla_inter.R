@@ -87,7 +87,8 @@ p = long %>%
   geom_vline(xintercept = 3+45, linetype = "dashed", col = "red") +
   geom_line(size = 1) +
   theme_bw() +
-  scale_x_continuous(breaks = c(0, 15, 30, 45, 60, 75, 90))
+  scale_x_continuous(breaks = c(0, 15, 30, 45, 60, 75, 90)) +
+  scale_color_manual(values = c("#F8766D", "#7CAE00", "gray55"))
 p
 
 ggsave(filename = paste0("weight/plots/fla_inter.png"),
